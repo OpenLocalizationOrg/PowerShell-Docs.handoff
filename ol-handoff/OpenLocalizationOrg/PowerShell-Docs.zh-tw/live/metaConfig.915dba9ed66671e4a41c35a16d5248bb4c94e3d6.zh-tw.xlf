@@ -1,0 +1,1030 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d7b3908ae670a7bcc976f2675834316862a25802</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\metaConfig.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">975d73cef75a0c701d5671af6227fe37bf11fa6e</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Configuring the Local Configuration Manager</source>
+          <target state="new">Configuring the Local Configuration Manager</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Local Configuration Manager (LCM) is the engine of Windows PowerShell Desired State Configuration (DSC).</source>
+          <target state="new">The Local Configuration Manager (LCM) is the engine of Windows PowerShell Desired State Configuration (DSC).</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The LCM runs on every target node, and is responsible for parsing and enacting configurations that are sent to the node.</source>
+          <target state="new">The LCM runs on every target node, and is responsible for parsing and enacting configurations that are sent to the node.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It is also responsible for a number of other aspects of DSC, including the following.</source>
+          <target state="new">It is also responsible for a number of other aspects of DSC, including the following.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Determining refresh mode (push or pull).</source>
+          <target state="new">Determining refresh mode (push or pull).</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Specifying how often a node pulls and enacts configurations.</source>
+          <target state="new">Specifying how often a node pulls and enacts configurations.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Associating the node with pull servers.</source>
+          <target state="new">Associating the node with pull servers.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Specifying partial configurations.</source>
+          <target state="new">Specifying partial configurations.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You use a special type of configuration to configure the LCM to specify each of these behaviors.</source>
+          <target state="new">You use a special type of configuration to configure the LCM to specify each of these behaviors.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following sections describe how to configure the LCM.</source>
+          <target state="new">The following sections describe how to configure the LCM.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This topic applies to the LCM introduced in Windows PowerShell 5.0.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This topic applies to the LCM introduced in Windows PowerShell 5.0.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For information about configuring the LCM in Windows PowerShell 4.0, see Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager.</source>
+          <target state="new">For information about configuring the LCM in Windows PowerShell 4.0, see Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Writing and enacting an LCM configuration</source>
+          <target state="new">Writing and enacting an LCM configuration</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To configure the LCM, you create and run a special type of configuration.</source>
+          <target state="new">To configure the LCM, you create and run a special type of configuration.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To specify an LCM configuration, you use the DscLocalConfigurationManager attribute.</source>
+          <target state="new">To specify an LCM configuration, you use the DscLocalConfigurationManager attribute.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following shows a simple configuration that sets the LCM to push mode.</source>
+          <target state="new">The following shows a simple configuration that sets the LCM to push mode.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You call and run the configuration to create the configuration MOF, just as you would a normal configuration (for information on creating the configuration MOF, see Get Started with Windows PowerShell Desired State Configuration).</source>
+          <target state="new">You call and run the configuration to create the configuration MOF, just as you would a normal configuration (for information on creating the configuration MOF, see Get Started with Windows PowerShell Desired State Configuration).</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Unlike normal configurations, you do not enact an LCM configuration by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
+          <target state="new">Unlike normal configurations, you do not enact an LCM configuration by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Instead, you call the Set-DscLocalConfigurationManager cmdlet, supplying the path to the configuration MOF as a parameter.</source>
+          <target state="new">Instead, you call the Set-DscLocalConfigurationManager cmdlet, supplying the path to the configuration MOF as a parameter.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>After you enact the configuration, you can see the properties of the LCM by calling the <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> cmdlet.</source>
+          <target state="new">After you enact the configuration, you can see the properties of the LCM by calling the <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An LCM configuration can contain blocks only for a limited set of resources.</source>
+          <target state="new">An LCM configuration can contain blocks only for a limited set of resources.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the previous example, the only resource called is <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</source>
+          <target state="new">In the previous example, the only resource called is <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The other available resources are:</source>
+          <target state="new">The other available resources are:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept>: specifies an HTTP pull server for configurations.</source>
+          <target state="new"><bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept>: specifies an HTTP pull server for configurations.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept>: specifies an SMB pull server for configurations.</source>
+          <target state="new"><bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept>: specifies an SMB pull server for configurations.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept>: specifies an HTTP pull server for modules.</source>
+          <target state="new"><bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept>: specifies an HTTP pull server for modules.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ResourceRepositoryShare<ept id="p1">**</ept>: specifies an SMB pull server for modules.</source>
+          <target state="new"><bpt id="p1">**</bpt>ResourceRepositoryShare<ept id="p1">**</ept>: specifies an SMB pull server for modules.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept>: specifies an HTTP pull server to which reports are sent.</source>
+          <target state="new"><bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept>: specifies an HTTP pull server to which reports are sent.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept>: specifies partial configurations.</source>
+          <target state="new"><bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept>: specifies partial configurations.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Basic settings</source>
+          <target state="new">Basic settings</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Other than specifying pull servers and partial configurations, all of the properties of the LCM are configured in a <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> block.</source>
+          <target state="new">Other than specifying pull servers and partial configurations, all of the properties of the LCM are configured in a <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The following properties are available in a <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> block.</source>
+          <target state="new">The following properties are available in a <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="new">Type</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>ConfigurationModeFrequencyMins</source>
+          <target state="new">ConfigurationModeFrequencyMins</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>UInt32</source>
+          <target state="new">UInt32</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>How often, in minutes, the current configuration is checked and applied.</source>
+          <target state="new">How often, in minutes, the current configuration is checked and applied.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This property is ignored if the ConfigurationMode property is set to ApplyOnly.</source>
+          <target state="new">This property is ignored if the ConfigurationMode property is set to ApplyOnly.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The default value is 15.</source>
+          <target state="new">The default value is 15.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Note<ept id="p1">__</ept>: Either the value of this property must be a multiple of the value of the <bpt id="p2">__</bpt>RefreshFrequencyMins<ept id="p2">__</ept> property, or the value of the <bpt id="p3">__</bpt>RefreshFrequencyMins<ept id="p3">__</ept> property must be a multiple of the value of this property.</source>
+          <target state="new"><bpt id="p1">__</bpt>Note<ept id="p1">__</ept>: Either the value of this property must be a multiple of the value of the <bpt id="p2">__</bpt>RefreshFrequencyMins<ept id="p2">__</ept> property, or the value of the <bpt id="p3">__</bpt>RefreshFrequencyMins<ept id="p3">__</ept> property must be a multiple of the value of this property.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>RebootNodeIfNeeded</source>
+          <target state="new">RebootNodeIfNeeded</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>bool</source>
+          <target state="new">bool</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Set this to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> to automatically reboot the node after a configuration that requires reboot is applied.</source>
+          <target state="new">Set this to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> to automatically reboot the node after a configuration that requires reboot is applied.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Otherwise, you will have to manually reboot the node for any configuration that requires it.</source>
+          <target state="new">Otherwise, you will have to manually reboot the node for any configuration that requires it.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</source>
+          <target state="new">The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>ConfigurationMode</source>
+          <target state="new">ConfigurationMode</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Specifies how the LCM actually applies the configuration to the target nodes.</source>
+          <target state="new">Specifies how the LCM actually applies the configuration to the target nodes.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It can take the following values: <bpt id="p1">__</bpt>"ApplyOnly"<ept id="p1">__</ept>: DSC applies the configuration and does nothing further unless a new configuration is pushed to the target node or when a new configuration is pulled from a server.</source>
+          <target state="new">It can take the following values: <bpt id="p1">__</bpt>"ApplyOnly"<ept id="p1">__</ept>: DSC applies the configuration and does nothing further unless a new configuration is pushed to the target node or when a new configuration is pulled from a server.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>After initial application of a new configuration, DSC does not check for drift from a previously configured state.</source>
+          <target state="new">After initial application of a new configuration, DSC does not check for drift from a previously configured state.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>"ApplyAndMonitor"<ept id="p1">__</ept>: This is the default value.</source>
+          <target state="new"><bpt id="p1">__</bpt>"ApplyAndMonitor"<ept id="p1">__</ept>: This is the default value.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The LCM applies any new configurations.</source>
+          <target state="new">The LCM applies any new configurations.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>After initial application of a new configuration, if the target node drifts from the desired state, DSC reports the discrepancy in logs <bpt id="p1">__</bpt>"ApplyAndAutoCorrect"<ept id="p1">__</ept>: DSC applies any new configurations.</source>
+          <target state="new">After initial application of a new configuration, if the target node drifts from the desired state, DSC reports the discrepancy in logs <bpt id="p1">__</bpt>"ApplyAndAutoCorrect"<ept id="p1">__</ept>: DSC applies any new configurations.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>After initial application of a new configuration, if the target node drifts from the desired state, DSC reports the discrepancy in logs, and then re-applies the current configuration.</source>
+          <target state="new">After initial application of a new configuration, if the target node drifts from the desired state, DSC reports the discrepancy in logs, and then re-applies the current configuration.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>ActionAfterReboot</source>
+          <target state="new">ActionAfterReboot</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Specifies what happens after a reboot during the application of a configuration.</source>
+          <target state="new">Specifies what happens after a reboot during the application of a configuration.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The possible values are as follows: <bpt id="p1">__</bpt>"ContuinueConfiguration"<ept id="p1">__</ept>: Continue applying the current configuration.<bpt id="p2">__</bpt>"StopConfiguraiton"<ept id="p2">__</ept>: Stop the current configuration.</source>
+          <target state="new">The possible values are as follows: <bpt id="p1">__</bpt>"ContuinueConfiguration"<ept id="p1">__</ept>: Continue applying the current configuration.<bpt id="p2">__</bpt>"StopConfiguraiton"<ept id="p2">__</ept>: Stop the current configuration.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>RefreshMode</source>
+          <target state="new">RefreshMode</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specifies how the LCM gets configurations.</source>
+          <target state="new">Specifies how the LCM gets configurations.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The possible values are as follows: <bpt id="p1">__</bpt>"Disabled"<ept id="p1">__</ept>: DSC configurations are disabled for this node.</source>
+          <target state="new">The possible values are as follows: <bpt id="p1">__</bpt>"Disabled"<ept id="p1">__</ept>: DSC configurations are disabled for this node.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>"Push"<ept id="p1">__</ept>: Configurations are initiated by calling the Start-DscConfiguration cmdlet.</source>
+          <target state="new"><bpt id="p1">__</bpt>"Push"<ept id="p1">__</ept>: Configurations are initiated by calling the Start-DscConfiguration cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The configuration is applied immediately to the node.</source>
+          <target state="new">The configuration is applied immediately to the node.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This is the default value.</source>
+          <target state="new">This is the default value.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Pull:<ept id="p1">__</ept> The node is configured to regularly check for configurations from a pull server.</source>
+          <target state="new"><bpt id="p1">__</bpt>Pull:<ept id="p1">__</ept> The node is configured to regularly check for configurations from a pull server.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If this property is set to Pull, you must specify a pull server in a <bpt id="p1">__</bpt>ConfigurationRepositoryWeb<ept id="p1">__</ept> or <bpt id="p2">__</bpt>ConfigurationRepositoryShare<ept id="p2">__</ept> block.</source>
+          <target state="new">If this property is set to Pull, you must specify a pull server in a <bpt id="p1">__</bpt>ConfigurationRepositoryWeb<ept id="p1">__</ept> or <bpt id="p2">__</bpt>ConfigurationRepositoryShare<ept id="p2">__</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For more information about pull servers, see <bpt id="p1">[</bpt>Setting up a DSC pull server<ept id="p1">](pullServer.md)</ept>.</source>
+          <target state="new">For more information about pull servers, see <bpt id="p1">[</bpt>Setting up a DSC pull server<ept id="p1">](pullServer.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>CertificateID</source>
+          <target state="new">CertificateID</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A GUID that specifies a certificate used to secure credentials for access to the configuration.</source>
+          <target state="new">A GUID that specifies a certificate used to secure credentials for access to the configuration.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p1">[</bpt>Want to secure credentials in Windows PowerShell Desired State Configuration<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2014/01/31/want-to-secure-credentials-in-windows-powershell-desired-state-configuration.aspx)</ept>?.</source>
+          <target state="new">For more information see <bpt id="p1">[</bpt>Want to secure credentials in Windows PowerShell Desired State Configuration<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2014/01/31/want-to-secure-credentials-in-windows-powershell-desired-state-configuration.aspx)</ept>?.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>ConfigurationID</source>
+          <target state="new">ConfigurationID</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A GUID that identifies the configuration file to get from a pull server in pull mode.</source>
+          <target state="new">A GUID that identifies the configuration file to get from a pull server in pull mode.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The node will pull configurations on the pull sever if the name of the configuration MOF is named ConfigurationID.mof.</source>
+          <target state="new">The node will pull configurations on the pull sever if the name of the configuration MOF is named ConfigurationID.mof.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Note:<ept id="p1">__</ept> If you set this property, registering the node with a pull server by using <bpt id="p2">__</bpt>RegistryKeys<ept id="p2">__</ept> and does not work.</source>
+          <target state="new"><bpt id="p1">__</bpt>Note:<ept id="p1">__</ept> If you set this property, registering the node with a pull server by using <bpt id="p2">__</bpt>RegistryKeys<ept id="p2">__</ept> and does not work.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Setting up a pull client with configuration names<ept id="p1">](pullClientConfigNames.md)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Setting up a pull client with configuration names<ept id="p1">](pullClientConfigNames.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>RefreshFrequencyMins</source>
+          <target state="new">RefreshFrequencyMins</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Uint32</source>
+          <target state="new">Uint32</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The time interval, in minutes, at which the LCM checks a pull server to get updated configurations.</source>
+          <target state="new">The time interval, in minutes, at which the LCM checks a pull server to get updated configurations.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This value is ignored if the LCM is not configured in pull mode.</source>
+          <target state="new">This value is ignored if the LCM is not configured in pull mode.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value is 30.</source>
+          <target state="new">The default value is 30.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Note:<ept id="p1">__</ept>  Either the value of this property must be a multiple of the value of the <bpt id="p2">__</bpt>ConfigurationModeFrequencyMins<ept id="p2">__</ept> property, or the value of the <bpt id="p3">__</bpt>ConfigurationModeFrequencyMins<ept id="p3">__</ept> property must be a multiple of the value of this property.</source>
+          <target state="new"><bpt id="p1">__</bpt>Note:<ept id="p1">__</ept>  Either the value of this property must be a multiple of the value of the <bpt id="p2">__</bpt>ConfigurationModeFrequencyMins<ept id="p2">__</ept> property, or the value of the <bpt id="p3">__</bpt>ConfigurationModeFrequencyMins<ept id="p3">__</ept> property must be a multiple of the value of this property.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>AllowModlueOverwrite</source>
+          <target state="new">AllowModlueOverwrite</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>bool</source>
+          <target state="new">bool</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>$TRUE<ept id="p1">__</ept> if new configurations downloaded from the configuration server are allowed to overwrite the old ones on the target node.</source>
+          <target state="new"><bpt id="p1">__</bpt>$TRUE<ept id="p1">__</ept> if new configurations downloaded from the configuration server are allowed to overwrite the old ones on the target node.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Otherwise, $FALSE.</source>
+          <target state="new">Otherwise, $FALSE.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>DebugMode</source>
+          <target state="new">DebugMode</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>bool</source>
+          <target state="new">bool</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If set to <bpt id="p1">__</bpt>$TRUE<ept id="p1">__</ept>, this causes the LCM to reload any DSC resources, even if they have been previously cached.</source>
+          <target state="new">If set to <bpt id="p1">__</bpt>$TRUE<ept id="p1">__</ept>, this causes the LCM to reload any DSC resources, even if they have been previously cached.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Set to $FALSE to use cached resources.</source>
+          <target state="new">Set to $FALSE to use cached resources.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Typically you would set this property to <bpt id="p1">__</bpt>$TRUE<ept id="p1">__</ept> while debugging a resource, and to <bpt id="p2">__</bpt>$FALSE<ept id="p2">__</ept> for production.</source>
+          <target state="new">Typically you would set this property to <bpt id="p1">__</bpt>$TRUE<ept id="p1">__</ept> while debugging a resource, and to <bpt id="p2">__</bpt>$FALSE<ept id="p2">__</ept> for production.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">__</bpt>$FALSE<ept id="p1">__</ept>.</source>
+          <target state="new">The default value is <bpt id="p1">__</bpt>$FALSE<ept id="p1">__</ept>.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>ConfigurationDownloadManagers</source>
+          <target state="new">ConfigurationDownloadManagers</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>CimInstance[]</source>
+          <target state="new">CimInstance[]</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Obsolete.</source>
+          <target state="new">Obsolete.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">__</bpt>ConfigurationRepositoryWeb<ept id="p1">__</ept> and <bpt id="p2">__</bpt>ConfigurationRepositoryShare<ept id="p2">__</ept> blocks to define configuration pull servers.</source>
+          <target state="new">Use <bpt id="p1">__</bpt>ConfigurationRepositoryWeb<ept id="p1">__</ept> and <bpt id="p2">__</bpt>ConfigurationRepositoryShare<ept id="p2">__</ept> blocks to define configuration pull servers.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>ResourceModuleManagers</source>
+          <target state="new">ResourceModuleManagers</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>CimInstance[]</source>
+          <target state="new">CimInstance[]</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Obsolete.</source>
+          <target state="new">Obsolete.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">__</bpt>ResourceRepositoryWeb<ept id="p1">__</ept> and <bpt id="p2">__</bpt>ResourceRepositoryShare<ept id="p2">__</ept> blocks to define resource pull servers.</source>
+          <target state="new">Use <bpt id="p1">__</bpt>ResourceRepositoryWeb<ept id="p1">__</ept> and <bpt id="p2">__</bpt>ResourceRepositoryShare<ept id="p2">__</ept> blocks to define resource pull servers.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>ReportManagers</source>
+          <target state="new">ReportManagers</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>CimInstance[]</source>
+          <target state="new">CimInstance[]</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Obsolete.</source>
+          <target state="new">Obsolete.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">__</bpt>ReportServerWeb<ept id="p1">__</ept> blocks to define report pull servers.</source>
+          <target state="new">Use <bpt id="p1">__</bpt>ReportServerWeb<ept id="p1">__</ept> blocks to define report pull servers.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>PartialConfigurations</source>
+          <target state="new">PartialConfigurations</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>CimInstance</source>
+          <target state="new">CimInstance</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Not implemented.</source>
+          <target state="new">Not implemented.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Do not use.</source>
+          <target state="new">Do not use.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>StatusRetentionTimeInDays</source>
+          <target state="new">StatusRetentionTimeInDays</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>UInt32</source>
+          <target state="new">UInt32</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The number of days the LCM keeps the status of the current configuration.</source>
+          <target state="new">The number of days the LCM keeps the status of the current configuration.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Pull servers</source>
+          <target state="new">Pull servers</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>A pull server is either an OData web service or an SMB share that is used as a central location for DSC files.</source>
+          <target state="new">A pull server is either an OData web service or an SMB share that is used as a central location for DSC files.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>LCM configuration supports defining the following types of pull servers:</source>
+          <target state="new">LCM configuration supports defining the following types of pull servers:</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Configuration server<ept id="p1">**</ept>: A repository for DSC configurations.</source>
+          <target state="new"><bpt id="p1">**</bpt>Configuration server<ept id="p1">**</ept>: A repository for DSC configurations.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Define configuration severs by using <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (for web-based servers) and <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (for SMB-based servers) blocks.</source>
+          <target state="new">Define configuration severs by using <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> (for web-based servers) and <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> (for SMB-based servers) blocks.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Resource server—A repository for DSC resources, packaged as PowerShell modules.</source>
+          <target state="new">Resource server—A repository for DSC resources, packaged as PowerShell modules.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Define resource severs by using <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> (for web-based servers) and <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept> (for SMB-based servers) blocks.</source>
+          <target state="new">Define resource severs by using <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> (for web-based servers) and <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept> (for SMB-based servers) blocks.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Report server—A service that DSC sends report data to.</source>
+          <target state="new">Report server—A service that DSC sends report data to.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Define report servers by using <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> blocks.</source>
+          <target state="new">Define report servers by using <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> blocks.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A report server must be a web service.</source>
+          <target state="new">A report server must be a web service.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For information about setting up and using pull servers, see <bpt id="p1">[</bpt>Setting up a DSC pull server<ept id="p1">](pullServer.md)</ept>.</source>
+          <target state="new">For information about setting up and using pull servers, see <bpt id="p1">[</bpt>Setting up a DSC pull server<ept id="p1">](pullServer.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Configuration server blocks</source>
+          <target state="new">Configuration server blocks</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To define a web-based configuration sever, you create a <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> block.</source>
+          <target state="new">To define a web-based configuration sever, you create a <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> defines the following properties.</source>
+          <target state="new">A <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> defines the following properties.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="new">Type</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>AllowUnsecureConnection</source>
+          <target state="new">AllowUnsecureConnection</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>bool</source>
+          <target state="new">bool</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>$TRUE<ept id="p1">**</ept> to allow connections from the node to the server without authentication.</source>
+          <target state="new">Set to <bpt id="p1">**</bpt>$TRUE<ept id="p1">**</ept> to allow connections from the node to the server without authentication.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>$FALSE<ept id="p1">**</ept> to require authentication.</source>
+          <target state="new">Set to <bpt id="p1">**</bpt>$FALSE<ept id="p1">**</ept> to require authentication.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>CertificateID</source>
+          <target state="new">CertificateID</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A GUID that represents the certificate used to authenticate to the server.</source>
+          <target state="new">A GUID that represents the certificate used to authenticate to the server.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>ConfigurationNames</source>
+          <target state="new">ConfigurationNames</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>String[]</source>
+          <target state="new">String[]</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>An array of names of configurations to be pulled by the target node.</source>
+          <target state="new">An array of names of configurations to be pulled by the target node.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>These are used only if the node is registered with the pull server by using a <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept>.</source>
+          <target state="new">These are used only if the node is registered with the pull server by using a <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Setting up a pull client with configuration names<ept id="p1">](pullClientConfigNames.md)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Setting up a pull client with configuration names<ept id="p1">](pullClientConfigNames.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>RegistrationKey</source>
+          <target state="new">RegistrationKey</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>A GUID that registers the node with the pull server.</source>
+          <target state="new">A GUID that registers the node with the pull server.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Setting up a pull client with configuration names<ept id="p1">](pullClientConfigNames.md)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Setting up a pull client with configuration names<ept id="p1">](pullClientConfigNames.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>ServerURL</source>
+          <target state="new">ServerURL</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The URL of the configuration server.</source>
+          <target state="new">The URL of the configuration server.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>To define an SMB-based configuration server, you create a <bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept> block.</source>
+          <target state="new">To define an SMB-based configuration server, you create a <bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept> defines the following properties.</source>
+          <target state="new">A <bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept> defines the following properties.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="new">Type</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Credential</source>
+          <target state="new">Credential</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>MSFT_Credential</source>
+          <target state="new">MSFT_Credential</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The credential used to authenticate to the SMB share.</source>
+          <target state="new">The credential used to authenticate to the SMB share.</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>SourcePath</source>
+          <target state="new">SourcePath</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The path of the SMB share.</source>
+          <target state="new">The path of the SMB share.</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Resource server blocks</source>
+          <target state="new">Resource server blocks</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>To define a web-based resource sever, you create a <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> block.</source>
+          <target state="new">To define a web-based resource sever, you create a <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> defines the following properties.</source>
+          <target state="new">A <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> defines the following properties.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="new">Type</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>AllowUnsecureConnection</source>
+          <target state="new">AllowUnsecureConnection</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>bool</source>
+          <target state="new">bool</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>$TRUE<ept id="p1">**</ept> to allow connections from the node to the server without authentication.</source>
+          <target state="new">Set to <bpt id="p1">**</bpt>$TRUE<ept id="p1">**</ept> to allow connections from the node to the server without authentication.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>$FALSE<ept id="p1">**</ept> to require authentication.</source>
+          <target state="new">Set to <bpt id="p1">**</bpt>$FALSE<ept id="p1">**</ept> to require authentication.</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>CertificateID</source>
+          <target state="new">CertificateID</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A GUID that represents the certificate used to authenticate to the server.</source>
+          <target state="new">A GUID that represents the certificate used to authenticate to the server.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>RegistrationKey</source>
+          <target state="new">RegistrationKey</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A GUID that identifies the node to the pull server.</source>
+          <target state="new">A GUID that identifies the node to the pull server.</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For more information, see How to register a node with a DSC pull server.</source>
+          <target state="new">For more information, see How to register a node with a DSC pull server.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>ServerURL</source>
+          <target state="new">ServerURL</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The URL of the configuration server.</source>
+          <target state="new">The URL of the configuration server.</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>To define an SMB-based resource server, you create a <bpt id="p1">**</bpt>ResourceRepositoryShare<ept id="p1">**</ept> block.</source>
+          <target state="new">To define an SMB-based resource server, you create a <bpt id="p1">**</bpt>ResourceRepositoryShare<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ResourceRepositoryShare<ept id="p1">**</ept> defines the following properties.</source>
+          <target state="new"><bpt id="p1">**</bpt>ResourceRepositoryShare<ept id="p1">**</ept> defines the following properties.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="new">Type</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Credential</source>
+          <target state="new">Credential</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>MSFT_Credential</source>
+          <target state="new">MSFT_Credential</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The credential used to authenticate to the SMB share.</source>
+          <target state="new">The credential used to authenticate to the SMB share.</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>SourcePath</source>
+          <target state="new">SourcePath</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The path of the SMB share.</source>
+          <target state="new">The path of the SMB share.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Report server blocks</source>
+          <target state="new">Report server blocks</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>A report server must be an OData web service.</source>
+          <target state="new">A report server must be an OData web service.</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>To define a report server, you create a <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block.</source>
+          <target state="new">To define a report server, you create a <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> defines the following properties.</source>
+          <target state="new"><bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> defines the following properties.</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="new">Type</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>AllowUnsecureConnection</source>
+          <target state="new">AllowUnsecureConnection</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>bool</source>
+          <target state="new">bool</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>$TRUE<ept id="p1">**</ept> to allow connections from the node to the server without authentication.</source>
+          <target state="new">Set to <bpt id="p1">**</bpt>$TRUE<ept id="p1">**</ept> to allow connections from the node to the server without authentication.</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>$FALSE<ept id="p1">**</ept> to require authentication.</source>
+          <target state="new">Set to <bpt id="p1">**</bpt>$FALSE<ept id="p1">**</ept> to require authentication.</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>CertificateID</source>
+          <target state="new">CertificateID</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>A GUID that represents the certificate used to authenticate to the server.</source>
+          <target state="new">A GUID that represents the certificate used to authenticate to the server.</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>RegistrationKey</source>
+          <target state="new">RegistrationKey</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>A GUID that identifies the node to the pull server.</source>
+          <target state="new">A GUID that identifies the node to the pull server.</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>For more information, see How to register a node with a DSC pull server.</source>
+          <target state="new">For more information, see How to register a node with a DSC pull server.</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>ServerURL</source>
+          <target state="new">ServerURL</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The URL of the configuration server.</source>
+          <target state="new">The URL of the configuration server.</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Partial configurations</source>
+          <target state="new">Partial configurations</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>To define a partial configuration, you create a <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> block.</source>
+          <target state="new">To define a partial configuration, you create a <bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>For more information about partial configurations, see <bpt id="p1">[</bpt>DSC Partial configurations<ept id="p1">](partialConfigs.md)</ept>.</source>
+          <target state="new">For more information about partial configurations, see <bpt id="p1">[</bpt>DSC Partial configurations<ept id="p1">](partialConfigs.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> defines the following properties.</source>
+          <target state="new"><bpt id="p1">**</bpt>PartialConfiguration<ept id="p1">**</ept> defines the following properties.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="new">Type</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>ConfigurationSource</source>
+          <target state="new">ConfigurationSource</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>string[]</source>
+          <target state="new">string[]</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>An array of names of configuration servers, previously defined in <bpt id="p1">**</bpt>ConfiguratoinRepositoryWeb<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> blocks, where the partial configuration is pulled from.</source>
+          <target state="new">An array of names of configuration servers, previously defined in <bpt id="p1">**</bpt>ConfiguratoinRepositoryWeb<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ConfigurationRepositoryShare<ept id="p2">**</ept> blocks, where the partial configuration is pulled from.</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>string{}</source>
+          <target state="new">string{}</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>A list of names of other configurations that must be completed before this partial configuration is applied.</source>
+          <target state="new">A list of names of other configurations that must be completed before this partial configuration is applied.</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Text used to describe the partial configuration.</source>
+          <target state="new">Text used to describe the partial configuration.</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>ExclusiveResources</source>
+          <target state="new">ExclusiveResources</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>string[]</source>
+          <target state="new">string[]</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>An array of resources exclusive to this partial configuration.</source>
+          <target state="new">An array of resources exclusive to this partial configuration.</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>RefreshMode</source>
+          <target state="new">RefreshMode</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Specifies how DCS gets this partial configuration..</source>
+          <target state="new">Specifies how DCS gets this partial configuration..</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The possible values are as follows: <bpt id="p1">**</bpt>Disabled<ept id="p1">**</ept>: This partial configuration is disabled.</source>
+          <target state="new">The possible values are as follows: <bpt id="p1">**</bpt>Disabled<ept id="p1">**</ept>: This partial configuration is disabled.</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Push<ept id="p1">**</ept>: The partial configuration is pushed to the node by calling the <bpt id="p2">[</bpt>Publish-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt517875.aspx)</ept> cmdlet.</source>
+          <target state="new"><bpt id="p1">**</bpt>Push<ept id="p1">**</ept>: The partial configuration is pushed to the node by calling the <bpt id="p2">[</bpt>Publish-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/mt517875.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>After all partial configurations for the node are either pushed or pulled from a server, the configuration can be started by calling <ph id="ph1">`Start-DscConfiguration –UseExisting`</ph>.</source>
+          <target state="new">After all partial configurations for the node are either pushed or pulled from a server, the configuration can be started by calling <ph id="ph1">`Start-DscConfiguration –UseExisting`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>This is the default value.</source>
+          <target state="new">This is the default value.</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Pull<ept id="p1">**</ept>: The node is configured to regularly check for the partial configuration from a pull server.</source>
+          <target state="new"><bpt id="p1">**</bpt>Pull<ept id="p1">**</ept>: The node is configured to regularly check for the partial configuration from a pull server.</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>If this property is set to "Pull", you must specify a pull server by setting the <bpt id="p1">**</bpt>ConfigurationSource<ept id="p1">**</ept> property.</source>
+          <target state="new">If this property is set to "Pull", you must specify a pull server by setting the <bpt id="p1">**</bpt>ConfigurationSource<ept id="p1">**</ept> property.</target>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>For more information about pull servers, see <bpt id="p1">[</bpt>Setting up a DSC pull server<ept id="p1">](pullServer.md)</ept>.</source>
+          <target state="new">For more information about pull servers, see <bpt id="p1">[</bpt>Setting up a DSC pull server<ept id="p1">](pullServer.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>ResourceModlueSource</source>
+          <target state="new">ResourceModlueSource</target>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>string[]</source>
+          <target state="new">string[]</target>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>An array of the names of resource servers from which to download required resources for this partial configuration.</source>
+          <target state="new">An array of the names of resource servers from which to download required resources for this partial configuration.</target>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>These names must refer to resource servers previously defined in <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept> blocks.</source>
+          <target state="new">These names must refer to resource servers previously defined in <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept> blocks.</target>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Concepts</source>
+          <target state="new">Concepts</target>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Get Started with Windows PowerShell Desired State Configuration <bpt id="p1">[</bpt>Setting up a DSC pull server<ept id="p1">](pullServer.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2">[</bpt>Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager<ept id="p2">](metaConfig4.md)</ept></source>
+          <target state="new">Get Started with Windows PowerShell Desired State Configuration <bpt id="p1">[</bpt>Setting up a DSC pull server<ept id="p1">](pullServer.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2">[</bpt>Windows PowerShell 4.0 Desired State Configuration Local Configuration Manager<ept id="p2">](metaConfig4.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Other Resources</source>
+          <target state="new">Other Resources</target>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept><ph id="ph1"> 
+</ph><bpt id="p2">[</bpt>Setting up a pull client with configuration names<ept id="p2">](pullClientConfigNames.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept><ph id="ph1"> 
+</ph><bpt id="p2">[</bpt>Setting up a pull client with configuration names<ept id="p2">](pullClientConfigNames.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
