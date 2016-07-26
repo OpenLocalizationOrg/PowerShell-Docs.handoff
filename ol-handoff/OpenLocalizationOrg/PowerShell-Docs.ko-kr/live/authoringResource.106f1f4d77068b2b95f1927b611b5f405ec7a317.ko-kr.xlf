@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fde661d2dc3c7c099c34134f4e665ba02cc3ceb9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b749374d8ec66be04927ba74e1c204454228b260</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Build Custom Windows PowerShell Desired State Configuration Resources</source>
+          <target state="new">Build Custom Windows PowerShell Desired State Configuration Resources</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration (DSC) has built-in resources that you can use to configure your environment.</source>
+          <target state="new">Windows PowerShell Desired State Configuration (DSC) has built-in resources that you can use to configure your environment.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>(For more information, see <bpt id="p1">[</bpt>Built-In Windows PowerShell Desired State Configuration Resources<ept id="p1">](builtInResource.md)</ept>.) This topic provides an overview of developing resources and links to topics with specific information and examples.</source>
+          <target state="new">(For more information, see <bpt id="p1">[</bpt>Built-In Windows PowerShell Desired State Configuration Resources<ept id="p1">](builtInResource.md)</ept>.) This topic provides an overview of developing resources and links to topics with specific information and examples.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>DSC resource components</source>
+          <target state="new">DSC resource components</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A DSC resource is a Windows PowerShell module.</source>
+          <target state="new">A DSC resource is a Windows PowerShell module.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The module contains both the schema (the definition of the configurable properties) and the implementation (the code that does the actual work specified by a configuration) for the resource.</source>
+          <target state="new">The module contains both the schema (the definition of the configurable properties) and the implementation (the code that does the actual work specified by a configuration) for the resource.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A DSC resource schema can be defined in a MOF file, and the implementation is performed by a script module.</source>
+          <target state="new">A DSC resource schema can be defined in a MOF file, and the implementation is performed by a script module.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Beginning with the support of PowerShell classes in version 5, the schema and implementation can both be defined in a class.</source>
+          <target state="new">Beginning with the support of PowerShell classes in version 5, the schema and implementation can both be defined in a class.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following topics describe in more detail how to create DSC resources.</source>
+          <target state="new">The following topics describe in more detail how to create DSC resources.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with MOF</source>
+          <target state="new">Writing a custom DSC resource with MOF</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Implementing a DSC resource in C</source>
+          <target state="new">Implementing a DSC resource in C</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with PowerShell classes</source>
+          <target state="new">Writing a custom DSC resource with PowerShell classes</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Composite resources: Using a DSC configuration as a resource</source>
+          <target state="new">Composite resources: Using a DSC configuration as a resource</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Using the Resource Designer tool</source>
+          <target state="new">Using the Resource Designer tool</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
