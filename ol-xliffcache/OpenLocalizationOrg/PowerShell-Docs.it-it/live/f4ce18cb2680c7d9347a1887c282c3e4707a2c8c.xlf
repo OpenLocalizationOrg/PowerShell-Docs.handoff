@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4ce18cb2680c7d9347a1887c282c3e4707a2c8c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\environmentResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">590a92ac8e850d74fa1b0e53e88bf39c7b781c52</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Environment Resource</source>
+          <target state="new">DSC Environment Resource</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">__</bpt>Environment<ept id="p1">__</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage system environment variables.</source>
+          <target state="new">The <bpt id="p1">__</bpt>Environment<ept id="p1">__</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage system environment variables.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Indicates the name of the environment variable for which you want to ensure a specific state.</source>
+          <target state="new">Indicates the name of the environment variable for which you want to ensure a specific state.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Ensure</source>
+          <target state="new">Ensure</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Indicates if a variable exists.</source>
+          <target state="new">Indicates if a variable exists.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set this property to <bpt id="p1">__</bpt>Present<ept id="p1">__</ept> to create the environment variable if it does not exist or to ensure that its value matches what is provided through the <bpt id="p2">__</bpt>Value<ept id="p2">__</ept> property if the variable already exists.</source>
+          <target state="new">Set this property to <bpt id="p1">__</bpt>Present<ept id="p1">__</ept> to create the environment variable if it does not exist or to ensure that its value matches what is provided through the <bpt id="p2">__</bpt>Value<ept id="p2">__</ept> property if the variable already exists.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Set it to <bpt id="p1">__</bpt>Absent<ept id="p1">__</ept> to delete the variable if it exists.</source>
+          <target state="new">Set it to <bpt id="p1">__</bpt>Absent<ept id="p1">__</ept> to delete the variable if it exists.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Path</source>
+          <target state="new">Path</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Defines the environment variable that is being configured.</source>
+          <target state="new">Defines the environment variable that is being configured.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> if the variable is the <bpt id="p2">__</bpt>Path<ept id="p2">__</ept> variable; otherwise, set it to <bpt id="p3">__</bpt>$false<ept id="p3">__</ept>.</source>
+          <target state="new">Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> if the variable is the <bpt id="p2">__</bpt>Path<ept id="p2">__</ept> variable; otherwise, set it to <bpt id="p3">__</bpt>$false<ept id="p3">__</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</source>
+          <target state="new">The default is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the variable being configured is the <bpt id="p1">__</bpt>Path<ept id="p1">__</ept> variable, the value provided through the <bpt id="p2">__</bpt>Value<ept id="p2">__</ept> property will be appended to the existing value.</source>
+          <target state="new">If the variable being configured is the <bpt id="p1">__</bpt>Path<ept id="p1">__</ept> variable, the value provided through the <bpt id="p2">__</bpt>Value<ept id="p2">__</ept> property will be appended to the existing value.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="new">Value</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The value to assign to the environment variable.</source>
+          <target state="new">The value to assign to the environment variable.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="new">Example</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following example ensures that <bpt id="p1">__</bpt>TestEnvironmentVariable<ept id="p1">__</ept> is present and it has the value <bpt id="p2">__</bpt>TestValue<ept id="p2">__</ept>.</source>
+          <target state="new">The following example ensures that <bpt id="p1">__</bpt>TestEnvironmentVariable<ept id="p1">__</ept> is present and it has the value <bpt id="p2">__</bpt>TestValue<ept id="p2">__</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If it is not present, it creates it.</source>
+          <target state="new">If it is not present, it creates it.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
