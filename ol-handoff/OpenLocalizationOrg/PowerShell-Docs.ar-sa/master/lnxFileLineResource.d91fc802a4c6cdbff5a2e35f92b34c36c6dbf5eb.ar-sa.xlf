@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\lnxFileLineResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df689eae2c4603efb04479f4d71b5c1fceac519c</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC for Linux nxFileLine Resource</source>
+          <target state="new">DSC for Linux nxFileLine Resource</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>nxFileLine<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to to manage lines within a configuration file on a Linux node.</source>
+          <target state="new">The <bpt id="p1">**</bpt>nxFileLine<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to to manage lines within a configuration file on a Linux node.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>FilePath</source>
+          <target state="new">FilePath</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The full path to the file to manage lines in on the target node.</source>
+          <target state="new">The full path to the file to manage lines in on the target node.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ContainsLine</source>
+          <target state="new">ContainsLine</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A line to ensure exists in the file.</source>
+          <target state="new">A line to ensure exists in the file.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This line will be appended to the file if it does not exist in the file.</source>
+          <target state="new">This line will be appended to the file if it does not exist in the file.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ContainsLine<ept id="p1">**</ept> is mandatory, but can be set to an empty string (`ContainsLine = ‘’``) if it is not needed.</source>
+          <target state="new"><bpt id="p1">**</bpt>ContainsLine<ept id="p1">**</ept> is mandatory, but can be set to an empty string (`ContainsLine = ‘’``) if it is not needed.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>DoesNotContainPattern</source>
+          <target state="new">DoesNotContainPattern</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A regular expression pattern for lines that should not exist in the file.</source>
+          <target state="new">A regular expression pattern for lines that should not exist in the file.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For any lines that exist in the file that match this regular expression, the line will be removed from the file.</source>
+          <target state="new">For any lines that exist in the file that match this regular expression, the line will be removed from the file.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="new">For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="new">Example</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This example demonstrates using the <bpt id="p1">**</bpt>nxFileLine<ept id="p1">**</ept> resource to configure the <ph id="ph1">`/etc/sudoers`</ph> file, ensuring that the user: monuser is configured to not requiretty.</source>
+          <target state="new">This example demonstrates using the <bpt id="p1">**</bpt>nxFileLine<ept id="p1">**</ept> resource to configure the <ph id="ph1">`/etc/sudoers`</ph> file, ensuring that the user: monuser is configured to not requiretty.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

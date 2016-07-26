@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">25ea7bc8b398577cb2916ec833d61c38af812637</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\configData.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dddc525f7481af09a7941870185236e091f3dd65</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Separating Configuration and Environment Data</source>
+          <target state="new">Separating Configuration and Environment Data</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell Desired State Configuration (DSC), it is possible to separate configuration data from the logic of your configuration.</source>
+          <target state="new">In Windows PowerShell Desired State Configuration (DSC), it is possible to separate configuration data from the logic of your configuration.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Another way to look at this is to consider the structural configuration (for example, a configuration might require that IIS be installed) as separate from the environmental configuration (that is, whether the situation is a test environment vs. a production one—the node names would be different, but the configuration applied to them would be the same).</source>
+          <target state="new">Another way to look at this is to consider the structural configuration (for example, a configuration might require that IIS be installed) as separate from the environmental configuration (that is, whether the situation is a test environment vs. a production one—the node names would be different, but the configuration applied to them would be the same).</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This has the following advantages:</source>
+          <target state="new">This has the following advantages:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It allows you to reuse your configuration data for different resources, nodes, and configurations.</source>
+          <target state="new">It allows you to reuse your configuration data for different resources, nodes, and configurations.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Configuration logic is more reusable if it does not contain hard-coded data.</source>
+          <target state="new">Configuration logic is more reusable if it does not contain hard-coded data.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This is similar to good scripting guidelines for functions.</source>
+          <target state="new">This is similar to good scripting guidelines for functions.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If some of the data needs to change, you can make the changes in one location, thereby saving time and reducing errors.</source>
+          <target state="new">If some of the data needs to change, you can make the changes in one location, thereby saving time and reducing errors.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Basic concepts and examples</source>
+          <target state="new">Basic concepts and examples</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To specify the environmental part of the configuration, DSC uses the <bpt id="p1">**</bpt>ConfigurationData<ept id="p1">**</ept> parameter, which is a hash table (or it can take a .psd1 file which contains the hash table).</source>
+          <target state="new">To specify the environmental part of the configuration, DSC uses the <bpt id="p1">**</bpt>ConfigurationData<ept id="p1">**</ept> parameter, which is a hash table (or it can take a .psd1 file which contains the hash table).</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This hash table must have at least one key <bpt id="p1">**</bpt>AllNodes<ept id="p1">**</ept>, which has a structured value.</source>
+          <target state="new">This hash table must have at least one key <bpt id="p1">**</bpt>AllNodes<ept id="p1">**</ept>, which has a structured value.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Note the AllNodes key, whose value is an array.</source>
+          <target state="new">Note the AllNodes key, whose value is an array.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Each element of this array is also a hash table, which requires NodeName as a key:</source>
+          <target state="new">Each element of this array is also a hash table, which requires NodeName as a key:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each hash table entry in AllNodes corresponds to configuration data to a node in the configuration.</source>
+          <target state="new">Each hash table entry in AllNodes corresponds to configuration data to a node in the configuration.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In addition to the required NodeName key, you can add other keys to the hash table as well, for example:</source>
+          <target state="new">In addition to the required NodeName key, you can add other keys to the hash table as well, for example:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>DSC offers three special variables to use in the configuration script:</source>
+          <target state="new">DSC offers three special variables to use in the configuration script:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>$AllNodes<ept id="p1">**</ept>: Refers to all of the nodes.</source>
+          <target state="new"><bpt id="p1">**</bpt>$AllNodes<ept id="p1">**</ept>: Refers to all of the nodes.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use filtering with <bpt id="p1">**</bpt>.Where()<ept id="p1">**</ept> and <bpt id="p2">**</bpt>.ForEach()<ept id="p2">**</ept>, so instead of hard-coding node names to select particular nodes for action, you could write something like this to select VM-1 and VM-3 in the above example:</source>
+          <target state="new">You can use filtering with <bpt id="p1">**</bpt>.Where()<ept id="p1">**</ept> and <bpt id="p2">**</bpt>.ForEach()<ept id="p2">**</ept>, so instead of hard-coding node names to select particular nodes for action, you could write something like this to select VM-1 and VM-3 in the above example:</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>$Node<ept id="p1">**</ept>: Once the set of nodes is filtered, you can use $Node to refer to the particular entry.</source>
+          <target state="new"><bpt id="p1">**</bpt>$Node<ept id="p1">**</ept>: Once the set of nodes is filtered, you can use $Node to refer to the particular entry.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To apply a property to all nodes, you can set NodeName = “*”.</source>
+          <target state="new">To apply a property to all nodes, you can set NodeName = “*”.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, to give every node the LogPath property, you could do this:</source>
+          <target state="new">For example, to give every node the LogPath property, you could do this:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>$ConfigurationData<ept id="p1">**</ept>: You can use this variable inside a configuration to access the configuration data hash table passed as a parameter.</source>
+          <target state="new"><bpt id="p1">**</bpt>$ConfigurationData<ept id="p1">**</ept>: You can use this variable inside a configuration to access the configuration data hash table passed as a parameter.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can find a full example included in the <bpt id="p1">[</bpt>xWebAdministration module<ept id="p1">](https://powershellgallery.com/packages/xWebAdministration)</ept>.</source>
+          <target state="new">You can find a full example included in the <bpt id="p1">[</bpt>xWebAdministration module<ept id="p1">](https://powershellgallery.com/packages/xWebAdministration)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
