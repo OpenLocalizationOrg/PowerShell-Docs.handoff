@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f5f99f0f0befde13272221e376006dffbddb994</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\overview.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58e3d3048a46cf6a49d5c1c51541587d9f21c334</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration Overview</source>
+          <target state="new">Windows PowerShell Desired State Configuration Overview</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This topic describes the Windows PowerShell Desired State Configuration (DSC) feature in Windows PowerShell.</source>
+          <target state="new">This topic describes the Windows PowerShell Desired State Configuration (DSC) feature in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use this topic to get an overview of DSC and to find the documentation resources you need to understand and use DSC.</source>
+          <target state="new">You can use this topic to get an overview of DSC and to find the documentation resources you need to understand and use DSC.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Feature description</source>
+          <target state="new">Feature description</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>DSC is a new management platform in Windows PowerShell that enables deploying and managing configuration data for software services and managing the environment in which these services run.</source>
+          <target state="new">DSC is a new management platform in Windows PowerShell that enables deploying and managing configuration data for software services and managing the environment in which these services run.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DSC provides a set of Windows PowerShell language extensions, new Windows PowerShell cmdlets, and resources that you can use to declaratively specify how you want your software environment to be configured.</source>
+          <target state="new">DSC provides a set of Windows PowerShell language extensions, new Windows PowerShell cmdlets, and resources that you can use to declaratively specify how you want your software environment to be configured.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It also provides a means to maintain and manage existing configurations.</source>
+          <target state="new">It also provides a means to maintain and manage existing configurations.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Practical applications</source>
+          <target state="new">Practical applications</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Following are some example scenarios where you can use built-in DSC resources to configure and manage a set of computers (also known as target nodes) in an automated way:</source>
+          <target state="new">Following are some example scenarios where you can use built-in DSC resources to configure and manage a set of computers (also known as target nodes) in an automated way:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Enabling or disabling server roles and features</source>
+          <target state="new">Enabling or disabling server roles and features</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Managing registry settings</source>
+          <target state="new">Managing registry settings</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Managing files and directories</source>
+          <target state="new">Managing files and directories</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Starting, stopping, and managing processes and services</source>
+          <target state="new">Starting, stopping, and managing processes and services</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Managing groups and user accounts</source>
+          <target state="new">Managing groups and user accounts</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Deploying new software</source>
+          <target state="new">Deploying new software</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Managing environment variables</source>
+          <target state="new">Managing environment variables</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Running Windows PowerShell scripts</source>
+          <target state="new">Running Windows PowerShell scripts</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Fixing a configuration that has drifted away from the desired state</source>
+          <target state="new">Fixing a configuration that has drifted away from the desired state</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Discovering the actual configuration state on a given node</source>
+          <target state="new">Discovering the actual configuration state on a given node</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="new">Key Concepts</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>DSC is a declarative platform used for configuration, deployment, and management of systems.</source>
+          <target state="new">DSC is a declarative platform used for configuration, deployment, and management of systems.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It consists of three primary components:</source>
+          <target state="new">It consists of three primary components:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Configurations<ept id="p1">](configurations.md)</ept> are declarative PowerShell scripts which define and configure instances of resources.</source>
+          <target state="new"><bpt id="p1">[</bpt>Configurations<ept id="p1">](configurations.md)</ept> are declarative PowerShell scripts which define and configure instances of resources.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Upon running the configuration, DSC (and the resources being called by the configuration) will simply “make it so”, ensuring that the system exists in the state laid out by the configuration.</source>
+          <target state="new">Upon running the configuration, DSC (and the resources being called by the configuration) will simply “make it so”, ensuring that the system exists in the state laid out by the configuration.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>DSC configurations are also idempotent: the Local Configuration Manager (LCM) will continue to ensure that machines are configured in whatever state the configuration declares.</source>
+          <target state="new">DSC configurations are also idempotent: the Local Configuration Manager (LCM) will continue to ensure that machines are configured in whatever state the configuration declares.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Resources are the imperative building blocks of DSC which are written to model the various components of a sub-system and implement the control flow of their changing states.</source>
+          <target state="new">Resources are the imperative building blocks of DSC which are written to model the various components of a sub-system and implement the control flow of their changing states.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>They reside within PowerShell modules and can be written to model something as generic as a file or a Windows process or as specific as an IIS server or a VM running in Azure.</source>
+          <target state="new">They reside within PowerShell modules and can be written to model something as generic as a file or a Windows process or as specific as an IIS server or a VM running in Azure.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Local Configuration Manager (LCM) is the engine by which DSC facilitates the interaction between resources and configurations.</source>
+          <target state="new">The Local Configuration Manager (LCM) is the engine by which DSC facilitates the interaction between resources and configurations.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The LCM regularly polls the system using the control flow implemented by resources to ensure that the state laid out by a Configuration is maintained.</source>
+          <target state="new">The LCM regularly polls the system using the control flow implemented by resources to ensure that the state laid out by a Configuration is maintained.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If the system is out of state, the LCM uses more logic inside of the resources to “make it so” according to the Configuration declaration.</source>
+          <target state="new">If the system is out of state, the LCM uses more logic inside of the resources to “make it so” according to the Configuration declaration.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>DSC also includes a number of new language keywords, cmdlets and tools that allow creation of configurations, help build DSC resources, invoke configurations, and manage the LCM.</source>
+          <target state="new">DSC also includes a number of new language keywords, cmdlets and tools that allow creation of configurations, help build DSC resources, invoke configurations, and manage the LCM.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Many of these cmdlets can be found in Windows 8.1 as part of the PsDesiredStateConfig module (including <ph id="ph1">`Start-DscConfiguration`</ph>, <ph id="ph2">`Set-DscLocalConfigurationManager`</ph>, and <ph id="ph3">`Get-DscResource`</ph>).</source>
+          <target state="new">Many of these cmdlets can be found in Windows 8.1 as part of the PsDesiredStateConfig module (including <ph id="ph1">`Start-DscConfiguration`</ph>, <ph id="ph2">`Set-DscLocalConfigurationManager`</ph>, and <ph id="ph3">`Get-DscResource`</ph>).</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The xDscResourceDesigner (found in the <bpt id="p1">[</bpt>PowerShell Gallery<ept id="p1">](https://www.powershellgallery.com/packages/xDSCResourceDesigner/)</ept>) is a collection of cmdlets that simplify the development of DSC resources.</source>
+          <target state="new">The xDscResourceDesigner (found in the <bpt id="p1">[</bpt>PowerShell Gallery<ept id="p1">](https://www.powershellgallery.com/packages/xDSCResourceDesigner/)</ept>) is a collection of cmdlets that simplify the development of DSC resources.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>DSC Configurations</source>
+          <target state="new">DSC Configurations</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>DSC Resources</source>
+          <target state="new">DSC Resources</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Configuring The Local Configuration Manager</source>
+          <target state="new">Configuring The Local Configuration Manager</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
