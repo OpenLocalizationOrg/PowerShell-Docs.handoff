@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce17b7bb17435cd925f196e4736114982de4e056</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\lnxGettingStarted.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ebc64c43529d812e42507d121153d331538babcb</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Get started with Desired State Configuration (DSC) for Linux</source>
+          <target state="new">Get started with Desired State Configuration (DSC) for Linux</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic explains how to get started using PowerShell Desired State Configuration (DSC) for Linux.</source>
+          <target state="new">This topic explains how to get started using PowerShell Desired State Configuration (DSC) for Linux.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For general information about DSC, see <bpt id="p1">[</bpt>Get Started with Windows PowerShell Desired State Configuration<ept id="p1">](overview.md)</ept>.</source>
+          <target state="new">For general information about DSC, see <bpt id="p1">[</bpt>Get Started with Windows PowerShell Desired State Configuration<ept id="p1">](overview.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Supported Linux operation system versions</source>
+          <target state="new">Supported Linux operation system versions</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following Linux operating system versions are supported for DSC for Linux.</source>
+          <target state="new">The following Linux operating system versions are supported for DSC for Linux.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>CentOS 5, 6, and 7 (x86/x64)</source>
+          <target state="new">CentOS 5, 6, and 7 (x86/x64)</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Debian GNU/Linux 6 and 7 (x86/x64)</source>
+          <target state="new">Debian GNU/Linux 6 and 7 (x86/x64)</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Oracle Linux 5, 6 and 7 (x86/x64)</source>
+          <target state="new">Oracle Linux 5, 6 and 7 (x86/x64)</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Red Hat Enterprise Linux Server 5, 6 and 7 (x86/x64)</source>
+          <target state="new">Red Hat Enterprise Linux Server 5, 6 and 7 (x86/x64)</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>SUSE Linux Enterprise Server 10, 11 and 12 (x86/x64)</source>
+          <target state="new">SUSE Linux Enterprise Server 10, 11 and 12 (x86/x64)</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Ubuntu Server 12.04 LTS and 14.04 LTS (x86/x64)</source>
+          <target state="new">Ubuntu Server 12.04 LTS and 14.04 LTS (x86/x64)</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The following table describes the required ackage dependencies for DSC for Linux.</source>
+          <target state="new">The following table describes the required ackage dependencies for DSC for Linux.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Required package</source>
+          <target state="new">Required package</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Minimum version</source>
+          <target state="new">Minimum version</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>glibc</source>
+          <target state="new">glibc</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>GNU Library</source>
+          <target state="new">GNU Library</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>2…4 – 31.30</source>
+          <target state="new">2…4 – 31.30</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>python</source>
+          <target state="new">python</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Python</source>
+          <target state="new">Python</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>2.4 – 3.4</source>
+          <target state="new">2.4 – 3.4</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>omiserver</source>
+          <target state="new">omiserver</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Open Management Infrastructure</source>
+          <target state="new">Open Management Infrastructure</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>1.0.8.1</source>
+          <target state="new">1.0.8.1</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>openssl</source>
+          <target state="new">openssl</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>OpenSSL Libraries</source>
+          <target state="new">OpenSSL Libraries</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>0.9.8 or 1.0</source>
+          <target state="new">0.9.8 or 1.0</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>ctypes</source>
+          <target state="new">ctypes</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Python CTypes library</source>
+          <target state="new">Python CTypes library</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Must match Python version</source>
+          <target state="new">Must match Python version</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>libcurl</source>
+          <target state="new">libcurl</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>cURL http client library</source>
+          <target state="new">cURL http client library</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>7.15.1</source>
+          <target state="new">7.15.1</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Installing DSC for Linux</source>
+          <target state="new">Installing DSC for Linux</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You must install the <bpt id="p1">[</bpt>Open Management Infrastructure (OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept> before installing DSC for Linux.</source>
+          <target state="new">You must install the <bpt id="p1">[</bpt>Open Management Infrastructure (OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept> before installing DSC for Linux.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Installing OMI</source>
+          <target state="new">Installing OMI</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Desired State Configuration for Linux requires the Open Management Infrastructure (OMI) CIM server, version 1.0.8.1.</source>
+          <target state="new">Desired State Configuration for Linux requires the Open Management Infrastructure (OMI) CIM server, version 1.0.8.1.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>OMI can be downloaded from The Open Group: <bpt id="p1">[</bpt>Open Management Infrastructure (OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept>.</source>
+          <target state="new">OMI can be downloaded from The Open Group: <bpt id="p1">[</bpt>Open Management Infrastructure (OMI)<ept id="p1">](https://collaboration.opengroup.org/omi/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To install OMI, install the package that is appropriate for your Linux system (.rpm or .deb) and OpenSSL version (ssl_098 or ssl_100), and architecture (x64/x86).</source>
+          <target state="new">To install OMI, install the package that is appropriate for your Linux system (.rpm or .deb) and OpenSSL version (ssl_098 or ssl_100), and architecture (x64/x86).</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>RPM packages are appropriate for CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Oracle Linux.</source>
+          <target state="new">RPM packages are appropriate for CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Oracle Linux.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>DEB packages are appropriate for Debian GNU/Linux and Ubuntu Server.</source>
+          <target state="new">DEB packages are appropriate for Debian GNU/Linux and Ubuntu Server.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The ssl_098 packages are appropriate for computers with OpenSSL 0.9.8 installed while the ssl_100 packages are appropriate for computers with OpenSSL 1.0 installed.</source>
+          <target state="new">The ssl_098 packages are appropriate for computers with OpenSSL 0.9.8 installed while the ssl_100 packages are appropriate for computers with OpenSSL 1.0 installed.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: To determine the installed OpenSSL version, run the command <ph id="ph1">`openssl version`</ph>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: To determine the installed OpenSSL version, run the command <ph id="ph1">`openssl version`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Run the following command to install OMI on a CentOS 7 x64 system.</source>
+          <target state="new">Run the following command to install OMI on a CentOS 7 x64 system.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Installing DSC</source>
+          <target state="new">Installing DSC</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To install DSC, install the package that is appropriate for your Linux system (.rpm or .deb) and OpenSSL version (ssl_098 or ssl_100), and architecture (x64/x86).</source>
+          <target state="new">To install DSC, install the package that is appropriate for your Linux system (.rpm or .deb) and OpenSSL version (ssl_098 or ssl_100), and architecture (x64/x86).</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>RPM packages are appropriate for CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Oracle Linux.</source>
+          <target state="new">RPM packages are appropriate for CentOS, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Oracle Linux.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>DEB packages are appropriate for Debian GNU/Linux and Ubuntu Server.</source>
+          <target state="new">DEB packages are appropriate for Debian GNU/Linux and Ubuntu Server.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The ssl_098 packages are appropriate for computers with OpenSSL 0.9.8 installed while the ssl_100 packages are appropriate for computers with OpenSSL 1.0 installed.</source>
+          <target state="new">The ssl_098 packages are appropriate for computers with OpenSSL 0.9.8 installed while the ssl_100 packages are appropriate for computers with OpenSSL 1.0 installed.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: To determine the installed OpenSSL version, run the command openssl version.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: To determine the installed OpenSSL version, run the command openssl version.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Run the following command to install DSC on a CentOS 7 x64 system.</source>
+          <target state="new">Run the following command to install DSC on a CentOS 7 x64 system.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Using DSC for Linux</source>
+          <target state="new">Using DSC for Linux</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The following sections explain how to create and run DSC configurations on Linux computers.</source>
+          <target state="new">The following sections explain how to create and run DSC configurations on Linux computers.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Creating a configuration MOF document</source>
+          <target state="new">Creating a configuration MOF document</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Configuration keyword is used to create a configuration for Linux computers, just like for Windows computers.</source>
+          <target state="new">The Windows PowerShell Configuration keyword is used to create a configuration for Linux computers, just like for Windows computers.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The following steps describe the creation of a configuration document for a Linux computer using Windows PowerShell.</source>
+          <target state="new">The following steps describe the creation of a configuration document for a Linux computer using Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Import the nx module.</source>
+          <target state="new">Import the nx module.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The nx Windows PowerShell module contains the schema for Built-In resources for DSC for Linux, and must be installed to your local computer and imported in the configuration.</source>
+          <target state="new">The nx Windows PowerShell module contains the schema for Built-In resources for DSC for Linux, and must be installed to your local computer and imported in the configuration.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-To install the nx module, copy the nx module directory to either <ph id="ph1">`%UserProfile%\Documents\WindowsPowerShell\Modules\`</ph> or <ph id="ph2">`C:\windows\system32\WindowsPowerShell\v1.0\Modules`</ph>.</source>
+          <target state="new">-To install the nx module, copy the nx module directory to either <ph id="ph1">`%UserProfile%\Documents\WindowsPowerShell\Modules\`</ph> or <ph id="ph2">`C:\windows\system32\WindowsPowerShell\v1.0\Modules`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The nx module is included in the DSC for Linux installation package (MSI).</source>
+          <target state="new">The nx module is included in the DSC for Linux installation package (MSI).</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To import the nx module in your configuration, use the <bpt id="p1">__</bpt>Import-DSCResource<ept id="p1">__</ept> command:</source>
+          <target state="new">To import the nx module in your configuration, use the <bpt id="p1">__</bpt>Import-DSCResource<ept id="p1">__</ept> command:</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Define a configuration and generate the configuration document:</source>
+          <target state="new">Define a configuration and generate the configuration document:</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Push the configuration to the Linux computer</source>
+          <target state="new">Push the configuration to the Linux computer</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Configuration documents (MOF files) can be pushed to the Linux computer using the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
+          <target state="new">Configuration documents (MOF files) can be pushed to the Linux computer using the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In order to use this cmdlet, along with the <bpt id="p1">[</bpt>Get-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407379)</ept>.aspx, or <bpt id="p2">[</bpt>Test-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn407382.aspx)</ept> cmdlets, remotely to a Linux computer, you must use a CIMSession.</source>
+          <target state="new">In order to use this cmdlet, along with the <bpt id="p1">[</bpt>Get-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407379)</ept>.aspx, or <bpt id="p2">[</bpt>Test-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn407382.aspx)</ept> cmdlets, remotely to a Linux computer, you must use a CIMSession.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept> cmdlet is used to create a CIMSession to the Linux computer.</source>
+          <target state="new">The <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept> cmdlet is used to create a CIMSession to the Linux computer.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following code shows how to create a CIMSession for DSC for Linux.</source>
+          <target state="new">The following code shows how to create a CIMSession for DSC for Linux.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For “Push” mode, the user credential must be the root user on the Linux computer.</source>
+          <target state="new">For “Push” mode, the user credential must be the root user on the Linux computer.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Only SSL/TLS connections are supported for DSC for Linux, the New-CimSession must be used with the –UseSSL parameter set to $true.</source>
+          <target state="new">Only SSL/TLS connections are supported for DSC for Linux, the New-CimSession must be used with the –UseSSL parameter set to $true.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The SSL certificate used by OMI (for DSC) is specified in the file: <ph id="ph1">`/opt/omi/etc/omiserver.conf`</ph> with the properties: pemfile and keyfile.</source>
+          <target state="new">The SSL certificate used by OMI (for DSC) is specified in the file: <ph id="ph1">`/opt/omi/etc/omiserver.conf`</ph> with the properties: pemfile and keyfile.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If this certificate is not trusted by the Windows computer that you are running the <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept> cmdlet on, you can choose to ignore certificate validation with the CIMSession Options:</source>
+          <target state="new">If this certificate is not trusted by the Windows computer that you are running the <bpt id="p1">[</bpt>New-CimSession<ept id="p1">](https://technet.microsoft.com/en-us/library/jj590760.aspx)</ept> cmdlet on, you can choose to ignore certificate validation with the CIMSession Options:</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Run the following command to push the DSC configuration to the Linux node.</source>
+          <target state="new">Run the following command to push the DSC configuration to the Linux node.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Distribute the configuration with a pull server</source>
+          <target state="new">Distribute the configuration with a pull server</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Configurations can be distributed to a Linux computer with a pull server, just like for Windows computers.</source>
+          <target state="new">Configurations can be distributed to a Linux computer with a pull server, just like for Windows computers.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For guidance on using a pull server, see <bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p1">](pullServer.md)</ept>.</source>
+          <target state="new">For guidance on using a pull server, see <bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Pull Servers<ept id="p1">](pullServer.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For additional information and limitations related to using Linux computers with a pull server, see the Release Notes for Desired State Configuration for Linux.</source>
+          <target state="new">For additional information and limitations related to using Linux computers with a pull server, see the Release Notes for Desired State Configuration for Linux.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Working with configurations locally</source>
+          <target state="new">Working with configurations locally</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>DSC for Linux includes scripts to work with configuration from the local Linux computer.</source>
+          <target state="new">DSC for Linux includes scripts to work with configuration from the local Linux computer.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>These scripts are locate in <ph id="ph1">`/opt/microsoft/dsc/Scripts`</ph> and include the following:</source>
+          <target state="new">These scripts are locate in <ph id="ph1">`/opt/microsoft/dsc/Scripts`</ph> and include the following:</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>GetConfiguration.py</source>
+          <target state="new">GetConfiguration.py</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Returns the current configuration applied to the computer.</source>
+          <target state="new">Returns the current configuration applied to the computer.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Similar to the Windows PowerShell cmdlet Get-DscConfiguration cmdlet.</source>
+          <target state="new">Similar to the Windows PowerShell cmdlet Get-DscConfiguration cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>GetMetaConfiguration.py</source>
+          <target state="new">GetMetaConfiguration.py</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Returns the current meta-configuration applied to the computer.</source>
+          <target state="new">Returns the current meta-configuration applied to the computer.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Similar to the cmdlet <bpt id="p1">[</bpt>Get-DSCLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> cmdlet.</source>
+          <target state="new">Similar to the cmdlet <bpt id="p1">[</bpt>Get-DSCLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>InstallModule.py</source>
+          <target state="new">InstallModule.py</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Installs a custom DSC resource module.</source>
+          <target state="new">Installs a custom DSC resource module.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Requires the path to a .zip file containing the module shared object library and schema MOF files.</source>
+          <target state="new">Requires the path to a .zip file containing the module shared object library and schema MOF files.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>RemoveModule.py</source>
+          <target state="new">RemoveModule.py</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Removes a custom DSC resource module.</source>
+          <target state="new">Removes a custom DSC resource module.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Requires the name of the module to remove.</source>
+          <target state="new">Requires the name of the module to remove.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>SendConfigurationApply.py</source>
+          <target state="new">SendConfigurationApply.py</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Applies a configuration MOF file to the computer.</source>
+          <target state="new">Applies a configuration MOF file to the computer.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Similar to the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
+          <target state="new">Similar to the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Requires the path to the configuration MOF to apply.</source>
+          <target state="new">Requires the path to the configuration MOF to apply.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>SendMetaConfiguration.py</source>
+          <target state="new">SendMetaConfiguration.py</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Applies a Meta Configuration MOF file to the computer.</source>
+          <target state="new">Applies a Meta Configuration MOF file to the computer.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Similar to the <bpt id="p1">[</bpt>Set-DSCLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept> cmdlet.</source>
+          <target state="new">Similar to the <bpt id="p1">[</bpt>Set-DSCLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Requires the path to the Meta Configuration MOF to apply.</source>
+          <target state="new">Requires the path to the Meta Configuration MOF to apply.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>PowerShell Desired State Configuration for Linux Log Files</source>
+          <target state="new">PowerShell Desired State Configuration for Linux Log Files</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The following log files are generated for DSC for Linux messages.</source>
+          <target state="new">The following log files are generated for DSC for Linux messages.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Log file</source>
+          <target state="new">Log file</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Directory</source>
+          <target state="new">Directory</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>omiserver.log</source>
+          <target state="new">omiserver.log</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>/opt/omi/var/log/</source>
+          <target state="new">/opt/omi/var/log/</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Messages relating to the operation of the OMI CIM server.</source>
+          <target state="new">Messages relating to the operation of the OMI CIM server.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>dsc.log</source>
+          <target state="new">dsc.log</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>/opt/omi/var/log/</source>
+          <target state="new">/opt/omi/var/log/</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Messages relating to the operation of the Local Configuration Manager (LCM) and DSC resource operations.</source>
+          <target state="new">Messages relating to the operation of the Local Configuration Manager (LCM) and DSC resource operations.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
