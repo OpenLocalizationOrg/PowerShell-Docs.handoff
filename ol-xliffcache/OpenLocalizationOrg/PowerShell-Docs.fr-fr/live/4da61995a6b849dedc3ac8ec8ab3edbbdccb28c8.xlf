@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="fr-fr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4da61995a6b849dedc3ac8ec8ab3edbbdccb28c8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\archiveResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">82b06df58646b97c9af06855fdc22b9b5c0a0a2c</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Archive Resource Test1</source>
+          <target state="new">DSC Archive Resource Test1</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Archive resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to unpack archive (.zip) files at a specific path.</source>
+          <target state="new">The Archive resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to unpack archive (.zip) files at a specific path.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Destination</source>
+          <target state="new">Destination</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Specifies the location where you want to ensure the archive contents are extracted.</source>
+          <target state="new">Specifies the location where you want to ensure the archive contents are extracted.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Path</source>
+          <target state="new">Path</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Specifies the source path of the archive file.</source>
+          <target state="new">Specifies the source path of the archive file.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Checksum</source>
+          <target state="new">Checksum</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Defines the type to use when determining whether two files are the same.</source>
+          <target state="new">Defines the type to use when determining whether two files are the same.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">__</bpt>Checksum<ept id="p1">__</ept> is not specified, only the file or directory name is used for comparison.</source>
+          <target state="new">If <bpt id="p1">__</bpt>Checksum<ept id="p1">__</ept> is not specified, only the file or directory name is used for comparison.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Valid values include: SHA-1, SHA-256, SHA-512, createdDate, modifiedDate, none (default).</source>
+          <target state="new">Valid values include: SHA-1, SHA-256, SHA-512, createdDate, modifiedDate, none (default).</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you specify <bpt id="p1">__</bpt>Checksum<ept id="p1">__</ept> without <bpt id="p2">__</bpt>Validate<ept id="p2">__</ept>, the configuration will fail.</source>
+          <target state="new">If you specify <bpt id="p1">__</bpt>Checksum<ept id="p1">__</ept> without <bpt id="p2">__</bpt>Validate<ept id="p2">__</ept>, the configuration will fail.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Ensure</source>
+          <target state="new">Ensure</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Determines whether to check if the content of the archive exists at the <bpt id="p1">__</bpt>Destination<ept id="p1">__</ept>.</source>
+          <target state="new">Determines whether to check if the content of the archive exists at the <bpt id="p1">__</bpt>Destination<ept id="p1">__</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Set this property to <bpt id="p1">__</bpt>Present<ept id="p1">__</ept> to ensure the contents exist.</source>
+          <target state="new">Set this property to <bpt id="p1">__</bpt>Present<ept id="p1">__</ept> to ensure the contents exist.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Set it to <bpt id="p1">__</bpt>Absent<ept id="p1">__</ept> to ensure they do not exist.</source>
+          <target state="new">Set it to <bpt id="p1">__</bpt>Absent<ept id="p1">__</ept> to ensure they do not exist.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">__</bpt>Present<ept id="p1">__</ept>.</source>
+          <target state="new">The default value is <bpt id="p1">__</bpt>Present<ept id="p1">__</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, if the ID of the resource configuration script block that you want to run first is ResourceName and its type is <bpt id="p1">__</bpt>ResourceType<ept id="p1">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is ResourceName and its type is <bpt id="p1">__</bpt>ResourceType<ept id="p1">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Validate</source>
+          <target state="new">Validate</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Uses the Checksum property to determine if the archive matches the signature.</source>
+          <target state="new">Uses the Checksum property to determine if the archive matches the signature.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you specify Checksum without Validate, the configuration will fail.</source>
+          <target state="new">If you specify Checksum without Validate, the configuration will fail.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you specify Validate without Checksum, a SHA-256 checksum is used by default.</source>
+          <target state="new">If you specify Validate without Checksum, a SHA-256 checksum is used by default.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Force</source>
+          <target state="new">Force</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.</source>
+          <target state="new">Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Using the Force property overrides such errors.</source>
+          <target state="new">Using the Force property overrides such errors.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default value is False.</source>
+          <target state="new">The default value is False.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="new">Example</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The following example shows how to use the Archive resource to ensure that the contents of an archive file called Test.zip exist and are extracted at a given destination.</source>
+          <target state="new">The following example shows how to use the Archive resource to ensure that the contents of an archive file called Test.zip exist and are extracted at a given destination.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
