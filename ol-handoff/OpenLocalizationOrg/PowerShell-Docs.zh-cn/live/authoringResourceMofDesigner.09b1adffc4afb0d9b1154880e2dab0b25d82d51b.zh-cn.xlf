@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a95d0b59a90cbae44ec8d68bdaf59a1e318736d9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResourceMofDesigner.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84e61cb45190f8c461d9c88cf1b4c89e55489af1</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using the Resource Designer tool</source>
+          <target state="new">Using the Resource Designer tool</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Resource Designer tool is a set of cmdlets exposed by the <bpt id="p1">**</bpt>xDscResourceDesigner<ept id="p1">**</ept> module that make creating Windows PowerShell Desired State Configuration (DSC) resources easier.</source>
+          <target state="new">The Resource Designer tool is a set of cmdlets exposed by the <bpt id="p1">**</bpt>xDscResourceDesigner<ept id="p1">**</ept> module that make creating Windows PowerShell Desired State Configuration (DSC) resources easier.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The cmdlets in this resource help create the MOF schema, the script module, and the directory structure for your new resource.</source>
+          <target state="new">The cmdlets in this resource help create the MOF schema, the script module, and the directory structure for your new resource.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information about DSC resources, see <bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept>.</source>
+          <target state="new">For more information about DSC resources, see <bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this topic, we will create a DSC resource that manages Active Directory users.</source>
+          <target state="new">In this topic, we will create a DSC resource that manages Active Directory users.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to install the <bpt id="p2">**</bpt>xDscResourceDesigner<ept id="p2">**</ept> module.</source>
+          <target state="new">Use the <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to install the <bpt id="p2">**</bpt>xDscResourceDesigner<ept id="p2">**</ept> module.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
+          <target state="new">You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Creating resource properties</source>
+          <target state="new">Creating resource properties</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The first thing we need to do is decide on properties that the resource will expose.</source>
+          <target state="new">The first thing we need to do is decide on properties that the resource will expose.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For this example, we will define an Active Directory user with the following properties.</source>
+          <target state="new">For this example, we will define an Active Directory user with the following properties.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Parameter name  Description</source>
+          <target state="new">Parameter name  Description</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>UserName<ept id="p1">**</ept>: Key property that uniquely identifies a user.</source>
+          <target state="new"><bpt id="p1">**</bpt>UserName<ept id="p1">**</ept>: Key property that uniquely identifies a user.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ensure<ept id="p1">**</ept>: Specifies whether the user account should be Present or Absent.</source>
+          <target state="new"><bpt id="p1">**</bpt>Ensure<ept id="p1">**</ept>: Specifies whether the user account should be Present or Absent.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This parameter will have only two possible values.</source>
+          <target state="new">This parameter will have only two possible values.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DomainCredential<ept id="p1">**</ept>: The domain password for the user.</source>
+          <target state="new"><bpt id="p1">**</bpt>DomainCredential<ept id="p1">**</ept>: The domain password for the user.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Password<ept id="p1">**</ept>: The desired password for the user to allow a configuration to change the user password if necessary.</source>
+          <target state="new"><bpt id="p1">**</bpt>Password<ept id="p1">**</ept>: The desired password for the user to allow a configuration to change the user password if necessary.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To create the properties, we use the <bpt id="p1">**</bpt>New-xDscResourceProperty<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">To create the properties, we use the <bpt id="p1">**</bpt>New-xDscResourceProperty<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following PowerShell commands create the properties described above.</source>
+          <target state="new">The following PowerShell commands create the properties described above.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create the resource</source>
+          <target state="new">Create the resource</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Now that the resource properties have been created, we can call the <bpt id="p1">**</bpt>New-xDscResource<ept id="p1">**</ept> cmdlet to create the resource.</source>
+          <target state="new">Now that the resource properties have been created, we can call the <bpt id="p1">**</bpt>New-xDscResource<ept id="p1">**</ept> cmdlet to create the resource.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-xDscResource<ept id="p1">**</ept> cmdlet takes the list of properties as parameters.</source>
+          <target state="new">The <bpt id="p1">**</bpt>New-xDscResource<ept id="p1">**</ept> cmdlet takes the list of properties as parameters.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It also takes the path where the module should be created, the name of the new resource, and the name of the module in which it is contained.</source>
+          <target state="new">It also takes the path where the module should be created, the name of the new resource, and the name of the module in which it is contained.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following PowerShell command creates the resource.</source>
+          <target state="new">The following PowerShell command creates the resource.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New-xDscResource<ept id="p1">**</ept> cmdlet creates the MOF schema, a skeleton resource script, the required directory structure for your new resource, and a manifest for the module that exposes the new resource.</source>
+          <target state="new">The <bpt id="p1">**</bpt>New-xDscResource<ept id="p1">**</ept> cmdlet creates the MOF schema, a skeleton resource script, the required directory structure for your new resource, and a manifest for the module that exposes the new resource.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The MOF schema file is at <bpt id="p1">**</bpt>C:\Program Files\WindowsPowerShell\Modules\Demo_DSCModule\DSCResources\Demo_ADUser\Demo_ADUser.schema.mof<ept id="p1">**</ept>, and its contents are as follows.</source>
+          <target state="new">The MOF schema file is at <bpt id="p1">**</bpt>C:\Program Files\WindowsPowerShell\Modules\Demo_DSCModule\DSCResources\Demo_ADUser\Demo_ADUser.schema.mof<ept id="p1">**</ept>, and its contents are as follows.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The resource script is at <bpt id="p1">**</bpt>C:\Program Files\WindowsPowerShell\Modules\Demo_DSCModule\DSCResources\Demo_ADUser\Demo_ADUser.psm1<ept id="p1">**</ept>.</source>
+          <target state="new">The resource script is at <bpt id="p1">**</bpt>C:\Program Files\WindowsPowerShell\Modules\Demo_DSCModule\DSCResources\Demo_ADUser\Demo_ADUser.psm1<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It does not include the actual logic to implement the resource, which you must add yourself.</source>
+          <target state="new">It does not include the actual logic to implement the resource, which you must add yourself.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The contents of the skeleton script are as follows.</source>
+          <target state="new">The contents of the skeleton script are as follows.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Updating the resource</source>
+          <target state="new">Updating the resource</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you need to add or modify the parameter list of the resource, you can call the <bpt id="p1">**</bpt>Update-xDscResource<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">If you need to add or modify the parameter list of the resource, you can call the <bpt id="p1">**</bpt>Update-xDscResource<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The cmdlet updates the resource with a new parameter list.</source>
+          <target state="new">The cmdlet updates the resource with a new parameter list.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you have already added logic in your resource script, it is left intact.</source>
+          <target state="new">If you have already added logic in your resource script, it is left intact.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, suppose you want to include the last log in time for the user in our resource.</source>
+          <target state="new">For example, suppose you want to include the last log in time for the user in our resource.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Rather than writing the resource again completely, you can call the <bpt id="p1">**</bpt>New-xDscResourceProperty<ept id="p1">**</ept> to create the new property, and then call <bpt id="p2">**</bpt>Update-xDscResource<ept id="p2">**</ept> and add your new property to the properties list.</source>
+          <target state="new">Rather than writing the resource again completely, you can call the <bpt id="p1">**</bpt>New-xDscResourceProperty<ept id="p1">**</ept> to create the new property, and then call <bpt id="p2">**</bpt>Update-xDscResource<ept id="p2">**</ept> and add your new property to the properties list.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Testing a resource schema</source>
+          <target state="new">Testing a resource schema</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The Resource Designer tool exposes one more cmdlet that can be used to test the validity of a MOF schema that you have written manually.</source>
+          <target state="new">The Resource Designer tool exposes one more cmdlet that can be used to test the validity of a MOF schema that you have written manually.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Call the <bpt id="p1">**</bpt>Test-xDscSchema<ept id="p1">**</ept> cmdlet, passing the path of a MOF resource schema as a parameter.</source>
+          <target state="new">Call the <bpt id="p1">**</bpt>Test-xDscSchema<ept id="p1">**</ept> cmdlet, passing the path of a MOF resource schema as a parameter.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The cmdlet will output any errors in the schema.</source>
+          <target state="new">The cmdlet will output any errors in the schema.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Concepts</source>
+          <target state="new">Concepts</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Build Custom Windows PowerShell Desired State Configuration Resources</source>
+          <target state="new">Build Custom Windows PowerShell Desired State Configuration Resources</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Other Resources</source>
+          <target state="new">Other Resources</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>xDscResourceDesigner Module</source>
+          <target state="new">xDscResourceDesigner Module</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
