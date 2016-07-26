@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9bda555be3a52c574eccfa66b114883e2f543c70</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\lnxGroupResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f60083f2a954f66b0f3e7b178d2d4bdbc0e802a5</xliffext:olskeletonhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC for Linux nxGroup Resource</source>
+          <target state="new">DSC for Linux nxGroup Resource</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>nxGroup<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to manage local groups on a Linux node.</source>
+          <target state="new">The <bpt id="p1">**</bpt>nxGroup<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to manage local groups on a Linux node.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>GroupName</source>
+          <target state="new">GroupName</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the group for which you want to ensure a specific state.</source>
+          <target state="new">Specifies the name of the group for which you want to ensure a specific state.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Ensure</source>
+          <target state="new">Ensure</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Determines whether to check if the group exists.</source>
+          <target state="new">Determines whether to check if the group exists.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Set this property to "Present" to ensure the group exists.</source>
+          <target state="new">Set this property to "Present" to ensure the group exists.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set it to "Absent" to ensure the group does not exist.</source>
+          <target state="new">Set it to "Absent" to ensure the group does not exist.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The default value is "Present".</source>
+          <target state="new">The default value is "Present".</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Members</source>
+          <target state="new">Members</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Specifies the members that form the group.</source>
+          <target state="new">Specifies the members that form the group.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>MembersToInclude</source>
+          <target state="new">MembersToInclude</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Specifies the users who you want to ensure are members of the group.</source>
+          <target state="new">Specifies the users who you want to ensure are members of the group.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>MembersToExclude</source>
+          <target state="new">MembersToExclude</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies the users who you want to ensure are not members of the group.</source>
+          <target state="new">Specifies the users who you want to ensure are not members of the group.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>PreferredGroupID</source>
+          <target state="new">PreferredGroupID</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Sets the group id to the provided value if possible.</source>
+          <target state="new">Sets the group id to the provided value if possible.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the group id is currently in use, the next available group id is used.</source>
+          <target state="new">If the group id is currently in use, the next available group id is used.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="new">For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="new">Example</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following example ensures that the user “monuser” exists and is a member of the group "DBusers".</source>
+          <target state="new">The following example ensures that the user “monuser” exists and is a member of the group "DBusers".</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
