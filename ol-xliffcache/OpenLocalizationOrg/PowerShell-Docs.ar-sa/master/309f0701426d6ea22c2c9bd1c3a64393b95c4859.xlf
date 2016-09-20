@@ -1,0 +1,735 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">309f0701426d6ea22c2c9bd1c3a64393b95c4859</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b3ce7bc9b6057fa917286fd8c6a2d952d4ebef57</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73e3be3a286ed9596445f903e68603a3a5d80421</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Use remote wipe to help protect data | Microsoft Intune</source>
+          <target state="new">Use remote wipe to help protect data | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Intune provides selective wipe and full wipe capabilities to remove sensitive corporate data and remove access to many corporate resources.</source>
+          <target state="new">Intune provides selective wipe and full wipe capabilities to remove sensitive corporate data and remove access to many corporate resources.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Help protect your data with full or selective wipe using Microsoft Intune</source>
+          <target state="new">Help protect your data with full or selective wipe using Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Whether because a device is no longer needed, is being repurposed, or has gone missing, you can wipe apps and data from devices managed with Intune.</source>
+          <target state="new">Whether because a device is no longer needed, is being repurposed, or has gone missing, you can wipe apps and data from devices managed with Intune.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To do this, Intune provides selective wipe and full wipe capabilities.</source>
+          <target state="new">To do this, Intune provides selective wipe and full wipe capabilities.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Also, users can issue a remote device wipe command from the Intune Company Portal on privately owned devices enrolled in Intune.</source>
+          <target state="new">Also, users can issue a remote device wipe command from the Intune Company Portal on privately owned devices enrolled in Intune.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This topic is only about wiping devices managed by Intune mobile device management.</source>
+          <target state="new">This topic is only about wiping devices managed by Intune mobile device management.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also use <bpt id="p1">[</bpt>the Azure preview portal<ept id="p1">](https://portal.azure.com)</ept> to <bpt id="p2">[</bpt>wipe company data from apps<ept id="p2">](wipe-managed-company-app-data-with-microsoft-intune.md)</ept>.</source>
+          <target state="new">You can also use <bpt id="p1">[</bpt>the Azure preview portal<ept id="p1">](https://portal.azure.com)</ept> to <bpt id="p2">[</bpt>wipe company data from apps<ept id="p2">](wipe-managed-company-app-data-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can also <bpt id="p1">[</bpt>retire computers managed with the Intune client software<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client#retire-a-computer.md)</ept>.</source>
+          <target state="new">You can also <bpt id="p1">[</bpt>retire computers managed with the Intune client software<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client#retire-a-computer.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Full wipe</source>
+          <target state="new">Full wipe</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Full wipe<ept id="p1">**</ept> restores a device to its factory default settings, removing all company and user data and settings.</source>
+          <target state="new"><bpt id="p1">**</bpt>Full wipe<ept id="p1">**</ept> restores a device to its factory default settings, removing all company and user data and settings.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The device is removed from Intune.</source>
+          <target state="new">The device is removed from Intune.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Full wipe is useful for resetting a device before giving it to a new user or instances where the device has been lost or stolen.</source>
+          <target state="new">Full wipe is useful for resetting a device before giving it to a new user or instances where the device has been lost or stolen.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Be careful about selecting full wipe. Data on the device cannot be recovered<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Be careful about selecting full wipe. Data on the device cannot be recovered<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Windows 10 RTM devices (i.e. devices earlier than the Windows 10 version 1511) with less than 4 GB of RAM might become inaccessible if wiped.</source>
+          <target state="new">Windows 10 RTM devices (i.e. devices earlier than the Windows 10 version 1511) with less than 4 GB of RAM might become inaccessible if wiped.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To access a Windows 10 device that has become unresponsive, you can boot the device from a USB drive or similar workaround.</source>
+          <target state="new">To access a Windows 10 device that has become unresponsive, you can boot the device from a USB drive or similar workaround.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Remotely wipe a device from the Intune administrator console</source>
+          <target state="new">Remotely wipe a device from the Intune administrator console</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select devices to be wiped.</source>
+          <target state="new">Select devices to be wiped.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can find them either by user or by device.</source>
+          <target state="new">You can find them either by user or by device.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>By user:</source>
+          <target state="new">By user:</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Intune administrator console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Users<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Intune administrator console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Users<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the name of the user whose mobile device you want to wipe.</source>
+          <target state="new">Choose the name of the user whose mobile device you want to wipe.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>View Properties<ept id="p1">**</ept>.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>View Properties<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>On the user's <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept>  page, choose <bpt id="p2">**</bpt>Devices<ept id="p2">**</ept>, and then choose the name of the mobile device you want to wipe.</source>
+          <target state="new">On the user's <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept>  page, choose <bpt id="p2">**</bpt>Devices<ept id="p2">**</ept>, and then choose the name of the mobile device you want to wipe.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use Ctrl+click to multi-select devices.</source>
+          <target state="new">Use Ctrl+click to multi-select devices.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>By device:</source>
+          <target state="new">By device:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Intune administrator console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Mobile Devices<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Intune administrator console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Mobile Devices<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Starting a retire or wipe operation</source>
+          <target state="new">Starting a retire or wipe operation</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Devices<ept id="p1">**</ept>, and then choose the name of the mobile device you want to wipe.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Devices<ept id="p1">**</ept>, and then choose the name of the mobile device you want to wipe.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Use Ctrl+click to multi-select devices.</source>
+          <target state="new">Use Ctrl+click to multi-select devices.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Retire/Wipe<ept id="p1">**</ept>.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Retire/Wipe<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A message appears, prompting you to confirm whether you want to retire the device.</source>
+          <target state="new">A message appears, prompting you to confirm whether you want to retire the device.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To perform a <bpt id="p1">**</bpt>Selective wipe<ept id="p1">**</ept> which only removes company apps and data, choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+          <target state="new">To perform a <bpt id="p1">**</bpt>Selective wipe<ept id="p1">**</ept> which only removes company apps and data, choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To perform a <bpt id="p1">**</bpt>Full wipe<ept id="p1">**</ept> that erases all apps and data and returns the device to factory default settings, select <bpt id="p2">**</bpt>Wipe the device before retiring<ept id="p2">**</ept>.</source>
+          <target state="new">To perform a <bpt id="p1">**</bpt>Full wipe<ept id="p1">**</ept> that erases all apps and data and returns the device to factory default settings, select <bpt id="p2">**</bpt>Wipe the device before retiring<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This action applies to all platforms except Windows 8.1.</source>
+          <target state="new">This action applies to all platforms except Windows 8.1.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>You cannot recover data removed by a full wipe<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>You cannot recover data removed by a full wipe<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Given the device is on and connected, it takes less than 15 minutes for a wipe command to propagate across all device types.</source>
+          <target state="new">Given the device is on and connected, it takes less than 15 minutes for a wipe command to propagate across all device types.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Selective wipe</source>
+          <target state="new">Selective wipe</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Selective wipe<ept id="p1">**</ept> removes company data including mobile app management (MAM) data where applicable, settings, and email profiles from a device.</source>
+          <target state="new"><bpt id="p1">**</bpt>Selective wipe<ept id="p1">**</ept> removes company data including mobile app management (MAM) data where applicable, settings, and email profiles from a device.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Selective wipe leaves the user's personal data on the device.</source>
+          <target state="new">Selective wipe leaves the user's personal data on the device.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The device is removed from Intune.</source>
+          <target state="new">The device is removed from Intune.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The following tables describe by platform what data is removed and the effect on data that remains on the device after a selective wipe.</source>
+          <target state="new">The following tables describe by platform what data is removed and the effect on data that remains on the device after a selective wipe.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="new">iOS</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Data type</source>
+          <target state="new">Data type</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="new">iOS</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Company apps and associated data installed by Intune.</source>
+          <target state="new">Company apps and associated data installed by Intune.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Apps are uninstalled.</source>
+          <target state="new">Apps are uninstalled.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Company app data is removed.</source>
+          <target state="new">Company app data is removed.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>App data from Microsoft apps that use mobile app management is removed.</source>
+          <target state="new">App data from Microsoft apps that use mobile app management is removed.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The app is not removed.</source>
+          <target state="new">The app is not removed.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="new">Settings</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Configurations that were set by Intune policy are no longer enforced and users can change the settings.</source>
+          <target state="new">Configurations that were set by Intune policy are no longer enforced and users can change the settings.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Wi-Fi and VPN profile settings</source>
+          <target state="new">Wi-Fi and VPN profile settings</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Removed</source>
+          <target state="new">Removed</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Certificate profile settings</source>
+          <target state="new">Certificate profile settings</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Certificates removed and revoked.</source>
+          <target state="new">Certificates removed and revoked.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Management Agent</source>
+          <target state="new">Management Agent</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Management profile is removed.</source>
+          <target state="new">Management profile is removed.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="new">Email</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Email profiles that are provisioned through Intune are removed and cached email on the device is deleted.</source>
+          <target state="new">Email profiles that are provisioned through Intune are removed and cached email on the device is deleted.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory (AAD) Unjoin</source>
+          <target state="new">Azure Active Directory (AAD) Unjoin</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>AAD Record removed</source>
+          <target state="new">AAD Record removed</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Contacts</source>
+          <target state="new">Contacts</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Contacts synced directly from the app to the native address book are removed.</source>
+          <target state="new">Contacts synced directly from the app to the native address book are removed.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Any contacts synced from the native address book to another external source cannot be wiped.</source>
+          <target state="new">Any contacts synced from the native address book to another external source cannot be wiped.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Currently, only Outlook app is supported.</source>
+          <target state="new">Currently, only Outlook app is supported.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="new">Android</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Data type</source>
+          <target state="new">Data type</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="new">Android</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Android Samsung KNOX</source>
+          <target state="new">Android Samsung KNOX</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Web links</source>
+          <target state="new">Web links</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Removed.</source>
+          <target state="new">Removed.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Removed</source>
+          <target state="new">Removed</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Unmanaged Google Play apps</source>
+          <target state="new">Unmanaged Google Play apps</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Apps and data remain installed</source>
+          <target state="new">Apps and data remain installed</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Apps and data remain installed</source>
+          <target state="new">Apps and data remain installed</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Unmanaged line of business apps</source>
+          <target state="new">Unmanaged line of business apps</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Apps and data remain installed</source>
+          <target state="new">Apps and data remain installed</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Apps are uninstalled and data local to app is removed as a result.</source>
+          <target state="new">Apps are uninstalled and data local to app is removed as a result.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>No data outside the app (SD card, etc.) is removed.</source>
+          <target state="new">No data outside the app (SD card, etc.) is removed.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Managed Google Play apps</source>
+          <target state="new">Managed Google Play apps</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>App data is removed.</source>
+          <target state="new">App data is removed.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>App is not removed.</source>
+          <target state="new">App is not removed.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted and unusable, but aren't removed.</source>
+          <target state="new">Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted and unusable, but aren't removed.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>App data is removed.</source>
+          <target state="new">App data is removed.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>App is not removed.</source>
+          <target state="new">App is not removed.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.</source>
+          <target state="new">Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Managed line of business apps</source>
+          <target state="new">Managed line of business apps</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>App data is removed.</source>
+          <target state="new">App data is removed.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>App is not removed.</source>
+          <target state="new">App is not removed.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted and unusable, but aren't removed.</source>
+          <target state="new">Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted and unusable, but aren't removed.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>App data is removed.</source>
+          <target state="new">App data is removed.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>App is not removed.</source>
+          <target state="new">App is not removed.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted and unusable, but aren't removed.</source>
+          <target state="new">Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted and unusable, but aren't removed.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="new">Settings</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Configurations that were set by Intune policy are no longer enforced and users can change the settings.</source>
+          <target state="new">Configurations that were set by Intune policy are no longer enforced and users can change the settings.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Configurations that were set by Intune policy are no longer enforced and users can change the settings.</source>
+          <target state="new">Configurations that were set by Intune policy are no longer enforced and users can change the settings.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Wi-Fi and VPN profile settings</source>
+          <target state="new">Wi-Fi and VPN profile settings</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Removed</source>
+          <target state="new">Removed</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Removed</source>
+          <target state="new">Removed</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Certificate profile settings</source>
+          <target state="new">Certificate profile settings</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Certificates revoked, but not removed.</source>
+          <target state="new">Certificates revoked, but not removed.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Certificates removed and revoked.</source>
+          <target state="new">Certificates removed and revoked.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Management Agent</source>
+          <target state="new">Management Agent</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Device Administrator privilege is revoked.</source>
+          <target state="new">Device Administrator privilege is revoked.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Device Administrator privilege is revoked.</source>
+          <target state="new">Device Administrator privilege is revoked.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="new">Email</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Email  received by the Microsoft Outlook app for Android  app is removed.</source>
+          <target state="new">Email  received by the Microsoft Outlook app for Android  app is removed.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Email profiles that are provisioned through Intune are removed and cached email on the device is deleted.</source>
+          <target state="new">Email profiles that are provisioned through Intune are removed and cached email on the device is deleted.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory (AAD) Unjoin</source>
+          <target state="new">Azure Active Directory (AAD) Unjoin</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>AAD Record removed</source>
+          <target state="new">AAD Record removed</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>AAD Record removed</source>
+          <target state="new">AAD Record removed</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Contacts</source>
+          <target state="new">Contacts</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Contacts synced directly from the app to the native address book are removed.</source>
+          <target state="new">Contacts synced directly from the app to the native address book are removed.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Any contacts synced from the native address book to another external source cannot be wiped.</source>
+          <target state="new">Any contacts synced from the native address book to another external source cannot be wiped.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Currently, only Outlook app is supported.</source>
+          <target state="new">Currently, only Outlook app is supported.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Contacts synced directly from the app to the native address book are removed.</source>
+          <target state="new">Contacts synced directly from the app to the native address book are removed.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Any contacts synced from the native address book to another external source cannot be wiped.</source>
+          <target state="new">Any contacts synced from the native address book to another external source cannot be wiped.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Currently, only Outlook app is supported.</source>
+          <target state="new">Currently, only Outlook app is supported.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+          <target state="new">Windows</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Data type</source>
+          <target state="new">Data type</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 (MDM) and Windows RT 8.1</source>
+          <target state="new">Windows 8.1 (MDM) and Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="new">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8 and Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Windows 10</source>
+          <target state="new">Windows 10</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Company apps and associated data installed by Intune.</source>
+          <target state="new">Company apps and associated data installed by Intune.</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Files protected by EFS will have their key revoked and the user will not be able to open the files.</source>
+          <target state="new">Files protected by EFS will have their key revoked and the user will not be able to open the files.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Will not remove company apps.</source>
+          <target state="new">Will not remove company apps.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Apps originally installed through the company portal are uninstalled.</source>
+          <target state="new">Apps originally installed through the company portal are uninstalled.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Company app data is removed.</source>
+          <target state="new">Company app data is removed.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Apps are uninstalled and sideloading keys are removed.</source>
+          <target state="new">Apps are uninstalled and sideloading keys are removed.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="new">Settings</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Configurations that were set by Intune policy are no longer enforced and users can change the settings.</source>
+          <target state="new">Configurations that were set by Intune policy are no longer enforced and users can change the settings.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Configurations that were set by Intune policy are no longer enforced and users can change the settings.</source>
+          <target state="new">Configurations that were set by Intune policy are no longer enforced and users can change the settings.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Configurations that were set by Intune policy are no longer enforced and users can change the settings.</source>
+          <target state="new">Configurations that were set by Intune policy are no longer enforced and users can change the settings.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Configurations that were set by Intune policy are no longer enforced and users can change the settings.</source>
+          <target state="new">Configurations that were set by Intune policy are no longer enforced and users can change the settings.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Wi-Fi and VPN profile settings</source>
+          <target state="new">Wi-Fi and VPN profile settings</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Removed</source>
+          <target state="new">Removed</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Removed</source>
+          <target state="new">Removed</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Not supported</source>
+          <target state="new">Not supported</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Removed</source>
+          <target state="new">Removed</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Certificate profile settings</source>
+          <target state="new">Certificate profile settings</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Certificates removed and revoked.</source>
+          <target state="new">Certificates removed and revoked.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Certificates removed and revoked.</source>
+          <target state="new">Certificates removed and revoked.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Not supported</source>
+          <target state="new">Not supported</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Certificates removed and revoked.</source>
+          <target state="new">Certificates removed and revoked.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="new">Email</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Removes email that is EFS enabled which includes the Mail app for Windows email and attachments.</source>
+          <target state="new">Removes email that is EFS enabled which includes the Mail app for Windows email and attachments.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Not supported</source>
+          <target state="new">Not supported</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Email profiles that are provisioned through Intune are removed and cached email on the device is deleted.</source>
+          <target state="new">Email profiles that are provisioned through Intune are removed and cached email on the device is deleted.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Removes email that is EFS enabled which includes the Mail app for Windows email and attachments.</source>
+          <target state="new">Removes email that is EFS enabled which includes the Mail app for Windows email and attachments.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Removes mail accounts that were provisioned by Intune.</source>
+          <target state="new">Removes mail accounts that were provisioned by Intune.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory (AAD) Unjoin</source>
+          <target state="new">Azure Active Directory (AAD) Unjoin</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>AAD Record removed</source>
+          <target state="new">AAD Record removed</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Not applicable.</source>
+          <target state="new">Not applicable.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Windows 10 does not support selective wipe for Azure Active Directory joined devices</source>
+          <target state="new">Windows 10 does not support selective wipe for Azure Active Directory joined devices</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Wipe encryption file system (EFS)-enabled content</source>
+          <target state="new">Wipe encryption file system (EFS)-enabled content</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Selective wipe of EFS-encrypted content is supported by Windows 8.1 and Windows RT 8.1.</source>
+          <target state="new">Selective wipe of EFS-encrypted content is supported by Windows 8.1 and Windows RT 8.1.</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The following apply to a selective wipe of EFS-enabled content:</source>
+          <target state="new">The following apply to a selective wipe of EFS-enabled content:</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Only apps and data that are protected by EFS using the same Internet domain as the Intune account are selectively wiped.</source>
+          <target state="new">Only apps and data that are protected by EFS using the same Internet domain as the Intune account are selectively wiped.</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Windows Selective Wipe for Device Data Management<ept id="p1">](http://technet.microsoft.com/library/dn486874.aspx)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Windows Selective Wipe for Device Data Management<ept id="p1">](http://technet.microsoft.com/library/dn486874.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If there are any changes are made to the domain associated with EFS, the changes can take up to 48 hours before apps and data using the new domain can be selectively wiped.</source>
+          <target state="new">If there are any changes are made to the domain associated with EFS, the changes can take up to 48 hours before apps and data using the new domain can be selectively wiped.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Each domain that is registered with Intune will be wiped.</source>
+          <target state="new">Each domain that is registered with Intune will be wiped.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The data and apps that are currently supported by EFS selective wipe are:</source>
+          <target state="new">The data and apps that are currently supported by EFS selective wipe are:</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Mail app for Windows</source>
+          <target state="new">Mail app for Windows</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Work Folders</source>
+          <target state="new">Work Folders</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Files and folders encrypted by EFS.</source>
+          <target state="new">Files and folders encrypted by EFS.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Best practices for the Encrypting File System<ept id="p1">](http://support.microsoft.com/kb/223316)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Best practices for the Encrypting File System<ept id="p1">](http://support.microsoft.com/kb/223316)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>If your organization maintains its identity in Active Directory, it must use the Directory Sync (DirSync) tool to sync information into AAD for EFS selective wipe to work correctly.</source>
+          <target state="new">If your organization maintains its identity in Active Directory, it must use the Directory Sync (DirSync) tool to sync information into AAD for EFS selective wipe to work correctly.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>For more information on DirSync, see <bpt id="p1">[</bpt>Directory Sync Scenario<ept id="p1">](http://technet.microsoft.com/library/dn441212.aspx)</ept> in the Azure Active Directory documentation.</source>
+          <target state="new">For more information on DirSync, see <bpt id="p1">[</bpt>Directory Sync Scenario<ept id="p1">](http://technet.microsoft.com/library/dn441212.aspx)</ept> in the Azure Active Directory documentation.</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Monitor retire, wipe, and delete actions</source>
+          <target state="new">Monitor retire, wipe, and delete actions</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>To get a report of devices that have been retired, wiped, or deleted, and who performed the action:</source>
+          <target state="new">To get a report of devices that have been retired, wiped, or deleted, and who performed the action:</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Intune administrator  console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Device History Reports<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Intune administrator  console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Device History Reports<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Provide a start and end date for the report, then choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept>.</source>
+          <target state="new">Provide a start and end date for the report, then choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Retire devices</source>
+          <target state="new">Retire devices</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Windows Selective Wipe for Device Data Management</source>
+          <target state="new">Windows Selective Wipe for Device Data Management</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

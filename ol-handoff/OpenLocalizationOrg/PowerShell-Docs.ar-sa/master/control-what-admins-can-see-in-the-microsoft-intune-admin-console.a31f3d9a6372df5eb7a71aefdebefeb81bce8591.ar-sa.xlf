@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1059aae1c90e3623201281d4cf14d9db442e3f20</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26ab3371635d003b2ceb80c120fbb71fecad6153</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fbce8f09ec4a67650432ffaa9823a78dd5bbed08</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Customize console views for admin roles | Microsoft Intune</source>
+          <target state="new">Customize console views for admin roles | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use this topic to help you filter the Intune admin console view to allow your admins to see only the items they need for their role.</source>
+          <target state="new">Use this topic to help you filter the Intune admin console view to allow your admins to see only the items they need for their role.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Customize Intune console views according to admin roles</source>
+          <target state="new">Customize Intune console views according to admin roles</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can filter the Microsoft Intune administration console view to allow your admins to see only the items they need to see for their role.</source>
+          <target state="new">You can filter the Microsoft Intune administration console view to allow your admins to see only the items they need to see for their role.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, you can allow only admin console operators to update malware definitions or reset the passcode on devices.</source>
+          <target state="new">For example, you can allow only admin console operators to update malware definitions or reset the passcode on devices.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You do this by using preset <bpt id="p1">**</bpt>designations<ept id="p1">**</ept> that you assign to specific users.</source>
+          <target state="new">You do this by using preset <bpt id="p1">**</bpt>designations<ept id="p1">**</ept> that you assign to specific users.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When these users access the admin console, they can only see items that are specific to their designation.</source>
+          <target state="new">When these users access the admin console, they can only see items that are specific to their designation.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To create a custom view</source>
+          <target state="new">To create a custom view</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Service Administrators<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Service Administrators<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>From the list of service administrators, choose the user whose designation you want to change, and then choose <bpt id="p1">**</bpt>Manage Access<ept id="p1">**</ept>.</source>
+          <target state="new">From the list of service administrators, choose the user whose designation you want to change, and then choose <bpt id="p1">**</bpt>Manage Access<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Access<ept id="p1">**</ept> dialog box, choose the level of access that you want to give the selected user.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Manage Access<ept id="p1">**</ept> dialog box, choose the level of access that you want to give the selected user.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can choose from:</source>
+          <target state="new">You can choose from:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Full access</source>
+          <target state="new">Full access</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Read-only access</source>
+          <target state="new">Read-only access</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Helpdesk - Groups node</source>
+          <target state="new">Helpdesk - Groups node</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Full access and read-only access are self-explanatory.</source>
+          <target state="new">Full access and read-only access are self-explanatory.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Helpdesk - Groups Node<ept id="p1">**</ept> restricts what the admin can see and do to the following:</source>
+          <target state="new"><bpt id="p1">**</bpt>Helpdesk - Groups Node<ept id="p1">**</ept> restricts what the admin can see and do to the following:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>See lists of users and devices.</source>
+          <target state="new">See lists of users and devices.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The admin cannot use filters to modify the view.</source>
+          <target state="new">The admin cannot use filters to modify the view.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, you can use group filtering to modify what the admin can see.</source>
+          <target state="new">However, you can use group filtering to modify what the admin can see.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use groups to manage users and devices with Microsoft Intune<ept id="p1">](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Use groups to manage users and devices with Microsoft Intune<ept id="p1">](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Print the list of users and devices</source>
+          <target state="new">Print the list of users and devices</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Export the list of users and devices</source>
+          <target state="new">Export the list of users and devices</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>View the properties of a user or device</source>
+          <target state="new">View the properties of a user or device</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Perform the following remote tasks:</source>
+          <target state="new">Perform the following remote tasks:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Run a full malware scan</source>
+          <target state="new">Run a full malware scan</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Run a quick malware scan</source>
+          <target state="new">Run a quick malware scan</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Restart a computer</source>
+          <target state="new">Restart a computer</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Update malware definitions</source>
+          <target state="new">Update malware definitions</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Refresh policies</source>
+          <target state="new">Refresh policies</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Refresh inventory</source>
+          <target state="new">Refresh inventory</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Lock a device remotely</source>
+          <target state="new">Lock a device remotely</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Reset a passcode</source>
+          <target state="new">Reset a passcode</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When the admin that you configured next opens the Intune admin console, they will be given the level of access that you designated.</source>
+          <target state="new">When the admin that you configured next opens the Intune admin console, they will be given the level of access that you designated.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

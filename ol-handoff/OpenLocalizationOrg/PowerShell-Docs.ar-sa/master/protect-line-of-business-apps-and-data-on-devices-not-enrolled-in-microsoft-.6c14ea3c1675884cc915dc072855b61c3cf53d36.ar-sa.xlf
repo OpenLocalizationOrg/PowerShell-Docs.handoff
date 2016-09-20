@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb04f0e7b9627ad1869ef677f1b32380db868490</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">deec57225d450ad4368ea024cbba779e134f4883</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1206b1145b15abfb1e023f0a15f8ef91cb085dee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Protect LOB apps on devices not enrolled | Microsoft Intune</source>
+          <target state="new">Protect LOB apps on devices not enrolled | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic describes how you can prepare your custom line of business apps so you can apply mobile app management policies that can help prevent data loss.</source>
+          <target state="new">This topic describes how you can prepare your custom line of business apps so you can apply mobile app management policies that can help prevent data loss.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Protect line of business apps and data  on devices not enrolled in Microsoft Intune</source>
+          <target state="new">Protect line of business apps and data  on devices not enrolled in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Mobile app management (MAM) policies help protect your company data by restricting data movement like copy and paste or by preventing users from saving company documents to a personal location.</source>
+          <target state="new">Mobile app management (MAM) policies help protect your company data by restricting data movement like copy and paste or by preventing users from saving company documents to a personal location.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To apply MAM policies to iOS and or Android line of business apps, you must first wrap the app with Microsoft Intune App Wrapping tool.</source>
+          <target state="new">To apply MAM policies to iOS and or Android line of business apps, you must first wrap the app with Microsoft Intune App Wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>App wrapping is the process of applying a management layer to a mobile app without requiring any changes to the underlying application.</source>
+          <target state="new">App wrapping is the process of applying a management layer to a mobile app without requiring any changes to the underlying application.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Once the app is wrapped, you can apply MAM policies to it and distribute it to your end-users.</source>
+          <target state="new">Once the app is wrapped, you can apply MAM policies to it and distribute it to your end-users.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This topic explains the steps required to apply MAM policies for apps that are accessed on <bpt id="p1">**</bpt>employee owned devices that are not managed<ept id="p1">**</ept>, and devices that are managed by a <bpt id="p2">**</bpt>third-party mobile device management (MDM) solution<ept id="p2">**</ept>.</source>
+          <target state="new">This topic explains the steps required to apply MAM policies for apps that are accessed on <bpt id="p1">**</bpt>employee owned devices that are not managed<ept id="p1">**</ept>, and devices that are managed by a <bpt id="p2">**</bpt>third-party mobile device management (MDM) solution<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To prepare your line of business apps that run on <bpt id="p1">**</bpt>devices that are enrolled in Intune<ept id="p1">**</ept>, see <bpt id="p2">[</bpt>Decide how to prepare apps for mobile application management with Microsoft Intune<ept id="p2">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept>.</source>
+          <target state="new">To prepare your line of business apps that run on <bpt id="p1">**</bpt>devices that are enrolled in Intune<ept id="p1">**</ept>, see <bpt id="p2">[</bpt>Decide how to prepare apps for mobile application management with Microsoft Intune<ept id="p2">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Step 1: Prepare the app</source>
+          <target state="new">Step 1: Prepare the app</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Before you can apply MAM policies to an app, you must first wrap the app with the Microsoft Intune App Wrapping tool.</source>
+          <target state="new">Before you can apply MAM policies to an app, you must first wrap the app with the Microsoft Intune App Wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The instructions to install and use the app wrapping tool are included in the download.</source>
+          <target state="new">The instructions to install and use the app wrapping tool are included in the download.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This version of the app wrapping tool, which supports devices not enrolled in Intune is available in public preview.</source>
+          <target state="new">This version of the app wrapping tool, which supports devices not enrolled in Intune is available in public preview.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you wish to participate in the public preview, you can download the tool from <bpt id="p1">[</bpt>this github page<ept id="p1">](https://github.com/msintuneappsdk/intune-app-wrapper-ios-preview)</ept> for iOS and <bpt id="p2">[</bpt>this github site<ept id="p2">](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)</ept> for Android.</source>
+          <target state="new">If you wish to participate in the public preview, you can download the tool from <bpt id="p1">[</bpt>this github page<ept id="p1">](https://github.com/msintuneappsdk/intune-app-wrapper-ios-preview)</ept> for iOS and <bpt id="p2">[</bpt>this github site<ept id="p2">](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)</ept> for Android.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Step 2: Add the app</source>
+          <target state="new">Step 2: Add the app</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To associate your line-of-business app with MAM policies, you must add the app details to your Intune subscription/tenant using the following steps:</source>
+          <target state="new">To associate your line-of-business app with MAM policies, you must add the app details to your Intune subscription/tenant using the following steps:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/)</ept>, go to <bpt id="p2">**</bpt>Intune mobile application management &gt; Settings<ept id="p2">**</ept>, and choose <bpt id="p3">**</bpt>Line-of-business apps<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/)</ept>, go to <bpt id="p2">**</bpt>Intune mobile application management &gt; Settings<ept id="p2">**</ept>, and choose <bpt id="p3">**</bpt>Line-of-business apps<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Screenshot of the settings blade with line of business option</source>
+          <target state="new">Screenshot of the settings blade with line of business option</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Line-of-business-apps<ept id="p1">**</ept> blade, choose <bpt id="p2">**</bpt>Add a custom app<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Line-of-business-apps<ept id="p1">**</ept> blade, choose <bpt id="p2">**</bpt>Add a custom app<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Screenshot of the line of business apps blade with the Add custom app button at the top</source>
+          <target state="new">Screenshot of the line of business apps blade with the Add custom app button at the top</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Provide a name for the app, the bundle identifier in the App identifier field, and the platform (iOS or Android).</source>
+          <target state="new">Provide a name for the app, the bundle identifier in the App identifier field, and the platform (iOS or Android).</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Add a custom app blade <ph id="ph1">](../media/mam-azure-portal-add-app-details.png)</ph> This step helps create a unique listing of your app.</source>
+          <target state="new">Screenshot of the Add a custom app blade <ph id="ph1">](../media/mam-azure-portal-add-app-details.png)</ph> This step helps create a unique listing of your app.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The app will be also be displayed in the list of Targeted apps for a MAM policy for your tenant, as described in the next step.</source>
+          <target state="new">The app will be also be displayed in the list of Targeted apps for a MAM policy for your tenant, as described in the next step.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Step 3: Apply MAM policies</source>
+          <target state="new">Step 3: Apply MAM policies</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Once the app metadata is uploaded to the service, the app will show up in the list of apps.</source>
+          <target state="new">Once the app metadata is uploaded to the service, the app will show up in the list of apps.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can now <bpt id="p1">[</bpt>create a new policy or an existing policy<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept> and apply it to the line of business app you added in step 2.</source>
+          <target state="new">You can now <bpt id="p1">[</bpt>create a new policy or an existing policy<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept> and apply it to the line of business app you added in step 2.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You must target the MAM policy to the users who are going to use the wrapped app.</source>
+          <target state="new">You must target the MAM policy to the users who are going to use the wrapped app.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Users who don’t have this policy deployed to them will not be able to use the app.</source>
+          <target state="new">Users who don’t have this policy deployed to them will not be able to use the app.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Targeted list of apps blade with the new line of business app displayed</source>
+          <target state="new">Screenshot of the Targeted list of apps blade with the new line of business app displayed</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Step 4: Distribute the app</source>
+          <target state="new">Step 4: Distribute the app</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can deploy apps to your end-users in the following ways:</source>
+          <target state="new">You can deploy apps to your end-users in the following ways:</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For devices enrolled in a third party MDM solution, you can distribute the apps through your MDM solution.</source>
+          <target state="new">For devices enrolled in a third party MDM solution, you can distribute the apps through your MDM solution.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For devices not managed by any MDM solution, you will need a custom solution.</source>
+          <target state="new">For devices not managed by any MDM solution, you will need a custom solution.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>End-users have to download and install the app on their device.</source>
+          <target state="new">End-users have to download and install the app on their device.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Changing the metadata</source>
+          <target state="new">Changing the metadata</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you need to change the app details like the name of the app, or the Bundle identifier, you must <bpt id="p1">[</bpt>remove the app<ept id="p1">](#remove-apps)</ept>, and <bpt id="p2">[</bpt>add it<ept id="p2">](#step-2-add-the-app)</ept> with the new metadata.</source>
+          <target state="new">If you need to change the app details like the name of the app, or the Bundle identifier, you must <bpt id="p1">[</bpt>remove the app<ept id="p1">](#remove-apps)</ept>, and <bpt id="p2">[</bpt>add it<ept id="p2">](#step-2-add-the-app)</ept> with the new metadata.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Remove apps</source>
+          <target state="new">Remove apps</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can remove a line of business app from the app list.</source>
+          <target state="new">You can remove a line of business app from the app list.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This will remove the app from the list and remove the association with MAM policies, but will not remove or uninstall the app from the end-user’s device.</source>
+          <target state="new">This will remove the app from the list and remove the association with MAM policies, but will not remove or uninstall the app from the end-user’s device.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/)</ept>, go to <bpt id="p2">**</bpt>Intune mobile app management &gt; Settings<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/)</ept>, go to <bpt id="p2">**</bpt>Intune mobile app management &gt; Settings<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> blade, choose <bpt id="p2">**</bpt>Line-of-business<ept id="p2">**</ept> to open the list of existing apps.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> blade, choose <bpt id="p2">**</bpt>Line-of-business<ept id="p2">**</ept> to open the list of existing apps.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Select the app that you want to remove, and choose the <bpt id="p1">**</bpt>(…) context<ept id="p1">**</ept> menu.</source>
+          <target state="new">Select the app that you want to remove, and choose the <bpt id="p1">**</bpt>(…) context<ept id="p1">**</ept> menu.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Screenshot of the line of business apps blade with the ellipsis</source>
+          <target state="new">Screenshot of the line of business apps blade with the ellipsis</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Delete Application<ept id="p1">**</ept> to delete the app.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Delete Application<ept id="p1">**</ept> to delete the app.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Screenshot of the line of business blade with the delete application option</source>
+          <target state="new">Screenshot of the line of business blade with the delete application option</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This will remove apps from the list of line of business apps and the Targeted list of apps in the MAM policy.</source>
+          <target state="new">This will remove apps from the list of line of business apps and the Targeted list of apps in the MAM policy.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

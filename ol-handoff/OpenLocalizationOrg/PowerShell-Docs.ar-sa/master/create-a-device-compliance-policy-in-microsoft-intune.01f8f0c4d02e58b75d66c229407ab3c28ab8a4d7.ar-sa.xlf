@@ -1,0 +1,571 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ff0b24d0a6991c22b23da5da5c63a9bb26ccdd2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\create-a-device-compliance-policy-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">86e82f7f83cca88ba67fd05d07dbad0e249a0081</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73b1784f9d4eed12b382b8e072c6f3996532da0c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Create a device compliance policy | Microsoft Intune</source>
+          <target state="new">Create a device compliance policy | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create a compliance policy to help secure mobile devices and PCs used to access your company data.</source>
+          <target state="new">Create a compliance policy to help secure mobile devices and PCs used to access your company data.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create a device compliance policy in Microsoft Intune</source>
+          <target state="new">Create a device compliance policy in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic outlines the steps you can use to create a compliance policy that a device must follow in order to be considered compliant.</source>
+          <target state="new">This topic outlines the steps you can use to create a compliance policy that a device must follow in order to be considered compliant.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Step 1: Add a new policy</source>
+          <target state="new">Step 1: Add a new policy</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Compliance Policies<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Add<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Compliance Policies<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Add<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Screenshot of the compliance policy page in the Intune admin console, showing the add option in the menu at the top of page</source>
+          <target state="new">Screenshot of the compliance policy page in the Intune admin console, showing the add option in the menu at the top of page</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Step 2:  Configure settings</source>
+          <target state="new">Step 2:  Configure settings</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create Policy<ept id="p1">**</ept> page, enable the settings you require:</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Create Policy<ept id="p1">**</ept> page, enable the settings you require:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The System security settings like password, and encryption</source>
+          <target state="new">The System security settings like password, and encryption</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Device health settings like whether or not a device is jailbroken, or is reported healthy by the Windows device health attestation service.</source>
+          <target state="new">Device health settings like whether or not a device is jailbroken, or is reported healthy by the Windows device health attestation service.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Device property settings like the minimum OS version required or maximum OS version allowed.</source>
+          <target state="new">Device property settings like the minimum OS version required or maximum OS version allowed.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>General tab of the Create Policy page</source>
+          <target state="new">General tab of the Create Policy page</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Step 3: Save the policy</source>
+          <target state="new">Step 3: Save the policy</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When you are finished, choose <bpt id="p1">**</bpt>Save Policy<ept id="p1">**</ept>.</source>
+          <target state="new">When you are finished, choose <bpt id="p1">**</bpt>Save Policy<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You will have the option to deploy the policy right after saving the policy, or you can choose to deploy it later.</source>
+          <target state="new">You will have the option to deploy the policy right after saving the policy, or you can choose to deploy it later.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The new policy displays in the <bpt id="p1">**</bpt>Compliance Policies<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace.</source>
+          <target state="new">The new policy displays in the <bpt id="p1">**</bpt>Compliance Policies<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Step 4: Set the compliance status validity period</source>
+          <target state="new">Step 4: Set the compliance status validity period</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To specify the time the device has to check-in before a device is considered not compliant, go to compliance policy settings and update the time.</source>
+          <target state="new">To specify the time the device has to check-in before a device is considered not compliant, go to compliance policy settings and update the time.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The default is set to 30 days.</source>
+          <target state="new">The default is set to 30 days.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>compliance policy settings option in the policy menu bar</source>
+          <target state="new">compliance policy settings option in the policy menu bar</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>compliance policy dialog box</source>
+          <target state="new">compliance policy dialog box</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Supported policy settings</source>
+          <target state="new">Supported policy settings</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The following table lists the compliance policy settings and the platforms on which they are supported.</source>
+          <target state="new">The following table lists the compliance policy settings and the platforms on which they are supported.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Setting</source>
+          <target state="new">Setting</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="new">iOS</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="new">Android</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+          <target state="new">Windows</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Require a password to unlock mobile devices</source>
+          <target state="new">Require a password to unlock mobile devices</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Allow simple passwords</source>
+          <target state="new">Allow simple passwords</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Not supported</source>
+          <target state="new">Not supported</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Minimum password length</source>
+          <target state="new">Minimum password length</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Required password type</source>
+          <target state="new">Required password type</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="new">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Windows RT 8.1</source>
+          <target state="new">Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Minimum number of character sets</source>
+          <target state="new">Minimum number of character sets</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="new">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Windows RT 8.1</source>
+          <target state="new">Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Password quality</source>
+          <target state="new">Password quality</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Minutes of inactivity before password is required</source>
+          <target state="new">Minutes of inactivity before password is required</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target state="new">Windows RT and Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Password expiration (days)</source>
+          <target state="new">Password expiration (days)</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target state="new">Windows RT and Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Remember password history</source>
+          <target state="new">Remember password history</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target state="new">Windows RT and Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Prevent reuse of previous passwords</source>
+          <target state="new">Prevent reuse of previous passwords</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target state="new">Windows RT and Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Require a password when the device returns from an idle state</source>
+          <target state="new">Require a password when the device returns from an idle state</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Windows 10 Mobile</source>
+          <target state="new">Windows 10 Mobile</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Require encryption on mobile device</source>
+          <target state="new">Require encryption on mobile device</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Not applicable</source>
+          <target state="new">Not applicable</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Require devices to be reported as healthy</source>
+          <target state="new">Require devices to be reported as healthy</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+          <target state="new">Windows</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Windows 10 Mobile</source>
+          <target state="new">Windows 10 Mobile</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Device must Not be jailbroken or rooted</source>
+          <target state="new">Device must Not be jailbroken or rooted</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Email account must be managed by Intune</source>
+          <target state="new">Email account must be managed by Intune</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Select the email profile that must be managed by Intune</source>
+          <target state="new">Select the email profile that must be managed by Intune</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Minimum OS required</source>
+          <target state="new">Minimum OS required</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Maximum OS version allowed</source>
+          <target state="new">Maximum OS version allowed</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>iOS 6 and later</source>
+          <target state="new">iOS 6 and later</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="new">Samsung KNOX Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="new">Windows Phone 8 and later</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Select one of the following to learn more about compliance settings supported on each platform:</source>
+          <target state="new">Select one of the following to learn more about compliance settings supported on each platform:</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for iOS devices</source>
+          <target state="new">Compliance policy settings for iOS devices</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Android devices</source>
+          <target state="new">Compliance policy settings for Android devices</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Windows and Windows Phones</source>
+          <target state="new">Compliance policy settings for Windows and Windows Phones</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Deploy and monitor a compliance policy</source>
+          <target state="new">Deploy and monitor a compliance policy</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Introduction to device compliance policies</source>
+          <target state="new">Introduction to device compliance policies</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

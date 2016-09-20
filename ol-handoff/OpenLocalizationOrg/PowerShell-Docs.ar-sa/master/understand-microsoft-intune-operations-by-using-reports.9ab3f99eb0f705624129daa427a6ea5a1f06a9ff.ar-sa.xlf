@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9df7eddbae77e64cc3b0fdf9ddc158ed2ed2860</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\understand-microsoft-intune-operations-by-using-reports.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ca68b9f6a9d022252b54e2e87ac51803be5af45</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3de3863d6379a04a1552b249919c556be50fc48a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Understand operations by using reports | Microsoft Intune</source>
+          <target state="new">Understand operations by using reports | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create and manage reports about software, hardware, and software licenses in your organization.</source>
+          <target state="new">Create and manage reports about software, hardware, and software licenses in your organization.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Understand Microsoft Intune operations by using reports</source>
+          <target state="new">Understand Microsoft Intune operations by using reports</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use the information in this topic to help you create and manage Microsoft Intune reports that provide information about software, hardware, and software licenses in your organization.</source>
+          <target state="new">Use the information in this topic to help you create and manage Microsoft Intune reports that provide information about software, hardware, and software licenses in your organization.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Using reports</source>
+          <target state="new">Using reports</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Intune reports provide information about software, hardware, and software licenses in your organization.</source>
+          <target state="new">Intune reports provide information about software, hardware, and software licenses in your organization.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Reports can help you confirm current needs and forecast future spending.</source>
+          <target state="new">Reports can help you confirm current needs and forecast future spending.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept> workspace gives you the tools to create and manage reports.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept> workspace gives you the tools to create and manage reports.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Report types</source>
+          <target state="new">Report types</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Report type</source>
+          <target state="new">Report type</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Update Reports</source>
+          <target state="new">Update Reports</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Show the software updates that succeeded on computers in your organization.</source>
+          <target state="new">Show the software updates that succeeded on computers in your organization.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>They also show the updates that failed, are pending, or are needed.</source>
+          <target state="new">They also show the updates that failed, are pending, or are needed.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information on software updates, see <bpt id="p1">[</bpt>Keep Windows PCs up to date with software updates in Microsoft Intune<ept id="p1">](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">For more information on software updates, see <bpt id="p1">[</bpt>Keep Windows PCs up to date with software updates in Microsoft Intune<ept id="p1">](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Detected Software reports</source>
+          <target state="new">Detected Software reports</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Show software that is installed on computers in your organization.</source>
+          <target state="new">Show software that is installed on computers in your organization.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Software versions are included.</source>
+          <target state="new">Software versions are included.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can filter the information that displays based on the software publisher and the software category.</source>
+          <target state="new">You can filter the information that displays based on the software publisher and the software category.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can expand the updates in the list to show more detail (such as the computers on which an update is installed) by choosing the directional arrow next to the list item.</source>
+          <target state="new">You can expand the updates in the list to show more detail (such as the computers on which an update is installed) by choosing the directional arrow next to the list item.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When you retire computers or change their group memberships in Intune, it can take several minutes for these changes to be reflected in the Detected Software report.</source>
+          <target state="new">When you retire computers or change their group memberships in Intune, it can take several minutes for these changes to be reflected in the Detected Software report.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For the most accurate software inventory data, wait a few minutes after retiring computers or changing their group memberships before you run a detected software report that includes those computers.</source>
+          <target state="new">For the most accurate software inventory data, wait a few minutes after retiring computers or changing their group memberships before you run a detected software report that includes those computers.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Computer Inventory Reports</source>
+          <target state="new">Computer Inventory Reports</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Show information about managed computers in your organization.</source>
+          <target state="new">Show information about managed computers in your organization.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use this report to plan hardware purchases and to understand more about the hardware needs of users in your organization.</source>
+          <target state="new">Use this report to plan hardware purchases and to understand more about the hardware needs of users in your organization.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information on working with managed computers, see <bpt id="p1">[</bpt>Manage Windows PCs with Microsoft Intune<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept>.</source>
+          <target state="new">For more information on working with managed computers, see <bpt id="p1">[</bpt>Manage Windows PCs with Microsoft Intune<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Mobile Device Inventory Reports</source>
+          <target state="new">Mobile Device Inventory Reports</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Show information about the mobile devices in your organization.</source>
+          <target state="new">Show information about the mobile devices in your organization.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can filter the information that displays based on groups, whether the device is a jailbroken or rooted device, and by operating system.</source>
+          <target state="new">You can filter the information that displays based on groups, whether the device is a jailbroken or rooted device, and by operating system.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>License Purchase Reports</source>
+          <target state="new">License Purchase Reports</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Show the software titles for all licensed software in selected license groups, based on their licensing agreements.</source>
+          <target state="new">Show the software titles for all licensed software in selected license groups, based on their licensing agreements.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If software license information has not refreshed in more than 24 hours, it will refresh when you generate a license report.</source>
+          <target state="new">If software license information has not refreshed in more than 24 hours, it will refresh when you generate a license report.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A license report is not an exact calculation of software titles that are being used, or proof of compliance with agreements.</source>
+          <target state="new">A license report is not an exact calculation of software titles that are being used, or proof of compliance with agreements.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The report is a tool to help you make licensing decisions for your organization.</source>
+          <target state="new">The report is a tool to help you make licensing decisions for your organization.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Intune might not detect some products that are able to have a Microsoft volume license.</source>
+          <target state="new">Intune might not detect some products that are able to have a Microsoft volume license.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The available filters are:</source>
+          <target state="new">The available filters are:</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All agreements<ept id="p1">**</ept> shows all licensed software products that are managed by Intune.</source>
+          <target state="new"><bpt id="p1">**</bpt>All agreements<ept id="p1">**</ept> shows all licensed software products that are managed by Intune.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Volume licensing agreements<ept id="p1">**</ept> shows only Volume Licensing Service Center (VLSC) software products.</source>
+          <target state="new"><bpt id="p1">**</bpt>Volume licensing agreements<ept id="p1">**</ept> shows only Volume Licensing Service Center (VLSC) software products.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Other software licensing agreements<ept id="p1">**</ept> shows software products that are managed outside of the VLSC.</source>
+          <target state="new"><bpt id="p1">**</bpt>Other software licensing agreements<ept id="p1">**</ept> shows software products that are managed outside of the VLSC.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>License Installation Reports</source>
+          <target state="new">License Installation Reports</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Compare installed software on computers in your organization with your current license agreement coverage, according to the VLSC.</source>
+          <target state="new">Compare installed software on computers in your organization with your current license agreement coverage, according to the VLSC.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Filters include:</source>
+          <target state="new">Filters include:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All agreements<ept id="p1">**</ept> shows all licensed software products that are managed by Intune.</source>
+          <target state="new"><bpt id="p1">**</bpt>All agreements<ept id="p1">**</ept> shows all licensed software products that are managed by Intune.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Volume licensing agreements<ept id="p1">**</ept> shows only VLSC software products.</source>
+          <target state="new"><bpt id="p1">**</bpt>Volume licensing agreements<ept id="p1">**</ept> shows only VLSC software products.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Other software licensing agreements<ept id="p1">**</ept> shows software products that are managed outside of the VLSC.</source>
+          <target state="new"><bpt id="p1">**</bpt>Other software licensing agreements<ept id="p1">**</ept> shows software products that are managed outside of the VLSC.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Terms and Conditions Reports</source>
+          <target state="new">Terms and Conditions Reports</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Show whether users accepted the terms and conditions that you deployed, and which version they accepted.</source>
+          <target state="new">Show whether users accepted the terms and conditions that you deployed, and which version they accepted.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can show the acceptance of any terms and conditions that were deployed for up to 10 users, or show the acceptance status for a particular term that was deployed to them.</source>
+          <target state="new">You can show the acceptance of any terms and conditions that were deployed for up to 10 users, or show the acceptance status for a particular term that was deployed to them.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Noncompliant Apps Reports</source>
+          <target state="new">Noncompliant Apps Reports</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Show information about the users who have apps installed that are on your lists of compliant and noncompliant apps.</source>
+          <target state="new">Show information about the users who have apps installed that are on your lists of compliant and noncompliant apps.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Use this report to find users and devices that are not in compliance with your company app policies.</source>
+          <target state="new">Use this report to find users and devices that are not in compliance with your company app policies.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Certificate Compliance Reports</source>
+          <target state="new">Certificate Compliance Reports</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Show which certificates have been issued to users and devices through SCEP or PKCS #12 (.PFX).</source>
+          <target state="new">Show which certificates have been issued to users and devices through SCEP or PKCS #12 (.PFX).</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use this report to find certificates that are issued, expired, and revoked.</source>
+          <target state="new">Use this report to find certificates that are issued, expired, and revoked.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Device History Reports</source>
+          <target state="new">Device History Reports</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Show a historical log of retire, wipe, and delete actions.</source>
+          <target state="new">Show a historical log of retire, wipe, and delete actions.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Use this report to see who initiated actions on devices in the past.</source>
+          <target state="new">Use this report to see who initiated actions on devices in the past.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Health Attestation Reports</source>
+          <target state="new">Health Attestation Reports</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Show the health of mobile devices.</source>
+          <target state="new">Show the health of mobile devices.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Mac OS X Hardware Report</source>
+          <target state="new">Mac OS X Hardware Report</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Displays hardware details for all enrolled Mac OS X devices in the groups that you select.</source>
+          <target state="new">Displays hardware details for all enrolled Mac OS X devices in the groups that you select.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For information about the hardware inventory that is collected from these devices, see <bpt id="p1">[</bpt>Understand your devices with inventory in Microsoft Intune<ept id="p1">](understand-your-devices-with-inventory-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">For information about the hardware inventory that is collected from these devices, see <bpt id="p1">[</bpt>Understand your devices with inventory in Microsoft Intune<ept id="p1">](understand-your-devices-with-inventory-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Mac OS X Software Report</source>
+          <target state="new">Mac OS X Software Report</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Displays the software that is installed on all Mac OS X devices in the groups that you selected.</source>
+          <target state="new">Displays the software that is installed on all Mac OS X devices in the groups that you selected.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The report lists the software name (as a bundle ID), the short version (or friendly) name, the version, and the number of devices with the software installed.</source>
+          <target state="new">The report lists the software name (as a bundle ID), the short version (or friendly) name, the version, and the number of devices with the software installed.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To create a report</source>
+          <target state="new">To create a report</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In the Intune admin console, choose <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept>.</source>
+          <target state="new">In the Intune admin console, choose <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Then choose the report type that you want to generate, as described in the previous table.</source>
+          <target state="new">Then choose the report type that you want to generate, as described in the previous table.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, accept the default values, or customize them to filter the results that will be returned by the report.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, accept the default values, or customize them to filter the results that will be returned by the report.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, you could select that only software published by Microsoft will be displayed in the Detected Software report.</source>
+          <target state="new">For example, you could select that only software published by Microsoft will be displayed in the Detected Software report.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept> to open the report in a new window.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept> to open the report in a new window.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To sort the report by any of the displayed columns, choose the column heading.</source>
+          <target state="new">To sort the report by any of the displayed columns, choose the column heading.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Additionally, some reports allow you to expand items in the list to show more detail.</source>
+          <target state="new">Additionally, some reports allow you to expand items in the list to show more detail.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>More report actions</source>
+          <target state="new">More report actions</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>In addition, reports support the following actions:</source>
+          <target state="new">In addition, reports support the following actions:</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="new">Action</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="new">More information</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <target state="new">Print</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>In an open report, choose the print icon and follow the instructions.</source>
+          <target state="new">In an open report, choose the print icon and follow the instructions.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="new">Export</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In an open report, choose the export icon and follow the instructions.</source>
+          <target state="new">In an open report, choose the export icon and follow the instructions.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can export a report to comma-separated values (.csv) or HTML format.</source>
+          <target state="new">You can export a report to comma-separated values (.csv) or HTML format.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="new">Save</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, each user can save up to 100 reports.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, each user can save up to 100 reports.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Configure the report parameters to your requirements, and then choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Save As<ept id="p2">**</ept> (if you want to use a different name).</source>
+          <target state="new">Configure the report parameters to your requirements, and then choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Save As<ept id="p2">**</ept> (if you want to use a different name).</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Load</source>
+          <target state="new">Load</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Load<ept id="p2">**</ept> to retrieve any previously saved sets of report parameters.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Load<ept id="p2">**</ept> to retrieve any previously saved sets of report parameters.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">Delete</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept> workspace, select the desired report type and choose <bpt id="p2">**</bpt>Load<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept> workspace, select the desired report type and choose <bpt id="p2">**</bpt>Load<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Then, in the list of reports, choose the delete (x) icon next to the report.</source>
+          <target state="new">Then, in the list of reports, choose the delete (x) icon next to the report.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Monitoring and reports with Microsoft Intune</source>
+          <target state="new">Monitoring and reports with Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

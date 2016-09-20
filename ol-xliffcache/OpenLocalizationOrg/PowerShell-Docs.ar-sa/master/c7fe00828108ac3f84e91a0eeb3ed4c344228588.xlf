@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7fe00828108ac3f84e91a0eeb3ed4c344228588</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9093c90048c9043f67a62d696c0146b58333206c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ccb5dc5e99d076c17589642e9a57bfc9fdb871a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Use iOS mobile app configuration policies | Microsoft Intune</source>
+          <target state="new">Use iOS mobile app configuration policies | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use mobile app configuration policies in Intune to supply settings that might be required when users run an iOS app.</source>
+          <target state="new">Use mobile app configuration policies in Intune to supply settings that might be required when users run an iOS app.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Configure iOS apps with mobile app configuration policies in Microsoft Intune</source>
+          <target state="new">Configure iOS apps with mobile app configuration policies in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use mobile app configuration policies in Microsoft Intune to supply settings that might be required when users run an app.</source>
+          <target state="new">Use mobile app configuration policies in Microsoft Intune to supply settings that might be required when users run an app.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, an app might require users to specify:</source>
+          <target state="new">For example, an app might require users to specify:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A custom port number.</source>
+          <target state="new">A custom port number.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Language settings.</source>
+          <target state="new">Language settings.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Security settings.</source>
+          <target state="new">Security settings.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Branding settings such as a company logo.</source>
+          <target state="new">Branding settings such as a company logo.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If users enter these settings incorrectly, this can increase the burden on your help desk and slow the adoption of new apps.</source>
+          <target state="new">If users enter these settings incorrectly, this can increase the burden on your help desk and slow the adoption of new apps.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Mobile app configuration policies can help you eliminate these problems by letting you deploy these settings to users in a policy before they run the app.</source>
+          <target state="new">Mobile app configuration policies can help you eliminate these problems by letting you deploy these settings to users in a policy before they run the app.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The settings are then supplied automatically, and users need to take no action.</source>
+          <target state="new">The settings are then supplied automatically, and users need to take no action.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You do not deploy these policies directly to users and devices.</source>
+          <target state="new">You do not deploy these policies directly to users and devices.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Instead, you associate a policy with an app, and then deploy the app.</source>
+          <target state="new">Instead, you associate a policy with an app, and then deploy the app.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The policy settings will be used whenever the app checks for them (typically, the first time it is run).</source>
+          <target state="new">The policy settings will be used whenever the app checks for them (typically, the first time it is run).</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This policy type is currently available only for devices running iOS 8.0 and later.</source>
+          <target state="new">This policy type is currently available only for devices running iOS 8.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It supports the following app installation types:</source>
+          <target state="new">It supports the following app installation types:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Managed iOS app from the app store</source>
+          <target state="new">Managed iOS app from the app store</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>App package for iOS</source>
+          <target state="new">App package for iOS</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information about app installation types, see <bpt id="p1">[</bpt>Deploy apps with Microsoft Intune<ept id="p1">](deploy-apps.md)</ept>.</source>
+          <target state="new">For more information about app installation types, see <bpt id="p1">[</bpt>Deploy apps with Microsoft Intune<ept id="p1">](deploy-apps.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Configure a mobile app configuration policy</source>
+          <target state="new">Configure a mobile app configuration policy</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Overview<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Add Policy<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Overview<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Add Policy<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the list of policies, expand <bpt id="p1">**</bpt>iOS<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Mobile App Configuration<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Create Policy<ept id="p3">**</ept>.</source>
+          <target state="new">In the list of policies, expand <bpt id="p1">**</bpt>iOS<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Mobile App Configuration<ept id="p2">**</ept>, and then choose <bpt id="p3">**</bpt>Create Policy<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can configure only custom settings for this policy type.</source>
+          <target state="new">You can configure only custom settings for this policy type.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Recommended settings are not available.</source>
+          <target state="new">Recommended settings are not available.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> section of the <bpt id="p2">**</bpt>Create Policy<ept id="p2">**</ept> page, supply a name and an optional description for the mobile app configuration policy.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> section of the <bpt id="p2">**</bpt>Create Policy<ept id="p2">**</ept> page, supply a name and an optional description for the mobile app configuration policy.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Mobile App Configuration Policy<ept id="p1">**</ept> section of the page, in the box, enter or paste an  XML property list that contains the app configuration settings that you want.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Mobile App Configuration Policy<ept id="p1">**</ept> section of the page, in the box, enter or paste an  XML property list that contains the app configuration settings that you want.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The format of the XML property list will vary depending on the app you are configuring.</source>
+          <target state="new">The format of the XML property list will vary depending on the app you are configuring.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Contact the supplier of the app for details about the exact format to use.</source>
+          <target state="new">Contact the supplier of the app for details about the exact format to use.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To find out more about XML property lists, see <bpt id="p1">[</bpt>Understanding XML Property Lists<ept id="p1">](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)</ept> in the iOS Developer Library.</source>
+          <target state="new">To find out more about XML property lists, see <bpt id="p1">[</bpt>Understanding XML Property Lists<ept id="p1">](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html)</ept> in the iOS Developer Library.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Validate<ept id="p1">**</ept> to ensure that the XML that you entered is in a valid property list format.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Validate<ept id="p1">**</ept> to ensure that the XML that you entered is in a valid property list format.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When you click <bpt id="p1">**</bpt>Validate<ept id="p1">**</ept>, Intune checks that the XML you entered is in a valid format.</source>
+          <target state="new">When you click <bpt id="p1">**</bpt>Validate<ept id="p1">**</ept>, Intune checks that the XML you entered is in a valid format.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It does not check that the XML property list will work with the app that it is associated with.</source>
+          <target state="new">It does not check that the XML property list will work with the app that it is associated with.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you are done, click <bpt id="p1">**</bpt>Save Policy<ept id="p1">**</ept>.</source>
+          <target state="new">When you are done, click <bpt id="p1">**</bpt>Save Policy<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The new policy is displayed in the <bpt id="p1">**</bpt>Configuration Policies<ept id="p1">**</ept> node.</source>
+          <target state="new">The new policy is displayed in the <bpt id="p1">**</bpt>Configuration Policies<ept id="p1">**</ept> node.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Information about the XML file format</source>
+          <target state="new">Information about the XML file format</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Intune supports the following data types in a property list:</source>
+          <target state="new">Intune supports the following data types in a property list:</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>integer</source>
+          <target state="new">integer</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>real</source>
+          <target state="new">real</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>string</source>
+          <target state="new">string</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>array</source>
+          <target state="new">array</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>dict</source>
+          <target state="new">dict</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>true /<ph id="ph1">&amp;gt;</ph> or <ph id="ph2">&amp;lt;</ph>false /</source>
+          <target state="new">true /<ph id="ph1">&amp;gt;</ph> or <ph id="ph2">&amp;lt;</ph>false /</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information about data types, see <bpt id="p1">[</bpt>About Property Lists<ept id="p1">](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html)</ept> in the iOS Developer Library.</source>
+          <target state="new">For more information about data types, see <bpt id="p1">[</bpt>About Property Lists<ept id="p1">](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html)</ept> in the iOS Developer Library.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Additionally, Intune supports the following token types in the property list:</source>
+          <target state="new">Additionally, Intune supports the following token types in the property list:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>userprincipalname<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John@contoso.com<ept id="p1">**</ept>)</source>
+          <target state="new">userprincipalname<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John@contoso.com<ept id="p1">**</ept>)</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>mail<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John@contoso.com<ept id="p1">**</ept>)</source>
+          <target state="new">mail<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John@contoso.com<ept id="p1">**</ept>)</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>partialupn<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John<ept id="p1">**</ept>)</source>
+          <target state="new">partialupn<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John<ept id="p1">**</ept>)</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>accountid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>fc0dc142-71d8-4b12-bbea-bae2a8514c81<ept id="p1">**</ept>)</source>
+          <target state="new">accountid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>fc0dc142-71d8-4b12-bbea-bae2a8514c81<ept id="p1">**</ept>)</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>deviceid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>b9841cd9-9843-405f-be28-b2265c59ef97<ept id="p1">**</ept>)</source>
+          <target state="new">deviceid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>b9841cd9-9843-405f-be28-b2265c59ef97<ept id="p1">**</ept>)</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>userid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>3ec2c00f-b125-4519-acf0-302ac3761822<ept id="p1">**</ept>)</source>
+          <target state="new">userid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>3ec2c00f-b125-4519-acf0-302ac3761822<ept id="p1">**</ept>)</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>username<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John Doe<ept id="p1">**</ept>)</source>
+          <target state="new">username<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John Doe<ept id="p1">**</ept>)</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>serialnumber<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>F4KN99ZUG5V2<ept id="p1">**</ept>) for iOS devices</source>
+          <target state="new">serialnumber<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>F4KN99ZUG5V2<ept id="p1">**</ept>) for iOS devices</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>serialnumberlast4digits<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>G5V2<ept id="p1">**</ept>) for iOS devices</source>
+          <target state="new">serialnumberlast4digits<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>G5V2<ept id="p1">**</ept>) for iOS devices</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">\{\{</ph> and <ph id="ph2">\}\}</ph> characters are used by token types only and must not be used for other purposes.</source>
+          <target state="new">The <ph id="ph1">\{\{</ph> and <ph id="ph2">\}\}</ph> characters are used by token types only and must not be used for other purposes.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Associate a mobile app configuration policy with an app</source>
+          <target state="new">Associate a mobile app configuration policy with an app</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>After you have created a mobile app configuration policy, you must associate it with the iOS app to which you want the settings in the configuration policy to apply.</source>
+          <target state="new">After you have created a mobile app configuration policy, you must associate it with the iOS app to which you want the settings in the configuration policy to apply.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To do this, follow the steps to create an app deployment in <bpt id="p1">[</bpt>Add apps for mobile devices in Microsoft Intune<ept id="p1">](add-apps-for-mobile-devices-in-microsoft-intune.md)</ept> and <bpt id="p2">[</bpt>Deploy apps with Microsoft Intune<ept id="p2">](deploy-apps-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">To do this, follow the steps to create an app deployment in <bpt id="p1">[</bpt>Add apps for mobile devices in Microsoft Intune<ept id="p1">](add-apps-for-mobile-devices-in-microsoft-intune.md)</ept> and <bpt id="p2">[</bpt>Deploy apps with Microsoft Intune<ept id="p2">](deploy-apps-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When you reach the <bpt id="p1">**</bpt>Mobile App Configuration<ept id="p1">**</ept> page of the wizard, select the policy that you want to associate with the app from the <bpt id="p2">**</bpt>App Configuration Policy<ept id="p2">**</ept> drop-down list.</source>
+          <target state="new">When you reach the <bpt id="p1">**</bpt>Mobile App Configuration<ept id="p1">**</ept> page of the wizard, select the policy that you want to associate with the app from the <bpt id="p2">**</bpt>App Configuration Policy<ept id="p2">**</ept> drop-down list.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Then, continue to deploy and monitor the app deployment as usual.</source>
+          <target state="new">Then, continue to deploy and monitor the app deployment as usual.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When the deployed app is run on a device, it will run with the settings that you configured in the mobile app configuration policy.</source>
+          <target state="new">When the deployed app is run on a device, it will run with the settings that you configured in the mobile app configuration policy.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If one or more mobile app configuration policies conflict, neither policy is enforced.</source>
+          <target state="new">If one or more mobile app configuration policies conflict, neither policy is enforced.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The conflict will be reported in the Intune administration console <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept>.</source>
+          <target state="new">The conflict will be reported in the Intune administration console <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Example format for a mobile app configuration XML file</source>
+          <target state="new">Example format for a mobile app configuration XML file</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>When you create a mobile app configuration file, you can specify one or more of the following values by using this format:</source>
+          <target state="new">When you create a mobile app configuration file, you can specify one or more of the following values by using this format:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

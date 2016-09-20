@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">875da922b311b06fa8a1eb8ba7207108684825d5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-to-dynamics-crm-online-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d1ccebb3d2aabea845da54c2054641cef4c73ea</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9ae857bf3477e26c4803a33945167ad1bf8c55d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Restrict email access to Dynamics CRM Online | Microsoft Intune</source>
+          <target state="new">Restrict email access to Dynamics CRM Online | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Protect and control access to Dynamics CRM online with  conditional access.</source>
+          <target state="new">Protect and control access to Dynamics CRM online with  conditional access.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Restrict email access to Dynamics CRM Online with Intune</source>
+          <target state="new">Restrict email access to Dynamics CRM Online with Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can control access to Microsoft Dynamics CRM Online from iOS and Android devices with Microsoft Intune conditional access.</source>
+          <target state="new">You can control access to Microsoft Dynamics CRM Online from iOS and Android devices with Microsoft Intune conditional access.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Intune conditional access has two components:</source>
+          <target state="new">Intune conditional access has two components:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Device compliance policy<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> that the device must comply with in order to be considered compliant.</source>
+          <target state="new"><bpt id="p1">[</bpt>Device compliance policy<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> that the device must comply with in order to be considered compliant.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Conditional access policy<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> that where you specify the conditions that the device must meet in order to access the service.</source>
+          <target state="new"><bpt id="p1">[</bpt>Conditional access policy<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> that where you specify the conditions that the device must meet in order to access the service.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To learn more about how conditional access works, read the <bpt id="p1">[</bpt>restrict access to email, 0365, and other services<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> article.</source>
+          <target state="new">To learn more about how conditional access works, read the <bpt id="p1">[</bpt>restrict access to email, 0365, and other services<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> article.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When a targeted user attempts to use the Dynamics CRM app on their device, the following evaluation occurs:</source>
+          <target state="new">When a targeted user attempts to use the Dynamics CRM app on their device, the following evaluation occurs:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Diagram show the decision points used to determine whether a device is allowed access to a service or is blocked</source>
+          <target state="new">Diagram show the decision points used to determine whether a device is allowed access to a service or is blocked</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The device that needs access to Dynamics CRM Online must:</source>
+          <target state="new">The device that needs access to Dynamics CRM Online must:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Be an <bpt id="p1">**</bpt>Android<ept id="p1">**</ept> or <bpt id="p2">**</bpt>iOS<ept id="p2">**</ept> device.</source>
+          <target state="new">Be an <bpt id="p1">**</bpt>Android<ept id="p1">**</ept> or <bpt id="p2">**</bpt>iOS<ept id="p2">**</ept> device.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Be <bpt id="p1">**</bpt>enrolled<ept id="p1">**</ept> with Microsoft Intune.</source>
+          <target state="new">Be <bpt id="p1">**</bpt>enrolled<ept id="p1">**</ept> with Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Be <bpt id="p1">**</bpt>compliant<ept id="p1">**</ept> with any deployed Microsoft Intune compliance policies.</source>
+          <target state="new">Be <bpt id="p1">**</bpt>compliant<ept id="p1">**</ept> with any deployed Microsoft Intune compliance policies.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The device state is stored in Azure Active Directory which grants or blocks access, based on the conditions you specify.</source>
+          <target state="new">The device state is stored in Azure Active Directory which grants or blocks access, based on the conditions you specify.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If a condition is not met, the user is presented with one of the following messages when they log in:</source>
+          <target state="new">If a condition is not met, the user is presented with one of the following messages when they log in:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the device is not enrolled with Microsoft Intune, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app and enroll.</source>
+          <target state="new">If the device is not enrolled with Microsoft Intune, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app and enroll.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the device is not compliant, a message is displayed that directs the user to the Microsoft Intune Company Portal website or Company Portal app where they can find information about the problem, and how to remediate it.</source>
+          <target state="new">If the device is not compliant, a message is displayed that directs the user to the Microsoft Intune Company Portal website or Company Portal app where they can find information about the problem, and how to remediate it.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Configure conditional access for Dynamics CRM Online</source>
+          <target state="new">Configure conditional access for Dynamics CRM Online</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Step 1: Configure Active Directory security groups</source>
+          <target state="new">Step 1: Configure Active Directory security groups</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Before you start, configure Azure Active Directory security groups for the conditional access policy.</source>
+          <target state="new">Before you start, configure Azure Active Directory security groups for the conditional access policy.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can configure these groups in the <bpt id="p1">**</bpt>Office 365 admin center<ept id="p1">**</ept>.</source>
+          <target state="new">You can configure these groups in the <bpt id="p1">**</bpt>Office 365 admin center<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These groups will be used to target, or exempt users from the policy.</source>
+          <target state="new">These groups will be used to target, or exempt users from the policy.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When a user is targeted by a policy, each device they use must be compliant in order to access resources.</source>
+          <target state="new">When a user is targeted by a policy, each device they use must be compliant in order to access resources.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can specify two group types to use for the Dynamics CRM policy:</source>
+          <target state="new">You can specify two group types to use for the Dynamics CRM policy:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Targeted groups<ept id="p1">**</ept> – Contains groups of users to which the policy will apply.</source>
+          <target state="new"><bpt id="p1">**</bpt>Targeted groups<ept id="p1">**</ept> – Contains groups of users to which the policy will apply.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exempted groups<ept id="p1">**</ept> – Contains groups of users that are exempt from the policy.</source>
+          <target state="new"><bpt id="p1">**</bpt>Exempted groups<ept id="p1">**</ept> – Contains groups of users that are exempt from the policy.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If a user is in both groups, they will be exempt from the policy.</source>
+          <target state="new">If a user is in both groups, they will be exempt from the policy.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Step 2: Configure and deploy a compliance policy</source>
+          <target state="new">Step 2: Configure and deploy a compliance policy</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept> and <bpt id="p2">[</bpt>deploy<ept id="p2">](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)</ept> a compliance policy to all devices that will be affected by the policy.</source>
+          <target state="new"><bpt id="p1">[</bpt>Create<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept> and <bpt id="p2">[</bpt>deploy<ept id="p2">](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)</ept> a compliance policy to all devices that will be affected by the policy.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>These would be all the devices that are used by the users in the Targeted groups.</source>
+          <target state="new">These would be all the devices that are used by the users in the Targeted groups.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>While compliance policies are deployed to Microsoft Intune groups, conditional access policies are targeted to Azure Active Directory security groups.</source>
+          <target state="new">While compliance policies are deployed to Microsoft Intune groups, conditional access policies are targeted to Azure Active Directory security groups.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you have not deployed a compliance policy, the devices will be treated as compliant.</source>
+          <target state="new">If you have not deployed a compliance policy, the devices will be treated as compliant.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you are ready, continue to Step 3.</source>
+          <target state="new">When you are ready, continue to Step 3.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Step 3: Configure the Dynamics CRM policy</source>
+          <target state="new">Step 3: Configure the Dynamics CRM policy</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Next, configure the policy to require that only managed and compliant devices can access Dynamics CRM.</source>
+          <target state="new">Next, configure the policy to require that only managed and compliant devices can access Dynamics CRM.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This policy will be will be stored in Azure Active Directory.</source>
+          <target state="new">This policy will be will be stored in Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the Microsoft Intune administration console, choose <bpt id="p1">**</bpt>Policy &gt; Conditional Access &gt; Dynamics CRM Online Policy<ept id="p1">**</ept>.</source>
+          <target state="new">In the Microsoft Intune administration console, choose <bpt id="p1">**</bpt>Policy &gt; Conditional Access &gt; Dynamics CRM Online Policy<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Dynamics CRM Online conditional access policy page</source>
+          <target state="new">Screenshot of the Dynamics CRM Online conditional access policy page</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Enable conditional access<ept id="p1">**</ept> policy.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Enable conditional access<ept id="p1">**</ept> policy.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Application access<ept id="p1">**</ept>, you can choose to apply conditional access policy to:</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Application access<ept id="p1">**</ept>, you can choose to apply conditional access policy to:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="new">iOS</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="new">Android</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Targeted Groups<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Modify<ept id="p2">**</ept> to select the Azure Active Directory security groups to which the policy will apply.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Targeted Groups<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Modify<ept id="p2">**</ept> to select the Azure Active Directory security groups to which the policy will apply.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can choose to target this to all users or just a select group of users.</source>
+          <target state="new">You can choose to target this to all users or just a select group of users.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Exempted Groups<ept id="p1">**</ept>, optionally, choose <bpt id="p2">**</bpt>Modify<ept id="p2">**</ept> to select the Azure Active Directory security groups that are exempt from this policy.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Exempted Groups<ept id="p1">**</ept>, optionally, choose <bpt id="p2">**</bpt>Modify<ept id="p2">**</ept> to select the Azure Active Directory security groups that are exempt from this policy.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When you are done, choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="new">When you are done, choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You have now configured conditional access for Dynamics CRM.</source>
+          <target state="new">You have now configured conditional access for Dynamics CRM.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You do not have to deploy the conditional access policy, it takes effect immediately.</source>
+          <target state="new">You do not have to deploy the conditional access policy, it takes effect immediately.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Monitor the compliance and conditional access policies</source>
+          <target state="new">Monitor the compliance and conditional access policies</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Groups<ept id="p1">**</ept> workspace, you can view the conditional access status of your devices.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Groups<ept id="p1">**</ept> workspace, you can view the conditional access status of your devices.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Select any mobile device group and then, on the <bpt id="p1">**</bpt>Devices<ept id="p1">**</ept> tab, select one of the following <bpt id="p2">**</bpt>Filters<ept id="p2">**</ept>:</source>
+          <target state="new">Select any mobile device group and then, on the <bpt id="p1">**</bpt>Devices<ept id="p1">**</ept> tab, select one of the following <bpt id="p2">**</bpt>Filters<ept id="p2">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Devices that are not registered with AAD<ept id="p1">**</ept> – These devices are blocked from Dynamics CRM.</source>
+          <target state="new"><bpt id="p1">**</bpt>Devices that are not registered with AAD<ept id="p1">**</ept> – These devices are blocked from Dynamics CRM.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Devices that are not compliant<ept id="p1">**</ept> – These devices are blocked from Dynamics CRM.</source>
+          <target state="new"><bpt id="p1">**</bpt>Devices that are not compliant<ept id="p1">**</ept> – These devices are blocked from Dynamics CRM.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Devices that are registered with AAD and compliant<ept id="p1">**</ept> – These devices can access Dynamics CRM.</source>
+          <target state="new"><bpt id="p1">**</bpt>Devices that are registered with AAD and compliant<ept id="p1">**</ept> – These devices can access Dynamics CRM.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Restrict access to Exchange Online</source>
+          <target state="new">Restrict access to Exchange Online</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Restrict access to Exchange on-premises<ept id="p1">](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Restrict access to SharePoint Online<ept id="p2">](restrict-access-to-sharepoint-online-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Restrict access to Exchange on-premises<ept id="p1">](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Restrict access to SharePoint Online<ept id="p2">](restrict-access-to-sharepoint-online-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Restrict access to Skype for Business Online</source>
+          <target state="new">Restrict access to Skype for Business Online</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

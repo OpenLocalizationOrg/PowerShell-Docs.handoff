@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">566a1bbf353921257b4ab7c7c0b73aac987c2085</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\set-up-ios-and-mac-management-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d8ff12e8e55837494d57a4bf1f4012bf1489d25</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">60df4152ae34229f278c98a58f14f29b862e3fb4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Set up iOS and Mac management | Microsoft Intune</source>
+          <target state="new">Set up iOS and Mac management | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enable mobile device management (MDM) for iOS devices including iPads and iPhones as well as Mac OS X devices with Microsoft Intune.</source>
+          <target state="new">Enable mobile device management (MDM) for iOS devices including iPads and iPhones as well as Mac OS X devices with Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set up iOS and Mac device management</source>
+          <target state="new">Set up iOS and Mac device management</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To set up your iOS or Mac device, you can find help <bpt id="p1">[</bpt>here<ept id="p1">](../enduser/using-your-ios-or-mac-os-x-device-with-intune.md)</ept>.</source>
+          <target state="new">To set up your iOS or Mac device, you can find help <bpt id="p1">[</bpt>here<ept id="p1">](../enduser/using-your-ios-or-mac-os-x-device-with-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Intune mobile device management of iPads, iPhones, and Mac OS X devices and give access to company email and apps.</source>
+          <target state="new">Intune mobile device management of iPads, iPhones, and Mac OS X devices and give access to company email and apps.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An Apple Push Notification service (APNs) certificate is required for Intune to manage iOS and Mac devices.</source>
+          <target state="new">An Apple Push Notification service (APNs) certificate is required for Intune to manage iOS and Mac devices.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Once the certificate is added to Intune, users can install the Company Portal app to enroll their devices or the administrator can set up <bpt id="p1">[</bpt>corporate-owned iOS device management<ept id="p1">](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">Once the certificate is added to Intune, users can install the Company Portal app to enroll their devices or the administrator can set up <bpt id="p1">[</bpt>corporate-owned iOS device management<ept id="p1">](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Set up Intune</source>
+          <target state="new">Set up Intune</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you haven’t already, prepare for mobile device management by  <bpt id="p1">[</bpt>setting the mobile device management authority<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)</ept> as <bpt id="p2">**</bpt>Microsoft Intune<ept id="p2">**</ept> and setting up MDM.</source>
+          <target state="new">If you haven’t already, prepare for mobile device management by  <bpt id="p1">[</bpt>setting the mobile device management authority<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)</ept> as <bpt id="p2">**</bpt>Microsoft Intune<ept id="p2">**</ept> and setting up MDM.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Get a certificate signing request</source>
+          <target state="new">Get a certificate signing request</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>As an administrative user, open the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept>, go to <bpt id="p2">**</bpt>Administration<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>iOS and Mac OS X<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Upload an APNs Certificate<ept id="p5">**</ept>, and click <bpt id="p6">**</bpt>Download the APNs certificate request<ept id="p6">**</ept>.</source>
+          <target state="new">As an administrative user, open the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept>, go to <bpt id="p2">**</bpt>Administration<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>iOS and Mac OS X<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Upload an APNs Certificate<ept id="p5">**</ept>, and click <bpt id="p6">**</bpt>Download the APNs certificate request<ept id="p6">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Save the certificate signing request (.csr) file locally.</source>
+          <target state="new">Save the certificate signing request (.csr) file locally.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The .csr file is used to request a trust relationship certificate from the Apple Push Certificates Portal.</source>
+          <target state="new">The .csr file is used to request a trust relationship certificate from the Apple Push Certificates Portal.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Upload APNs certificate dialog box</source>
+          <target state="new">Upload APNs certificate dialog box</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Get an Apple Push Notification service certificate</source>
+          <target state="new">Get an Apple Push Notification service certificate</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">[</bpt>Apple Push Certificates Portal<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=269844)</ept> and sign in with your company Apple ID to create the APNs certificate using the .csr file.</source>
+          <target state="new">Go to the <bpt id="p1">[</bpt>Apple Push Certificates Portal<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=269844)</ept> and sign in with your company Apple ID to create the APNs certificate using the .csr file.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>After clicking <bpt id="p1">**</bpt>Upload<ept id="p1">**</ept> on Apple's Push Certificate Porta, you will receive a .json file which cannot be used for APNs.</source>
+          <target state="new">After clicking <bpt id="p1">**</bpt>Upload<ept id="p1">**</ept> on Apple's Push Certificate Porta, you will receive a .json file which cannot be used for APNs.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Complete the download and return to the Apple Push Certificates Portal for <bpt id="p1">**</bpt>Certificates for Third-Party Servers<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>Download<ept id="p2">**</ept>.</source>
+          <target state="new">Complete the download and return to the Apple Push Certificates Portal for <bpt id="p1">**</bpt>Certificates for Third-Party Servers<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>Download<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Download the APNs (.pem) certificate and save the file locally.</source>
+          <target state="new">Download the APNs (.pem) certificate and save the file locally.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This Apple ID must be used in future to renew your APNs certificate.</source>
+          <target state="new">This Apple ID must be used in future to renew your APNs certificate.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Add the APNs certificate to Intune</source>
+          <target state="new">Add the APNs certificate to Intune</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept>, go to <bpt id="p2">**</bpt>Administration<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>iOS and Mac OS X<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Upload an APNs Certificate<ept id="p5">**</ept>, and click <bpt id="p6">**</bpt>Upload the APNs certificate<ept id="p6">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept>, go to <bpt id="p2">**</bpt>Administration<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>iOS and Mac OS X<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Upload an APNs Certificate<ept id="p5">**</ept>, and click <bpt id="p6">**</bpt>Upload the APNs certificate<ept id="p6">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Browse<ept id="p1">**</ept> to the certificate (.pem) file and click <bpt id="p2">**</bpt>Open<ept id="p2">**</ept> and then enter your <bpt id="p3">**</bpt>Apple ID<ept id="p3">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Browse<ept id="p1">**</ept> to the certificate (.pem) file and click <bpt id="p2">**</bpt>Open<ept id="p2">**</ept> and then enter your <bpt id="p3">**</bpt>Apple ID<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>With the APNs certificate, Intune can enroll and manage iOS devices by pushing policy to enrolled mobile devices.</source>
+          <target state="new">With the APNs certificate, Intune can enroll and manage iOS devices by pushing policy to enrolled mobile devices.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Tell users how to get access to company resources with the company portal</source>
+          <target state="new">Tell users how to get access to company resources with the company portal</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Your users will need to know how to enroll their devices and what to expect once they're brought into management.</source>
+          <target state="new">Your users will need to know how to enroll their devices and what to expect once they're brought into management.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>What to tell your end users about using Microsoft Intune</source>
+          <target state="new">What to tell your end users about using Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>End user guidance for iOS and Mac devices</source>
+          <target state="new">End user guidance for iOS and Mac devices</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If your company or organization purchases iOS devices for users, those devices can also be enrolled for management as <bpt id="p1">[</bpt>company-owned iOS devices<ept id="p1">](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">If your company or organization purchases iOS devices for users, those devices can also be enrolled for management as <bpt id="p1">[</bpt>company-owned iOS devices<ept id="p1">](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Get ready to enroll devices in Microsoft Intune</source>
+          <target state="new">Get ready to enroll devices in Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

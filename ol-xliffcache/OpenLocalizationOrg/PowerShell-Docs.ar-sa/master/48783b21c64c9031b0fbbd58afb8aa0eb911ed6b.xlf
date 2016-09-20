@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48783b21c64c9031b0fbbd58afb8aa0eb911ed6b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">03dac06950d56591245553a680747bf4d01fb6aa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2cf41290e3fcd0b151dade4b1e26b68e51e469f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>End user experience for MAM enabled apps | Microsoft Intune</source>
+          <target state="new">End user experience for MAM enabled apps | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic describes what to expect when your app is managed by mobile app management policies.</source>
+          <target state="new">This topic describes what to expect when your app is managed by mobile app management policies.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>End user experience for MAM enabled apps with Microsoft Intune</source>
+          <target state="new">End user experience for MAM enabled apps with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Mobile application management (MAM) polices are applied only when apps are used in the work context.</source>
+          <target state="new">Mobile application management (MAM) polices are applied only when apps are used in the work context.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Read the following scenarios to understand how managed apps work.</source>
+          <target state="new">Read the following scenarios to understand how managed apps work.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Accessing OneDrive on an iOS device</source>
+          <target state="new">Accessing OneDrive on an iOS device</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Launch the  <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept> app to open the sign in page.</source>
+          <target state="new">Launch the  <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept> app to open the sign in page.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Screenshot of the One drive log in page</source>
+          <target state="new">Screenshot of the One drive log in page</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On a personal device, typically the end user would download the app.</source>
+          <target state="new">On a personal device, typically the end user would download the app.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the device is managed by a MDM solution, your can deploy the app to the device.</source>
+          <target state="new">If the device is managed by a MDM solution, your can deploy the app to the device.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Type your work account user name.</source>
+          <target state="new">Type your work account user name.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You are redirected to the <bpt id="p1">**</bpt>O365 authentication<ept id="p1">**</ept> page to enter your work credentials.</source>
+          <target state="new">You are redirected to the <bpt id="p1">**</bpt>O365 authentication<ept id="p1">**</ept> page to enter your work credentials.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Screenshot of the O365 log in page</source>
+          <target state="new">Screenshot of the O365 log in page</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After your credentials are successfully authenticated  by Azure AD, the MAM polices are applied, and you will be asked to restart the <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept> app.</source>
+          <target state="new">After your credentials are successfully authenticated  by Azure AD, the MAM polices are applied, and you will be asked to restart the <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept> app.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>[NOTE!] The restart required dialog box is displayed only on devices that are not enrolled in Intune.</source>
+          <target state="new">[NOTE!] The restart required dialog box is displayed only on devices that are not enrolled in Intune.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Restart required dialog box</source>
+          <target state="new">Screenshot of the Restart required dialog box</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When you re-launch the <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept> app, the app launches with the MAM policies turned on.</source>
+          <target state="new">When you re-launch the <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept> app, the app launches with the MAM policies turned on.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You are now prompted to set a <bpt id="p1">**</bpt>PIN<ept id="p1">**</ept> for the app.</source>
+          <target state="new">You are now prompted to set a <bpt id="p1">**</bpt>PIN<ept id="p1">**</ept> for the app.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>(if you configured the policy for this).</source>
+          <target state="new">(if you configured the policy for this).</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Screenshot of OneDrive app asking for a PIN</source>
+          <target state="new">Screenshot of OneDrive app asking for a PIN</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Once you set the PIN and confirm,  you are able to access the files on your <bpt id="p1">**</bpt>OneDrive for Business<ept id="p1">**</ept>.</source>
+          <target state="new">Once you set the PIN and confirm,  you are able to access the files on your <bpt id="p1">**</bpt>OneDrive for Business<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the file location open with the list of existing files</source>
+          <target state="new">Screenshot showing the file location open with the list of existing files</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When you change a deployed policy, the changes will be applied next time you open the app.</source>
+          <target state="new">When you change a deployed policy, the changes will be applied next time you open the app.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Accessing OneDrive on an Android device</source>
+          <target state="new">Accessing OneDrive on an Android device</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Launch the OneDrive app to open the sign in page.</source>
+          <target state="new">Launch the OneDrive app to open the sign in page.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On a personal device, typically the end user would download the app.</source>
+          <target state="new">On a personal device, typically the end user would download the app.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the device is managed by a MDM solution, you can deploy the app to the device.</source>
+          <target state="new">If the device is managed by a MDM solution, you can deploy the app to the device.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Type your work account user name.</source>
+          <target state="new">Type your work account user name.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You are redirected to the <bpt id="p1">**</bpt>O365 authentication<ept id="p1">**</ept> page to enter your work credentials.</source>
+          <target state="new">You are redirected to the <bpt id="p1">**</bpt>O365 authentication<ept id="p1">**</ept> page to enter your work credentials.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Screenshot of O365 sign in page on an Android device</source>
+          <target state="new">Screenshot of O365 sign in page on an Android device</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Once your credentials are successfully authenticated by <bpt id="p1">**</bpt>Azure AD<ept id="p1">**</ept>, you should see a message displayed with instructions to install the company portal app, if it is not already installed on the device.</source>
+          <target state="new">Once your credentials are successfully authenticated by <bpt id="p1">**</bpt>Azure AD<ept id="p1">**</ept>, you should see a message displayed with instructions to install the company portal app, if it is not already installed on the device.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Tap on <bpt id="p1">**</bpt>Get the app<ept id="p1">**</ept> to proceed.</source>
+          <target state="new">Tap on <bpt id="p1">**</bpt>Get the app<ept id="p1">**</ept> to proceed.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The Company Portal app is required for all apps associated with MAM policies on Android devices.</source>
+          <target state="new">The Company Portal app is required for all apps associated with MAM policies on Android devices.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For devices not enrolled in Intune, the app must be installed on the device, but does not require launching or signing into the app.</source>
+          <target state="new">For devices not enrolled in Intune, the app must be installed on the device, but does not require launching or signing into the app.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Screenshot of the dialog box with the company portal app install requirement message</source>
+          <target state="new">Screenshot of the dialog box with the company portal app install requirement message</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You are now in the <bpt id="p1">**</bpt>Google Play<ept id="p1">**</ept> store where you can download and install the <bpt id="p2">**</bpt>Company Portal<ept id="p2">**</ept> app.</source>
+          <target state="new">You are now in the <bpt id="p1">**</bpt>Google Play<ept id="p1">**</ept> store where you can download and install the <bpt id="p2">**</bpt>Company Portal<ept id="p2">**</ept> app.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The Company Portal app helps keep the data secure and protected.</source>
+          <target state="new">The Company Portal app helps keep the data secure and protected.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Screenshot of the company portal app</source>
+          <target state="new">Screenshot of the company portal app</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Once you have completed the install, choose <bpt id="p1">**</bpt>Accept<ept id="p1">**</ept> to accept the terms.</source>
+          <target state="new">Once you have completed the install, choose <bpt id="p1">**</bpt>Accept<ept id="p1">**</ept> to accept the terms.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept> app launches automatically.</source>
+          <target state="new">The <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept> app launches automatically.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The next time you open OneDrive, you will see the prompt to set a <bpt id="p1">**</bpt>PIN<ept id="p1">**</ept>, provided the policy settings are set to require a PIN to access the <bpt id="p2">**</bpt>OneDrive<ept id="p2">**</ept> app.</source>
+          <target state="new">The next time you open OneDrive, you will see the prompt to set a <bpt id="p1">**</bpt>PIN<ept id="p1">**</ept>, provided the policy settings are set to require a PIN to access the <bpt id="p2">**</bpt>OneDrive<ept id="p2">**</ept> app.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Screenshot of the OneDrive app with the PIN prompt</source>
+          <target state="new">Screenshot of the OneDrive app with the PIN prompt</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Once the PIN is set and confirmed, you can continue using <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept>, which is now managed by app policies.</source>
+          <target state="new">Once the PIN is set and confirmed, you can continue using <bpt id="p1">**</bpt>OneDrive<ept id="p1">**</ept>, which is now managed by app policies.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Using apps with multi-identity support</source>
+          <target state="new">Using apps with multi-identity support</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Microsoft Word is used as an example for this scenario.</source>
+          <target state="new">Microsoft Word is used as an example for this scenario.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Word<ept id="p1">**</ept> app on your device.</source>
+          <target state="new">Open the <bpt id="p1">**</bpt>Word<ept id="p1">**</ept> app on your device.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>We are using an iOS device to show the steps.</source>
+          <target state="new">We are using an iOS device to show the steps.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Tap <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a new word document.</source>
+          <target state="new">Tap <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a new word document.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Screenshot of an iOS device with the New menu option displayed at the bottom of the screen</source>
+          <target state="new">Screenshot of an iOS device with the New menu option displayed at the bottom of the screen</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Type a sentence of your choice.</source>
+          <target state="new">Type a sentence of your choice.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When you try to save this document, both personal and work locations are shown as options to save the document you just created.</source>
+          <target state="new">When you try to save this document, both personal and work locations are shown as options to save the document you just created.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>At this step, the app policies are not yet applied since this work/personal context is not yet established.</source>
+          <target state="new">At this step, the app policies are not yet applied since this work/personal context is not yet established.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Save the document to your OneDrive for business location.</source>
+          <target state="new">Save the document to your OneDrive for business location.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This is now tagged as company data and the policy restrictions apply.</source>
+          <target state="new">This is now tagged as company data and the policy restrictions apply.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Screenshot of a typed sentence in a Word document</source>
+          <target state="new">Screenshot of a typed sentence in a Word document</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Open the document you saved to your work location.</source>
+          <target state="new">Open the document you saved to your work location.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Copy the text, open your personal <bpt id="p1">**</bpt>Facebook<ept id="p1">**</ept> account  and try to paste the copied text.</source>
+          <target state="new">Copy the text, open your personal <bpt id="p1">**</bpt>Facebook<ept id="p1">**</ept> account  and try to paste the copied text.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You should not be able paste the content into the new Facebook post.</source>
+          <target state="new">You should not be able paste the content into the new Facebook post.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The paste option is not greyed out, but nothing happens when you press <bpt id="p1">**</bpt>Paste<ept id="p1">**</ept>.</source>
+          <target state="new">The paste option is not greyed out, but nothing happens when you press <bpt id="p1">**</bpt>Paste<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the cut, copy, and paste selections</source>
+          <target state="new">Screenshot showing the cut, copy, and paste selections</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Screenshot showing no pasted data in the Facebook post</source>
+          <target state="new">Screenshot showing no pasted data in the Facebook post</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Now repeat steps 2 and 3 to create another new document, type a sentence of your choice, and instead of saving it to your work, save it to your personal location, like <bpt id="p1">**</bpt>OneDrive - personal<ept id="p1">**</ept>.</source>
+          <target state="new">Now repeat steps 2 and 3 to create another new document, type a sentence of your choice, and instead of saving it to your work, save it to your personal location, like <bpt id="p1">**</bpt>OneDrive - personal<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Screenshot of the cut, copy, and paste selection with the sentence selected to copy</source>
+          <target state="new">Screenshot of the cut, copy, and paste selection with the sentence selected to copy</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Open the personal saved document.</source>
+          <target state="new">Open the personal saved document.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Copy the text, open the <bpt id="p1">**</bpt>Facebook<ept id="p1">**</ept> app and try to paste the copied text.</source>
+          <target state="new">Copy the text, open the <bpt id="p1">**</bpt>Facebook<ept id="p1">**</ept> app and try to paste the copied text.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You see that you are able to paste the content to a Facebook post.</source>
+          <target state="new">You see that you are able to paste the content to a Facebook post.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Content showing as pasted in the Facebook post</source>
+          <target state="new">Content showing as pasted in the Facebook post</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Managing user accounts</source>
+          <target state="new">Managing user accounts</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Intune only supports deploying MAM policies to only one user account per device.</source>
+          <target state="new">Intune only supports deploying MAM policies to only one user account per device.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If a device has more than one work account, only one work account is managed by the MAM policies.</source>
+          <target state="new">If a device has more than one work account, only one work account is managed by the MAM policies.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Depending on the app that you are using, the second user may or may not be blocked on the device.</source>
+          <target state="new">Depending on the app that you are using, the second user may or may not be blocked on the device.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>However, in all cases, only the first user who gets the MAM policies is affected by the policy.</source>
+          <target state="new">However, in all cases, only the first user who gets the MAM policies is affected by the policy.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If a device has existing multiple user accounts before the MAM policies are deployed, the account that the MAM policies is deployed to first is managed by Intune MAM policies.</source>
+          <target state="new">If a device has existing multiple user accounts before the MAM policies are deployed, the account that the MAM policies is deployed to first is managed by Intune MAM policies.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Word<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Excel<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>PowerPoint<ept id="p3">**</ept> don't block a second user account, but the second user account is not affected by the MAM policies.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft Word<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Excel<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>PowerPoint<ept id="p3">**</ept> don't block a second user account, but the second user account is not affected by the MAM policies.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>OneDrive and Outlook apps<ept id="p1">**</ept>, you can only use one work account.</source>
+          <target state="new">For <bpt id="p1">**</bpt>OneDrive and Outlook apps<ept id="p1">**</ept>, you can only use one work account.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Adding multiple work accounts are blocked on these apps.</source>
+          <target state="new">Adding multiple work accounts are blocked on these apps.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can however, remove a user and add a different user on the device.</source>
+          <target state="new">You can however, remove a user and add a different user on the device.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Read the example scenario below to get a deeper understanding of how multiple user accounts are treated.</source>
+          <target state="new">Read the example scenario below to get a deeper understanding of how multiple user accounts are treated.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>User A works for two companies - <bpt id="p1">**</bpt>Company X<ept id="p1">**</ept>, and <bpt id="p2">**</bpt>Company Y<ept id="p2">**</ept>. User A has a work account for each company, and both use Intune to deploy MAM policies.</source>
+          <target state="new">User A works for two companies - <bpt id="p1">**</bpt>Company X<ept id="p1">**</ept>, and <bpt id="p2">**</bpt>Company Y<ept id="p2">**</ept>. User A has a work account for each company, and both use Intune to deploy MAM policies.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Company X<ept id="p1">**</ept> deploys MAM policies <bpt id="p2">**</bpt>before<ept id="p2">**</ept> <bpt id="p3">**</bpt>Company Y<ept id="p3">**</ept>. The account associated with <bpt id="p4">**</bpt>Company X<ept id="p4">**</ept> will get the MAM policy, but not the account associated with Company Y. If you want the user account associated with Company Y to be managed by the MAM policies, you must remove the user account associated with Company X.</source>
+          <target state="new"><bpt id="p1">**</bpt>Company X<ept id="p1">**</ept> deploys MAM policies <bpt id="p2">**</bpt>before<ept id="p2">**</ept> <bpt id="p3">**</bpt>Company Y<ept id="p3">**</ept>. The account associated with <bpt id="p4">**</bpt>Company X<ept id="p4">**</ept> will get the MAM policy, but not the account associated with Company Y. If you want the user account associated with Company Y to be managed by the MAM policies, you must remove the user account associated with Company X.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Adding a second account</source>
+          <target state="new">Adding a second account</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>IOS</source>
+          <target state="new">IOS</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you are using an iOS device, when you try to add a second work account on the same device, you may see blocking message.</source>
+          <target state="new">If you are using an iOS device, when you try to add a second work account on the same device, you may see blocking message.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You will also see an option to remove the existing account and add a new one.</source>
+          <target state="new">You will also see an option to remove the existing account and add a new one.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>You can do so by choosing <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+          <target state="new">You can do so by choosing <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Screenshot of the dialog box with the blocking message and Yes and No options</source>
+          <target state="new">Screenshot of the dialog box with the blocking message and Yes and No options</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="new">Android</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If you are using an Android device, You may see a blocking message with instructions to remove the existing account and add a new one.</source>
+          <target state="new">If you are using an Android device, You may see a blocking message with instructions to remove the existing account and add a new one.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>On Android devices, to remove the existing account, go to <bpt id="p1">**</bpt>Settings <ph id="ph1">&amp;gt;</ph>General <ph id="ph2">&amp;gt;</ph> Application Manager <ph id="ph3">&amp;gt;</ph>Company Portal and select "Clear Data"<ept id="p1">**</ept>.</source>
+          <target state="new">On Android devices, to remove the existing account, go to <bpt id="p1">**</bpt>Settings <ph id="ph1">&amp;gt;</ph>General <ph id="ph2">&amp;gt;</ph> Application Manager <ph id="ph3">&amp;gt;</ph>Company Portal and select "Clear Data"<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Screenshot of the error message and instructions to remove the account</source>
+          <target state="new">Screenshot of the error message and instructions to remove the account</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Viewing media files with the Rights Management sharing app</source>
+          <target state="new">Viewing media files with the Rights Management sharing app</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>To view company AV, PDF, and image files on Android devices, use the <bpt id="p1">[</bpt>Microsoft Rights Management (RMS) sharing app<ept id="p1">](https://play.google.com/store/apps/details?id=com.microsoft.ipviewer)</ept>.</source>
+          <target state="new">To view company AV, PDF, and image files on Android devices, use the <bpt id="p1">[</bpt>Microsoft Rights Management (RMS) sharing app<ept id="p1">](https://play.google.com/store/apps/details?id=com.microsoft.ipviewer)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Download this app from the  Google Play store.</source>
+          <target state="new">Download this app from the  Google Play store.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Once the app is installed on your device, launch the app and authenticate with your company credentials.</source>
+          <target state="new">Once the app is installed on your device, launch the app and authenticate with your company credentials.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You should now be able to view unprotected and protected files from other policy-managed apps.</source>
+          <target state="new">You should now be able to view unprotected and protected files from other policy-managed apps.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The following filetypes are supported:</source>
+          <target state="new">The following filetypes are supported:</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Audio:<ept id="p1">**</ept> AAC LC, HE-AACv1 (AAC+), HE-AACv2 (enhanced AAC+), AAC ELD (enhanced low delay AAC), AMR-NB, AMR-WB, FLAC, MP3, MIDI, Vorbis, PCM/WAVE.</source>
+          <target state="new"><bpt id="p1">**</bpt>Audio:<ept id="p1">**</ept> AAC LC, HE-AACv1 (AAC+), HE-AACv2 (enhanced AAC+), AAC ELD (enhanced low delay AAC), AMR-NB, AMR-WB, FLAC, MP3, MIDI, Vorbis, PCM/WAVE.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Video:<ept id="p1">**</ept> H.263, H.264 AVC, MPEG-4 SP, VP8.</source>
+          <target state="new"><bpt id="p1">**</bpt>Video:<ept id="p1">**</ept> H.263, H.264 AVC, MPEG-4 SP, VP8.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Image:<ept id="p1">**</ept> jpg, pjpg, png, ppng, bmp, pbmp, gif, pgif, jpeg, pjpeg.</source>
+          <target state="new"><bpt id="p1">**</bpt>Image:<ept id="p1">**</ept> jpg, pjpg, png, ppng, bmp, pbmp, gif, pgif, jpeg, pjpeg.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>PDF, PPDF</source>
+          <target state="new">PDF, PPDF</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>pfile</source>
+          <target state="new">pfile</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>text</source>
+          <target state="new">text</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Pfile is a generic “wrapper” format for protected files that encapsulates the encrypted content and the RMS licenses and can be used to protect any file type.</source>
+          <target state="new">Pfile is a generic “wrapper” format for protected files that encapsulates the encrypted content and the RMS licenses and can be used to protect any file type.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Text files, including XML, CSV, etc. can be opened for viewing in the app even when they are protected.</source>
+          <target state="new">Text files, including XML, CSV, etc. can be opened for viewing in the app even when they are protected.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>File types: txt, ptxt, csv, pcsv, log, plog, xml, pxml.</source>
+          <target state="new">File types: txt, ptxt, csv, pcsv, log, plog, xml, pxml.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Android devices that are not enrolled in Intune</source>
+          <target state="new">Android devices that are not enrolled in Intune</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Before you can use the RMS sharing app to view files from other apps managed by Intune, launch the RMS app and authenticate with your work account.</source>
+          <target state="new">Before you can use the RMS sharing app to view files from other apps managed by Intune, launch the RMS app and authenticate with your work account.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>When you log in, you will see the following message <bpt id="p1">**</bpt>only if you don’t have an RMS license<ept id="p1">**</ept>:</source>
+          <target state="new">When you log in, you will see the following message <bpt id="p1">**</bpt>only if you don’t have an RMS license<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Authentication Successful – You can now view corporate files, but your organization isn’t set up to let you protect files.</source>
+          <target state="new">Authentication Successful – You can now view corporate files, but your organization isn’t set up to let you protect files.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Contact your IT admin for more details.</source>
+          <target state="new">Contact your IT admin for more details.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This does not prevent you from using the RMS sharing app to view company files.</source>
+          <target state="new">This does not prevent you from using the RMS sharing app to view company files.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>You can still open and view company files from other apps managed by Intune, and the MAM policies will still apply.</source>
+          <target state="new">You can still open and view company files from other apps managed by Intune, and the MAM policies will still apply.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>What this message is saying is that you will not be able to add the additional protection capabilities that the RMS sharing app provides.</source>
+          <target state="new">What this message is saying is that you will not be able to add the additional protection capabilities that the RMS sharing app provides.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>You must have an RMS license to add protection to your files.</source>
+          <target state="new">You must have an RMS license to add protection to your files.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To learn more about RMS file protection capabilities, see <bpt id="p1">[</bpt>Protect a file on a device<ept id="p1">](https://docs.microsoft.com/en-us/rights-management/rms-client/sharing-app-protect-in-place)</ept>  and <bpt id="p2">[</bpt>Protect a file that you share by email<ept id="p2">](https://docs.microsoft.com/en-us/rights-management/rms-client/sharing-app-protect-by-email)</ept>.</source>
+          <target state="new">To learn more about RMS file protection capabilities, see <bpt id="p1">[</bpt>Protect a file on a device<ept id="p1">](https://docs.microsoft.com/en-us/rights-management/rms-client/sharing-app-protect-in-place)</ept>  and <bpt id="p2">[</bpt>Protect a file that you share by email<ept id="p2">](https://docs.microsoft.com/en-us/rights-management/rms-client/sharing-app-protect-by-email)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Create and deploy mobile app management policies with Microsoft Intune</source>
+          <target state="new">Create and deploy mobile app management policies with Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
