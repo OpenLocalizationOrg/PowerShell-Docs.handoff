@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">194e6e2b20c90cce5adcc684a4674e972d0cdc1b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\find-a-pfn-for-per-app-vpn.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">61dbba5cd087512465fadb7af3501dda0cd8c0f9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c08636bf04c7c63d30c8ca49c1613502702fc0f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Find a package family name (PFN) for per-app VPN | Microsoft Intune</source>
+          <target state="new">Find a package family name (PFN) for per-app VPN | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Find a PFN so that you can configure a per-app VPN.</source>
+          <target state="new">Find a PFN so that you can configure a per-app VPN.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Find a package family name (PFN) for per-app VPN configuration</source>
+          <target state="new">Find a package family name (PFN) for per-app VPN configuration</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There are two ways to find a PFN so that you can set up a per-app VPN.</source>
+          <target state="new">There are two ways to find a PFN so that you can set up a per-app VPN.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Find a PFN for an app that's installed on a Windows 10 computer</source>
+          <target state="new">Find a PFN for an app that's installed on a Windows 10 computer</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If the app that you are working with is already installed on a Windows 10 computer, you can use the <bpt id="p1">[</bpt>Get-AppxPackage<ept id="p1">](https://technet.microsoft.com/library/hh856044.aspx)</ept> PowerShell cmdlet to get the PFN.</source>
+          <target state="new">If the app that you are working with is already installed on a Windows 10 computer, you can use the <bpt id="p1">[</bpt>Get-AppxPackage<ept id="p1">](https://technet.microsoft.com/library/hh856044.aspx)</ept> PowerShell cmdlet to get the PFN.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The syntax for Get-AppxPackage is:</source>
+          <target state="new">The syntax for Get-AppxPackage is:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You may have to run PowerShell as an admin to retrieve the PFN.</source>
+          <target state="new">You may have to run PowerShell as an admin to retrieve the PFN.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, to get info about all the universal apps installed on the computer, use <ph id="ph1">`Get-AppxPackage`</ph>.</source>
+          <target state="new">For example, to get info about all the universal apps installed on the computer, use <ph id="ph1">`Get-AppxPackage`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To get info about an app when you know the name or part of the name, use <ph id="ph1">`Get-AppxPackage *&lt;app_name&gt;`</ph>.</source>
+          <target state="new">To get info about an app when you know the name or part of the name, use <ph id="ph1">`Get-AppxPackage *&lt;app_name&gt;`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Note the use of the wildcard character, which is particularly helpful if you're not sure of the full name of the app.</source>
+          <target state="new">Note the use of the wildcard character, which is particularly helpful if you're not sure of the full name of the app.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, to get the info for OneNote, use <ph id="ph1">`Get-AppxPackage *OneNote`</ph>.</source>
+          <target state="new">For example, to get the info for OneNote, use <ph id="ph1">`Get-AppxPackage *OneNote`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Here is the information retrieved for OneNote:</source>
+          <target state="new">Here is the information retrieved for OneNote:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Find a PFN if the app is not installed on a computer</source>
+          <target state="new">Find a PFN if the app is not installed on a computer</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Go to https://www.microsoft.com/en-us/store/apps.</source>
+          <target state="new">Go to https://www.microsoft.com/en-us/store/apps.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enter the name of the app in the search bar.</source>
+          <target state="new">Enter the name of the app in the search bar.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In our example, search for OneNote.</source>
+          <target state="new">In our example, search for OneNote.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose the link to the app.</source>
+          <target state="new">Choose the link to the app.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Note that the URL has a series of letters at the end.</source>
+          <target state="new">Note that the URL has a series of letters at the end.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In our example, the URL looks like this: <ph id="ph1">`https://www.microsoft.com/en-us/store/apps/onenote/9wzdncrfhvjl`</ph>.</source>
+          <target state="new">In our example, the URL looks like this: <ph id="ph1">`https://www.microsoft.com/en-us/store/apps/onenote/9wzdncrfhvjl`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In a different tab, paste the following URL, <ph id="ph1">`https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/&lt;app id&gt;/applockerdata`</ph>.</source>
+          <target state="new">In a different tab, paste the following URL, <ph id="ph1">`https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/&lt;app id&gt;/applockerdata`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&lt;app id&gt;`</ph> with the app id that you got from https://www.microsoft.com/en-us/store/apps - that series of letters at the end of the URL in step 3.</source>
+          <target state="new">Replace <ph id="ph1">`&lt;app id&gt;`</ph> with the app id that you got from https://www.microsoft.com/en-us/store/apps - that series of letters at the end of the URL in step 3.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In our example of OneNote, you'd paste: <ph id="ph1">`https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`</ph>.</source>
+          <target state="new">In our example of OneNote, you'd paste: <ph id="ph1">`https://bspmts.mp.microsoft.com/v1/public/catalog/Retail/Products/9wzdncrfhvjl/applockerdata`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Microsoft Edge shows the information that you want; in Internet Explorer, choose <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> to see the information.</source>
+          <target state="new">Microsoft Edge shows the information that you want; in Internet Explorer, choose <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> to see the information.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The PFN value is given on the first line.</source>
+          <target state="new">The PFN value is given on the first line.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Here are the results for our example:</source>
+          <target state="new">Here are the results for our example:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

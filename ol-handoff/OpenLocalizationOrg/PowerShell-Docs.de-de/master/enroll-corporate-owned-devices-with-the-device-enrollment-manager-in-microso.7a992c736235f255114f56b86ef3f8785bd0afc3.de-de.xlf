@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">585ce92b0f0159060d9a8f1960b4c7b05eafdee7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d9a0f9dfa4dd94dc7a21237ad518255d1b589d8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c85060d4e7cfc09b089e1f2676e17d7326aa5d8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enroll with the device enrollment manager | Microsoft Intune</source>
+          <target state="new">Enroll with the device enrollment manager | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The device enrollment manager (DEM) account can manage large numbers of shared, corporate-owned mobile devices with a single user account.</source>
+          <target state="new">The device enrollment manager (DEM) account can manage large numbers of shared, corporate-owned mobile devices with a single user account.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enroll corporate-owned devices with the device enrollment manager in Microsoft Intune</source>
+          <target state="new">Enroll corporate-owned devices with the device enrollment manager in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Organizations can use Intune to manage large numbers of mobile devices with a single user account.</source>
+          <target state="new">Organizations can use Intune to manage large numbers of mobile devices with a single user account.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>device enrollment manager<ept id="p1">*</ept> (DEM) account is a special Intune account that can enroll up to 1,000 devices.</source>
+          <target state="new">The <bpt id="p1">*</bpt>device enrollment manager<ept id="p1">*</ept> (DEM) account is a special Intune account that can enroll up to 1,000 devices.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We recommend that you use devices enrolled through this account as shared devices rather than personal ("BYOD") devices.</source>
+          <target state="new">We recommend that you use devices enrolled through this account as shared devices rather than personal ("BYOD") devices.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Users will not be able to use "native" email apps, for example.</source>
+          <target state="new">Users will not be able to use "native" email apps, for example.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>As an example, you could assign a device enrollment manager user account to a store manager or supervisor to let them:</source>
+          <target state="new">As an example, you could assign a device enrollment manager user account to a store manager or supervisor to let them:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Enroll devices in Intune.</source>
+          <target state="new">Enroll devices in Intune.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Sign in to the Company Portal to get company apps.</source>
+          <target state="new">Sign in to the Company Portal to get company apps.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Install and uninstall software.</source>
+          <target state="new">Install and uninstall software.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Configure access to company data.</source>
+          <target state="new">Configure access to company data.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>A device enrollment manager scenario:<ept id="p1">**</ept> A restaurant wants point-of-sale tablets for its wait staff and order monitors for its kitchen staff.</source>
+          <target state="new"><bpt id="p1">**</bpt>A device enrollment manager scenario:<ept id="p1">**</ept> A restaurant wants point-of-sale tablets for its wait staff and order monitors for its kitchen staff.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The employees never need to access company data or sign in as users.</source>
+          <target state="new">The employees never need to access company data or sign in as users.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Intune admin creates a device enrollment manager account and enrolls the company-owned devices by using that account.</source>
+          <target state="new">The Intune admin creates a device enrollment manager account and enrolls the company-owned devices by using that account.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Alternatively, the admin could give the device enrollment manager credentials to a restaurant manager, which would let the manager enroll and manage the devices.</source>
+          <target state="new">Alternatively, the admin could give the device enrollment manager credentials to a restaurant manager, which would let the manager enroll and manage the devices.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The admin or manager can deploy role-specific apps to the restaurant devices.</source>
+          <target state="new">The admin or manager can deploy role-specific apps to the restaurant devices.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An admin can also select the device in the Intune console and retire it from mobile device management with the administration console.</source>
+          <target state="new">An admin can also select the device in the Intune console and retire it from mobile device management with the administration console.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Devices that are enrolled with a device enrollment manager account have the following limitations:</source>
+          <target state="new">Devices that are enrolled with a device enrollment manager account have the following limitations:</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>There is no specific device "user"—therefore, there is no email or company data access.</source>
+          <target state="new">There is no specific device "user"—therefore, there is no email or company data access.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However VPN, for example, could still provide device apps with access to data.</source>
+          <target state="new">However VPN, for example, could still provide device apps with access to data.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>There is no conditional access because these are per-user scenarios.</source>
+          <target state="new">There is no conditional access because these are per-user scenarios.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can't reset these devices from the Company Portal.</source>
+          <target state="new">You can't reset these devices from the Company Portal.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Only the local device appears in the Company Portal app or website.</source>
+          <target state="new">Only the local device appears in the Company Portal app or website.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>They can't use Apple Volume Purchase Program (VPP) apps because of per-user Apple ID requirements for app management.</source>
+          <target state="new">They can't use Apple Volume Purchase Program (VPP) apps because of per-user Apple ID requirements for app management.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>(iOS) They can't also be enrolled with Apple Configurator or the Apple Device Enrollment Program (DEP), but DEP or Apple Configurator-managed devices can be enrolled without user affinity.</source>
+          <target state="new">(iOS) They can't also be enrolled with Apple Configurator or the Apple Device Enrollment Program (DEP), but DEP or Apple Configurator-managed devices can be enrolled without user affinity.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To deploy company apps to devices that are managed by the device enrollment manager, deploy the Company Portal app as a <bpt id="p1">**</bpt>Required Install<ept id="p1">**</ept> to the device enrollment manager's user account.</source>
+          <target state="new">To deploy company apps to devices that are managed by the device enrollment manager, deploy the Company Portal app as a <bpt id="p1">**</bpt>Required Install<ept id="p1">**</ept> to the device enrollment manager's user account.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To improve performance, viewing the Company Portal app on a DEM device only shows the local device.</source>
+          <target state="new">To improve performance, viewing the Company Portal app on a DEM device only shows the local device.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Remote management of other DEM devices can only be done from the Intune admin console.</source>
+          <target state="new">Remote management of other DEM devices can only be done from the Intune admin console.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Create device enrollment manager accounts</source>
+          <target state="new">Create device enrollment manager accounts</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Device enrollment manager accounts are user accounts with permission to enroll large numbers of corporate-owned devices.</source>
+          <target state="new">Device enrollment manager accounts are user accounts with permission to enroll large numbers of corporate-owned devices.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Only users in the Intune console can be device enrollment managers.</source>
+          <target state="new">Only users in the Intune console can be device enrollment managers.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Add a device enrollment manager to Intune</source>
+          <target state="new">Add a device enrollment manager to Intune</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">[</bpt>Microsoft Intune account portal<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=698854)</ept> and sign in to your admin account.</source>
+          <target state="new">Go to the <bpt id="p1">[</bpt>Microsoft Intune account portal<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=698854)</ept> and sign in to your admin account.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Add user<ept id="p1">**</ept>.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Add user<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Confirm that the user account that will be a device enrollment manager is listed.</source>
+          <target state="new">Confirm that the user account that will be a device enrollment manager is listed.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If it isn't, add the user by choosing <bpt id="p1">**</bpt>New<ept id="p1">**</ept> and completing the <bpt id="p2">**</bpt>Add user<ept id="p2">**</ept> process.</source>
+          <target state="new">If it isn't, add the user by choosing <bpt id="p1">**</bpt>New<ept id="p1">**</ept> and completing the <bpt id="p2">**</bpt>Add user<ept id="p2">**</ept> process.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A subscription license is required for each user that accesses the service.</source>
+          <target state="new">A subscription license is required for each user that accesses the service.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The device enrollment manager cannot be an Intune admin.</source>
+          <target state="new">The device enrollment manager cannot be an Intune admin.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Check whether you need to add more licenses before you use this feature.</source>
+          <target state="new">Check whether you need to add more licenses before you use this feature.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> with your admin credentials.</source>
+          <target state="new">Sign in to the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> with your admin credentials.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the navigation pane, choose <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept>, go to <bpt id="p2">**</bpt>Administrator Management<ept id="p2">**</ept>, and select <bpt id="p3">**</bpt>Device Enrollment Manager<ept id="p3">**</ept>.</source>
+          <target state="new">In the navigation pane, choose <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept>, go to <bpt id="p2">**</bpt>Administrator Management<ept id="p2">**</ept>, and select <bpt id="p3">**</bpt>Device Enrollment Manager<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Device Enrollment Managers<ept id="p1">**</ept> page opens.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Device Enrollment Managers<ept id="p1">**</ept> page opens.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Add…<ept id="p1">**</ept>.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Add…<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add Device Enrollment Manager<ept id="p1">**</ept> dialog box opens.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Add Device Enrollment Manager<ept id="p1">**</ept> dialog box opens.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Enter the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> of the Intune account, and then choose <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="new">Enter the <bpt id="p1">**</bpt>User ID<ept id="p1">**</ept> of the Intune account, and then choose <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The device enrollment manager user cannot be an Intune admin.</source>
+          <target state="new">The device enrollment manager user cannot be an Intune admin.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The device enrollment manager can now enroll mobile devices by using the same procedure that an end user uses for a BYOD scenario in the Company Portal.</source>
+          <target state="new">The device enrollment manager can now enroll mobile devices by using the same procedure that an end user uses for a BYOD scenario in the Company Portal.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Delete a device enrollment manager from Intune</source>
+          <target state="new">Delete a device enrollment manager from Intune</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Microsoft Intune admin portal<ept id="p1">](http://manage.microsoft.com)</ept> with your admin credentials.</source>
+          <target state="new">Sign in to the <bpt id="p1">[</bpt>Microsoft Intune admin portal<ept id="p1">](http://manage.microsoft.com)</ept> with your admin credentials.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the navigation pane, choose <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept>, go to <bpt id="p2">**</bpt>Administrator Management<ept id="p2">**</ept>, and select <bpt id="p3">**</bpt>Device Enrollment Manager<ept id="p3">**</ept>.</source>
+          <target state="new">In the navigation pane, choose <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept>, go to <bpt id="p2">**</bpt>Administrator Management<ept id="p2">**</ept>, and select <bpt id="p3">**</bpt>Device Enrollment Manager<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Device Enrollment Managers<ept id="p1">**</ept> page opens.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Device Enrollment Managers<ept id="p1">**</ept> page opens.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Select the device enrollment manager <bpt id="p1">**</bpt>User<ept id="p1">**</ept> that you want to delete, and then choose <bpt id="p2">**</bpt>Delete<ept id="p2">**</ept>.</source>
+          <target state="new">Select the device enrollment manager <bpt id="p1">**</bpt>User<ept id="p1">**</ept> that you want to delete, and then choose <bpt id="p2">**</bpt>Delete<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This user won’t be deleted from Intune, and the devices this user manages will remain enrolled in Intune.</source>
+          <target state="new">This user won’t be deleted from Intune, and the devices this user manages will remain enrolled in Intune.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Deleting a device enrollment manager prevents that user from enrolling more devices in Intune.</source>
+          <target state="new">Deleting a device enrollment manager prevents that user from enrolling more devices in Intune.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to confirm that you want to delete the device enrollment manager.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to confirm that you want to delete the device enrollment manager.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Deleting a device enrollment manager does not affect enrolled devices.</source>
+          <target state="new">Deleting a device enrollment manager does not affect enrolled devices.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When a device enrollment manager is deleted:</source>
+          <target state="new">When a device enrollment manager is deleted:</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>No enrolled devices are affected.</source>
+          <target state="new">No enrolled devices are affected.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enrolled devices continue to be fully managed.</source>
+          <target state="new">Enrolled devices continue to be fully managed.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The deleted device enrollment manager account credentials remain valid to sign in to the Company Portal to access apps.</source>
+          <target state="new">The deleted device enrollment manager account credentials remain valid to sign in to the Company Portal to access apps.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The deleted device enrollment manager account credentials still cannot wipe or retire devices.</source>
+          <target state="new">The deleted device enrollment manager account credentials still cannot wipe or retire devices.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The deleted device enrollment manager account’s relationship to enrolled devices remains, but no additional devices can be enrolled.</source>
+          <target state="new">The deleted device enrollment manager account’s relationship to enrolled devices remains, but no additional devices can be enrolled.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

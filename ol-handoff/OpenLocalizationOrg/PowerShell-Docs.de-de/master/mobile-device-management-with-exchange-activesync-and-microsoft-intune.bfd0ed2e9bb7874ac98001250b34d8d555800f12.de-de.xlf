@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e8ca71a8a7011eb4d2e34c61ef869dbf0abe3b7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\mobile-device-management-with-exchange-activesync-and-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa82b0ae9a1587c39276e4810d2200b9891fca62</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2dec9d71f62b9fb6cb512a43cbca870a06cf5270</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Exchange ActiveSync Device Management | Microsoft Intune</source>
+          <target state="new">Exchange ActiveSync Device Management | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Manage mobile devices with Exchange ActiveSync (EAS) management using the Exchange connector</source>
+          <target state="new">Manage mobile devices with Exchange ActiveSync (EAS) management using the Exchange connector</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Exchange ActiveSync mobile device management with Microsoft Intune</source>
+          <target state="new">Exchange ActiveSync mobile device management with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For Microsoft Intune to directly manage mobile devices, devices must be <bpt id="p1">[</bpt>enrolled in Intune<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">For Microsoft Intune to directly manage mobile devices, devices must be <bpt id="p1">[</bpt>enrolled in Intune<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>As an alternative, administrators can enable a more limited management solution that uses Exchange ActiveSync (EAS) management with an Exchange connector.</source>
+          <target state="new">As an alternative, administrators can enable a more limited management solution that uses Exchange ActiveSync (EAS) management with an Exchange connector.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Devices can be managed with either on-premises Exchange servers and Exchange Online using Office 365.</source>
+          <target state="new">Devices can be managed with either on-premises Exchange servers and Exchange Online using Office 365.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Intune only supports one Exchange connector connection of any type per subscription.</source>
+          <target state="new">Intune only supports one Exchange connector connection of any type per subscription.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Exchange access rules for mobile devices</source>
+          <target state="new">Exchange access rules for mobile devices</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Exchange needs a set of rules that defines what happens when mobile devices attempt to connect to EAS.</source>
+          <target state="new">Exchange needs a set of rules that defines what happens when mobile devices attempt to connect to EAS.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These rules are managed in the Intune administration console.</source>
+          <target state="new">These rules are managed in the Intune administration console.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Exchange access rules for mobile devices</source>
+          <target state="new">Exchange access rules for mobile devices</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Install the Exchange connector</source>
+          <target state="new">Install the Exchange connector</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Exchange connector lets you manage your Exchange deployment in the Intune console.</source>
+          <target state="new">The Exchange connector lets you manage your Exchange deployment in the Intune console.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You must first install and configure the appropriate Intune-to-Exchange connector.</source>
+          <target state="new">You must first install and configure the appropriate Intune-to-Exchange connector.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Choose the appropriate option based whether your Exchange server is on-premises or hosted as a service in the cloud:</source>
+          <target state="new">Choose the appropriate option based whether your Exchange server is on-premises or hosted as a service in the cloud:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Configure the Intune for Exchange Online or new Exchange Online Dedicated environments</source>
+          <target state="new">Configure the Intune for Exchange Online or new Exchange Online Dedicated environments</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Install the Intune connector for on-premises Exchange servers and legacy Exchange Online Dedicated environments</source>
+          <target state="new">Install the Intune connector for on-premises Exchange servers and legacy Exchange Online Dedicated environments</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Apply policy for Exchange-managed mobile devices</source>
+          <target state="new">Apply policy for Exchange-managed mobile devices</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The Intune console can be used to manage <bpt id="p1">[</bpt>EAS policy settings<ept id="p1">](exchange-activesync-policy-settings-in-microsoft-intune.md)</ept> and to <bpt id="p2">[</bpt>restrict access to company resources<ept id="p2">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept>.</source>
+          <target state="new">The Intune console can be used to manage <bpt id="p1">[</bpt>EAS policy settings<ept id="p1">](exchange-activesync-policy-settings-in-microsoft-intune.md)</ept> and to <bpt id="p2">[</bpt>restrict access to company resources<ept id="p2">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For a list of Exchange ActiveSync policy settings and features supported by specific mobile devices, see <bpt id="p1">[</bpt>Exchange ActiveSync Client Comparison Table<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=247270)</ept>.</source>
+          <target state="new">For a list of Exchange ActiveSync policy settings and features supported by specific mobile devices, see <bpt id="p1">[</bpt>Exchange ActiveSync Client Comparison Table<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=247270)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>After connecting Intune to a Microsoft Exchange environment, the EAS policy for all users managed through Intune will be reset to the current default policy on the Microsoft Exchange server, unless a more specific policy is defined within Intune.</source>
+          <target state="new">After connecting Intune to a Microsoft Exchange environment, the EAS policy for all users managed through Intune will be reset to the current default policy on the Microsoft Exchange server, unless a more specific policy is defined within Intune.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Wipe company data from mobile devices</source>
+          <target state="new">Wipe company data from mobile devices</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Finally, you can <bpt id="p1">[</bpt>wipe company data from EAS-managed mobile devices<ept id="p1">](wipe-for-exchange-managed-mobile-devices.md)</ept> when they are no longer in use, or if devices are lost or stolen.</source>
+          <target state="new">Finally, you can <bpt id="p1">[</bpt>wipe company data from EAS-managed mobile devices<ept id="p1">](wipe-for-exchange-managed-mobile-devices.md)</ept> when they are no longer in use, or if devices are lost or stolen.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

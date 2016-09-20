@@ -1,0 +1,611 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fc92c7724a9e1f256faa8b028bcf93e354e7997</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\plan-your-user-and-device-groups.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83d747b229aa96f785774432f87cb0551ede488a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bfb0b95d3d16950836f4f84a276a86dc77a3ff40</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Plan your user and device groups | Microsoft Intune</source>
+          <target state="new">Plan your user and device groups | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Plan groups to meet your organizational needs.</source>
+          <target state="new">Plan groups to meet your organizational needs.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Plan your user and device groups</source>
+          <target state="new">Plan your user and device groups</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Groups in Intune give you great flexibility when you're managing your devices and users.</source>
+          <target state="new">Groups in Intune give you great flexibility when you're managing your devices and users.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can set up groups to suit your organizational needs according to:</source>
+          <target state="new">You can set up groups to suit your organizational needs according to:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>geographic location</source>
+          <target state="new">geographic location</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>department</source>
+          <target state="new">department</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>hardware characteristics</source>
+          <target state="new">hardware characteristics</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>operating system</source>
+          <target state="new">operating system</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>whether the device is user-owned or company-owned</source>
+          <target state="new">whether the device is user-owned or company-owned</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>How Intune groups work</source>
+          <target state="new">How Intune groups work</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is the default view of the <bpt id="p1">**</bpt>Groups<ept id="p1">**</ept> node in the Intune admin console:</source>
+          <target state="new">This is the default view of the <bpt id="p1">**</bpt>Groups<ept id="p1">**</ept> node in the Intune admin console:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Screenshot of the default view of the Groups node in the Intune console</source>
+          <target state="new">Screenshot of the default view of the Groups node in the Intune console</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Policies are deployed to groups, so group hierarchy is one of your key design considerations.</source>
+          <target state="new">Policies are deployed to groups, so group hierarchy is one of your key design considerations.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It's important to know that you cannot change a group’s parent group after you've created the group.</source>
+          <target state="new">It's important to know that you cannot change a group’s parent group after you've created the group.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>How you design your groups is critically important from the moment you start using the Intune service.</source>
+          <target state="new">How you design your groups is critically important from the moment you start using the Intune service.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Some recommended practices for designing a group hierarchy based on your organizational needs are described here.</source>
+          <target state="new">Some recommended practices for designing a group hierarchy based on your organizational needs are described here.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Group membership rules</source>
+          <target state="new">Group membership rules</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A group can contain either users or devices, but not both.</source>
+          <target state="new">A group can contain either users or devices, but not both.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Device groups<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Device groups<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This includes computers and mobile devices.</source>
+          <target state="new">This includes computers and mobile devices.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Before you can add a computer to a group, it must be enrolled.</source>
+          <target state="new">Before you can add a computer to a group, it must be enrolled.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Before you can add a mobile device to a group, your environment must be configured to support mobile devices, and the device must be enrolled or discovered in Exchange ActiveSync.</source>
+          <target state="new">Before you can add a mobile device to a group, your environment must be configured to support mobile devices, and the device must be enrolled or discovered in Exchange ActiveSync.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User groups<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>User groups<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A group can have users from security groups.</source>
+          <target state="new">A group can have users from security groups.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Security groups sync with your instance of Active Directory.</source>
+          <target state="new">Security groups sync with your instance of Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you do not sync with Active Directory, you can manually create these groups.</source>
+          <target state="new">If you do not sync with Active Directory, you can manually create these groups.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A device or a user can belong to more than one group.</source>
+          <target state="new">A device or a user can belong to more than one group.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A group can include and exclude members based on the following membership rules:</source>
+          <target state="new">A group can include and exclude members based on the following membership rules:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Criteria Membership<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Criteria Membership<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>These are dynamic rules that Intune runs to include or exclude members.</source>
+          <target state="new">These are dynamic rules that Intune runs to include or exclude members.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>These criteria use security groups and other information synced with your local instance of Active Directory.</source>
+          <target state="new">These criteria use security groups and other information synced with your local instance of Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When the security group or data changes, the group membership changes when you sync with Active Directory.</source>
+          <target state="new">When the security group or data changes, the group membership changes when you sync with Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Direct Membership<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Direct Membership<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These are static rules that explicitly add or exclude members.</source>
+          <target state="new">These are static rules that explicitly add or exclude members.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The membership list is static.</source>
+          <target state="new">The membership list is static.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Active Directory Domain Services (AD DS) is not required when you create user groups or device groups that include users or computers.</source>
+          <target state="new">Active Directory Domain Services (AD DS) is not required when you create user groups or device groups that include users or computers.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>But, for device groups to include mobile devices, your environment must be configured to support mobile devices.</source>
+          <target state="new">But, for device groups to include mobile devices, your environment must be configured to support mobile devices.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Additionally, the devices must be discovered and added to Intune.</source>
+          <target state="new">Additionally, the devices must be discovered and added to Intune.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Group relationship rules</source>
+          <target state="new">Group relationship rules</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Each group you create must have a parent group.</source>
+          <target state="new">Each group you create must have a parent group.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You cannot change a group’s parent group after you've created the group.</source>
+          <target state="new">You cannot change a group’s parent group after you've created the group.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When you add users or devices to a child group:</source>
+          <target state="new">When you add users or devices to a child group:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The child group is always a subset of the parent group.</source>
+          <target state="new">The child group is always a subset of the parent group.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>New members you add to a child group are automatically added to that group’s parent group.</source>
+          <target state="new">New members you add to a child group are automatically added to that group’s parent group.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You cannot add a member to a child group when that member is excluded from the parent group.</source>
+          <target state="new">You cannot add a member to a child group when that member is excluded from the parent group.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The membership of a parent group defines the available membership for the child group.</source>
+          <target state="new">The membership of a parent group defines the available membership for the child group.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When you delete a parent group, all child groups are deleted.</source>
+          <target state="new">When you delete a parent group, all child groups are deleted.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can deploy content and policies to a parent group but exclude the deployment to child groups.</source>
+          <target state="new">You can deploy content and policies to a parent group but exclude the deployment to child groups.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can add a specific user or device to a child group if the user or device is not already a member of the parent group.</source>
+          <target state="new">You can add a specific user or device to a child group if the user or device is not already a member of the parent group.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you do this, the new member of the child group will be added to the parent group.</source>
+          <target state="new">If you do this, the new member of the child group will be added to the parent group.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>However, you cannot add a member to a child group if the member is excluded from the parent group.</source>
+          <target state="new">However, you cannot add a member to a child group if the member is excluded from the parent group.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Group membership is recursive.</source>
+          <target state="new">Group membership is recursive.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Pat<ept id="p1">**</ept> is a member of only one group, the <bpt id="p2">**</bpt>Laptop Users<ept id="p2">**</ept> security group.</source>
+          <target state="new"><bpt id="p1">**</bpt>Pat<ept id="p1">**</ept> is a member of only one group, the <bpt id="p2">**</bpt>Laptop Users<ept id="p2">**</ept> security group.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Laptop Users<ept id="p1">**</ept> group is a member of the <bpt id="p2">**</bpt>Approved Users<ept id="p2">**</ept> security group.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Laptop Users<ept id="p1">**</ept> group is a member of the <bpt id="p2">**</bpt>Approved Users<ept id="p2">**</ept> security group.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You create a group in Intune that uses a dynamic membership query that includes the members of the <bpt id="p1">**</bpt>Approved Users<ept id="p1">**</ept> group.</source>
+          <target state="new">You create a group in Intune that uses a dynamic membership query that includes the members of the <bpt id="p1">**</bpt>Approved Users<ept id="p1">**</ept> group.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The result is that your Intune user group includes <bpt id="p1">**</bpt>Pat<ept id="p1">**</ept>.</source>
+          <target state="new">The result is that your Intune user group includes <bpt id="p1">**</bpt>Pat<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When you create groups, think about how you will apply policy.</source>
+          <target state="new">When you create groups, think about how you will apply policy.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For example, you might have policies that are specific to device operating systems, or policies that are specific to different roles or organizational units you've already defined in your Active Directory service.</source>
+          <target state="new">For example, you might have policies that are specific to device operating systems, or policies that are specific to different roles or organizational units you've already defined in your Active Directory service.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Some admins find it useful to create device groups that are specific to iOS, Android, and Windows.</source>
+          <target state="new">Some admins find it useful to create device groups that are specific to iOS, Android, and Windows.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This is in addition to creating user groups for each organizational role.</source>
+          <target state="new">This is in addition to creating user groups for each organizational role.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Built-in groups</source>
+          <target state="new">Built-in groups</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Intune has nine built-in groups that you cannot edit or delete:</source>
+          <target state="new">Intune has nine built-in groups that you cannot edit or delete:</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>All Users</source>
+          <target state="new">All Users</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Ungrouped Users</source>
+          <target state="new">Ungrouped Users</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>All Devices</source>
+          <target state="new">All Devices</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>All Computers</source>
+          <target state="new">All Computers</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>All Mobile Devices</source>
+          <target state="new">All Mobile Devices</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>All Direct Managed Devices</source>
+          <target state="new">All Direct Managed Devices</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>All Exchange ActiveSync Managed Devices</source>
+          <target state="new">All Exchange ActiveSync Managed Devices</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>All Corporate-owned Devices</source>
+          <target state="new">All Corporate-owned Devices</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Ungrouped Devices</source>
+          <target state="new">Ungrouped Devices</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Let your motto be: <bpt id="p1">*</bpt>keep it simple<ept id="p1">*</ept>.</source>
+          <target state="new">Let your motto be: <bpt id="p1">*</bpt>keep it simple<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If your organization does not have specific needs like those described in the following sections, keep it simple and go with the default group structure and policies.</source>
+          <target state="new">If your organization does not have specific needs like those described in the following sections, keep it simple and go with the default group structure and policies.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This will make the service more manageable in the long term.</source>
+          <target state="new">This will make the service more manageable in the long term.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Maintenance will be easier if you can treat your users uniformly.</source>
+          <target state="new">Maintenance will be easier if you can treat your users uniformly.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>With little differentiation by group, you'll have fewer policies to maintain.</source>
+          <target state="new">With little differentiation by group, you'll have fewer policies to maintain.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>All users and devices in your organization</source>
+          <target state="new">All users and devices in your organization</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Define a parent group for all users and devices in your organization.</source>
+          <target state="new">Define a parent group for all users and devices in your organization.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You are likely to have policies that will apply to all.</source>
+          <target state="new">You are likely to have policies that will apply to all.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can use the Intune default <bpt id="p1">**</bpt>All Users<ept id="p1">**</ept> and <bpt id="p2">**</bpt>All devices<ept id="p2">**</ept> groups for this purpose.</source>
+          <target state="new">You can use the Intune default <bpt id="p1">**</bpt>All Users<ept id="p1">**</ept> and <bpt id="p2">**</bpt>All devices<ept id="p2">**</ept> groups for this purpose.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Sub-groups that organize devices by specifics, like a group for bring your own device (BYOD) and one for corporate-owned (CO) devices, can be child groups of the <bpt id="p1">**</bpt>All Users<ept id="p1">**</ept> and <bpt id="p2">**</bpt>All devices<ept id="p2">**</ept> parent groups.</source>
+          <target state="new">Sub-groups that organize devices by specifics, like a group for bring your own device (BYOD) and one for corporate-owned (CO) devices, can be child groups of the <bpt id="p1">**</bpt>All Users<ept id="p1">**</ept> and <bpt id="p2">**</bpt>All devices<ept id="p2">**</ept> parent groups.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Customize groups for your organization</source>
+          <target state="new">Customize groups for your organization</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>BYOD and corporate-owned devices</source>
+          <target state="new">BYOD and corporate-owned devices</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If your organization allows employees to use their own devices, provides company-owned devices, or has a combination of both, we recommend that you apply separate policies for these categories of devices.</source>
+          <target state="new">If your organization allows employees to use their own devices, provides company-owned devices, or has a combination of both, we recommend that you apply separate policies for these categories of devices.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In the case of BYOD or a mix, be careful to plan policies that do not infringe on local privacy regulations.</source>
+          <target state="new">In the case of BYOD or a mix, be careful to plan policies that do not infringe on local privacy regulations.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Create a parent group for all users who will be bringing their own devices.</source>
+          <target state="new">Create a parent group for all users who will be bringing their own devices.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You can use this group to apply policies that are applicable to all users in this category.</source>
+          <target state="new">You can use this group to apply policies that are applicable to all users in this category.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Creating a BYOD parent group</source>
+          <target state="new">Creating a BYOD parent group</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Similarly, you can create a group for the CO device users in your organization:</source>
+          <target state="new">Similarly, you can create a group for the CO device users in your organization:</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Sibling user groups for BYOD and CO devices</source>
+          <target state="new">Sibling user groups for BYOD and CO devices</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Groups for geographic regions</source>
+          <target state="new">Groups for geographic regions</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If your organization needs policies for specific regions, you can create groups based on geographic region.</source>
+          <target state="new">If your organization needs policies for specific regions, you can create groups based on geographic region.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You can base them on regional groups that you might have already created in your instance of Active Directory, and sync them with your Azure Active Directory service.</source>
+          <target state="new">You can base them on regional groups that you might have already created in your instance of Active Directory, and sync them with your Azure Active Directory service.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You also can create regional groups directly in Azure Active Directory.</source>
+          <target state="new">You also can create regional groups directly in Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The next screenshots show you how to create Intune groups based on groups synced with your on-premises Active Directory instance.</source>
+          <target state="new">The next screenshots show you how to create Intune groups based on groups synced with your on-premises Active Directory instance.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>These examples assume that you have an Active Directory security group called <bpt id="p1">**</bpt>US Users Group<ept id="p1">**</ept>.</source>
+          <target state="new">These examples assume that you have an Active Directory security group called <bpt id="p1">**</bpt>US Users Group<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>First, provide general information.</source>
+          <target state="new">First, provide general information.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Edit Group area</source>
+          <target state="new">Screenshot of the Edit Group area</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Membership criteria<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>US Users Group<ept id="p2">**</ept>, synced with Active Directory, as the security group to use under membership rules.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Membership criteria<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>US Users Group<ept id="p2">**</ept>, synced with Active Directory, as the security group to use under membership rules.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Edit Group dialog box</source>
+          <target state="new">Screenshot of the Edit Group dialog box</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Review your entries, and then choose <bpt id="p1">**</bpt>Finish<ept id="p1">**</ept> to create the group.</source>
+          <target state="new">Review your entries, and then choose <bpt id="p1">**</bpt>Finish<ept id="p1">**</ept> to create the group.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Edit Group dialog box</source>
+          <target state="new">Screenshot of the Edit Group dialog box</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In our example, we’ve also created a group called <bpt id="p1">**</bpt>MEA<ept id="p1">**</ept>, for the Middle East and Asia.</source>
+          <target state="new">In our example, we’ve also created a group called <bpt id="p1">**</bpt>MEA<ept id="p1">**</ept>, for the Middle East and Asia.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If group membership is not populated based on security group membership, make sure that you have assigned Intune licenses to group members.</source>
+          <target state="new">If group membership is not populated based on security group membership, make sure that you have assigned Intune licenses to group members.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Groups for specific hardware</source>
+          <target state="new">Groups for specific hardware</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If your organization requires policies that apply to specific hardware types, you can create groups based on this requirement.</source>
+          <target state="new">If your organization requires policies that apply to specific hardware types, you can create groups based on this requirement.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You can base the policies on specific groups that you have already created in your on-premises instance of Active Directory, and then sync them with Azure Active Directory.</source>
+          <target state="new">You can base the policies on specific groups that you have already created in your on-premises instance of Active Directory, and then sync them with Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You also can create groups directly in Azure Active Directory.</source>
+          <target state="new">You also can create groups directly in Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In this example, we use <bpt id="p1">**</bpt>US Users Group<ept id="p1">**</ept> as the parent group for the <bpt id="p2">**</bpt>Laptop Users<ept id="p2">**</ept> group.</source>
+          <target state="new">In this example, we use <bpt id="p1">**</bpt>US Users Group<ept id="p1">**</ept> as the parent group for the <bpt id="p2">**</bpt>Laptop Users<ept id="p2">**</ept> group.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Select Security Group dialog box</source>
+          <target state="new">Select Security Group dialog box</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>At this point, your group's hierarchy should look similar to the next screenshot.</source>
+          <target state="new">At this point, your group's hierarchy should look similar to the next screenshot.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>You can see that there are now members in the Intune group <bpt id="p1">**</bpt>Laptop Users<ept id="p1">**</ept>.</source>
+          <target state="new">You can see that there are now members in the Intune group <bpt id="p1">**</bpt>Laptop Users<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Any policies applied to this group will be applied to BYOD laptop users from the U.S. region.</source>
+          <target state="new">Any policies applied to this group will be applied to BYOD laptop users from the U.S. region.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Display of Laptop Users group</source>
+          <target state="new">Display of Laptop Users group</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Groups for specific operating systems</source>
+          <target state="new">Groups for specific operating systems</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If your organization requires policies that apply to specific operating systems like Android, iOS, or Windows, you can create groups based on this requirement.</source>
+          <target state="new">If your organization requires policies that apply to specific operating systems like Android, iOS, or Windows, you can create groups based on this requirement.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>As in earlier examples, you can base them on OS-specific groups that you have already created in your on-premises instance of Active Directory, and sync them with Azure Active Directory.</source>
+          <target state="new">As in earlier examples, you can base them on OS-specific groups that you have already created in your on-premises instance of Active Directory, and sync them with Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>You also can create them directly in your instance of Azure Active Directory.</source>
+          <target state="new">You also can create them directly in your instance of Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>By using the same method from earlier examples, you can create groups based on users <ph id="ph1">&lt;!--devices?--&gt;</ph> who use specific operating system platforms.</source>
+          <target state="new">By using the same method from earlier examples, you can create groups based on users <ph id="ph1">&lt;!--devices?--&gt;</ph> who use specific operating system platforms.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If you have users who use multiple mobile platforms or operating systems and you do not have an automated way to categorize users as Android users, iOS users, or Windows users, consider applying policies at the device level.</source>
+          <target state="new">If you have users who use multiple mobile platforms or operating systems and you do not have an automated way to categorize users as Android users, iOS users, or Windows users, consider applying policies at the device level.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This will give you more flexibility to apply policies that are specific to an operating system.</source>
+          <target state="new">This will give you more flexibility to apply policies that are specific to an operating system.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>You cannot provision groups dynamically based on the operating system of the device.</source>
+          <target state="new">You cannot provision groups dynamically based on the operating system of the device.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Instead, do this by using Active Directory or Azure Active Directory security groups.</source>
+          <target state="new">Instead, do this by using Active Directory or Azure Active Directory security groups.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Laptop users group</source>
+          <target state="new">Laptop users group</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>After all of your user groups are populated based on your organizational requirements, your group hierarchy should look something like this:</source>
+          <target state="new">After all of your user groups are populated based on your organizational requirements, your group hierarchy should look something like this:</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Group hierarchy view</source>
+          <target state="new">Group hierarchy view</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>You can use this hierarchy to apply the organization's policies.</source>
+          <target state="new">You can use this hierarchy to apply the organization's policies.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Device groups</source>
+          <target state="new">Device groups</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>You also can create similar groups for devices as shown here, starting with a broad group that includes all employee-owned devices, for the BYOD scenario.</source>
+          <target state="new">You also can create similar groups for devices as shown here, starting with a broad group that includes all employee-owned devices, for the BYOD scenario.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Create Group dialog box</source>
+          <target state="new">Create Group dialog box</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Make sure that you select <bpt id="p1">**</bpt>All devices (computers and mobile)<ept id="p1">**</ept> so that the group will include all BYO devices:</source>
+          <target state="new">Make sure that you select <bpt id="p1">**</bpt>All devices (computers and mobile)<ept id="p1">**</ept> so that the group will include all BYO devices:</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Define membership criteria page</source>
+          <target state="new">Define membership criteria page</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Review your entries, and then choose <bpt id="p1">**</bpt>Finish<ept id="p1">**</ept> to create the BYOD group.</source>
+          <target state="new">Review your entries, and then choose <bpt id="p1">**</bpt>Finish<ept id="p1">**</ept> to create the BYOD group.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Create Group dialog box</source>
+          <target state="new">Create Group dialog box</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Continue to create device groups until you have a device group hierarchy that is similar to the user group hierarchy.</source>
+          <target state="new">Continue to create device groups until you have a device group hierarchy that is similar to the user group hierarchy.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Your group node in the Intune console will look similar to this:</source>
+          <target state="new">Your group node in the Intune console will look similar to this:</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Intune groups hierarchy view</source>
+          <target state="new">Intune groups hierarchy view</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Group hierarchies and naming conventions</source>
+          <target state="new">Group hierarchies and naming conventions</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>To make policy management easier, we recommend that you name each policy according to the purpose, platform, and scope to which you apply it.</source>
+          <target state="new">To make policy management easier, we recommend that you name each policy according to the purpose, platform, and scope to which you apply it.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Use a naming standard that follows the group structure that you created when you prepared to apply your policies.</source>
+          <target state="new">Use a naming standard that follows the group structure that you created when you prepared to apply your policies.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>For instance, for an Android policy that applies to all corporate, Android, mobile devices at the U.S. regional level, you might name the policy <bpt id="p1">**</bpt>CO_US_Mob_Android_General<ept id="p1">**</ept>.</source>
+          <target state="new">For instance, for an Android policy that applies to all corporate, Android, mobile devices at the U.S. regional level, you might name the policy <bpt id="p1">**</bpt>CO_US_Mob_Android_General<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Create policy for Android</source>
+          <target state="new">Create policy for Android</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>When you name your policies this way, you can quickly identify policies and their intended use and scope in the <bpt id="p1">**</bpt>Policies<ept id="p1">**</ept> node, like this:</source>
+          <target state="new">When you name your policies this way, you can quickly identify policies and their intended use and scope in the <bpt id="p1">**</bpt>Policies<ept id="p1">**</ept> node, like this:</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Intune policy list</source>
+          <target state="new">Intune policy list</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Create groups</source>
+          <target state="new">Create groups</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

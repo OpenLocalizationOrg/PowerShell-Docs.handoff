@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">761372b2c8b81699bc2584ab1ef8d0f9d523abe9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\enable-device-threat-protection-rule-in-compliance-policy.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2bdfdba30ef2fba9f31265ce0e9cadbdb58e2696</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24c9d647594b1f16a995e4b66221da4c7b7b0370</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enable device protection rule in compliance policy | Microsoft Intune</source>
+          <target state="new">Enable device protection rule in compliance policy | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enable mobile threat protection rule in the device compliance policy.</source>
+          <target state="new">Enable mobile threat protection rule in the device compliance policy.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enable device threat protection rule in the compliance policy</source>
+          <target state="new">Enable device threat protection rule in the compliance policy</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Intune with Lookout mobile threat protection gives you the ability to detect mobile threats and make a risk assessment on the device.</source>
+          <target state="new">Intune with Lookout mobile threat protection gives you the ability to detect mobile threats and make a risk assessment on the device.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Compliance policy rule allows you to use this risk assessment to determine if the device is compliant with your policy.</source>
+          <target state="new">Compliance policy rule allows you to use this risk assessment to determine if the device is compliant with your policy.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can then use the conditional access policy to allow or block to Exchange, SharePoint, and other services based on device compliance.</source>
+          <target state="new">You can then use the conditional access policy to allow or block to Exchange, SharePoint, and other services based on device compliance.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To have Lookout MTP threat detection influence the compliance policy for the device:</source>
+          <target state="new">To have Lookout MTP threat detection influence the compliance policy for the device:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The  <bpt id="p1">**</bpt>Device Threat Protection<ept id="p1">**</ept> rule must be enabled on the compliance policy.</source>
+          <target state="new">The  <bpt id="p1">**</bpt>Device Threat Protection<ept id="p1">**</ept> rule must be enabled on the compliance policy.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Lookout Status<ept id="p1">**</ept> page in the Intune Admin console must show <bpt id="p2">**</bpt>Active<ept id="p2">**</ept>.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Lookout Status<ept id="p1">**</ept> page in the Intune Admin console must show <bpt id="p2">**</bpt>Active<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">[</bpt>Enable Lookout MTP connection in Intune<ept id="p1">](enable-lookout-mtp-connection-in-intune.md)</ept> topic for more details and instructions on how to activate Lookout integration.</source>
+          <target state="new">See the <bpt id="p1">[</bpt>Enable Lookout MTP connection in Intune<ept id="p1">](enable-lookout-mtp-connection-in-intune.md)</ept> topic for more details and instructions on how to activate Lookout integration.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Configure device threat protection rule</source>
+          <target state="new">Configure device threat protection rule</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Before creating the device threat protection rule in the compliancy policy, we recommend that you <bpt id="p1">[</bpt>set up your subscription with Lookout MTP<ept id="p1">](set-up-your-subscription-with-lookout-mtp.md)</ept>, <bpt id="p2">[</bpt>enable Lookout connection in Intune<ept id="p2">](enable-lookout-mtp-connection-in-intune.md)</ept>,and <bpt id="p3">[</bpt>configure the Lookout for work app<ept id="p3">](configure-and-deploy-lookout-for-work-apps.md)</ept>.</source>
+          <target state="new">Before creating the device threat protection rule in the compliancy policy, we recommend that you <bpt id="p1">[</bpt>set up your subscription with Lookout MTP<ept id="p1">](set-up-your-subscription-with-lookout-mtp.md)</ept>, <bpt id="p2">[</bpt>enable Lookout connection in Intune<ept id="p2">](enable-lookout-mtp-connection-in-intune.md)</ept>,and <bpt id="p3">[</bpt>configure the Lookout for work app<ept id="p3">](configure-and-deploy-lookout-for-work-apps.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The compliance rule is only enforced once the setup is completed.</source>
+          <target state="new">The compliance rule is only enforced once the setup is completed.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To enable the device threat protection rule, you can either use an existing compliance policy or create a new one.</source>
+          <target state="new">To enable the device threat protection rule, you can either use an existing compliance policy or create a new one.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>As part of the Lookout MTP setup, in the <bpt id="p1">[</bpt>Lookout MTP console<ept id="p1">](https://aad.lookout.com)</ept>, you created a policy that classifies various threats into high, medium and low levels.</source>
+          <target state="new">As part of the Lookout MTP setup, in the <bpt id="p1">[</bpt>Lookout MTP console<ept id="p1">](https://aad.lookout.com)</ept>, you created a policy that classifies various threats into high, medium and low levels.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the Intune compliance policy you will use the threat level to set the maximum allowed threat level.</source>
+          <target state="new">In the Intune compliance policy you will use the threat level to set the maximum allowed threat level.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the Intune administrator console, in the  compliance policy page, go to <bpt id="p1">**</bpt>Device Health<ept id="p1">**</ept> and enable the <bpt id="p2">**</bpt>Device Threat Protection<ept id="p2">**</ept> rule using the toggle option.</source>
+          <target state="new">In the Intune administrator console, in the  compliance policy page, go to <bpt id="p1">**</bpt>Device Health<ept id="p1">**</ept> and enable the <bpt id="p2">**</bpt>Device Threat Protection<ept id="p2">**</ept> rule using the toggle option.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Then select the maximum allowed threat level, which is one of the following:</source>
+          <target state="new">Then select the maximum allowed threat level, which is one of the following:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None (secured)<ept id="p1">**</ept>: This is the most secure.</source>
+          <target state="new"><bpt id="p1">**</bpt>None (secured)<ept id="p1">**</ept>: This is the most secure.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This means that the device cannot have any threats.</source>
+          <target state="new">This means that the device cannot have any threats.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If the device is detected as having any level of threats, it will be evaluated as non-compliant.</source>
+          <target state="new">If the device is detected as having any level of threats, it will be evaluated as non-compliant.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Low<ept id="p1">**</ept>: Device is evaluated as compliant if only low level threats are present.</source>
+          <target state="new"><bpt id="p1">**</bpt>Low<ept id="p1">**</ept>: Device is evaluated as compliant if only low level threats are present.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Anything higher puts the device in a non-compliant status.</source>
+          <target state="new">Anything higher puts the device in a non-compliant status.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Medium<ept id="p1">**</ept>: Device is evaluated as compliant if the threats that are present on the device are low or medium level.</source>
+          <target state="new"><bpt id="p1">**</bpt>Medium<ept id="p1">**</ept>: Device is evaluated as compliant if the threats that are present on the device are low or medium level.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If the device is detected to have high level threats, it is determined as non-compliant.</source>
+          <target state="new">If the device is detected to have high level threats, it is determined as non-compliant.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>High<ept id="p1">**</ept>: This is the least secure.</source>
+          <target state="new"><bpt id="p1">**</bpt>High<ept id="p1">**</ept>: This is the least secure.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Essentially, this allows all threat levels, and perhaps only useful if you using this solution only  for reporting purposes.</source>
+          <target state="new">Essentially, this allows all threat levels, and perhaps only useful if you using this solution only  for reporting purposes.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>screenshot showing the device threat protection rule setting in</source>
+          <target state="new">screenshot showing the device threat protection rule setting in</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>screenshot showing the threat level option for the device threat protection rule setting</source>
+          <target state="new">screenshot showing the threat level option for the device threat protection rule setting</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you create conditional access policies for O365 and other services, the above compliance evaluation is taken into consideration and non-compliant devices are blocked access until the threat is resolved.</source>
+          <target state="new">If you create conditional access policies for O365 and other services, the above compliance evaluation is taken into consideration and non-compliant devices are blocked access until the threat is resolved.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can see the compliance state of a device on the devices page of the Intune administrator console.</source>
+          <target state="new">You can see the compliance state of a device on the devices page of the Intune administrator console.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>screenshot of the devices page in the Intune admin console showing the compliance status of a device</source>
+          <target state="new">screenshot of the devices page in the Intune admin console showing the compliance status of a device</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Create conditional access policy</source>
+          <target state="new">Create conditional access policy</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Exchange Online</source>
+          <target state="new">Exchange Online</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Exchange On-premises</source>
+          <target state="new">Exchange On-premises</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>SharePoint Online</source>
+          <target state="new">SharePoint Online</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Skype for Business Online</source>
+          <target state="new">Skype for Business Online</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Dynamics CRM</source>
+          <target state="new">Dynamics CRM</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

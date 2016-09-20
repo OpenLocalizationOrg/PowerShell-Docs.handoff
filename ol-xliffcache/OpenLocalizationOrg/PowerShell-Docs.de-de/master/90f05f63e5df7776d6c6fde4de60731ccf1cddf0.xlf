@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90f05f63e5df7776d6c6fde4de60731ccf1cddf0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\multi-factor-authentication-azure-active-directory.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b493666dfb6db9ef825f868df963c83fa932ca86</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9920aed3f3e6c711ed3c1804dd167109205d2c61</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Multi-factor authentication using Azure AD| Microsoft Intune</source>
+          <target state="new">Multi-factor authentication using Azure AD| Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>How to require multi-factor authentication in Azure AD for device enrollment.</source>
+          <target state="new">How to require multi-factor authentication in Azure AD for device enrollment.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Multi-factor authentication for Microsoft Intune</source>
+          <target state="new">Multi-factor authentication for Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Intune integrates Azure AD multi-factor authentication (MFA) for device enrollment to help you secure your corporate resources.</source>
+          <target state="new">Intune integrates Azure AD multi-factor authentication (MFA) for device enrollment to help you secure your corporate resources.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>MFA requires authentication factors like text authentication in addition to user names and passwords.</source>
+          <target state="new">MFA requires authentication factors like text authentication in addition to user names and passwords.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is supported for iOS, Android, Windows 8.1 or later, or Windows Phone 8.1 or later devices.</source>
+          <target state="new">This is supported for iOS, Android, Windows 8.1 or later, or Windows Phone 8.1 or later devices.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In older versions of Configuration Manager (earlier than release 1610), you will still see the MFA setting in the Configuration Manager admin console.</source>
+          <target state="new">In older versions of Configuration Manager (earlier than release 1610), you will still see the MFA setting in the Configuration Manager admin console.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Do not attempt to configure MFA in the Configuration Manager admin console, as it will not work.</source>
+          <target state="new">Do not attempt to configure MFA in the Configuration Manager admin console, as it will not work.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Configure MFA as described in this topic.</source>
+          <target state="new">Configure MFA as described in this topic.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Configuring Intune to require multi-factor authentication at device enrollment</source>
+          <target state="new">Configuring Intune to require multi-factor authentication at device enrollment</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To require MFA at device enrollment, follow these steps:</source>
+          <target state="new">To require MFA at device enrollment, follow these steps:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Sign in to your <bpt id="p1">[</bpt>Microsoft Azure portal<ept id="p1">](https://manage.windowsazure.com)</ept> with your admin credentials.</source>
+          <target state="new">Sign in to your <bpt id="p1">[</bpt>Microsoft Azure portal<ept id="p1">](https://manage.windowsazure.com)</ept> with your admin credentials.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choose your tenant.</source>
+          <target state="new">Choose your tenant.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>applications<ept id="p1">**</ept> tab.</source>
+          <target state="new">Choose the <bpt id="p1">**</bpt>applications<ept id="p1">**</ept> tab.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You will see a list of services for which you can configure Azure AD security features.</source>
+          <target state="new">You will see a list of services for which you can configure Azure AD security features.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Microsoft Intune enrollment<ept id="p1">**</ept>.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Microsoft Intune enrollment<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Configure<ept id="p1">**</ept>.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Configure<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>multi-factor authentication and location-based access rules<ept id="p1">**</ept> you can:</source>
+          <target state="new">Under <bpt id="p1">**</bpt>multi-factor authentication and location-based access rules<ept id="p1">**</ept> you can:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Enable the access rules</source>
+          <target state="new">Enable the access rules</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Choose whether to apply the rules to all users or to specific Azure AD security groups.</source>
+          <target state="new">Choose whether to apply the rules to all users or to specific Azure AD security groups.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Require multi-factor authentication for enrollment of all devices.</source>
+          <target state="new">Require multi-factor authentication for enrollment of all devices.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Require multi-factor authentication for enrollment when the device is not at work.</source>
+          <target state="new">Require multi-factor authentication for enrollment when the device is not at work.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Block access to corporate resources<ept id="p1">**</ept> to prevent enrollment of a device when it is not connected to the corporate network.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Block access to corporate resources<ept id="p1">**</ept> to prevent enrollment of a device when it is not connected to the corporate network.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can also click the link to <bpt id="p1">**</bpt>define/edit your work network location<ept id="p1">**</ept>, to configure network connectivity requirements for device enrollment.</source>
+          <target state="new">You can also click the link to <bpt id="p1">**</bpt>define/edit your work network location<ept id="p1">**</ept>, to configure network connectivity requirements for device enrollment.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Do not configure <bpt id="p1">**</bpt>Device based access rules<ept id="p1">**</ept> for Microsoft Intune Enrollment.</source>
+          <target state="new">Do not configure <bpt id="p1">**</bpt>Device based access rules<ept id="p1">**</ept> for Microsoft Intune Enrollment.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

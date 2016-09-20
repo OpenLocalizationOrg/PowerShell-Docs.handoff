@@ -1,0 +1,1267 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">738b7fbda92f24eaeae23638ea49c1c174901e7a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\vpn-connections-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">312b7d17d5a147986e3c6a1f301558dc053e503a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a489f15c9f190fe46cec5799328cabe4a1956114</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>VPN connections | Microsoft Intune</source>
+          <target state="new">VPN connections | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use VPN profiles to deploy VPN settings to users and devices in your organization.</source>
+          <target state="new">Use VPN profiles to deploy VPN settings to users and devices in your organization.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>VPN connections in Microsoft Intune</source>
+          <target state="new">VPN connections in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use virtual private networks (VPNs) to give your users secure remote access to your company network.</source>
+          <target state="new">You can use virtual private networks (VPNs) to give your users secure remote access to your company network.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Remote users can work as if their devices are physically connected to the network.</source>
+          <target state="new">Remote users can work as if their devices are physically connected to the network.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Devices use a VPN connection profile to initiate a connection with the VPN server.</source>
+          <target state="new">Devices use a VPN connection profile to initiate a connection with the VPN server.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">*</bpt>VPN profiles<ept id="p1">*</ept> in Microsoft Intune to deploy VPN settings to users and devices in your organization.</source>
+          <target state="new">Use <bpt id="p1">*</bpt>VPN profiles<ept id="p1">*</ept> in Microsoft Intune to deploy VPN settings to users and devices in your organization.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By deploying these settings, you minimize the end-user effort required to connect to resources on the company network.</source>
+          <target state="new">By deploying these settings, you minimize the end-user effort required to connect to resources on the company network.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, assume that you want to provision all iOS devices with the settings required to connect to a file share on the corporate network.</source>
+          <target state="new">For example, assume that you want to provision all iOS devices with the settings required to connect to a file share on the corporate network.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You create a VPN profile that contains the settings necessary to connect to the corporate network, and then you deploy this profile to all users who have iOS devices.</source>
+          <target state="new">You create a VPN profile that contains the settings necessary to connect to the corporate network, and then you deploy this profile to all users who have iOS devices.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The users will see the VPN connection in the list of available networks and can connect with minimal effort.</source>
+          <target state="new">The users will see the VPN connection in the list of available networks and can connect with minimal effort.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can configure the following device types by using VPN profiles:</source>
+          <target state="new">You can configure the following device types by using VPN profiles:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Devices that run Android 4 and later</source>
+          <target state="new">Devices that run Android 4 and later</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Devices that run iOS 8.0 and later</source>
+          <target state="new">Devices that run iOS 8.0 and later</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Devices that run Mac OS X 10.9 and later</source>
+          <target state="new">Devices that run Mac OS X 10.9 and later</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enrolled devices that run Windows 8.1 and later</source>
+          <target state="new">Enrolled devices that run Windows 8.1 and later</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Devices that run Windows Phone 8.1 and later</source>
+          <target state="new">Devices that run Windows Phone 8.1 and later</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Devices that run Windows 10 desktop and mobile</source>
+          <target state="new">Devices that run Windows 10 desktop and mobile</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The VPN profile configuration options differ depending on the device type that you select.</source>
+          <target state="new">The VPN profile configuration options differ depending on the device type that you select.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>VPN connection types</source>
+          <target state="new">VPN connection types</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Intune supports creating VPN profiles that use the following connection types:</source>
+          <target state="new">Intune supports creating VPN profiles that use the following connection types:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Connection type</source>
+          <target state="new">Connection type</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>iOS and Mac OS X</source>
+          <target state="new">iOS and Mac OS X</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="new">Android</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="new">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="new">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Windows RT 8.1</source>
+          <target state="new">Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Windows 10 desktop and mobile</source>
+          <target state="new">Windows 10 desktop and mobile</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Cisco AnyConnect</source>
+          <target state="new">Cisco AnyConnect</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Yes (OMA-URI, mobile only)</source>
+          <target state="new">Yes (OMA-URI, mobile only)</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Cisco (IPsec)</source>
+          <target state="new">Cisco (IPsec)</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Citrix</source>
+          <target state="new">Citrix</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Pulse Secure</source>
+          <target state="new">Pulse Secure</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>F5 Edge Client</source>
+          <target state="new">F5 Edge Client</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Dell SonicWALL Mobile Connect</source>
+          <target state="new">Dell SonicWALL Mobile Connect</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>CheckPoint Mobile VPN</source>
+          <target state="new">CheckPoint Mobile VPN</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Microsoft SSL (SSTP)</source>
+          <target state="new">Microsoft SSL (SSTP)</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>VPNv1 OMA-URI*</source>
+          <target state="new">VPNv1 OMA-URI*</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Microsoft Automatic</source>
+          <target state="new">Microsoft Automatic</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Yes (OMA-URI)</source>
+          <target state="new">Yes (OMA-URI)</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>IKEv2</source>
+          <target state="new">IKEv2</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>iOS custom profile</source>
+          <target state="new">iOS custom profile</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Yes (OMA-URI)</source>
+          <target state="new">Yes (OMA-URI)</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>PPTP</source>
+          <target state="new">PPTP</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>iOS custom profile</source>
+          <target state="new">iOS custom profile</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>L2TP</source>
+          <target state="new">L2TP</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>iOS custom profile</source>
+          <target state="new">iOS custom profile</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Yes (OMA-URI)</source>
+          <target state="new">Yes (OMA-URI)</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Without additional settings that are otherwise available for Windows 10.</source>
+          <target state="new">Without additional settings that are otherwise available for Windows 10.</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Before you can use VPN profiles deployed to a device, you must install the applicable VPN app for the profile.</source>
+          <target state="new">Before you can use VPN profiles deployed to a device, you must install the applicable VPN app for the profile.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>You can use the information in the <bpt id="p1">[</bpt>Deploy apps in Microsoft Intune<ept id="p1">](deploy-apps-in-microsoft-intune.md)</ept> topic to help you deploy the applicable app by using Intune.</source>
+          <target state="new">You can use the information in the <bpt id="p1">[</bpt>Deploy apps in Microsoft Intune<ept id="p1">](deploy-apps-in-microsoft-intune.md)</ept> topic to help you deploy the applicable app by using Intune.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Learn how to  create custom VPN profiles by using URI settings in <bpt id="p1">[</bpt>Custom configurations for VPN profiles<ept id="p1">](custom-configurations-for-vpn-profiles.md)</ept>.</source>
+          <target state="new">Learn how to  create custom VPN profiles by using URI settings in <bpt id="p1">[</bpt>Custom configurations for VPN profiles<ept id="p1">](custom-configurations-for-vpn-profiles.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Methods of securing VPN profiles</source>
+          <target state="new">Methods of securing VPN profiles</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>VPN profiles can use a number of different connection types and protocols from different manufacturers.</source>
+          <target state="new">VPN profiles can use a number of different connection types and protocols from different manufacturers.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>These connections are typically secured through one of two methods.</source>
+          <target state="new">These connections are typically secured through one of two methods.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Certificates</source>
+          <target state="new">Certificates</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>When you create the VPN profile, you choose a SCEP or PFX certificate profile that you previously created in Intune.</source>
+          <target state="new">When you create the VPN profile, you choose a SCEP or PFX certificate profile that you previously created in Intune.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This is known as the identity certificate.</source>
+          <target state="new">This is known as the identity certificate.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>It's used to authenticate against a trusted certificate profile (or a root certificate) that you created to establish that the user’s device is allowed to connect.</source>
+          <target state="new">It's used to authenticate against a trusted certificate profile (or a root certificate) that you created to establish that the user’s device is allowed to connect.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The trusted certificate is deployed to the computer that authenticates the VPN connection, typically, the VPN server.</source>
+          <target state="new">The trusted certificate is deployed to the computer that authenticates the VPN connection, typically, the VPN server.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For more information about how to create and use certificate profiles in Intune, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</source>
+          <target state="new">For more information about how to create and use certificate profiles in Intune, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>User name and password</source>
+          <target state="new">User name and password</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The user authenticates to the VPN server by providing a user name and password.</source>
+          <target state="new">The user authenticates to the VPN server by providing a user name and password.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Create a VPN profile</source>
+          <target state="new">Create a VPN profile</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Add Policy<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Add Policy<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Select a template for the new policy by expanding the relevant device type, and then choose the VPN profile for that device:</source>
+          <target state="new">Select a template for the new policy by expanding the relevant device type, and then choose the VPN profile for that device:</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>VPN Profile (Android 4 and later)</source>
+          <target state="new">VPN Profile (Android 4 and later)</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>VPN Profile (iOS 8.0 and later)</source>
+          <target state="new">VPN Profile (iOS 8.0 and later)</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>VPN Profile (Mac OS X 10.9 and later)</source>
+          <target state="new">VPN Profile (Mac OS X 10.9 and later)</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>VPN Profile (Windows 8.1 and later)</source>
+          <target state="new">VPN Profile (Windows 8.1 and later)</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>VPN Profile (Windows Phone 8.1 and later)</source>
+          <target state="new">VPN Profile (Windows Phone 8.1 and later)</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>VPN Profile (Windows 10 Desktop and Mobile and later)</source>
+          <target state="new">VPN Profile (Windows 10 Desktop and Mobile and later)</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>You can create and deploy only a custom VPN profile policy.</source>
+          <target state="new">You can create and deploy only a custom VPN profile policy.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Recommended settings are not available.</source>
+          <target state="new">Recommended settings are not available.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Use the following table to help you configure the VPN profile settings:</source>
+          <target state="new">Use the following table to help you configure the VPN profile settings:</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="new">More information</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Enter a unique name for the VPN profile to help you identify it in the Intune console.</source>
+          <target state="new">Enter a unique name for the VPN profile to help you identify it in the Intune console.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Provide a description that gives an overview of the VPN profile and other relevant information that helps you to locate it.</source>
+          <target state="new">Provide a description that gives an overview of the VPN profile and other relevant information that helps you to locate it.</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>VPN connection name (displayed to users)</source>
+          <target state="new">VPN connection name (displayed to users)</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Specify a name for the VPN profile.</source>
+          <target state="new">Specify a name for the VPN profile.</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>This is the name that users will see in the list of available VPN connections on their devices.</source>
+          <target state="new">This is the name that users will see in the list of available VPN connections on their devices.</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Connection type</source>
+          <target state="new">Connection type</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Select one of the following connection types to use in the VPN profile: <bpt id="p1">**</bpt>Cisco AnyConnect<ept id="p1">**</ept> (not available for Windows 8.1 or Windows Phone 8.1), <bpt id="p2">**</bpt>Pulse Secure<ept id="p2">**</ept>, <bpt id="p3">**</bpt>F5 Edge Client<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Dell SonicWALL Mobile Connect<ept id="p4">**</ept>, <bpt id="p5">**</bpt>CheckPoint Mobile VPN<ept id="p5">**</ept>.</source>
+          <target state="new">Select one of the following connection types to use in the VPN profile: <bpt id="p1">**</bpt>Cisco AnyConnect<ept id="p1">**</ept> (not available for Windows 8.1 or Windows Phone 8.1), <bpt id="p2">**</bpt>Pulse Secure<ept id="p2">**</ept>, <bpt id="p3">**</bpt>F5 Edge Client<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Dell SonicWALL Mobile Connect<ept id="p4">**</ept>, <bpt id="p5">**</bpt>CheckPoint Mobile VPN<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>VPN server description</source>
+          <target state="new">VPN server description</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Specify a description for the VPN server that devices will connect to.</source>
+          <target state="new">Specify a description for the VPN server that devices will connect to.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Example: <bpt id="p1">**</bpt>Contoso VPN Server<ept id="p1">**</ept>.</source>
+          <target state="new">Example: <bpt id="p1">**</bpt>Contoso VPN Server<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>When the connection type is <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Server list<ept id="p2">**</ept> field to specify a list of server descriptions and IP addresses.</source>
+          <target state="new">When the connection type is <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Server list<ept id="p2">**</ept> field to specify a list of server descriptions and IP addresses.</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Server IP address or FQDN</source>
+          <target state="new">Server IP address or FQDN</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Provide the IP address or fully qualified domain name of the VPN server that devices will connect to.</source>
+          <target state="new">Provide the IP address or fully qualified domain name of the VPN server that devices will connect to.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Examples: <bpt id="p1">**</bpt>192.168.1.1<ept id="p1">**</ept>, <bpt id="p2">**</bpt>vpn.contoso.com<ept id="p2">**</ept>.</source>
+          <target state="new">Examples: <bpt id="p1">**</bpt>192.168.1.1<ept id="p1">**</ept>, <bpt id="p2">**</bpt>vpn.contoso.com<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>When the connection type is <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Server list<ept id="p2">**</ept> field to specify a list of server descriptions and IP addresses.</source>
+          <target state="new">When the connection type is <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Server list<ept id="p2">**</ept> field to specify a list of server descriptions and IP addresses.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Server list</source>
+          <target state="new">Server list</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to add a new VPN server to use for the VPN connection.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to add a new VPN server to use for the VPN connection.</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You can also specify which server will be the default server for the connection.</source>
+          <target state="new">You can also specify which server will be the default server for the connection.</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>This option is displayed only when the connection type is <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>.</source>
+          <target state="new">This option is displayed only when the connection type is <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Send all network traffic through the VPN connection</source>
+          <target state="new">Send all network traffic through the VPN connection</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>If you select this option, all network traffic is sent through the VPN connection.</source>
+          <target state="new">If you select this option, all network traffic is sent through the VPN connection.</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>If you do not select this option, the client will dynamically negotiate the routes for split tunneling upon connecting to the third-party VPN server.</source>
+          <target state="new">If you do not select this option, the client will dynamically negotiate the routes for split tunneling upon connecting to the third-party VPN server.</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Only connections to the company network are sent over a VPN tunnel.</source>
+          <target state="new">Only connections to the company network are sent over a VPN tunnel.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>VPN tunneling is not used when you connect to resources on the Internet.</source>
+          <target state="new">VPN tunneling is not used when you connect to resources on the Internet.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Authentication method</source>
+          <target state="new">Authentication method</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Select the authentication method that the VPN connection uses: <bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Username and Password<ept id="p2">**</ept>.</source>
+          <target state="new">Select the authentication method that the VPN connection uses: <bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Username and Password<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">**</bpt>Username and Password<ept id="p1">**</ept> is not available when the connection type is Cisco AnyConnect.) The <bpt id="p2">**</bpt>Authentication method<ept id="p2">**</ept> option is not available for Windows 8.1.</source>
+          <target state="new">(<bpt id="p1">**</bpt>Username and Password<ept id="p1">**</ept> is not available when the connection type is Cisco AnyConnect.) The <bpt id="p2">**</bpt>Authentication method<ept id="p2">**</ept> option is not available for Windows 8.1.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Remember the user credentials at each logon</source>
+          <target state="new">Remember the user credentials at each logon</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Select this option to ensure that the user credentials are remembered so that the user does not have to enter credentials each time a connection is established.</source>
+          <target state="new">Select this option to ensure that the user credentials are remembered so that the user does not have to enter credentials each time a connection is established.</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Select a client certificate for client authentication (Identity Certificate)</source>
+          <target state="new">Select a client certificate for client authentication (Identity Certificate)</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Select the client SCEP certificate that you previously created and that will be used to authenticate the VPN connection.</source>
+          <target state="new">Select the client SCEP certificate that you previously created and that will be used to authenticate the VPN connection.</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>For more information about how to use certificate profiles in Intune, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</source>
+          <target state="new">For more information about how to use certificate profiles in Intune, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>This option is displayed only when the authentication method is <bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept>.</source>
+          <target state="new">This option is displayed only when the authentication method is <bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Role</source>
+          <target state="new">Role</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Specify the name of the user role that has access to this connection.</source>
+          <target state="new">Specify the name of the user role that has access to this connection.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>A user role defines personal settings and options, and it enables or disables certain access features.</source>
+          <target state="new">A user role defines personal settings and options, and it enables or disables certain access features.</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>This option is displayed only when the connection type is <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>.</source>
+          <target state="new">This option is displayed only when the connection type is <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Realm</source>
+          <target state="new">Realm</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Specify the name of the authentication realm that you want to use.</source>
+          <target state="new">Specify the name of the authentication realm that you want to use.</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>An authentication realm is a grouping of authentication resources that the Pulse Secure connection type uses.</source>
+          <target state="new">An authentication realm is a grouping of authentication resources that the Pulse Secure connection type uses.</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This option is displayed only when the connection type is <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>.</source>
+          <target state="new">This option is displayed only when the connection type is <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Login group or domain</source>
+          <target state="new">Login group or domain</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Specify the name of the login group or domain that you want to connect to.</source>
+          <target state="new">Specify the name of the login group or domain that you want to connect to.</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>This option is displayed only when the connection type is <bpt id="p1">**</bpt>Dell SonicWALL Mobile Connect<ept id="p1">**</ept>.</source>
+          <target state="new">This option is displayed only when the connection type is <bpt id="p1">**</bpt>Dell SonicWALL Mobile Connect<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Fingerprint</source>
+          <target state="new">Fingerprint</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Specify a string (for example, "Contoso Fingerprint Code") that will be used to verify that the VPN server can be trusted.</source>
+          <target state="new">Specify a string (for example, "Contoso Fingerprint Code") that will be used to verify that the VPN server can be trusted.</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>A fingerprint can be sent to the client so it knows to trust any server that presents the same fingerprint when connecting.</source>
+          <target state="new">A fingerprint can be sent to the client so it knows to trust any server that presents the same fingerprint when connecting.</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>If the device doesn’t already have the fingerprint, it will prompt the user to trust the VPN server that they are connecting to while showing the fingerprint.</source>
+          <target state="new">If the device doesn’t already have the fingerprint, it will prompt the user to trust the VPN server that they are connecting to while showing the fingerprint.</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>(The user manually verifies the fingerprint and chooses <bpt id="p1">**</bpt>trust<ept id="p1">**</ept> to connect.) This option is displayed only when the connection type is <bpt id="p2">**</bpt>CheckPoint Mobile VPN<ept id="p2">**</ept>.</source>
+          <target state="new">(The user manually verifies the fingerprint and chooses <bpt id="p1">**</bpt>trust<ept id="p1">**</ept> to connect.) This option is displayed only when the connection type is <bpt id="p2">**</bpt>CheckPoint Mobile VPN<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Per App VPN</source>
+          <target state="new">Per App VPN</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Select this option if you want to associate this VPN connection with an iOS or Mac OS X app so that the connection will be opened when the app is run.</source>
+          <target state="new">Select this option if you want to associate this VPN connection with an iOS or Mac OS X app so that the connection will be opened when the app is run.</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>You can associate the VPN profile with an app when you deploy the software.</source>
+          <target state="new">You can associate the VPN profile with an app when you deploy the software.</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Deploy apps in Microsoft Intune<ept id="p1">](deploy-apps-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Deploy apps in Microsoft Intune<ept id="p1">](deploy-apps-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>On-demand VPN</source>
+          <target state="new">On-demand VPN</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>You can set up on-demand VPN for iOS 8.0 and later devices.</source>
+          <target state="new">You can set up on-demand VPN for iOS 8.0 and later devices.</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Instructions for setting this up are provided in <bpt id="p1">[</bpt>On-demand VPN for iOS devices<ept id="p1">](#on-demand-vpn-for-ios-devices)</ept>.</source>
+          <target state="new">Instructions for setting this up are provided in <bpt id="p1">[</bpt>On-demand VPN for iOS devices<ept id="p1">](#on-demand-vpn-for-ios-devices)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Automatically detect proxy settings<ept id="p1">**</ept> (iOS, Mac OS X, Windows 8.1, and Windows Phone 8.1 only)</source>
+          <target state="new"><bpt id="p1">**</bpt>Automatically detect proxy settings<ept id="p1">**</ept> (iOS, Mac OS X, Windows 8.1, and Windows Phone 8.1 only)</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>If your VPN server requires a proxy server for the connection, specify whether you want devices to automatically detect the connection settings.</source>
+          <target state="new">If your VPN server requires a proxy server for the connection, specify whether you want devices to automatically detect the connection settings.</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For more information, see your Windows Server documentation.</source>
+          <target state="new">For more information, see your Windows Server documentation.</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use automatic configuration script<ept id="p1">**</ept> (iOS, Mac OS X, Windows 8.1, and Windows Phone 8.1 only)</source>
+          <target state="new"><bpt id="p1">**</bpt>Use automatic configuration script<ept id="p1">**</ept> (iOS, Mac OS X, Windows 8.1, and Windows Phone 8.1 only)</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>If your VPN server requires a proxy server for the connection, specify whether you want to use an automatic configuration script to define the settings, and then specify a URL to the file that contains the settings.</source>
+          <target state="new">If your VPN server requires a proxy server for the connection, specify whether you want to use an automatic configuration script to define the settings, and then specify a URL to the file that contains the settings.</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>For more information, see your Windows Server documentation.</source>
+          <target state="new">For more information, see your Windows Server documentation.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use proxy server<ept id="p1">**</ept> (iOS, Mac OS X, Windows 8.1, and Windows Phone 8.1 only)</source>
+          <target state="new"><bpt id="p1">**</bpt>Use proxy server<ept id="p1">**</ept> (iOS, Mac OS X, Windows 8.1, and Windows Phone 8.1 only)</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>If your VPN server requires a proxy server for the connection, select this option, and then specify the address and port number of the proxy server.</source>
+          <target state="new">If your VPN server requires a proxy server for the connection, select this option, and then specify the address and port number of the proxy server.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>For more information, see your Windows Server documentation.</source>
+          <target state="new">For more information, see your Windows Server documentation.</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Bypass proxy settings for local addresses<ept id="p1">**</ept> (iOS, Mac OS X, Windows 8.1, and Windows Phone 8.1 only)</source>
+          <target state="new"><bpt id="p1">**</bpt>Bypass proxy settings for local addresses<ept id="p1">**</ept> (iOS, Mac OS X, Windows 8.1, and Windows Phone 8.1 only)</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>If your VPN server requires a proxy server for the connection, select this option if you do not want to use the proxy server for local addresses that you specify.</source>
+          <target state="new">If your VPN server requires a proxy server for the connection, select this option if you do not want to use the proxy server for local addresses that you specify.</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>For more information, see your Windows Server documentation.</source>
+          <target state="new">For more information, see your Windows Server documentation.</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Custom XML<ept id="p1">**</ept> (Windows 8.1 and later, and Windows Phone 8.1 and later)</source>
+          <target state="new"><bpt id="p1">**</bpt>Custom XML<ept id="p1">**</ept> (Windows 8.1 and later, and Windows Phone 8.1 and later)</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Specify custom XML commands that configure the VPN connection.</source>
+          <target state="new">Specify custom XML commands that configure the VPN connection.</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Example for <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>pulse-schema<ph id="ph2">&amp;gt;&amp;lt;</ph>isSingleSignOnCredential<ph id="ph3">&amp;gt;</ph>true<ph id="ph4">&amp;lt;</ph>/isSingleSignOnCredential<ph id="ph5">&amp;gt;&amp;lt;</ph>/pulse-schema<ph id="ph6">&amp;gt;</ph>.</source>
+          <target state="new">Example for <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>pulse-schema<ph id="ph2">&amp;gt;&amp;lt;</ph>isSingleSignOnCredential<ph id="ph3">&amp;gt;</ph>true<ph id="ph4">&amp;lt;</ph>/isSingleSignOnCredential<ph id="ph5">&amp;gt;&amp;lt;</ph>/pulse-schema<ph id="ph6">&amp;gt;</ph>.</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Example for <bpt id="p1">**</bpt>CheckPoint Mobile VPN<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>CheckPointVPN port="443" name="CheckPointSelfhost" sso="true"  debug="3" /<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="new">Example for <bpt id="p1">**</bpt>CheckPoint Mobile VPN<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>CheckPointVPN port="443" name="CheckPointSelfhost" sso="true"  debug="3" /<ph id="ph2">&amp;gt;</ph>.</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Example for <bpt id="p1">**</bpt>Dell SonicWALL Mobile Connect<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>MobileConnect<ph id="ph2">&amp;gt;&amp;lt;</ph>Compression<ph id="ph3">&amp;gt;</ph>false<ph id="ph4">&amp;lt;</ph>/Compression<ph id="ph5">&amp;gt;&amp;lt;</ph>debugLogging<ph id="ph6">&amp;gt;</ph>True<ph id="ph7">&amp;lt;</ph>/debugLogging<ph id="ph8">&amp;gt;&amp;lt;</ph>packetCapture<ph id="ph9">&amp;gt;</ph>False<ph id="ph10">&amp;lt;</ph>/packetCapture<ph id="ph11">&amp;gt;&amp;lt;</ph>/MobileConnect<ph id="ph12">&amp;gt;</ph>.</source>
+          <target state="new">Example for <bpt id="p1">**</bpt>Dell SonicWALL Mobile Connect<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>MobileConnect<ph id="ph2">&amp;gt;&amp;lt;</ph>Compression<ph id="ph3">&amp;gt;</ph>false<ph id="ph4">&amp;lt;</ph>/Compression<ph id="ph5">&amp;gt;&amp;lt;</ph>debugLogging<ph id="ph6">&amp;gt;</ph>True<ph id="ph7">&amp;lt;</ph>/debugLogging<ph id="ph8">&amp;gt;&amp;lt;</ph>packetCapture<ph id="ph9">&amp;gt;</ph>False<ph id="ph10">&amp;lt;</ph>/packetCapture<ph id="ph11">&amp;gt;&amp;lt;</ph>/MobileConnect<ph id="ph12">&amp;gt;</ph>.</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Example for <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>f5-vpn-conf<ph id="ph2">&amp;gt;&amp;lt;</ph>single-sign-on-credential /<ph id="ph3">&amp;gt;&amp;lt;</ph>/f5-vpn-conf<ph id="ph4">&amp;gt;</ph>.</source>
+          <target state="new">Example for <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>f5-vpn-conf<ph id="ph2">&amp;gt;&amp;lt;</ph>single-sign-on-credential /<ph id="ph3">&amp;gt;&amp;lt;</ph>/f5-vpn-conf<ph id="ph4">&amp;gt;</ph>.</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Refer to each manufacturer's VPN documentation for more information about how to write custom XML commands.</source>
+          <target state="new">Refer to each manufacturer's VPN documentation for more information about how to write custom XML commands.</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DNS Suffix search list<ept id="p1">**</ept> (Windows Phone 8.1 only)</source>
+          <target state="new"><bpt id="p1">**</bpt>DNS Suffix search list<ept id="p1">**</ept> (Windows Phone 8.1 only)</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Specify one DNS suffix on each line.</source>
+          <target state="new">Specify one DNS suffix on each line.</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Each DNS suffix that you specify will be searched when connecting to a website by using a short name.</source>
+          <target state="new">Each DNS suffix that you specify will be searched when connecting to a website by using a short name.</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>For example, specify the DNS suffixes <bpt id="p1">**</bpt>domain1.contoso.com<ept id="p1">**</ept> and <bpt id="p2">**</bpt>domain2.contoso.com<ept id="p2">**</ept>, visit the URL <bpt id="p3">**</bpt>http://mywebsite<ept id="p3">**</ept>, and the URLs <bpt id="p4">**</bpt>http://mywebsite.domain1.contoso.com<ept id="p4">**</ept> and <bpt id="p5">**</bpt>http://mywebsite.domain2.contoso.com<ept id="p5">**</ept> will be searched.</source>
+          <target state="new">For example, specify the DNS suffixes <bpt id="p1">**</bpt>domain1.contoso.com<ept id="p1">**</ept> and <bpt id="p2">**</bpt>domain2.contoso.com<ept id="p2">**</ept>, visit the URL <bpt id="p3">**</bpt>http://mywebsite<ept id="p3">**</ept>, and the URLs <bpt id="p4">**</bpt>http://mywebsite.domain1.contoso.com<ept id="p4">**</ept> and <bpt id="p5">**</bpt>http://mywebsite.domain2.contoso.com<ept id="p5">**</ept> will be searched.</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Bypass VPN when connected to company Wi-Fi network<ept id="p1">**</ept> (Windows Phone 8.1 only)</source>
+          <target state="new"><bpt id="p1">**</bpt>Bypass VPN when connected to company Wi-Fi network<ept id="p1">**</ept> (Windows Phone 8.1 only)</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Select this option to specify that the VPN connection will not be used when the device is connected to the company Wi-Fi network.</source>
+          <target state="new">Select this option to specify that the VPN connection will not be used when the device is connected to the company Wi-Fi network.</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Bypass VPN when connected to home Wi-Fi network<ept id="p1">**</ept> (Windows Phone 8.1 only)</source>
+          <target state="new"><bpt id="p1">**</bpt>Bypass VPN when connected to home Wi-Fi network<ept id="p1">**</ept> (Windows Phone 8.1 only)</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Select this option to specify that the VPN connection will not be used when the device is connected to a home Wi-Fi network.</source>
+          <target state="new">Select this option to specify that the VPN connection will not be used when the device is connected to a home Wi-Fi network.</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The following additional settings are available for Windows 10 desktop and mobile devices.</source>
+          <target state="new">The following additional settings are available for Windows 10 desktop and mobile devices.</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="new">More information</target>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Network traffic rules</source>
+          <target state="new">Network traffic rules</target>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Select which protocols, and which local and remote port and address ranges, will be enabled for the VPN connection.</source>
+          <target state="new">Select which protocols, and which local and remote port and address ranges, will be enabled for the VPN connection.</target>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>If you do not create a network traffic rule, all protocols, ports, and address ranges are enabled.</source>
+          <target state="new">If you do not create a network traffic rule, all protocols, ports, and address ranges are enabled.</target>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>After you create a rule, the VPN connection will use only the protocols, ports, and address ranges that you specify in that rule.</source>
+          <target state="new">After you create a rule, the VPN connection will use only the protocols, ports, and address ranges that you specify in that rule.</target>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Routes</source>
+          <target state="new">Routes</target>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Select which routes will use the VPN connection.</source>
+          <target state="new">Select which routes will use the VPN connection.</target>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>DNS servers</source>
+          <target state="new">DNS servers</target>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Select which DNS servers the VPN connection will use after the connection is established.</source>
+          <target state="new">Select which DNS servers the VPN connection will use after the connection is established.</target>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Associated apps</source>
+          <target state="new">Associated apps</target>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Provide a list of apps that will automatically use the VPN connection.</source>
+          <target state="new">Provide a list of apps that will automatically use the VPN connection.</target>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The type of app will determine the app identifier.</source>
+          <target state="new">The type of app will determine the app identifier.</target>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>For a universal app, provide the package family name.</source>
+          <target state="new">For a universal app, provide the package family name.</target>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>For a desktop app, provide the file path of the app.</source>
+          <target state="new">For a desktop app, provide the file path of the app.</target>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>We recommend that you secure all lists of apps that you compile for use in configuration of per-app VPN.</source>
+          <target state="new">We recommend that you secure all lists of apps that you compile for use in configuration of per-app VPN.</target>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>If an unauthorized user modifies your list and you import it into the per-app VPN app list, you will potentially authorize VPN access to apps that should not have access.</source>
+          <target state="new">If an unauthorized user modifies your list and you import it into the per-app VPN app list, you will potentially authorize VPN access to apps that should not have access.</target>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>One way you can secure app lists is by using an access control list (ACL).</source>
+          <target state="new">One way you can secure app lists is by using an access control list (ACL).</target>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Here's an example of when you might use settings for corporate boundaries.</source>
+          <target state="new">Here's an example of when you might use settings for corporate boundaries.</target>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>If you want to enable VPN only for Remote Desktop, create a network traffic rule that allows traffic for protocol 27 on external port 3996.</source>
+          <target state="new">If you want to enable VPN only for Remote Desktop, create a network traffic rule that allows traffic for protocol 27 on external port 3996.</target>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>No other traffic will use the VPN.</source>
+          <target state="new">No other traffic will use the VPN.</target>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Defining routes in corporate boundaries is useful when your VPN connection type does not allow you to define how traffic is handled in split tunneling.</source>
+          <target state="new">Defining routes in corporate boundaries is useful when your VPN connection type does not allow you to define how traffic is handled in split tunneling.</target>
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>In that case, use <bpt id="p1">**</bpt>Routes<ept id="p1">**</ept> to list the routes that will use the VPN.</source>
+          <target state="new">In that case, use <bpt id="p1">**</bpt>Routes<ept id="p1">**</ept> to list the routes that will use the VPN.</target>
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>You can restrict VPN usage for Windows 10 devices to specific apps by creating a custom OMA-URI setting.</source>
+          <target state="new">You can restrict VPN usage for Windows 10 devices to specific apps by creating a custom OMA-URI setting.</target>
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The new policy appears in the <bpt id="p1">**</bpt>Configuration Policies<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace.</source>
+          <target state="new">The new policy appears in the <bpt id="p1">**</bpt>Configuration Policies<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace.</target>
+        </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>On-demand VPN for iOS devices</source>
+          <target state="new">On-demand VPN for iOS devices</target>
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>You can configure on-demand VPN for iOS 8.0 and later devices.</source>
+          <target state="new">You can configure on-demand VPN for iOS 8.0 and later devices.</target>
+        </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>You cannot use per-app VPN and on-demand VPN in the same policy.</source>
+          <target state="new">You cannot use per-app VPN and on-demand VPN in the same policy.</target>
+        </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>On the policy configuration page, find <bpt id="p1">**</bpt>On-demand rules for this VPN connection<ept id="p1">**</ept>.</source>
+          <target state="new">On the policy configuration page, find <bpt id="p1">**</bpt>On-demand rules for this VPN connection<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>The columns are labeled <bpt id="p1">**</bpt>Match<ept id="p1">**</ept>, the condition that the rules check for, and <bpt id="p2">**</bpt>Action<ept id="p2">**</ept>, the action that the policy will trigger when the condition is matched.</source>
+          <target state="new">The columns are labeled <bpt id="p1">**</bpt>Match<ept id="p1">**</ept>, the condition that the rules check for, and <bpt id="p2">**</bpt>Action<ept id="p2">**</ept>, the action that the policy will trigger when the condition is matched.</target>
+        </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to create a rule.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to create a rule.</target>
+        </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>There are two types of matches that you can set up in the rule.</source>
+          <target state="new">There are two types of matches that you can set up in the rule.</target>
+        </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>You can only configure one of these types per rule.</source>
+          <target state="new">You can only configure one of these types per rule.</target>
+        </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SSIDs<ept id="p1">**</ept>, which refer to wireless networks.</source>
+          <target state="new"><bpt id="p1">**</bpt>SSIDs<ept id="p1">**</ept>, which refer to wireless networks.</target>
+        </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DNS search domains<ept id="p1">**</ept>, which are.....</source>
+          <target state="new"><bpt id="p1">**</bpt>DNS search domains<ept id="p1">**</ept>, which are.....</target>
+        </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>You can use full-qualified domain names such as <bpt id="p1">*</bpt>team. corp.contoso.com<ept id="p1">*</ept>, or use domains such as <bpt id="p2">*</bpt>contoso.com<ept id="p2">*</ept>, which is the equivalent of using <bpt id="p3">*</bpt> <ept id="p3">*</ept>.contoso.com*.</source>
+          <target state="new">You can use full-qualified domain names such as <bpt id="p1">*</bpt>team. corp.contoso.com<ept id="p1">*</ept>, or use domains such as <bpt id="p2">*</bpt>contoso.com<ept id="p2">*</ept>, which is the equivalent of using <bpt id="p3">*</bpt> <ept id="p3">*</ept>.contoso.com*.</target>
+        </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Optional :provide a URL string probe, which is a URL that the rule uses as a test.</source>
+          <target state="new">Optional :provide a URL string probe, which is a URL that the rule uses as a test.</target>
+        </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>If the device on which this profile is installed is able to access this URL without redirection, the VPN will be established and the device will connect to the target URL.</source>
+          <target state="new">If the device on which this profile is installed is able to access this URL without redirection, the VPN will be established and the device will connect to the target URL.</target>
+        </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>The user will not see the URL string probe site.</source>
+          <target state="new">The user will not see the URL string probe site.</target>
+        </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>An example of a URL string probe is the address of an auditing Web server that checks device compliance before connecting the VPN.</source>
+          <target state="new">An example of a URL string probe is the address of an auditing Web server that checks device compliance before connecting the VPN.</target>
+        </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Another possibility is that the URL tests the ability of the VPN to connect to a site, before connecting the device to the target URL through the VPN.</source>
+          <target state="new">Another possibility is that the URL tests the ability of the VPN to connect to a site, before connecting the device to the target URL through the VPN.</target>
+        </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>Choose one of these actions:</source>
+          <target state="new">Choose one of these actions:</target>
+        </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Connect</source>
+          <target state="new">Connect</target>
+        </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Evaluate connection<ept id="p1">**</ept>, which has three settings a.</source>
+          <target state="new"><bpt id="p1">**</bpt>Evaluate connection<ept id="p1">**</ept>, which has three settings a.</target>
+        </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Domain action<ept id="p1">**</ept>  - choose <bpt id="p2">**</bpt>Connect if needed<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Never connect<ept id="p3">**</ept><ph id="ph1">
+</ph>  b.</source>
+          <target state="new"><bpt id="p1">**</bpt>Domain action<ept id="p1">**</ept>  - choose <bpt id="p2">**</bpt>Connect if needed<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Never connect<ept id="p3">**</ept><ph id="ph1">
+</ph>  b.</target>
+        </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Comma-separated list of domains<ept id="p1">**</ept> - you configure this only if you choose a <bpt id="p2">**</bpt>Domain action<ept id="p2">**</ept> of <bpt id="p3">**</bpt>Connect if needed<ept id="p3">**</ept><ph id="ph1"> 
+</ph>  c.</source>
+          <target state="new"><bpt id="p1">**</bpt>Comma-separated list of domains<ept id="p1">**</ept> - you configure this only if you choose a <bpt id="p2">**</bpt>Domain action<ept id="p2">**</ept> of <bpt id="p3">**</bpt>Connect if needed<ept id="p3">**</ept><ph id="ph1"> 
+</ph>  c.</target>
+        </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Required URL string probe<ept id="p1">**</ept> - an HTTP or HTTPS (preferred) URL, such as <bpt id="p2">*</bpt>https://vpntestprobe.contoso.com<ept id="p2">*</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Required URL string probe<ept id="p1">**</ept> - an HTTP or HTTPS (preferred) URL, such as <bpt id="p2">*</bpt>https://vpntestprobe.contoso.com<ept id="p2">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>The rule will check to see if there's a response from this address.</source>
+          <target state="new">The rule will check to see if there's a response from this address.</target>
+        </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>If not, and the <bpt id="p1">**</bpt>Domain action<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Connect if needed<ept id="p2">**</ept>, the VPN will be triggered.</source>
+          <target state="new">If not, and the <bpt id="p1">**</bpt>Domain action<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Connect if needed<ept id="p2">**</ept>, the VPN will be triggered.</target>
+        </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>An example of when you might use this action is when some sites on your corporate network require a direct or VPN corporate network connection, but others do not.</source>
+          <target state="new">An example of when you might use this action is when some sites on your corporate network require a direct or VPN corporate network connection, but others do not.</target>
+        </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>If you list in <bpt id="p1">**</bpt>Comma-separated list of DNS search domains<ept id="p1">**</ept> <bpt id="p2">*</bpt>corp.contoso.com<ept id="p2">*</ept>, you can choose <bpt id="p3">**</bpt>Connect if needed<ept id="p3">**</ept> and then list specific sites within that network that may require VPN, such as <bpt id="p4">*</bpt>sharepoint.corp.contoso.com<ept id="p4">*</ept>.</source>
+          <target state="new">If you list in <bpt id="p1">**</bpt>Comma-separated list of DNS search domains<ept id="p1">**</ept> <bpt id="p2">*</bpt>corp.contoso.com<ept id="p2">*</ept>, you can choose <bpt id="p3">**</bpt>Connect if needed<ept id="p3">**</ept> and then list specific sites within that network that may require VPN, such as <bpt id="p4">*</bpt>sharepoint.corp.contoso.com<ept id="p4">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>The rule will then check if <bpt id="p1">*</bpt>vpntestprobe.contoso.com<ept id="p1">*</ept> can be reached.</source>
+          <target state="new">The rule will then check if <bpt id="p1">*</bpt>vpntestprobe.contoso.com<ept id="p1">*</ept> can be reached.</target>
+        </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>If it can't, the VPN will be triggered for the sharepoint site.</source>
+          <target state="new">If it can't, the VPN will be triggered for the sharepoint site.</target>
+        </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ignore<ept id="p1">**</ept> - this causes no change in the VPN connectivity.</source>
+          <target state="new"><bpt id="p1">**</bpt>Ignore<ept id="p1">**</ept> - this causes no change in the VPN connectivity.</target>
+        </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>If the VPN is connected, leave it connected, if it's not connected, don't connect it.</source>
+          <target state="new">If the VPN is connected, leave it connected, if it's not connected, don't connect it.</target>
+        </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>For example, you may have a rule that connects the VPN for all of your internal corporate web sites, but want to make one of those internal sites accessible only when the device is actually connected to the corporate network.</source>
+          <target state="new">For example, you may have a rule that connects the VPN for all of your internal corporate web sites, but want to make one of those internal sites accessible only when the device is actually connected to the corporate network.</target>
+        </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>In that case, you would create an ignore rule for that one site.</source>
+          <target state="new">In that case, you would create an ignore rule for that one site.</target>
+        </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disconnect<ept id="p1">**</ept> - disconnect devices from the VPN when the conditions are matched.</source>
+          <target state="new"><bpt id="p1">**</bpt>Disconnect<ept id="p1">**</ept> - disconnect devices from the VPN when the conditions are matched.</target>
+        </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>For example, you could list your corporate wireless networks in the <bpt id="p1">**</bpt>SSIDs<ept id="p1">**</ept> field, and create a rule that disconnects devices from the VPN when they connect to one of those networks.</source>
+          <target state="new">For example, you could list your corporate wireless networks in the <bpt id="p1">**</bpt>SSIDs<ept id="p1">**</ept> field, and create a rule that disconnects devices from the VPN when they connect to one of those networks.</target>
+        </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>Domain-specific rules are evaluated before all-domain rules.</source>
+          <target state="new">Domain-specific rules are evaluated before all-domain rules.</target>
+        </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>Deploy the policy</source>
+          <target state="new">Deploy the policy</target>
+        </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy that you want to deploy, and then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy that you want to deploy, and then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box:</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box:</target>
+        </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>To deploy the policy, select one or more groups to which you want to deploy the policy, and then choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="new">To deploy the policy, select one or more groups to which you want to deploy the policy, and then choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>To close the dialog box without deploying it, choose <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept>.</source>
+          <target state="new">To close the dialog box without deploying it, choose <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>After successful deployment, users will see the VPN connection name that you specified in the list of VPN connections on their devices.</source>
+          <target state="new">After successful deployment, users will see the VPN connection name that you specified in the list of VPN connections on their devices.</target>
+        </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>A status summary and alerts on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace identify issues with the policy that require your attention.</source>
+          <target state="new">A status summary and alerts on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace identify issues with the policy that require your attention.</target>
+        </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>Additionally, a status summary appears in the Dashboard workspace.</source>
+          <target state="new">Additionally, a status summary appears in the Dashboard workspace.</target>
+        </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>Custom configurations for VPN profiles</source>
+          <target state="new">Custom configurations for VPN profiles</target>
+        </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Per-app VPN for Android Pulse Secure</source>
+          <target state="new">Per-app VPN for Android Pulse Secure</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

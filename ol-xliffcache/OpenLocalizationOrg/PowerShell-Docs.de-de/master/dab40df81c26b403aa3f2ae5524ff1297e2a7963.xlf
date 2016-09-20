@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dab40df81c26b403aa3f2ae5524ff1297e2a7963</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\validate-mobile-application-management.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7661f95ac6beeceb3c033001e0eaf75529850d15</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5df3e377d2cd44bf8f4059f9e797ae743f56f3e4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Validate your MAM setup | Microsoft Intune</source>
+          <target state="new">Validate your MAM setup | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topics describes how you can test and validate if your MAM policy is set up correctly and working as expected.</source>
+          <target state="new">This topics describes how you can test and validate if your MAM policy is set up correctly and working as expected.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Validating your mobile application management setup</source>
+          <target state="new">Validating your mobile application management setup</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic provides information on checking for issues after you set up mobile application management (MAM).</source>
+          <target state="new">This topic provides information on checking for issues after you set up mobile application management (MAM).</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This guidance applies to MAM policies in the Azure portal.</source>
+          <target state="new">This guidance applies to MAM policies in the Azure portal.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Checking for symptoms</source>
+          <target state="new">Checking for symptoms</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Users are unlikely to report issues since MAM is a data protection tool.</source>
+          <target state="new">Users are unlikely to report issues since MAM is a data protection tool.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If there is a problem with the MAM configuration the user will have unrestricted access, as they would have without MAM, and would not be aware that there is an issue.</source>
+          <target state="new">If there is a problem with the MAM configuration the user will have unrestricted access, as they would have without MAM, and would not be aware that there is an issue.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For this reason we recommend that you validate your MAM configuration by piloting your MAM policies with a small group of users who can deliberately test the MAM restrictions.</source>
+          <target state="new">For this reason we recommend that you validate your MAM configuration by piloting your MAM policies with a small group of users who can deliberately test the MAM restrictions.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>What to check</source>
+          <target state="new">What to check</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If testing shows that your MAM policy behavior is not as anticipated, we recommend that you check the following:</source>
+          <target state="new">If testing shows that your MAM policy behavior is not as anticipated, we recommend that you check the following:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Are the users licensed for MAM?</source>
+          <target state="new">Are the users licensed for MAM?</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Are the users licensed for O365?</source>
+          <target state="new">Are the users licensed for O365?</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The status of each of the users' MAM apps.</source>
+          <target state="new">The status of each of the users' MAM apps.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The possible statuses for the apps are <bpt id="p1">**</bpt>Checked in<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Not checked in<ept id="p2">**</ept>.</source>
+          <target state="new">The possible statuses for the apps are <bpt id="p1">**</bpt>Checked in<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Not checked in<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>User MAM status</source>
+          <target state="new">User MAM status</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the Azure portal choose <bpt id="p1">**</bpt>Intune mobile application management<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>settings<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>app management<ept id="p3">**</ept><ph id="ph3"> &gt; </ph><bpt id="p4">**</bpt>All settings<ept id="p4">**</ept><ph id="ph4"> &gt; </ph><bpt id="p5">**</bpt>App reporting by user<ept id="p5">**</ept><ph id="ph5"> &gt; </ph><bpt id="p6">**</bpt>users<ept id="p6">**</ept>.</source>
+          <target state="new">In the Azure portal choose <bpt id="p1">**</bpt>Intune mobile application management<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>settings<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>app management<ept id="p3">**</ept><ph id="ph3"> &gt; </ph><bpt id="p4">**</bpt>All settings<ept id="p4">**</ept><ph id="ph4"> &gt; </ph><bpt id="p5">**</bpt>App reporting by user<ept id="p5">**</ept><ph id="ph5"> &gt; </ph><bpt id="p6">**</bpt>users<ept id="p6">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Choose a user from the list or search for and choose a user, then choose <bpt id="p1">**</bpt>Select user<ept id="p1">**</ept>.</source>
+          <target state="new">Choose a user from the list or search for and choose a user, then choose <bpt id="p1">**</bpt>Select user<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>At the top of the <bpt id="p1">**</bpt>App reporting<ept id="p1">**</ept> column you will see whether the user is licensed for MAM.</source>
+          <target state="new">At the top of the <bpt id="p1">**</bpt>App reporting<ept id="p1">**</ept> column you will see whether the user is licensed for MAM.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Below that you will see whether the user is licensed for O365 and the app status for all of the user's devices.</source>
+          <target state="new">Below that you will see whether the user is licensed for O365 and the app status for all of the user's devices.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>App statuts for MAM</source>
+          <target state="new">App statuts for MAM</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>What to do</source>
+          <target state="new">What to do</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Here are the actions to take based on the user status:</source>
+          <target state="new">Here are the actions to take based on the user status:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If the user is not licensed for MAM, assign an Intune license to the user as described in <bpt id="p1">[</bpt>Manage Intune licenses<ept id="p1">](..\get-started\start-with-a-paid-subscription-to-microsoft-intune)</ept>.</source>
+          <target state="new">If the user is not licensed for MAM, assign an Intune license to the user as described in <bpt id="p1">[</bpt>Manage Intune licenses<ept id="p1">](..\get-started\start-with-a-paid-subscription-to-microsoft-intune)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If the user is not licensed for O365 obtain a license for the user.</source>
+          <target state="new">If the user is not licensed for O365 obtain a license for the user.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If a user's app is listed as <bpt id="p1">**</bpt>Not checked in<ept id="p1">**</ept>, check if you've correctly configured a MAM policy for that app.</source>
+          <target state="new">If a user's app is listed as <bpt id="p1">**</bpt>Not checked in<ept id="p1">**</ept>, check if you've correctly configured a MAM policy for that app.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Ensure that these conditions are applied across all users to which you want MAM policies to apply.</source>
+          <target state="new">Ensure that these conditions are applied across all users to which you want MAM policies to apply.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Get ready to configure mobile app management policies with Microsoft Intune</source>
+          <target state="new">Get ready to configure mobile app management policies with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Protect app data using mobile app management policies with Microsoft Intune</source>
+          <target state="new">Protect app data using mobile app management policies with Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

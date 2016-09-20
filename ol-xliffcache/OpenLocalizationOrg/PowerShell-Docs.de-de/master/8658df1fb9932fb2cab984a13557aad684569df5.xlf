@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8658df1fb9932fb2cab984a13557aad684569df5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1f99ee5912597baf43e12971c0e8f4d41f1ef09</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12fdbb1fdde41abd6dab747827c799802b8b5102</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Deploy and monitor a compliance policy | Microsoft Intune</source>
+          <target state="new">Deploy and monitor a compliance policy | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the step-by-step instructions in this topic to deploy and monitor a device compliance policy.</source>
+          <target state="new">Use the step-by-step instructions in this topic to deploy and monitor a device compliance policy.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Deploy and monitor a device compliance policy in Microsoft Intune</source>
+          <target state="new">Deploy and monitor a device compliance policy in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Deploy a compliance policy</source>
+          <target state="new">Deploy a compliance policy</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Deploy the compliance policy you <bpt id="p1">[</bpt>created<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept> to one or more groups of users in your organization.</source>
+          <target state="new">Deploy the compliance policy you <bpt id="p1">[</bpt>created<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept> to one or more groups of users in your organization.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When a compliance policy is deployed to a user, the user's devices are checked for compliance.</source>
+          <target state="new">When a compliance policy is deployed to a user, the user's devices are checked for compliance.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy you want to deploy, then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy you want to deploy, then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Screenshot of the compliance policy page showing the Manage Deployment menu option at the top</source>
+          <target state="new">Screenshot of the compliance policy page showing the Manage Deployment menu option at the top</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box, choose one or more groups to which you want to deploy the policy, then choose <bpt id="p2">**</bpt>Add &gt; OK<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box, choose one or more groups to which you want to deploy the policy, then choose <bpt id="p2">**</bpt>Add &gt; OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Screenshot of the manage deployment dialog box<ph id="ph1">](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png)</ph> You can deploy a compliance policy to users.</source>
+          <target state="new">Screenshot of the manage deployment dialog box<ph id="ph1">](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png)</ph> You can deploy a compliance policy to users.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use Active Directory groups that you have already created and synced to Intune, or create these groups manually in the Intune console.</source>
+          <target state="new">Use Active Directory groups that you have already created and synced to Intune, or create these groups manually in the Intune console.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To learn more about how to deploy policies, see <bpt id="p1">[</bpt>deploy a configuration policy<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept>.</source>
+          <target state="new">To learn more about how to deploy policies, see <bpt id="p1">[</bpt>deploy a configuration policy<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use the status summary and alerts on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace to identify issues with the policy that require your attention.</source>
+          <target state="new">Use the status summary and alerts on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace to identify issues with the policy that require your attention.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Additionally, a status summary appears in the <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> workspace.</source>
+          <target state="new">Additionally, a status summary appears in the <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> workspace.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.</source>
+          <target state="new">If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>How Intune policy conflicts are resolved</source>
+          <target state="new">How Intune policy conflicts are resolved</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Policy conflicts  can occur due when multiple Intune policies are applied to a device.</source>
+          <target state="new">Policy conflicts  can occur due when multiple Intune policies are applied to a device.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the policy settings overlap, Intune resolves any conflicts using the following rules:</source>
+          <target state="new">If the policy settings overlap, Intune resolves any conflicts using the following rules:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the conflicting settings are from an Intune configuration policy and a compliance policy, the settings in the compliance policy take precedence over the settings in the configuration policy, even if the settings in the configuration policy are more secure.</source>
+          <target state="new">If the conflicting settings are from an Intune configuration policy and a compliance policy, the settings in the compliance policy take precedence over the settings in the configuration policy, even if the settings in the configuration policy are more secure.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you have deployed multiple compliance policies, the most secure of these policies will be used.</source>
+          <target state="new">If you have deployed multiple compliance policies, the most secure of these policies will be used.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Monitor the compliance policy</source>
+          <target state="new">Monitor the compliance policy</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To view devices that do not conform to a compliance policy</source>
+          <target state="new">To view devices that do not conform to a compliance policy</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Groups &gt; All Devices<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Groups &gt; All Devices<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Double-click the name of a device in the list of devices.</source>
+          <target state="new">Double-click the name of a device in the list of devices.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> tab to see a list of the policies for that device.</source>
+          <target state="new">Choose the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> tab to see a list of the policies for that device.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> drop-down list, select <bpt id="p2">**</bpt>Does not conform to compliance policy<ept id="p2">**</ept>.</source>
+          <target state="new">From the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> drop-down list, select <bpt id="p2">**</bpt>Does not conform to compliance policy<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the list of options in the filters list</source>
+          <target state="new">Screenshot showing the list of options in the filters list</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To view the Health Attestation Reports</source>
+          <target state="new">To view the Health Attestation Reports</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Health Attestation Report - Create a new report<ept id="p1">**</ept> page, you can view a report with all the Windows 10 health attestation data collected by Intune.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Health Attestation Report - Create a new report<ept id="p1">**</ept> page, you can view a report with all the Windows 10 health attestation data collected by Intune.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can also create a report with a subset of the data using filters.</source>
+          <target state="new">You can also create a report with a subset of the data using filters.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The filters can be based on the type of device, operating system, or only a subset of data points.</source>
+          <target state="new">The filters can be based on the type of device, operating system, or only a subset of data points.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can now use the compliance policy with conditional access policies to control access to services in your organization.</source>
+          <target state="new">You can now use the compliance policy with conditional access policies to control access to services in your organization.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Restrict access to email and O365 services</source>
+          <target state="new">Restrict access to email and O365 services</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Introduction to device compliance polices in Intune</source>
+          <target state="new">Introduction to device compliance polices in Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

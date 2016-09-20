@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef042e24af2300250cf2bd1bf9803678e252b773</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\deploy-apps.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b1d8892364b9fb377a1b04a8a55451d80c39aa9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">040c5fe3d14c69ea18916c113e3ad53163a3b74e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Deploy apps | Microsoft Intune</source>
+          <target state="new">Deploy apps | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic explains concepts you'll need to understand before you start deploying apps with Intune.</source>
+          <target state="new">This topic explains concepts you'll need to understand before you start deploying apps with Intune.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Deploy apps with Microsoft Intune</source>
+          <target state="new">Deploy apps with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic explains some of the concepts you need to understand before you start deploying apps with Microsoft Intune.</source>
+          <target state="new">This topic explains some of the concepts you need to understand before you start deploying apps with Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>App deployment actions</source>
+          <target state="new">App deployment actions</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you deploy apps, you can choose from one of the following deployment actions:</source>
+          <target state="new">When you deploy apps, you can choose from one of the following deployment actions:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Required install<ept id="p1">**</ept> – The app is installed onto the device with no user intervention required.</source>
+          <target state="new"><bpt id="p1">**</bpt>Required install<ept id="p1">**</ept> – The app is installed onto the device with no user intervention required.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For iOS devices that are not in supervised mode, and for all Android devices, the user must accept the app offer before it is installed.</source>
+          <target state="new">For iOS devices that are not in supervised mode, and for all Android devices, the user must accept the app offer before it is installed.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If a user uninstalls an app that you deployed as a required install, Intune automatically reinstalls the app after the next inventory cycle, which typically occurs every seven days.</source>
+          <target state="new">If a user uninstalls an app that you deployed as a required install, Intune automatically reinstalls the app after the next inventory cycle, which typically occurs every seven days.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Available install<ept id="p1">**</ept> – The app is displayed in the company portal, and users can install it on demand.</source>
+          <target state="new"><bpt id="p1">**</bpt>Available install<ept id="p1">**</ept> – The app is displayed in the company portal, and users can install it on demand.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Uninstall<ept id="p1">**</ept> – The app is uninstalled from the device.</source>
+          <target state="new"><bpt id="p1">**</bpt>Uninstall<ept id="p1">**</ept> – The app is uninstalled from the device.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Not applicable<ept id="p1">**</ept> – The app is not displayed in the company portal and is not installed on any devices.</source>
+          <target state="new"><bpt id="p1">**</bpt>Not applicable<ept id="p1">**</ept> – The app is not displayed in the company portal and is not installed on any devices.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Understand which deployment actions are available for each installer type</source>
+          <target state="new">Understand which deployment actions are available for each installer type</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Installer type</source>
+          <target state="new">Installer type</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Required install</source>
+          <target state="new">Required install</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Available install</source>
+          <target state="new">Available install</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Uninstall</source>
+          <target state="new">Uninstall</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Not applicable</source>
+          <target state="new">Not applicable</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows app package (deployed to a user group)</source>
+          <target state="new">Windows app package (deployed to a user group)</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Windows app package (deployed to a device group)</source>
+          <target state="new">Windows app package (deployed to a device group)</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>App package for mobile devices (deployed to a user group)</source>
+          <target state="new">App package for mobile devices (deployed to a user group)</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>App package for mobile devices (deployed to a device group)</source>
+          <target state="new">App package for mobile devices (deployed to a device group)</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Windows Installer (deployed to a user group)</source>
+          <target state="new">Windows Installer (deployed to a user group)</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Windows Installer (deployed to a device group)</source>
+          <target state="new">Windows Installer (deployed to a device group)</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>External link (deployed to a user group)</source>
+          <target state="new">External link (deployed to a user group)</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>External link (deployed to a device group)</source>
+          <target state="new">External link (deployed to a device group)</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Managed iOS app from the app store (deployed to a user group)</source>
+          <target state="new">Managed iOS app from the app store (deployed to a user group)</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Managed iOS app from the app store (deployed to a device group)</source>
+          <target state="new">Managed iOS app from the app store (deployed to a device group)</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>When you deploy apps, if you select both user and device groups, you can only deploy the app as an <bpt id="p1">**</bpt>Available install<ept id="p1">**</ept>.</source>
+          <target state="new">When you deploy apps, if you select both user and device groups, you can only deploy the app as an <bpt id="p1">**</bpt>Available install<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Deployment conflicts</source>
+          <target state="new">Deployment conflicts</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>When two deployments with the same deployment action are received by a device, the following rules apply:</source>
+          <target state="new">When two deployments with the same deployment action are received by a device, the following rules apply:</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Deployments to a device group take precedence over deployments to a user group.</source>
+          <target state="new">Deployments to a device group take precedence over deployments to a user group.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>However, if an app is deployed to a user group with a deployment action of <bpt id="p1">**</bpt>Available<ept id="p1">**</ept>, and the same app is also deployed to a device group with a deployment action of <bpt id="p2">**</bpt>Not Applicable<ept id="p2">**</ept>, the app will be made available in the company portal for users to install.</source>
+          <target state="new">However, if an app is deployed to a user group with a deployment action of <bpt id="p1">**</bpt>Available<ept id="p1">**</ept>, and the same app is also deployed to a device group with a deployment action of <bpt id="p2">**</bpt>Not Applicable<ept id="p2">**</ept>, the app will be made available in the company portal for users to install.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>An install action takes precedence over an uninstall action.</source>
+          <target state="new">An install action takes precedence over an uninstall action.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If both a required and an available install are received by a device, the actions are combined.</source>
+          <target state="new">If both a required and an available install are received by a device, the actions are combined.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In other words, the user can install the available app from the company portal before the required install begins.</source>
+          <target state="new">In other words, the user can install the available app from the company portal before the required install begins.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Learn how to <bpt id="p1">[</bpt>deploy apps in Microsoft Intune<ept id="p1">](deploy-apps-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">Learn how to <bpt id="p1">[</bpt>deploy apps in Microsoft Intune<ept id="p1">](deploy-apps-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

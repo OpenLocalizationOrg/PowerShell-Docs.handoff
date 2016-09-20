@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4dbf5123fc909d5372a0ca29c22d0df6d0eef26b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\enroll-devices-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ab1151c9abf169ee586fcc4ba1f9ca2144db92f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b63c4bf2a103246dc28003cf6ed655dc6569b176</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enroll devices | Microsoft Intune</source>
+          <target state="new">Enroll devices | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Mobile device management (MDM) uses enrollment to bring devices into management and allow access to resources.</source>
+          <target state="new">Mobile device management (MDM) uses enrollment to bring devices into management and allow access to resources.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enroll devices for management in Intune</source>
+          <target state="new">Enroll devices for management in Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can enroll devices, including Windows PCs, to enable mobile device management (MDM) with Microsoft Intune.</source>
+          <target state="new">You can enroll devices, including Windows PCs, to enable mobile device management (MDM) with Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This topic describes different ways to enroll mobile devices in Intune management.</source>
+          <target state="new">This topic describes different ways to enroll mobile devices in Intune management.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How devices enroll devices depends on the device type, ownership, and the level of management needed.</source>
+          <target state="new">How devices enroll devices depends on the device type, ownership, and the level of management needed.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>"Bring your own device" (BYOD) enrollment lets users enroll their personal phones, tablets, or PCs.</source>
+          <target state="new">"Bring your own device" (BYOD) enrollment lets users enroll their personal phones, tablets, or PCs.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Corporate-owned device (COD) enrollment enables management scenarios like remote wipe, shared devices, or user affinity for a device.</source>
+          <target state="new">Corporate-owned device (COD) enrollment enables management scenarios like remote wipe, shared devices, or user affinity for a device.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you use <bpt id="p1">[</bpt>Exchange ActiveSync<ept id="p1">](#mobile-device-management-with-exchange-activesync-and-intune)</ept>, either on-premises or hosted in the cloud, you can enable simple Intune management without enrollment.</source>
+          <target state="new">If you use <bpt id="p1">[</bpt>Exchange ActiveSync<ept id="p1">](#mobile-device-management-with-exchange-activesync-and-intune)</ept>, either on-premises or hosted in the cloud, you can enable simple Intune management without enrollment.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Windows PCs can also be managed using <bpt id="p1">[</bpt>Intune client software<ept id="p1">](#manage-windows-pcs-with-intune)</ept>.</source>
+          <target state="new">Windows PCs can also be managed using <bpt id="p1">[</bpt>Intune client software<ept id="p1">](#manage-windows-pcs-with-intune)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Overview of device enrollment methods</source>
+          <target state="new">Overview of device enrollment methods</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The following table shows Intune's enrollment methods with their supported capabilities.</source>
+          <target state="new">The following table shows Intune's enrollment methods with their supported capabilities.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These capabilities include:</source>
+          <target state="new">These capabilities include:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Wipe<ept id="p1">**</ept> - Factory reset the device, removing all data.</source>
+          <target state="new"><bpt id="p1">**</bpt>Wipe<ept id="p1">**</ept> - Factory reset the device, removing all data.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Retire devices</source>
+          <target state="new">Retire devices</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Affinity<ept id="p1">**</ept> - Associates devices with users.</source>
+          <target state="new"><bpt id="p1">**</bpt>Affinity<ept id="p1">**</ept> - Associates devices with users.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Required for mobile application management (MAM) and conditional access to company data.</source>
+          <target state="new">Required for mobile application management (MAM) and conditional access to company data.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>User Affinity</source>
+          <target state="new">User Affinity</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Lock<ept id="p1">**</ept> Prevents users from  removing the device from management.</source>
+          <target state="new"><bpt id="p1">**</bpt>Lock<ept id="p1">**</ept> Prevents users from  removing the device from management.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>iOS devices require Supervised mode for Lock.</source>
+          <target state="new">iOS devices require Supervised mode for Lock.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Remote lock</source>
+          <target state="new">Remote lock</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>iOS enrollment methods</source>
+          <target state="new">iOS enrollment methods</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Method</source>
+          <target state="new">Method</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Wipe</source>
+          <target state="new">Wipe</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Affinity</source>
+          <target state="new">Affinity</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Lock</source>
+          <target state="new">Lock</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>BYOD</source>
+          <target state="new">BYOD</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>more</source>
+          <target state="new">more</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>DEM</source>
+          <target state="new">DEM</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>more</source>
+          <target state="new">more</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>DEP</source>
+          <target state="new">DEP</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Optional</source>
+          <target state="new">Optional</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Optional</source>
+          <target state="new">Optional</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>more</source>
+          <target state="new">more</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>USB-SA</source>
+          <target state="new">USB-SA</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Optional</source>
+          <target state="new">Optional</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>more</source>
+          <target state="new">more</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>USB-Direct</source>
+          <target state="new">USB-Direct</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>more</source>
+          <target state="new">more</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Windows and Android enrollment methods</source>
+          <target state="new">Windows and Android enrollment methods</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Method</source>
+          <target state="new">Method</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Wipe</source>
+          <target state="new">Wipe</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Affinity</source>
+          <target state="new">Affinity</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Lock</source>
+          <target state="new">Lock</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>BYOD</source>
+          <target state="new">BYOD</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>more</source>
+          <target state="new">more</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>DEM</source>
+          <target state="new">DEM</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>more</source>
+          <target state="new">more</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For a series of question that help you find the right method, see <bpt id="p1">[</bpt>Choose how to enroll devices<ept id="p1">](/intune/get-started/choose-how-to-enroll-devices1)</ept>.</source>
+          <target state="new">For a series of question that help you find the right method, see <bpt id="p1">[</bpt>Choose how to enroll devices<ept id="p1">](/intune/get-started/choose-how-to-enroll-devices1)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>BYOD</source>
+          <target state="new">BYOD</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>"Bring your own device" users install the Company Portal app and enroll their device.</source>
+          <target state="new">"Bring your own device" users install the Company Portal app and enroll their device.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This can let users connect to the company network, joining the domain or Azure Active Directory.</source>
+          <target state="new">This can let users connect to the company network, joining the domain or Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Enabling BYOD enrollment is a prerequisite for many COD scenarios for most platforms.</source>
+          <target state="new">Enabling BYOD enrollment is a prerequisite for many COD scenarios for most platforms.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Prerequisites for device enrollment<ept id="p1">](prerequisites-for-enrollment.md)</ept>.</source>
+          <target state="new">See <bpt id="p1">[</bpt>Prerequisites for device enrollment<ept id="p1">](prerequisites-for-enrollment.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</source>
+          <target state="new">(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Corporate-owned devices</source>
+          <target state="new">Corporate-owned devices</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Corporate-owned devices (COD) can be managed with the Intune console.</source>
+          <target state="new">Corporate-owned devices (COD) can be managed with the Intune console.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>iOS devices can be enrolled directly through tools provided by Apple.</source>
+          <target state="new">iOS devices can be enrolled directly through tools provided by Apple.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>All device types can be enrolled by an admin or manager using the device enrollment manager.</source>
+          <target state="new">All device types can be enrolled by an admin or manager using the device enrollment manager.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Devices with an IMEI number can also be identified and tagged as company-owned to enable COD scenarios.</source>
+          <target state="new">Devices with an IMEI number can also be identified and tagged as company-owned to enable COD scenarios.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Enroll corporate-owned devices</source>
+          <target state="new">Enroll corporate-owned devices</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>DEM</source>
+          <target state="new">DEM</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Device enrollment manager is a special Intune account used to enroll and manage multiple corporate-owned devices.</source>
+          <target state="new">Device enrollment manager is a special Intune account used to enroll and manage multiple corporate-owned devices.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Managers can install the Company Portal and enroll many user-less devices.</source>
+          <target state="new">Managers can install the Company Portal and enroll many user-less devices.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Learn more about <bpt id="p1">[</bpt>DEM<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">Learn more about <bpt id="p1">[</bpt>DEM<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</source>
+          <target state="new">(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>DEP</source>
+          <target state="new">DEP</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Apple Device Enrollment Program (DEP) management lets you create and deploy policy “over the air” to iOS devices purchased and managed with DEP.</source>
+          <target state="new">Apple Device Enrollment Program (DEP) management lets you create and deploy policy “over the air” to iOS devices purchased and managed with DEP.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The device is enrolled when the user turns on the device for the first time and runs the iOS Setup Assistant.</source>
+          <target state="new">The device is enrolled when the user turns on the device for the first time and runs the iOS Setup Assistant.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This method supports <bpt id="p1">**</bpt>iOS Supervised<ept id="p1">**</ept> mode which in turn enables:</source>
+          <target state="new">This method supports <bpt id="p1">**</bpt>iOS Supervised<ept id="p1">**</ept> mode which in turn enables:</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Locked enrollment</source>
+          <target state="new">Locked enrollment</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Conditional access</source>
+          <target state="new">Conditional access</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Jailbreak detection</source>
+          <target state="new">Jailbreak detection</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Mobile application management</source>
+          <target state="new">Mobile application management</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Learn more about <bpt id="p1">[</bpt>DEP<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">Learn more about <bpt id="p1">[</bpt>DEP<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</source>
+          <target state="new">(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>USB-SA</source>
+          <target state="new">USB-SA</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>USB-connected, Setup Assistant enrollment.</source>
+          <target state="new">USB-connected, Setup Assistant enrollment.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The admin creates an Intune policy and exports it to Apple Configurator.</source>
+          <target state="new">The admin creates an Intune policy and exports it to Apple Configurator.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>USB-connected, corporate-owned devices are prepared with Intune policy.</source>
+          <target state="new">USB-connected, corporate-owned devices are prepared with Intune policy.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The admin must enroll each device by hand.</source>
+          <target state="new">The admin must enroll each device by hand.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Users receive their devices and run Setup Assistant, enrolling their device.</source>
+          <target state="new">Users receive their devices and run Setup Assistant, enrolling their device.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This method supports <bpt id="p1">**</bpt>iOS Supervised<ept id="p1">**</ept> mode which in turn enables:</source>
+          <target state="new">This method supports <bpt id="p1">**</bpt>iOS Supervised<ept id="p1">**</ept> mode which in turn enables:</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Conditional access</source>
+          <target state="new">Conditional access</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Jailbreak detection</source>
+          <target state="new">Jailbreak detection</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Mobile application management</source>
+          <target state="new">Mobile application management</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Learn more about <bpt id="p1">[</bpt>Setup Assistant enrollment with Apple Configurator<ept id="p1">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">Learn more about <bpt id="p1">[</bpt>Setup Assistant enrollment with Apple Configurator<ept id="p1">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</source>
+          <target state="new">(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>USB-Direct</source>
+          <target state="new">USB-Direct</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Direct enrollment.</source>
+          <target state="new">Direct enrollment.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The admin creates an Intune policy and exports it to Apple Configurator.</source>
+          <target state="new">The admin creates an Intune policy and exports it to Apple Configurator.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>USB-connected, corporate-owned devices are enrolled directly without requiring a factory reset.</source>
+          <target state="new">USB-connected, corporate-owned devices are enrolled directly without requiring a factory reset.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The admin must enroll each device by hand.</source>
+          <target state="new">The admin must enroll each device by hand.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Devices are managed as user-less devices.</source>
+          <target state="new">Devices are managed as user-less devices.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>They are not locked or supervised and cannot support conditional access, jailbreak detection, mobile application management.</source>
+          <target state="new">They are not locked or supervised and cannot support conditional access, jailbreak detection, mobile application management.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Learn more about <bpt id="p1">[</bpt>direct enrollment with Apple Configurator<ept id="p1">](ios-direct-enrollment-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">Learn more about <bpt id="p1">[</bpt>direct enrollment with Apple Configurator<ept id="p1">](ios-direct-enrollment-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</source>
+          <target state="new">(<bpt id="p1">[</bpt>Back to the table<ept id="p1">](#overview-of-device-enrollment-methods)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Mobile device management with Exchange ActiveSync and Intune</source>
+          <target state="new">Mobile device management with Exchange ActiveSync and Intune</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Mobile devices that aren't enrolled but that connect to Exchange ActiveSync (EAS) can be managed by Intune using EAS MDM policy.</source>
+          <target state="new">Mobile devices that aren't enrolled but that connect to Exchange ActiveSync (EAS) can be managed by Intune using EAS MDM policy.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Intune uses an Exchange Connector to communicate with EAS, either on-premises and cloud-hosted.</source>
+          <target state="new">Intune uses an Exchange Connector to communicate with EAS, either on-premises and cloud-hosted.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Mobile device management with Exchange ActiveSync and Intune</source>
+          <target state="new">Mobile device management with Exchange ActiveSync and Intune</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Manage Windows PCs with Intune</source>
+          <target state="new">Manage Windows PCs with Intune</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can also use Microsoft Intune to manage Windows PCs using the Intune client software.</source>
+          <target state="new">You can also use Microsoft Intune to manage Windows PCs using the Intune client software.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>PCs managed with the Intune client can:</source>
+          <target state="new">PCs managed with the Intune client can:</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Report software and hardware inventories</source>
+          <target state="new">Report software and hardware inventories</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Install desktop applications (for example .exe and .msi files)</source>
+          <target state="new">Install desktop applications (for example .exe and .msi files)</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Firewall settings</source>
+          <target state="new">Firewall settings</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>PCs managed with the Intune client software cannot be wiped, and cannot take advantage of many Intune management features such as conditional access, VPN and Wi-Fi settings, or deployment of certificates and email configurations.</source>
+          <target state="new">PCs managed with the Intune client software cannot be wiped, and cannot take advantage of many Intune management features such as conditional access, VPN and Wi-Fi settings, or deployment of certificates and email configurations.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Manage Windows PCs with Intune</source>
+          <target state="new">Manage Windows PCs with Intune</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Supported device platforms</source>
+          <target state="new">Supported device platforms</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Intune can manage the following device platforms:</source>
+          <target state="new">Intune can manage the following device platforms:</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Prerequisites for device enrollment</source>
+          <target state="new">Prerequisites for device enrollment</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Manage corporate-owned devices</source>
+          <target state="new">Manage corporate-owned devices</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Supported mobile  devices and computers</source>
+          <target state="new">Supported mobile  devices and computers</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

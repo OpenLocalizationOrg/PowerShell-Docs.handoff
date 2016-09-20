@@ -1,0 +1,839 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e26786066b98adf187a6cf3ccbf172e919871f50</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">899648d0142bd45974469e4bbc1a63544eb7e34a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">095095e196efe25c255362ee94c8b8232501573e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Software updates for Windows PCs | Microsoft Intune</source>
+          <target state="new">Software updates for Windows PCs | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Intune helps you to keep your managed computers up to date by ensuring the latest patches and software updates are quickly installed.</source>
+          <target state="new">Intune helps you to keep your managed computers up to date by ensuring the latest patches and software updates are quickly installed.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Keep Windows PCs up to date with software updates in Microsoft Intune</source>
+          <target state="new">Keep Windows PCs up to date with software updates in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune can help you to secure your managed computers in a number of ways, including the management of software updates that keep your computers up to date by ensuring the latest patches and software updates are quickly installed.</source>
+          <target state="new">Microsoft Intune can help you to secure your managed computers in a number of ways, including the management of software updates that keep your computers up to date by ensuring the latest patches and software updates are quickly installed.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you have not yet installed the Intune client on your computers, see <bpt id="p1">[</bpt>Install the Windows PC client with Microsoft Intune<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</source>
+          <target state="new">If you have not yet installed the Intune client on your computers, see <bpt id="p1">[</bpt>Install the Windows PC client with Microsoft Intune<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When new updates are available from Microsoft Update, or you have created a third-party update, and they are applicable to your managed computers, a notification is displayed on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Updates<ept id="p2">**</ept> workspace.</source>
+          <target state="new">When new updates are available from Microsoft Update, or you have created a third-party update, and they are applicable to your managed computers, a notification is displayed on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Updates<ept id="p2">**</ept> workspace.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>After you choose this notification link, you can then perform various operations like viewing more information about the update, approving or declining the update, and viewing the computers that will install the update if it is approved.</source>
+          <target state="new">After you choose this notification link, you can then perform various operations like viewing more information about the update, approving or declining the update, and viewing the computers that will install the update if it is approved.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>As updates are approved and installed, you can examine the success or failure of the installation in the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> workspace of the Intune console.</source>
+          <target state="new">As updates are approved and installed, you can examine the success or failure of the installation in the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> workspace of the Intune console.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following sections will help you to keep software up to date on your managed computers.</source>
+          <target state="new">The following sections will help you to keep software up to date on your managed computers.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Before you start</source>
+          <target state="new">Before you start</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Before you begin to create and approve software updates, configure and deploy polices to your computers that control when and how the updates are installed.</source>
+          <target state="new">Before you begin to create and approve software updates, configure and deploy polices to your computers that control when and how the updates are installed.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To configure update policy settings</source>
+          <target state="new">To configure update policy settings</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Overview<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Add Policy<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Overview<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Add Policy<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Configure and deploy a <bpt id="p1">**</bpt>Microsoft Intune Agent Settings<ept id="p1">**</ept> policy for the update settings.</source>
+          <target state="new">Configure and deploy a <bpt id="p1">**</bpt>Microsoft Intune Agent Settings<ept id="p1">**</ept> policy for the update settings.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can use recommended settings or customize the settings.</source>
+          <target state="new">You can use recommended settings or customize the settings.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you need more information about how to create and deploy policies, see <bpt id="p1">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)</ept>.</source>
+          <target state="new">If you need more information about how to create and deploy policies, see <bpt id="p1">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following table shows the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy.</source>
+          <target state="new">The following table shows the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can find these settings in the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> section.</source>
+          <target state="new">You can find these settings in the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> section.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Policy setting</source>
+          <target state="new">Policy setting</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Update and application detection frequency (hours)</source>
+          <target state="new">Update and application detection frequency (hours)</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Specifies how frequently (from 8-22 hours) Intune checks for new updates and applications.</source>
+          <target state="new">Specifies how frequently (from 8-22 hours) Intune checks for new updates and applications.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>8<ept id="p1">**</ept> hours.</source>
+          <target state="new">Recommended value: <bpt id="p1">**</bpt>8<ept id="p1">**</ept> hours.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Automated or prompted installation of updates and applications</source>
+          <target state="new">Automated or prompted installation of updates and applications</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Specifies whether updates are installed automatically or whether the user is prompted before installation.</source>
+          <target state="new">Specifies whether updates are installed automatically or whether the user is prompted before installation.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Additionally, this setting lets you schedule the installation of updates and applications.</source>
+          <target state="new">Additionally, this setting lets you schedule the installation of updates and applications.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Install updates and applications automatically as scheduled<ept id="p1">**</ept>  installs updates and applications using the specified schedule.</source>
+          <target state="new"><bpt id="p1">**</bpt>Install updates and applications automatically as scheduled<ept id="p1">**</ept>  installs updates and applications using the specified schedule.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>As a dependent policy setting, <bpt id="p1">**</bpt>Use Automatic Maintenance for Windows computers<ept id="p1">**</ept>  specifies that updates and applications are installed during the Windows Automatic maintenance window.</source>
+          <target state="new">As a dependent policy setting, <bpt id="p1">**</bpt>Use Automatic Maintenance for Windows computers<ept id="p1">**</ept>  specifies that updates and applications are installed during the Windows Automatic maintenance window.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prompt user for installation<ept id="p1">**</ept> prompts the user to install updates when they are ready.</source>
+          <target state="new"><bpt id="p1">**</bpt>Prompt user for installation<ept id="p1">**</ept> prompts the user to install updates when they are ready.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Recommended values:</source>
+          <target state="new">Recommended values:</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Install updates and applications automatically as scheduled<ept id="p1">**</ept> selected</source>
+          <target state="new"><bpt id="p1">**</bpt>Install updates and applications automatically as scheduled<ept id="p1">**</ept> selected</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Day scheduled: Every day</source>
+          <target state="new">Day scheduled: Every day</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Time scheduled: 3:00 AM</source>
+          <target state="new">Time scheduled: 3:00 AM</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use Automatic Maintenance for Windows computers<ept id="p1">**</ept> selected</source>
+          <target state="new"><bpt id="p1">**</bpt>Use Automatic Maintenance for Windows computers<ept id="p1">**</ept> selected</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Allow immediate installation of updates that do not interrupt Windows</source>
+          <target state="new">Allow immediate installation of updates that do not interrupt Windows</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allow<ept id="p1">**</ept> installs updates immediately after they are downloaded, except for updates that would interrupt or restart Windows.</source>
+          <target state="new"><bpt id="p1">**</bpt>Allow<ept id="p1">**</ept> installs updates immediately after they are downloaded, except for updates that would interrupt or restart Windows.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Those updates are installed according to the configuration of the <bpt id="p1">**</bpt>Automated or prompted installation of updates<ept id="p1">**</ept> setting.</source>
+          <target state="new">Those updates are installed according to the configuration of the <bpt id="p1">**</bpt>Automated or prompted installation of updates<ept id="p1">**</ept> setting.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Do not allow<ept id="p1">**</ept> installs updates according to the configuration of the <bpt id="p2">**</bpt>Automated or prompted installation of updates<ept id="p2">**</ept> setting.</source>
+          <target state="new"><bpt id="p1">**</bpt>Do not allow<ept id="p1">**</ept> installs updates according to the configuration of the <bpt id="p2">**</bpt>Automated or prompted installation of updates<ept id="p2">**</ept> setting.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Allow<ept id="p1">**</ept></source>
+          <target state="new">Recommended value: <bpt id="p1">**</bpt>Allow<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Delay to restart Windows after installation of scheduled updates and applications (minutes)</source>
+          <target state="new">Delay to restart Windows after installation of scheduled updates and applications (minutes)</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies (from 1-30 minutes), the time to wait to restart Windows after the installation of scheduled updates and applications.</source>
+          <target state="new">Specifies (from 1-30 minutes), the time to wait to restart Windows after the installation of scheduled updates and applications.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>15 minutes<ept id="p1">**</ept></source>
+          <target state="new">Recommended value: <bpt id="p1">**</bpt>15 minutes<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)</source>
+          <target state="new">Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies (from 1-60 minutes), how long to wait to start the installation of updates and applications after Windows is restarted when a scheduled update was missed.</source>
+          <target state="new">Specifies (from 1-60 minutes), how long to wait to start the installation of updates and applications after Windows is restarted when a scheduled update was missed.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>5 minutes<ept id="p1">**</ept></source>
+          <target state="new">Recommended value: <bpt id="p1">**</bpt>5 minutes<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Allow logged-on user to control Windows restart after installation of scheduled updates and applications</source>
+          <target state="new">Allow logged-on user to control Windows restart after installation of scheduled updates and applications</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Specifies whether the logged-on user can delay restarting Windows (if set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>), or be notified of the automatic Windows restart (if set to <bpt id="p2">**</bpt>No<ept id="p2">**</ept>).</source>
+          <target state="new">Specifies whether the logged-on user can delay restarting Windows (if set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>), or be notified of the automatic Windows restart (if set to <bpt id="p2">**</bpt>No<ept id="p2">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If no user is logged on when the scheduled installation of updates and applications is completed, Windows is restarted automatically when required.</source>
+          <target state="new">If no user is logged on when the scheduled installation of updates and applications is completed, Windows is restarted automatically when required.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>, by default, the time before Windows restarts is set to 5 minutes.</source>
+          <target state="new">When set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>, by default, the time before Windows restarts is set to 5 minutes.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Prompt user to restart Windows during Intune client agent mandatory updates</source>
+          <target state="new">Prompt user to restart Windows during Intune client agent mandatory updates</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies whether the logged on users is prompted to restart Windows when an Intune client mandatory update requires Windows to restart.</source>
+          <target state="new">Specifies whether the logged on users is prompted to restart Windows when an Intune client mandatory update requires Windows to restart.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune client agent mandatory updates installation schedule</source>
+          <target state="new">Microsoft Intune client agent mandatory updates installation schedule</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Schedules when the installation of client updates occur.</source>
+          <target state="new">Schedules when the installation of client updates occur.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Recommended value: not configured</source>
+          <target state="new">Recommended value: not configured</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)</source>
+          <target state="new">Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Specifies how frequently (from 1-1440 minutes) the user is prompted to restart Windows when a scheduled update or application that requires restarting Windows is installed, and the user delays the restart.</source>
+          <target state="new">Specifies how frequently (from 1-1440 minutes) the user is prompted to restart Windows when a scheduled update or application that requires restarting Windows is installed, and the user delays the restart.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>30 minutes<ept id="p1">**</ept></source>
+          <target state="new">Recommended value: <bpt id="p1">**</bpt>30 minutes<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Update software made by Microsoft</source>
+          <target state="new">Update software made by Microsoft</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Updating Microsoft software requires very little work from you.</source>
+          <target state="new">Updating Microsoft software requires very little work from you.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>However, before you start, there are two things you should configure:</source>
+          <target state="new">However, before you start, there are two things you should configure:</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Product categories and update classifications<ept id="p1">**</ept> – Defines the categories and classifications of the updates you want to make available to computers.</source>
+          <target state="new"><bpt id="p1">**</bpt>Product categories and update classifications<ept id="p1">**</ept> – Defines the categories and classifications of the updates you want to make available to computers.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For example, you might decide that you only want critical updates for Microsoft Office to be installed.</source>
+          <target state="new">For example, you might decide that you only want critical updates for Microsoft Office to be installed.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Automatic approval rules<ept id="p1">**</ept> – These rules automatically approve specified types of update and reduce your administrative overhead.</source>
+          <target state="new"><bpt id="p1">**</bpt>Automatic approval rules<ept id="p1">**</ept> – These rules automatically approve specified types of update and reduce your administrative overhead.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For example, you might want to automatically approve all critical software updates.</source>
+          <target state="new">For example, you might want to automatically approve all critical software updates.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Use the following two procedures to help you get ready to use software updates:</source>
+          <target state="new">Use the following two procedures to help you get ready to use software updates:</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Configure the product categories and update classifications you want to make available to managed computers</source>
+          <target state="new">Configure the product categories and update classifications you want to make available to managed computers</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Updates<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Updates<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Service Settings: Updates<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Product Category<ept id="p2">**</ept> list, select the update categories that you want to make available to computers.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Service Settings: Updates<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Product Category<ept id="p2">**</ept> list, select the update categories that you want to make available to computers.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Note that the most common updates are selected by default.</source>
+          <target state="new">Note that the most common updates are selected by default.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To ensure that computers receive the updates that have been approved by the admin, the Windows Server Update Services (WSUS) Group Policy setting, <bpt id="p1">**</bpt>Specify Intranet Microsoft update service location<ept id="p1">**</ept> must not be applied to computers that have been enrolled with Intune.</source>
+          <target state="new">To ensure that computers receive the updates that have been approved by the admin, the Windows Server Update Services (WSUS) Group Policy setting, <bpt id="p1">**</bpt>Specify Intranet Microsoft update service location<ept id="p1">**</ept> must not be applied to computers that have been enrolled with Intune.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Update Classification<ept id="p1">**</ept> list, select the classes of update that you want to make available to managed computers.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Update Classification<ept id="p1">**</ept> list, select the classes of update that you want to make available to managed computers.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Again, the most common options are selected by default.</source>
+          <target state="new">Again, the most common options are selected by default.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to store your selections.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to store your selections.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To configure automatic approval rules for software updates</source>
+          <target state="new">To configure automatic approval rules for software updates</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Updates<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Updates<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Automatic Approval Rules<ept id="p1">**</ept> section of the <bpt id="p2">**</bpt>Server Settings: Updates<ept id="p2">**</ept> page, choose <bpt id="p3">**</bpt>New<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Automatic Approval Rules<ept id="p1">**</ept> section of the <bpt id="p2">**</bpt>Server Settings: Updates<ept id="p2">**</ept> page, choose <bpt id="p3">**</bpt>New<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> page of the Create Automatic Approval Rule Wizard, specify a name and optional description for the rule.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> page of the Create Automatic Approval Rule Wizard, specify a name and optional description for the rule.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Product Categories<ept id="p1">**</ept> page, select any products for which you want to have updates approved automatically.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Product Categories<ept id="p1">**</ept> page, select any products for which you want to have updates approved automatically.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Update Classifications<ept id="p1">**</ept> page, specify the update classifications that you want to have approved automatically.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Update Classifications<ept id="p1">**</ept> page, specify the update classifications that you want to have approved automatically.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Deployment<ept id="p1">**</ept> page, do the following:</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Deployment<ept id="p1">**</ept> page, do the following:</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Select the computer groups to which you want to deploy the new rule, and then choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>.</source>
+          <target state="new">Select the computer groups to which you want to deploy the new rule, and then choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To specify an installation deadline for the updates, select the <bpt id="p1">**</bpt>Enforce an installation deadline for these updates<ept id="p1">**</ept> check box, and then on the <bpt id="p2">**</bpt>Installation deadline<ept id="p2">**</ept> list, select the installation deadline.</source>
+          <target state="new">To specify an installation deadline for the updates, select the <bpt id="p1">**</bpt>Enforce an installation deadline for these updates<ept id="p1">**</ept> check box, and then on the <bpt id="p2">**</bpt>Installation deadline<ept id="p2">**</ept> list, select the installation deadline.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If you specify an installation deadline, the managed computer might require one or more restarts after the deadline interval has passed.</source>
+          <target state="new">If you specify an installation deadline, the managed computer might require one or more restarts after the deadline interval has passed.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>When you are finished, Choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="new">When you are finished, Choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Summary<ept id="p1">**</ept> page, review the settings for the new rule, and then choose <bpt id="p2">**</bpt>Finish<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Summary<ept id="p1">**</ept> page, review the settings for the new rule, and then choose <bpt id="p2">**</bpt>Finish<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The new rule is shown in the <bpt id="p1">**</bpt>Automatic Approval Rules<ept id="p1">**</ept> section of the <bpt id="p2">**</bpt>Service Settings: Updates<ept id="p2">**</ept> page.</source>
+          <target state="new">The new rule is shown in the <bpt id="p1">**</bpt>Automatic Approval Rules<ept id="p1">**</ept> section of the <bpt id="p2">**</bpt>Service Settings: Updates<ept id="p2">**</ept> page.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>When you create an automatic approval rule, it only approves future updates, and does not automatically approve previously existing updates that already exist in Intune.</source>
+          <target state="new">When you create an automatic approval rule, it only approves future updates, and does not automatically approve previously existing updates that already exist in Intune.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To approve these updates you need to run the automatic approval rule.</source>
+          <target state="new">To approve these updates you need to run the automatic approval rule.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>To edit, run, or delete an automatically approved update rule</source>
+          <target state="new">To edit, run, or delete an automatically approved update rule</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Updates<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Updates<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Automatic Approval Rules<ept id="p1">**</ept> section, select a rule, and then do one of the following:</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Automatic Approval Rules<ept id="p1">**</ept> section, select a rule, and then do one of the following:</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To edit the rule, choose <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, and then change the rule’s parameters in the <bpt id="p2">**</bpt>Update Auto Approval Rule Wizard<ept id="p2">**</ept>.</source>
+          <target state="new">To edit the rule, choose <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, and then change the rule’s parameters in the <bpt id="p2">**</bpt>Update Auto Approval Rule Wizard<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To run the rule, choose <bpt id="p1">**</bpt>Run Selected<ept id="p1">**</ept>.</source>
+          <target state="new">To run the rule, choose <bpt id="p1">**</bpt>Run Selected<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To delete the rule, choose <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept>.</source>
+          <target state="new">To delete the rule, choose <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Deleting a rule does not affect previous updates that were approved by the deleted rule.</source>
+          <target state="new">Deleting a rule does not affect previous updates that were approved by the deleted rule.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Update software not made by Microsoft</source>
+          <target state="new">Update software not made by Microsoft</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can deploy updates for software that is not made by Microsoft.</source>
+          <target state="new">You can deploy updates for software that is not made by Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You do this by using the <bpt id="p1">**</bpt>Upload Update<ept id="p1">**</ept> wizard to get the update into your Cloud Storage space, after which you can approve or decline the update just like with Microsoft software.</source>
+          <target state="new">You do this by using the <bpt id="p1">**</bpt>Upload Update<ept id="p1">**</ept> wizard to get the update into your Cloud Storage space, after which you can approve or decline the update just like with Microsoft software.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>To upload and configure a third-party update</source>
+          <target state="new">To upload and configure a third-party update</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Updates<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Overview<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Upload<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Updates<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Overview<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Upload<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Update files<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Browse<ept id="p2">**</ept> to select the setup files that are required to install the update package.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Update files<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Browse<ept id="p2">**</ept> to select the setup files that are required to install the update package.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The file can be a Windows Installer (.msi) file, a Windows Installer patch (.msp) file, or a .exe program file.</source>
+          <target state="new">The file can be a Windows Installer (.msi) file, a Windows Installer patch (.msp) file, or a .exe program file.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can also include any additional files or folders that are in the same folder as the setup file.</source>
+          <target state="new">You can also include any additional files or folders that are in the same folder as the setup file.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The total size of the selected files to upload is displayed.</source>
+          <target state="new">The total size of the selected files to upload is displayed.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Note that this size does not include the uncompressed or expanded sizes of installation files.</source>
+          <target state="new">Note that this size does not include the uncompressed or expanded sizes of installation files.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>After you specify the setup files, the <bpt id="p1">**</bpt>Update description<ept id="p1">**</ept> page displays the name, description, and classification for software information that Intune extracted from the software setup files.</source>
+          <target state="new">After you specify the setup files, the <bpt id="p1">**</bpt>Update description<ept id="p1">**</ept> page displays the name, description, and classification for software information that Intune extracted from the software setup files.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You can select a classification to label the type of update you are deploying (Updates, Critical Updates, Security Updates, Update Rollups or Service Packs).</source>
+          <target state="new">You can select a classification to label the type of update you are deploying (Updates, Critical Updates, Security Updates, Update Rollups or Service Packs).</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> when you are done.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> when you are done.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Requirements<ept id="p1">**</ept> page of the wizard, choose the architecture (32-bit, 64-bit, or both), and the operating systems of the managed computers to which this update will be applicable.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Requirements<ept id="p1">**</ept> page of the wizard, choose the architecture (32-bit, 64-bit, or both), and the operating systems of the managed computers to which this update will be applicable.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Detection rules<ept id="p1">**</ept> page, specify how Intune determines whether the update already exists on managed computers.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Detection rules<ept id="p1">**</ept> page, specify how Intune determines whether the update already exists on managed computers.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If you use the default option, <bpt id="p1">**</bpt>Use the default detection rules<ept id="p1">**</ept>, Intune always installs the update package on each targeted computer once.</source>
+          <target state="new">If you use the default option, <bpt id="p1">**</bpt>Use the default detection rules<ept id="p1">**</ept>, Intune always installs the update package on each targeted computer once.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If the update setup file that you specified is a Windows Installer or .msp file, the <bpt id="p1">**</bpt>Detection rules<ept id="p1">**</ept> page of the wizard does not appear.</source>
+          <target state="new">If the update setup file that you specified is a Windows Installer or .msp file, the <bpt id="p1">**</bpt>Detection rules<ept id="p1">**</ept> page of the wizard does not appear.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This is because Windows Installer and .msp files contain their own instructions for detecting previous update installations.</source>
+          <target state="new">This is because Windows Installer and .msp files contain their own instructions for detecting previous update installations.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Select one or more of the following rules to determine whether the update is already installed on managed computers:</source>
+          <target state="new">Select one or more of the following rules to determine whether the update is already installed on managed computers:</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>File exists</source>
+          <target state="new">File exists</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>MSI product code exists</source>
+          <target state="new">MSI product code exists</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Registry key exists</source>
+          <target state="new">Registry key exists</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Provide any further information that is required to configure the detection rule such as a file path and name, Windows Installer product code, or a registry key, and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="new">Provide any further information that is required to configure the detection rule such as a file path and name, Windows Installer product code, or a registry key, and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Prerequisites<ept id="p1">**</ept> page of the wizard, you specify any software that must already be installed before this update can be installed.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Prerequisites<ept id="p1">**</ept> page of the wizard, you specify any software that must already be installed before this update can be installed.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You can specify <bpt id="p1">**</bpt>None<ept id="p1">**</ept>, select a software package that has already been added to, and is managed by Intune, or you can specify one of the following rules to describe the software:</source>
+          <target state="new">You can specify <bpt id="p1">**</bpt>None<ept id="p1">**</ept>, select a software package that has already been added to, and is managed by Intune, or you can specify one of the following rules to describe the software:</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>File exists</source>
+          <target state="new">File exists</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>MSI product code exists</source>
+          <target state="new">MSI product code exists</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Registry key exists</source>
+          <target state="new">Registry key exists</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Provide any further information that is required to configure the detection rule like a file path and name, Windows Installer product code, or a registry key, and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="new">Provide any further information that is required to configure the detection rule like a file path and name, Windows Installer product code, or a registry key, and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Command line arguments<ept id="p1">**</ept> page of the wizard, you can add any required installation properties to the installation command line to modify the behavior of the setup file.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Command line arguments<ept id="p1">**</ept> page of the wizard, you can add any required installation properties to the installation command line to modify the behavior of the setup file.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For example, some software supports the <bpt id="p1">**</bpt>/q<ept id="p1">**</ept> property to enable silent installation.</source>
+          <target state="new">For example, some software supports the <bpt id="p1">**</bpt>/q<ept id="p1">**</ept> property to enable silent installation.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Refer to the documentation for your software package to learn about any supported command line arguments.</source>
+          <target state="new">Refer to the documentation for your software package to learn about any supported command line arguments.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specify any command line arguments you need and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="new">Specify any command line arguments you need and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If the update does not support silent installation, you cannot install the update using Intune</source>
+          <target state="new">If the update does not support silent installation, you cannot install the update using Intune</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Return codes<ept id="p1">**</ept> page of the wizard, you can specify how return codes from the update installation are interpreted.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Return codes<ept id="p1">**</ept> page of the wizard, you can specify how return codes from the update installation are interpreted.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>By default, Intune uses industry-standard return codes to report a failed or successful installation of an update package.</source>
+          <target state="new">By default, Intune uses industry-standard return codes to report a failed or successful installation of an update package.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The supplied return codes are:</source>
+          <target state="new">The supplied return codes are:</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Return code</source>
+          <target state="new">Return code</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>0</source>
+          <target state="new">0</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Success</source>
+          <target state="new">Success</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>3010</source>
+          <target state="new">3010</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Success with restart</source>
+          <target state="new">Success with restart</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Any return code that is not listed is considered a failure.</source>
+          <target state="new">Any return code that is not listed is considered a failure.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Some updates use nonstandard interpretations for return codes.</source>
+          <target state="new">Some updates use nonstandard interpretations for return codes.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>In this case, you can specify your own return code interpretations.</source>
+          <target state="new">In this case, you can specify your own return code interpretations.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Specify or edit the required return codes, and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="new">Specify or edit the required return codes, and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Summary<ept id="p1">**</ept> page of the wizard, review the actions that will be taken, and then choose <bpt id="p2">**</bpt>Upload<ept id="p2">**</ept> to complete the wizard.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Summary<ept id="p1">**</ept> page of the wizard, review the actions that will be taken, and then choose <bpt id="p2">**</bpt>Upload<ept id="p2">**</ept> to complete the wizard.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The uploaded update is stored in your Intune cloud storage.</source>
+          <target state="new">The uploaded update is stored in your Intune cloud storage.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If you have insufficient free space to upload the update package, you are notified of this during the upload process.</source>
+          <target state="new">If you have insufficient free space to upload the update package, you are notified of this during the upload process.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Intune cannot determine sufficient free space until after the update upload has started, because compressed setup and installation files require more space when they are uncompressed.</source>
+          <target state="new">Intune cannot determine sufficient free space until after the update upload has started, because compressed setup and installation files require more space when they are uncompressed.</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>After it is uploaded into Intune, a third-party update is displayed in the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> workspace in the <bpt id="p2">**</bpt>All Updates<ept id="p2">**</ept> pane.</source>
+          <target state="new">After it is uploaded into Intune, a third-party update is displayed in the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> workspace in the <bpt id="p2">**</bpt>All Updates<ept id="p2">**</ept> pane.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>You can then approve and deploy the update.</source>
+          <target state="new">You can then approve and deploy the update.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For more information, see the following "Approve and decline updates" section.</source>
+          <target state="new">For more information, see the following "Approve and decline updates" section.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Approve and decline updates</source>
+          <target state="new">Approve and decline updates</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>When updates are ready to install, a message is shown on the <bpt id="p1">**</bpt>Updates Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Updates<ept id="p2">**</ept> workspace, under <bpt id="p3">**</bpt>Update Status<ept id="p3">**</ept>.</source>
+          <target state="new">When updates are ready to install, a message is shown on the <bpt id="p1">**</bpt>Updates Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Updates<ept id="p2">**</ept> workspace, under <bpt id="p3">**</bpt>Update Status<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Choose this message to open the <bpt id="p1">**</bpt>All Updates<ept id="p1">**</ept> page to see which updates are ready for approval.</source>
+          <target state="new">Choose this message to open the <bpt id="p1">**</bpt>All Updates<ept id="p1">**</ept> page to see which updates are ready for approval.</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> list to make it easier to find updates.</source>
+          <target state="new">You can use the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> list to make it easier to find updates.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For example, you can display only updates that failed, or updates that are superseded.</source>
+          <target state="new">For example, you can display only updates that failed, or updates that are superseded.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>When you select an update from the list, further commands are available that let you manage updates as shown in the following table:</source>
+          <target state="new">When you select an update from the list, further commands are available that let you manage updates as shown in the following table:</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <target state="new">Task</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>View Properties</source>
+          <target state="new">View Properties</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Displays detailed information about the update including the number of computers to which it is applicable.</source>
+          <target state="new">Displays detailed information about the update including the number of computers to which it is applicable.</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="new">Edit</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>For non-Microsoft updates only.</source>
+          <target state="new">For non-Microsoft updates only.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Allows you to edit the properties of the update.</source>
+          <target state="new">Allows you to edit the properties of the update.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Approve</source>
+          <target state="new">Approve</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Approves the selected update and allows you to configure which groups is will be deployed to.</source>
+          <target state="new">Approves the selected update and allows you to configure which groups is will be deployed to.</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>For more information, see the procedure <bpt id="p1">**</bpt>To approve updates<ept id="p1">**</ept> in this topic.</source>
+          <target state="new">For more information, see the procedure <bpt id="p1">**</bpt>To approve updates<ept id="p1">**</ept> in this topic.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Decline</source>
+          <target state="new">Decline</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Removes any previous approvals for the update and hides the update from the default views.</source>
+          <target state="new">Removes any previous approvals for the update and hides the update from the default views.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Additionally, any report data for the update will be removed.</source>
+          <target state="new">Additionally, any report data for the update will be removed.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>If you later want to locate a declined update, set the filter on the <bpt id="p1">**</bpt>All Updates<ept id="p1">**</ept> page to <bpt id="p2">**</bpt>Declined<ept id="p2">**</ept>.</source>
+          <target state="new">If you later want to locate a declined update, set the filter on the <bpt id="p1">**</bpt>All Updates<ept id="p1">**</ept> page to <bpt id="p2">**</bpt>Declined<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>You can then approve this update as required.</source>
+          <target state="new">You can then approve this update as required.</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>If an update was declined because the update was expired in Microsoft Update, that update cannot be approved in the Intune administration console.</source>
+          <target state="new">If an update was declined because the update was expired in Microsoft Update, that update cannot be approved in the Intune administration console.</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>If you delete an updates policy that is deployed to computers, the values of those updates policy settings are reset to the default state for the operating system that is installed on the computers.</source>
+          <target state="new">If you delete an updates policy that is deployed to computers, the values of those updates policy settings are reset to the default state for the operating system that is installed on the computers.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">Delete</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>For non-Microsoft updates only.</source>
+          <target state="new">For non-Microsoft updates only.</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Deletes the selected update.</source>
+          <target state="new">Deletes the selected update.</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Upload</source>
+          <target state="new">Upload</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Starts the <bpt id="p1">**</bpt>Upload Update<ept id="p1">**</ept> wizard that allows you to upload non-Microsoft updates that you want to deploy.</source>
+          <target state="new">Starts the <bpt id="p1">**</bpt>Upload Update<ept id="p1">**</ept> wizard that allows you to upload non-Microsoft updates that you want to deploy.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>To approve updates</source>
+          <target state="new">To approve updates</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Updates<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Overview<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>New updates to approve<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Updates<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Overview<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>New updates to approve<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> workspace, choose <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>New updates to approve<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> workspace, choose <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>New updates to approve<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>New updates to approve<ept id="p1">**</ept> link appears in the <bpt id="p2">**</bpt>Updates Status<ept id="p2">**</ept> area only when there is at least one managed computer that needs an update to be approved.</source>
+          <target state="new">The <bpt id="p1">**</bpt>New updates to approve<ept id="p1">**</ept> link appears in the <bpt id="p2">**</bpt>Updates Status<ept id="p2">**</ept> area only when there is at least one managed computer that needs an update to be approved.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Select an update, review the update properties at the bottom of the page to ensure that you want to approve the update, and then choose <bpt id="p1">**</bpt>Approve<ept id="p1">**</ept>.</source>
+          <target state="new">Select an update, review the update properties at the bottom of the page to ensure that you want to approve the update, and then choose <bpt id="p1">**</bpt>Approve<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>You can select multiple updates by holding down the <bpt id="p1">**</bpt>CTRL<ept id="p1">**</ept> key as you select each item.</source>
+          <target state="new">You can select multiple updates by holding down the <bpt id="p1">**</bpt>CTRL<ept id="p1">**</ept> key as you select each item.</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select Groups<ept id="p1">**</ept> page, select a group that you want to deploy the updates to, and then choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Select Groups<ept id="p1">**</ept> page, select a group that you want to deploy the updates to, and then choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>When you have finished specifying groups, choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="new">When you have finished specifying groups, choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Deployment Action<ept id="p1">**</ept> page, do the following for each group in the list:</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Deployment Action<ept id="p1">**</ept> page, do the following for each group in the list:</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Approval<ept id="p1">**</ept> list, select one of the following:</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Approval<ept id="p1">**</ept> list, select one of the following:</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Required Install<ept id="p1">**</ept> - Installs the update on computers in the specified group.</source>
+          <target state="new"><bpt id="p1">**</bpt>Required Install<ept id="p1">**</ept> - Installs the update on computers in the specified group.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Do Not Install<ept id="p1">**</ept> - Reports applicability only and does not install the update.</source>
+          <target state="new"><bpt id="p1">**</bpt>Do Not Install<ept id="p1">**</ept> - Reports applicability only and does not install the update.</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Available Install<ept id="p1">**</ept> – The user can install the application on demand from the Company Portal.</source>
+          <target state="new"><bpt id="p1">**</bpt>Available Install<ept id="p1">**</ept> – The user can install the application on demand from the Company Portal.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Uninstall<ept id="p1">**</ept> - Removes updates from computers in the targeted group.</source>
+          <target state="new"><bpt id="p1">**</bpt>Uninstall<ept id="p1">**</ept> - Removes updates from computers in the targeted group.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The update is removed even if it was not installed by Intune.</source>
+          <target state="new">The update is removed even if it was not installed by Intune.</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Deadline<ept id="p1">**</ept> list, select one of the following:</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Deadline<ept id="p1">**</ept> list, select one of the following:</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept> - Indicates that no deadline is enforced for the installation of the update and users may decline the update continually.</source>
+          <target state="new"><bpt id="p1">**</bpt>None<ept id="p1">**</ept> - Indicates that no deadline is enforced for the installation of the update and users may decline the update continually.</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>As soon as possible<ept id="p1">**</ept> - Installs the update at the next opportunity on targeted computers.</source>
+          <target state="new"><bpt id="p1">**</bpt>As soon as possible<ept id="p1">**</ept> - Installs the update at the next opportunity on targeted computers.</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Custom<ept id="p1">**</ept> - Specifies the date and time that approved updates are installed.</source>
+          <target state="new"><bpt id="p1">**</bpt>Custom<ept id="p1">**</ept> - Specifies the date and time that approved updates are installed.</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>One week<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Two weeks<ept id="p2">**</ept>, <bpt id="p3">**</bpt>One month<ept id="p3">**</ept> – Installs the update within the specified time period.</source>
+          <target state="new"><bpt id="p1">**</bpt>One week<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Two weeks<ept id="p2">**</ept>, <bpt id="p3">**</bpt>One month<ept id="p3">**</ept> – Installs the update within the specified time period.</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Finish<ept id="p1">**</ept> to save the settings, or <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept> to discard the settings and return to the updates list.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Finish<ept id="p1">**</ept> to save the settings, or <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept> to discard the settings and return to the updates list.</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Unless the action <bpt id="p1">**</bpt>Do Not Install<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Required Install<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Uninstall<ept id="p3">**</ept> was explicitly configured for a child group, an action configured for a parent group is inherited by all its children.</source>
+          <target state="new">Unless the action <bpt id="p1">**</bpt>Do Not Install<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Required Install<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Uninstall<ept id="p3">**</ept> was explicitly configured for a child group, an action configured for a parent group is inherited by all its children.</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>You can check the details pane at the bottom of the <bpt id="p1">**</bpt>All Updates<ept id="p1">**</ept> page for reminder messages about the update.</source>
+          <target state="new">You can check the details pane at the bottom of the <bpt id="p1">**</bpt>All Updates<ept id="p1">**</ept> page for reminder messages about the update.</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Policies to protect Windows PCs</source>
+          <target state="new">Policies to protect Windows PCs</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
