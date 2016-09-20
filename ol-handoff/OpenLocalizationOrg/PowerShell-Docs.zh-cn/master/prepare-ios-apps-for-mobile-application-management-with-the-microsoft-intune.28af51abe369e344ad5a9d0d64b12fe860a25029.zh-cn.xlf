@@ -1,0 +1,1107 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a94754404b9ee135642e5683ffa0e4a6351e6830</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54c83d28a4b7048e725cbaee99432be96d2faed1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">093824de436eb05f6719dd0002ab82dd444d9c88</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Wrap iOS apps with the App Wrapping Tool | Microsoft Intune</source>
+          <target state="new">Wrap iOS apps with the App Wrapping Tool | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the information in this topic to learn how to wrap your iOS apps without modifying the code of the app itself.</source>
+          <target state="new">Use the information in this topic to learn how to wrap your iOS apps without modifying the code of the app itself.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Prepare the apps so you can apply mobile app management policies.</source>
+          <target state="new">Prepare the apps so you can apply mobile app management policies.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Prepare iOS apps for mobile application management with the Intune App Wrapping Tool</source>
+          <target state="new">Prepare iOS apps for mobile application management with the Intune App Wrapping Tool</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Microsoft Intune App Wrapping Tool for iOS<ept id="p1">**</ept> to modify the behavior of in-house iOS apps by restricting features of the app without changing the code of the app itself.</source>
+          <target state="new">Use the <bpt id="p1">**</bpt>Microsoft Intune App Wrapping Tool for iOS<ept id="p1">**</ept> to modify the behavior of in-house iOS apps by restricting features of the app without changing the code of the app itself.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The tool is a Mac OS command-line application that creates a ‘wrapper’ around an app.</source>
+          <target state="new">The tool is a Mac OS command-line application that creates a ‘wrapper’ around an app.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Once an app is processed, you can then change the app's functionality using <bpt id="p1">[</bpt>mobile application management policies<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept> that you configure.</source>
+          <target state="new">Once an app is processed, you can then change the app's functionality using <bpt id="p1">[</bpt>mobile application management policies<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept> that you configure.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To download the tool, see <bpt id="p1">[</bpt>Microsoft Intune App Wrapping Tool for iOS<ept id="p1">](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)</ept>.</source>
+          <target state="new">To download the tool, see <bpt id="p1">[</bpt>Microsoft Intune App Wrapping Tool for iOS<ept id="p1">](https://github.com/msintuneappsdk/intune-app-wrapping-tool-ios)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The version of the app wrapping tool, which supports devices not enrolled in Intune, is available for public preview.</source>
+          <target state="new">The version of the app wrapping tool, which supports devices not enrolled in Intune, is available for public preview.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you wish to participate in the public preview, you can download the tool from <bpt id="p1">[</bpt>this github page<ept id="p1">](https://github.com/msintuneappsdk/intune-app-wrapper-ios-preview)</ept> for iOS.</source>
+          <target state="new">If you wish to participate in the public preview, you can download the tool from <bpt id="p1">[</bpt>this github page<ept id="p1">](https://github.com/msintuneappsdk/intune-app-wrapper-ios-preview)</ept> for iOS.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The scenario is described in the <bpt id="p1">[</bpt>Protect LOB apps on devices not enrolled in Intune<ept id="p1">](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)</ept> topic.</source>
+          <target state="new">The scenario is described in the <bpt id="p1">[</bpt>Protect LOB apps on devices not enrolled in Intune<ept id="p1">](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)</ept> topic.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Step 1 Fulfill the prerequisites for using the app wrapping tool</source>
+          <target state="new">Step 1 Fulfill the prerequisites for using the app wrapping tool</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Read <bpt id="p1">[</bpt>this blog post<ept id="p1">](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)</ept> to learn more about pre-requisites and how to set them.</source>
+          <target state="new">Read <bpt id="p1">[</bpt>this blog post<ept id="p1">](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)</ept> to learn more about pre-requisites and how to set them.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Requirement</source>
+          <target state="new">Requirement</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="new">More information</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Supported operating system and toolset</source>
+          <target state="new">Supported operating system and toolset</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You must run the app wrapping tool on a Mac computer that runs OS X 10.8.5 or later, which has the XCode toolset version 5 or later installed.</source>
+          <target state="new">You must run the app wrapping tool on a Mac computer that runs OS X 10.8.5 or later, which has the XCode toolset version 5 or later installed.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Signing certificate and provisioning profile</source>
+          <target state="new">Signing certificate and provisioning profile</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You must have an Apple signing certificate and provisioning profile.</source>
+          <target state="new">You must have an Apple signing certificate and provisioning profile.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>See your <bpt id="p1">[</bpt>Apple developer documentation<ept id="p1">](https://developer.apple.com/)</ept>.</source>
+          <target state="new">See your <bpt id="p1">[</bpt>Apple developer documentation<ept id="p1">](https://developer.apple.com/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Processing an app with the App Wrapping Tool</source>
+          <target state="new">Processing an app with the App Wrapping Tool</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Apps must be developed and signed by your company, or an independent software vendor (ISV).</source>
+          <target state="new">Apps must be developed and signed by your company, or an independent software vendor (ISV).</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You cannot use this tool to process apps from the Apple Store.</source>
+          <target state="new">You cannot use this tool to process apps from the Apple Store.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Apps must be written for iOS 8.0 or later.</source>
+          <target state="new">Apps must be written for iOS 8.0 or later.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Apps must also be in the Position Independent Executable (PIE) format.</source>
+          <target state="new">Apps must also be in the Position Independent Executable (PIE) format.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information about the PIE format, see your Apple developer documentation.</source>
+          <target state="new">For more information about the PIE format, see your Apple developer documentation.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Lastly, the app must have the extension <bpt id="p1">**</bpt>.app<ept id="p1">**</ept>, or <bpt id="p2">**</bpt>.ipa<ept id="p2">**</ept> format.</source>
+          <target state="new">Lastly, the app must have the extension <bpt id="p1">**</bpt>.app<ept id="p1">**</ept>, or <bpt id="p2">**</bpt>.ipa<ept id="p2">**</ept> format.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Apps the wrapping tool cannot process</source>
+          <target state="new">Apps the wrapping tool cannot process</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Encrypted apps, unsigned apps, and apps with extended file attributes.</source>
+          <target state="new">Encrypted apps, unsigned apps, and apps with extended file attributes.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Setting entitlements for your app</source>
+          <target state="new">Setting entitlements for your app</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You must set entitlements, which give the app additional permissions and capabilities beyond those typically granted, before you wrap the app.</source>
+          <target state="new">You must set entitlements, which give the app additional permissions and capabilities beyond those typically granted, before you wrap the app.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Setting app entitlements<ept id="p1">](#setting-app-entitlements)</ept> for instructions.</source>
+          <target state="new">See <bpt id="p1">[</bpt>Setting app entitlements<ept id="p1">](#setting-app-entitlements)</ept> for instructions.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Step 2 Install the app wrapping tool</source>
+          <target state="new">Step 2 Install the app wrapping tool</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Microsoft Intune App Wrapping Tool for iOS<ept id="p1">**</ept> page on the <bpt id="p2">[</bpt>Microsoft Download Center<ept id="p2">](https://www.microsoft.com/download/details.aspx?id=45218)</ept>, download the installation file for the app wrapping tool to a Mac computer.</source>
+          <target state="new">From the <bpt id="p1">**</bpt>Microsoft Intune App Wrapping Tool for iOS<ept id="p1">**</ept> page on the <bpt id="p2">[</bpt>Microsoft Download Center<ept id="p2">](https://www.microsoft.com/download/details.aspx?id=45218)</ept>, download the installation file for the app wrapping tool to a Mac computer.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>On the Mac computer, double-click the installation file <bpt id="p1">**</bpt>Microsoft Intune App Wrapping Tool for iOS.dmg<ept id="p1">**</ept>.</source>
+          <target state="new">On the Mac computer, double-click the installation file <bpt id="p1">**</bpt>Microsoft Intune App Wrapping Tool for iOS.dmg<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Agree<ept id="p1">**</ept> to accept the End User License Agreement (EULA).</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Agree<ept id="p1">**</ept> to accept the End User License Agreement (EULA).</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The installer is mounted and displayed on the Mac computer.</source>
+          <target state="new">The installer is mounted and displayed on the Mac computer.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Open the installer and  copy the displayed files to a new folder on the Mac computer.</source>
+          <target state="new">Open the installer and  copy the displayed files to a new folder on the Mac computer.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can now disconnect the mounted installer drive.</source>
+          <target state="new">You can now disconnect the mounted installer drive.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You are now ready to run the app wrapping tool.</source>
+          <target state="new">You are now ready to run the app wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Step 3 Run the app wrapping tool</source>
+          <target state="new">Step 3 Run the app wrapping tool</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>On the Mac computer, open a Terminal window and navigate to the folder where you saved the files.</source>
+          <target state="new">On the Mac computer, open a Terminal window and navigate to the folder where you saved the files.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Because the executable resides inside the package, you’ll need to run the command as follows:</source>
+          <target state="new">Because the executable resides inside the package, you’ll need to run the command as follows:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="new">More information</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-h</source>
+          <target state="new">-h</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Displays the available command-line properties for the app wrapping tool.</source>
+          <target state="new">Displays the available command-line properties for the app wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-i</source>
+          <target state="new">-i</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies the path and file name of the input app.</source>
+          <target state="new">Specifies the path and file name of the input app.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-o</source>
+          <target state="new">-o</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Specifies the path in which to save the processed app.</source>
+          <target state="new">Specifies the path in which to save the processed app.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-p</source>
+          <target state="new">-p</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies the path to your provisioning profile for iOS apps.</source>
+          <target state="new">Specifies the path to your provisioning profile for iOS apps.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-c</source>
+          <target state="new">-c</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Specifies the SHA1 hash of the signing certificate.</source>
+          <target state="new">Specifies the SHA1 hash of the signing certificate.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-v</source>
+          <target state="new">-v</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Output verbose messages to the console (Optional).</source>
+          <target state="new">Output verbose messages to the console (Optional).</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-f</source>
+          <target state="new">-f</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Optional)</source>
+          <target state="new">Optional)</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-b</source>
+          <target state="new">-b</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>(Optional) Do not specify an argument to this flag if you want the wrapped app to have the same bundle version as the input app (not recommended).</source>
+          <target state="new">(Optional) Do not specify an argument to this flag if you want the wrapped app to have the same bundle version as the input app (not recommended).</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Use “-b <ph id="ph1">&lt;custom bundle version&gt;</ph>” if you want the wrapped app to have a custom CFBundleVersion.</source>
+          <target state="new">Use “-b <ph id="ph1">&lt;custom bundle version&gt;</ph>” if you want the wrapped app to have a custom CFBundleVersion.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>We recommend incrementing the native app’s CFBundleVersion by the least significant component, eg.</source>
+          <target state="new">We recommend incrementing the native app’s CFBundleVersion by the least significant component, eg.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>1.0.0 -&gt; 1.0.1</source>
+          <target state="new">1.0.0 -&gt; 1.0.1</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The -f and -b  flags are only supported in the public preview version of the App Wrapping tool that supports MAM on devices that are not enrolled in Intune .</source>
+          <target state="new">The -f and -b  flags are only supported in the public preview version of the App Wrapping tool that supports MAM on devices that are not enrolled in Intune .</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>One way to run the App Wrapping Tool is to put all the command arguments into a <bpt id="p1">[</bpt>plist<ept id="p1">](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/PropertyLists/Introduction/Introduction.html)</ept> file.</source>
+          <target state="new">One way to run the App Wrapping Tool is to put all the command arguments into a <bpt id="p1">[</bpt>plist<ept id="p1">](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/PropertyLists/Introduction/Introduction.html)</ept> file.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Plist is a file format similar to XML that can help us input our command-line arguments into a key-value interface.</source>
+          <target state="new">Plist is a file format similar to XML that can help us input our command-line arguments into a key-value interface.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Open Parameters.plist, a blank plist template, with a text editor or Xcode.</source>
+          <target state="new">Open Parameters.plist, a blank plist template, with a text editor or Xcode.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Enter your arguments for input path, output path, provisioning profile path, SHA1 certificate hash, and verbose enabled.</source>
+          <target state="new">Enter your arguments for input path, output path, provisioning profile path, SHA1 certificate hash, and verbose enabled.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Finally, run the IntuneMAMPackager with the plist as the sole argument:</source>
+          <target state="new">Finally, run the IntuneMAMPackager with the plist as the sole argument:</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>After processing completes, the message <bpt id="p1">**</bpt>The application was successfully wrapped<ept id="p1">**</ept> will be displayed.</source>
+          <target state="new">After processing completes, the message <bpt id="p1">**</bpt>The application was successfully wrapped<ept id="p1">**</ept> will be displayed.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If an error occurs, see <bpt id="p1">[</bpt>Error messages<ept id="p1">](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md#error-messages)</ept> for help.</source>
+          <target state="new">If an error occurs, see <bpt id="p1">[</bpt>Error messages<ept id="p1">](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md#error-messages)</ept> for help.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The wrapped app is saved in the output folder you specified previously.</source>
+          <target state="new">The wrapped app is saved in the output folder you specified previously.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can now upload the app into <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and associate it with a mobile application management policy.</source>
+          <target state="new">You can now upload the app into <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and associate it with a mobile application management policy.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You must upload the app as a new app.</source>
+          <target state="new">You must upload the app as a new app.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>You cannot update an older, unwrapped version of the app.</source>
+          <target state="new">You cannot update an older, unwrapped version of the app.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can now deploy the app to your <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> groups, and the app will now run on the device using the app restrictions you specify.</source>
+          <target state="new">You can now deploy the app to your <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> groups, and the app will now run on the device using the app restrictions you specify.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Error messages and log files</source>
+          <target state="new">Error messages and log files</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Use the following information to troubleshoot issues you have with the app wrapping tool.</source>
+          <target state="new">Use the following information to troubleshoot issues you have with the app wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Error messages</source>
+          <target state="new">Error messages</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If the app wrapping tool fails to complete successfully, one of the following error messages will be displayed:</source>
+          <target state="new">If the app wrapping tool fails to complete successfully, one of the following error messages will be displayed:</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Error message</source>
+          <target state="new">Error message</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="new">More information</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You must specify a valid iOS provisioning profile.</source>
+          <target state="new">You must specify a valid iOS provisioning profile.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Your provisioning profile might not be valid.</source>
+          <target state="new">Your provisioning profile might not be valid.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Check to make sure you have the correct permissions for devices and that your profile is correctly targeting either development or distribution.</source>
+          <target state="new">Check to make sure you have the correct permissions for devices and that your profile is correctly targeting either development or distribution.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Your provisioning profile might also be expired.</source>
+          <target state="new">Your provisioning profile might also be expired.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specify a valid input application name.</source>
+          <target state="new">Specify a valid input application name.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Make sure that the input application name you specified is correct.</source>
+          <target state="new">Make sure that the input application name you specified is correct.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Specify a valid path to the output application.</source>
+          <target state="new">Specify a valid path to the output application.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Make sure that the path to the output application you specified exists, and is correct.</source>
+          <target state="new">Make sure that the path to the output application you specified exists, and is correct.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Specify a valid input provisioning profile.</source>
+          <target state="new">Specify a valid input provisioning profile.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Make sure you supplied a valid provisioning profile name and extension.</source>
+          <target state="new">Make sure you supplied a valid provisioning profile name and extension.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Your provisioning profile might be missing entitlements or you might not have included the <bpt id="p1">**</bpt>–p<ept id="p1">**</ept> command-line option.</source>
+          <target state="new">Your provisioning profile might be missing entitlements or you might not have included the <bpt id="p1">**</bpt>–p<ept id="p1">**</ept> command-line option.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The input application you specified was not found.</source>
+          <target state="new">The input application you specified was not found.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Specify a valid input application name and path.</source>
+          <target state="new">Specify a valid input application name and path.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Make sure your input app path is valid and exists.</source>
+          <target state="new">Make sure your input app path is valid and exists.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Make sure the input app exists at that location.</source>
+          <target state="new">Make sure the input app exists at that location.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The input provisioning profile file you specified was not found.</source>
+          <target state="new">The input provisioning profile file you specified was not found.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Specify a valid input provisioning profile file.</source>
+          <target state="new">Specify a valid input provisioning profile file.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Make sure that the path to the input provisioning file is valid and that the file you specified exists.</source>
+          <target state="new">Make sure that the path to the input provisioning file is valid and that the file you specified exists.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The output application folder you specified was not found.</source>
+          <target state="new">The output application folder you specified was not found.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Specify a valid path to the output application.</source>
+          <target state="new">Specify a valid path to the output application.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Make sure that the output path you specified is valid and exists.</source>
+          <target state="new">Make sure that the output path you specified is valid and exists.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Output app does not have .ipa extension.</source>
+          <target state="new">Output app does not have .ipa extension.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Only apps with the <bpt id="p1">**</bpt>.app<ept id="p1">**</ept> and <bpt id="p2">**</bpt>.ipa<ept id="p2">**</ept> extensions are accepted by the app wrapping tool.</source>
+          <target state="new">Only apps with the <bpt id="p1">**</bpt>.app<ept id="p1">**</ept> and <bpt id="p2">**</bpt>.ipa<ept id="p2">**</ept> extensions are accepted by the app wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Make sure your output file has a valid extension.</source>
+          <target state="new">Make sure your output file has a valid extension.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>An invalid signing certificate was specified.</source>
+          <target state="new">An invalid signing certificate was specified.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Specify a valid Apple signing certificate.</source>
+          <target state="new">Specify a valid Apple signing certificate.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Make sure you’ve downloaded the correct signing certificate from the Apple developer portal.</source>
+          <target state="new">Make sure you’ve downloaded the correct signing certificate from the Apple developer portal.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Your certificate might also be expired.</source>
+          <target state="new">Your certificate might also be expired.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If your Apple certificate and provisioning profile can be used to correctly sign an app within Xcode, then they are valid for the app wrapping tool.</source>
+          <target state="new">If your Apple certificate and provisioning profile can be used to correctly sign an app within Xcode, then they are valid for the app wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The input application you specified is invalid.</source>
+          <target state="new">The input application you specified is invalid.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Specify a valid application.</source>
+          <target state="new">Specify a valid application.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Make sure you have a valid iOS application that has been compiled as an .app or .ipa file.</source>
+          <target state="new">Make sure you have a valid iOS application that has been compiled as an .app or .ipa file.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The input application you specified is encrypted.</source>
+          <target state="new">The input application you specified is encrypted.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Specify a valid unencrypted application.</source>
+          <target state="new">Specify a valid unencrypted application.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The app wrapping tool does not support encrypted apps.</source>
+          <target state="new">The app wrapping tool does not support encrypted apps.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Specify an unencrypted app.</source>
+          <target state="new">Specify an unencrypted app.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The input application you specified is not in a Position Independent Executable (PIE) format.</source>
+          <target state="new">The input application you specified is not in a Position Independent Executable (PIE) format.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Specify a valid application in PIE format.</source>
+          <target state="new">Specify a valid application in PIE format.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Position Independent Executable (PIE) apps can be loaded at a random memory address when run which can have security benefits.</source>
+          <target state="new">Position Independent Executable (PIE) apps can be loaded at a random memory address when run which can have security benefits.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For more information, see your Apple Developer documentation.</source>
+          <target state="new">For more information, see your Apple Developer documentation.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The input app you specified has already been wrapped.</source>
+          <target state="new">The input app you specified has already been wrapped.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Specify a valid unwrapped application.</source>
+          <target state="new">Specify a valid unwrapped application.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You cannot process an app that has already been processed by the tool.</source>
+          <target state="new">You cannot process an app that has already been processed by the tool.</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>If you want to process an app again, run the tool using the original version of the app.</source>
+          <target state="new">If you want to process an app again, run the tool using the original version of the app.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The input application you specified is not signed.</source>
+          <target state="new">The input application you specified is not signed.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Specify a valid signed application.</source>
+          <target state="new">Specify a valid signed application.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The app wrapping tool requires apps to be signed.</source>
+          <target state="new">The app wrapping tool requires apps to be signed.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Consult your developer documentation to learn how to sign a wrapped app.</source>
+          <target state="new">Consult your developer documentation to learn how to sign a wrapped app.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The input application you specified must be in the .ipa or .app format.</source>
+          <target state="new">The input application you specified must be in the .ipa or .app format.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Only .app and .ipa extensions are accepted by the app wrapping tool.</source>
+          <target state="new">Only .app and .ipa extensions are accepted by the app wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Make sure your input file has a valid extension and has been compiled as a .app or .ipa file.</source>
+          <target state="new">Make sure your input file has a valid extension and has been compiled as a .app or .ipa file.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The input app you specified has already been wrapped and is on the latest policy template version.</source>
+          <target state="new">The input app you specified has already been wrapped and is on the latest policy template version.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The app wrapping tool will not rewrap an existing wrapped app with the latest policy template version.</source>
+          <target state="new">The app wrapping tool will not rewrap an existing wrapped app with the latest policy template version.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>WARNING: You did not specify a SHA1 certificate hash.</source>
+          <target state="new">WARNING: You did not specify a SHA1 certificate hash.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Make sure that your wrapped application is signed before deploying.</source>
+          <target state="new">Make sure that your wrapped application is signed before deploying.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Ensure that you specify a valid SHA hash (using the <bpt id="p1">**</bpt>–c<ept id="p1">**</ept> command line property).</source>
+          <target state="new">Ensure that you specify a valid SHA hash (using the <bpt id="p1">**</bpt>–c<ept id="p1">**</ept> command line property).</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Log files for the app wrapping tool</source>
+          <target state="new">Log files for the app wrapping tool</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Apps that have been wrapped by using the app wrapping tool generate logs which are written to the iOS client device console.</source>
+          <target state="new">Apps that have been wrapped by using the app wrapping tool generate logs which are written to the iOS client device console.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>This information is useful in situations where you are having problems with the application and need to diagnose if the issue is related to the app wrapping tool.</source>
+          <target state="new">This information is useful in situations where you are having problems with the application and need to diagnose if the issue is related to the app wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To retrieve this information, use the following steps:</source>
+          <target state="new">To retrieve this information, use the following steps:</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Reproduce the issue by running the app.</source>
+          <target state="new">Reproduce the issue by running the app.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Collect the console output by following Apple's instructions for <bpt id="p1">[</bpt>Debugging Deployed iOS Apps<ept id="p1">](https://developer.apple.com/library/ios/qa/qa1747/_index.html)</ept>.</source>
+          <target state="new">Collect the console output by following Apple's instructions for <bpt id="p1">[</bpt>Debugging Deployed iOS Apps<ept id="p1">](https://developer.apple.com/library/ios/qa/qa1747/_index.html)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Filter the saved logs for App Restrictions output by entering the following script into the console:</source>
+          <target state="new">Filter the saved logs for App Restrictions output by entering the following script into the console:</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You can submit the filtered logs to Microsoft.</source>
+          <target state="new">You can submit the filtered logs to Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>In the log file, the item ‘build version’ represents the build version of Xcode.</source>
+          <target state="new">In the log file, the item ‘build version’ represents the build version of Xcode.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Wrapped apps will also present users the option to send logs directly from the device via email after the app crashes.</source>
+          <target state="new">Wrapped apps will also present users the option to send logs directly from the device via email after the app crashes.</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Users can send the log to you to examine and forward to Microsoft if required.</source>
+          <target state="new">Users can send the log to you to examine and forward to Microsoft if required.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Certificate, provisioning profile, and authentication requirements</source>
+          <target state="new">Certificate, provisioning profile, and authentication requirements</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Requirement</source>
+          <target state="new">Requirement</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Provisioning profile</source>
+          <target state="new">Provisioning profile</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Make sure that the provisioning profile is valid before you include it<ept id="p1">**</ept> - The app wrapping tool does not check whether the provisioning profile is expired when processing an iOS app.</source>
+          <target state="new"><bpt id="p1">**</bpt>Make sure that the provisioning profile is valid before you include it<ept id="p1">**</ept> - The app wrapping tool does not check whether the provisioning profile is expired when processing an iOS app.</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>If an expired provisioning profile is specified, the app wrapping tool will include the expired provisioning profile, and you will not know there is a problem until the app fails to install on an iOS device.</source>
+          <target state="new">If an expired provisioning profile is specified, the app wrapping tool will include the expired provisioning profile, and you will not know there is a problem until the app fails to install on an iOS device.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Certificate</source>
+          <target state="new">Certificate</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Make sure that the certificate is valid before you specify it<ept id="p1">**</ept> - The tool does not check whether a certificate is expired when processing iOS apps.</source>
+          <target state="new"><bpt id="p1">**</bpt>Make sure that the certificate is valid before you specify it<ept id="p1">**</ept> - The tool does not check whether a certificate is expired when processing iOS apps.</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>If the hash for an expired certificate is provided, the tool will process and sign the app, but it will fail to install on devices.</source>
+          <target state="new">If the hash for an expired certificate is provided, the tool will process and sign the app, but it will fail to install on devices.</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Make sure that the certificate provided for signing the packaged application has a match in the provisioning profile<ept id="p1">**</ept> - The tool does not validate if the provisioning profile has a match for the certificate provided for signing the wrapped application.</source>
+          <target state="new"><bpt id="p1">**</bpt>Make sure that the certificate provided for signing the packaged application has a match in the provisioning profile<ept id="p1">**</ept> - The tool does not validate if the provisioning profile has a match for the certificate provided for signing the wrapped application.</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Authentication</source>
+          <target state="new">Authentication</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>A device must have a pin set for encryption to work.</source>
+          <target state="new">A device must have a pin set for encryption to work.</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>On devices to which you have deployed a wrapped application, touching the status bar on the device will require the user to re-authenticate with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</source>
+          <target state="new">On devices to which you have deployed a wrapped application, touching the status bar on the device will require the user to re-authenticate with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The default policy in a wrapped application is <bpt id="p1">*</bpt>authentication on re-launch<ept id="p1">*</ept>.</source>
+          <target state="new">The default policy in a wrapped application is <bpt id="p1">*</bpt>authentication on re-launch<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>iOS handles any external notification (for example a phone call) as exiting the app and then re-launching it.</source>
+          <target state="new">iOS handles any external notification (for example a phone call) as exiting the app and then re-launching it.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>For wrapped apps, the first user who signs into any wrapped app from the same publisher is cached.</source>
+          <target state="new">For wrapped apps, the first user who signs into any wrapped app from the same publisher is cached.</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>After this point, only that user is allowed to access the app.</source>
+          <target state="new">After this point, only that user is allowed to access the app.</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>To reset the user, the device has to be unenrolled and then re-enrolled.</source>
+          <target state="new">To reset the user, the device has to be unenrolled and then re-enrolled.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Setting app entitlements</source>
+          <target state="new">Setting app entitlements</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Before wrapping your app, you can grant <bpt id="p1">**</bpt>entitlements<ept id="p1">**</ept> to give the app  additional permissions and capabilities that exceed what an app typically can do.</source>
+          <target state="new">Before wrapping your app, you can grant <bpt id="p1">**</bpt>entitlements<ept id="p1">**</ept> to give the app  additional permissions and capabilities that exceed what an app typically can do.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>entitlement file<ept id="p1">**</ept> is used during code signing to specify special permissions within your app (for example, access to a shared keychain).</source>
+          <target state="new">An <bpt id="p1">**</bpt>entitlement file<ept id="p1">**</ept> is used during code signing to specify special permissions within your app (for example, access to a shared keychain).</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Specific app services, called <bpt id="p1">**</bpt>capabilities<ept id="p1">**</ept>, are enabled within Xcode during app development.</source>
+          <target state="new">Specific app services, called <bpt id="p1">**</bpt>capabilities<ept id="p1">**</ept>, are enabled within Xcode during app development.</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Once enabled, the capabilities are reflected in your entitlements file.</source>
+          <target state="new">Once enabled, the capabilities are reflected in your entitlements file.</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For more information about entitlements and capabilities, see <bpt id="p1">[</bpt>Adding Capabilities<ept id="p1">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)</ept> in the iOS Developer Library.</source>
+          <target state="new">For more information about entitlements and capabilities, see <bpt id="p1">[</bpt>Adding Capabilities<ept id="p1">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)</ept> in the iOS Developer Library.</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>For a complete list of supported capabilities, see <bpt id="p1">[</bpt>Supported capabilities<ept id="p1">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html)</ept>.</source>
+          <target state="new">For a complete list of supported capabilities, see <bpt id="p1">[</bpt>Supported capabilities<ept id="p1">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Supported capabilities for the App Wrapping Tool for iOS</source>
+          <target state="new">Supported capabilities for the App Wrapping Tool for iOS</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Capability</source>
+          <target state="new">Capability</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Recommended guidance</source>
+          <target state="new">Recommended guidance</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>App Groups</source>
+          <target state="new">App Groups</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Use app groups to allow multiple apps to access shared containers and allow additional inter-process communication between apps.</source>
+          <target state="new">Use app groups to allow multiple apps to access shared containers and allow additional inter-process communication between apps.</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>To enable app groups, open the <bpt id="p1">**</bpt>Capabilities<ept id="p1">**</ept> pane and click the <bpt id="p2">**</bpt>ON<ept id="p2">**</ept> switch in the <bpt id="p3">**</bpt>App Groups<ept id="p3">**</ept> section.</source>
+          <target state="new">To enable app groups, open the <bpt id="p1">**</bpt>Capabilities<ept id="p1">**</ept> pane and click the <bpt id="p2">**</bpt>ON<ept id="p2">**</ept> switch in the <bpt id="p3">**</bpt>App Groups<ept id="p3">**</ept> section.</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>You can add app groups or select existing ones.</source>
+          <target state="new">You can add app groups or select existing ones.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>When using App Groups, use reverse DNS notation:</source>
+          <target state="new">When using App Groups, use reverse DNS notation:</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>group.com.companyName.AppGroup</source>
+          <target state="new">group.com.companyName.AppGroup</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Background Modes</source>
+          <target state="new">Background Modes</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Enabling background modes allows your iOS app to continue running in the background.</source>
+          <target state="new">Enabling background modes allows your iOS app to continue running in the background.</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Data Protection</source>
+          <target state="new">Data Protection</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Data protection adds a level of security to files stored on disk by your iOS app.</source>
+          <target state="new">Data protection adds a level of security to files stored on disk by your iOS app.</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Data protection uses the built-in encryption hardware present on specific devices to store files in an encrypted format on disk.</source>
+          <target state="new">Data protection uses the built-in encryption hardware present on specific devices to store files in an encrypted format on disk.</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Your app needs to be provisioned to use data protection.</source>
+          <target state="new">Your app needs to be provisioned to use data protection.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>In-App Purchase</source>
+          <target state="new">In-App Purchase</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>In-App purchase embeds a store directly into your app by enabling you to connect to the store and securely process payments from the user.</source>
+          <target state="new">In-App purchase embeds a store directly into your app by enabling you to connect to the store and securely process payments from the user.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>You can use In-App Purchase to collect payment for enhanced functionality or for additional content usable by your app.</source>
+          <target state="new">You can use In-App Purchase to collect payment for enhanced functionality or for additional content usable by your app.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Keychain Sharing</source>
+          <target state="new">Keychain Sharing</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Enabling keychain sharing allows your app to share passwords in the keychain with other apps developed by your team.</source>
+          <target state="new">Enabling keychain sharing allows your app to share passwords in the keychain with other apps developed by your team.</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>When using Keychain Sharing, use reverse DNS notation:</source>
+          <target state="new">When using Keychain Sharing, use reverse DNS notation:</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>com.companyName.KeychainGroup</source>
+          <target state="new">com.companyName.KeychainGroup</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Personal VPN</source>
+          <target state="new">Personal VPN</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Enable personal VPN to allow your app to create and control a custom system VPN configuration using the Network Extension framework.</source>
+          <target state="new">Enable personal VPN to allow your app to create and control a custom system VPN configuration using the Network Extension framework.</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Push Notifications</source>
+          <target state="new">Push Notifications</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Apple Push Notification service (APNs) allows an app that isn’t running in the foreground to notify the user that it has information for the user.</source>
+          <target state="new">Apple Push Notification service (APNs) allows an app that isn’t running in the foreground to notify the user that it has information for the user.</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>For push notifications to work, you need to use an app-specific provisioning profile.</source>
+          <target state="new">For push notifications to work, you need to use an app-specific provisioning profile.</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Follow the steps in the <bpt id="p1">[</bpt>Apple developer documentation<ept id="p1">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)</ept>.</source>
+          <target state="new">Follow the steps in the <bpt id="p1">[</bpt>Apple developer documentation<ept id="p1">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Wireless Accessory Configuration</source>
+          <target state="new">Wireless Accessory Configuration</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Enabling wireless accessory configuration adds the External Accessory framework to your project and allows your app to configure MFi Wi-Fi accessories.</source>
+          <target state="new">Enabling wireless accessory configuration adds the External Accessory framework to your project and allows your app to configure MFi Wi-Fi accessories.</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Steps to enable entitlements</source>
+          <target state="new">Steps to enable entitlements</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Enable capabilities in your app:</source>
+          <target state="new">Enable capabilities in your app:</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>In Xcode, navigate to your app’s target, and click the <bpt id="p1">**</bpt>Capabilities<ept id="p1">**</ept> pane.</source>
+          <target state="new">In Xcode, navigate to your app’s target, and click the <bpt id="p1">**</bpt>Capabilities<ept id="p1">**</ept> pane.</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Turn on the appropriate capabilities.</source>
+          <target state="new">Turn on the appropriate capabilities.</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>For detailed information about each capability and how to determine the correct values, see <bpt id="p1">[</bpt>Adding Capabilities<ept id="p1">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)</ept> in the iOS Developer Library.</source>
+          <target state="new">For detailed information about each capability and how to determine the correct values, see <bpt id="p1">[</bpt>Adding Capabilities<ept id="p1">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)</ept> in the iOS Developer Library.</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Note any IDs that you created during the process.</source>
+          <target state="new">Note any IDs that you created during the process.</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Build and sign your app to be wrapped.</source>
+          <target state="new">Build and sign your app to be wrapped.</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Enable entitlements in your provisioning profile:</source>
+          <target state="new">Enable entitlements in your provisioning profile:</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Log in to the Apple Developer Member Center.</source>
+          <target state="new">Log in to the Apple Developer Member Center.</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Create a provisioning profile for your app.</source>
+          <target state="new">Create a provisioning profile for your app.</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>For instructions, see <bpt id="p1">[</bpt>How to Obtain the Prerequisites for the Intune App Wrapping Tool for iOS<ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)</ept>.</source>
+          <target state="new">For instructions, see <bpt id="p1">[</bpt>How to Obtain the Prerequisites for the Intune App Wrapping Tool for iOS<ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>In your provisioning profile, enable the same entitlements that you have in your app.</source>
+          <target state="new">In your provisioning profile, enable the same entitlements that you have in your app.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>You will need to supply the same IDs that you specified during the development of your app.</source>
+          <target state="new">You will need to supply the same IDs that you specified during the development of your app.</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Complete the provisioning profile wizard and download your file.</source>
+          <target state="new">Complete the provisioning profile wizard and download your file.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Ensure that you have satisfied all the prerequisites, and then wrap the app.</source>
+          <target state="new">Ensure that you have satisfied all the prerequisites, and then wrap the app.</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Troubleshooting common errors with entitlements</source>
+          <target state="new">Troubleshooting common errors with entitlements</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>If the App Wrapping Tool for iOS displays an entitlement error, try the following troubleshooting steps.</source>
+          <target state="new">If the App Wrapping Tool for iOS displays an entitlement error, try the following troubleshooting steps.</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Issue</source>
+          <target state="new">Issue</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Cause</source>
+          <target state="new">Cause</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Resolution</source>
+          <target state="new">Resolution</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Failed to parse entitlements generated from the input application.</source>
+          <target state="new">Failed to parse entitlements generated from the input application.</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The App Wrapping Tool cannot read the entitlements file that was extracted from the app.</source>
+          <target state="new">The App Wrapping Tool cannot read the entitlements file that was extracted from the app.</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The entitlements file might be malformed.</source>
+          <target state="new">The entitlements file might be malformed.</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Inspect the entitlements file for your app.</source>
+          <target state="new">Inspect the entitlements file for your app.</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To do so, follow the instructions detailed below.</source>
+          <target state="new">To do so, follow the instructions detailed below.</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>When inspecting the entitlements file, check for any malformed syntax.</source>
+          <target state="new">When inspecting the entitlements file, check for any malformed syntax.</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>The file should be in XML format.</source>
+          <target state="new">The file should be in XML format.</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Entitlements are missing in the provisioning profile (missing entitlements are listed).</source>
+          <target state="new">Entitlements are missing in the provisioning profile (missing entitlements are listed).</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Repackage the app with a provisioning profile that has these entitlements.</source>
+          <target state="new">Repackage the app with a provisioning profile that has these entitlements.</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>There is a mismatch between the entitlements enabled in the provisioning profile and the capabilities enabled in the app.</source>
+          <target state="new">There is a mismatch between the entitlements enabled in the provisioning profile and the capabilities enabled in the app.</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>This mismatch also applies to the IDs associated with particular capabilities (i.e., App Groups, Keychain Access etc).</source>
+          <target state="new">This mismatch also applies to the IDs associated with particular capabilities (i.e., App Groups, Keychain Access etc).</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Generally, you can create a new provisioning profile that enables the same capabilities as the app.</source>
+          <target state="new">Generally, you can create a new provisioning profile that enables the same capabilities as the app.</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>When IDs between the profile and app don't match, the App Wrapping Tool will replace the IDs if it is able to.</source>
+          <target state="new">When IDs between the profile and app don't match, the App Wrapping Tool will replace the IDs if it is able to.</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>If you still get this error after creating a new provisioning profile, you can try  removing entitlements from the app by using the <bpt id="p1">**</bpt>–e<ept id="p1">**</ept> parameter (see "Using the –e parameter to remove entitlements from an app section below).</source>
+          <target state="new">If you still get this error after creating a new provisioning profile, you can try  removing entitlements from the app by using the <bpt id="p1">**</bpt>–e<ept id="p1">**</ept> parameter (see "Using the –e parameter to remove entitlements from an app section below).</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Finding the existing entitlements of a signed app</source>
+          <target state="new">Finding the existing entitlements of a signed app</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>To review the existing entitlements of a signed app and provisioning profile:</source>
+          <target state="new">To review the existing entitlements of a signed app and provisioning profile:</target>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Find the .ipa file and change its the extension to .zip.</source>
+          <target state="new">Find the .ipa file and change its the extension to .zip.</target>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Expand the .zip file.</source>
+          <target state="new">Expand the .zip file.</target>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>This will produce a Payload folder containing your .app bundle.</source>
+          <target state="new">This will produce a Payload folder containing your .app bundle.</target>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Use the codesign tool to check the entitlements on the .app bundle like this:</source>
+          <target state="new">Use the codesign tool to check the entitlements on the .app bundle like this:</target>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>where <ph id="ph1">`YourApp.app`</ph> is the actual name of your .app bundle.</source>
+          <target state="new">where <ph id="ph1">`YourApp.app`</ph> is the actual name of your .app bundle.</target>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Use the security tool to check the entitlements of the app's embedded provisioning profile:</source>
+          <target state="new">Use the security tool to check the entitlements of the app's embedded provisioning profile:</target>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>where <ph id="ph1">`YourApp.app`</ph> is the actual name of your .app bundle.</source>
+          <target state="new">where <ph id="ph1">`YourApp.app`</ph> is the actual name of your .app bundle.</target>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Using the –e parameter to remove entitlements from an app</source>
+          <target state="new">Using the –e parameter to remove entitlements from an app</target>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>This command removes any enabled capabilities in the app that are not in the entitlements file.</source>
+          <target state="new">This command removes any enabled capabilities in the app that are not in the entitlements file.</target>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If you remove capabilities that are being used by the app, it can break your app.</source>
+          <target state="new">If you remove capabilities that are being used by the app, it can break your app.</target>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>An example of where you might remove missing capabilities is if you have a vendor-produced app that has all capabilities by default.</source>
+          <target state="new">An example of where you might remove missing capabilities is if you have a vendor-produced app that has all capabilities by default.</target>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Security and privacy for the app wrapping tool</source>
+          <target state="new">Security and privacy for the app wrapping tool</target>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Use the following security and privacy best practices when you use the app wrapping tool.</source>
+          <target state="new">Use the following security and privacy best practices when you use the app wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The signing certificate, provisioning profile and the line-of-business app you specify must be on the same Mac computer that you use to run the app wrapping tool.</source>
+          <target state="new">The signing certificate, provisioning profile and the line-of-business app you specify must be on the same Mac computer that you use to run the app wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>If the files are on a UNC path, ensure that these are accessible from the Mac computer.</source>
+          <target state="new">If the files are on a UNC path, ensure that these are accessible from the Mac computer.</target>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The path must be secured via IPsec or SMB signing.</source>
+          <target state="new">The path must be secured via IPsec or SMB signing.</target>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The wrapped application imported into the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> console should be on the same computer that you run the tool on.</source>
+          <target state="new">The wrapped application imported into the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> console should be on the same computer that you run the tool on.</target>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>If the file is on a UNC path, ensure that it is accessible on the computer running the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> console.</source>
+          <target state="new">If the file is on a UNC path, ensure that it is accessible on the computer running the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> console.</target>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>The path must be secured via IPsec or SMB signing.</source>
+          <target state="new">The path must be secured via IPsec or SMB signing.</target>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The environment where the app wrapping tool is downloaded from the Microsoft Download Center site needs to be secured via IPsec or SMB signing.</source>
+          <target state="new">The environment where the app wrapping tool is downloaded from the Microsoft Download Center site needs to be secured via IPsec or SMB signing.</target>
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>The app you process must come from a trust-worthy source to ensure protection against attacks.</source>
+          <target state="new">The app you process must come from a trust-worthy source to ensure protection against attacks.</target>
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Ensure that the output folder you specify in the app wrapping tool is secured, particularly if it is a remote folder.</source>
+          <target state="new">Ensure that the output folder you specify in the app wrapping tool is secured, particularly if it is a remote folder.</target>
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>iOS apps that include a file upload dialog box can allow users to circumvent cut, copy and paste restrictions applied to the app.</source>
+          <target state="new">iOS apps that include a file upload dialog box can allow users to circumvent cut, copy and paste restrictions applied to the app.</target>
+        </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>For example, a user could use the file upload dialog box to upload a screenshot of the app data.</source>
+          <target state="new">For example, a user could use the file upload dialog box to upload a screenshot of the app data.</target>
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>When users monitor the documents folder on their device from within a wrapped app, they might see a folder named <bpt id="p1">**</bpt>.msftintuneapplauncher<ept id="p1">**</ept>.</source>
+          <target state="new">When users monitor the documents folder on their device from within a wrapped app, they might see a folder named <bpt id="p1">**</bpt>.msftintuneapplauncher<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>If this folder is changed or deleted, this might affect the correct functioning of restricted apps.</source>
+          <target state="new">If this folder is changed or deleted, this might affect the correct functioning of restricted apps.</target>
+        </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Decide how to prepare apps for mobile application management with Microsoft Intune</source>
+          <target state="new">Decide how to prepare apps for mobile application management with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
+          <target state="new">Manage settings and features on your devices with Microsoft Intune policies</target>
+        </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Use the SDK to enable apps for mobile application management</source>
+          <target state="new">Use the SDK to enable apps for mobile application management</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

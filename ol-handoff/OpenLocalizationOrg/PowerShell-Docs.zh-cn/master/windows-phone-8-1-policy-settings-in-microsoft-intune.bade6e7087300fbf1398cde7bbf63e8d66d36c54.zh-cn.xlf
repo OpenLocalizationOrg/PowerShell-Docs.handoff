@@ -1,0 +1,987 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">315e492b301387c2030440e7188dfdb35a99ddd9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\windows-phone-8-1-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5f97c01e6e9c1fa848bff77bc5da5f335c7da50</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8543348551e22778452906a480896fb536105b5d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 policy settings | Microsoft Intune</source>
+          <target state="new">Windows Phone 8.1 policy settings | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Intune supplies a range of built-in general settings that you can configure on Windows Phone 8.1 devices.</source>
+          <target state="new">Intune supplies a range of built-in general settings that you can configure on Windows Phone 8.1 devices.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Additionally, you can specify OMA-URI values to create custom settings that are not available from Intune.</source>
+          <target state="new">Additionally, you can specify OMA-URI values to create custom settings that are not available from Intune.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 policy settings in Microsoft Intune</source>
+          <target state="new">Windows Phone 8.1 policy settings in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Intune supplies a range of built-in general settings that you can configure on Windows Phone 8.1 devices.</source>
+          <target state="new">Intune supplies a range of built-in general settings that you can configure on Windows Phone 8.1 devices.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Additionally, you can specify Open Mobile Alliance Uniform Resource Identifier (OMA-URI) values to create custom settings that are not available from Intune.</source>
+          <target state="new">Additionally, you can specify Open Mobile Alliance Uniform Resource Identifier (OMA-URI) values to create custom settings that are not available from Intune.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>General configuration settings</source>
+          <target state="new">General configuration settings</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use the Microsoft Intune <bpt id="p1">**</bpt>Windows Phone general configuration policy (Windows Phone 8.1 and later)<ept id="p1">**</ept> to configure the following settings for Windows Phone 8.1 devices:</source>
+          <target state="new">Use the Microsoft Intune <bpt id="p1">**</bpt>Windows Phone general configuration policy (Windows Phone 8.1 and later)<ept id="p1">**</ept> to configure the following settings for Windows Phone 8.1 devices:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Mobile device security settings<ept id="p1">**</ept> – Choose from a list of predefined settings that let you control a range of features and functionality on the device.</source>
+          <target state="new"><bpt id="p1">**</bpt>Mobile device security settings<ept id="p1">**</ept> – Choose from a list of predefined settings that let you control a range of features and functionality on the device.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Compliant and noncompliant apps<ept id="p1">**</ept> - Specify a list of apps that are compliant or not compliant in your company.</source>
+          <target state="new"><bpt id="p1">**</bpt>Compliant and noncompliant apps<ept id="p1">**</ept> - Specify a list of apps that are compliant or not compliant in your company.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Windows Phone devices can block or allow installation of these apps.</source>
+          <target state="new">Windows Phone devices can block or allow installation of these apps.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Applicability settings</source>
+          <target state="new">Applicability settings</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Apply all configurations to Windows 10</source>
+          <target state="new">Apply all configurations to Windows 10</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enables settings in this policy to be applied to Windows 10 Mobile devices in addition to Windows Phone 8.1 devices.</source>
+          <target state="new">Enables settings in this policy to be applied to Windows 10 Mobile devices in addition to Windows Phone 8.1 devices.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Password settings</source>
+          <target state="new">Password settings</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8</source>
+          <target state="new">Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Require a password to unlock mobile devices</source>
+          <target state="new">Require a password to unlock mobile devices</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Specifies whether users must enter a password to access their devices.</source>
+          <target state="new">Specifies whether users must enter a password to access their devices.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Required password type</source>
+          <target state="new">Required password type</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Specifies the type of password that will be required, such as alphanumeric or numeric only.</source>
+          <target state="new">Specifies the type of password that will be required, such as alphanumeric or numeric only.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Required password type – Minimum number of character sets</source>
+          <target state="new">Required password type – Minimum number of character sets</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies how many different character sets must be included in the password.</source>
+          <target state="new">Specifies how many different character sets must be included in the password.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>There are four character sets: lowercase letters, uppercase letters, numbers, and symbols.</source>
+          <target state="new">There are four character sets: lowercase letters, uppercase letters, numbers, and symbols.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>However, for iOS devices, this specifies the number of symbols that must be included in the password.</source>
+          <target state="new">However, for iOS devices, this specifies the number of symbols that must be included in the password.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Minimum password length</source>
+          <target state="new">Minimum password length</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum number of characters that are required in the password.</source>
+          <target state="new">Specifies the minimum number of characters that are required in the password.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Allow simple passwords</source>
+          <target state="new">Allow simple passwords</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Specifies that simple passwords such as ‘0000’ and ‘1234’ can be used.</source>
+          <target state="new">Specifies that simple passwords such as ‘0000’ and ‘1234’ can be used.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Number of repeated sign-in failures to allow before the device is wiped</source>
+          <target state="new">Number of repeated sign-in failures to allow before the device is wiped</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies the number of times an incorrect password can be entered before the device is wiped.</source>
+          <target state="new">Specifies the number of times an incorrect password can be entered before the device is wiped.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Minutes of inactivity before the screen turns off</source>
+          <target state="new">Minutes of inactivity before the screen turns off</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specifies the amount of time a device must remain idle before the screen is automatically locked.</source>
+          <target state="new">Specifies the amount of time a device must remain idle before the screen is automatically locked.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Password expiration (days)</source>
+          <target state="new">Password expiration (days)</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies the number of days before the device password must be changed.</source>
+          <target state="new">Specifies the number of days before the device password must be changed.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Remember password history</source>
+          <target state="new">Remember password history</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifies whether previously used passwords are remembered to prevent the user from using them again.</source>
+          <target state="new">Specifies whether previously used passwords are remembered to prevent the user from using them again.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept> – <bpt id="p2">**</bpt>Prevent reuse of previous passwords<ept id="p2">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept> – <bpt id="p2">**</bpt>Prevent reuse of previous passwords<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Specifies how many previously used passwords are remembered.</source>
+          <target state="new">Specifies how many previously used passwords are remembered.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Encryption settings</source>
+          <target state="new">Encryption settings</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8</source>
+          <target state="new">Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Require encryption on mobile device</source>
+          <target state="new">Require encryption on mobile device</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Requires that the data on supported mobile devices be encrypted.</source>
+          <target state="new">Requires that the data on supported mobile devices be encrypted.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For Windows Phone 8 devices, you must set this to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+          <target state="new">For Windows Phone 8 devices, you must set this to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>System settings</source>
+          <target state="new">System settings</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8</source>
+          <target state="new">Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Allow screen capture</source>
+          <target state="new">Allow screen capture</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Lets the user capture the contents of the screen as an image file.</source>
+          <target state="new">Lets the user capture the contents of the screen as an image file.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Allow diagnostic data submission</source>
+          <target state="new">Allow diagnostic data submission</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Enables the device to submit diagnostic information to Microsoft.</source>
+          <target state="new">Enables the device to submit diagnostic information to Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Cloud settings – accounts and synchronization</source>
+          <target state="new">Cloud settings – accounts and synchronization</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8</source>
+          <target state="new">Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Allow Microsoft account</source>
+          <target state="new">Allow Microsoft account</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Enables a Microsoft account to be linked to the device.</source>
+          <target state="new">Enables a Microsoft account to be linked to the device.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Email settings</source>
+          <target state="new">Email settings</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8</source>
+          <target state="new">Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Allow custom email accounts</source>
+          <target state="new">Allow custom email accounts</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Enables the device to connect to non-Microsoft email accounts.</source>
+          <target state="new">Enables the device to connect to non-Microsoft email accounts.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Application settings - browser</source>
+          <target state="new">Application settings - browser</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8</source>
+          <target state="new">Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Allow web browser</source>
+          <target state="new">Allow web browser</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Enables or blocks the built-in web browser on devices.</source>
+          <target state="new">Enables or blocks the built-in web browser on devices.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Application settings - apps</source>
+          <target state="new">Application settings - apps</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8</source>
+          <target state="new">Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Allow application store</source>
+          <target state="new">Allow application store</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Lets users connect to the app store from the device.</source>
+          <target state="new">Lets users connect to the app store from the device.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Device capabilities settings - hardware</source>
+          <target state="new">Device capabilities settings - hardware</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8</source>
+          <target state="new">Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Allow camera</source>
+          <target state="new">Allow camera</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Enables or blocks the device's camera.</source>
+          <target state="new">Enables or blocks the device's camera.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Allow removable storage</source>
+          <target state="new">Allow removable storage</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Lets the device use removable storage such as SD cards.</source>
+          <target state="new">Lets the device use removable storage such as SD cards.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Allow Wi-Fi</source>
+          <target state="new">Allow Wi-Fi</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Enables or disables the Wi-Fi functionality of the device.</source>
+          <target state="new">Enables or disables the Wi-Fi functionality of the device.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Allow Wi-Fi tethering</source>
+          <target state="new">Allow Wi-Fi tethering</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Enables the use of Wi-Fi tethering on the device.</source>
+          <target state="new">Enables the use of Wi-Fi tethering on the device.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Allow automatic connection to free Wi-Fi hotspots</source>
+          <target state="new">Allow automatic connection to free Wi-Fi hotspots</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Enables the device to automatically connect to free Wi-Fi hotspots and automatically accept any terms of use.</source>
+          <target state="new">Enables the device to automatically connect to free Wi-Fi hotspots and automatically accept any terms of use.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Allow Wi-Fi hotspot reporting</source>
+          <target state="new">Allow Wi-Fi hotspot reporting</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Sends information about Wi-Fi connections to help the user discover nearby connections.</source>
+          <target state="new">Sends information about Wi-Fi connections to help the user discover nearby connections.</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Allow geolocation</source>
+          <target state="new">Allow geolocation</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Enables the device to utilize location information.</source>
+          <target state="new">Enables the device to utilize location information.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Allow NFC</source>
+          <target state="new">Allow NFC</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Enables operations that use near field communication.</source>
+          <target state="new">Enables operations that use near field communication.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Allow Bluetooth</source>
+          <target state="new">Allow Bluetooth</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Enables or disables the Bluetooth functionality of the device.</source>
+          <target state="new">Enables or disables the Bluetooth functionality of the device.</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Device capabilities settings - features</source>
+          <target state="new">Device capabilities settings - features</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8</source>
+          <target state="new">Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="new">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Allow copy and paste</source>
+          <target state="new">Allow copy and paste</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Enables copy and paste functionality on devices.</source>
+          <target state="new">Enables copy and paste functionality on devices.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Settings for allowed and blocked apps</source>
+          <target state="new">Settings for allowed and blocked apps</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Allowed and blocked apps<ept id="p1">**</ept> list, specify a list of apps that you want to allow or block by using the following information:</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Allowed and blocked apps<ept id="p1">**</ept> list, specify a list of apps that you want to allow or block by using the following information:</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A single policy can only contain a list of allowed or blocked apps.</source>
+          <target state="new">A single policy can only contain a list of allowed or blocked apps.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You cannot specify both in the same policy.</source>
+          <target state="new">You cannot specify both in the same policy.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Block devices from opening the listed apps</source>
+          <target state="new">Block devices from opening the listed apps</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Lists the apps that are not managed by Intune, and which users are not allowed to install and run.</source>
+          <target state="new">Lists the apps that are not managed by Intune, and which users are not allowed to install and run.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Allow devices to install only the listed apps</source>
+          <target state="new">Allow devices to install only the listed apps</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Lists the apps that users are allowed to install.</source>
+          <target state="new">Lists the apps that users are allowed to install.</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Users cannot install any other apps.</source>
+          <target state="new">Users cannot install any other apps.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Apps that are managed by Intune are automatically allowed.</source>
+          <target state="new">Apps that are managed by Intune are automatically allowed.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="new">Add</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Adds an app to the selected list.</source>
+          <target state="new">Adds an app to the selected list.</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Specify a name of your choice, the URL to the app in the app store, and the app publisher (optional).</source>
+          <target state="new">Specify a name of your choice, the URL to the app in the app store, and the app publisher (optional).</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>For more help, see How to specify URLs to app stores later in this topic.</source>
+          <target state="new">For more help, see How to specify URLs to app stores later in this topic.</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Import Apps</source>
+          <target state="new">Import Apps</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Imports a list of apps that you have specified in a comma-separated values file.</source>
+          <target state="new">Imports a list of apps that you have specified in a comma-separated values file.</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Use the format, application name, publisher, and app URL in the file.</source>
+          <target state="new">Use the format, application name, publisher, and app URL in the file.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="new">Edit</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Lets you edit the name, publisher, and URL of the selected app.</source>
+          <target state="new">Lets you edit the name, publisher, and URL of the selected app.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">Delete</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Deletes the selected app from the list.</source>
+          <target state="new">Deletes the selected app from the list.</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>If you specify a list of allowed apps for Windows Phone 8.1 devices, you must add the Company Portal app to this list or it will be blocked.</source>
+          <target state="new">If you specify a list of allowed apps for Windows Phone 8.1 devices, you must add the Company Portal app to this list or it will be blocked.</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Reference information for allowed and blocked apps</source>
+          <target state="new">Reference information for allowed and blocked apps</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>How to specify URLs to app stores</source>
+          <target state="new">How to specify URLs to app stores</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>To specify an app URL in the allowed and blocked apps list, use the following format:</source>
+          <target state="new">To specify an app URL in the allowed and blocked apps list, use the following format:</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">[</bpt>Windows Phone Apps+Games<ept id="p1">](http://www.windowsphone.com/en-us/store/overview)</ept> page, search for the app that you want to use.</source>
+          <target state="new">From the <bpt id="p1">[</bpt>Windows Phone Apps+Games<ept id="p1">](http://www.windowsphone.com/en-us/store/overview)</ept> page, search for the app that you want to use.</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Open the app’s page, and copy the URL to the clipboard.</source>
+          <target state="new">Open the app’s page, and copy the URL to the clipboard.</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>You can now use this as the URL in either the allowed or blocked apps list.</source>
+          <target state="new">You can now use this as the URL in either the allowed or blocked apps list.</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept> Search the store for the Skype app.</source>
+          <target state="new"><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept> Search the store for the Skype app.</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The URL you use will be <bpt id="p1">**</bpt>http://www.windowsphone.com/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51<ept id="p1">**</ept>.</source>
+          <target state="new">The URL you use will be <bpt id="p1">**</bpt>http://www.windowsphone.com/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Custom policy settings</source>
+          <target state="new">Custom policy settings</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Use the Microsoft Intune <bpt id="p1">**</bpt>Windows Phone custom configuration policy<ept id="p1">**</ept> to deploy OMA-URI settings that can be used to control features on <bpt id="p2">**</bpt>Windows Phone 8.1 devices<ept id="p2">**</ept>.</source>
+          <target state="new">Use the Microsoft Intune <bpt id="p1">**</bpt>Windows Phone custom configuration policy<ept id="p1">**</ept> to deploy OMA-URI settings that can be used to control features on <bpt id="p2">**</bpt>Windows Phone 8.1 devices<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>These are standard settings that many mobile device manufacturers use to control device features.</source>
+          <target state="new">These are standard settings that many mobile device manufacturers use to control device features.</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>This capability enables you to deploy Windows Phone settings that are not configurable with an Intune general configuration policy.</source>
+          <target state="new">This capability enables you to deploy Windows Phone settings that are not configurable with an Intune general configuration policy.</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For information about the settings you can configure with these policies, see <bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept>.</source>
+          <target state="new">For information about the settings you can configure with these policies, see <bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>For help creating OMA-URI settings for Windows Phone devices, see <bpt id="p1">[</bpt>Windows Phone 8.1 MDM protocol documentation<ept id="p1">](http://technet.microsoft.com/library/dn499787.aspx)</ept>.</source>
+          <target state="new">For help creating OMA-URI settings for Windows Phone devices, see <bpt id="p1">[</bpt>Windows Phone 8.1 MDM protocol documentation<ept id="p1">](http://technet.microsoft.com/library/dn499787.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>General settings</source>
+          <target state="new">General settings</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Enter a unique name for the policy to help you identify it in the Intune console.</source>
+          <target state="new">Enter a unique name for the policy to help you identify it in the Intune console.</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Provide a description that gives an overview of the policy and other relevant information that helps you to locate it.</source>
+          <target state="new">Provide a description that gives an overview of the policy and other relevant information that helps you to locate it.</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>OMA-URI settings</source>
+          <target state="new">OMA-URI settings</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>OMA-URI Settings<ept id="p1">**</ept> section, click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> to add a setting.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>OMA-URI Settings<ept id="p1">**</ept> section, click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> to add a setting.</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>You can also edit or delete an existing setting.</source>
+          <target state="new">You can also edit or delete an existing setting.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Add or Edit OMA-URI Setting<ept id="p1">**</ept> dialog box, specify the following information:</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Add or Edit OMA-URI Setting<ept id="p1">**</ept> dialog box, specify the following information:</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new">Details</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="new">Setting name</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Enter a unique name for the OMA-URI setting to help you identify it in the list of settings.</source>
+          <target state="new">Enter a unique name for the OMA-URI setting to help you identify it in the list of settings.</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Setting description</source>
+          <target state="new">Setting description</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Provide a description that gives an overview of the setting and other relevant information to help you locate it.</source>
+          <target state="new">Provide a description that gives an overview of the setting and other relevant information to help you locate it.</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Data type</source>
+          <target state="new">Data type</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Select the data type in which you will specify this OMA-URI setting.</source>
+          <target state="new">Select the data type in which you will specify this OMA-URI setting.</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Choose from:</source>
+          <target state="new">Choose from:</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>String</source>
+          <target state="new">String</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>String (XML)</source>
+          <target state="new">String (XML)</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Date and time</source>
+          <target state="new">Date and time</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Integer</source>
+          <target state="new">Integer</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Floating point</source>
+          <target state="new">Floating point</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Boolean</source>
+          <target state="new">Boolean</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>OMA-URI (case sensitive)</source>
+          <target state="new">OMA-URI (case sensitive)</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Specify the OMA-URI for which you want to supply a setting.</source>
+          <target state="new">Specify the OMA-URI for which you want to supply a setting.</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="new">Value</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Specify the value to associate with the OMA-URI that you specified previously.</source>
+          <target state="new">Specify the value to associate with the OMA-URI that you specified previously.</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
+          <target state="new">Manage settings and features on your devices with Microsoft Intune policies</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

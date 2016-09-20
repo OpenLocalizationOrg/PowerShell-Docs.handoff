@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b807ecdbd132692dc022bfa5f7a9418d3a614dfb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\secure-resource-access-with-certificate-profiles.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">432893b03a77d354b55722145d4892a88ce32a60</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4309b41f35ba74662a4e26c05c39c52683341b80</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Certificate profiles for resource access |Microsoft Intune</source>
+          <target state="new">Certificate profiles for resource access |Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Secure VPN, Wi-Fi, and email access with a certificate installed on each user device.</source>
+          <target state="new">Secure VPN, Wi-Fi, and email access with a certificate installed on each user device.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Secure resource access with certificate profiles in Microsoft Intune</source>
+          <target state="new">Secure resource access with certificate profiles in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When you give users access to corporate resources through VPN, Wi-Fi, or email profiles, you can secure the access by using a certificate that is installed on each user device.</source>
+          <target state="new">When you give users access to corporate resources through VPN, Wi-Fi, or email profiles, you can secure the access by using a certificate that is installed on each user device.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here's how it works:</source>
+          <target state="new">Here's how it works:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Make sure you have the right certificate infrastructure in place, as described in <bpt id="p1">[</bpt>Configure certificate infrastructure for SCEP<ept id="p1">](configure-certificate-infrastructure-for-scep.md)</ept> and <bpt id="p2">[</bpt>Configure certificate infrastructure for PFX<ept id="p2">](configure-certificate-infrastructure-for-pfx.md)</ept>.</source>
+          <target state="new">Make sure you have the right certificate infrastructure in place, as described in <bpt id="p1">[</bpt>Configure certificate infrastructure for SCEP<ept id="p1">](configure-certificate-infrastructure-for-scep.md)</ept> and <bpt id="p2">[</bpt>Configure certificate infrastructure for PFX<ept id="p2">](configure-certificate-infrastructure-for-pfx.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Install a root certificate or an intermediate Certification Authority (CA) certificate on each device so that the device recognizes the legitimacy of your CA.</source>
+          <target state="new">Install a root certificate or an intermediate Certification Authority (CA) certificate on each device so that the device recognizes the legitimacy of your CA.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To do this, create and deploy a <bpt id="p1">**</bpt>Trusted Certificate Profile<ept id="p1">**</ept>.</source>
+          <target state="new">To do this, create and deploy a <bpt id="p1">**</bpt>Trusted Certificate Profile<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you deploy this profile, the devices that you manage with Intune will request and receive the root certificate.</source>
+          <target state="new">When you deploy this profile, the devices that you manage with Intune will request and receive the root certificate.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You have to create a separate profile for each platform.</source>
+          <target state="new">You have to create a separate profile for each platform.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Trusted Certificate Profile<ept id="p1">**</ept> is available for these platforms:</source>
+          <target state="new">The <bpt id="p1">**</bpt>Trusted Certificate Profile<ept id="p1">**</ept> is available for these platforms:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>iOS 8.0 and later</source>
+          <target state="new">iOS 8.0 and later</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Mac OS X 10.9 and later</source>
+          <target state="new">Mac OS X 10.9 and later</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and later</source>
+          <target state="new">Windows 8.1 and later</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 and later</source>
+          <target state="new">Windows Phone 8.1 and later</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create certificate profiles so that devices request a certificate to be used for authentication of VPN, Wi-Fi, and email access, as described in <bpt id="p1">[</bpt>Configure Intune certificate profiles<ept id="p1">](configure-intune-certificate-profiles.md)</ept>.</source>
+          <target state="new">Create certificate profiles so that devices request a certificate to be used for authentication of VPN, Wi-Fi, and email access, as described in <bpt id="p1">[</bpt>Configure Intune certificate profiles<ept id="p1">](configure-intune-certificate-profiles.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can create and deploy a <bpt id="p1">**</bpt>PKCS #12 (.PFX) Certificate Profile<ept id="p1">**</ept> <bpt id="p2">*</bpt>or<ept id="p2">*</ept> a <bpt id="p3">**</bpt>SCEP Certificate Profile<ept id="p3">**</ept> for devices running these platforms:</source>
+          <target state="new">You can create and deploy a <bpt id="p1">**</bpt>PKCS #12 (.PFX) Certificate Profile<ept id="p1">**</ept> <bpt id="p2">*</bpt>or<ept id="p2">*</ept> a <bpt id="p3">**</bpt>SCEP Certificate Profile<ept id="p3">**</ept> for devices running these platforms:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>iOS 8.0 and later</source>
+          <target state="new">iOS 8.0 and later</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="new">Android 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows 10 (desktop and mobile) and later</source>
+          <target state="new">Windows 10 (desktop and mobile) and later</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Use a <bpt id="p1">**</bpt>SCEP Certificate Profile<ept id="p1">**</ept> for devices running these platforms:</source>
+          <target state="new">Use a <bpt id="p1">**</bpt>SCEP Certificate Profile<ept id="p1">**</ept> for devices running these platforms:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Mac OS X 10.9 and later</source>
+          <target state="new">Mac OS X 10.9 and later</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 and later</source>
+          <target state="new">Windows Phone 8.1 and later</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You must create a separate profile for each platform.</source>
+          <target state="new">You must create a separate profile for each platform.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you create the profile, associate it with the <bpt id="p1">**</bpt>Trusted Root Certificate Profile<ept id="p1">**</ept> that you've already created.</source>
+          <target state="new">When you create the profile, associate it with the <bpt id="p1">**</bpt>Trusted Root Certificate Profile<ept id="p1">**</ept> that you've already created.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you don't have an Enterprise Certification Authority, you must create one.</source>
+          <target state="new">If you don't have an Enterprise Certification Authority, you must create one.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you decide, based on your device platforms, to use the Simplified Certificate Enrollment Protocol (SCEP) profile, you'll also need to configure a Network Device Enrollment Service (NDES) server.</source>
+          <target state="new">If you decide, based on your device platforms, to use the Simplified Certificate Enrollment Protocol (SCEP) profile, you'll also need to configure a Network Device Enrollment Service (NDES) server.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Whether you plan to use SCEP or .PFX profiles, you must download and configure the Microsoft Intune Certificate Connector.</source>
+          <target state="new">Whether you plan to use SCEP or .PFX profiles, you must download and configure the Microsoft Intune Certificate Connector.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Learn how to configure all of the required services in <bpt id="p1">[</bpt>Configure certificate infrastructure for SCEP<ept id="p1">](configure-certificate-infrastructure-for-scep.md)</ept> or <bpt id="p2">[</bpt>Configure certificate infrastructure for PFX<ept id="p2">](configure-certificate-infrastructure-for-pfx.md)</ept>.</source>
+          <target state="new">Learn how to configure all of the required services in <bpt id="p1">[</bpt>Configure certificate infrastructure for SCEP<ept id="p1">](configure-certificate-infrastructure-for-scep.md)</ept> or <bpt id="p2">[</bpt>Configure certificate infrastructure for PFX<ept id="p2">](configure-certificate-infrastructure-for-pfx.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Configure certificate infrastructure for SCEP</source>
+          <target state="new">Configure certificate infrastructure for SCEP</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Configure certificate infrastructure for PFX</source>
+          <target state="new">Configure certificate infrastructure for PFX</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Configure Intune certificate profiles</source>
+          <target state="new">Configure Intune certificate profiles</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

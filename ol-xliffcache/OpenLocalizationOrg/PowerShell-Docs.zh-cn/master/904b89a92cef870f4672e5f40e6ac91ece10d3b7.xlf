@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">904b89a92cef870f4672e5f40e6ac91ece10d3b7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\deploy-apps-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">13d6590e9ae3a0419742e2ec51322549123b8af2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bb8cc7d4eeb5c9c8075530df2539fad52ba41326</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to deploy apps | Microsoft Intune</source>
+          <target state="new">How to deploy apps | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the information in this topic to help you deploy apps with Microsoft Intune.</source>
+          <target state="new">Use the information in this topic to help you deploy apps with Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Deploy apps in Microsoft Intune</source>
+          <target state="new">Deploy apps in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use the information in this topic to help you deploy apps with Microsoft Intune.</source>
+          <target state="new">Use the information in this topic to help you deploy apps with Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Deploy an app</source>
+          <target state="new">Deploy an app</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this procedure, you'll deploy an app to selected groups of devices or users.</source>
+          <target state="new">In this procedure, you'll deploy an app to selected groups of devices or users.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To deploy an app</source>
+          <target state="new">To deploy an app</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, click <bpt id="p2">**</bpt>Apps<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Apps<ept id="p3">**</ept> to view the list of apps that you manage.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, click <bpt id="p2">**</bpt>Apps<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Apps<ept id="p3">**</ept> to view the list of apps that you manage.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Select the app that you want to deploy, and then click <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept>.</source>
+          <target state="new">Select the app that you want to deploy, and then click <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>app name<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept> dialog box, on the <bpt id="p2">**</bpt>Select Groups<ept id="p2">**</ept> page, choose the user or device groups to which you want to deploy the app.</source>
+          <target state="new">In the <bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>app name<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept> dialog box, on the <bpt id="p2">**</bpt>Select Groups<ept id="p2">**</ept> page, choose the user or device groups to which you want to deploy the app.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Deployment Action<ept id="p1">**</ept> page, configure the following:</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Deployment Action<ept id="p1">**</ept> page, configure the following:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Approval<ept id="p1">**</ept> - Choose whether the deployment is:</source>
+          <target state="new"><bpt id="p1">**</bpt>Approval<ept id="p1">**</ept> - Choose whether the deployment is:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Required<ept id="p1">**</ept> (mandatory install)</source>
+          <target state="new"><bpt id="p1">**</bpt>Required<ept id="p1">**</ept> (mandatory install)</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Available<ept id="p1">**</ept> (users install from the company portal on demand)</source>
+          <target state="new"><bpt id="p1">**</bpt>Available<ept id="p1">**</ept> (users install from the company portal on demand)</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Not Applicable<ept id="p1">**</ept> (the app is not installed or shown in the company portal)</source>
+          <target state="new"><bpt id="p1">**</bpt>Not Applicable<ept id="p1">**</ept> (the app is not installed or shown in the company portal)</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Uninstall<ept id="p1">**</ept> (the app is uninstalled from targeted devices)</source>
+          <target state="new"><bpt id="p1">**</bpt>Uninstall<ept id="p1">**</ept> (the app is uninstalled from targeted devices)</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Deadline<ept id="p1">**</ept> - For required installations, choose how soon to deploy the app.</source>
+          <target state="new"><bpt id="p1">**</bpt>Deadline<ept id="p1">**</ept> - For required installations, choose how soon to deploy the app.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can choose from the predefined values, or you can select <bpt id="p1">**</bpt>Custom<ept id="p1">**</ept> to configure your own deadline.</source>
+          <target state="new">You can choose from the predefined values, or you can select <bpt id="p1">**</bpt>Custom<ept id="p1">**</ept> to configure your own deadline.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the app you are deploying can be configured by a mobile application management policy, the <bpt id="p1">**</bpt>Mobile App Management<ept id="p1">**</ept> page is displayed.</source>
+          <target state="new">If the app you are deploying can be configured by a mobile application management policy, the <bpt id="p1">**</bpt>Mobile App Management<ept id="p1">**</ept> page is displayed.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On this page, choose the mobile application management policy that you want to associate with this app.</source>
+          <target state="new">On this page, choose the mobile application management policy that you want to associate with this app.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>See which Microsoft apps are compatible with mobile application management policies.</source>
+          <target state="new">See which Microsoft apps are compatible with mobile application management policies.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the app you are deploying is compatible with Intune VPN profiles, the <bpt id="p1">**</bpt>VPN Profile<ept id="p1">**</ept> page is displayed.</source>
+          <target state="new">If the app you are deploying is compatible with Intune VPN profiles, the <bpt id="p1">**</bpt>VPN Profile<ept id="p1">**</ept> page is displayed.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On this page, you can choose to associate iOS apps with a VPN profile that you have deployed.</source>
+          <target state="new">On this page, you can choose to associate iOS apps with a VPN profile that you have deployed.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The VPN connection automatically opens when the app is launched.</source>
+          <target state="new">The VPN connection automatically opens when the app is launched.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To make a VPN profile available, it must have the <bpt id="p1">**</bpt>Per-app VPN<ept id="p1">**</ept> profile setting enabled.</source>
+          <target state="new">To make a VPN profile available, it must have the <bpt id="p1">**</bpt>Per-app VPN<ept id="p1">**</ept> profile setting enabled.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For information about how to configure VPN profiles, including information about how to associate profiles with apps, see <bpt id="p1">[</bpt>VPN connections in Microsoft Intune<ept id="p1">](vpn-connections-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">For information about how to configure VPN profiles, including information about how to associate profiles with apps, see <bpt id="p1">[</bpt>VPN connections in Microsoft Intune<ept id="p1">](vpn-connections-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="new">Example</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In this example, you deployed the app as <bpt id="p1">**</bpt>Available<ept id="p1">**</ept> to an iOS device.</source>
+          <target state="new">In this example, you deployed the app as <bpt id="p1">**</bpt>Available<ept id="p1">**</ept> to an iOS device.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The app displays on users' devices in the company portal, and users can install it from there.</source>
+          <target state="new">The app displays on users' devices in the company portal, and users can install it from there.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, in this screenshot, the Bing for iOS app was deployed by using the <bpt id="p1">**</bpt>External Link<ept id="p1">**</ept> installation type with a custom icon.</source>
+          <target state="new">For example, in this screenshot, the Bing for iOS app was deployed by using the <bpt id="p1">**</bpt>External Link<ept id="p1">**</ept> installation type with a custom icon.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The option <bpt id="p1">**</bpt>Display this as a featured app and highlight it in the company portal<ept id="p1">**</ept> was selected.</source>
+          <target state="new">The option <bpt id="p1">**</bpt>Display this as a featured app and highlight it in the company portal<ept id="p1">**</ept> was selected.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>iOS available app</source>
+          <target state="new">iOS available app</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you deployed the app as <bpt id="p1">**</bpt>Required<ept id="p1">**</ept> to an iOS device, the user will get a notification that an app is ready to install.</source>
+          <target state="new">If you deployed the app as <bpt id="p1">**</bpt>Required<ept id="p1">**</ept> to an iOS device, the user will get a notification that an app is ready to install.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, in this screenshot, the Work Folders for iOS app was deployed by using the <bpt id="p1">**</bpt>Managed iOS app from the app store<ept id="p1">**</ept> installation type.</source>
+          <target state="new">For example, in this screenshot, the Work Folders for iOS app was deployed by using the <bpt id="p1">**</bpt>Managed iOS app from the app store<ept id="p1">**</ept> installation type.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>iOS required app</source>
+          <target state="new">iOS required app</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>After you deploy an app, you'll want to monitor its progress.</source>
+          <target state="new">After you deploy an app, you'll want to monitor its progress.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Monitor apps in Microsoft Intune<ept id="p1">](monitor-apps-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Monitor apps in Microsoft Intune<ept id="p1">](monitor-apps-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

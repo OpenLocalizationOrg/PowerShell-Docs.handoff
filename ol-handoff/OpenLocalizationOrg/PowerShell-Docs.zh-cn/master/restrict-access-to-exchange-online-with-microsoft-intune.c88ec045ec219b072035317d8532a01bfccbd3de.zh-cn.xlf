@@ -1,0 +1,723 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd5ae411cc2541566805131d0076efc15875c988</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-to-exchange-online-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1a7e13bfa9bf6c0c60924311cd552a14af06bbd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68bc8965f9a5cba4bfa857bf5e3558cf92067494</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Restrict email access to Exchange Online | Microsoft Intune</source>
+          <target state="new">Restrict email access to Exchange Online | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Protect and control access to company email on Exchange Online with conditional access.</source>
+          <target state="new">Protect and control access to company email on Exchange Online with conditional access.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Restrict email access to Exchange Online and new Exchange Online Dedicated with Intune</source>
+          <target state="new">Restrict email access to Exchange Online and new Exchange Online Dedicated with Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you have an Exchange Online Dedicated environment and need to find out whether it is in the new or the legacy configuration, contact your account manager.</source>
+          <target state="new">If you have an Exchange Online Dedicated environment and need to find out whether it is in the new or the legacy configuration, contact your account manager.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To control email access to Exchange Online or to your new Exchange Online Dedicated environment, configure conditional access for Exchange Online in Intune.</source>
+          <target state="new">To control email access to Exchange Online or to your new Exchange Online Dedicated environment, configure conditional access for Exchange Online in Intune.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To learn more about how conditional access works, read the <bpt id="p1">[</bpt>restrict access to email, O365, and other services<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> article.</source>
+          <target state="new">To learn more about how conditional access works, read the <bpt id="p1">[</bpt>restrict access to email, O365, and other services<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> article.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Conditional access for PCs and Windows 10 Mobile devices with apps using modern authentication is not currently available to all Intune customers.</source>
+          <target state="new">Conditional access for PCs and Windows 10 Mobile devices with apps using modern authentication is not currently available to all Intune customers.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you are already using these features, you do not need to take any action.</source>
+          <target state="new">If you are already using these features, you do not need to take any action.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can continue to use them.</source>
+          <target state="new">You can continue to use them.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you have not created conditional access policies for PCs or Windows 10 Mobile for apps using modern authentication, and would like to do so, sign up for the Azure Active Directory public preview which includes device based conditional access for Intune managed devices or domain joined Windows PCs.</source>
+          <target state="new">If you have not created conditional access policies for PCs or Windows 10 Mobile for apps using modern authentication, and would like to do so, sign up for the Azure Active Directory public preview which includes device based conditional access for Intune managed devices or domain joined Windows PCs.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Read <bpt id="p1">[</bpt>this blog post<ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)</ept> to learn more.</source>
+          <target state="new">Read <bpt id="p1">[</bpt>this blog post<ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)</ept> to learn more.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Before<ept id="p1">**</ept> you can configure conditional access, you must:</source>
+          <target state="new"><bpt id="p1">**</bpt>Before<ept id="p1">**</ept> you can configure conditional access, you must:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Have an <bpt id="p1">**</bpt>Office 365 subscription that includes Exchange Online (such as E3)<ept id="p1">**</ept> and users must be licensed for Exchange Online.</source>
+          <target state="new">Have an <bpt id="p1">**</bpt>Office 365 subscription that includes Exchange Online (such as E3)<ept id="p1">**</ept> and users must be licensed for Exchange Online.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Consider configuring the optional <bpt id="p1">**</bpt>Microsoft Intune service-to-service connector<ept id="p1">**</ept>,  which connects <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> to Microsoft Exchange Online and helps you manage device information through the <ph id="ph2">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> console.</source>
+          <target state="new">Consider configuring the optional <bpt id="p1">**</bpt>Microsoft Intune service-to-service connector<ept id="p1">**</ept>,  which connects <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> to Microsoft Exchange Online and helps you manage device information through the <ph id="ph2">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> console.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You do not need to use the connector to use compliance policies or conditional access policies, but it is required to run reports that help evaluate the impact of conditional access.</source>
+          <target state="new">You do not need to use the connector to use compliance policies or conditional access policies, but it is required to run reports that help evaluate the impact of conditional access.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Do not configure the service- to-service connector if you intend to use conditional access for both Exchange Online and Exchange On-premises</source>
+          <target state="new">Do not configure the service- to-service connector if you intend to use conditional access for both Exchange Online and Exchange On-premises</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For instructions on how to configure the connector, see <bpt id="p1">[</bpt>Intune service-to-service connector<ept id="p1">](intune-service-to-service-exchange-connector.md)</ept></source>
+          <target state="new">For instructions on how to configure the connector, see <bpt id="p1">[</bpt>Intune service-to-service connector<ept id="p1">](intune-service-to-service-exchange-connector.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When conditional access policies are configured and targeted to a user, before a user can connect to their email, the <bpt id="p1">**</bpt>device<ept id="p1">**</ept> they use must be:</source>
+          <target state="new">When conditional access policies are configured and targeted to a user, before a user can connect to their email, the <bpt id="p1">**</bpt>device<ept id="p1">**</ept> they use must be:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enrolled<ept id="p1">**</ept> with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> or is a domain joined PC.</source>
+          <target state="new"><bpt id="p1">**</bpt>Enrolled<ept id="p1">**</ept> with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> or is a domain joined PC.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Registered in Azure Active Directory<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Registered in Azure Active Directory<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This happens automatically when the device is enrolled with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</source>
+          <target state="new">This happens automatically when the device is enrolled with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Additionally, the client Exchange ActiveSync ID must be registered with Azure Active Directory.</source>
+          <target state="new">Additionally, the client Exchange ActiveSync ID must be registered with Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>AAD DRS will be activated automatically for Intune and Office 365 customers.</source>
+          <target state="new">AAD DRS will be activated automatically for Intune and Office 365 customers.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Customers who have already deployed the ADFS Device Registration Service will not see registered devices in their on-premises Active Directory.</source>
+          <target state="new">Customers who have already deployed the ADFS Device Registration Service will not see registered devices in their on-premises Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Compliant<ept id="p1">**</ept> with any <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> compliance policies deployed to that device, or domain joined to an on-premises domain.</source>
+          <target state="new"><bpt id="p1">**</bpt>Compliant<ept id="p1">**</ept> with any <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> compliance policies deployed to that device, or domain joined to an on-premises domain.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If a conditional access policy is not met, the user is presented with one of the following messages when they log in:</source>
+          <target state="new">If a conditional access policy is not met, the user is presented with one of the following messages when they log in:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the device is not enrolled with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app, enroll the device, and activate email.</source>
+          <target state="new">If the device is not enrolled with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app, enroll the device, and activate email.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This process also associates the device’s Exchange ActiveSync ID with the record in Azure Active Directory.</source>
+          <target state="new">This process also associates the device’s Exchange ActiveSync ID with the record in Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If the device is evaluated as not compliant with the compliance policy rules, the end user is directed to the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Company Portal website, or the Company Portal  app where they can find information about the problem and how to remediate it.</source>
+          <target state="new">If the device is evaluated as not compliant with the compliance policy rules, the end user is directed to the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Company Portal website, or the Company Portal  app where they can find information about the problem and how to remediate it.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The diagram below illustrates the flow used by conditional access policies for Exchange Online.</source>
+          <target state="new">The diagram below illustrates the flow used by conditional access policies for Exchange Online.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Diagram that illustrates the decisions points that determine if device is allowed access or blocked</source>
+          <target state="new">Diagram that illustrates the decisions points that determine if device is allowed access or blocked</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Support for mobile devices</source>
+          <target state="new">Support for mobile devices</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can restrict access to Exchange Online email from <bpt id="p1">**</bpt>Outlook<ept id="p1">**</ept> and other <bpt id="p2">**</bpt>apps that use modern authentication<ept id="p2">**</ept>:-</source>
+          <target state="new">You can restrict access to Exchange Online email from <bpt id="p1">**</bpt>Outlook<ept id="p1">**</ept> and other <bpt id="p2">**</bpt>apps that use modern authentication<ept id="p2">**</ept>:-</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later, Samsung Knox Standard 4.0 and later</source>
+          <target state="new">Android 4.0 and later, Samsung Knox Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>iOS 8.0 and later</source>
+          <target state="new">iOS 8.0 and later</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 and later</source>
+          <target state="new">Windows Phone 8.1 and later</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Modern authentication<ept id="p1">**</ept> brings Active Directory Authentication Library (ADAL)-based sign in to Microsoft Office clients.</source>
+          <target state="new"><bpt id="p1">**</bpt>Modern authentication<ept id="p1">**</ept> brings Active Directory Authentication Library (ADAL)-based sign in to Microsoft Office clients.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The ADAL based authentication enables Office clients to engage in browser-based authentication (also known as passive authentication).</source>
+          <target state="new">The ADAL based authentication enables Office clients to engage in browser-based authentication (also known as passive authentication).</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To authenticate, the user is directed to a sign-in web page.</source>
+          <target state="new">To authenticate, the user is directed to a sign-in web page.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This new sign-in method enables better security like <bpt id="p1">**</bpt>multi-factor authentication<ept id="p1">**</ept>, and <bpt id="p2">**</bpt>certificate-based authentication<ept id="p2">**</ept>.</source>
+          <target state="new">This new sign-in method enables better security like <bpt id="p1">**</bpt>multi-factor authentication<ept id="p1">**</ept>, and <bpt id="p2">**</bpt>certificate-based authentication<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This <bpt id="p1">[</bpt>article<ept id="p1">](https://support.office.com/en-US/article/How-modern-authentication-works-for-Office-2013-and-Office-2016-client-apps-e4c45989-4b1a-462e-a81b-2a13191cf517)</ept> has more detailed information on how modern authentication works.</source>
+          <target state="new">This <bpt id="p1">[</bpt>article<ept id="p1">](https://support.office.com/en-US/article/How-modern-authentication-works-for-Office-2013-and-Office-2016-client-apps-e4c45989-4b1a-462e-a81b-2a13191cf517)</ept> has more detailed information on how modern authentication works.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Setup ADFS claims rules to block non-modern authentication protocols.</source>
+          <target state="new">Setup ADFS claims rules to block non-modern authentication protocols.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Detailed instructions are provided in scenario 3 - <bpt id="p1">[</bpt>block all access to O365 except browser based applications<ept id="p1">](https://technet.microsoft.com/library/dn592182.aspx)</ept>.</source>
+          <target state="new">Detailed instructions are provided in scenario 3 - <bpt id="p1">[</bpt>block all access to O365 except browser based applications<ept id="p1">](https://technet.microsoft.com/library/dn592182.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can restrict access to <bpt id="p1">**</bpt>Outlook Web Access (OWA)<ept id="p1">**</ept> on Exchange Online when accessed from a browser on <bpt id="p2">**</bpt>iOS<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Android<ept id="p3">**</ept> devices.</source>
+          <target state="new">You can restrict access to <bpt id="p1">**</bpt>Outlook Web Access (OWA)<ept id="p1">**</ept> on Exchange Online when accessed from a browser on <bpt id="p2">**</bpt>iOS<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Android<ept id="p3">**</ept> devices.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Access will only be allowed from only supported browsers on compliant devices:</source>
+          <target state="new">Access will only be allowed from only supported browsers on compliant devices:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Safari (iOS)</source>
+          <target state="new">Safari (iOS)</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Chrome (Android)</source>
+          <target state="new">Chrome (Android)</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Managed Browser (iOS and Android)</source>
+          <target state="new">Managed Browser (iOS and Android)</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unsupported browsers will be blocked<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Unsupported browsers will be blocked<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The OWA apps for iOS and Android are not supported.</source>
+          <target state="new">The OWA apps for iOS and Android are not supported.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>They should be blocked through ADFS claims rules.</source>
+          <target state="new">They should be blocked through ADFS claims rules.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can restrict access to Exchange email from the built-in <bpt id="p1">**</bpt>Exchange ActiveSync email client<ept id="p1">**</ept> on the following platforms:</source>
+          <target state="new">You can restrict access to Exchange email from the built-in <bpt id="p1">**</bpt>Exchange ActiveSync email client<ept id="p1">**</ept> on the following platforms:</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later, Samsung Knox Standard 4.0 and later</source>
+          <target state="new">Android 4.0 and later, Samsung Knox Standard 4.0 and later</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>iOS 8.0 and later</source>
+          <target state="new">iOS 8.0 and later</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 and later</source>
+          <target state="new">Windows Phone 8.1 and later</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Support for PCs</source>
+          <target state="new">Support for PCs</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can setup conditional access for PCs that run Office desktop applications to access <bpt id="p1">**</bpt>Exchange Online<ept id="p1">**</ept> and <bpt id="p2">**</bpt>SharePoint Online<ept id="p2">**</ept> for PCs that meet the following requirements:</source>
+          <target state="new">You can setup conditional access for PCs that run Office desktop applications to access <bpt id="p1">**</bpt>Exchange Online<ept id="p1">**</ept> and <bpt id="p2">**</bpt>SharePoint Online<ept id="p2">**</ept> for PCs that meet the following requirements:</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The PC must be running Windows 7.0 or Windows 8.1.</source>
+          <target state="new">The PC must be running Windows 7.0 or Windows 8.1.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The PC must either be domain joined or compliant with the compliance policy rules.</source>
+          <target state="new">The PC must either be domain joined or compliant with the compliance policy rules.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In order to be considered compliant, the PC must be enrolled in <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and comply with the policies.</source>
+          <target state="new">In order to be considered compliant, the PC must be enrolled in <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and comply with the policies.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For domain joined PCs, you must  set it up to <bpt id="p1">[</bpt>automatically register the device<ept id="p1">](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-automatic-device-registration/)</ept> with Azure Active Directory.</source>
+          <target state="new">For domain joined PCs, you must  set it up to <bpt id="p1">[</bpt>automatically register the device<ept id="p1">](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-automatic-device-registration/)</ept> with Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Conditional access is not supported on PCs running the Intune computer client.</source>
+          <target state="new">Conditional access is not supported on PCs running the Intune computer client.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Office 365 modern authentication must be enabled<ept id="p1">](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a)</ept>, and have all the latest Office updates.</source>
+          <target state="new"><bpt id="p1">[</bpt>Office 365 modern authentication must be enabled<ept id="p1">](https://support.office.com/en-US/article/Using-Office-365-modern-authentication-with-Office-clients-776c0036-66fd-41cb-8928-5495c0f9168a)</ept>, and have all the latest Office updates.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Modern authentication brings Active Directory Authentication Library (ADAL) based sign-in to Office 2013 Windows clients and enables better security like <bpt id="p1">**</bpt>multi-factor authentication<ept id="p1">**</ept>, and <bpt id="p2">**</bpt>certificate-based authentication<ept id="p2">**</ept>.</source>
+          <target state="new">Modern authentication brings Active Directory Authentication Library (ADAL) based sign-in to Office 2013 Windows clients and enables better security like <bpt id="p1">**</bpt>multi-factor authentication<ept id="p1">**</ept>, and <bpt id="p2">**</bpt>certificate-based authentication<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Set up ADFS claims rules to block non-modern authentication protocols.</source>
+          <target state="new">Set up ADFS claims rules to block non-modern authentication protocols.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Detailed instructions are provided in scenario 3 - <bpt id="p1">[</bpt>block all access to O365 except browser based applications<ept id="p1">](https://technet.microsoft.com/library/dn592182.aspx)</ept>.</source>
+          <target state="new">Detailed instructions are provided in scenario 3 - <bpt id="p1">[</bpt>block all access to O365 except browser based applications<ept id="p1">](https://technet.microsoft.com/library/dn592182.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Configure conditional access</source>
+          <target state="new">Configure conditional access</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Step 1: Configure and deploy a compliance policy</source>
+          <target state="new">Step 1: Configure and deploy a compliance policy</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Make sure you <bpt id="p1">[</bpt>create<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept> and <bpt id="p2">[</bpt>deploy<ept id="p2">](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)</ept> a compliance policy to the user groups who will also get the conditional access policy.</source>
+          <target state="new">Make sure you <bpt id="p1">[</bpt>create<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept> and <bpt id="p2">[</bpt>deploy<ept id="p2">](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)</ept> a compliance policy to the user groups who will also get the conditional access policy.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you have not deployed a compliance policy, the devices will be considered compliant and will be allowed access to Exchange.</source>
+          <target state="new">If you have not deployed a compliance policy, the devices will be considered compliant and will be allowed access to Exchange.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Step 2: Evaluate the effect of the conditional access policy</source>
+          <target state="new">Step 2: Evaluate the effect of the conditional access policy</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Mobile Device Inventory Reports<ept id="p1">**</ept> to identify the devices that might be blocked from accessing Exchange after you configure the conditional access policy.</source>
+          <target state="new">You can use the <bpt id="p1">**</bpt>Mobile Device Inventory Reports<ept id="p1">**</ept> to identify the devices that might be blocked from accessing Exchange after you configure the conditional access policy.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To do this, configure a connection between <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and Exchange by using the <bpt id="p1">[</bpt>Microsoft Intune service-to-service connector<ept id="p1">](intune-service-to-service-exchange-connector.md)</ept>.</source>
+          <target state="new">To do this, configure a connection between <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and Exchange by using the <bpt id="p1">[</bpt>Microsoft Intune service-to-service connector<ept id="p1">](intune-service-to-service-exchange-connector.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Navigate to <bpt id="p1">**</bpt>Reports -&gt; Mobile Device Inventory Reports<ept id="p1">**</ept>.</source>
+          <target state="new">Navigate to <bpt id="p1">**</bpt>Reports -&gt; Mobile Device Inventory Reports<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Mobile device inventory report page</source>
+          <target state="new">Screenshot of the Mobile device inventory report page</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In the report parameters, select the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> group you want to evaluate and, if required, the device platforms to which the policy will apply.</source>
+          <target state="new">In the report parameters, select the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> group you want to evaluate and, if required, the device platforms to which the policy will apply.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Once you’ve selected the criteria that meets your organization’s needs, choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept>.</source>
+          <target state="new">Once you’ve selected the criteria that meets your organization’s needs, choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The Report Viewer opens in a new window.</source>
+          <target state="new">The Report Viewer opens in a new window.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Screenshot of an sample mobile device inventory report</source>
+          <target state="new">Screenshot of an sample mobile device inventory report</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>After you run the report, examine these four columns to determine whether a user will be blocked:</source>
+          <target state="new">After you run the report, examine these four columns to determine whether a user will be blocked:</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Management Channel<ept id="p1">**</ept> – Indicates whether the device is managed by Intune, Exchange ActiveSync, or both.</source>
+          <target state="new"><bpt id="p1">**</bpt>Management Channel<ept id="p1">**</ept> – Indicates whether the device is managed by Intune, Exchange ActiveSync, or both.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>AAD Registered<ept id="p1">**</ept> – Indicates whether the device is registered with Azure Active Directory (known as Workplace Join).</source>
+          <target state="new"><bpt id="p1">**</bpt>AAD Registered<ept id="p1">**</ept> – Indicates whether the device is registered with Azure Active Directory (known as Workplace Join).</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Compliant<ept id="p1">**</ept> – Indicates whether the device is compliant with any compliance policies you deployed.</source>
+          <target state="new"><bpt id="p1">**</bpt>Compliant<ept id="p1">**</ept> – Indicates whether the device is compliant with any compliance policies you deployed.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exchange ActiveSync ID<ept id="p1">**</ept> – iOS and Android devices are required to have their Exchange ActiveSync ID associated with the device registration record in Azure Active Directory.</source>
+          <target state="new"><bpt id="p1">**</bpt>Exchange ActiveSync ID<ept id="p1">**</ept> – iOS and Android devices are required to have their Exchange ActiveSync ID associated with the device registration record in Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This happens when the user chooses the <bpt id="p1">**</bpt>Activate Email<ept id="p1">**</ept> link in the quarantine email.</source>
+          <target state="new">This happens when the user chooses the <bpt id="p1">**</bpt>Activate Email<ept id="p1">**</ept> link in the quarantine email.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Windows Phone devices always display a value in this column.</source>
+          <target state="new">Windows Phone devices always display a value in this column.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Devices that are part of a targeted group will be blocked from accessing Exchange unless the column values match those listed in the following table:</source>
+          <target state="new">Devices that are part of a targeted group will be blocked from accessing Exchange unless the column values match those listed in the following table:</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Management channel</source>
+          <target state="new">Management channel</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>AAD registered</source>
+          <target state="new">AAD registered</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Compliant</source>
+          <target state="new">Compliant</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Exchange ActiveSync ID</source>
+          <target state="new">Exchange ActiveSync ID</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Resulting action</source>
+          <target state="new">Resulting action</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Managed by Microsoft Intune and Exchange ActiveSync</source>
+          <target state="new">Managed by Microsoft Intune and Exchange ActiveSync</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A value is displayed</source>
+          <target state="new">A value is displayed</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Email access allowed</source>
+          <target state="new">Email access allowed</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Any other value</source>
+          <target state="new">Any other value</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>No value is displayed</source>
+          <target state="new">No value is displayed</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Email access blocked</source>
+          <target state="new">Email access blocked</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>You can export the contents of the report and use the <bpt id="p1">**</bpt>Email Address<ept id="p1">**</ept> column to tell your users that they will be blocked.</source>
+          <target state="new">You can export the contents of the report and use the <bpt id="p1">**</bpt>Email Address<ept id="p1">**</ept> column to tell your users that they will be blocked.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Step 3: Configure user groups for the conditional access policy</source>
+          <target state="new">Step 3: Configure user groups for the conditional access policy</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Conditional access policies are targeted to different Azure Active Directory security groups of users.</source>
+          <target state="new">Conditional access policies are targeted to different Azure Active Directory security groups of users.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can also exempt certain user groups from this policy.</source>
+          <target state="new">You can also exempt certain user groups from this policy.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When a user is targeted by a policy, each device they use must be compliant in order to access email.</source>
+          <target state="new">When a user is targeted by a policy, each device they use must be compliant in order to access email.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You can configure these groups in the <bpt id="p1">**</bpt>Office 365 admin center<ept id="p1">**</ept>, or the <bpt id="p2">**</bpt>Intune account portal<ept id="p2">**</ept>.</source>
+          <target state="new">You can configure these groups in the <bpt id="p1">**</bpt>Office 365 admin center<ept id="p1">**</ept>, or the <bpt id="p2">**</bpt>Intune account portal<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You can specify two group types in each policy:</source>
+          <target state="new">You can specify two group types in each policy:</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Targeted groups<ept id="p1">**</ept> – User groups to which the policy is applied.</source>
+          <target state="new"><bpt id="p1">**</bpt>Targeted groups<ept id="p1">**</ept> – User groups to which the policy is applied.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exempted groups<ept id="p1">**</ept> – User groups that are exempt from the policy (optional)</source>
+          <target state="new"><bpt id="p1">**</bpt>Exempted groups<ept id="p1">**</ept> – User groups that are exempt from the policy (optional)</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If a user is in both groups, they will be exempt from the policy.</source>
+          <target state="new">If a user is in both groups, they will be exempt from the policy.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Only the groups which are targeted by the conditional access policy are evaluated.</source>
+          <target state="new">Only the groups which are targeted by the conditional access policy are evaluated.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Step 4: Configure the conditional access policy</source>
+          <target state="new">Step 4: Configure the conditional access policy</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Conditional Access<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Exchange Online Policy<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Conditional Access<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Exchange Online Policy<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Exchange Online conditional access policy page</source>
+          <target state="new">Screenshot of the Exchange Online conditional access policy page</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Exchange Online Policy<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Enable conditional access policy for Exchange Online<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Exchange Online Policy<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Enable conditional access policy for Exchange Online<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If you have not deployed a compliance policy, devices are treated as compliant.</source>
+          <target state="new">If you have not deployed a compliance policy, devices are treated as compliant.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Regardless of the compliance state, all users who are targeted by the policy will be required to enroll their devices with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</source>
+          <target state="new">Regardless of the compliance state, all users who are targeted by the policy will be required to enroll their devices with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Application access<ept id="p1">**</ept>, for apps that use modern authentication, you have two ways of choosing which platforms the policy should apply.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Application access<ept id="p1">**</ept>, for apps that use modern authentication, you have two ways of choosing which platforms the policy should apply.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Supported platforms include Android, iOS, Windows, and Windows Phone.</source>
+          <target state="new">Supported platforms include Android, iOS, Windows, and Windows Phone.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>All platforms</source>
+          <target state="new">All platforms</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This will require that any device used to access <bpt id="p1">**</bpt>Exchange  Online<ept id="p1">**</ept>,  to be enrolled in Intune and compliant with the policies.</source>
+          <target state="new">This will require that any device used to access <bpt id="p1">**</bpt>Exchange  Online<ept id="p1">**</ept>,  to be enrolled in Intune and compliant with the policies.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Any client application using <bpt id="p1">**</bpt>modern authentication<ept id="p1">**</ept> is subject to the conditional access policy, and if the platform is currently not supported by Intune, access to <bpt id="p2">**</bpt>Exchange Online<ept id="p2">**</ept> is blocked.</source>
+          <target state="new">Any client application using <bpt id="p1">**</bpt>modern authentication<ept id="p1">**</ept> is subject to the conditional access policy, and if the platform is currently not supported by Intune, access to <bpt id="p2">**</bpt>Exchange Online<ept id="p2">**</ept> is blocked.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Selecting the <bpt id="p1">**</bpt>All platforms<ept id="p1">**</ept> option means that Azure Active Directory will apply this policy to all authentication requests, regardless of the platform reported by the client application.</source>
+          <target state="new">Selecting the <bpt id="p1">**</bpt>All platforms<ept id="p1">**</ept> option means that Azure Active Directory will apply this policy to all authentication requests, regardless of the platform reported by the client application.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>All platforms will be required to enrolled and become compliant, except for:</source>
+          <target state="new">All platforms will be required to enrolled and become compliant, except for:</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Windows devices will be required to be enrolled and compliant, domain joined with on-premises Active Directory, or both</source>
+          <target state="new">Windows devices will be required to be enrolled and compliant, domain joined with on-premises Active Directory, or both</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Unsupported platforms like Mac OS.</source>
+          <target state="new">Unsupported platforms like Mac OS.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>However, apps using modern authentication coming from these platforms will be still be blocked.</source>
+          <target state="new">However, apps using modern authentication coming from these platforms will be still be blocked.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>You may not see this option if you not already using conditional access for PCs.</source>
+          <target state="new">You may not see this option if you not already using conditional access for PCs.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Specific platforms<ept id="p1">**</ept> instead.</source>
+          <target state="new">Use the <bpt id="p1">**</bpt>Specific platforms<ept id="p1">**</ept> instead.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Conditional access for PCs is not currently available to all Intune customers.</source>
+          <target state="new">Conditional access for PCs is not currently available to all Intune customers.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>You can find out more information about how to get access to this feature <bpt id="p1">[</bpt>in this blog post <ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)</ept>.</source>
+          <target state="new">You can find out more information about how to get access to this feature <bpt id="p1">[</bpt>in this blog post <ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Specific platforms</source>
+          <target state="new">Specific platforms</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Conditional access policy will apply to any client app that is using <bpt id="p1">**</bpt>modern authentication<ept id="p1">**</ept> on the device platforms you specify.</source>
+          <target state="new">Conditional access policy will apply to any client app that is using <bpt id="p1">**</bpt>modern authentication<ept id="p1">**</ept> on the device platforms you specify.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Outlook web access (OWA)<ept id="p1">**</ept>, you can choose to allow access to Exchange Online only through the supported browsers: Safari (iOS), and Chrome (Android).</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Outlook web access (OWA)<ept id="p1">**</ept>, you can choose to allow access to Exchange Online only through the supported browsers: Safari (iOS), and Chrome (Android).</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Access from other browsers will be blocked.</source>
+          <target state="new">Access from other browsers will be blocked.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The same platform restrictions you selected for Application access for Outlook also apply here.</source>
+          <target state="new">The same platform restrictions you selected for Application access for Outlook also apply here.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>On <bpt id="p1">**</bpt>Android<ept id="p1">**</ept> devices, users must enable the browser access.</source>
+          <target state="new">On <bpt id="p1">**</bpt>Android<ept id="p1">**</ept> devices, users must enable the browser access.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>To do this the end-user must enable the “Enable Browser Access” option on the enrolled device as follows:</source>
+          <target state="new">To do this the end-user must enable the “Enable Browser Access” option on the enrolled device as follows:</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Launch the <bpt id="p1">**</bpt>Company Portal app<ept id="p1">**</ept>.</source>
+          <target state="new">Launch the <bpt id="p1">**</bpt>Company Portal app<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> page from the triple dots (…) or the hardware menu button.</source>
+          <target state="new">Go to the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> page from the triple dots (…) or the hardware menu button.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Press the <bpt id="p1">**</bpt>Enable Browser Access<ept id="p1">**</ept> button.</source>
+          <target state="new">Press the <bpt id="p1">**</bpt>Enable Browser Access<ept id="p1">**</ept> button.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>In the Chrome browser, sign out of Office 365 and restart Chrome.</source>
+          <target state="new">In the Chrome browser, sign out of Office 365 and restart Chrome.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>On <bpt id="p1">**</bpt>iOS and Android<ept id="p1">**</ept> platforms, To identify the device that is used to access the service, Azure Active Directory will issue a Transport layer security ( TLS) certificate to the device.</source>
+          <target state="new">On <bpt id="p1">**</bpt>iOS and Android<ept id="p1">**</ept> platforms, To identify the device that is used to access the service, Azure Active Directory will issue a Transport layer security ( TLS) certificate to the device.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The device displays the certificate with a prompt to the end-user to select the certificate as seen in the screenshots below.</source>
+          <target state="new">The device displays the certificate with a prompt to the end-user to select the certificate as seen in the screenshots below.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The end-user must select this certificate before they can continue to use the browser.</source>
+          <target state="new">The end-user must select this certificate before they can continue to use the browser.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="new">iOS</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>screenshot of the certificate prompt on an ipad</source>
+          <target state="new">screenshot of the certificate prompt on an ipad</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="new">Android</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>screenshot of the certificate prompt on an Android device</source>
+          <target state="new">screenshot of the certificate prompt on an Android device</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Exchange ActiveSync apps<ept id="p1">**</ept>, you can choose to block noncompliant devices from accessing Exchange Online.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Exchange ActiveSync apps<ept id="p1">**</ept>, you can choose to block noncompliant devices from accessing Exchange Online.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You can also select whether to allow or block access to email when the device is not running a supported platform.</source>
+          <target state="new">You can also select whether to allow or block access to email when the device is not running a supported platform.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Supported platforms include Android, iOS, Windows, and Windows Phone.</source>
+          <target state="new">Supported platforms include Android, iOS, Windows, and Windows Phone.</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Targeted Groups<ept id="p1">**</ept>, select the Active Directory security groups of users to which the policy will apply.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Targeted Groups<ept id="p1">**</ept>, select the Active Directory security groups of users to which the policy will apply.</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>You can either choose to target all users or a selected list of user groups.</source>
+          <target state="new">You can either choose to target all users or a selected list of user groups.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Exchange Online conditional access policy page showing the Targeted and Exempted group options</source>
+          <target state="new">Screenshot of the Exchange Online conditional access policy page showing the Targeted and Exempted group options</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>For users that are in the <bpt id="p1">**</bpt>Targeted groups<ept id="p1">**</ept>, the Intune polices will replace Exchange rules and policies.</source>
+          <target state="new">For users that are in the <bpt id="p1">**</bpt>Targeted groups<ept id="p1">**</ept>, the Intune polices will replace Exchange rules and policies.</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Exchange will only enforce  the Exchange allow, block and quarantine rules, and Exchange policies if:</source>
+          <target state="new">Exchange will only enforce  the Exchange allow, block and quarantine rules, and Exchange policies if:</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The user is not licensed for Intune.</source>
+          <target state="new">The user is not licensed for Intune.</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The user is licensed for Intune, but the user does not belong to any security groups targeted in the conditional access policy.</source>
+          <target state="new">The user is licensed for Intune, but the user does not belong to any security groups targeted in the conditional access policy.</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Exempted Groups<ept id="p1">**</ept>, select the Active Directory security groups of users that are exempt from this policy.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Exempted Groups<ept id="p1">**</ept>, select the Active Directory security groups of users that are exempt from this policy.</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>If a user  is in both the targeted and exempted groups, they will be exempt from the policy.</source>
+          <target state="new">If a user  is in both the targeted and exempted groups, they will be exempt from the policy.</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>When you are done, choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="new">When you are done, choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>You do not have to deploy the conditional access policy, it takes effect immediately.</source>
+          <target state="new">You do not have to deploy the conditional access policy, it takes effect immediately.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>After a user creates an email account, the device is blocked immediately.</source>
+          <target state="new">After a user creates an email account, the device is blocked immediately.</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>If a blocked user enrolls the device with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and fixes any noncompliance issues, email access is unblocked within 2 minutes.</source>
+          <target state="new">If a blocked user enrolls the device with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and fixes any noncompliance issues, email access is unblocked within 2 minutes.</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>If the user un-enrolls their device, email is blocked after around 6 hours.</source>
+          <target state="new">If the user un-enrolls their device, email is blocked after around 6 hours.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>To see some example scenarios of how you would configure conditional access policy to restrict device access, see <bpt id="p1">[</bpt>restrict email access example scenarios<ept id="p1">](restrict-email-access-example-scenarios.md)</ept>.</source>
+          <target state="new">To see some example scenarios of how you would configure conditional access policy to restrict device access, see <bpt id="p1">[</bpt>restrict email access example scenarios<ept id="p1">](restrict-email-access-example-scenarios.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Monitor the compliance and conditional access policies</source>
+          <target state="new">Monitor the compliance and conditional access policies</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>To view devices that are blocked from Exchange</source>
+          <target state="new">To view devices that are blocked from Exchange</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>On the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> dashboard, choose the <bpt id="p1">**</bpt>Blocked Devices from Exchange<ept id="p1">**</ept> tile to show the number of blocked devices and links to more information.</source>
+          <target state="new">On the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> dashboard, choose the <bpt id="p1">**</bpt>Blocked Devices from Exchange<ept id="p1">**</ept> tile to show the number of blocked devices and links to more information.</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Intune dashboard showing the number of devices that are blocked from accessing Exchange</source>
+          <target state="new">Screenshot of the Intune dashboard showing the number of devices that are blocked from accessing Exchange</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Restrict access to SharePoint Online</source>
+          <target state="new">Restrict access to SharePoint Online</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Restrict access to Skype for Business Online</source>
+          <target state="new">Restrict access to Skype for Business Online</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

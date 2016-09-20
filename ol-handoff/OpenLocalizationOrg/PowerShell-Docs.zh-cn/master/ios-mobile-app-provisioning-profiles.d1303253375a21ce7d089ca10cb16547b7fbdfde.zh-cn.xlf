@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">77b318fc6670fbda59d0cdcac1b0661f6d910142</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\ios-mobile-app-provisioning-profiles.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3cd7c0132e40b3f805acb25ae0bc0dc422ff0492</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8fb5f1e7673affa5d19269c02ce6a70150ea1ee3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>required metadata</source>
+          <target state="new">required metadata</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>title: App provisioning profiles | Microsoft Intune description: Intune gives you the tools to proactively deploy a new provisioning profile policy to devices that have apps that are nearing expiry.</source>
+          <target state="new">title: App provisioning profiles | Microsoft Intune description: Intune gives you the tools to proactively deploy a new provisioning profile policy to devices that have apps that are nearing expiry.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>keywords: author: robstackmsft manager: angrobe ms.date: 07/19/2016 ms.topic: article ms.prod: ms.service: microsoft-intune ms.technology: ms.assetid: 86fbe736-7bdb-4f5e-ae21-13c91eb2462c</source>
+          <target state="new">keywords: author: robstackmsft manager: angrobe ms.date: 07/19/2016 ms.topic: article ms.prod: ms.service: microsoft-intune ms.technology: ms.assetid: 86fbe736-7bdb-4f5e-ae21-13c91eb2462c</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>optional metadata</source>
+          <target state="new">optional metadata</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>ROBOTS:</source>
+          <target state="new">ROBOTS:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>audience:</source>
+          <target state="new">audience:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ms.devlang:</source>
+          <target state="new">ms.devlang:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>ms.reviewer: mghadial ms.suite: ems</source>
+          <target state="new">ms.reviewer: mghadial ms.suite: ems</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ms.tgt_pltfrm:</source>
+          <target state="new">ms.tgt_pltfrm:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>ms.custom:</source>
+          <target state="new">ms.custom:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use iOS mobile provisioning profile policies to prevent your apps from expiring</source>
+          <target state="new">Use iOS mobile provisioning profile policies to prevent your apps from expiring</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Apple iOS line of business apps that are deployed to iPhones and iPads are built with an included provisioning profile and code that is signed with a certificate.</source>
+          <target state="new">Apple iOS line of business apps that are deployed to iPhones and iPads are built with an included provisioning profile and code that is signed with a certificate.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When the app is run, iOS confirms the integrity of the iOS app and enforces policies that are defined by the provisioning profile.</source>
+          <target state="new">When the app is run, iOS confirms the integrity of the iOS app and enforces policies that are defined by the provisioning profile.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following validations happen:</source>
+          <target state="new">The following validations happen:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation file integrity<ept id="p1">**</ept> - iOS compares the app's details with the enterprise signing certificate's public key.</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation file integrity<ept id="p1">**</ept> - iOS compares the app's details with the enterprise signing certificate's public key.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If they differ, the app's content might have changed, and the app will not be allowed to run.</source>
+          <target state="new">If they differ, the app's content might have changed, and the app will not be allowed to run.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Capabilities enforcement<ept id="p1">**</ept> - iOS attempts to enforce the app's capabilities from the enterprise provisioning profile (not individual developer provisioning profiles) that are in the app installation (.ipa) file.</source>
+          <target state="new"><bpt id="p1">**</bpt>Capabilities enforcement<ept id="p1">**</ept> - iOS attempts to enforce the app's capabilities from the enterprise provisioning profile (not individual developer provisioning profiles) that are in the app installation (.ipa) file.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The enterprise signing certificate that you use to sign apps typically lasts for three years.</source>
+          <target state="new">The enterprise signing certificate that you use to sign apps typically lasts for three years.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, the provisioning profile expires after a year.</source>
+          <target state="new">However, the provisioning profile expires after a year.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>While the certificate is still valid, Intune gives you the tools to proactively deploy a new provisioning profile policy to devices that have apps that are nearing expiry.</source>
+          <target state="new">While the certificate is still valid, Intune gives you the tools to proactively deploy a new provisioning profile policy to devices that have apps that are nearing expiry.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>After the certificate expires, you must sign the app again with a new certificate and embed a new provisioning profile with the key of the new certificate.</source>
+          <target state="new">After the certificate expires, you must sign the app again with a new certificate and embed a new provisioning profile with the key of the new certificate.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>How to find out when a line of business app will expire</source>
+          <target state="new">How to find out when a line of business app will expire</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Apps<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Apps<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Apps<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Apps<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the list of apps, look at the <bpt id="p1">**</bpt>Expiration date<ept id="p1">**</ept> column to see the expiry date for the app.</source>
+          <target state="new">In the list of apps, look at the <bpt id="p1">**</bpt>Expiration date<ept id="p1">**</ept> column to see the expiry date for the app.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can also set the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> drop-down list to <bpt id="p2">**</bpt>Expired/about to expire<ept id="p2">**</ept> to see only the apps for which you must take action.</source>
+          <target state="new">You can also set the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> drop-down list to <bpt id="p2">**</bpt>Expired/about to expire<ept id="p2">**</ept> to see only the apps for which you must take action.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>How to create an iOS mobile provisioning profile policy</source>
+          <target state="new">How to create an iOS mobile provisioning profile policy</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Overview<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Add Policy<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Overview<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Add Policy<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create a New Policy<ept id="p1">**</ept> dialog box, choose <bpt id="p2">**</bpt>iOS<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Mobile Provisioning Profile Policy<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Create Policy<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Create a New Policy<ept id="p1">**</ept> dialog box, choose <bpt id="p2">**</bpt>iOS<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Mobile Provisioning Profile Policy<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Create Policy<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> page, configure the following values:</source>
+          <target state="new">On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> page, configure the following values:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> - Provide a name for this mobile provisioning profile policy.</source>
+          <target state="new"><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> - Provide a name for this mobile provisioning profile policy.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> - Optionally, provide a description for the policy.</source>
+          <target state="new"><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> - Optionally, provide a description for the policy.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Configuration profile file<ept id="p1">**</ept> - Click <bpt id="p2">**</bpt>Import<ept id="p2">**</ept>, and then choose an Apple Mobile Configuration Profile file (with the extension <bpt id="p3">**</bpt>.mobileprovision<ept id="p3">**</ept>) that you downloaded from the Apple Developer website.</source>
+          <target state="new"><bpt id="p1">**</bpt>Configuration profile file<ept id="p1">**</ept> - Click <bpt id="p2">**</bpt>Import<ept id="p2">**</ept>, and then choose an Apple Mobile Configuration Profile file (with the extension <bpt id="p3">**</bpt>.mobileprovision<ept id="p3">**</ept>) that you downloaded from the Apple Developer website.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When you are done, choose <bpt id="p1">**</bpt>Save Policy<ept id="p1">**</ept>.</source>
+          <target state="new">When you are done, choose <bpt id="p1">**</bpt>Save Policy<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Now, deploy the policy to the required iOS devices.</source>
+          <target state="new">Now, deploy the policy to the required iOS devices.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2c2774dd85d8ce9c056248f801220e06f17063b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48d8f132a132f307c0824c7f8c0396f105fa640e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">00facaef691bf957f1fc037b41463bb4d06ad547</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Control Windows Hello for Business settings on devices | Microsoft Intune</source>
+          <target state="new">Control Windows Hello for Business settings on devices | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn how Intune integrates with Windows Hello for Business, an alternative sign-in method that uses Active Directory or an Azure Active Directory account to replace a password, smart card, or virtual smart card.</source>
+          <target state="new">Learn how Intune integrates with Windows Hello for Business, an alternative sign-in method that uses Active Directory or an Azure Active Directory account to replace a password, smart card, or virtual smart card.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Control Windows Hello for Business settings on devices with Microsoft Intune</source>
+          <target state="new">Control Windows Hello for Business settings on devices with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune integrates with Windows Hello for Business (formerly Microsoft Passport for Work), an alternative sign-in method that uses Active Directory or an Azure Active Directory account to replace a password, smart card, or a virtual smart card.</source>
+          <target state="new">Microsoft Intune integrates with Windows Hello for Business (formerly Microsoft Passport for Work), an alternative sign-in method that uses Active Directory or an Azure Active Directory account to replace a password, smart card, or a virtual smart card.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Hello for Business lets you use a <bpt id="p1">*</bpt>user gesture<ept id="p1">*</ept> to sign in, instead of a password.</source>
+          <target state="new">Hello for Business lets you use a <bpt id="p1">*</bpt>user gesture<ept id="p1">*</ept> to sign in, instead of a password.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A user gesture might be a simple PIN, biometric authentication such as Windows Hello, or an external device such as a fingerprint reader.</source>
+          <target state="new">A user gesture might be a simple PIN, biometric authentication such as Windows Hello, or an external device such as a fingerprint reader.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Intune integrates with Hello for Business in two ways:</source>
+          <target state="new">Intune integrates with Hello for Business in two ways:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can use an Intune policy to control which gestures users can and cannot use to sign in.</source>
+          <target state="new">You can use an Intune policy to control which gestures users can and cannot use to sign in.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can store authentication certificates in the Windows Hello for Business key storage provider (KSP).</source>
+          <target state="new">You can store authentication certificates in the Windows Hello for Business key storage provider (KSP).</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Create a Windows Hello for Business policy</source>
+          <target state="new">Create a Windows Hello for Business policy</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Windows Hello for Business<ept id="p5">**</ept> to open the Windows Hello for Business page.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Windows Hello for Business<ept id="p5">**</ept> to open the Windows Hello for Business page.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Windows Hello for Business page</source>
+          <target state="new">Windows Hello for Business page</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Choose one of the following settings:</source>
+          <target state="new">Choose one of the following settings:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disable Windows Hello for Business on enrolled devices<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Disable Windows Hello for Business on enrolled devices<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you don't want to use Windows Hello for Business, select this setting.</source>
+          <target state="new">If you don't want to use Windows Hello for Business, select this setting.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>All other settings on the screen are then unavailable.</source>
+          <target state="new">All other settings on the screen are then unavailable.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable Windows Hello for Business on enrolled devices<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Enable Windows Hello for Business on enrolled devices<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select this setting if you want to configure Windows Hello for Business settings.</source>
+          <target state="new">Select this setting if you want to configure Windows Hello for Business settings.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Not configured<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Not configured<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select this setting if you don't want to use Intune to control Windows Hello for Business settings.</source>
+          <target state="new">Select this setting if you don't want to use Intune to control Windows Hello for Business settings.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Any existing Windows Hello for Business settings on Windows 10 devices will not be changed.</source>
+          <target state="new">Any existing Windows Hello for Business settings on Windows 10 devices will not be changed.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>All other settings on the screen are unavailable.</source>
+          <target state="new">All other settings on the screen are unavailable.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you selected <bpt id="p1">**</bpt>Enable Windows Hello for Business on enrolled devices<ept id="p1">**</ept>, configure the required settings that will be applied to all enrolled Windows 10 and Windows 10 Mobile devices.</source>
+          <target state="new">If you selected <bpt id="p1">**</bpt>Enable Windows Hello for Business on enrolled devices<ept id="p1">**</ept>, configure the required settings that will be applied to all enrolled Windows 10 and Windows 10 Mobile devices.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When you are finished, choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="new">When you are finished, choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Settings for the Windows Hello for Business policy</source>
+          <target state="new">Settings for the Windows Hello for Business policy</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use a Trusted Platform Module (TPM)<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Use a Trusted Platform Module (TPM)<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A TPM chip provides an additional layer of data security.</source>
+          <target state="new">A TPM chip provides an additional layer of data security.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose one of the following values:</source>
+          <target state="new">Choose one of the following values:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Required<ept id="p1">**</ept> (default).</source>
+          <target state="new"><bpt id="p1">**</bpt>Required<ept id="p1">**</ept> (default).</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Only devices with an accessible TPM can provision Windows Hello for Business.</source>
+          <target state="new">Only devices with an accessible TPM can provision Windows Hello for Business.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Preferred<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Preferred<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Devices first attempt to use a TPM.</source>
+          <target state="new">Devices first attempt to use a TPM.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If this is not available, they can use software encryption.</source>
+          <target state="new">If this is not available, they can use software encryption.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require minimum PIN length<ept id="p1">**</ept><ph id="ph1">/</ph><bpt id="p2">**</bpt>Require maximum PIN length<ept id="p2">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Require minimum PIN length<ept id="p1">**</ept><ph id="ph1">/</ph><bpt id="p2">**</bpt>Require maximum PIN length<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Configures devices to use the minimum and maximum PIN lengths that you specify to help ensure secure sign-in.</source>
+          <target state="new">Configures devices to use the minimum and maximum PIN lengths that you specify to help ensure secure sign-in.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The default PIN length is 6 characters, but you can enforce a minimum length of 4 characters.</source>
+          <target state="new">The default PIN length is 6 characters, but you can enforce a minimum length of 4 characters.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The maximum PIN length is 127 characters.</source>
+          <target state="new">The maximum PIN length is 127 characters.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require lowercase letters in PIN<ept id="p1">**</ept><ph id="ph1">/</ph><bpt id="p2">**</bpt>Require uppercase letters in PIN<ept id="p2">**</ept><ph id="ph2">/</ph><bpt id="p3">**</bpt>Require special characters in PIN<ept id="p3">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Require lowercase letters in PIN<ept id="p1">**</ept><ph id="ph1">/</ph><bpt id="p2">**</bpt>Require uppercase letters in PIN<ept id="p2">**</ept><ph id="ph2">/</ph><bpt id="p3">**</bpt>Require special characters in PIN<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can enforce a stronger PIN by requiring the use of uppercase letters, lowercase letters, and special characters in the PIN.</source>
+          <target state="new">You can enforce a stronger PIN by requiring the use of uppercase letters, lowercase letters, and special characters in the PIN.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose from:</source>
+          <target state="new">Choose from:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allowed<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Allowed<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Users can use the character type in their PIN, but it is not mandatory.</source>
+          <target state="new">Users can use the character type in their PIN, but it is not mandatory.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Required<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Required<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Users must include at least one of the character types in their PIN.</source>
+          <target state="new">Users must include at least one of the character types in their PIN.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example, it's common practice to require at least one uppercase letter and one special character.</source>
+          <target state="new">For example, it's common practice to require at least one uppercase letter and one special character.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Not allowed<ept id="p1">**</ept> (default).</source>
+          <target state="new"><bpt id="p1">**</bpt>Not allowed<ept id="p1">**</ept> (default).</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Users must not use these character types in their PIN.</source>
+          <target state="new">Users must not use these character types in their PIN.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>(This is also the behavior if the setting is not configured.)</source>
+          <target state="new">(This is also the behavior if the setting is not configured.)</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Special characters include: <bpt id="p1">**</bpt>! " # $ % <ph id="ph1">&amp;amp;</ph> ' ( ) &amp;#42; + , - . / : ; <ph id="ph2">&amp;lt; = &amp;gt;</ph> ? @ [ \ ] ^ _ &amp;#96; { &amp;#124; } ~<ept id="p1">**</ept>.</source>
+          <target state="new">Special characters include: <bpt id="p1">**</bpt>! " # $ % <ph id="ph1">&amp;amp;</ph> ' ( ) &amp;#42; + , - . / : ; <ph id="ph2">&amp;lt; = &amp;gt;</ph> ? @ [ \ ] ^ _ &amp;#96; { &amp;#124; } ~<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PIN expiration (days)<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>PIN expiration (days)<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It's a good practice to specify an expiration period for a PIN, after which users must change it.</source>
+          <target state="new">It's a good practice to specify an expiration period for a PIN, after which users must change it.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default is 41 days.</source>
+          <target state="new">The default is 41 days.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remember PIN history<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Remember PIN history<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Restricts the reuse of previously used PINs.</source>
+          <target state="new">Restricts the reuse of previously used PINs.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>By default, the last 5 PINs cannot be reused.</source>
+          <target state="new">By default, the last 5 PINs cannot be reused.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allow biometric authentication<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Allow biometric authentication<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Enables biometric authentication, such as facial recognition or fingerprint, as an alternative to a PIN for Windows Hello for Business.</source>
+          <target state="new">Enables biometric authentication, such as facial recognition or fingerprint, as an alternative to a PIN for Windows Hello for Business.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Users must still configure a work PIN in case biometric authentication fails.</source>
+          <target state="new">Users must still configure a work PIN in case biometric authentication fails.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Choose from:</source>
+          <target state="new">Choose from:</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Windows Hello for Business allows biometric authentication.</source>
+          <target state="new">Windows Hello for Business allows biometric authentication.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Windows Hello for Business prevents biometric authentication (for all account types).</source>
+          <target state="new">Windows Hello for Business prevents biometric authentication (for all account types).</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use enhanced anti-spoofing, when available<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Use enhanced anti-spoofing, when available<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Configures whether the anti-spoofing features of Windows Hello are used on devices that support it (for example, detecting a photograph of a face instead of a real face).</source>
+          <target state="new">Configures whether the anti-spoofing features of Windows Hello are used on devices that support it (for example, detecting a photograph of a face instead of a real face).</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If this is set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>, Windows requires all users to use anti-spoofing for facial features when that is supported.</source>
+          <target state="new">If this is set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>, Windows requires all users to use anti-spoofing for facial features when that is supported.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use phone sign-in<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Use phone sign-in<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If this option is set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>, users can use a remote passport to serve as a portable companion device for desktop computer authentication.</source>
+          <target state="new">If this option is set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>, users can use a remote passport to serve as a portable companion device for desktop computer authentication.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The desktop computer must be Azure Active Directory joined, and the companion device must be configured with a Windows Hello for Business PIN.</source>
+          <target state="new">The desktop computer must be Azure Active Directory joined, and the companion device must be configured with a Windows Hello for Business PIN.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Further information</source>
+          <target state="new">Further information</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For more information about Microsoft Passport, see <bpt id="p1">[</bpt>the guide<ept id="p1">](https://technet.microsoft.com/library/mt589441.aspx)</ept> in the Windows 10 documentation.</source>
+          <target state="new">For more information about Microsoft Passport, see <bpt id="p1">[</bpt>the guide<ept id="p1">](https://technet.microsoft.com/library/mt589441.aspx)</ept> in the Windows 10 documentation.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

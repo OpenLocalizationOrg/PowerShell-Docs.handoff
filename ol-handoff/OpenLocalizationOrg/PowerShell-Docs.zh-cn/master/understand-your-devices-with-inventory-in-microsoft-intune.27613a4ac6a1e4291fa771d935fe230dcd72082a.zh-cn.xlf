@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a195ca39169d2288d76b1337a003db8a0ae11997</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\understand-your-devices-with-inventory-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">375a65fe4e100db21cbba72094cec2c9b8c684c0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3a84a4fd109f5af848be18427c961160d3023ad7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Understand your devices with inventory | Microsoft Intune</source>
+          <target state="new">Understand your devices with inventory | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use Intune to view information about the hardware of the devices you manage.</source>
+          <target state="new">Use Intune to view information about the hardware of the devices you manage.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Understand your devices with inventory in Microsoft Intune</source>
+          <target state="new">Understand your devices with inventory in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune lets you view the inventory of enrolled devices and Windows PCs that run the Intune client software.</source>
+          <target state="new">Microsoft Intune lets you view the inventory of enrolled devices and Windows PCs that run the Intune client software.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Intune typically collects inventory from managed devices every 7 days.</source>
+          <target state="new">Intune typically collects inventory from managed devices every 7 days.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Because of this, there might be a delay before reports show the results of any recent changes to devices, for example, a change to the device name, or free storage space.</source>
+          <target state="new">Because of this, there might be a delay before reports show the results of any recent changes to devices, for example, a change to the device name, or free storage space.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What's collected from enrolled devices?</source>
+          <target state="new">What's collected from enrolled devices?</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To view the inventory that's collected by mobile devices, run the <bpt id="p1">[</bpt>Mobile Device Inventory Reports<ept id="p1">](understand-microsoft-intune-operations-by-using-reports.md)</ept>.</source>
+          <target state="new">To view the inventory that's collected by mobile devices, run the <bpt id="p1">[</bpt>Mobile Device Inventory Reports<ept id="p1">](understand-microsoft-intune-operations-by-using-reports.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Intune collects the following inventory from enrolled devices:</source>
+          <target state="new">Intune collects the following inventory from enrolled devices:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Collected by</source>
+          <target state="new">Collected by</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Operating System</source>
+          <target state="new">Operating System</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Manufacturer</source>
+          <target state="new">Manufacturer</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Model</source>
+          <target state="new">Model</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Management Channel</source>
+          <target state="new">Management Channel</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>AAD Registered</source>
+          <target state="new">AAD Registered</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>All devices except Mac OS X</source>
+          <target state="new">All devices except Mac OS X</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Compliant</source>
+          <target state="new">Compliant</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>EAS Activated</source>
+          <target state="new">EAS Activated</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>All devices except Mac OS X</source>
+          <target state="new">All devices except Mac OS X</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>EAS Activation ID</source>
+          <target state="new">EAS Activation ID</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>All devices except Mac OS X</source>
+          <target state="new">All devices except Mac OS X</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>EAS Activation Time</source>
+          <target state="new">EAS Activation Time</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>All devices except Mac OS X</source>
+          <target state="new">All devices except Mac OS X</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Management State</source>
+          <target state="new">Management State</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Email Address</source>
+          <target state="new">Email Address</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Exchange ActiveSync ID</source>
+          <target state="new">Exchange ActiveSync ID</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Jailbroken or Rooted</source>
+          <target state="new">Jailbroken or Rooted</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>iOS and Android devices only</source>
+          <target state="new">iOS and Android devices only</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Unique Device ID</source>
+          <target state="new">Unique Device ID</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>All devices except Exchange ActiveSync</source>
+          <target state="new">All devices except Exchange ActiveSync</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Serial number</source>
+          <target state="new">Serial number</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>iOS, Mac OS X, Android, Windows 8.1, and Windows 10 devices</source>
+          <target state="new">iOS, Mac OS X, Android, Windows 8.1, and Windows 10 devices</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Total Storage Space</source>
+          <target state="new">Total Storage Space</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>iOS, Mac OS X, Windows 8.1, and Windows 10 devices</source>
+          <target state="new">iOS, Mac OS X, Windows 8.1, and Windows 10 devices</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Free Storage Space</source>
+          <target state="new">Free Storage Space</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>iOS, Mac OS X, Windows 8.1, and Windows 10 devices</source>
+          <target state="new">iOS, Mac OS X, Windows 8.1, and Windows 10 devices</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Phone Number</source>
+          <target state="new">Phone Number</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Phones that are categorized as corporate are identified with their full phone number (for example, when you run a mobile device inventory report).</source>
+          <target state="new">Phones that are categorized as corporate are identified with their full phone number (for example, when you run a mobile device inventory report).</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>BYOD phone numbers are masked with &amp;#42;, and only the last four digits are displayed.</source>
+          <target state="new">BYOD phone numbers are masked with &amp;#42;, and only the last four digits are displayed.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>iOS, Android, and Windows Phone devices</source>
+          <target state="new">iOS, Android, and Windows Phone devices</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>IMEI</source>
+          <target state="new">IMEI</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Exchange ActiveSync, iOS, Android, and Windows Phone devices</source>
+          <target state="new">Exchange ActiveSync, iOS, Android, and Windows Phone devices</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>MEID</source>
+          <target state="new">MEID</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Mobile Equipment Identifier</source>
+          <target state="new">Mobile Equipment Identifier</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>iOS devices only</source>
+          <target state="new">iOS devices only</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Wi-Fi MAC</source>
+          <target state="new">Wi-Fi MAC</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>All devices except Exchange ActiveSync</source>
+          <target state="new">All devices except Exchange ActiveSync</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Subscriber Carrier</source>
+          <target state="new">Subscriber Carrier</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>iOS and Android devices only</source>
+          <target state="new">iOS and Android devices only</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Cellular Technology</source>
+          <target state="new">Cellular Technology</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>iOS and Android devices only</source>
+          <target state="new">iOS and Android devices only</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Supervised</source>
+          <target state="new">Supervised</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>iOS devices only</source>
+          <target state="new">iOS devices only</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Activation Lock State</source>
+          <target state="new">Activation Lock State</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>iOS devices only</source>
+          <target state="new">iOS devices only</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Enrolled Date</source>
+          <target state="new">Enrolled Date</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Last Updated</source>
+          <target state="new">Last Updated</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Ethernet MAC</source>
+          <target state="new">Ethernet MAC</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Mac OS X devices only</source>
+          <target state="new">Mac OS X devices only</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Activation Lock Enabled</source>
+          <target state="new">Activation Lock Enabled</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>iOS devices only</source>
+          <target state="new">iOS devices only</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Encryption Enabled</source>
+          <target state="new">Encryption Enabled</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>All devices</source>
+          <target state="new">All devices</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>What's collected from Windows PCs?</source>
+          <target state="new">What's collected from Windows PCs?</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This section applies only to Windows PCs that run the Intune Windows PC client software.</source>
+          <target state="new">This section applies only to Windows PCs that run the Intune Windows PC client software.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To view the inventory that's collected by Windows PCs, run the <bpt id="p1">[</bpt>Computer Inventory Reports<ept id="p1">](understand-microsoft-intune-operations-by-using-reports.md)</ept>.</source>
+          <target state="new">To view the inventory that's collected by Windows PCs, run the <bpt id="p1">[</bpt>Computer Inventory Reports<ept id="p1">](understand-microsoft-intune-operations-by-using-reports.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Intune collects the following inventory from Windows PCs:</source>
+          <target state="new">Intune collects the following inventory from Windows PCs:</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Chassis Type</source>
+          <target state="new">Chassis Type</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Manufacturer</source>
+          <target state="new">Manufacturer</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Model</source>
+          <target state="new">Model</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Operating System</source>
+          <target state="new">Operating System</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>TPM Version</source>
+          <target state="new">TPM Version</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Total Disk Space</source>
+          <target state="new">Total Disk Space</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Used Disk Space</source>
+          <target state="new">Used Disk Space</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Free Disk Space</source>
+          <target state="new">Free Disk Space</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>OS Disk Name</source>
+          <target state="new">OS Disk Name</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>OS Disk Space</source>
+          <target state="new">OS Disk Space</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>OS Disk Free Space</source>
+          <target state="new">OS Disk Free Space</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Physical Memory</source>
+          <target state="new">Physical Memory</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Processor Name</source>
+          <target state="new">Processor Name</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Processor Architecture</source>
+          <target state="new">Processor Architecture</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>CPU Speed</source>
+          <target state="new">CPU Speed</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>IP Address</source>
+          <target state="new">IP Address</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Serial number</source>
+          <target state="new">Serial number</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Last User to Log On</source>
+          <target state="new">Last User to Log On</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Assigned User</source>
+          <target state="new">Assigned User</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Last Updated</source>
+          <target state="new">Last Updated</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

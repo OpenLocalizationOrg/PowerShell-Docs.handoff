@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">17836bc826bc89e3f041f7b369be09c1cce9ea4f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\ios-direct-enrollment-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e140302c3df279d2fe41eff9cb857b3412d9bdd3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ca074791dc6309387a27732bede6f2470d3cb7af</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Direct enrollment for iOS devices | Microsoft Intune</source>
+          <target state="new">Direct enrollment for iOS devices | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the Apple Configurator tool to directly enroll corporate-owned iOS devices with a predefined policy by USB-connecting them to a Mac computer.</source>
+          <target state="new">Use the Apple Configurator tool to directly enroll corporate-owned iOS devices with a predefined policy by USB-connecting them to a Mac computer.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Directly enroll iOS devices using Apple Configurator</source>
+          <target state="new">Directly enroll iOS devices using Apple Configurator</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Intune supports the enrollment of corporate-owned iOS devices using the <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> tool running on a Mac computer.</source>
+          <target state="new">Intune supports the enrollment of corporate-owned iOS devices using the <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> tool running on a Mac computer.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This process does not factory-reset the device and enrolls the device with a predefined policy.</source>
+          <target state="new">This process does not factory-reset the device and enrolls the device with a predefined policy.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This method is for devices with <bpt id="p1">**</bpt>No user affinity<ept id="p1">**</ept> and requires you to USB-connect the iOS device to a Mac computer to setup corporate enrollment.</source>
+          <target state="new">This method is for devices with <bpt id="p1">**</bpt>No user affinity<ept id="p1">**</ept> and requires you to USB-connect the iOS device to a Mac computer to setup corporate enrollment.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When directly enrolling iOS devices, you can enroll a device without acquiring the device's serial number.</source>
+          <target state="new">When directly enrolling iOS devices, you can enroll a device without acquiring the device's serial number.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also name the device for identification purposes before Intune captures the device name during enrollment.</source>
+          <target state="new">You can also name the device for identification purposes before Intune captures the device name during enrollment.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Company Portal app is not supported for direct enrolled devices.</source>
+          <target state="new">The Company Portal app is not supported for direct enrolled devices.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This guidance assumes you are using Apple Configurator 2.0 on a Mac computer.</source>
+          <target state="new">This guidance assumes you are using Apple Configurator 2.0 on a Mac computer.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create a profile for devices<ept id="p1">**</ept> A device enrollment profile defines the settings applied to devices.</source>
+          <target state="new"><bpt id="p1">**</bpt>Create a profile for devices<ept id="p1">**</ept> A device enrollment profile defines the settings applied to devices.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.</source>
+          <target state="new">If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> go <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Corporate Device Enrollment<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Add…<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> go <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Corporate Device Enrollment<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Add…<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create device enrollment profile page</source>
+          <target state="new">Create device enrollment profile page</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Enter details for the device profiles:</source>
+          <target state="new">Enter details for the device profiles:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> – Name of the device enrollment profile.</source>
+          <target state="new"><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> – Name of the device enrollment profile.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Not visible to users.</source>
+          <target state="new">Not visible to users.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> - Description of the device enrollment profile.</source>
+          <target state="new"><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> - Description of the device enrollment profile.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Not visible to users.</source>
+          <target state="new">Not visible to users.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User affiliation<ept id="p1">**</ept> – Specifies how devices are enrolled.</source>
+          <target state="new"><bpt id="p1">**</bpt>User affiliation<ept id="p1">**</ept> – Specifies how devices are enrolled.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For Direct Enrollment, select <bpt id="p1">**</bpt>No user affinity<ept id="p1">**</ept>.</source>
+          <target state="new">For Direct Enrollment, select <bpt id="p1">**</bpt>No user affinity<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Device group pre-assignment<ept id="p1">**</ept> – All devices deployed this profile will initially belong to this group.</source>
+          <target state="new"><bpt id="p1">**</bpt>Device group pre-assignment<ept id="p1">**</ept> – All devices deployed this profile will initially belong to this group.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can reassign devices after enrollment.</source>
+          <target state="new">You can reassign devices after enrollment.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Save Profile<ept id="p1">**</ept> to add the profile.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Save Profile<ept id="p1">**</ept> to add the profile.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export a profile as .mobileconfig to deploy to iOS devices<ept id="p1">**</ept> Select the device profile you created.</source>
+          <target state="new"><bpt id="p1">**</bpt>Export a profile as .mobileconfig to deploy to iOS devices<ept id="p1">**</ept> Select the device profile you created.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Export…<ept id="p1">**</ept></source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Export…<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>in the taskbar.</source>
+          <target state="new">in the taskbar.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Download profile<ept id="p1">**</ept> and save the downloaded .mobileconfig file.</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Download profile<ept id="p1">**</ept> and save the downloaded .mobileconfig file.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transfer the file<ept id="p1">**</ept> Copy the downloaded .mobileconfig file to a Mac computer.</source>
+          <target state="new"><bpt id="p1">**</bpt>Transfer the file<ept id="p1">**</ept> Copy the downloaded .mobileconfig file to a Mac computer.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The enrollment profile URL is valid for two weeks from when it is exported.</source>
+          <target state="new">The enrollment profile URL is valid for two weeks from when it is exported.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>After two weeks, you must export a new enrollment profile URL to enroll iOS devices with Setup Assistant.</source>
+          <target state="new">After two weeks, you must export a new enrollment profile URL to enroll iOS devices with Setup Assistant.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prepare the device with Apple Configurator<ept id="p1">**</ept> iOS devices are connected to the Mac computer and enrolled for mobile device management.</source>
+          <target state="new"><bpt id="p1">**</bpt>Prepare the device with Apple Configurator<ept id="p1">**</ept> iOS devices are connected to the Mac computer and enrolled for mobile device management.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>On a Mac computer, launch <bpt id="p1">**</bpt>Apple Configurator 2.0<ept id="p1">**</ept>.</source>
+          <target state="new">On a Mac computer, launch <bpt id="p1">**</bpt>Apple Configurator 2.0<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Connect the iOS device to the Mac computer with a USB cord.</source>
+          <target state="new">Connect the iOS device to the Mac computer with a USB cord.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Close <bpt id="p1">**</bpt>Photos<ept id="p1">**</ept>, <bpt id="p2">**</bpt>iTunes<ept id="p2">**</ept>, and other apps that open for the device when the device is detected.</source>
+          <target state="new">Close <bpt id="p1">**</bpt>Photos<ept id="p1">**</ept>, <bpt id="p2">**</bpt>iTunes<ept id="p2">**</ept>, and other apps that open for the device when the device is detected.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In Apple Configurator, single-click the connected iOS device, and then choose the <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> button.</source>
+          <target state="new">In Apple Configurator, single-click the connected iOS device, and then choose the <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> button.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Options that can be added to the device appear in the drop-down list.</source>
+          <target state="new">Options that can be added to the device appear in the drop-down list.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Profiles<ept id="p1">**</ept> .</source>
+          <target state="new">Choose <bpt id="p1">**</bpt>Profiles<ept id="p1">**</ept> .</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Use the file picker to select the .mobileconfig file you exported from Intune, and then choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>.</source>
+          <target state="new">Use the file picker to select the .mobileconfig file you exported from Intune, and then choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The profile is added to the device.</source>
+          <target state="new">The profile is added to the device.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the device is <bpt id="p1">**</bpt>Unsupervised<ept id="p1">**</ept>, the installation will require acceptance on the device.</source>
+          <target state="new">If the device is <bpt id="p1">**</bpt>Unsupervised<ept id="p1">**</ept>, the installation will require acceptance on the device.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Install the profile<ept id="p1">**</ept> You are ready to install the profile on the iOS device.</source>
+          <target state="new"><bpt id="p1">**</bpt>Install the profile<ept id="p1">**</ept> You are ready to install the profile on the iOS device.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The device must have already completed the Setup Assistant and be ready to use.</source>
+          <target state="new">The device must have already completed the Setup Assistant and be ready to use.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If enrollment entails app deployments, the device should have an Apple ID set up because the app deployments will require that you have an Apple ID signed in for the App Store.</source>
+          <target state="new">If enrollment entails app deployments, the device should have an Apple ID set up because the app deployments will require that you have an Apple ID signed in for the App Store.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Unlock the iOS device.</source>
+          <target state="new">Unlock the iOS device.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Install profile<ept id="p1">**</ept> dialog for <bpt id="p2">**</bpt>Management profile<ept id="p2">**</ept>,  tap <bpt id="p3">**</bpt>Install<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Install profile<ept id="p1">**</ept> dialog for <bpt id="p2">**</bpt>Management profile<ept id="p2">**</ept>,  tap <bpt id="p3">**</bpt>Install<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Provide <bpt id="p1">**</bpt>Device Passcode<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Apple ID<ept id="p2">**</ept>, if required.</source>
+          <target state="new">Provide <bpt id="p1">**</bpt>Device Passcode<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Apple ID<ept id="p2">**</ept>, if required.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Accept the <bpt id="p1">**</bpt>Warning<ept id="p1">**</ept>, and tap <bpt id="p2">**</bpt>Install<ept id="p2">**</ept>.</source>
+          <target state="new">Accept the <bpt id="p1">**</bpt>Warning<ept id="p1">**</ept>, and tap <bpt id="p2">**</bpt>Install<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Accept the <bpt id="p1">**</bpt>Remote Warning<ept id="p1">**</ept>, and tap <bpt id="p2">**</bpt>Trust<ept id="p2">**</ept>.</source>
+          <target state="new">Accept the <bpt id="p1">**</bpt>Remote Warning<ept id="p1">**</ept>, and tap <bpt id="p2">**</bpt>Trust<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>Profile Installed<ept id="p1">**</ept> box confirms the profile has <bpt id="p2">**</bpt>Installed<ept id="p2">**</ept>, choose <bpt id="p3">**</bpt>Done<ept id="p3">**</ept>.</source>
+          <target state="new">When the <bpt id="p1">**</bpt>Profile Installed<ept id="p1">**</ept> box confirms the profile has <bpt id="p2">**</bpt>Installed<ept id="p2">**</ept>, choose <bpt id="p3">**</bpt>Done<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Verify profile<ept id="p1">**</ept><ph id="ph1">
+</ph> On the iOS device, launch <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> and go <bpt id="p3">**</bpt>General<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Device Management<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Management Profile<ept id="p5">**</ept> <ph id="ph4">&amp;gt;</ph>  and confirm the profile installation is listed, check the iOS policy restrictions, and installed apps.</source>
+          <target state="new"><bpt id="p1">**</bpt>Verify profile<ept id="p1">**</ept><ph id="ph1">
+</ph> On the iOS device, launch <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> and go <bpt id="p3">**</bpt>General<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Device Management<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Management Profile<ept id="p5">**</ept> <ph id="ph4">&amp;gt;</ph>  and confirm the profile installation is listed, check the iOS policy restrictions, and installed apps.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Policy restrictions and apps may take up to 10 minutes to appear on the device.</source>
+          <target state="new">Policy restrictions and apps may take up to 10 minutes to appear on the device.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Distribute devices<ept id="p1">**</ept> The iOS device is now enrolled with Intune and managed.</source>
+          <target state="new"><bpt id="p1">**</bpt>Distribute devices<ept id="p1">**</ept> The iOS device is now enrolled with Intune and managed.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

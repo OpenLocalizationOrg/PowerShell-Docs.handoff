@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">743e6734e36c6f9bcfa1a594f46356b96fe0a77e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\per-app-vpn-for-android-pulse-secure.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53cd67e80ee4f0eff356d2f8d36cf775e1bfc433</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">56732ca3a7f43618096ad722b982064cf84395cb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Per-app VPN for Android using Pulse Secure | Microsoft Intune</source>
+          <target state="new">Per-app VPN for Android using Pulse Secure | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can create a per-app VPN profile for Android devices managed by Intune.</source>
+          <target state="new">You can create a per-app VPN profile for Android devices managed by Intune.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use a custom policy to create a per-app VPN profile for Android devices</source>
+          <target state="new">Use a custom policy to create a per-app VPN profile for Android devices</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can create a per-app VPN profile for Android 5.0 and later devices that are managed by Intune.</source>
+          <target state="new">You can create a per-app VPN profile for Android 5.0 and later devices that are managed by Intune.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>First, create a VPN profile that uses the Pulse Secure connection type.</source>
+          <target state="new">First, create a VPN profile that uses the Pulse Secure connection type.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Then, create a custom configuration policy that associates the VPN profile with specific apps.</source>
+          <target state="new">Then, create a custom configuration policy that associates the VPN profile with specific apps.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>After you deploy the policy to your Android device or user groups, users should start the PulseSecure VPN.</source>
+          <target state="new">After you deploy the policy to your Android device or user groups, users should start the PulseSecure VPN.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PulseSecure will then allow traffic only from the specified apps to use the open VPN connection.</source>
+          <target state="new">PulseSecure will then allow traffic only from the specified apps to use the open VPN connection.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Only the Pulse Secure connection type is supported for this profile.</source>
+          <target state="new">Only the Pulse Secure connection type is supported for this profile.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Step 1: Create a VPN profile</source>
+          <target state="new">Step 1: Create a VPN profile</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Add Policy<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Add Policy<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To select a template for the new policy, expand <bpt id="p1">**</bpt>Android<ept id="p1">**</ept>, and then choose <bpt id="p2">**</bpt>VPN Profile (Android 4 and later)<ept id="p2">**</ept>.</source>
+          <target state="new">To select a template for the new policy, expand <bpt id="p1">**</bpt>Android<ept id="p1">**</ept>, and then choose <bpt id="p2">**</bpt>VPN Profile (Android 4 and later)<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the template, for <bpt id="p1">**</bpt>Connection type<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Pulse Secure<ept id="p2">**</ept>.</source>
+          <target state="new">In the template, for <bpt id="p1">**</bpt>Connection type<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Pulse Secure<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Finish and save the VPN profile.</source>
+          <target state="new">Finish and save the VPN profile.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more details about VPN profiles, see <bpt id="p1">[</bpt>VPN connections<ept id="p1">](../deploy-use/vpn-connections-in-microsoft-intune.md)</ept>.</source>
+          <target state="new">For more details about VPN profiles, see <bpt id="p1">[</bpt>VPN connections<ept id="p1">](../deploy-use/vpn-connections-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Take note of the VPN profile name to use in the next step.</source>
+          <target state="new">Take note of the VPN profile name to use in the next step.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, MyAppVpnProfile.</source>
+          <target state="new">For example, MyAppVpnProfile.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Step 2: Create a custom configuration policy</source>
+          <target state="new">Step 2: Create a custom configuration policy</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the Intune admin console, choose <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Add Policy<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Android<ept id="p3">**</ept><ph id="ph3"> &gt; </ph><bpt id="p4">**</bpt>Custom configuration<ept id="p4">**</ept><ph id="ph4"> &gt; </ph><bpt id="p5">**</bpt>Create Policy<ept id="p5">**</ept>.</source>
+          <target state="new">In the Intune admin console, choose <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Add Policy<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Android<ept id="p3">**</ept><ph id="ph3"> &gt; </ph><bpt id="p4">**</bpt>Custom configuration<ept id="p4">**</ept><ph id="ph4"> &gt; </ph><bpt id="p5">**</bpt>Create Policy<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Enter a name for the policy.</source>
+          <target state="new">Enter a name for the policy.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>OMA-URI settings<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>OMA-URI settings<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Enter a setting name.</source>
+          <target state="new">Enter a setting name.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Data type<ept id="p1">**</ept>, specify <bpt id="p2">**</bpt>String<ept id="p2">**</ept>.</source>
+          <target state="new">For <bpt id="p1">**</bpt>Data type<ept id="p1">**</ept>, specify <bpt id="p2">**</bpt>String<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>OMA-URI<ept id="p1">**</ept>, specify this string: <bpt id="p2">*</bpt><bpt id="p3">*</bpt>./Vendor/MSFT/VPN/Profile/<ept id="p3">*</ept>Name<ept id="p2">*</ept>/PackageList<bpt id="p4">*</bpt><bpt id="p5">*</bpt>, where <ept id="p5">*</ept>Name<ept id="p4">*</ept> is the VPN profile name you noted in Step 1.</source>
+          <target state="new">For <bpt id="p1">**</bpt>OMA-URI<ept id="p1">**</ept>, specify this string: <bpt id="p2">*</bpt><bpt id="p3">*</bpt>./Vendor/MSFT/VPN/Profile/<ept id="p3">*</ept>Name<ept id="p2">*</ept>/PackageList<bpt id="p4">*</bpt><bpt id="p5">*</bpt>, where <ept id="p5">*</ept>Name<ept id="p4">*</ept> is the VPN profile name you noted in Step 1.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In our example, the string would be <bpt id="p1">**</bpt>./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList<ept id="p1">**</ept>.</source>
+          <target state="new">In our example, the string would be <bpt id="p1">**</bpt>./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/PackageList<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Value<ept id="p1">**</ept>, create a semicolon-separated list of packages to associate with the profile.</source>
+          <target state="new">For <bpt id="p1">**</bpt>Value<ept id="p1">**</ept>, create a semicolon-separated list of packages to associate with the profile.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, if you want Excel and the Google Chrome browser to use the VPN connection, enter <bpt id="p1">**</bpt>com.microsoft.office.excel;com.android.chrome<ept id="p1">**</ept>.</source>
+          <target state="new">For example, if you want Excel and the Google Chrome browser to use the VPN connection, enter <bpt id="p1">**</bpt>com.microsoft.office.excel;com.android.chrome<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Example Android per-app VPN custom policy</source>
+          <target state="new">Example Android per-app VPN custom policy</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Set your app list to blacklist or whitelist (optional)</source>
+          <target state="new">Set your app list to blacklist or whitelist (optional)</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can specify a list of apps that <bpt id="p1">*</bpt>cannot<ept id="p1">*</ept> use the VPN connection by using the <bpt id="p2">**</bpt>BLACKLIST<ept id="p2">**</ept> value.</source>
+          <target state="new">You can specify a list of apps that <bpt id="p1">*</bpt>cannot<ept id="p1">*</ept> use the VPN connection by using the <bpt id="p2">**</bpt>BLACKLIST<ept id="p2">**</ept> value.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>All other apps will connect through the VPN.</source>
+          <target state="new">All other apps will connect through the VPN.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the <bpt id="p1">**</bpt>WHITELIST<ept id="p1">**</ept> value to specify a list of apps that <bpt id="p2">*</bpt>can<ept id="p2">*</ept> use the VPN connection.</source>
+          <target state="new">Alternatively, you can use the <bpt id="p1">**</bpt>WHITELIST<ept id="p1">**</ept> value to specify a list of apps that <bpt id="p2">*</bpt>can<ept id="p2">*</ept> use the VPN connection.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Apps that are not on the list will not connect through the VPN.</source>
+          <target state="new">Apps that are not on the list will not connect through the VPN.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>OMA-URI<ept id="p1">**</ept> settings, choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>OMA-URI<ept id="p1">**</ept> settings, choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Enter a setting name.</source>
+          <target state="new">Enter a setting name.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Data type<ept id="p1">**</ept>, specify <bpt id="p2">**</bpt>String<ept id="p2">**</ept>.</source>
+          <target state="new">For <bpt id="p1">**</bpt>Data type<ept id="p1">**</ept>, specify <bpt id="p2">**</bpt>String<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>OMA-URI<ept id="p1">**</ept>, use this string: <bpt id="p2">*</bpt><bpt id="p3">*</bpt>./Vendor/MSFT/VPN/Profile/<ept id="p3">*</ept>Name<ept id="p2">*</ept>/Mode<bpt id="p4">*</bpt><bpt id="p5">*</bpt>, where <ept id="p5">*</ept>Name<ept id="p4">*</ept> is the VPN profile name you noted in Step 1.</source>
+          <target state="new">For <bpt id="p1">**</bpt>OMA-URI<ept id="p1">**</ept>, use this string: <bpt id="p2">*</bpt><bpt id="p3">*</bpt>./Vendor/MSFT/VPN/Profile/<ept id="p3">*</ept>Name<ept id="p2">*</ept>/Mode<bpt id="p4">*</bpt><bpt id="p5">*</bpt>, where <ept id="p5">*</ept>Name<ept id="p4">*</ept> is the VPN profile name you noted in Step 1.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In our example, the string would be <bpt id="p1">**</bpt>./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/Mode<ept id="p1">**</ept>.</source>
+          <target state="new">In our example, the string would be <bpt id="p1">**</bpt>./Vendor/MSFT/VPN/Profile/MyAppVpnProfile/Mode<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Value<ept id="p1">**</ept>, enter <bpt id="p2">**</bpt>BLACKLIST<ept id="p2">**</ept> or <bpt id="p3">**</bpt>WHITELIST<ept id="p3">**</ept>.</source>
+          <target state="new">For <bpt id="p1">**</bpt>Value<ept id="p1">**</ept>, enter <bpt id="p2">**</bpt>BLACKLIST<ept id="p2">**</ept> or <bpt id="p3">**</bpt>WHITELIST<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Step 3: Deploy both policies</source>
+          <target state="new">Step 3: Deploy both policies</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You must deploy <bpt id="p1">*</bpt>both<ept id="p1">*</ept> policies to the <bpt id="p2">*</bpt>same<ept id="p2">*</ept> Intune groups.</source>
+          <target state="new">You must deploy <bpt id="p1">*</bpt>both<ept id="p1">*</ept> policies to the <bpt id="p2">*</bpt>same<ept id="p2">*</ept> Intune groups.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy that you want to deploy, and then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy that you want to deploy, and then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box:</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To deploy the policy<ept id="p1">**</ept>, select one or more groups to deploy the policy to, then choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>To deploy the policy<ept id="p1">**</ept>, select one or more groups to deploy the policy to, then choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To close the dialog box without deploying the policy<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>To close the dialog box without deploying the policy<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A status summary and alerts on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace identify issues with the policy that require your attention.</source>
+          <target state="new">A status summary and alerts on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace identify issues with the policy that require your attention.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A status summary also appears in the <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> workspace.</source>
+          <target state="new">A status summary also appears in the <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> workspace.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

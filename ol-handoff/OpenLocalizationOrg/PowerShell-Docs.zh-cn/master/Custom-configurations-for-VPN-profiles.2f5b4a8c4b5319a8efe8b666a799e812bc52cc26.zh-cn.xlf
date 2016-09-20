@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f6a18318070aa9e7d6dfc27a820d9d8f2054069</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\Custom-configurations-for-VPN-profiles.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b9b3550df9b7bc8b380af8c33c82f26436391390</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b039986d0c8d486b542b10d50b4166194454a9c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Custom configurations for VPN profiles | Microsoft Intune</source>
+          <target state="new">Custom configurations for VPN profiles | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use custom configurations to create VPN profiles in Intune.</source>
+          <target state="new">Use custom configurations to create VPN profiles in Intune.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Custom configurations for VPN profiles</source>
+          <target state="new">Custom configurations for VPN profiles</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Create a custom configuration</source>
+          <target state="new">Create a custom configuration</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use custom configurations to create VPN profiles in Intune.</source>
+          <target state="new">You can use custom configurations to create VPN profiles in Intune.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To create a custom configuration:</source>
+          <target state="new">To create a custom configuration:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the Intune admin console, <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Add Policy<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">*</bpt><ph id="ph3">&lt;Expand platform&gt;</ph><ept id="p3">*</ept><ph id="ph4"> &gt; </ph><bpt id="p4">**</bpt>Custom configuration<ept id="p4">**</ept><ph id="ph5"> &gt; </ph><bpt id="p5">**</bpt>Create Policy<ept id="p5">**</ept>.</source>
+          <target state="new">In the Intune admin console, <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Add Policy<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">*</bpt><ph id="ph3">&lt;Expand platform&gt;</ph><ept id="p3">*</ept><ph id="ph4"> &gt; </ph><bpt id="p4">**</bpt>Custom configuration<ept id="p4">**</ept><ph id="ph5"> &gt; </ph><bpt id="p5">**</bpt>Create Policy<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Provide a name for the policy.</source>
+          <target state="new">Provide a name for the policy.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For each URI setting, choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>, and provide the requested information.</source>
+          <target state="new">For each URI setting, choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>, and provide the requested information.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Here's an example:</source>
+          <target state="new">Here's an example:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>VPN profile custom configuration dialog box</source>
+          <target state="new">VPN profile custom configuration dialog box</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After you've entered all of URI settings, choose <bpt id="p1">**</bpt>Save policy<ept id="p1">**</ept>, and then deploy the policy.</source>
+          <target state="new">After you've entered all of URI settings, choose <bpt id="p1">**</bpt>Save policy<ept id="p1">**</ept>, and then deploy the policy.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Deploy a configuration policy</source>
+          <target state="new">Deploy a configuration policy</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, choose the policy that you want to deploy, and then click <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, choose the policy that you want to deploy, and then click <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box:</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To deploy the policy<ept id="p1">**</ept> - Choose one or more groups to which you want to deploy the policy, and then click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>To deploy the policy<ept id="p1">**</ept> - Choose one or more groups to which you want to deploy the policy, and then click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To close the dialog box without deploying it<ept id="p1">**</ept> - Choose <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>To close the dialog box without deploying it<ept id="p1">**</ept> - Choose <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When you choose a deployed policy, you can view further information about the deployment in the lower part of the policies list.</source>
+          <target state="new">When you choose a deployed policy, you can view further information about the deployment in the lower part of the policies list.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Example of URI settings for a custom VPN profile configuration</source>
+          <target state="new">Example of URI settings for a custom VPN profile configuration</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Here are example entries for URI values to create a custom configuration for a VPN in a fictitious company called Contoso.</source>
+          <target state="new">Here are example entries for URI values to create a custom configuration for a VPN in a fictitious company called Contoso.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, like the data type for each entry, see <bpt id="p1">[</bpt>VPNv2 CSP<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx)</ept>.</source>
+          <target state="new">For more information, like the data type for each entry, see <bpt id="p1">[</bpt>VPNv2 CSP<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Native Contoso VPN (IKEv2): ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Servers</source>
+          <target state="new">Native Contoso VPN (IKEv2): ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Servers</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>vpn.contoso.com ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/NativeProtocolType</source>
+          <target state="new">vpn.contoso.com ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/NativeProtocolType</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Ikev2 ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/RoutingPolicyType</source>
+          <target state="new">Ikev2 ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/RoutingPolicyType</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>SplitTunnel ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/UserMethod</source>
+          <target state="new">SplitTunnel ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/UserMethod</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuration <ph id="ph1">&amp;lt;</ph>EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig"<ph id="ph2">&amp;gt;&amp;lt;</ph>EapMethod<ph id="ph3">&amp;gt;&amp;lt;</ph>Type xmlns="http://www.microsoft.com/provisioning/EapCommon"<ph id="ph4">&amp;gt;</ph>13<ph id="ph5">&amp;lt;</ph>/Type<ph id="ph6">&amp;gt;&amp;lt;</ph>VendorId xmlns="http://www.microsoft.com/provisioning/EapCommon"<ph id="ph7">&amp;gt;</ph>0<ph id="ph8">&amp;lt;</ph>/VendorId<ph id="ph9">&amp;gt;&amp;lt;</ph>VendorType xmlns="http://www.microsoft.com/provisioning/EapCommon"<ph id="ph10">&amp;gt;</ph>0<ph id="ph11">&amp;lt;</ph>/VendorType<ph id="ph12">&amp;gt;&amp;lt;</ph>AuthorId xmlns="http://www.microsoft.com/provisioning/EapCommon"<ph id="ph13">&amp;gt;</ph>0<ph id="ph14">&amp;lt;</ph>/AuthorId<ph id="ph15">&amp;gt;&amp;lt;</ph>/EapMethod<ph id="ph16">&amp;gt;&amp;lt;</ph>Config xmlns="http://www.microsoft.com/provisioning/EapHostConfig"<ph id="ph17">&amp;gt;&amp;lt;</ph>Eap xmlns="http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1"<ph id="ph18">&amp;gt;&amp;lt;</ph>Type<ph id="ph19">&amp;gt;</ph>13<ph id="ph20">&amp;lt;</ph>/Type<ph id="ph21">&amp;gt;&amp;lt;</ph>EapType xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV1"<ph id="ph22">&amp;gt;&amp;lt;</ph>CredentialsSource<ph id="ph23">&amp;gt;&amp;lt;</ph>CertificateStore<ph id="ph24">&amp;gt;&amp;lt;</ph>SimpleCertSelection<ph id="ph25">&amp;gt;</ph>true<ph id="ph26">&amp;lt;</ph>/SimpleCertSelection<ph id="ph27">&amp;gt;&amp;lt;</ph>/CertificateStore<ph id="ph28">&amp;gt;&amp;lt;</ph>/CredentialsSource<ph id="ph29">&amp;gt;&amp;lt;</ph>ServerValidation<ph id="ph30">&amp;gt;&amp;lt;</ph>DisableUserPromptForServerValidation<ph id="ph31">&amp;gt;</ph>false<ph id="ph32">&amp;lt;</ph>/DisableUserPromptForServerValidation<ph id="ph33">&amp;gt;&amp;lt;</ph>ServerNames<ph id="ph34">&amp;gt;&amp;lt;</ph>/ServerNames<ph id="ph35">&amp;gt;&amp;lt;</ph>/ServerValidation<ph id="ph36">&amp;gt;&amp;lt;</ph>DifferentUsername<ph id="ph37">&amp;gt;</ph>false<ph id="ph38">&amp;lt;</ph>/DifferentUsername<ph id="ph39">&amp;gt;&amp;lt;</ph>PerformServerValidation xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV2"<ph id="ph40">&amp;gt;</ph>false<ph id="ph41">&amp;lt;</ph>/PerformServerValidation<ph id="ph42">&amp;gt;&amp;lt;</ph>AcceptServerName xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV2"<ph id="ph43">&amp;gt;</ph>false<ph id="ph44">&amp;lt;</ph>/AcceptServerName<ph id="ph45">&amp;gt;&amp;lt;</ph>/EapType<ph id="ph46">&amp;gt;&amp;lt;</ph>/Eap<ph id="ph47">&amp;gt;&amp;lt;</ph>/Config<ph id="ph48">&amp;gt;&amp;lt;</ph>/EapHostConfig</source>
+          <target state="new">Eap ./Vendor/MSFT/VPNv2/ContosoVPN/NativeProfile/Authentication/Eap/Configuration <ph id="ph1">&amp;lt;</ph>EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig"<ph id="ph2">&amp;gt;&amp;lt;</ph>EapMethod<ph id="ph3">&amp;gt;&amp;lt;</ph>Type xmlns="http://www.microsoft.com/provisioning/EapCommon"<ph id="ph4">&amp;gt;</ph>13<ph id="ph5">&amp;lt;</ph>/Type<ph id="ph6">&amp;gt;&amp;lt;</ph>VendorId xmlns="http://www.microsoft.com/provisioning/EapCommon"<ph id="ph7">&amp;gt;</ph>0<ph id="ph8">&amp;lt;</ph>/VendorId<ph id="ph9">&amp;gt;&amp;lt;</ph>VendorType xmlns="http://www.microsoft.com/provisioning/EapCommon"<ph id="ph10">&amp;gt;</ph>0<ph id="ph11">&amp;lt;</ph>/VendorType<ph id="ph12">&amp;gt;&amp;lt;</ph>AuthorId xmlns="http://www.microsoft.com/provisioning/EapCommon"<ph id="ph13">&amp;gt;</ph>0<ph id="ph14">&amp;lt;</ph>/AuthorId<ph id="ph15">&amp;gt;&amp;lt;</ph>/EapMethod<ph id="ph16">&amp;gt;&amp;lt;</ph>Config xmlns="http://www.microsoft.com/provisioning/EapHostConfig"<ph id="ph17">&amp;gt;&amp;lt;</ph>Eap xmlns="http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1"<ph id="ph18">&amp;gt;&amp;lt;</ph>Type<ph id="ph19">&amp;gt;</ph>13<ph id="ph20">&amp;lt;</ph>/Type<ph id="ph21">&amp;gt;&amp;lt;</ph>EapType xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV1"<ph id="ph22">&amp;gt;&amp;lt;</ph>CredentialsSource<ph id="ph23">&amp;gt;&amp;lt;</ph>CertificateStore<ph id="ph24">&amp;gt;&amp;lt;</ph>SimpleCertSelection<ph id="ph25">&amp;gt;</ph>true<ph id="ph26">&amp;lt;</ph>/SimpleCertSelection<ph id="ph27">&amp;gt;&amp;lt;</ph>/CertificateStore<ph id="ph28">&amp;gt;&amp;lt;</ph>/CredentialsSource<ph id="ph29">&amp;gt;&amp;lt;</ph>ServerValidation<ph id="ph30">&amp;gt;&amp;lt;</ph>DisableUserPromptForServerValidation<ph id="ph31">&amp;gt;</ph>false<ph id="ph32">&amp;lt;</ph>/DisableUserPromptForServerValidation<ph id="ph33">&amp;gt;&amp;lt;</ph>ServerNames<ph id="ph34">&amp;gt;&amp;lt;</ph>/ServerNames<ph id="ph35">&amp;gt;&amp;lt;</ph>/ServerValidation<ph id="ph36">&amp;gt;&amp;lt;</ph>DifferentUsername<ph id="ph37">&amp;gt;</ph>false<ph id="ph38">&amp;lt;</ph>/DifferentUsername<ph id="ph39">&amp;gt;&amp;lt;</ph>PerformServerValidation xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV2"<ph id="ph40">&amp;gt;</ph>false<ph id="ph41">&amp;lt;</ph>/PerformServerValidation<ph id="ph42">&amp;gt;&amp;lt;</ph>AcceptServerName xmlns="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV2"<ph id="ph43">&amp;gt;</ph>false<ph id="ph44">&amp;lt;</ph>/AcceptServerName<ph id="ph45">&amp;gt;&amp;lt;</ph>/EapType<ph id="ph46">&amp;gt;&amp;lt;</ph>/Eap<ph id="ph47">&amp;gt;&amp;lt;</ph>/Config<ph id="ph48">&amp;gt;&amp;lt;</ph>/EapHostConfig</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/ByPassForLocal<ept id="p1">**</ept> True</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/ByPassForLocal<ept id="p1">**</ept> True</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/RememberCredentials<ept id="p1">**</ept> 1</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/RememberCredentials<ept id="p1">**</ept> 1</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/DomainNameInformationList/1/DomainName<ept id="p1">**</ept> Corp.Contoso.com</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/DomainNameInformationList/1/DomainName<ept id="p1">**</ept> Corp.Contoso.com</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/DnsSuffix<ept id="p1">**</ept> Corp.Contoso.com</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/DnsSuffix<ept id="p1">**</ept> Corp.Contoso.com</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/TrustedNetworkDetection<ept id="p1">**</ept> Corp.Contoso.com</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/TrustedNetworkDetection<ept id="p1">**</ept> Corp.Contoso.com</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/RouteList/1/Address<ept id="p1">**</ept> 10.0.0.0</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/RouteList/1/Address<ept id="p1">**</ept> 10.0.0.0</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/RouteList/1/PrefixSize<ept id="p1">**</ept> 8</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/RouteList/1/PrefixSize<ept id="p1">**</ept> 8</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/AlwaysOn<ept id="p1">**</ept> true</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/AlwaysOn<ept id="p1">**</ept> true</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/AppTriggerList/0/App/Id<ept id="p1">**</ept> %PROGRAMFILES%\Internet Explorer\iexplore.exe</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/AppTriggerList/0/App/Id<ept id="p1">**</ept> %PROGRAMFILES%\Internet Explorer\iexplore.exe</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/AppTriggerList/1/App/Id<ept id="p1">**</ept> %PROGRAMFILES% (x86)\Internet Explorer\iexplore.exe</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/AppTriggerList/1/App/Id<ept id="p1">**</ept> %PROGRAMFILES% (x86)\Internet Explorer\iexplore.exe</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/AppTriggerList/2/App/Id<ept id="p1">**</ept> Microsoft.MicrosoftEdge_8wekyb3d8bbwe</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/AppTriggerList/2/App/Id<ept id="p1">**</ept> Microsoft.MicrosoftEdge_8wekyb3d8bbwe</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/TrafficFilterList/0/App/Id<ept id="p1">**</ept> %PROGRAMFILES% (x86)\Internet Explorer\iexplore.exe</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/TrafficFilterList/0/App/Id<ept id="p1">**</ept> %PROGRAMFILES% (x86)\Internet Explorer\iexplore.exe</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/TrafficFilterList/1/App/Id<ept id="p1">**</ept> Microsoft.MicrosoftEdge_8wekyb3d8bbwe</source>
+          <target state="new"><bpt id="p1">**</bpt>./Vendor/MSFT/VPNv2/ContosoVPN/TrafficFilterList/1/App/Id<ept id="p1">**</ept> Microsoft.MicrosoftEdge_8wekyb3d8bbwe</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For any questions about how these settings should be used or more details about what they do, customers should refer to the configuration service provider (CSP) documentation: https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx.</source>
+          <target state="new">For any questions about how these settings should be used or more details about what they do, customers should refer to the configuration service provider (CSP) documentation: https://msdn.microsoft.com/en-us/library/windows/hardware/dn914776(v=vs.85).aspx.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>URI settings for Android per-app VPN on PulseSecure</source>
+          <target state="new">URI settings for Android per-app VPN on PulseSecure</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>CUSTOM URI FOR PACKAGE LIST</source>
+          <target state="new">CUSTOM URI FOR PACKAGE LIST</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Data type = String</source>
+          <target state="new">Data type = String</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>OMA-URI = ./Vendor/MSFT/VPN/Profile/<ph id="ph1">&lt;Name&gt;</ph>/PackageList</source>
+          <target state="new">OMA-URI = ./Vendor/MSFT/VPN/Profile/<ph id="ph1">&lt;Name&gt;</ph>/PackageList</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Value = Delimiter separated package list.</source>
+          <target state="new">Value = Delimiter separated package list.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Delimiters:  semicolon (;), colon (:), comma (,), Pipe (|)</source>
+          <target state="new">Delimiters:  semicolon (;), colon (:), comma (,), Pipe (|)</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Examples:</source>
+          <target state="new">Examples:</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>com.android.chrome</source>
+          <target state="new">com.android.chrome</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>com.android.chrome;com.android.browser</source>
+          <target state="new">com.android.chrome;com.android.browser</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>CUSTOM URI FOR MODE (OPTIONAL)</source>
+          <target state="new">CUSTOM URI FOR MODE (OPTIONAL)</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Data Type = String</source>
+          <target state="new">Data Type = String</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>OMA-URI = ./Vendor/MSFT/VPN/Profile/NAME/Mode</source>
+          <target state="new">OMA-URI = ./Vendor/MSFT/VPN/Profile/NAME/Mode</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="new">Notes</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use the same <bpt id="p1">*</bpt>name<ept id="p1">*</ept> that you assigned to the custom profile</source>
+          <target state="new">Use the same <bpt id="p1">*</bpt>name<ept id="p1">*</ept> that you assigned to the custom profile</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Possible values: <bpt id="p1">*</bpt>GLOBAL<ept id="p1">*</ept>, <bpt id="p2">*</bpt>WHITELIST<ept id="p2">*</ept>, <bpt id="p3">*</bpt>BLACKLIST<ept id="p3">*</ept></source>
+          <target state="new">Possible values: <bpt id="p1">*</bpt>GLOBAL<ept id="p1">*</ept>, <bpt id="p2">*</bpt>WHITELIST<ept id="p2">*</ept>, <bpt id="p3">*</bpt>BLACKLIST<ept id="p3">*</ept></target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Defaults to <bpt id="p1">*</bpt>GLOBAL<ept id="p1">*</ept> if no PackageList is provided (backward compatibility with system-wide profiles)</source>
+          <target state="new">Defaults to <bpt id="p1">*</bpt>GLOBAL<ept id="p1">*</ept> if no PackageList is provided (backward compatibility with system-wide profiles)</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Defaults to <bpt id="p1">*</bpt>WHITELIST<ept id="p1">*</ept> if a PackageList is provided</source>
+          <target state="new">Defaults to <bpt id="p1">*</bpt>WHITELIST<ept id="p1">*</ept> if a PackageList is provided</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>(VPN connections in Microsoft Intune)[vpn-connections-in-microsoft-intune.md]</source>
+          <target state="new">(VPN connections in Microsoft Intune)[vpn-connections-in-microsoft-intune.md]</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

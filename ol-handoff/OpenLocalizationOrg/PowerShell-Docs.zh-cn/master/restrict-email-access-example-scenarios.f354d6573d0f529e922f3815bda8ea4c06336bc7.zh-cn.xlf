@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01f93bb8b09d5d6b0708e84c7498cf03e9225880</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-email-access-example-scenarios.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18872007b0afe4b0a14adee6f1654559d0ca2117</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b8e80f4220ef70eb3ded6a541c2f06d3b95a038</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Restrict access to email example scenarios | Microsoft Intune</source>
+          <target state="new">Restrict access to email example scenarios | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A few example scenarios and how they could be implemented with conditional access.</source>
+          <target state="new">A few example scenarios and how they could be implemented with conditional access.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Restrict access to email with Microsoft Intune: Example scenarios</source>
+          <target state="new">Restrict access to email with Microsoft Intune: Example scenarios</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Block users from using noncompliant devices to access Exchange Online.</source>
+          <target state="new">Block users from using noncompliant devices to access Exchange Online.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Scenario requirements</source>
+          <target state="new">Scenario requirements</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>All users in the <bpt id="p1">**</bpt>Accounting<ept id="p1">**</ept> Active Directory security group must be blocked from accessing Exchange Online if their device is not compliant with a compliance policy you deployed.</source>
+          <target state="new">All users in the <bpt id="p1">**</bpt>Accounting<ept id="p1">**</ept> Active Directory security group must be blocked from accessing Exchange Online if their device is not compliant with a compliance policy you deployed.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If any users exist in this group whose devices are not supported by <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, they must be blocked from accessing Exchange Online on that device.</source>
+          <target state="new">If any users exist in this group whose devices are not supported by <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, they must be blocked from accessing Exchange Online on that device.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Users in the <bpt id="p1">**</bpt>Finance<ept id="p1">**</ept> Active Directory security group must be exempt from the policy, even if they are also in the <bpt id="p2">**</bpt>Accounting<ept id="p2">**</ept> security group.</source>
+          <target state="new">Users in the <bpt id="p1">**</bpt>Finance<ept id="p1">**</ept> Active Directory security group must be exempt from the policy, even if they are also in the <bpt id="p2">**</bpt>Accounting<ept id="p2">**</ept> security group.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To accomplish this, configure a conditional access policy for Exchange Online with the following settings:</source>
+          <target state="new">To accomplish this, configure a conditional access policy for Exchange Online with the following settings:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Enable conditional access policy<ept id="p1">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Enable conditional access policy<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select the platforms that you want to allow access from apps with modern authentication.</source>
+          <target state="new">Select the platforms that you want to allow access from apps with modern authentication.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For Exchange ActiveSync apps, select <bpt id="p1">**</bpt>Block noncompliant devices on platforms supported by Microsoft Intune<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Block all other devices on platforms not supported by Microsoft Intune.<ept id="p2">**</ept></source>
+          <target state="new">For Exchange ActiveSync apps, select <bpt id="p1">**</bpt>Block noncompliant devices on platforms supported by Microsoft Intune<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Block all other devices on platforms not supported by Microsoft Intune.<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Targeted group<ept id="p1">**</ept> section, under <bpt id="p2">**</bpt>Selected security groups<ept id="p2">**</ept> choose the <bpt id="p3">**</bpt>Accounting<ept id="p3">**</ept> user group.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Targeted group<ept id="p1">**</ept> section, under <bpt id="p2">**</bpt>Selected security groups<ept id="p2">**</ept> choose the <bpt id="p3">**</bpt>Accounting<ept id="p3">**</ept> user group.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Exempted group<ept id="p1">**</ept> section, under <bpt id="p2">**</bpt>Selected security groups<ept id="p2">**</ept> choose the  <bpt id="p3">**</bpt>Finance<ept id="p3">**</ept> user group.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Exempted group<ept id="p1">**</ept> section, under <bpt id="p2">**</bpt>Selected security groups<ept id="p2">**</ept> choose the  <bpt id="p3">**</bpt>Finance<ept id="p3">**</ept> user group.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following flow is used to decide which devices can access Exchange Online:</source>
+          <target state="new">The following flow is used to decide which devices can access Exchange Online:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Device access flow</source>
+          <target state="new">Device access flow</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>All iOS devices that access Exchange on-premises must be managed by Intune</source>
+          <target state="new">All iOS devices that access Exchange on-premises must be managed by Intune</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Scenario requirements</source>
+          <target state="new">Scenario requirements</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Only devices that run iOS should allowed access to Exchange on-premises.</source>
+          <target state="new">Only devices that run iOS should allowed access to Exchange on-premises.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The devices must also be enrolled in Intune and meet the compliance policy rules before they can be used to access Exchange.</source>
+          <target state="new">The devices must also be enrolled in Intune and meet the compliance policy rules before they can be used to access Exchange.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To accomplish this, configure the following conditional access policy for Exchange on-premises with the following settings:</source>
+          <target state="new">To accomplish this, configure the following conditional access policy for Exchange on-premises with the following settings:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select the option <bpt id="p1">**</bpt>Block email apps from accessing Exchange on-premises if the device in noncompliant or not enrolled in Microsoft Intune<ept id="p1">**</ept>.</source>
+          <target state="new">Select the option <bpt id="p1">**</bpt>Block email apps from accessing Exchange on-premises if the device in noncompliant or not enrolled in Microsoft Intune<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>By selecting this option, the conditional access policy is enabled, which requires that all devices must be enrolled in Microsoft Intune and meet the compliancy policy rules before they can access Exchange.</source>
+          <target state="new">By selecting this option, the conditional access policy is enabled, which requires that all devices must be enrolled in Microsoft Intune and meet the compliancy policy rules before they can access Exchange.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For advanced Exchange Active Sync settings, create a:</source>
+          <target state="new">For advanced Exchange Active Sync settings, create a:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A platform exception that allows devices that run iOS to access Exchange.</source>
+          <target state="new">A platform exception that allows devices that run iOS to access Exchange.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A default rule that specifies when a device is not covered by the platform exception rule, it should be blocked from accessing Exchange.</source>
+          <target state="new">A default rule that specifies when a device is not covered by the platform exception rule, it should be blocked from accessing Exchange.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This rule makes sure that devices not running iOS are blocked from accessing Exchange.</source>
+          <target state="new">This rule makes sure that devices not running iOS are blocked from accessing Exchange.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The following flow is used to decide which devices can access Exchange:</source>
+          <target state="new">The following flow is used to decide which devices can access Exchange:</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Device access flow</source>
+          <target state="new">Device access flow</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>No Android devices can access Exchange on-premises.</source>
+          <target state="new">No Android devices can access Exchange on-premises.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Scenario requirements</source>
+          <target state="new">Scenario requirements</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>All Android devices should blocked from accessing Exchange.</source>
+          <target state="new">All Android devices should blocked from accessing Exchange.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>All other supported devices can access Exchange as long as they are managed by <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</source>
+          <target state="new">All other supported devices can access Exchange as long as they are managed by <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To accomplish this, configure a conditional access policy for Exchange on-premises with the following settings:</source>
+          <target state="new">To accomplish this, configure a conditional access policy for Exchange on-premises with the following settings:</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Select the option <bpt id="p1">**</bpt>Block email apps from accessing Exchange on-premises if the device is noncompliant or not enrolled in Microsoft Intune<ept id="p1">**</ept>.</source>
+          <target state="new">Select the option <bpt id="p1">**</bpt>Block email apps from accessing Exchange on-premises if the device is noncompliant or not enrolled in Microsoft Intune<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>By selecting this option, they require that any device must be enrolled in Intune and meet the compliance policy rules.</source>
+          <target state="new">By selecting this option, they require that any device must be enrolled in Intune and meet the compliance policy rules.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For advanced Exchange Active Sync settings, create a:</source>
+          <target state="new">For advanced Exchange Active Sync settings, create a:</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Platform exception that blocks devices that run Android from accessing Exchange.</source>
+          <target state="new">Platform exception that blocks devices that run Android from accessing Exchange.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This rule makes sure that Android devices cannot be used to access Exchange.</source>
+          <target state="new">This rule makes sure that Android devices cannot be used to access Exchange.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Default rule that specifies when a device is not covered by other rules, it should be allowed to access Exchange.</source>
+          <target state="new">Default rule that specifies when a device is not covered by other rules, it should be allowed to access Exchange.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This default rule makes sure that devices running platforms other than Android, but supported by Microsoft Intune can be used to access Exchange.</source>
+          <target state="new">This default rule makes sure that devices running platforms other than Android, but supported by Microsoft Intune can be used to access Exchange.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>They must however be enrolled in Intune and meet the compliance policy rules.</source>
+          <target state="new">They must however be enrolled in Intune and meet the compliance policy rules.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The following flow is used to decide which devices can access Exchange:</source>
+          <target state="new">The following flow is used to decide which devices can access Exchange:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Device access flow</source>
+          <target state="new">Device access flow</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
