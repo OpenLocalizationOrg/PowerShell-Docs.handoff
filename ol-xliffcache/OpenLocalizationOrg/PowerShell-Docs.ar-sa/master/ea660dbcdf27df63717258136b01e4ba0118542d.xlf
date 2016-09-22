@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ar-sa">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea660dbcdf27df63717258136b01e4ba0118542d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\validate-port-mirroring.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0cb7ffd8d1e01ce2dc83216dfd96c7ddd02a99a9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b512b4ff6fb1eaf034ab9b740004ac8a514b19a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Validate Port Mirroring | Microsoft ATA</source>
+          <target state="new">Validate Port Mirroring | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Describes how to validate that port mirroring is configured correctly</source>
+          <target state="new">Describes how to validate that port mirroring is configured correctly</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies to: Advanced Threat Analytics version 1.7</source>
+          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Validate Port Mirroring</source>
+          <target state="new">Validate Port Mirroring</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This article is relevant only if you deploy ATA Gateways instead of ATA Lightweight Gateways.</source>
+          <target state="new">This article is relevant only if you deploy ATA Gateways instead of ATA Lightweight Gateways.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To determine if you need to use ATA Gateways, see <bpt id="p1">[</bpt>Choosing the right gateways for your deployment<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning#choosing-the-right-gateway-type-for-your-deployment)</ept>.</source>
+          <target state="new">To determine if you need to use ATA Gateways, see <bpt id="p1">[</bpt>Choosing the right gateways for your deployment<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning#choosing-the-right-gateway-type-for-your-deployment)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following steps walk you through the process for validating that port mirroring is properly configured.</source>
+          <target state="new">The following steps walk you through the process for validating that port mirroring is properly configured.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For ATA to work properly, the ATA Gateway must be able to see the traffic to and from the domain controller.</source>
+          <target state="new">For ATA to work properly, the ATA Gateway must be able to see the traffic to and from the domain controller.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The main data source used by ATA is deep packet inspection of the network traffic to and from your domain controllers.</source>
+          <target state="new">The main data source used by ATA is deep packet inspection of the network traffic to and from your domain controllers.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For ATA to see the network traffic, port mirroring needs to be configured.</source>
+          <target state="new">For ATA to see the network traffic, port mirroring needs to be configured.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Port mirroring copies the traffic from one port (the source port) to another port (the destination port).</source>
+          <target state="new">Port mirroring copies the traffic from one port (the source port) to another port (the destination port).</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Validate port mirroring using a Windows PowerShell script</source>
+          <target state="new">Validate port mirroring using a Windows PowerShell script</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Save the text of this script into a file called <bpt id="p1">*</bpt>ATAdiag.ps1<ept id="p1">*</ept>.</source>
+          <target state="new">Save the text of this script into a file called <bpt id="p1">*</bpt>ATAdiag.ps1<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Run this script on the ATA Gateway that you want to validate.</source>
+          <target state="new">Run this script on the ATA Gateway that you want to validate.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The script generates ICMP traffic from the ATA Gateway to the domain controller and looks for that traffic on the Capture NIC on the domain controller.</source>
+          <target state="new">The script generates ICMP traffic from the ATA Gateway to the domain controller and looks for that traffic on the Capture NIC on the domain controller.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the ATA Gateway sees ICMP traffic with a destination IP address the same as the DC IP addressed you entered in the ATA Console, it deems port mirroring configured.</source>
+          <target state="new">If the ATA Gateway sees ICMP traffic with a destination IP address the same as the DC IP addressed you entered in the ATA Console, it deems port mirroring configured.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Sample for how to run the script:</source>
+          <target state="new">Sample for how to run the script:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Validate port mirroring using Net Mon</source>
+          <target state="new">Validate port mirroring using Net Mon</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Install <bpt id="p1">[</bpt>Microsoft Network Monitor 3.4<ept id="p1">](http://www.microsoft.com/download/details.aspx?id=4865)</ept> on the ATA Gateway that you want to validate..</source>
+          <target state="new">Install <bpt id="p1">[</bpt>Microsoft Network Monitor 3.4<ept id="p1">](http://www.microsoft.com/download/details.aspx?id=4865)</ept> on the ATA Gateway that you want to validate..</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Do not install Microsoft Message Analyzer, or any other traffic capture software on the ATA Gateway.</source>
+          <target state="new">Do not install Microsoft Message Analyzer, or any other traffic capture software on the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Open Network Monitor and create a new capture tab.</source>
+          <target state="new">Open Network Monitor and create a new capture tab.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select only the <bpt id="p1">**</bpt>Capture<ept id="p1">**</ept> network adapter or the network adapter that is connected to the switch port that is configured as the port mirroring destination.</source>
+          <target state="new">Select only the <bpt id="p1">**</bpt>Capture<ept id="p1">**</ept> network adapter or the network adapter that is connected to the switch port that is configured as the port mirroring destination.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Ensure that P-Mode is enabled.</source>
+          <target state="new">Ensure that P-Mode is enabled.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>New Capture<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>New Capture<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Create new capture tab image</source>
+          <target state="new">Create new capture tab image</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the Display Filter window, enter the following filter: <bpt id="p1">**</bpt>KerberosV5 OR LDAP<ept id="p1">**</ept> and then click <bpt id="p2">**</bpt>Apply<ept id="p2">**</ept>.</source>
+          <target state="new">In the Display Filter window, enter the following filter: <bpt id="p1">**</bpt>KerberosV5 OR LDAP<ept id="p1">**</ept> and then click <bpt id="p2">**</bpt>Apply<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Apply KerberosV5 or LDAP filter image</source>
+          <target state="new">Apply KerberosV5 or LDAP filter image</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> to start the capture session.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> to start the capture session.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you do not see traffic to and from the domain controller, review your port mirroring configuration.</source>
+          <target state="new">If you do not see traffic to and from the domain controller, review your port mirroring configuration.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Start capture session image</source>
+          <target state="new">Start capture session image</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It is important to make sure you see traffic to and from the domain controllers.</source>
+          <target state="new">It is important to make sure you see traffic to and from the domain controllers.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you only see traffic in one direction, you should work with your networking or virtualization teams to help troubleshoot your port mirroring configuration.</source>
+          <target state="new">If you only see traffic in one direction, you should work with your networking or virtualization teams to help troubleshoot your port mirroring configuration.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Configure port mirroring</source>
+          <target state="new">Configure port mirroring</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Check out the ATA forum!</source>
+          <target state="new">Check out the ATA forum!</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
