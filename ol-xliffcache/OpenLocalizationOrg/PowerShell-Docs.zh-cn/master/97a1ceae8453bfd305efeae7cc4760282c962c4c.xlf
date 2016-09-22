@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97a1ceae8453bfd305efeae7cc4760282c962c4c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-technical-faq.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c349b747253cc9b4a1114d1c505bc05281163939</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2f78b5a81b6e7b206034bc84f634eb8131f0846</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>ATA Frequently asked questions | Microsoft ATA</source>
+          <target state="new">ATA Frequently asked questions | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Provides a list of frequently asked questions about ATA and the associated answers</source>
+          <target state="new">Provides a list of frequently asked questions about ATA and the associated answers</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies to: Advanced Threat Analytics version 1.7</source>
+          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>ATA frequently asked questions</source>
+          <target state="new">ATA frequently asked questions</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This article provides a list of frequently asked questions about ATA and provides insight and answers.</source>
+          <target state="new">This article provides a list of frequently asked questions about ATA and provides insight and answers.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How is ATA licensed?</source>
+          <target state="new">How is ATA licensed?</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For licensing information, see <bpt id="p1">[</bpt>How to buy Advanced Threat Analytics<ept id="p1">](https://www.microsoft.com/cloud-platform/advanced-threat-analytics-pricing)</ept></source>
+          <target state="new">For licensing information, see <bpt id="p1">[</bpt>How to buy Advanced Threat Analytics<ept id="p1">](https://www.microsoft.com/cloud-platform/advanced-threat-analytics-pricing)</ept></target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What should I do if the ATA Gateway won’t start?</source>
+          <target state="new">What should I do if the ATA Gateway won’t start?</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Look at the most recent error in the current error log (Where ATA is installed under the "Logs" folder).</source>
+          <target state="new">Look at the most recent error in the current error log (Where ATA is installed under the "Logs" folder).</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>How can I test ATA?</source>
+          <target state="new">How can I test ATA?</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can simulate suspicious activities which is an end to end test by doing one of the following:</source>
+          <target state="new">You can simulate suspicious activities which is an end to end test by doing one of the following:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DNS reconnaissance by using Nslookup.exe</source>
+          <target state="new">DNS reconnaissance by using Nslookup.exe</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Remote execution by using psexec.exe</source>
+          <target state="new">Remote execution by using psexec.exe</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This needs to run remotely against the domain controller being monitored and not from the ATA Gateway.</source>
+          <target state="new">This needs to run remotely against the domain controller being monitored and not from the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>How do I verify Windows Event Forwarding?</source>
+          <target state="new">How do I verify Windows Event Forwarding?</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can place the the following code into a file and then execute it from a command prompt in the directory:  <bpt id="p1">**</bpt>\Program Files\Microsoft Advanced Threat Analytics\Center\MongoDB\bin<ept id="p1">**</ept> as follows:</source>
+          <target state="new">You can place the the following code into a file and then execute it from a command prompt in the directory:  <bpt id="p1">**</bpt>\Program Files\Microsoft Advanced Threat Analytics\Center\MongoDB\bin<ept id="p1">**</ept> as follows:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>mongo.exe ATA filename</source>
+          <target state="new">mongo.exe ATA filename</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Does ATA work with encrypted traffic?</source>
+          <target state="new">Does ATA work with encrypted traffic?</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>ATA relies on analyzing multiple network protocols, as well as events collected from the SIEM or via Windows Event Forwarding so that even though encrypted traffic will not be analyzed (for example, LDAPS and IPSEC ESP) ATA will still work and most of the detections will not be affected</source>
+          <target state="new">ATA relies on analyzing multiple network protocols, as well as events collected from the SIEM or via Windows Event Forwarding so that even though encrypted traffic will not be analyzed (for example, LDAPS and IPSEC ESP) ATA will still work and most of the detections will not be affected</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Does ATA work with Kerberos Armoring?</source>
+          <target state="new">Does ATA work with Kerberos Armoring?</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Enabling Kerberos Armoring, also known as Flexible Authentication Secure Tunneling (FAST), is supported by ATA, with the exception of over-pass the hash detection which will not work.</source>
+          <target state="new">Enabling Kerberos Armoring, also known as Flexible Authentication Secure Tunneling (FAST), is supported by ATA, with the exception of over-pass the hash detection which will not work.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>How many ATA Gateways do I need?</source>
+          <target state="new">How many ATA Gateways do I need?</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The number of ATA Gateways depend on your network layout, volume of packets and volume of events captured by ATA.</source>
+          <target state="new">The number of ATA Gateways depend on your network layout, volume of packets and volume of events captured by ATA.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To determine the exact number, see <bpt id="p1">[</bpt>ATA Lightweight Gateway Sizing<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning#ata-lightweight-gateway-sizing)</ept>.</source>
+          <target state="new">To determine the exact number, see <bpt id="p1">[</bpt>ATA Lightweight Gateway Sizing<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning#ata-lightweight-gateway-sizing)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>How much storage do I need for ATA?</source>
+          <target state="new">How much storage do I need for ATA?</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For every one full day with an average of 1000 packets/sec you need 0.3 GB of storage.</source>
+          <target state="new">For every one full day with an average of 1000 packets/sec you need 0.3 GB of storage.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information about ATA Center sizing see, <bpt id="p1">[</bpt>ATA Capacity Planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept>.</source>
+          <target state="new">For more information about ATA Center sizing see, <bpt id="p1">[</bpt>ATA Capacity Planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Why are certain accounts considered sensitive?</source>
+          <target state="new">Why are certain accounts considered sensitive?</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This happens when an account is a member of certain groups which we designate as sensitive (for example: "Domain Admins").</source>
+          <target state="new">This happens when an account is a member of certain groups which we designate as sensitive (for example: "Domain Admins").</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To understand why an account is sensitive you can review its group membership to understand which sensitive groups it belongs to (the group that it belongs to can also be sensitive due to another group, so the same process should be performed until you locate the highest level sensitive group).</source>
+          <target state="new">To understand why an account is sensitive you can review its group membership to understand which sensitive groups it belongs to (the group that it belongs to can also be sensitive due to another group, so the same process should be performed until you locate the highest level sensitive group).</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>How do I monitor a virtual domain controller using ATA?</source>
+          <target state="new">How do I monitor a virtual domain controller using ATA?</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Most virtual domain controllers can be covered by the ATA Lightweight Gateway, to determine whether the ATA Lightweight Gateway is appropriate for your environment, see <bpt id="p1">[</bpt>ATA Capacity Planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept>.</source>
+          <target state="new">Most virtual domain controllers can be covered by the ATA Lightweight Gateway, to determine whether the ATA Lightweight Gateway is appropriate for your environment, see <bpt id="p1">[</bpt>ATA Capacity Planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If a virtual domain controller can't be covered by the ATA Lightweight Gateway, you can have either a virtual or physical ATA Gateways as described in <bpt id="p1">[</bpt>Configure port mirroring<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-port-mirroring)</ept>.</source>
+          <target state="new">If a virtual domain controller can't be covered by the ATA Lightweight Gateway, you can have either a virtual or physical ATA Gateways as described in <bpt id="p1">[</bpt>Configure port mirroring<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-port-mirroring)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The easiest way is to have a virtual ATA Gateway on every host where a virtual domain controller exists.</source>
+          <target state="new">The easiest way is to have a virtual ATA Gateway on every host where a virtual domain controller exists.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If your virtual domain controllers move between hosts, you need to perform one of the following:</source>
+          <target state="new">If your virtual domain controllers move between hosts, you need to perform one of the following:</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When the virtual domain controller moves to another host, preconfigure the ATA Gateway in that host to receive the traffic from the recently moved virtual domain controller.</source>
+          <target state="new">When the virtual domain controller moves to another host, preconfigure the ATA Gateway in that host to receive the traffic from the recently moved virtual domain controller.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Make sure that you affiliate the virtual ATA Gateway with the virtual domain controller so that if it is moved, the ATA Gateway moves with it.</source>
+          <target state="new">Make sure that you affiliate the virtual ATA Gateway with the virtual domain controller so that if it is moved, the ATA Gateway moves with it.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>There are some virtual switches that can send traffic between hosts.</source>
+          <target state="new">There are some virtual switches that can send traffic between hosts.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>How do I back up ATA?</source>
+          <target state="new">How do I back up ATA?</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>There are 2 things to back up:</source>
+          <target state="new">There are 2 things to back up:</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The traffic and events stored by ATA, which can be backed using any supported database backup procedure, for more information see <bpt id="p1">[</bpt>ATA database management<ept id="p1">](/advanced-threat-analytics/deploy-use/ata-database-management)</ept>.</source>
+          <target state="new">The traffic and events stored by ATA, which can be backed using any supported database backup procedure, for more information see <bpt id="p1">[</bpt>ATA database management<ept id="p1">](/advanced-threat-analytics/deploy-use/ata-database-management)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The configuration of ATA.</source>
+          <target state="new">The configuration of ATA.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This is stored in the database and is automatically backed up every hour in the <bpt id="p1">**</bpt>Backup<ept id="p1">**</ept> folder in the ATA Center deployment location.</source>
+          <target state="new">This is stored in the database and is automatically backed up every hour in the <bpt id="p1">**</bpt>Backup<ept id="p1">**</ept> folder in the ATA Center deployment location.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>ATA database management<ept id="p1">](https://docs.microsoft.com/en-us/advanced-threat-analytics/deploy-use/ata-database-management)</ept> for more information.</source>
+          <target state="new">See <bpt id="p1">[</bpt>ATA database management<ept id="p1">](https://docs.microsoft.com/en-us/advanced-threat-analytics/deploy-use/ata-database-management)</ept> for more information.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>What can ATA detect?</source>
+          <target state="new">What can ATA detect?</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>ATA detects known malicious attacks and techniques, security issues, and risks.</source>
+          <target state="new">ATA detects known malicious attacks and techniques, security issues, and risks.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For the full list of ATA detections, see <bpt id="p1">[</bpt>What detections does ATA perform?<ept id="p1">](ata-threats.md)</ept>.</source>
+          <target state="new">For the full list of ATA detections, see <bpt id="p1">[</bpt>What detections does ATA perform?<ept id="p1">](ata-threats.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>What kind of storage do I need for ATA?</source>
+          <target state="new">What kind of storage do I need for ATA?</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>We recommend fast storage (7200 RPM disks are not recommended) with low latency disk access (less than 10 ms).</source>
+          <target state="new">We recommend fast storage (7200 RPM disks are not recommended) with low latency disk access (less than 10 ms).</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The RAID configuration should support heavy write loads (RAID-5/6 and their derivatives are not recommended).</source>
+          <target state="new">The RAID configuration should support heavy write loads (RAID-5/6 and their derivatives are not recommended).</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>How many NICs does the ATA Gateway require?</source>
+          <target state="new">How many NICs does the ATA Gateway require?</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The ATA Gateway needs a minimum of two network adapters:</source>
+          <target state="new">The ATA Gateway needs a minimum of two network adapters:</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>1. A NIC to connect to the internal network and the ATA Center</source>
+          <target state="new">1. A NIC to connect to the internal network and the ATA Center</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>2. A NIC that will be used to capture the domain controller network traffic via port mirroring.</source>
+          <target state="new">2. A NIC that will be used to capture the domain controller network traffic via port mirroring.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>* This does not apply to the ATA Lightweight Gateway, which natively uses all of the network adapters that the domain controller uses.</source>
+          <target state="new">* This does not apply to the ATA Lightweight Gateway, which natively uses all of the network adapters that the domain controller uses.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>What kind of integration does ATA have with SIEMs?</source>
+          <target state="new">What kind of integration does ATA have with SIEMs?</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>ATA has a bi-directional integration with SIEMs as follows:</source>
+          <target state="new">ATA has a bi-directional integration with SIEMs as follows:</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>ATA can be configured to send a Syslog alert in the event of a suspicious activity to any SIEM server using the CEF format.</source>
+          <target state="new">ATA can be configured to send a Syslog alert in the event of a suspicious activity to any SIEM server using the CEF format.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>ATA can be configured to receive Syslog messages for each Windows event with the ID 4776, from  <bpt id="p1">[</bpt>these SIEMs<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection#siem-support)</ept>.</source>
+          <target state="new">ATA can be configured to receive Syslog messages for each Windows event with the ID 4776, from  <bpt id="p1">[</bpt>these SIEMs<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection#siem-support)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Can ATA monitor domain controllers virtualized on your IaaS solution?</source>
+          <target state="new">Can ATA monitor domain controllers virtualized on your IaaS solution?</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Yes, you can use the ATA Lightweight Gateway to monitor domain controllers that are in any IaaS solution.</source>
+          <target state="new">Yes, you can use the ATA Lightweight Gateway to monitor domain controllers that are in any IaaS solution.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Is this an on-premises or in-cloud offering?</source>
+          <target state="new">Is this an on-premises or in-cloud offering?</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Microsoft Advanced Threat Analytics is an on-premises product.</source>
+          <target state="new">Microsoft Advanced Threat Analytics is an on-premises product.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Is this going to be a part of Azure Active Directory or on-premises Active Directory?</source>
+          <target state="new">Is this going to be a part of Azure Active Directory or on-premises Active Directory?</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This solution is currently a standalone offering—it is not a part of Azure Active Directory or on-premises Active Directory.</source>
+          <target state="new">This solution is currently a standalone offering—it is not a part of Azure Active Directory or on-premises Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Do you have to write your own rules and create a threshold/baseline?</source>
+          <target state="new">Do you have to write your own rules and create a threshold/baseline?</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>With Microsoft Advanced Threat Analytics, there is no need to create rules, thresholds, or baselines and then fine-tune.</source>
+          <target state="new">With Microsoft Advanced Threat Analytics, there is no need to create rules, thresholds, or baselines and then fine-tune.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>ATA analyzes the behaviors among users, devices, and resources—as well as their relationship to one another—and can detect suspicious activity and known attacks fast.</source>
+          <target state="new">ATA analyzes the behaviors among users, devices, and resources—as well as their relationship to one another—and can detect suspicious activity and known attacks fast.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Three weeks after deployment, ATA starts to detect behavioral suspicious activities.</source>
+          <target state="new">Three weeks after deployment, ATA starts to detect behavioral suspicious activities.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>On the other hand, ATA will start detecting known malicious attacks and security issues immediately after deployment.</source>
+          <target state="new">On the other hand, ATA will start detecting known malicious attacks and security issues immediately after deployment.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If you are already breached, will Microsoft Advanced Threat Analytics be able to identify abnormal behavior?</source>
+          <target state="new">If you are already breached, will Microsoft Advanced Threat Analytics be able to identify abnormal behavior?</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Yes, even when ATA is installed after you have been breached, ATA can still detect suspicious activities of the hacker.</source>
+          <target state="new">Yes, even when ATA is installed after you have been breached, ATA can still detect suspicious activities of the hacker.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>ATA is not only looking at the user’s behavior but also against the other users in the organization security map.</source>
+          <target state="new">ATA is not only looking at the user’s behavior but also against the other users in the organization security map.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>During the initial analysis time, if the attacker’s behavior is abnormal, then it is identified as an “outlier” and ATA keeps reporting on the abnormal behavior.</source>
+          <target state="new">During the initial analysis time, if the attacker’s behavior is abnormal, then it is identified as an “outlier” and ATA keeps reporting on the abnormal behavior.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Additionally ATA can detect the suspicious activity if the hacker attempts to steal another users credentials, such as Pass-the-Ticket, or attempts to perform a remote execution on one of the domain controllers.</source>
+          <target state="new">Additionally ATA can detect the suspicious activity if the hacker attempts to steal another users credentials, such as Pass-the-Ticket, or attempts to perform a remote execution on one of the domain controllers.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Does this only leverage traffic from Active Directory?</source>
+          <target state="new">Does this only leverage traffic from Active Directory?</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>In addition to analyzing Active Directory traffic using deep packet inspection technology, ATA can also collect relevant events from your Security Information and Event Management (SIEM) and create entity profiles based on information from Active Directory Domain Services.</source>
+          <target state="new">In addition to analyzing Active Directory traffic using deep packet inspection technology, ATA can also collect relevant events from your Security Information and Event Management (SIEM) and create entity profiles based on information from Active Directory Domain Services.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>ATA can also collect events from the event logs if the organization configures Windows Event Log forwarding.</source>
+          <target state="new">ATA can also collect events from the event logs if the organization configures Windows Event Log forwarding.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>What is port mirroring?</source>
+          <target state="new">What is port mirroring?</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Also known as SPAN (Switched Port Analyzer), port mirroring is a method of monitoring network traffic.</source>
+          <target state="new">Also known as SPAN (Switched Port Analyzer), port mirroring is a method of monitoring network traffic.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>With port mirroring enabled, the switch sends a copy of all network packets seen on one port (or an entire VLAN) to another port, where the packet can be analyzed.</source>
+          <target state="new">With port mirroring enabled, the switch sends a copy of all network packets seen on one port (or an entire VLAN) to another port, where the packet can be analyzed.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Does ATA monitor only domain-joined devices?</source>
+          <target state="new">Does ATA monitor only domain-joined devices?</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target state="new">No.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>ATA monitors all devices in the network performing authentication and authorization requests against Active Directory, including non-Windows and mobile devices.</source>
+          <target state="new">ATA monitors all devices in the network performing authentication and authorization requests against Active Directory, including non-Windows and mobile devices.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Does ATA monitor computer accounts as well as user accounts?</source>
+          <target state="new">Does ATA monitor computer accounts as well as user accounts?</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Yes.</source>
+          <target state="new">Yes.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Since computer accounts (as well as any other entities) can be used to perform malicious activities ATA monitors all computer accounts behavior and all other entities in the environment.</source>
+          <target state="new">Since computer accounts (as well as any other entities) can be used to perform malicious activities ATA monitors all computer accounts behavior and all other entities in the environment.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Can ATA support multi-domain and multi-forest?</source>
+          <target state="new">Can ATA support multi-domain and multi-forest?</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Microsoft Advanced Threat Analytics supports multi-domain environments within the same forest boundary.</source>
+          <target state="new">Microsoft Advanced Threat Analytics supports multi-domain environments within the same forest boundary.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Multiple forests require an ATA deployment for each forest.</source>
+          <target state="new">Multiple forests require an ATA deployment for each forest.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Can you see the overall health of the deployment?</source>
+          <target state="new">Can you see the overall health of the deployment?</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Yes, you can view the overall health of the deployment as well as specific issues related to configuration, connectivity etc., and you will be alerted as they occur.</source>
+          <target state="new">Yes, you can view the overall health of the deployment as well as specific issues related to configuration, connectivity etc., and you will be alerted as they occur.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>ATA prerequisites</source>
+          <target state="new">ATA prerequisites</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>ATA capacity planning</source>
+          <target state="new">ATA capacity planning</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Configure event collection</source>
+          <target state="new">Configure event collection</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Configuring Windows event forwarding</source>
+          <target state="new">Configuring Windows event forwarding</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Check out the ATA forum!</source>
+          <target state="new">Check out the ATA forum!</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

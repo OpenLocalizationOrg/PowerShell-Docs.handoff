@@ -1,0 +1,1203 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4e4c455f09d5f14e48bcd84c33f375dce325d60b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-prerequisites.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54e54b3eacf9e4638e74285cd7122cd7d4f3e3ca</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">34dd19d9267d832ceebc533da0064f4cad56d27b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>ATA Prerequisites | Microsoft ATA</source>
+          <target state="new">ATA Prerequisites | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Describes the requirements for a successful deployment of ATA in your environment</source>
+          <target state="new">Describes the requirements for a successful deployment of ATA in your environment</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies to: Advanced Threat Analytics version 1.7</source>
+          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>ATA Prerequisites</source>
+          <target state="new">ATA Prerequisites</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This article describes the requirements for a successful deployment of ATA in your environment.</source>
+          <target state="new">This article describes the requirements for a successful deployment of ATA in your environment.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For information on how to plan resources and capacity, see <bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](ata-capacity-planning.md)</ept>.</source>
+          <target state="new">For information on how to plan resources and capacity, see <bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](ata-capacity-planning.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>ATA is comprised of the ATA Center, the ATA Gateway and/or the ATA Lightweight Gateway.</source>
+          <target state="new">ATA is comprised of the ATA Center, the ATA Gateway and/or the ATA Lightweight Gateway.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information about the ATA components, see <bpt id="p1">[</bpt>ATA architecture<ept id="p1">](ata-architecture.md)</ept>.</source>
+          <target state="new">For more information about the ATA components, see <bpt id="p1">[</bpt>ATA architecture<ept id="p1">](ata-architecture.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The ATA System works on active directory forest boundary and supports Forest Functional Level (FFL) of Windows 2003 and above.</source>
+          <target state="new">The ATA System works on active directory forest boundary and supports Forest Functional Level (FFL) of Windows 2003 and above.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Before you start<ept id="p1">](#before-you-start)</ept>: This section lists information you should gather and accounts and network entities you should have before starting ATA installation.</source>
+          <target state="new"><bpt id="p1">[</bpt>Before you start<ept id="p1">](#before-you-start)</ept>: This section lists information you should gather and accounts and network entities you should have before starting ATA installation.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>ATA Center<ept id="p1">](#ata-center-requirements)</ept>: This section lists ATA Center hardware, software requirements as well as settings  you need to configure on your ATA Center server.</source>
+          <target state="new"><bpt id="p1">[</bpt>ATA Center<ept id="p1">](#ata-center-requirements)</ept>: This section lists ATA Center hardware, software requirements as well as settings  you need to configure on your ATA Center server.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>ATA Gateway<ept id="p1">](#ata-gateway-requirements)</ept>: This section lists ATA Gateway hardware, software requirements as well as settings  you need to configure on your ATA Gateway servers.</source>
+          <target state="new"><bpt id="p1">[</bpt>ATA Gateway<ept id="p1">](#ata-gateway-requirements)</ept>: This section lists ATA Gateway hardware, software requirements as well as settings  you need to configure on your ATA Gateway servers.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>ATA Lightweight Gateway<ept id="p1">](#ata-lightweight-gateway-requirements)</ept>: This section lists ATA Lightweight Gateway hardware, and software requirements.</source>
+          <target state="new"><bpt id="p1">[</bpt>ATA Lightweight Gateway<ept id="p1">](#ata-lightweight-gateway-requirements)</ept>: This section lists ATA Lightweight Gateway hardware, and software requirements.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>ATA Console<ept id="p1">](#ata-console)</ept>: This section lists browser requirements for running the ATA Console.</source>
+          <target state="new"><bpt id="p1">[</bpt>ATA Console<ept id="p1">](#ata-console)</ept>: This section lists browser requirements for running the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>ATA architecture diagram</source>
+          <target state="new">ATA architecture diagram</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Before you start</source>
+          <target state="new">Before you start</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This section lists information you should gather and accounts and network entities you should have before starting ATA installation.</source>
+          <target state="new">This section lists information you should gather and accounts and network entities you should have before starting ATA installation.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>User account and password with read access to all objects in the domains that will be monitored.</source>
+          <target state="new">User account and password with read access to all objects in the domains that will be monitored.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you have set custom ACLs on various Organizational Units (OU) in your domain, make sure that the selected user has read permissions to those OUs.</source>
+          <target state="new">If you have set custom ACLs on various Organizational Units (OU) in your domain, make sure that the selected user has read permissions to those OUs.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Make sure that Message Analyzer and WireShark are not installed on the ATA Gateway.</source>
+          <target state="new">Make sure that Message Analyzer and WireShark are not installed on the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Recommended: User should have read only permissions on the Deleted Objects container.</source>
+          <target state="new">Recommended: User should have read only permissions on the Deleted Objects container.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This will allow ATA to detect bulk deletion of objects in the domain.</source>
+          <target state="new">This will allow ATA to detect bulk deletion of objects in the domain.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For information about configuring read only permissions on the Deleted Objects container, see the <bpt id="p1">**</bpt>Changing permissions on a deleted object container<ept id="p1">**</ept> section in the <bpt id="p2">[</bpt>View or Set Permissions on a Directory Object<ept id="p2">](https://technet.microsoft.com/library/cc816824%28v=ws.10%29.aspx)</ept> topic.</source>
+          <target state="new">For information about configuring read only permissions on the Deleted Objects container, see the <bpt id="p1">**</bpt>Changing permissions on a deleted object container<ept id="p1">**</ept> section in the <bpt id="p2">[</bpt>View or Set Permissions on a Directory Object<ept id="p2">](https://technet.microsoft.com/library/cc816824%28v=ws.10%29.aspx)</ept> topic.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Optional: A user account of a user who has no network activities.</source>
+          <target state="new">Optional: A user account of a user who has no network activities.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This account will be configured as the ATA Honeytoken user.</source>
+          <target state="new">This account will be configured as the ATA Honeytoken user.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To configure the Honeytoken user you will need the SID of the user account, not the username.</source>
+          <target state="new">To configure the Honeytoken user you will need the SID of the user account, not the username.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p1">[</bpt>Working with ATA Detection Settings<ept id="p1">](https://docs.microsoft.com/en-us/advanced-threat-analytics/deploy-use/working-with-detection-settings)</ept> topic.</source>
+          <target state="new">For more information see <bpt id="p1">[</bpt>Working with ATA Detection Settings<ept id="p1">](https://docs.microsoft.com/en-us/advanced-threat-analytics/deploy-use/working-with-detection-settings)</ept> topic.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Optional: In addition to collecting and analyzing network traffic to and from the domain controllers, ATA can use Windows event 4776 to further enhance ATA Pass-the-Hash detection.</source>
+          <target state="new">Optional: In addition to collecting and analyzing network traffic to and from the domain controllers, ATA can use Windows event 4776 to further enhance ATA Pass-the-Hash detection.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This can be received from your SIEM or by  setting Windows Event Forwarding from your domain controller.</source>
+          <target state="new">This can be received from your SIEM or by  setting Windows Event Forwarding from your domain controller.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Events collected provide ATA with additional information that is not available via the domain controller network traffic.</source>
+          <target state="new">Events collected provide ATA with additional information that is not available via the domain controller network traffic.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>ATA Center requirements</source>
+          <target state="new">ATA Center requirements</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This section lists the requirements for the ATA Center.</source>
+          <target state="new">This section lists the requirements for the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="new">General</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The ATA Center supports installation on a server running Windows Server 2012 R2 or Windows Server 2016.</source>
+          <target state="new">The ATA Center supports installation on a server running Windows Server 2012 R2 or Windows Server 2016.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The ATA Center can be installed on a server that is a member of a domain or workgroup.</source>
+          <target state="new">The ATA Center can be installed on a server that is a member of a domain or workgroup.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Before installing ATA Center running Windows 2012 R2, confirm that the following update has been installed: <bpt id="p1">[</bpt>KB2919355<ept id="p1">](https://support.microsoft.com/kb/2919355/)</ept>.</source>
+          <target state="new">Before installing ATA Center running Windows 2012 R2, confirm that the following update has been installed: <bpt id="p1">[</bpt>KB2919355<ept id="p1">](https://support.microsoft.com/kb/2919355/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can check by running the following Windows PowerShell cmdlet: <ph id="ph1">`[Get-HotFix -Id kb2919355]`</ph>.</source>
+          <target state="new">You can check by running the following Windows PowerShell cmdlet: <ph id="ph1">`[Get-HotFix -Id kb2919355]`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Installation of the ATA Center as a virtual machine is supported.</source>
+          <target state="new">Installation of the ATA Center as a virtual machine is supported.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When running as a virtual machine dynamic memory or any other memory ballooning feature is not supported.</source>
+          <target state="new">When running as a virtual machine dynamic memory or any other memory ballooning feature is not supported.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you run the ATA Center as a virtual machine, shut down the server before creating a new checkpoint to avoid potential database corruption.</source>
+          <target state="new">If you run the ATA Center as a virtual machine, shut down the server before creating a new checkpoint to avoid potential database corruption.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Server specifications</source>
+          <target state="new">Server specifications</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When working on a physical server, the ATA database necessitates that you <bpt id="p1">**</bpt>disable<ept id="p1">**</ept> Non-uniform memory access (NUMA) in the BIOS.</source>
+          <target state="new">When working on a physical server, the ATA database necessitates that you <bpt id="p1">**</bpt>disable<ept id="p1">**</ept> Non-uniform memory access (NUMA) in the BIOS.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Your system may refer to NUMA as Node Interleaving, in which case you will have to <bpt id="p1">**</bpt>enable<ept id="p1">**</ept> Node Interleaving in order to disable NUMA.</source>
+          <target state="new">Your system may refer to NUMA as Node Interleaving, in which case you will have to <bpt id="p1">**</bpt>enable<ept id="p1">**</ept> Node Interleaving in order to disable NUMA.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>See your BIOS documentation for more information.</source>
+          <target state="new">See your BIOS documentation for more information.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Note that this is not relevant when the ATA Center is running on a virtual server.</source>
+          <target state="new">Note that this is not relevant when the ATA Center is running on a virtual server.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For optimal performance, set the <bpt id="p1">**</bpt>Power Option<ept id="p1">**</ept> of the ATA Center to <bpt id="p2">**</bpt>High Performance<ept id="p2">**</ept>.</source>
+          <target state="new">For optimal performance, set the <bpt id="p1">**</bpt>Power Option<ept id="p1">**</ept> of the ATA Center to <bpt id="p2">**</bpt>High Performance<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The number of domain controllers you are monitoring and the load on each of the domain controllers dictates the server specifications needed see <bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](ata-capacity-planning.md)</ept> for more details.</source>
+          <target state="new">The number of domain controllers you are monitoring and the load on each of the domain controllers dictates the server specifications needed see <bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](ata-capacity-planning.md)</ept> for more details.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Time synchronization</source>
+          <target state="new">Time synchronization</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The ATA Center server, the ATA Gateway servers and the domain controllers must have time synchronized to within 5 minutes of each other.</source>
+          <target state="new">The ATA Center server, the ATA Gateway servers and the domain controllers must have time synchronized to within 5 minutes of each other.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Network adapters</source>
+          <target state="new">Network adapters</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You should have the following:</source>
+          <target state="new">You should have the following:</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>At least one network adapter (if using physical server in VLAN environment, it is recommended to use two network adapters)</source>
+          <target state="new">At least one network adapter (if using physical server in VLAN environment, it is recommended to use two network adapters)</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Two IP addresses (recommended but not required)</source>
+          <target state="new">Two IP addresses (recommended but not required)</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Communication between the ATA Center and the ATA Gateway is encrypted using SSL on port 443.</source>
+          <target state="new">Communication between the ATA Center and the ATA Gateway is encrypted using SSL on port 443.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Additionally, the ATA Console is also using SSL on port 443.</source>
+          <target state="new">Additionally, the ATA Console is also using SSL on port 443.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Two IP addresses<ept id="p1">**</ept> are recommended.</source>
+          <target state="new"><bpt id="p1">**</bpt>Two IP addresses<ept id="p1">**</ept> are recommended.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The ATA Center service will bind port 443 to the first IP address and ATA Console will bind port 443 to the second IP address.</source>
+          <target state="new">The ATA Center service will bind port 443 to the first IP address and ATA Console will bind port 443 to the second IP address.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A single IP address with two different ports can be used, but two IP addresses are recommended.</source>
+          <target state="new">A single IP address with two different ports can be used, but two IP addresses are recommended.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Ports</source>
+          <target state="new">Ports</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The following table lists the minimum ports that have to be opened for the ATA Center to work properly.</source>
+          <target state="new">The following table lists the minimum ports that have to be opened for the ATA Center to work properly.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>In this table, IP address 1 is bound to the ATA Center service and IP address 2 is bound to the ATA Console:</source>
+          <target state="new">In this table, IP address 1 is bound to the ATA Center service and IP address 2 is bound to the ATA Console:</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Protocol</source>
+          <target state="new">Protocol</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Transport</source>
+          <target state="new">Transport</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Port</source>
+          <target state="new">Port</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To/From</source>
+          <target state="new">To/From</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Direction</source>
+          <target state="new">Direction</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>IP Address</source>
+          <target state="new">IP Address</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SSL<ept id="p1">**</ept> (ATA Communications)</source>
+          <target state="new"><bpt id="p1">**</bpt>SSL<ept id="p1">**</ept> (ATA Communications)</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>443, or configurable</source>
+          <target state="new">443, or configurable</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>ATA Gateway</source>
+          <target state="new">ATA Gateway</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Inbound</source>
+          <target state="new">Inbound</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>IP address 1</source>
+          <target state="new">IP address 1</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>HTTP</source>
+          <target state="new">HTTP</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>80</source>
+          <target state="new">80</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Company Network</source>
+          <target state="new">Company Network</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Inbound</source>
+          <target state="new">Inbound</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>IP address 2</source>
+          <target state="new">IP address 2</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>HTTPS</source>
+          <target state="new">HTTPS</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>443</source>
+          <target state="new">443</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Company Network and ATA Gateway</source>
+          <target state="new">Company Network and ATA Gateway</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Inbound</source>
+          <target state="new">Inbound</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>IP address 2</source>
+          <target state="new">IP address 2</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SMTP<ept id="p1">**</ept> (optional)</source>
+          <target state="new"><bpt id="p1">**</bpt>SMTP<ept id="p1">**</ept> (optional)</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>25</source>
+          <target state="new">25</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>SMTP Server</source>
+          <target state="new">SMTP Server</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>IP address 2</source>
+          <target state="new">IP address 2</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SMTPS<ept id="p1">**</ept> (optional)</source>
+          <target state="new"><bpt id="p1">**</bpt>SMTPS<ept id="p1">**</ept> (optional)</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>465</source>
+          <target state="new">465</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>SMTP Server</source>
+          <target state="new">SMTP Server</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>IP address 2</source>
+          <target state="new">IP address 2</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Syslog<ept id="p1">**</ept> (optional)</source>
+          <target state="new"><bpt id="p1">**</bpt>Syslog<ept id="p1">**</ept> (optional)</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>514</source>
+          <target state="new">514</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Syslog server</source>
+          <target state="new">Syslog server</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>IP address 2</source>
+          <target state="new">IP address 2</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Certificates</source>
+          <target state="new">Certificates</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Make sure the ATA Center has access to your CRL distribution point.</source>
+          <target state="new">Make sure the ATA Center has access to your CRL distribution point.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If the ATA Gateways don't have Internet access, follow <bpt id="p1">[</bpt>the procedure to manually import a CRL<ept id="p1">](https://technet.microsoft.com/library/aa996972%28v=exchg.65%29.aspx)</ept>, taking care to install the all the CRL distribution points for the whole chain.</source>
+          <target state="new">If the ATA Gateways don't have Internet access, follow <bpt id="p1">[</bpt>the procedure to manually import a CRL<ept id="p1">](https://technet.microsoft.com/library/aa996972%28v=exchg.65%29.aspx)</ept>, taking care to install the all the CRL distribution points for the whole chain.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To ease the installation of the ATA Center, you can install self-signed certificates during the installation of the ATA Center.</source>
+          <target state="new">To ease the installation of the ATA Center, you can install self-signed certificates during the installation of the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Post deployment you can replace the self-signed with a certificate from an internal Certification Authority to be used by the ATA Gateway.</source>
+          <target state="new">Post deployment you can replace the self-signed with a certificate from an internal Certification Authority to be used by the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The certificate's Provider Type must be Cryptographic Service Provider (CSP).</source>
+          <target state="new">The certificate's Provider Type must be Cryptographic Service Provider (CSP).</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Using of automatic certificate renewal is not supported.</source>
+          <target state="new">Using of automatic certificate renewal is not supported.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If you are going to access the ATA Console from other computers, ensure that those computers trust the certificate being used by ATA Center otherwise you will get a warning page that there is a problem with the website's security certificate before getting to the log in page.</source>
+          <target state="new">If you are going to access the ATA Console from other computers, ensure that those computers trust the certificate being used by ATA Center otherwise you will get a warning page that there is a problem with the website's security certificate before getting to the log in page.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>ATA Gateway requirements</source>
+          <target state="new">ATA Gateway requirements</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This section lists the requirements for the ATA Gateway.</source>
+          <target state="new">This section lists the requirements for the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="new">General</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The ATA Gateway supports installation on a server running Windows Server 2012 R2 or Windows Server 2016 (Include server core).</source>
+          <target state="new">The ATA Gateway supports installation on a server running Windows Server 2012 R2 or Windows Server 2016 (Include server core).</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The ATA Gateway can be installed on a server that is a member of a domain or workgroup.</source>
+          <target state="new">The ATA Gateway can be installed on a server that is a member of a domain or workgroup.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The ATA Gateway can be used to monitor Domain Controllers with Domain Functional Level of Windows 2003 and above.</source>
+          <target state="new">The ATA Gateway can be used to monitor Domain Controllers with Domain Functional Level of Windows 2003 and above.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Before installing ATA Gateway running Windows 2012 R2, confirm that the following update has been installed: <bpt id="p1">[</bpt>KB2919355<ept id="p1">](https://support.microsoft.com/kb/2919355/)</ept>.</source>
+          <target state="new">Before installing ATA Gateway running Windows 2012 R2, confirm that the following update has been installed: <bpt id="p1">[</bpt>KB2919355<ept id="p1">](https://support.microsoft.com/kb/2919355/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You can check by running the following Windows PowerShell cmdlet: <ph id="ph1">`[Get-HotFix -Id kb2919355]`</ph>.</source>
+          <target state="new">You can check by running the following Windows PowerShell cmdlet: <ph id="ph1">`[Get-HotFix -Id kb2919355]`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For information on using virtual machines with the ATA Gateway, see <bpt id="p1">[</bpt>Configure port mirroring<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-port-mirroring)</ept>.</source>
+          <target state="new">For information on using virtual machines with the ATA Gateway, see <bpt id="p1">[</bpt>Configure port mirroring<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-port-mirroring)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Server specifications</source>
+          <target state="new">Server specifications</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For optimal performance, set the <bpt id="p1">**</bpt>Power Option<ept id="p1">**</ept> of the ATA Gateway to <bpt id="p2">**</bpt>High Performance<ept id="p2">**</ept>.</source>
+          <target state="new">For optimal performance, set the <bpt id="p1">**</bpt>Power Option<ept id="p1">**</ept> of the ATA Gateway to <bpt id="p2">**</bpt>High Performance<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An ATA Gateway can support monitoring multiple domain controllers, depending on the amount of network traffic to and from the domain controllers.</source>
+          <target state="new">An ATA Gateway can support monitoring multiple domain controllers, depending on the amount of network traffic to and from the domain controllers.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>When running as a virtual machine dynamic memory or any other memory ballooning feature is not supported.</source>
+          <target state="new">When running as a virtual machine dynamic memory or any other memory ballooning feature is not supported.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For more information about the ATA Gateway hardware requirements see <bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](ata-capacity-planning.md)</ept>.</source>
+          <target state="new">For more information about the ATA Gateway hardware requirements see <bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](ata-capacity-planning.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Time synchronization</source>
+          <target state="new">Time synchronization</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The ATA Center server, the ATA Gateway servers and the domain controllers must have time synchronized to within 5 minutes of each other.</source>
+          <target state="new">The ATA Center server, the ATA Gateway servers and the domain controllers must have time synchronized to within 5 minutes of each other.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Network adapters</source>
+          <target state="new">Network adapters</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The ATA Gateway requires at least one Management adapter and at least one Capture adapter:</source>
+          <target state="new">The ATA Gateway requires at least one Management adapter and at least one Capture adapter:</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Management adapter<ept id="p1">**</ept> - will be used for communications on your corporate network.</source>
+          <target state="new"><bpt id="p1">**</bpt>Management adapter<ept id="p1">**</ept> - will be used for communications on your corporate network.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This adapter should be configured with the following:</source>
+          <target state="new">This adapter should be configured with the following:</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Static IP address including default gateway</source>
+          <target state="new">Static IP address including default gateway</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Preferred and alternate DNS servers</source>
+          <target state="new">Preferred and alternate DNS servers</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>DNS suffix for this connection<ept id="p1">**</ept> should be the DNS name of the domain for each domain being monitored.</source>
+          <target state="new">The <bpt id="p1">**</bpt>DNS suffix for this connection<ept id="p1">**</ept> should be the DNS name of the domain for each domain being monitored.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Configure DNS suffix in advanced TCP/IP settings</source>
+          <target state="new">Configure DNS suffix in advanced TCP/IP settings</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>If the ATA Gateway is a member of the domain, this may be configured automatically.</source>
+          <target state="new">If the ATA Gateway is a member of the domain, this may be configured automatically.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Capture adapter<ept id="p1">**</ept> - will be used to capture traffic to and from the domain controllers.</source>
+          <target state="new"><bpt id="p1">**</bpt>Capture adapter<ept id="p1">**</ept> - will be used to capture traffic to and from the domain controllers.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Configure port mirroring for the capture adapter as the destination of the domain controller network traffic.</source>
+          <target state="new">Configure port mirroring for the capture adapter as the destination of the domain controller network traffic.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Configure port mirroring<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-port-mirroring)</ept>  for additional information.</source>
+          <target state="new">See <bpt id="p1">[</bpt>Configure port mirroring<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-port-mirroring)</ept>  for additional information.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Typically, you will need to work with the networking or virtualization team to configure port mirroring.</source>
+          <target state="new">Typically, you will need to work with the networking or virtualization team to configure port mirroring.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Configure a static non-routable IP address for your environment with no default gateway and no DNS server addresses.</source>
+          <target state="new">Configure a static non-routable IP address for your environment with no default gateway and no DNS server addresses.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>For example, 1.1.1.1/32.</source>
+          <target state="new">For example, 1.1.1.1/32.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>This will ensure that the capture network adapter can capture the maximum amount of traffic and that the management network adapter is used to send and receive the required network traffic.</source>
+          <target state="new">This will ensure that the capture network adapter can capture the maximum amount of traffic and that the management network adapter is used to send and receive the required network traffic.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Ports</source>
+          <target state="new">Ports</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The following table lists the minimum ports that the ATA Gateway requires configured on the management adapter:</source>
+          <target state="new">The following table lists the minimum ports that the ATA Gateway requires configured on the management adapter:</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Protocol</source>
+          <target state="new">Protocol</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Transport</source>
+          <target state="new">Transport</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Port</source>
+          <target state="new">Port</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To/From</source>
+          <target state="new">To/From</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Direction</source>
+          <target state="new">Direction</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>LDAP</source>
+          <target state="new">LDAP</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>TCP and UDP</source>
+          <target state="new">TCP and UDP</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>389</source>
+          <target state="new">389</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Domain controllers</source>
+          <target state="new">Domain controllers</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Secure LDAP (LDAPS)</source>
+          <target state="new">Secure LDAP (LDAPS)</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>636</source>
+          <target state="new">636</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Domain controllers</source>
+          <target state="new">Domain controllers</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>LDAP to Global Catalog</source>
+          <target state="new">LDAP to Global Catalog</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>3268</source>
+          <target state="new">3268</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Domain controllers</source>
+          <target state="new">Domain controllers</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>LDAPS to Global Catalog</source>
+          <target state="new">LDAPS to Global Catalog</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>3269</source>
+          <target state="new">3269</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Domain controllers</source>
+          <target state="new">Domain controllers</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Kerberos</source>
+          <target state="new">Kerberos</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>TCP and UDP</source>
+          <target state="new">TCP and UDP</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>88</source>
+          <target state="new">88</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Domain controllers</source>
+          <target state="new">Domain controllers</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Netlogon</source>
+          <target state="new">Netlogon</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>TCP and UDP</source>
+          <target state="new">TCP and UDP</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>445</source>
+          <target state="new">445</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Domain controllers</source>
+          <target state="new">Domain controllers</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Windows Time</source>
+          <target state="new">Windows Time</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>UDP</source>
+          <target state="new">UDP</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>123</source>
+          <target state="new">123</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Domain controllers</source>
+          <target state="new">Domain controllers</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>DNS</source>
+          <target state="new">DNS</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>TCP and UDP</source>
+          <target state="new">TCP and UDP</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>53</source>
+          <target state="new">53</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>DNS Servers</source>
+          <target state="new">DNS Servers</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>NTLM over RPC</source>
+          <target state="new">NTLM over RPC</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>135</source>
+          <target state="new">135</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>All devices on the network</source>
+          <target state="new">All devices on the network</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>NetBIOS</source>
+          <target state="new">NetBIOS</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>UDP</source>
+          <target state="new">UDP</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>137</source>
+          <target state="new">137</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>All devices on the network</source>
+          <target state="new">All devices on the network</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>SSL</source>
+          <target state="new">SSL</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>443 or as configured for the Center Service</source>
+          <target state="new">443 or as configured for the Center Service</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>ATA Center:</source>
+          <target state="new">ATA Center:</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>-   Center Service IP Address</source>
+          <target state="new">-   Center Service IP Address</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>-   Console IP Address</source>
+          <target state="new">-   Console IP Address</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Syslog (optional)</source>
+          <target state="new">Syslog (optional)</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>UDP</source>
+          <target state="new">UDP</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>514</source>
+          <target state="new">514</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>SIEM Server</source>
+          <target state="new">SIEM Server</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Inbound</source>
+          <target state="new">Inbound</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>As part of the resolution process done by the ATA Gateway, the following ports need to be open inbound on devices on the network from the ATA Gateways.</source>
+          <target state="new">As part of the resolution process done by the ATA Gateway, the following ports need to be open inbound on devices on the network from the ATA Gateways.</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>NTLM over RPC (TCP Port 135)</source>
+          <target state="new">NTLM over RPC (TCP Port 135)</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>NetBIOS (UDP port 137)</source>
+          <target state="new">NetBIOS (UDP port 137)</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Certificates</source>
+          <target state="new">Certificates</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Make sure the ATA Center has access to your CRL distribution point.</source>
+          <target state="new">Make sure the ATA Center has access to your CRL distribution point.</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>If the ATA Gateways do not have Internet access, follow the procedure to manually import a CRL, taking care to install the all the CRL distribution points for the whole chain.</source>
+          <target state="new">If the ATA Gateways do not have Internet access, follow the procedure to manually import a CRL, taking care to install the all the CRL distribution points for the whole chain.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>To ease installation of the ATA Center, you can install self-signed certificates during the installation of the ATA Center.</source>
+          <target state="new">To ease installation of the ATA Center, you can install self-signed certificates during the installation of the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Post deployment you can replace the self-signed with a certificate from an internal Certification Authority to be used by the ATA Gateway.</source>
+          <target state="new">Post deployment you can replace the self-signed with a certificate from an internal Certification Authority to be used by the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The certificate's Provider Type must be Cryptographic Service Provider (CSP).</source>
+          <target state="new">The certificate's Provider Type must be Cryptographic Service Provider (CSP).</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>A certificate supporting <bpt id="p1">**</bpt>Server Authentication<ept id="p1">**</ept> is required to be installed in the Computer store of the ATA Gateway in the Local Computer store.</source>
+          <target state="new">A certificate supporting <bpt id="p1">**</bpt>Server Authentication<ept id="p1">**</ept> is required to be installed in the Computer store of the ATA Gateway in the Local Computer store.</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>This certificate must be trusted by the ATA Center.</source>
+          <target state="new">This certificate must be trusted by the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>ATA Lightweight Gateway requirements</source>
+          <target state="new">ATA Lightweight Gateway requirements</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>This section lists the requirements for the ATA Lightweight Gateway.</source>
+          <target state="new">This section lists the requirements for the ATA Lightweight Gateway.</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="new">General</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The ATA Lightweight Gateway supports installation on a domain controller running Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2, Windows Server 2016 (include Core but not Nano).</source>
+          <target state="new">The ATA Lightweight Gateway supports installation on a domain controller running Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2, Windows Server 2016 (include Core but not Nano).</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The domain controller can be a read only domain controller (RODC).</source>
+          <target state="new">The domain controller can be a read only domain controller (RODC).</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Before installing ATA Lightweight Gateway on a domain controller running Windows Server 2012 R2 SP1, confirm that the following update has been installed: <bpt id="p1">[</bpt>KB2919355<ept id="p1">](https://support.microsoft.com/kb/2919355/)</ept>.</source>
+          <target state="new">Before installing ATA Lightweight Gateway on a domain controller running Windows Server 2012 R2 SP1, confirm that the following update has been installed: <bpt id="p1">[</bpt>KB2919355<ept id="p1">](https://support.microsoft.com/kb/2919355/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>You can check by running the following Windows PowerShell cmdlet: <ph id="ph1">`[Get-HotFix -Id kb2919355]`</ph>.</source>
+          <target state="new">You can check by running the following Windows PowerShell cmdlet: <ph id="ph1">`[Get-HotFix -Id kb2919355]`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Server specifications</source>
+          <target state="new">Server specifications</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The ATA Lightweight Gateway requires a minimum of 2 cores and 6 GB of RAM installed on the domain controller.</source>
+          <target state="new">The ATA Lightweight Gateway requires a minimum of 2 cores and 6 GB of RAM installed on the domain controller.</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>For optimal performance, set the <bpt id="p1">**</bpt>Power Option<ept id="p1">**</ept> of the ATA Lightweight Gateway to <bpt id="p2">**</bpt>High Performance<ept id="p2">**</ept>.</source>
+          <target state="new">For optimal performance, set the <bpt id="p1">**</bpt>Power Option<ept id="p1">**</ept> of the ATA Lightweight Gateway to <bpt id="p2">**</bpt>High Performance<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The ATA Lightweight Gateway can be deployed on domain controllers of various loads and sizes, depending on the amount of network traffic to and from the domain controllers and the amount of resources installed on that domain controller.</source>
+          <target state="new">The ATA Lightweight Gateway can be deployed on domain controllers of various loads and sizes, depending on the amount of network traffic to and from the domain controllers and the amount of resources installed on that domain controller.</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>When running as a virtual machine dynamic memory or any other memory ballooning feature is not supported.</source>
+          <target state="new">When running as a virtual machine dynamic memory or any other memory ballooning feature is not supported.</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>For more information about the ATA Lightweight Gateway hardware requirements see <bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](ata-capacity-planning.md)</ept>.</source>
+          <target state="new">For more information about the ATA Lightweight Gateway hardware requirements see <bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](ata-capacity-planning.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Time synchronization</source>
+          <target state="new">Time synchronization</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The ATA Center server, the ATA Lightweight Gateway servers and the domain controllers must have time synchronized to within 5 minutes of each other.</source>
+          <target state="new">The ATA Center server, the ATA Lightweight Gateway servers and the domain controllers must have time synchronized to within 5 minutes of each other.</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Network adapters</source>
+          <target state="new">Network adapters</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The ATA Lightweight Gateway monitors the local traffic on all of the domain controller's network adapters.</source>
+          <target state="new">The ATA Lightweight Gateway monitors the local traffic on all of the domain controller's network adapters.</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>After deployment, you can use the ATA Console if you ever want to modify which network adapters are monitored.</source>
+          <target state="new">After deployment, you can use the ATA Console if you ever want to modify which network adapters are monitored.</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Ports</source>
+          <target state="new">Ports</target>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The following table lists the minimum ports that the ATA Lightweight Gateway requires:</source>
+          <target state="new">The following table lists the minimum ports that the ATA Lightweight Gateway requires:</target>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Protocol</source>
+          <target state="new">Protocol</target>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Transport</source>
+          <target state="new">Transport</target>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Port</source>
+          <target state="new">Port</target>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>To/From</source>
+          <target state="new">To/From</target>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Direction</source>
+          <target state="new">Direction</target>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>DNS</source>
+          <target state="new">DNS</target>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>TCP and UDP</source>
+          <target state="new">TCP and UDP</target>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>53</source>
+          <target state="new">53</target>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>DNS Servers</source>
+          <target state="new">DNS Servers</target>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>NTLM over RPC</source>
+          <target state="new">NTLM over RPC</target>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>135</source>
+          <target state="new">135</target>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>All devices on the network</source>
+          <target state="new">All devices on the network</target>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>NetBIOS</source>
+          <target state="new">NetBIOS</target>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>UDP</source>
+          <target state="new">UDP</target>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>137</source>
+          <target state="new">137</target>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>All devices on the network</source>
+          <target state="new">All devices on the network</target>
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>SSL</source>
+          <target state="new">SSL</target>
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>TCP</source>
+          <target state="new">TCP</target>
+        </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>443 or as configured for the Center Service</source>
+          <target state="new">443 or as configured for the Center Service</target>
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>ATA Center:</source>
+          <target state="new">ATA Center:</target>
+        </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>-   Center Service IP Address</source>
+          <target state="new">-   Center Service IP Address</target>
+        </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>-   Console IP Address</source>
+          <target state="new">-   Console IP Address</target>
+        </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <target state="new">Outbound</target>
+        </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Syslog (optional)</source>
+          <target state="new">Syslog (optional)</target>
+        </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>UDP</source>
+          <target state="new">UDP</target>
+        </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>514</source>
+          <target state="new">514</target>
+        </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>SIEM Server</source>
+          <target state="new">SIEM Server</target>
+        </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Inbound</source>
+          <target state="new">Inbound</target>
+        </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>As part of the resolution process performed by the ATA Lightweight Gateway, the following ports need to be open inbound on devices on the network from the ATA Lightweight Gateways.</source>
+          <target state="new">As part of the resolution process performed by the ATA Lightweight Gateway, the following ports need to be open inbound on devices on the network from the ATA Lightweight Gateways.</target>
+        </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>NTLM over RPC</source>
+          <target state="new">NTLM over RPC</target>
+        </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>NetBIOS</source>
+          <target state="new">NetBIOS</target>
+        </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Certificates</source>
+          <target state="new">Certificates</target>
+        </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Make sure the ATA Center has access to your CRL distribution point.</source>
+          <target state="new">Make sure the ATA Center has access to your CRL distribution point.</target>
+        </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>If the ATA Lightweight Gateways don't have Internet access, follow the procedure to manually import a CRL, taking care to install the all the CRL distribution points for the whole chain.</source>
+          <target state="new">If the ATA Lightweight Gateways don't have Internet access, follow the procedure to manually import a CRL, taking care to install the all the CRL distribution points for the whole chain.</target>
+        </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>To ease installation of the ATA Center, you can install self-signed certificates during the installation of the ATA Center.</source>
+          <target state="new">To ease installation of the ATA Center, you can install self-signed certificates during the installation of the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Post deployment you can replace the self-signed with a certificate from an internal Certification Authority to be used by the ATA Lightweight Gateway.</source>
+          <target state="new">Post deployment you can replace the self-signed with a certificate from an internal Certification Authority to be used by the ATA Lightweight Gateway.</target>
+        </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>The certificate's Provider Type must be Cryptographic Service Provider (CSP).</source>
+          <target state="new">The certificate's Provider Type must be Cryptographic Service Provider (CSP).</target>
+        </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>A certificate supporting Server Authentication is required to be installed in the Computer store of the ATA Lightweight Gateway in the Local Computer store.</source>
+          <target state="new">A certificate supporting Server Authentication is required to be installed in the Computer store of the ATA Lightweight Gateway in the Local Computer store.</target>
+        </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>This certificate must be trusted by the ATA Center.</source>
+          <target state="new">This certificate must be trusted by the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>ATA Console</source>
+          <target state="new">ATA Console</target>
+        </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Access to the ATA Console is via a browser, supporting the following:</source>
+          <target state="new">Access to the ATA Console is via a browser, supporting the following:</target>
+        </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Internet Explorer version 10 and above</source>
+          <target state="new">Internet Explorer version 10 and above</target>
+        </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Microsoft Edge</source>
+          <target state="new">Microsoft Edge</target>
+        </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>Google Chrome 40 and above</source>
+          <target state="new">Google Chrome 40 and above</target>
+        </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>Minimum screen width resolution of 1700 pixels</source>
+          <target state="new">Minimum screen width resolution of 1700 pixels</target>
+        </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>ATA architecture</source>
+          <target state="new">ATA architecture</target>
+        </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>Install ATA</source>
+          <target state="new">Install ATA</target>
+        </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Check out the ATA forum!</source>
+          <target state="new">Check out the ATA forum!</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6de5f463da5906910470ca54c9bceb4e2954ba8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-database-management.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c58f5e6774b8a407e3d7e3188230dcc54102dc1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c114fa98e66cb21a542d1649a17e731e820909df</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>ATA Database Management | Microsoft ATA</source>
+          <target state="new">ATA Database Management | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Procedures to help you move, backup, or restore the ATA database.</source>
+          <target state="new">Procedures to help you move, backup, or restore the ATA database.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies to: Advanced Threat Analytics version 1.7</source>
+          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>ATA Database Management</source>
+          <target state="new">ATA Database Management</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you need to move, backup or restore the ATA database, use these procedures for working with MongoDB.</source>
+          <target state="new">If you need to move, backup or restore the ATA database, use these procedures for working with MongoDB.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Backing up the ATA database</source>
+          <target state="new">Backing up the ATA database</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Refer to the <bpt id="p1">[</bpt>relevant MongoDB documentation<ept id="p1">](http://docs.mongodb.org/manual/administration/backup/)</ept>.</source>
+          <target state="new">Refer to the <bpt id="p1">[</bpt>relevant MongoDB documentation<ept id="p1">](http://docs.mongodb.org/manual/administration/backup/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Restoring the ATA database</source>
+          <target state="new">Restoring the ATA database</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Refer to the <bpt id="p1">[</bpt>relevant MongoDB documentation<ept id="p1">](http://docs.mongodb.org/manual/administration/backup/)</ept>.</source>
+          <target state="new">Refer to the <bpt id="p1">[</bpt>relevant MongoDB documentation<ept id="p1">](http://docs.mongodb.org/manual/administration/backup/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Moving the ATA database to another drive</source>
+          <target state="new">Moving the ATA database to another drive</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Stop the <bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center<ept id="p1">**</ept> service.</source>
+          <target state="new">Stop the <bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center<ept id="p1">**</ept> service.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Stop the <bpt id="p1">**</bpt>MongoDB<ept id="p1">**</ept> service.</source>
+          <target state="new">Stop the <bpt id="p1">**</bpt>MongoDB<ept id="p1">**</ept> service.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Open the Mongo configuration file located by default at: C:\Program Files\Microsoft Advanced Threat Analytics\Center\MongoDB\bin\mongod.cfg.</source>
+          <target state="new">Open the Mongo configuration file located by default at: C:\Program Files\Microsoft Advanced Threat Analytics\Center\MongoDB\bin\mongod.cfg.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Find the parameter</source>
+          <target state="new">Find the parameter</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Move the folder listed in the <ph id="ph1">`dbPath`</ph> parameter to the new location.</source>
+          <target state="new">Move the folder listed in the <ph id="ph1">`dbPath`</ph> parameter to the new location.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Change the <ph id="ph1">`dbPath`</ph> parameter inside the mongo configuration file to the new folder path and save and close the file.</source>
+          <target state="new">Change the <ph id="ph1">`dbPath`</ph> parameter inside the mongo configuration file to the new folder path and save and close the file.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Modify MongoDB configuration image</source>
+          <target state="new">Modify MongoDB configuration image</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Start the <bpt id="p1">**</bpt>MongoDB<ept id="p1">**</ept> service.</source>
+          <target state="new">Start the <bpt id="p1">**</bpt>MongoDB<ept id="p1">**</ept> service.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Start the <bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center<ept id="p1">**</ept> service.</source>
+          <target state="new">Start the <bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center<ept id="p1">**</ept> service.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>ATA Configuration file</source>
+          <target state="new">ATA Configuration file</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The configuration of ATA is stored in the "SystemProfile" collection in the database.</source>
+          <target state="new">The configuration of ATA is stored in the "SystemProfile" collection in the database.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This collection is backed up every hour by the ATA Center service to files called: "SystemProfile_<bpt id="p1">*</bpt>timestamp<ept id="p1">*</ept>.json".</source>
+          <target state="new">This collection is backed up every hour by the ATA Center service to files called: "SystemProfile_<bpt id="p1">*</bpt>timestamp<ept id="p1">*</ept>.json".</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The most recent 10 versions are stored.</source>
+          <target state="new">The most recent 10 versions are stored.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This is located in a subfolder called "Backup".</source>
+          <target state="new">This is located in a subfolder called "Backup".</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the default ATA installed location it can be found here:  <bpt id="p1">*</bpt>C:\Program Files\Microsoft Advanced Threat Analytics\Center\Backup\SystemProfile_<ept id="p1">*</ept>timestamp<bpt id="p2">*</bpt>.json<ept id="p2">*</ept>.</source>
+          <target state="new">In the default ATA installed location it can be found here:  <bpt id="p1">*</bpt>C:\Program Files\Microsoft Advanced Threat Analytics\Center\Backup\SystemProfile_<ept id="p1">*</ept>timestamp<bpt id="p2">*</bpt>.json<ept id="p2">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: It is recommended that you back up this file somewhere when making major changes to ATA.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: It is recommended that you back up this file somewhere when making major changes to ATA.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It is possible to restore all the settings by running the following command:</source>
+          <target state="new">It is possible to restore all the settings by running the following command:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>ATA architecture</source>
+          <target state="new">ATA architecture</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>ATA prerequisites</source>
+          <target state="new">ATA prerequisites</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Check out the ATA forum!</source>
+          <target state="new">Check out the ATA forum!</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
