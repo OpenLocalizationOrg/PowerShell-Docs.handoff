@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aac9d5e74c540c7b28d94235966b06be992153e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\troubleshooting-ata-using-ata-database.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">95b9a52ea3cebc6201877ad6321fcd5caf9685b5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7105c762f182cd8ef69562ac46d0b8badcc142be</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Troubleshooting ATA using the ATA database | Microsoft ATA</source>
+          <target state="new">Troubleshooting ATA using the ATA database | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Describes how you can use the ATA database to help troubleshoot issues</source>
+          <target state="new">Describes how you can use the ATA database to help troubleshoot issues</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies to: Advanced Threat Analytics version 1.7</source>
+          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Troubleshooting ATA using the ATA database</source>
+          <target state="new">Troubleshooting ATA using the ATA database</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>ATA uses MongoDB as its database.</source>
+          <target state="new">ATA uses MongoDB as its database.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can interact with the database using the default command line or using a user interface tool to perform advanced tasks and troubleshooting.</source>
+          <target state="new">You can interact with the database using the default command line or using a user interface tool to perform advanced tasks and troubleshooting.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Interacting with the database</source>
+          <target state="new">Interacting with the database</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The default and most basic way to query the database is using the Mongo shell:</source>
+          <target state="new">The default and most basic way to query the database is using the Mongo shell:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Open a command line window and change the path to the MongoDB bin folder.</source>
+          <target state="new">Open a command line window and change the path to the MongoDB bin folder.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The default path is: <bpt id="p1">**</bpt>C:\Program Files\Microsoft Advanced Threat Analytics\Center\MongoDB\bin<ept id="p1">**</ept>.</source>
+          <target state="new">The default path is: <bpt id="p1">**</bpt>C:\Program Files\Microsoft Advanced Threat Analytics\Center\MongoDB\bin<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Run: <ph id="ph1">`mongo.exe ATA`</ph>.</source>
+          <target state="new">Run: <ph id="ph1">`mongo.exe ATA`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Make sure to type ATA with all capital letters.</source>
+          <target state="new">Make sure to type ATA with all capital letters.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>How to...</source>
+          <target state="new">How to...</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="new">Notes</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Check for collections in the database.</source>
+          <target state="new">Check for collections in the database.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Useful as an end-to-end test to see that traffic is being written to the database and that event 4776 is being received by ATA.</source>
+          <target state="new">Useful as an end-to-end test to see that traffic is being written to the database and that event 4776 is being received by ATA.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Get the details of a user/computer/group (UniqueEntity), such as user ID.</source>
+          <target state="new">Get the details of a user/computer/group (UniqueEntity), such as user ID.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Find Kerberos authentication traffic originating from a specific computer on a specific day.</source>
+          <target state="new">Find Kerberos authentication traffic originating from a specific computer on a specific day.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To get the <ph id="ph1">&amp;lt;</ph>ID of the source computer<ph id="ph2">&amp;gt;</ph> you can query the UniqueEntity collections, as shown in the example.</source>
+          <target state="new">To get the <ph id="ph1">&amp;lt;</ph>ID of the source computer<ph id="ph2">&amp;gt;</ph> you can query the UniqueEntity collections, as shown in the example.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Each network activity type, for example Kerberos authentications, has its own collection per UTC date.</source>
+          <target state="new">Each network activity type, for example Kerberos authentications, has its own collection per UTC date.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Find NTLM traffic originating from a specific computer related to a specific account on a specific day.</source>
+          <target state="new">Find NTLM traffic originating from a specific computer related to a specific account on a specific day.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To get the <ph id="ph1">&amp;lt;</ph>ID of the source computer<ph id="ph2">&amp;gt;</ph> and <ph id="ph3">&amp;lt;</ph>ID of the account<ph id="ph4">&amp;gt;</ph> you can query the UniqueEntity collections, as shown in the example.</source>
+          <target state="new">To get the <ph id="ph1">&amp;lt;</ph>ID of the source computer<ph id="ph2">&amp;gt;</ph> and <ph id="ph3">&amp;lt;</ph>ID of the account<ph id="ph4">&amp;gt;</ph> you can query the UniqueEntity collections, as shown in the example.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Each network activity type, for example NTLM authentications, has its own collection per UTC date.</source>
+          <target state="new">Each network activity type, for example NTLM authentications, has its own collection per UTC date.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Search for advanced properties such as the active dates of an account.</source>
+          <target state="new">Search for advanced properties such as the active dates of an account.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To get the <ph id="ph1">&amp;lt;</ph>ID of the account<ph id="ph2">&amp;gt;</ph> you can query the UniqueEntity collections, as shown in the example.</source>
+          <target state="new">To get the <ph id="ph1">&amp;lt;</ph>ID of the account<ph id="ph2">&amp;gt;</ph> you can query the UniqueEntity collections, as shown in the example.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The property name that shows the dates in which the account has been active is called: "ActiveDates".</source>
+          <target state="new">The property name that shows the dates in which the account has been active is called: "ActiveDates".</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example you may want to know if an account has at least 21 days of activity for the abnormal behavior machine learning algorithm to be able to run on it.</source>
+          <target state="new">For example you may want to know if an account has at least 21 days of activity for the abnormal behavior machine learning algorithm to be able to run on it.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Make advanced configuration changes.</source>
+          <target state="new">Make advanced configuration changes.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In this example we change the send queue size for all ATA Gateways to 10,000.</source>
+          <target state="new">In this example we change the send queue size for all ATA Gateways to 10,000.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The following example provides sample code using the syntax provided above.</source>
+          <target state="new">The following example provides sample code using the syntax provided above.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you are investigating a suspicious activity that occurred on 20/10/2015 and want to learn more about the NTLM activities that "John Doe" performed on that day:</source>
+          <target state="new">If you are investigating a suspicious activity that occurred on 20/10/2015 and want to learn more about the NTLM activities that "John Doe" performed on that day:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>First, find the ID of "John Doe"</source>
+          <target state="new">First, find the ID of "John Doe"</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Take a note of his ID as indicated by the value of "<ph id="ph1">`_id`</ph>" For our example, let's assume the ID is "<ph id="ph2">`123bdd24-b269-h6e1-9c72-7737as875351`</ph>"</source>
+          <target state="new">Take a note of his ID as indicated by the value of "<ph id="ph1">`_id`</ph>" For our example, let's assume the ID is "<ph id="ph2">`123bdd24-b269-h6e1-9c72-7737as875351`</ph>"</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Then, search for the collection with the closest date that is before the date you are looking for, in our example 20/10/2015.</source>
+          <target state="new">Then, search for the collection with the closest date that is before the date you are looking for, in our example 20/10/2015.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Then, search for John Doe's account NTLM activities:</source>
+          <target state="new">Then, search for John Doe's account NTLM activities:</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>ATA prerequisites</source>
+          <target state="new">ATA prerequisites</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>ATA capacity planning</source>
+          <target state="new">ATA capacity planning</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Configure event collection</source>
+          <target state="new">Configure event collection</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Configuring Windows event forwarding</source>
+          <target state="new">Configuring Windows event forwarding</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Check out the ATA forum!</source>
+          <target state="new">Check out the ATA forum!</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

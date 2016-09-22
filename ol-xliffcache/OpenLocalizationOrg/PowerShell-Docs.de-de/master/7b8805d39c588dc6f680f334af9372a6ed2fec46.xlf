@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b8805d39c588dc6f680f334af9372a6ed2fec46</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\troubleshooting-ata-using-logs.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a88d3e141e8ff26e79c08a1f13d559cdf142bc4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e139efd359be2787cb2026b5bd5de85db69ccd1d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Troubleshooting ATA using the ATA logs | Microsoft ATA</source>
+          <target state="new">Troubleshooting ATA using the ATA logs | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Describes how you can use the ATA logs to troubleshoot issues</source>
+          <target state="new">Describes how you can use the ATA logs to troubleshoot issues</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies to: Advanced Threat Analytics version 1.7</source>
+          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Troubleshooting ATA using the ATA logs</source>
+          <target state="new">Troubleshooting ATA using the ATA logs</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The ATA logs provide insight into what each component of ATA is doing at any given point in time.</source>
+          <target state="new">The ATA logs provide insight into what each component of ATA is doing at any given point in time.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>ATA Gateway logs</source>
+          <target state="new">ATA Gateway logs</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this section, every reference to the ATA Gateway is relevant also for the ATA Lightweight Gateway.</source>
+          <target state="new">In this section, every reference to the ATA Gateway is relevant also for the ATA Lightweight Gateway.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The ATA Gateway logs are located in a subfolder called <bpt id="p1">**</bpt>Logs<ept id="p1">**</ept> where ATA is installed; the default location is:  .</source>
+          <target state="new">The ATA Gateway logs are located in a subfolder called <bpt id="p1">**</bpt>Logs<ept id="p1">**</ept> where ATA is installed; the default location is:  .</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the default installation location, it can be found at: <bpt id="p1">**</bpt>C:\Program Files\Microsoft Advanced Threat Analytics\Gateway\Logs<ept id="p1">**</ept>.</source>
+          <target state="new">In the default installation location, it can be found at: <bpt id="p1">**</bpt>C:\Program Files\Microsoft Advanced Threat Analytics\Gateway\Logs<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The ATA Gateway has the following logs:</source>
+          <target state="new">The ATA Gateway has the following logs:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Gateway.log<ept id="p1">**</ept> – This log contains everything that happens in the ATA Gateway (including resolution and errors).</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Gateway.log<ept id="p1">**</ept> – This log contains everything that happens in the ATA Gateway (including resolution and errors).</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Its main use is getting the overall status of all operations in the chronological order in which they occurred.</source>
+          <target state="new">Its main use is getting the overall status of all operations in the chronological order in which they occurred.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Gateway-Resolution.log<ept id="p1">**</ept> – This log contains the resolution details of the entities seen in traffic by the ATA Gateway.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Gateway-Resolution.log<ept id="p1">**</ept> – This log contains the resolution details of the entities seen in traffic by the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Its main use is investigating resolution issues of entities.</source>
+          <target state="new">Its main use is investigating resolution issues of entities.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Gateway-Errors.log<ept id="p1">**</ept> – This log contains just the errors that are caught by the ATA Gateway.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Gateway-Errors.log<ept id="p1">**</ept> – This log contains just the errors that are caught by the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Its main use is performing health checks and investigating issues that need to be correlated to specific times.</source>
+          <target state="new">Its main use is performing health checks and investigating issues that need to be correlated to specific times.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Gateway-ExceptionStatistics.log<ept id="p1">**</ept> – This log groups all similar errors and exceptions, and measures their count.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Gateway-ExceptionStatistics.log<ept id="p1">**</ept> – This log groups all similar errors and exceptions, and measures their count.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This file starts out  empty each time the ATA Gateway service starts and is updated every minute.Its main use is understanding if there are any new errors or issues with the ATA Gateway (because the errors are grouped it is easier to read and quickly understand if there are any new issues).</source>
+          <target state="new">This file starts out  empty each time the ATA Gateway service starts and is updated every minute.Its main use is understanding if there are any new errors or issues with the ATA Gateway (because the errors are grouped it is easier to read and quickly understand if there are any new issues).</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Gateway.Updater.log<ept id="p1">**</ept> - This log is used for the gateway updater process, which is responsible for updating the gateway if configured to do so automatically.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Gateway.Updater.log<ept id="p1">**</ept> - This log is used for the gateway updater process, which is responsible for updating the gateway if configured to do so automatically.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For the ATA Lightweight Gateway, the gateway updater process is also responsible  for the resource limitations of the ATA Lightweight Gateway.</source>
+          <target state="new">For the ATA Lightweight Gateway, the gateway updater process is also responsible  for the resource limitations of the ATA Lightweight Gateway.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Gateway.Updater-ExceptionStatistics.log<ept id="p1">**</ept> - This log groups all similar errors and exceptions together, and measures their count.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Gateway.Updater-ExceptionStatistics.log<ept id="p1">**</ept> - This log groups all similar errors and exceptions together, and measures their count.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This file starts out empty each time the ATA Updater service starts and is updated every minute.</source>
+          <target state="new">This file starts out empty each time the ATA Updater service starts and is updated every minute.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It enables you to understand if there are any new errors or issues with the ATA Updater.</source>
+          <target state="new">It enables you to understand if there are any new errors or issues with the ATA Updater.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The errors are grouped to make it easier to quickly understand if any new errors or issues are detected.</source>
+          <target state="new">The errors are grouped to make it easier to quickly understand if any new errors or issues are detected.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The first three log files have a maximum size of up to 50 MB.</source>
+          <target state="new">The first three log files have a maximum size of up to 50 MB.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When that size is reached, a new log file is opened and the previous one is renamed to "<ph id="ph1">&amp;lt;</ph>original file name<ph id="ph2">&amp;gt;</ph>-Archived-00000" where the number increments each time it is renamed.</source>
+          <target state="new">When that size is reached, a new log file is opened and the previous one is renamed to "<ph id="ph1">&amp;lt;</ph>original file name<ph id="ph2">&amp;gt;</ph>-Archived-00000" where the number increments each time it is renamed.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>By default, if more than 10 files from the same type already exist, the oldest are deleted.</source>
+          <target state="new">By default, if more than 10 files from the same type already exist, the oldest are deleted.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>ATA Center logs</source>
+          <target state="new">ATA Center logs</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The ATA Center logs are located in a subfolder called <bpt id="p1">**</bpt>Logs<ept id="p1">**</ept>.</source>
+          <target state="new">The ATA Center logs are located in a subfolder called <bpt id="p1">**</bpt>Logs<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the default installation location, it can be found at: <bpt id="p1">**</bpt>C:\Program Files\Microsoft Advanced Threat Analytics\Center\Logs<ept id="p1">**</ept>".</source>
+          <target state="new">In the default installation location, it can be found at: <bpt id="p1">**</bpt>C:\Program Files\Microsoft Advanced Threat Analytics\Center\Logs<ept id="p1">**</ept>".</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The ATA console logs that were formerly under IIS logs are now located under ATA Center logs.</source>
+          <target state="new">The ATA console logs that were formerly under IIS logs are now located under ATA Center logs.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The ATA Center has the following logs:</source>
+          <target state="new">The ATA Center has the following logs:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Center.log<ept id="p1">**</ept> – This log contains everything that happens in the ATA Center, including detections and errors.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Center.log<ept id="p1">**</ept> – This log contains everything that happens in the ATA Center, including detections and errors.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Its main use is getting the overall status of all operations in the chronological order in which they occurred.</source>
+          <target state="new">Its main use is getting the overall status of all operations in the chronological order in which they occurred.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Center-Detection.log<ept id="p1">**</ept> – This log contains just the detection details of the ATA Center.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Center-Detection.log<ept id="p1">**</ept> – This log contains just the detection details of the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Its main use is investigating detection issues.</source>
+          <target state="new">Its main use is investigating detection issues.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Center-Errors.log<ept id="p1">**</ept> – This log contains just the errors that are caught by the ATA Center.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Center-Errors.log<ept id="p1">**</ept> – This log contains just the errors that are caught by the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Its main use is performing health checks and investigating issues that need to be correlated to specific times.</source>
+          <target state="new">Its main use is performing health checks and investigating issues that need to be correlated to specific times.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft.Tri.Center-ExceptionStatistics.log<ept id="p1">**</ept> – This log groups all similar errors and exceptions, and measures their count.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft.Tri.Center-ExceptionStatistics.log<ept id="p1">**</ept> – This log groups all similar errors and exceptions, and measures their count.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This file starts out empty each time the ATA Center service starts and is updated every minute.</source>
+          <target state="new">This file starts out empty each time the ATA Center service starts and is updated every minute.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Its main use is understanding if there are any new errors or issues with the ATA Center - because the errors are grouped it is easier to quickly understand if there is a new errors or issues.</source>
+          <target state="new">Its main use is understanding if there are any new errors or issues with the ATA Center - because the errors are grouped it is easier to quickly understand if there is a new errors or issues.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The first three log files have a maximum size of up to 50 MB.</source>
+          <target state="new">The first three log files have a maximum size of up to 50 MB.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When that size is reached, a new log file is opened and the previous one is renamed to "<ph id="ph1">&amp;lt;</ph>original file name<ph id="ph2">&amp;gt;</ph>-Archived-00000" where the number increments each time it is renamed.</source>
+          <target state="new">When that size is reached, a new log file is opened and the previous one is renamed to "<ph id="ph1">&amp;lt;</ph>original file name<ph id="ph2">&amp;gt;</ph>-Archived-00000" where the number increments each time it is renamed.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>By default, if more than 10 files from the same type already exist, the oldest are deleted.</source>
+          <target state="new">By default, if more than 10 files from the same type already exist, the oldest are deleted.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>ATA Deployment logs</source>
+          <target state="new">ATA Deployment logs</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The ATA deployment logs are located in the temp directory for the user who installed the product.</source>
+          <target state="new">The ATA deployment logs are located in the temp directory for the user who installed the product.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the default installation location, it can be found at: <bpt id="p1">**</bpt>C:\Users\Administrator\AppData\Local\Temp<ept id="p1">**</ept> (or one directory above %temp%).</source>
+          <target state="new">In the default installation location, it can be found at: <bpt id="p1">**</bpt>C:\Users\Administrator\AppData\Local\Temp<ept id="p1">**</ept> (or one directory above %temp%).</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>ATA Center deployment logs:</source>
+          <target state="new">ATA Center deployment logs:</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center_20150601104213.log<ept id="p1">**</ept> - This log lists the steps in the process of the deployment of the ATA Center.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center_20150601104213.log<ept id="p1">**</ept> - This log lists the steps in the process of the deployment of the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Its main use is tracking the ATA Center deployment process.</source>
+          <target state="new">Its main use is tracking the ATA Center deployment process.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center_20150601104213_0_MongoDBPackage.log<ept id="p1">**</ept> - This log lists the steps in the process of MongoDB deployment on the ATA Center.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center_20150601104213_0_MongoDBPackage.log<ept id="p1">**</ept> - This log lists the steps in the process of MongoDB deployment on the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Its main use is tracking the MongoDB deployment process.</source>
+          <target state="new">Its main use is tracking the MongoDB deployment process.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center_20150601104213_1_MsiPackage.log<ept id="p1">**</ept> - This log file lists the steps in the process of the deployment of the ATA Center binaries.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Center_20150601104213_1_MsiPackage.log<ept id="p1">**</ept> - This log file lists the steps in the process of the deployment of the ATA Center binaries.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Its main use is tracking the deployment of the ATA Center binaries.</source>
+          <target state="new">Its main use is tracking the deployment of the ATA Center binaries.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>ATA Gateway and ATA Lightweight Gateway deployment logs:</source>
+          <target state="new">ATA Gateway and ATA Lightweight Gateway deployment logs:</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Gateway_20151214014801.log<ept id="p1">**</ept> - This log lists the steps in the process of the deployment of the ATA Gateway.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Gateway_20151214014801.log<ept id="p1">**</ept> - This log lists the steps in the process of the deployment of the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Its main use is tracking the ATA Gateway deployment process.</source>
+          <target state="new">Its main use is tracking the ATA Gateway deployment process.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Gateway_20151214014801_001_MsiPackage.log<ept id="p1">**</ept> - This log file lists the steps in the process of the deployment of the ATA Gateway binaries.</source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft Advanced Threat Analytics Gateway_20151214014801_001_MsiPackage.log<ept id="p1">**</ept> - This log file lists the steps in the process of the deployment of the ATA Gateway binaries.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Its main use is tracking the deployment of the ATA Gateway binaries.</source>
+          <target state="new">Its main use is tracking the deployment of the ATA Gateway binaries.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>ATA prerequisites</source>
+          <target state="new">ATA prerequisites</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>ATA capacity planning</source>
+          <target state="new">ATA capacity planning</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Configure event collection</source>
+          <target state="new">Configure event collection</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Configuring Windows event forwarding</source>
+          <target state="new">Configuring Windows event forwarding</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Check out the ATA forum!</source>
+          <target state="new">Check out the ATA forum!</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

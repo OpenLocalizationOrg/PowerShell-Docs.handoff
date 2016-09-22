@@ -1,0 +1,707 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">691c336ddaccfa6ec4e569e74eb799f56f1b5732</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\configure-event-collection.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">194884de8094a5e00e3b48b342788420a4e6fa24</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab701fc921bd3592bd0ab239eb70db438d32d730</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Configure Event Collection | Microsoft ATA</source>
+          <target state="new">Configure Event Collection | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Describes your options for configuring event collection with ATA</source>
+          <target state="new">Describes your options for configuring event collection with ATA</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies to: Advanced Threat Analytics version 1.6 and 1.7</source>
+          <target state="new">Applies to: Advanced Threat Analytics version 1.6 and 1.7</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Configure Event Collection</source>
+          <target state="new">Configure Event Collection</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To enhance detection capabilities, ATA needs Windows Event log ID 4776.</source>
+          <target state="new">To enhance detection capabilities, ATA needs Windows Event log ID 4776.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This can be forwarded to the ATA Gateway in one of two ways, by configuring the ATA Gateway to listen for SIEM events or by <bpt id="p1">[</bpt>Configuring Windows Event Forwarding<ept id="p1">](#configuring-windows-event-forwarding)</ept>.</source>
+          <target state="new">This can be forwarded to the ATA Gateway in one of two ways, by configuring the ATA Gateway to listen for SIEM events or by <bpt id="p1">[</bpt>Configuring Windows Event Forwarding<ept id="p1">](#configuring-windows-event-forwarding)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Event collection</source>
+          <target state="new">Event collection</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In addition to collecting and analyzing network traffic to and from the domain controllers, ATA can use Windows event 4776 to further enhance ATA Pass-the-Hash detection.</source>
+          <target state="new">In addition to collecting and analyzing network traffic to and from the domain controllers, ATA can use Windows event 4776 to further enhance ATA Pass-the-Hash detection.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This can be received from your SIEM or by  setting Windows Event Forwarding from your domain controller.</source>
+          <target state="new">This can be received from your SIEM or by  setting Windows Event Forwarding from your domain controller.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Events collected provide ATA with additional information that is not available via the domain controller network traffic.</source>
+          <target state="new">Events collected provide ATA with additional information that is not available via the domain controller network traffic.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>SIEM/Syslog</source>
+          <target state="new">SIEM/Syslog</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For ATA to be able to consume data from a Syslog server, you need to do the following:</source>
+          <target state="new">For ATA to be able to consume data from a Syslog server, you need to do the following:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Configure your ATA Gateway servers to listen to and accept events forwarded from the SIEM/Syslog server.</source>
+          <target state="new">Configure your ATA Gateway servers to listen to and accept events forwarded from the SIEM/Syslog server.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Configure your SIEM/Syslog server to forward specific events to the ATA Gateway.</source>
+          <target state="new">Configure your SIEM/Syslog server to forward specific events to the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Do not forward all the Syslog data to the ATA Gateway.</source>
+          <target state="new">Do not forward all the Syslog data to the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>ATA supports UDP traffic from the SIEM/Syslog server.</source>
+          <target state="new">ATA supports UDP traffic from the SIEM/Syslog server.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Refer to your SIEM/Syslog server's product documentation for information on how to configure forwarding of specific events to another server.</source>
+          <target state="new">Refer to your SIEM/Syslog server's product documentation for information on how to configure forwarding of specific events to another server.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Windows event forwarding</source>
+          <target state="new">Windows event forwarding</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you do not use a SIEM/Syslog server, you can configure your Windows domain controllers to forward Windows Event ID 4776 to be collected and analyzed by ATA.</source>
+          <target state="new">If you do not use a SIEM/Syslog server, you can configure your Windows domain controllers to forward Windows Event ID 4776 to be collected and analyzed by ATA.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Windows Event ID 4776 provides data regarding NTLM authentications.</source>
+          <target state="new">Windows Event ID 4776 provides data regarding NTLM authentications.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Configuring the ATA Gateway to listen for SIEM events</source>
+          <target state="new">Configuring the ATA Gateway to listen for SIEM events</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>On the ATA configuration, under "Events" tab enable <bpt id="p1">**</bpt>Syslog<ept id="p1">**</ept> and press <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+          <target state="new">On the ATA configuration, under "Events" tab enable <bpt id="p1">**</bpt>Syslog<ept id="p1">**</ept> and press <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Enable syslog listener UDP image</source>
+          <target state="new">Enable syslog listener UDP image</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Configure your SIEM or Syslog server to forward Windows Event ID 4776 to the IP address of one of the ATA Gateways.</source>
+          <target state="new">Configure your SIEM or Syslog server to forward Windows Event ID 4776 to the IP address of one of the ATA Gateways.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For additional information on configuring your SIEM, refer to your SIEM online help or technical support options for specific formatting requirements for each SIEM server.</source>
+          <target state="new">For additional information on configuring your SIEM, refer to your SIEM online help or technical support options for specific formatting requirements for each SIEM server.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>SIEM support</source>
+          <target state="new">SIEM support</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>ATA supports SIEM events in the following formats:</source>
+          <target state="new">ATA supports SIEM events in the following formats:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>RSA Security Analytics</source>
+          <target state="new">RSA Security Analytics</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Syslog Header<ph id="ph1">&amp;gt;</ph>RsaSA\n2015-May-19 09:07:09\n4776\nMicrosoft-Windows-Security-Auditing\nSecurity\XXXXX.subDomain.domain.org.il\nYYYYY$\nMMMMM \n0x0</source>
+          <target state="new">Syslog Header<ph id="ph1">&amp;gt;</ph>RsaSA\n2015-May-19 09:07:09\n4776\nMicrosoft-Windows-Security-Auditing\nSecurity\XXXXX.subDomain.domain.org.il\nYYYYY$\nMMMMM \n0x0</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Syslog header is optional.</source>
+          <target state="new">Syslog header is optional.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>“\n” character separator is required between all fields.</source>
+          <target state="new">“\n” character separator is required between all fields.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The fields, in order, are:</source>
+          <target state="new">The fields, in order, are:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>RsaSA constant (must appear).</source>
+          <target state="new">RsaSA constant (must appear).</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The timestamp of the actual event (make sure it’s not the timestamp of the arrival to the SIEM or when it’s sent to ATA).</source>
+          <target state="new">The timestamp of the actual event (make sure it’s not the timestamp of the arrival to the SIEM or when it’s sent to ATA).</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Preferably  in milliseconds accuracy, this is very important.</source>
+          <target state="new">Preferably  in milliseconds accuracy, this is very important.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The windows event ID</source>
+          <target state="new">The windows event ID</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The windows event provider name</source>
+          <target state="new">The windows event provider name</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The windows event log name</source>
+          <target state="new">The windows event log name</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The name of the computer receiving the event (the DC in this case)</source>
+          <target state="new">The name of the computer receiving the event (the DC in this case)</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The name of the user authenticating</source>
+          <target state="new">The name of the user authenticating</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The name of the source host name</source>
+          <target state="new">The name of the source host name</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The result code of the NTLM</source>
+          <target state="new">The result code of the NTLM</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The order is important and nothing else should be included in the message.</source>
+          <target state="new">The order is important and nothing else should be included in the message.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>HP Arcsight</source>
+          <target state="new">HP Arcsight</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>CEF:0|Microsoft|Microsoft Windows||Microsoft-Windows-Security-Auditing:4776|The domain controller attempted to validate the credentials for an account.|Low| externalId=4776 cat=Security rt=1426218619000 shost=KKKKKK dhost=YYYYYY.subDomain.domain.com duser=XXXXXX cs2=Security cs3=Microsoft-Windows-Security-Auditing cs4=0x0 cs3Label=EventSource cs4Label=Reason or Error Code</source>
+          <target state="new">CEF:0|Microsoft|Microsoft Windows||Microsoft-Windows-Security-Auditing:4776|The domain controller attempted to validate the credentials for an account.|Low| externalId=4776 cat=Security rt=1426218619000 shost=KKKKKK dhost=YYYYYY.subDomain.domain.com duser=XXXXXX cs2=Security cs3=Microsoft-Windows-Security-Auditing cs4=0x0 cs3Label=EventSource cs4Label=Reason or Error Code</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Must comply with the protocol definition.</source>
+          <target state="new">Must comply with the protocol definition.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>No syslog header.</source>
+          <target state="new">No syslog header.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The header part (the part that’s separated by a pipe) must exist (as stated in the protocol).</source>
+          <target state="new">The header part (the part that’s separated by a pipe) must exist (as stated in the protocol).</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The following keys in the <bpt id="p1">_</bpt>Extension<ept id="p1">_</ept> part must be present in the event:</source>
+          <target state="new">The following keys in the <bpt id="p1">_</bpt>Extension<ept id="p1">_</ept> part must be present in the event:</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>externalId = the Windows event ID</source>
+          <target state="new">externalId = the Windows event ID</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>rt = the timestamp of the actual event (make sure it’s not the timestamp of the arrival to the SIEM or when it’s sent to us).</source>
+          <target state="new">rt = the timestamp of the actual event (make sure it’s not the timestamp of the arrival to the SIEM or when it’s sent to us).</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Preferably  in milliseconds accuracy, this is very important.</source>
+          <target state="new">Preferably  in milliseconds accuracy, this is very important.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>cat = the Windows event log name</source>
+          <target state="new">cat = the Windows event log name</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>shost = the source host name</source>
+          <target state="new">shost = the source host name</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>dhost = the computer receiving the event (the DC in this case)</source>
+          <target state="new">dhost = the computer receiving the event (the DC in this case)</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>duser = the user authenticating</source>
+          <target state="new">duser = the user authenticating</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The order is not important for the <bpt id="p1">_</bpt>Extension<ept id="p1">_</ept> part</source>
+          <target state="new">The order is not important for the <bpt id="p1">_</bpt>Extension<ept id="p1">_</ept> part</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>There must be a custom key and keyLable for these two fields:</source>
+          <target state="new">There must be a custom key and keyLable for these two fields:</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>“EventSource”</source>
+          <target state="new">“EventSource”</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>“Reason or Error Code” = The result code of the NTLM</source>
+          <target state="new">“Reason or Error Code” = The result code of the NTLM</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Splunk</source>
+          <target state="new">Splunk</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Syslog Header<ph id="ph1">&amp;gt;</ph>\r\nEventCode=4776\r\nLogfile=Security\r\nSourceName=Microsoft-Windows-Security-Auditing\r\nTimeGenerated=20150310132717.784882-000\r\ComputerName=YYYYY\r\nMessage=</source>
+          <target state="new">Syslog Header<ph id="ph1">&amp;gt;</ph>\r\nEventCode=4776\r\nLogfile=Security\r\nSourceName=Microsoft-Windows-Security-Auditing\r\nTimeGenerated=20150310132717.784882-000\r\ComputerName=YYYYY\r\nMessage=</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The computer attempted to validate the credentials for an account.</source>
+          <target state="new">The computer attempted to validate the credentials for an account.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Authentication Package:              MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</source>
+          <target state="new">Authentication Package:              MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Logon Account: Administrator</source>
+          <target state="new">Logon Account: Administrator</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Source Workstation:       SIEM</source>
+          <target state="new">Source Workstation:       SIEM</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Error Code:         0x0</source>
+          <target state="new">Error Code:         0x0</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Syslog header is optional.</source>
+          <target state="new">Syslog header is optional.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>There’s a “\r\n” character separator between all required fields.</source>
+          <target state="new">There’s a “\r\n” character separator between all required fields.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The fields are in key=value format.</source>
+          <target state="new">The fields are in key=value format.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The following keys must exists and have a value:</source>
+          <target state="new">The following keys must exists and have a value:</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>EventCode = the Windows event ID</source>
+          <target state="new">EventCode = the Windows event ID</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Logfile = the Windows event log name</source>
+          <target state="new">Logfile = the Windows event log name</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>SourceName = The Windows event provider name</source>
+          <target state="new">SourceName = The Windows event provider name</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>TimeGenerated = the timestamp of the actual event (make sure it’s not the timestamp of the arrival to the SIEM or when it’s sent to ATA).</source>
+          <target state="new">TimeGenerated = the timestamp of the actual event (make sure it’s not the timestamp of the arrival to the SIEM or when it’s sent to ATA).</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The format should match yyyyMMddHHmmss.FFFFFF, preferably  in milliseconds accuracy, this is very important.</source>
+          <target state="new">The format should match yyyyMMddHHmmss.FFFFFF, preferably  in milliseconds accuracy, this is very important.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>ComputerName = the source host name</source>
+          <target state="new">ComputerName = the source host name</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Message = the original event text from the Windows event</source>
+          <target state="new">Message = the original event text from the Windows event</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The Message Key and value MUST be last.</source>
+          <target state="new">The Message Key and value MUST be last.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The order is not important for the key=value pairs.</source>
+          <target state="new">The order is not important for the key=value pairs.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>QRadar</source>
+          <target state="new">QRadar</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>QRadar enables event collection via an agent.</source>
+          <target state="new">QRadar enables event collection via an agent.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If the data is gathered using an agent, the time format is gathered without millisecond data.</source>
+          <target state="new">If the data is gathered using an agent, the time format is gathered without millisecond data.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Because ATA necessitates millisecond data, it is necessary to set QRadar to use agentless Windows event collection.</source>
+          <target state="new">Because ATA necessitates millisecond data, it is necessary to set QRadar to use agentless Windows event collection.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>http://www-01.ibm.com/support/docview.wss?uid=swg21700170<ept id="p1">]</ept><bpt id="p2">(http://www-01.ibm.com/support/docview.wss?uid=swg21700170 "</bpt>QRadar: Agentless Windows Events Collection using the MSRPC Protocol<ept id="p2">")</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>http://www-01.ibm.com/support/docview.wss?uid=swg21700170<ept id="p1">]</ept><bpt id="p2">(http://www-01.ibm.com/support/docview.wss?uid=swg21700170 "</bpt>QRadar: Agentless Windows Events Collection using the MSRPC Protocol<ept id="p2">")</ept>.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The fields needed are:</source>
+          <target state="new">The fields needed are:</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The agent type for the collection</source>
+          <target state="new">The agent type for the collection</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The windows event log provider name</source>
+          <target state="new">The windows event log provider name</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The windows event log source</source>
+          <target state="new">The windows event log source</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The DC fully qualified domain name</source>
+          <target state="new">The DC fully qualified domain name</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The windows event ID</source>
+          <target state="new">The windows event ID</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>TimeGenerated is the timestamp of the actual event (make sure it’s not the timestamp of the arrival to the SIEM or when it’s sent to ATA).</source>
+          <target state="new">TimeGenerated is the timestamp of the actual event (make sure it’s not the timestamp of the arrival to the SIEM or when it’s sent to ATA).</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The format should match yyyyMMddHHmmss.FFFFFF, preferably in milliseconds accuracy, this is very important.</source>
+          <target state="new">The format should match yyyyMMddHHmmss.FFFFFF, preferably in milliseconds accuracy, this is very important.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Message is the original event text from the Windows event</source>
+          <target state="new">Message is the original event text from the Windows event</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Make sure to have \t between the key=value pairs.</source>
+          <target state="new">Make sure to have \t between the key=value pairs.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Using WinCollect for Windows event collection is not supported.</source>
+          <target state="new">Using WinCollect for Windows event collection is not supported.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Configuring Windows Event Forwarding</source>
+          <target state="new">Configuring Windows Event Forwarding</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>WEF configuration for ATA Gateway's with port mirroring</source>
+          <target state="new">WEF configuration for ATA Gateway's with port mirroring</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>After you configured port mirroring from the domain controllers to the ATA Gateway, follow the instructions below to configure Windows Event forwarding using Source Initiated configuration.</source>
+          <target state="new">After you configured port mirroring from the domain controllers to the ATA Gateway, follow the instructions below to configure Windows Event forwarding using Source Initiated configuration.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This is one way to configure Windows Event forwarding.</source>
+          <target state="new">This is one way to configure Windows Event forwarding.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Step 1: Add the network service account to the domain Event Log Readers Group.</source>
+          <target state="new">Step 1: Add the network service account to the domain Event Log Readers Group.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>In this scenario we are assuming that the ATA Gateway is a member of the domain.</source>
+          <target state="new">In this scenario we are assuming that the ATA Gateway is a member of the domain.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Open Active Directory Users and Computers, navigate to the <bpt id="p1">**</bpt>BuiltIn<ept id="p1">**</ept> folder and double click <bpt id="p2">**</bpt>Event Log Readers<ept id="p2">**</ept>.</source>
+          <target state="new">Open Active Directory Users and Computers, navigate to the <bpt id="p1">**</bpt>BuiltIn<ept id="p1">**</ept> folder and double click <bpt id="p2">**</bpt>Event Log Readers<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Members<ept id="p1">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Members<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>Network Service<ept id="p1">**</ept> is not listed, click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, type <bpt id="p3">**</bpt>Network Service<ept id="p3">**</ept> in the <bpt id="p4">**</bpt>Enter the object names to select<ept id="p4">**</ept> field.</source>
+          <target state="new">If <bpt id="p1">**</bpt>Network Service<ept id="p1">**</ept> is not listed, click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, type <bpt id="p3">**</bpt>Network Service<ept id="p3">**</ept> in the <bpt id="p4">**</bpt>Enter the object names to select<ept id="p4">**</ept> field.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Check Names<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> twice.</source>
+          <target state="new">Then click <bpt id="p1">**</bpt>Check Names<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> twice.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Step 2: Create a policy on the domain controllers to set the Configure target Subscription Manager setting.</source>
+          <target state="new">Step 2: Create a policy on the domain controllers to set the Configure target Subscription Manager setting.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You can create a group policy for these settings and apply the group policy to each domain controller monitored by the ATA Gateway.</source>
+          <target state="new">You can create a group policy for these settings and apply the group policy to each domain controller monitored by the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The steps below modify the local policy of the domain controller.</source>
+          <target state="new">The steps below modify the local policy of the domain controller.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Run the following command on each domain controller: <bpt id="p1">*</bpt>winrm quickconfig<ept id="p1">*</ept></source>
+          <target state="new">Run the following command on each domain controller: <bpt id="p1">*</bpt>winrm quickconfig<ept id="p1">*</ept></target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>From a command prompt type <bpt id="p1">*</bpt>gpedit.msc<ept id="p1">*</ept>.</source>
+          <target state="new">From a command prompt type <bpt id="p1">*</bpt>gpedit.msc<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Expand <bpt id="p1">**</bpt>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; Event Forwarding<ept id="p1">**</ept></source>
+          <target state="new">Expand <bpt id="p1">**</bpt>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; Event Forwarding<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Local policy group editor image</source>
+          <target state="new">Local policy group editor image</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Double click <bpt id="p1">**</bpt>Configure target Subscription Manager<ept id="p1">**</ept>.</source>
+          <target state="new">Double click <bpt id="p1">**</bpt>Configure target Subscription Manager<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> click <bpt id="p2">**</bpt>Show<ept id="p2">**</ept>.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> click <bpt id="p2">**</bpt>Show<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>SubscriptionManagers<ept id="p1">**</ept> enter the following value and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>:  <bpt id="p3">*</bpt>Server=http://<ph id="ph1">&lt;fqdnATAGateway&gt;</ph>:5985/wsman/SubscriptionManager/WEC,Refresh=10<ept id="p3">*</ept> (For example: Server=http://atagateway9.contoso.com:5985/wsman/SubscriptionManager/WEC,Refresh=10)</source>
+          <target state="new">Under <bpt id="p1">**</bpt>SubscriptionManagers<ept id="p1">**</ept> enter the following value and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>:  <bpt id="p3">*</bpt>Server=http://<ph id="ph1">&lt;fqdnATAGateway&gt;</ph>:5985/wsman/SubscriptionManager/WEC,Refresh=10<ept id="p3">*</ept> (For example: Server=http://atagateway9.contoso.com:5985/wsman/SubscriptionManager/WEC,Refresh=10)</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Configure target subscription image</source>
+          <target state="new">Configure target subscription image</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>From an elevated command prompt type <bpt id="p1">*</bpt>gpupdate /force<ept id="p1">*</ept>.</source>
+          <target state="new">From an elevated command prompt type <bpt id="p1">*</bpt>gpupdate /force<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Step 3: Perform the following steps on the ATA Gateway</source>
+          <target state="new">Step 3: Perform the following steps on the ATA Gateway</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Open an elevated command prompt and type <bpt id="p1">*</bpt>wecutil qc<ept id="p1">*</ept></source>
+          <target state="new">Open an elevated command prompt and type <bpt id="p1">*</bpt>wecutil qc<ept id="p1">*</ept></target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Open <bpt id="p1">**</bpt>Event Viewer<ept id="p1">**</ept>.</source>
+          <target state="new">Open <bpt id="p1">**</bpt>Event Viewer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Right click <bpt id="p1">**</bpt>Subscriptions<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Create Subscription<ept id="p2">**</ept>.</source>
+          <target state="new">Right click <bpt id="p1">**</bpt>Subscriptions<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Create Subscription<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Enter a name and description for the subscription.</source>
+          <target state="new">Enter a name and description for the subscription.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Destination Log<ept id="p1">**</ept> confirm that <bpt id="p2">**</bpt>Forwarded Events<ept id="p2">**</ept> is selected.</source>
+          <target state="new">For <bpt id="p1">**</bpt>Destination Log<ept id="p1">**</ept> confirm that <bpt id="p2">**</bpt>Forwarded Events<ept id="p2">**</ept> is selected.</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For ATA to read the events, the destination log must be <bpt id="p1">**</bpt>Forwarded Events<ept id="p1">**</ept>.</source>
+          <target state="new">For ATA to read the events, the destination log must be <bpt id="p1">**</bpt>Forwarded Events<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Source computer initiated<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>Select Computers Groups<ept id="p2">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Source computer initiated<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>Select Computers Groups<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add Domain Computer<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Add Domain Computer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Enter the name of the domain controller in the <bpt id="p1">**</bpt>Enter the object name to select<ept id="p1">**</ept> field.</source>
+          <target state="new">Enter the name of the domain controller in the <bpt id="p1">**</bpt>Enter the object name to select<ept id="p1">**</ept> field.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Check Names<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="new">Then click <bpt id="p1">**</bpt>Check Names<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Event Viewer image</source>
+          <target state="new">Event Viewer image</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Select Events<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Select Events<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>By log<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Security<ept id="p2">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>By log<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Security<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Includes/Excludes Event ID<ept id="p1">**</ept> field type <bpt id="p2">**</bpt>4776<ept id="p2">**</ept> and click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Includes/Excludes Event ID<ept id="p1">**</ept> field type <bpt id="p2">**</bpt>4776<ept id="p2">**</ept> and click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Query filter image</source>
+          <target state="new">Query filter image</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Right click the created subscription and select <bpt id="p1">**</bpt>Runtime Status<ept id="p1">**</ept> to see if there are any issues with the status.</source>
+          <target state="new">Right click the created subscription and select <bpt id="p1">**</bpt>Runtime Status<ept id="p1">**</ept> to see if there are any issues with the status.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>After a few minutes, check to see that event 4776 is showing up in the Forwarded Events on the ATA Gateway.</source>
+          <target state="new">After a few minutes, check to see that event 4776 is showing up in the Forwarded Events on the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>WEF configuration for the ATA Lightweight Gateway</source>
+          <target state="new">WEF configuration for the ATA Lightweight Gateway</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>When you install the ATA Lightweight Gateway on your domain controllers, you can set up your domain controllers to forward the events to itself.</source>
+          <target state="new">When you install the ATA Lightweight Gateway on your domain controllers, you can set up your domain controllers to forward the events to itself.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Perform the following steps to configure the Window Event Forwarding when using the ATA Lightweight Gateway.</source>
+          <target state="new">Perform the following steps to configure the Window Event Forwarding when using the ATA Lightweight Gateway.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>This is one way to configure Windows Event forwarding.</source>
+          <target state="new">This is one way to configure Windows Event forwarding.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Step 1: Add the network service account to the domain Event Log Readers Group</source>
+          <target state="new">Step 1: Add the network service account to the domain Event Log Readers Group</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Open Active Directory Users and Computer, navigate to the <bpt id="p1">**</bpt>BuiltIn<ept id="p1">**</ept> folder and double click <bpt id="p2">**</bpt>Event Log Readers<ept id="p2">**</ept>.</source>
+          <target state="new">Open Active Directory Users and Computer, navigate to the <bpt id="p1">**</bpt>BuiltIn<ept id="p1">**</ept> folder and double click <bpt id="p2">**</bpt>Event Log Readers<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Members<ept id="p1">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Members<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>Network Service<ept id="p1">**</ept> is not listed, click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> and type <bpt id="p3">**</bpt>Network Service<ept id="p3">**</ept> in the <bpt id="p4">**</bpt>Enter the object names to select<ept id="p4">**</ept> field.</source>
+          <target state="new">If <bpt id="p1">**</bpt>Network Service<ept id="p1">**</ept> is not listed, click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> and type <bpt id="p3">**</bpt>Network Service<ept id="p3">**</ept> in the <bpt id="p4">**</bpt>Enter the object names to select<ept id="p4">**</ept> field.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Check Names<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> twice.</source>
+          <target state="new">Then click <bpt id="p1">**</bpt>Check Names<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> twice.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Step 2: Perform the following steps on the domain controller after the ATA Lightweight Gateway is installed</source>
+          <target state="new">Step 2: Perform the following steps on the domain controller after the ATA Lightweight Gateway is installed</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Open an elevated command prompt and type <bpt id="p1">*</bpt>winrm quickconfig<ept id="p1">*</ept> and <bpt id="p2">*</bpt>wecutil qc<ept id="p2">*</ept></source>
+          <target state="new">Open an elevated command prompt and type <bpt id="p1">*</bpt>winrm quickconfig<ept id="p1">*</ept> and <bpt id="p2">*</bpt>wecutil qc<ept id="p2">*</ept></target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Open <bpt id="p1">**</bpt>Event Viewer<ept id="p1">**</ept>.</source>
+          <target state="new">Open <bpt id="p1">**</bpt>Event Viewer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Right click <bpt id="p1">**</bpt>Subscriptions<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Create Subscription<ept id="p2">**</ept>.</source>
+          <target state="new">Right click <bpt id="p1">**</bpt>Subscriptions<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Create Subscription<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Enter a name and description for the subscription.</source>
+          <target state="new">Enter a name and description for the subscription.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Destination Log<ept id="p1">**</ept> confirm that <bpt id="p2">**</bpt>Forwarded Events<ept id="p2">**</ept> is selected.</source>
+          <target state="new">For <bpt id="p1">**</bpt>Destination Log<ept id="p1">**</ept> confirm that <bpt id="p2">**</bpt>Forwarded Events<ept id="p2">**</ept> is selected.</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>For ATA to read the events the destination log must be Forwarded Events.</source>
+          <target state="new">For ATA to read the events the destination log must be Forwarded Events.</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Collector initiated<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>Select Computers<ept id="p2">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Collector initiated<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>Select Computers<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Add Domain Computer<ept id="p1">**</ept>.</source>
+          <target state="new">Then click <bpt id="p1">**</bpt>Add Domain Computer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Enter the name of the domain controller in the <bpt id="p1">**</bpt>Enter the object name to select<ept id="p1">**</ept>.</source>
+          <target state="new">Enter the name of the domain controller in the <bpt id="p1">**</bpt>Enter the object name to select<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Check Names<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="new">Then click <bpt id="p1">**</bpt>Check Names<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Subscription properties image</source>
+          <target state="new">Subscription properties image</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Select Events<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Select Events<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>By log<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Security<ept id="p2">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>By log<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Security<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Includes/Excludes Event ID<ept id="p1">**</ept> type <bpt id="p2">*</bpt>4776<ept id="p2">*</ept> and click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Includes/Excludes Event ID<ept id="p1">**</ept> type <bpt id="p2">*</bpt>4776<ept id="p2">*</ept> and click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Query filter image</source>
+          <target state="new">Query filter image</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Right click the created subscription and select <bpt id="p1">**</bpt>Runtime Status<ept id="p1">**</ept> to see if there are any issues with the status.</source>
+          <target state="new">Right click the created subscription and select <bpt id="p1">**</bpt>Runtime Status<ept id="p1">**</ept> to see if there are any issues with the status.</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You may need to reboot the domain controller before the setting take effect.</source>
+          <target state="new">You may need to reboot the domain controller before the setting take effect.</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>After a few minutes, check to see that event 4776 is showing up in the Forwarded Events on the ATA Gateway.</source>
+          <target state="new">After a few minutes, check to see that event 4776 is showing up in the Forwarded Events on the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>For more information see: <bpt id="p1">[</bpt>Configure the computers to forward and collect events<ept id="p1">](https://technet.microsoft.com/library/cc748890)</ept></source>
+          <target state="new">For more information see: <bpt id="p1">[</bpt>Configure the computers to forward and collect events<ept id="p1">](https://technet.microsoft.com/library/cc748890)</ept></target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Install ATA</source>
+          <target state="new">Install ATA</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Check out the ATA forum!!</source>
+          <target state="new">Check out the ATA forum!!</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

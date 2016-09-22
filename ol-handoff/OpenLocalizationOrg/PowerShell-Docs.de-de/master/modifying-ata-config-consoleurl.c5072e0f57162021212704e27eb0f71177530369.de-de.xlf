@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">80ef404fcbea9bd1deea509e3fbb78b2928054a7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\modifying-ata-config-consoleurl.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a6bb52902f5c1c095125cfca14bcc038a03ac1d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9aedb254403e3bf8b9dfda3c92e706fe921ad7bd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Change ATA configuration - ATA Console IP address | Microsoft Advanced Threat Analytics</source>
+          <target state="new">Change ATA configuration - ATA Console IP address | Microsoft Advanced Threat Analytics</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Describes how to change the IP address of the ATA Console, used to create a shortcut to the ATA Console on the ATA Gateways.</source>
+          <target state="new">Describes how to change the IP address of the ATA Console, used to create a shortcut to the ATA Console on the ATA Gateways.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies to: Advanced Threat Analytics version 1.7</source>
+          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Change ATA configuration - ATA Console URL</source>
+          <target state="new">Change ATA configuration - ATA Console URL</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>« ATA Center certificate<ept id="p1">](modifying-ata-config-centercert.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Domain connectivity password »<ept id="p2">](modifying-ata-config-dcpassword.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>« ATA Center certificate<ept id="p1">](modifying-ata-config-centercert.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Domain connectivity password »<ept id="p2">](modifying-ata-config-dcpassword.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Change the ATA Console URL</source>
+          <target state="new">Change the ATA Console URL</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>By default, the ATA Console URL is the IP address selected for the ATA Console IP address when you installed the ATA Center.</source>
+          <target state="new">By default, the ATA Console URL is the IP address selected for the ATA Console IP address when you installed the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The URL is used in the following scenarios:</source>
+          <target state="new">The URL is used in the following scenarios:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Installation of ATA Gateways – When an ATA Gateway is installed, it registers itself with the ATA Center.</source>
+          <target state="new">Installation of ATA Gateways – When an ATA Gateway is installed, it registers itself with the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This registration process is accomplished by connecting to the ATA Console.</source>
+          <target state="new">This registration process is accomplished by connecting to the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you enter an FQDN for the ATA Console URL, you need to ensure that the ATA Gateway can resolve the FQDN to the IP address that the ATA Console is bound to.</source>
+          <target state="new">If you enter an FQDN for the ATA Console URL, you need to ensure that the ATA Gateway can resolve the FQDN to the IP address that the ATA Console is bound to.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Alerts – When ATA sends out a SIEM or email alert, it includes a link to the suspicious activity.</source>
+          <target state="new">Alerts – When ATA sends out a SIEM or email alert, it includes a link to the suspicious activity.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The host portion of the link is the ATA Console URL setting.</source>
+          <target state="new">The host portion of the link is the ATA Console URL setting.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you installed a certificate from your internal Certification Authority (CA), you will probably want to match the URL to the subject name in the certificate so users will not get a warning message when connecting to the ATA Console.</source>
+          <target state="new">If you installed a certificate from your internal Certification Authority (CA), you will probably want to match the URL to the subject name in the certificate so users will not get a warning message when connecting to the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Using an FQDN for the ATA Console URL allows you to modify the IP address that is used by ATA Console without breaking alerts that have been sent out in the past or needing to re-download the ATA Gateway package again.</source>
+          <target state="new">Using an FQDN for the ATA Console URL allows you to modify the IP address that is used by ATA Console without breaking alerts that have been sent out in the past or needing to re-download the ATA Gateway package again.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You only need to update the DNS with the new IP address.</source>
+          <target state="new">You only need to update the DNS with the new IP address.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>After modifying the ATA Console URL, you should download the ATA Gateway Setup package before installing new ATA Gateways.</source>
+          <target state="new">After modifying the ATA Console URL, you should download the ATA Gateway Setup package before installing new ATA Gateways.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you need to modify the URL for the ATA Console, follow these steps on the ATA Center server.</source>
+          <target state="new">If you need to modify the URL for the ATA Console, follow these steps on the ATA Center server.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Open the ATA Console.</source>
+          <target state="new">Open the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Select the settings option on the toolbar and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</source>
+          <target state="new">Select the settings option on the toolbar and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>ATA configuration settings icon</source>
+          <target state="new">ATA configuration settings icon</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Center<ept id="p1">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Center<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Console IP Address<ept id="p1">**</ept>, select one of the existing IP addresses</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Console IP Address<ept id="p1">**</ept>, select one of the existing IP addresses</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Console URL<ept id="p1">**</ept>, modify the URL as needed:</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Console URL<ept id="p1">**</ept>, modify the URL as needed:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>ATA Console URL</source>
+          <target state="new">ATA Console URL</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>« ATA Center certificate<ept id="p1">](modifying-ata-config-centercert.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Domain connectivity password »<ept id="p2">](modifying-ata-config-dcpassword.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>« ATA Center certificate<ept id="p1">](modifying-ata-config-centercert.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Domain connectivity password »<ept id="p2">](modifying-ata-config-dcpassword.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Working with the ATA Console</source>
+          <target state="new">Working with the ATA Console</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Install ATA</source>
+          <target state="new">Install ATA</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Check out the ATA forum!</source>
+          <target state="new">Check out the ATA forum!</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

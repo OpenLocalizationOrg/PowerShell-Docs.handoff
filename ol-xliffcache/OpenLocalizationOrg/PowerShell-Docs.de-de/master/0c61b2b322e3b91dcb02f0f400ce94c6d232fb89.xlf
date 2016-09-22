@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c61b2b322e3b91dcb02f0f400ce94c6d232fb89</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\install-ata-step4.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">679131b6208224d4d83d00a63839b6c6716930c9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">239541cdbe8216a7b5940d315377fe58012202cd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Install ATA - Step 4 | Microsoft ATA</source>
+          <target state="new">Install ATA - Step 4 | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Step four of installing ATA helps you to install the ATA Gateway.</source>
+          <target state="new">Step four of installing ATA helps you to install the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Applies to: Advanced Threat Analytics version 1.7</source>
+          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Install ATA - Step 4</source>
+          <target state="new">Install ATA - Step 4</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>« Step 3<ept id="p1">](install-ata-step3.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Step 5 »<ept id="p2">](install-ata-step5.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>« Step 3<ept id="p1">](install-ata-step3.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Step 5 »<ept id="p2">](install-ata-step5.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Step 4.</source>
+          <target state="new">Step 4.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Install the ATA Gateway</source>
+          <target state="new">Install the ATA Gateway</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Before installing the ATA Gateway on a dedicated server, validate that port mirroring is properly configured and that the ATA Gateway can see traffic to and from the domain controllers.</source>
+          <target state="new">Before installing the ATA Gateway on a dedicated server, validate that port mirroring is properly configured and that the ATA Gateway can see traffic to and from the domain controllers.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Validate port mirroring<ept id="p1">](validate-port-mirroring.md)</ept> for more information.</source>
+          <target state="new">See <bpt id="p1">[</bpt>Validate port mirroring<ept id="p1">](validate-port-mirroring.md)</ept> for more information.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Make sure that <bpt id="p1">[</bpt>KB2919355<ept id="p1">](http://support.microsoft.com/kb/2919355/)</ept> has been installed.</source>
+          <target state="new">Make sure that <bpt id="p1">[</bpt>KB2919355<ept id="p1">](http://support.microsoft.com/kb/2919355/)</ept> has been installed.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Run the following PowerShell cmdlet to check if the hotfix is installed:</source>
+          <target state="new">Run the following PowerShell cmdlet to check if the hotfix is installed:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Perform the following steps on the ATA Gateway server.</source>
+          <target state="new">Perform the following steps on the ATA Gateway server.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Extract the files from the zip file.</source>
+          <target state="new">Extract the files from the zip file.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Installing directly from the zip file will fail.</source>
+          <target state="new">Installing directly from the zip file will fail.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Run <bpt id="p1">**</bpt>Microsoft ATA Gateway Setup.exe<ept id="p1">**</ept> and follow the setup wizard.</source>
+          <target state="new">Run <bpt id="p1">**</bpt>Microsoft ATA Gateway Setup.exe<ept id="p1">**</ept> and follow the setup wizard.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Welcome<ept id="p1">**</ept> page, select your language and click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Welcome<ept id="p1">**</ept> page, select your language and click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The installation wizard will automatically check if the server is a domain controller or a dedicated server.</source>
+          <target state="new">The installation wizard will automatically check if the server is a domain controller or a dedicated server.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If it is a domain controller, the ATA Lightweight Gateway will be installed, if it is a dedicated server, the ATA Gateway will be installed.</source>
+          <target state="new">If it is a domain controller, the ATA Lightweight Gateway will be installed, if it is a dedicated server, the ATA Gateway will be installed.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, in the case of an ATA Lightweight Gateway, the following screen will be displayed to let you know that an ATA Lightweight Gateway will be installed on your domain controller:</source>
+          <target state="new">For example, in the case of an ATA Lightweight Gateway, the following screen will be displayed to let you know that an ATA Lightweight Gateway will be installed on your domain controller:</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">![</ph>ATA Lightweight Gateway installation<ph id="ph2">](media/ATA-lightweight-gateway-install-selected.png)</ph> Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="new"><ph id="ph1">![</ph>ATA Lightweight Gateway installation<ph id="ph2">](media/ATA-lightweight-gateway-install-selected.png)</ph> Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If the domain controller or dedicated server does not meet the minimum hardware requirements for the installation, you will receive a warning.</source>
+          <target state="new">If the domain controller or dedicated server does not meet the minimum hardware requirements for the installation, you will receive a warning.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This does not prevent you from clicking <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> and proceeding with installation.</source>
+          <target state="new">This does not prevent you from clicking <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> and proceeding with installation.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This might be the right option for installation of ATA in a small lab test environment in which you won't need as much room for data storage.</source>
+          <target state="new">This might be the right option for installation of ATA in a small lab test environment in which you won't need as much room for data storage.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For production environments, it is highly recommended to work with ATA's <bpt id="p1">[</bpt>capacity planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept> guide to make sure your domain controllers or dedicated servers meet the necessary requirements.</source>
+          <target state="new">For production environments, it is highly recommended to work with ATA's <bpt id="p1">[</bpt>capacity planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept> guide to make sure your domain controllers or dedicated servers meet the necessary requirements.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>ATA Gateway Configuration<ept id="p1">**</ept>, enter the following information based on your environment:</source>
+          <target state="new">Under <bpt id="p1">**</bpt>ATA Gateway Configuration<ept id="p1">**</ept>, enter the following information based on your environment:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>ATA gateway configuration image</source>
+          <target state="new">ATA gateway configuration image</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Field</source>
+          <target state="new">Field</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <target state="new">Comments</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Installation Path</source>
+          <target state="new">Installation Path</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This is the location where the ATA Gateway will be installed.</source>
+          <target state="new">This is the location where the ATA Gateway will be installed.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>By default this is  %programfiles%\Microsoft Advanced Threat Analytics\Gateway</source>
+          <target state="new">By default this is  %programfiles%\Microsoft Advanced Threat Analytics\Gateway</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Leave the default value</source>
+          <target state="new">Leave the default value</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gateway Service SSL Certificate</source>
+          <target state="new">Gateway Service SSL Certificate</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This is the certificate that will be used by the ATA Gateway.</source>
+          <target state="new">This is the certificate that will be used by the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Use a self-signed certificate for lab environments only.</source>
+          <target state="new">Use a self-signed certificate for lab environments only.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gateway Registration</source>
+          <target state="new">Gateway Registration</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Enter the Username and Password of the ATA administrator.</source>
+          <target state="new">Enter the Username and Password of the ATA administrator.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For the ATA Gateway to register with the ATA Center, enter the user name and password of the user who installed the ATA Center.</source>
+          <target state="new">For the ATA Gateway to register with the ATA Center, enter the user name and password of the user who installed the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This user must be a member of one of the following local groups on the ATA Center.</source>
+          <target state="new">This user must be a member of one of the following local groups on the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-   Administrators</source>
+          <target state="new">-   Administrators</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-   Microsoft Advanced Threat Analytics Administrators <bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> These credentials are used only for registration and are not stored in ATA.</source>
+          <target state="new">-   Microsoft Advanced Threat Analytics Administrators <bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> These credentials are used only for registration and are not stored in ATA.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Install<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Install<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following components are installed and configured during the installation of the ATA Gateway:</source>
+          <target state="new">The following components are installed and configured during the installation of the ATA Gateway:</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>KB 3047154 (for Windows Server 2012 R2 only)</source>
+          <target state="new">KB 3047154 (for Windows Server 2012 R2 only)</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Do not install KB 3047154 on a virtualization host (the host that is running the virtualization, it is fine to run it on a virtual machine).</source>
+          <target state="new">Do not install KB 3047154 on a virtualization host (the host that is running the virtualization, it is fine to run it on a virtual machine).</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This may cause port mirroring to stop working properly.</source>
+          <target state="new">This may cause port mirroring to stop working properly.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Do not install Message Analyzer, Wireshark, or other network capture software on the ATA Gateway.</source>
+          <target state="new">Do not install Message Analyzer, Wireshark, or other network capture software on the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you need to capture network traffic, install and use Microsoft Network Monitor 3.4.</source>
+          <target state="new">If you need to capture network traffic, install and use Microsoft Network Monitor 3.4.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>ATA Gateway service</source>
+          <target state="new">ATA Gateway service</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Microsoft Visual C++ 2013 Redistributable</source>
+          <target state="new">Microsoft Visual C++ 2013 Redistributable</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Custom Performance Monitor data collection set</source>
+          <target state="new">Custom Performance Monitor data collection set</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>After the installation completes, for the ATA Gateway, click <bpt id="p1">**</bpt>Launch<ept id="p1">**</ept> to open your browser and log in to the ATA Console, for the ATA Lightweight Gateway, click <bpt id="p2">**</bpt>Finish<ept id="p2">**</ept>.</source>
+          <target state="new">After the installation completes, for the ATA Gateway, click <bpt id="p1">**</bpt>Launch<ept id="p1">**</ept> to open your browser and log in to the ATA Console, for the ATA Lightweight Gateway, click <bpt id="p2">**</bpt>Finish<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>« Step 3<ept id="p1">](install-ata-step3.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Step 5 »<ept id="p2">](install-ata-step5.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>« Step 3<ept id="p1">](install-ata-step3.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Step 5 »<ept id="p2">](install-ata-step5.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Check out the ATA forum!</source>
+          <target state="new">Check out the ATA forum!</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Configure event collection</source>
+          <target state="new">Configure event collection</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>ATA prerequisites</source>
+          <target state="new">ATA prerequisites</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
