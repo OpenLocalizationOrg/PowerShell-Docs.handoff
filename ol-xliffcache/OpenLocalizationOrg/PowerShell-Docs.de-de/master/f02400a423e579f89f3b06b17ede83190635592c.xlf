@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f02400a423e579f89f3b06b17ede83190635592c</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\microsoft-intune-policy-reference.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4efeaaaba16670b67a83fa4f4447013dd7f24388</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0cc551635cc3adee292e5cf4746a066666674a6</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6fac8c0a4e78b1027682fc6733dad6fa7a5ceae8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e314965062991d394652b96cfdfd39d5a2e2f4f</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -46,8 +46,8 @@
           <target state="new">Use when you want to</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>Custom Configuration (Android 4 and later, Samsung KNOX Standard 4.0 and later)</source>
-          <target state="new">Custom Configuration (Android 4 and later, Samsung KNOX Standard 4.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Custom Configuration (Android 4 and later, Samsung KNOX Standard 4.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Custom Configuration (Android 4 and later, Samsung KNOX Standard 4.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>Deploy Open Mobile Alliance Uniform Resource Identifier (OMA-URI) settings, such as Wi-Fi settings that can be used to control device features.</source>
@@ -62,8 +62,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Android policy settings in Microsoft Intune<ept id="p1">](android-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Email Profile (Samsung KNOX Standard 4.0 and later)</source>
-          <target state="new">Email Profile (Samsung KNOX Standard 4.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Email Profile (Samsung KNOX Standard 4.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Email Profile (Samsung KNOX Standard 4.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Create, deploy, and monitor Exchange ActiveSync email settings on managed devices.</source>
@@ -78,8 +78,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Configure access to corporate email using email profiles with Microsoft Intune<ept id="p1">](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>General Configuration (Android 4 and later, Samsung KNOX Standard 4.0 and later)</source>
-          <target state="new">General Configuration (Android 4 and later, Samsung KNOX Standard 4.0 and later)</target>
+          <source><bpt id="p1">**</bpt>General Configuration (Android 4 and later, Samsung KNOX Standard 4.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>General Configuration (Android 4 and later, Samsung KNOX Standard 4.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Configure mobile device security and functional settings.</source>
@@ -98,8 +98,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Android policy settings in Microsoft Intune<ept id="p1">](android-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>PKCS #12 (.PFX) Certificate Profile (Android 4 and later)</source>
-          <target state="new">PKCS #12 (.PFX) Certificate Profile (Android 4 and later)</target>
+          <source><bpt id="p1">**</bpt>PKCS #12 (.PFX) Certificate Profile (Android 4 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>PKCS #12 (.PFX) Certificate Profile (Android 4 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Use this profile to create and deploy .PFX settings for device certificate requests.</source>
@@ -110,8 +110,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>SCEP Certificate Profile (Android 4 and later)</source>
-          <target state="new">SCEP Certificate Profile (Android 4 and later)</target>
+          <source><bpt id="p1">**</bpt>SCEP Certificate Profile (Android 4 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>SCEP Certificate Profile (Android 4 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Configure a Simple Certificate Enrollment Protocol certificate which can be used with a trusted mobile device certificate to authenticate mobile devices to allow them to access network resources such as those configured by Wi-Fi and VPN profiles.</source>
@@ -122,8 +122,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>Trusted Certificate Profile (Android 4 and later)</source>
-          <target state="new">Trusted Certificate Profile (Android 4 and later)</target>
+          <source><bpt id="p1">**</bpt>Trusted Certificate Profile (Android 4 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Trusted Certificate Profile (Android 4 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>Configure a trusted mobile device certificate which can be used to authenticate mobile devices to allow them to access network resources such as those configured by Wi-Fi and VPN profiles.</source>
@@ -134,8 +134,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>VPN Profile (Android 4 and later)</source>
-          <target state="new">VPN Profile (Android 4 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (Android 4 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (Android 4 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>Configure and deploy settings that give users secure access to your company network from their mobile device.</source>
@@ -150,8 +150,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>VPN connections in Microsoft Intune.md<ept id="p1">](vpn-connections-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>Wi-Fi Profile (Android 4 and later)</source>
-          <target state="new">Wi-Fi Profile (Android 4 and later)</target>
+          <source><bpt id="p1">**</bpt>Wi-Fi Profile (Android 4 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Wi-Fi Profile (Android 4 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>Configure and deploy wireless network settings to users in your organization.</source>
@@ -178,8 +178,8 @@
           <target state="new">Use when you want to</target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>Custom Configuration (iOS 8.0 and later)</source>
-          <target state="new">Custom Configuration (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Custom Configuration (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Custom Configuration (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Deploy configuration profiles to iOS devices that you created using Apple Configurator.</source>
@@ -194,8 +194,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>iOS policy settings in Microsoft Intune<ept id="p1">](ios-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>Email Profile (iOS 8.0 and later)</source>
-          <target state="new">Email Profile (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Email Profile (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Email Profile (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>Create, deploy, and monitor Exchange ActiveSync email settings on managed devices.</source>
@@ -210,8 +210,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Configure access to corporate email using email profiles with Microsoft Intune<ept id="p1">](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>General Configuration (iOS 8.0 and later)</source>
-          <target state="new">General Configuration (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>General Configuration (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>General Configuration (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>Configure mobile device security and functional settings.</source>
@@ -230,8 +230,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>iOS policy settings in Microsoft Intune<ept id="p1">](ios-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>Mobile App Configuration Policy (iOS 8.0 and later)</source>
-          <target state="new">Mobile App Configuration Policy (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Mobile App Configuration Policy (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Mobile App Configuration Policy (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>Use mobile app configuration policies to automatically supply settings that might be required when the user runs an iOS app.</source>
@@ -242,8 +242,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Configure iOS apps with mobile app configuration policies in Microsoft Intune<ept id="p1">](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>Mobile provisioning Profile Policy (iOS 8.0 and later)</source>
-          <target state="new">Mobile provisioning Profile Policy (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Mobile provisioning Profile Policy (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Mobile provisioning Profile Policy (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>Apple iOS line-of-business mobile apps are built with a provisioning profile that's included and code signed with a certificate.</source>
@@ -270,8 +270,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Use iOS mobile provisioning profile policies to prevent your apps from expiring<ept id="p1">](ios-mobile-app-provisioning-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>PKCS #12 (.PFX) Certificate Profile (iOS 8.0 and later)</source>
-          <target state="new">PKCS #12 (.PFX) Certificate Profile (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>PKCS #12 (.PFX) Certificate Profile (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>PKCS #12 (.PFX) Certificate Profile (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>Use this profile to create and deploy .PFX settings for device certificate requests.</source>
@@ -282,8 +282,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>SCEP Certificate Profile (iOS 8.0 and later)</source>
-          <target state="new">SCEP Certificate Profile (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>SCEP Certificate Profile (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>SCEP Certificate Profile (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="169" translate="yes" xml:space="preserve">
           <source>Configure a Simple Certificate Enrollment Protocol certificate that can be used with a trusted mobile device certificate to authenticate mobile devices to allow them to access network resources such as those configured by Wi-Fi and VPN profiles.</source>
@@ -294,8 +294,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="171" translate="yes" xml:space="preserve">
-          <source>Trusted Certificate Profile (iOS 8.0 and later)</source>
-          <target state="new">Trusted Certificate Profile (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Trusted Certificate Profile (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Trusted Certificate Profile (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="172" translate="yes" xml:space="preserve">
           <source>Configure a trusted mobile device certificate that can be used to authenticate mobile devices to allow them to access network resources such as those configured by Wi-Fi and VPN profiles.</source>
@@ -306,8 +306,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
-          <source>VPN Profile (iOS 8.0 and later)</source>
-          <target state="new">VPN Profile (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="175" translate="yes" xml:space="preserve">
           <source>Configure and deploy settings that give users secure access to your company network from their mobile devices.</source>
@@ -322,8 +322,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>VPN connections in Microsoft Intune.md<ept id="p1">](vpn-connections-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="178" translate="yes" xml:space="preserve">
-          <source>Wi-Fi Profile (iOS 8.0 and later)</source>
-          <target state="new">Wi-Fi Profile (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Wi-Fi Profile (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Wi-Fi Profile (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="179" translate="yes" xml:space="preserve">
           <source>Configure and deploy wireless network settings to users in your organization.</source>
@@ -350,8 +350,8 @@
           <target state="new">Use when you want to</target>
         </trans-unit>
         <trans-unit id="185" translate="yes" xml:space="preserve">
-          <source>Custom Configuration (Mac OS X 10.9 and later)</source>
-          <target state="new">Custom Configuration (Mac OS X 10.9 and later)</target>
+          <source><bpt id="p1">**</bpt>Custom Configuration (Mac OS X 10.9 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Custom Configuration (Mac OS X 10.9 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="186" translate="yes" xml:space="preserve">
           <source>Deploy configuration profiles to Mac computers that you created using Apple Configurator.</source>
@@ -366,8 +366,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Mac OS X policy settings in Microsoft Intune<ept id="p1">](mac-os-x-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="189" translate="yes" xml:space="preserve">
-          <source>General Configuration (Mac OS X 10.9 and later)</source>
-          <target state="new">General Configuration (Mac OS X 10.9 and later)</target>
+          <source><bpt id="p1">**</bpt>General Configuration (Mac OS X 10.9 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>General Configuration (Mac OS X 10.9 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="190" translate="yes" xml:space="preserve">
           <source>Configure mobile device security and functional settings.</source>
@@ -382,8 +382,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Mac OS X policy settings in Microsoft Intune<ept id="p1">](mac-os-x-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
-          <source>SCEP Certificate Profile  (Mac OS X 10.9 and later)</source>
-          <target state="new">SCEP Certificate Profile  (Mac OS X 10.9 and later)</target>
+          <source><bpt id="p1">**</bpt>SCEP Certificate Profile  (Mac OS X 10.9 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>SCEP Certificate Profile  (Mac OS X 10.9 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>Configure a Simple Certificate Enrollment Protocol certificate that can be used with a trusted mobile device certificate to authenticate mobile devices to allow them to access network resources such as those configured by Wi-Fi and VPN profiles.</source>
@@ -394,8 +394,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
-          <source>Trusted Certificate Profile (Mac OS X 10.9 and later)</source>
-          <target state="new">Trusted Certificate Profile (Mac OS X 10.9 and later)</target>
+          <source><bpt id="p1">**</bpt>Trusted Certificate Profile (Mac OS X 10.9 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Trusted Certificate Profile (Mac OS X 10.9 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>Configure a trusted mobile device certificate that can be used to authenticate mobile devices to allow them to access network resources such as those configured by Wi-Fi and VPN profiles.</source>
@@ -406,8 +406,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="199" translate="yes" xml:space="preserve">
-          <source>VPN Profile  (Mac OS X 10.9 and later)</source>
-          <target state="new">VPN Profile  (Mac OS X 10.9 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile  (Mac OS X 10.9 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile  (Mac OS X 10.9 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="200" translate="yes" xml:space="preserve">
           <source>Configure and deploy settings that give users secure access to your company network from their mobile devices.</source>
@@ -422,8 +422,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>VPN connections in Microsoft Intune.md<ept id="p1">](vpn-connections-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="203" translate="yes" xml:space="preserve">
-          <source>Wi-Fi Profile (Mac OS X 10.9 and later)</source>
-          <target state="new">Wi-Fi Profile (Mac OS X 10.9 and later)</target>
+          <source><bpt id="p1">**</bpt>Wi-Fi Profile (Mac OS X 10.9 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Wi-Fi Profile (Mac OS X 10.9 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>Configure and deploy wireless network settings to users in your organization.</source>
@@ -454,8 +454,8 @@
           <target state="new">Use when you want to</target>
         </trans-unit>
         <trans-unit id="211" translate="yes" xml:space="preserve">
-          <source>Custom Configuration  (Windows 10 Desktop and Mobile and later)</source>
-          <target state="new">Custom Configuration  (Windows 10 Desktop and Mobile and later)</target>
+          <source><bpt id="p1">**</bpt>Custom Configuration  (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Custom Configuration  (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>Deploy OMA-URI settings that can be used to control device features.</source>
@@ -470,8 +470,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Windows 10 policy settings in Microsoft Intune<ept id="p1">](windows-10-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="215" translate="yes" xml:space="preserve">
-          <source>Custom Configuration (Windows Phone 8.1 and later)</source>
-          <target state="new">Custom Configuration (Windows Phone 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>Custom Configuration (Windows Phone 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Custom Configuration (Windows Phone 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>Deploy OMA-URI settings that can be used to control device features.</source>
@@ -486,16 +486,16 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Windows Phone 8.1 settings in Microsoft Intune<ept id="p1">](windows-phone-8-1-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="219" translate="yes" xml:space="preserve">
-          <source>Edition Upgrade Policy (Windows 10 Desktop and later)</source>
-          <target state="new">Edition Upgrade Policy (Windows 10 Desktop and later)</target>
+          <source><bpt id="p1">**</bpt>Edition Upgrade Policy (Windows 10 Desktop and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Edition Upgrade Policy (Windows 10 Desktop and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>Edition Upgrade Policy (Windows 10 Holographic and later)</source>
-          <target state="new">Edition Upgrade Policy (Windows 10 Holographic and later)</target>
+          <source><bpt id="p1">**</bpt>Edition Upgrade Policy (Windows 10 Holographic and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Edition Upgrade Policy (Windows 10 Holographic and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
-          <source>Edition Upgrade Policy (Windows 10 Mobile and later)</source>
-          <target state="new">Edition Upgrade Policy (Windows 10 Mobile and later)</target>
+          <source><bpt id="p1">**</bpt>Edition Upgrade Policy (Windows 10 Mobile and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Edition Upgrade Policy (Windows 10 Mobile and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>Configure and deploy policies that contain license or product key information that is used to update Windows 10 devices to a newer version.</source>
@@ -506,12 +506,12 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Edition upgrade policy settings in Microsoft Intune<ept id="p1">](edition-upgrade-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="224" translate="yes" xml:space="preserve">
-          <source>Email Profile (Windows Phone 8 and later)</source>
-          <target state="new">Email Profile (Windows Phone 8 and later)</target>
+          <source><bpt id="p1">**</bpt>Email Profile (Windows Phone 8 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Email Profile (Windows Phone 8 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="225" translate="yes" xml:space="preserve">
-          <source>Email Profile (Windows 10 Desktop and Mobile and later)</source>
-          <target state="new">Email Profile (Windows 10 Desktop and Mobile and later)</target>
+          <source><bpt id="p1">**</bpt>Email Profile (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Email Profile (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="226" translate="yes" xml:space="preserve">
           <source>Create, deploy, and monitor Exchange ActiveSync email settings on managed devices.</source>
@@ -526,8 +526,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Configure access to corporate email using email profiles with Microsoft Intune<ept id="p1">](configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="229" translate="yes" xml:space="preserve">
-          <source>General Configuration (Windows 10 Desktop and Mobile and later)</source>
-          <target state="new">General Configuration (Windows 10 Desktop and Mobile and later)</target>
+          <source><bpt id="p1">**</bpt>General Configuration (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>General Configuration (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="230" translate="yes" xml:space="preserve">
           <source>Configure mobile device security and functional settings for enrolled Windows 10 desktop and Mobile devices.</source>
@@ -538,8 +538,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Windows 10 policy settings in Microsoft Intune<ept id="p1">](windows-10-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="232" translate="yes" xml:space="preserve">
-          <source>General Configuration (Windows 10 Team and later)</source>
-          <target state="new">General Configuration (Windows 10 Team and later)</target>
+          <source><bpt id="p1">**</bpt>General Configuration (Windows 10 Team and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>General Configuration (Windows 10 Team and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="233" translate="yes" xml:space="preserve">
           <source>Configure device security and functional settings for enrolled Windows 10 Team devices (for example, a Surface Hub device).</source>
@@ -550,8 +550,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Windows Team configuration policy settings in Microsoft Intune<ept id="p1">](windows-team-configuration-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="235" translate="yes" xml:space="preserve">
-          <source>General Configuration (Windows 8.1 and later)</source>
-          <target state="new">General Configuration (Windows 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>General Configuration (Windows 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>General Configuration (Windows 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="236" translate="yes" xml:space="preserve">
           <source>Configure mobile device security and functional settings for enrolled Windows devices.</source>
@@ -562,8 +562,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Windows policy settings in Microsoft Intune<ept id="p1">](windows-configuration-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="238" translate="yes" xml:space="preserve">
-          <source>General Configuration (Windows Phone 8.1 and later)</source>
-          <target state="new">General Configuration (Windows Phone 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>General Configuration (Windows Phone 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>General Configuration (Windows Phone 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="239" translate="yes" xml:space="preserve">
           <source>Configure mobile device security and functional settings.</source>
@@ -578,8 +578,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Windows Phone 8.1 settings in Microsoft Intune<ept id="p1">](windows-phone-8-1-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="242" translate="yes" xml:space="preserve">
-          <source>PKCS #12 (.PFX) Certificate Profile (Windows 10 Desktop and Mobile and later)</source>
-          <target state="new">PKCS #12 (.PFX) Certificate Profile (Windows 10 Desktop and Mobile and later)</target>
+          <source><bpt id="p1">**</bpt>PKCS #12 (.PFX) Certificate Profile (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>PKCS #12 (.PFX) Certificate Profile (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="243" translate="yes" xml:space="preserve">
           <source>Use this profile to create and deploy .PFX settings for device certificate requests.</source>
@@ -590,12 +590,12 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="245" translate="yes" xml:space="preserve">
-          <source>SCEP Certificate Profile (Windows 8.1 and later)</source>
-          <target state="new">SCEP Certificate Profile (Windows 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>SCEP Certificate Profile (Windows 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>SCEP Certificate Profile (Windows 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="246" translate="yes" xml:space="preserve">
-          <source>SCEP Certificate Profile (Windows Phone 8.1 and later)</source>
-          <target state="new">SCEP Certificate Profile (Windows Phone 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>SCEP Certificate Profile (Windows Phone 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>SCEP Certificate Profile (Windows Phone 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="247" translate="yes" xml:space="preserve">
           <source>Configure a Simple Certificate Enrollment Protocol certificate that can be used with a trusted mobile device certificate to authenticate mobile devices to allow them to access network resources such as those configured by Wi-Fi and VPN profiles.</source>
@@ -606,12 +606,12 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="249" translate="yes" xml:space="preserve">
-          <source>Trusted Certificate Profile (Windows 8.1 and later)</source>
-          <target state="new">Trusted Certificate Profile (Windows 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>Trusted Certificate Profile (Windows 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Trusted Certificate Profile (Windows 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="250" translate="yes" xml:space="preserve">
-          <source>Trusted Certificate Profile (Windows Phone 8.1 and later)</source>
-          <target state="new">Trusted Certificate Profile (Windows Phone 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>Trusted Certificate Profile (Windows Phone 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Trusted Certificate Profile (Windows Phone 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="251" translate="yes" xml:space="preserve">
           <source>Configure a trusted mobile device certificate which can be used to authenticate mobile devices to allow them to access network resources such as those configured by Wi-Fi and VPN profiles.</source>
@@ -622,16 +622,16 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Secure resource access with certificate profiles in Microsoft Intune<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="253" translate="yes" xml:space="preserve">
-          <source>VPN Profile (Windows 10 Desktop and Mobile and later)</source>
-          <target state="new">VPN Profile (Windows 10 Desktop and Mobile and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="254" translate="yes" xml:space="preserve">
-          <source>VPN Profile (Windows 8.1 and later)</source>
-          <target state="new">VPN Profile (Windows 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (Windows 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (Windows 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="255" translate="yes" xml:space="preserve">
-          <source>VPN Profile (Windows Phone 8.1 and later)</source>
-          <target state="new">VPN Profile (Windows Phone 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (Windows Phone 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (Windows Phone 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="256" translate="yes" xml:space="preserve">
           <source>Configure and deploy settings that give users secure access to your company network from their mobile devices.</source>
@@ -646,8 +646,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>VPN connections in Microsoft Intune<ept id="p1">](vpn-connections-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="259" translate="yes" xml:space="preserve">
-          <source>Wi-Fi Import</source>
-          <target state="new">Wi-Fi Import</target>
+          <source><bpt id="p1">**</bpt>Wi-Fi Import<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Wi-Fi Import<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="260" translate="yes" xml:space="preserve">
           <source>Import and deploy Windows Wi-Fi configurations that you have previously exported to a file.</source>
@@ -658,8 +658,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Wi-Fi connections in Microsoft Intune<ept id="p1">](wi-fi-connections-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="262" translate="yes" xml:space="preserve">
-          <source>Windows Information Protection</source>
-          <target state="new">Windows Information Protection</target>
+          <source><bpt id="p1">**</bpt>Windows Information Protection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Information Protection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="263" translate="yes" xml:space="preserve">
           <source>(formerly known as enterprise data protection)</source>
@@ -702,12 +702,12 @@
           <target state="new">Use when you want to</target>
         </trans-unit>
         <trans-unit id="273" translate="yes" xml:space="preserve">
-          <source>Managed Browser Policy (Android 4 and later)</source>
-          <target state="new">Managed Browser Policy (Android 4 and later)</target>
+          <source><bpt id="p1">**</bpt>Managed Browser Policy (Android 4 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Managed Browser Policy (Android 4 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="274" translate="yes" xml:space="preserve">
-          <source>Managed Browser Policy (iOS 8.0 and later)</source>
-          <target state="new">Managed Browser Policy (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Managed Browser Policy (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Managed Browser Policy (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="275" translate="yes" xml:space="preserve">
           <source>Specify the websites that users can and cannot access when they are using the managed browser app.</source>
@@ -718,12 +718,12 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Manage Internet access using managed browser policies with Microsoft Intune<ept id="p1">](manage-internet-access-using-managed-browser-policies.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="277" translate="yes" xml:space="preserve">
-          <source>Mobile Application Management (Android 4 and later)</source>
-          <target state="new">Mobile Application Management (Android 4 and later)</target>
+          <source><bpt id="p1">**</bpt>Mobile Application Management (Android 4 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Mobile Application Management (Android 4 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="278" translate="yes" xml:space="preserve">
-          <source>Mobile Application Management Policy (iOS 8.0 and later)</source>
-          <target state="new">Mobile Application Management Policy (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Mobile Application Management Policy (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Mobile Application Management Policy (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="279" translate="yes" xml:space="preserve">
           <source>Modify the functionality of apps that you deploy to help bring them into line with your company compliance and security policies.</source>
@@ -750,8 +750,8 @@
           <target state="new">Use when you want to</target>
         </trans-unit>
         <trans-unit id="285" translate="yes" xml:space="preserve">
-          <source>Exchange ActiveSync Policy</source>
-          <target state="new">Exchange ActiveSync Policy</target>
+          <source><bpt id="p1">**</bpt>Exchange ActiveSync Policy<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Exchange ActiveSync Policy<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="286" translate="yes" xml:space="preserve">
           <source>Configure mobile device security and functional settings for devices that are managed by Exchange ActiveSync.</source>
@@ -762,8 +762,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Exchange ActiveSync policy settings in Microsoft Intune<ept id="p1">](exchange-activesync-policy-settings-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="288" translate="yes" xml:space="preserve">
-          <source>Mobile Device Security Policy</source>
-          <target state="new">Mobile Device Security Policy</target>
+          <source><bpt id="p1">**</bpt>Mobile Device Security Policy<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Mobile Device Security Policy<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="289" translate="yes" xml:space="preserve">
           <source>Configures settings for mobile devices (all platforms) including:</source>
@@ -814,8 +814,8 @@
           <target state="new">Use when you want to</target>
         </trans-unit>
         <trans-unit id="301" translate="yes" xml:space="preserve">
-          <source>Microsoft Intune Agent Settings</source>
-          <target state="new">Microsoft Intune Agent Settings</target>
+          <source><bpt id="p1">**</bpt>Microsoft Intune Agent Settings<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft Intune Agent Settings<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="302" translate="yes" xml:space="preserve">
           <source>Configure the Intune PC client on computers, including settings for:</source>
@@ -850,8 +850,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Keep Windows PCs up to date with software updates in Microsoft Intune<ept id="p1">](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="310" translate="yes" xml:space="preserve">
-          <source>Microsoft Intune Center Settings</source>
-          <target state="new">Microsoft Intune Center Settings</target>
+          <source><bpt id="p1">**</bpt>Microsoft Intune Center Settings<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft Intune Center Settings<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="311" translate="yes" xml:space="preserve">
           <source>Configure details that appear in the Microsoft Intune Center on managed computers.</source>
@@ -866,8 +866,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="314" translate="yes" xml:space="preserve">
-          <source>Windows Firewall Settings</source>
-          <target state="new">Windows Firewall Settings</target>
+          <source><bpt id="p1">**</bpt>Windows Firewall Settings<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Firewall Settings<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="315" translate="yes" xml:space="preserve">
           <source>Configures Windows Firewall settings and exceptions for common network communications on computers, including:</source>
@@ -898,8 +898,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="322" translate="yes" xml:space="preserve">
-          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
-          <target state="new">Manage settings and features on your devices with Microsoft Intune policies</target>
+          <source><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></target>
         </trans-unit>
       </group>
     </body>

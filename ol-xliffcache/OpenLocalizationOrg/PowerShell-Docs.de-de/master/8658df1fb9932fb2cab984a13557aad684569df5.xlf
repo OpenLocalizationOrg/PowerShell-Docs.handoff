@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8658df1fb9932fb2cab984a13557aad684569df5</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1f99ee5912597baf43e12971c0e8f4d41f1ef09</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12fdbb1fdde41abd6dab747827c799802b8b5102</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dabfa50163f522289b35282d026640ec7df4855</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a6d1fe67ded0f832c39be543e9875d25fe4fbc4</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -42,16 +42,16 @@
           <target state="new">In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy you want to deploy, then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Screenshot of the compliance policy page showing the Manage Deployment menu option at the top</source>
-          <target state="new">Screenshot of the compliance policy page showing the Manage Deployment menu option at the top</target>
+          <source><ph id="ph1">![</ph>Screenshot of the compliance policy page showing the Manage Deployment menu option at the top<ph id="ph2">](./media/intune-sa-3c-deploy-compliance-policy2.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Screenshot of the compliance policy page showing the Manage Deployment menu option at the top<ph id="ph2">](./media/intune-sa-3c-deploy-compliance-policy2.png)</ph></target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box, choose one or more groups to which you want to deploy the policy, then choose <bpt id="p2">**</bpt>Add &gt; OK<ept id="p2">**</ept>.</source>
           <target state="new">In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box, choose one or more groups to which you want to deploy the policy, then choose <bpt id="p2">**</bpt>Add &gt; OK<ept id="p2">**</ept>.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Screenshot of the manage deployment dialog box<ph id="ph1">](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png)</ph> You can deploy a compliance policy to users.</source>
-          <target state="new">Screenshot of the manage deployment dialog box<ph id="ph1">](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png)</ph> You can deploy a compliance policy to users.</target>
+          <source><ph id="ph1">![</ph>Screenshot of the manage deployment dialog box<ph id="ph2">](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png)</ph> You can deploy a compliance policy to users.</source>
+          <target state="new"><ph id="ph1">![</ph>Screenshot of the manage deployment dialog box<ph id="ph2">](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png)</ph> You can deploy a compliance policy to users.</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Use Active Directory groups that you have already created and synced to Intune, or create these groups manually in the Intune console.</source>
@@ -118,8 +118,8 @@
           <target state="new">From the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> drop-down list, select <bpt id="p2">**</bpt>Does not conform to compliance policy<ept id="p2">**</ept>.</target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>Screenshot showing the list of options in the filters list</source>
-          <target state="new">Screenshot showing the list of options in the filters list</target>
+          <source><ph id="ph1">![</ph>Screenshot showing the list of options in the filters list<ph id="ph2">](./media/intune-sa-3e-view-device-noncompliance.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Screenshot showing the list of options in the filters list<ph id="ph2">](./media/intune-sa-3e-view-device-noncompliance.png)</ph></target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>To view the Health Attestation Reports</source>
@@ -150,16 +150,16 @@
           <target state="new">You can now use the compliance policy with conditional access policies to control access to services in your organization.</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>Restrict access to email and O365 services</source>
-          <target state="new">Restrict access to email and O365 services</target>
+          <source><bpt id="p1">[</bpt>Restrict access to email and O365 services<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Restrict access to email and O365 services<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Introduction to device compliance polices in Intune</source>
-          <target state="new">Introduction to device compliance polices in Intune</target>
+          <source><bpt id="p1">[</bpt>Introduction to device compliance polices in Intune<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Introduction to device compliance polices in Intune<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

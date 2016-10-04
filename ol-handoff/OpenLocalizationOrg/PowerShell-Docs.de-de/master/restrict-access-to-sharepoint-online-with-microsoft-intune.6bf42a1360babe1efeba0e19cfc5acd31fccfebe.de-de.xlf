@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84c9d355fde49fd18899a43ed0def0c801694291</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-to-sharepoint-online-with-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cba4cfaea2fbdcfd97814e614068193de4fdafa8</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a8632de92ff257461b685413f7883848cc9e760</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">346c9a5607cbad3b02aaf3452bde0914b53e9783</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10d003ccf2ee091337a8b23be695c4ac0fcc41ce</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -126,8 +126,8 @@
           <target state="new">If the device is not compliant, a message is displayed that directs the user to the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Company Portal website where they can find information about the problem, and how to remediate it.</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Conditional access is enforced across all SharePoint sites and external sharing is blocked</source>
-          <target state="new">Conditional access is enforced across all SharePoint sites and external sharing is blocked</target>
+          <source><bpt id="p1">**</bpt>Conditional access is enforced across all SharePoint sites and external sharing is blocked<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Conditional access is enforced across all SharePoint sites and external sharing is blocked<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>If you  enable conditional access for SharePoint Online, we recommend that you disable the domain on the list as described in the  <bpt id="p1">[</bpt>Remove-SPOTenantSyncClientRestriction<ept id="p1">](https://technet.microsoft.com/en-us/library/dn917451.aspx)</ept> topic.</source>
@@ -298,8 +298,8 @@
           <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Conditional Access<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>SharePoint Online Policy<ept id="p4">**</ept>.</target>
         </trans-unit>
         <trans-unit id="172" translate="yes" xml:space="preserve">
-          <source>Screenshot of the SharePoint Online Policy page</source>
-          <target state="new">Screenshot of the SharePoint Online Policy page</target>
+          <source><ph id="ph1">![</ph>Screenshot of the SharePoint Online Policy page<ph id="ph2">](../media/mdm-ca-spo-policy-configuration.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Screenshot of the SharePoint Online Policy page<ph id="ph2">](../media/mdm-ca-spo-policy-configuration.png)</ph></target>
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
           <source>Select <bpt id="p1">**</bpt>Enable conditional access policy for SharePoint Online<ept id="p1">**</ept>.</source>
@@ -310,8 +310,8 @@
           <target state="new">Under <bpt id="p1">**</bpt>Application access<ept id="p1">**</ept>, you can choose to apply conditional access policy to:</target>
         </trans-unit>
         <trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>All platforms</source>
-          <target state="new">All platforms</target>
+          <source><bpt id="p1">**</bpt>All platforms<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>All platforms<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="176" translate="yes" xml:space="preserve">
           <source>This will require that any device used to access <bpt id="p1">**</bpt>SharePoint Online<ept id="p1">**</ept>,  is enrolled in Intune and compliant with the policies.</source>
@@ -362,8 +362,8 @@
           <target state="new">You can find out more information about how to get access to this feature  <bpt id="p1">[</bpt>in this blog post<ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2016/08/10/azuread-conditional-access-policies-for-ios-android-and-windows-are-in-preview/)</ept>.</target>
         </trans-unit>
         <trans-unit id="188" translate="yes" xml:space="preserve">
-          <source>Specific platforms</source>
-          <target state="new">Specific platforms</target>
+          <source><bpt id="p1">**</bpt>Specific platforms<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Specific platforms<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="189" translate="yes" xml:space="preserve">
           <source>Conditional access policy apply to any client app that is using modern authentication on the platforms you specify.</source>
@@ -378,8 +378,8 @@
           <target state="new">You can set the following requirements:</target>
         </trans-unit>
         <trans-unit id="192" translate="yes" xml:space="preserve">
-          <source>Devices must be domain-joined or compliant.</source>
-          <target state="new">Devices must be domain-joined or compliant.</target>
+          <source><bpt id="p1">**</bpt>Devices must be domain-joined or compliant.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Devices must be domain-joined or compliant.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>Choose this option if you want the  PCs to either be domain-joined or compliant with the policies set in <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</source>
@@ -390,8 +390,8 @@
           <target state="new">If the PC does not meet either of these requirements, the user is prompted to enroll the device with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>Devices must be domain-joined.</source>
-          <target state="new">Devices must be domain-joined.</target>
+          <source><bpt id="p1">**</bpt>Devices must be domain-joined.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Devices must be domain-joined.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>Choose this option to require that the PCs must be domain-joined to access Exchange Online.</source>
@@ -402,8 +402,8 @@
           <target state="new">If the PC is not domain-joined access to email is blocked and the user is prompted to contact the IT admin.</target>
         </trans-unit>
         <trans-unit id="198" translate="yes" xml:space="preserve">
-          <source>Devices must be compliant.</source>
-          <target state="new">Devices must be compliant.</target>
+          <source><bpt id="p1">**</bpt>Devices must be compliant.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Devices must be compliant.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>Choose this option to require that the PCs must be enrolled in <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and compliant.</source>
@@ -462,16 +462,16 @@
           <target state="new">The end-user must select this certificate before they can continue to use the browser.</target>
         </trans-unit>
         <trans-unit id="213" translate="yes" xml:space="preserve">
-          <source>iOS</source>
-          <target state="new">iOS</target>
+          <source><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="214" translate="yes" xml:space="preserve">
           <source>screenshot of the certificate prompt on an ipad</source>
           <target state="new">screenshot of the certificate prompt on an ipad</target>
         </trans-unit>
         <trans-unit id="215" translate="yes" xml:space="preserve">
-          <source>Android</source>
-          <target state="new">Android</target>
+          <source><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>screenshot of the certificate prompt on an Android device</source>
@@ -526,8 +526,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="229" translate="yes" xml:space="preserve">
-          <source>Restrict access to email and O365 services with Microsoft Intune</source>
-          <target state="new">Restrict access to email and O365 services with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Restrict access to email and O365 services with Microsoft Intune<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Restrict access to email and O365 services with Microsoft Intune<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

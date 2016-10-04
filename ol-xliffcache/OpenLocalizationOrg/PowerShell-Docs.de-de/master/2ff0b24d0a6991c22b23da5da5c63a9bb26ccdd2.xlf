@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ff0b24d0a6991c22b23da5da5c63a9bb26ccdd2</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\create-a-device-compliance-policy-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">86e82f7f83cca88ba67fd05d07dbad0e249a0081</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73b1784f9d4eed12b382b8e072c6f3996532da0c</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a92ba7641d66a1ea341e0c3b89223b96c8de30bc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6fa6c6d835823bf065b98af05c9618c135fceaf8</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -62,8 +62,8 @@
           <target state="new">Device property settings like the minimum OS version required or maximum OS version allowed.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>General tab of the Create Policy page</source>
-          <target state="new">General tab of the Create Policy page</target>
+          <source><ph id="ph1">![</ph>General tab of the Create Policy page <ph id="ph2">](./media/intune-sa-3b-create-policy.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>General tab of the Create Policy page <ph id="ph2">](./media/intune-sa-3b-create-policy.png)</ph></target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Step 3: Save the policy</source>
@@ -538,32 +538,32 @@
           <target state="new">Select one of the following to learn more about compliance settings supported on each platform:</target>
         </trans-unit>
         <trans-unit id="232" translate="yes" xml:space="preserve">
-          <source>Compliance policy settings for iOS devices</source>
-          <target state="new">Compliance policy settings for iOS devices</target>
+          <source><bpt id="p1">[</bpt>Compliance policy settings for iOS devices<ept id="p1">](ios-compliance-policy-settings-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Compliance policy settings for iOS devices<ept id="p1">](ios-compliance-policy-settings-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="233" translate="yes" xml:space="preserve">
-          <source>Compliance policy settings for Android devices</source>
-          <target state="new">Compliance policy settings for Android devices</target>
+          <source><bpt id="p1">[</bpt>Compliance policy settings for Android devices<ept id="p1">](android-compliance-policy-settings-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Compliance policy settings for Android devices<ept id="p1">](android-compliance-policy-settings-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="234" translate="yes" xml:space="preserve">
-          <source>Compliance policy settings for Windows and Windows Phones</source>
-          <target state="new">Compliance policy settings for Windows and Windows Phones</target>
+          <source><bpt id="p1">[</bpt>Compliance policy settings for Windows and Windows Phones <ept id="p1">](windows-compliance-policy-settings-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Compliance policy settings for Windows and Windows Phones <ept id="p1">](windows-compliance-policy-settings-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="235" translate="yes" xml:space="preserve">
           <source>Next steps</source>
           <target state="new">Next steps</target>
         </trans-unit>
         <trans-unit id="236" translate="yes" xml:space="preserve">
-          <source>Deploy and monitor a compliance policy</source>
-          <target state="new">Deploy and monitor a compliance policy</target>
+          <source><bpt id="p1">[</bpt>Deploy and monitor a compliance policy<ept id="p1">](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Deploy and monitor a compliance policy<ept id="p1">](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="237" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="238" translate="yes" xml:space="preserve">
-          <source>Introduction to device compliance policies</source>
-          <target state="new">Introduction to device compliance policies</target>
+          <source><bpt id="p1">[</bpt>Introduction to device compliance policies<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Introduction to device compliance policies<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

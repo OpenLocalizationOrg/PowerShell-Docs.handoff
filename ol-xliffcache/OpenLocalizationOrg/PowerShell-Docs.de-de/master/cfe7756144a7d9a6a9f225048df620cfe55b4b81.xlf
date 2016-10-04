@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfe7756144a7d9a6a9f225048df620cfe55b4b81</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-update-1.6-migration-guide.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">417ca4b0adee355970fa42a327e74cf6ecbabffb</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2f0363f0726dc6089451d5c8eb14619c8f0d31f6</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45b3eb44d220c54ba04e15d4511615885bcf9ccf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe4dc2232314367a24cbe5b2fb6760a1168380e6</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -102,8 +102,8 @@
           <target state="new">You can perform the installation up to the readiness check to get an estimate of how much free space is needed, and then restart the upgrade after allocating the  necessary disk space.</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>Download update 1.6</source>
-          <target state="new">Download update 1.6</target>
+          <source><bpt id="p1">[</bpt>Download update 1.6<ept id="p1">](http://www.microsoft.com/evalcenter/evaluate-microsoft-advanced-threat-analytics)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Download update 1.6<ept id="p1">](http://www.microsoft.com/evalcenter/evaluate-microsoft-advanced-threat-analytics)</ept></target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>In this version of, the same installation file (Microsoft ATA Center Setup.exe) is used for installing a new deployment of ATA and for upgrading existing deployments.</source>
@@ -182,12 +182,12 @@
           <target state="new">In the Microsoft Update page, select <bpt id="p1">**</bpt>Use Microsoft Update when I check for updates (recommended)<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Keep ATA up to date image<ph id="ph1">](media/ata_ms_update.png)</ph> This will adjust the Windows settings to enable updates for other Microsoft products (including ATA), as seen here.</source>
-          <target state="new">Keep ATA up to date image<ph id="ph1">](media/ata_ms_update.png)</ph> This will adjust the Windows settings to enable updates for other Microsoft products (including ATA), as seen here.</target>
+          <source><ph id="ph1">![</ph>Keep ATA up to date image<ph id="ph2">](media/ata_ms_update.png)</ph> This will adjust the Windows settings to enable updates for other Microsoft products (including ATA), as seen here.</source>
+          <target state="new"><ph id="ph1">![</ph>Keep ATA up to date image<ph id="ph2">](media/ata_ms_update.png)</ph> This will adjust the Windows settings to enable updates for other Microsoft products (including ATA), as seen here.</target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>Windows auto-update image</source>
-          <target state="new">Windows auto-update image</target>
+          <source><ph id="ph1">![</ph>Windows auto-update image<ph id="ph2">](media/ata_installupdatesautomatically.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Windows auto-update image<ph id="ph2">](media/ata_installupdatesautomatically.png)</ph></target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Before installation begins, ATA will perform a readiness check.</source>
@@ -198,8 +198,8 @@
           <target state="new">Review the results of the check to make sure the prerequisites are configured successfully and that you have the at least the minimum amount of disk space.</target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>ATA readiness check image</source>
-          <target state="new">ATA readiness check image</target>
+          <source><ph id="ph1">![</ph>ATA readiness check image<ph id="ph2">](media/ata_install_readinesschecks.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>ATA readiness check image<ph id="ph2">](media/ata_install_readinesschecks.png)</ph></target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>Update<ept id="p1">**</ept>.</source>
@@ -310,8 +310,8 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
       </group>
     </body>

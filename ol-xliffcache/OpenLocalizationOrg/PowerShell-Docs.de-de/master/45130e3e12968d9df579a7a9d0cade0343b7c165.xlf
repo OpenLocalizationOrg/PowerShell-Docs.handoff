@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45130e3e12968d9df579a7a9d0cade0343b7c165</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\edition-upgrade-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dbe5758ea823fe6ddca0b7705b9292784137724</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bc50b4474826578dc56b2f3a2ee5435b8ed7f7a</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b43c130ff66f26c617ecb34d66f698b8cf8547ab</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a8bbf57e1ab61d62ab65ad08a83e694b0eee7b66</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -82,32 +82,32 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <target state="new">Name</target>
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Enter a name for the edition upgrade policy.</source>
           <target state="new">Enter a name for the edition upgrade policy.</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <target state="new">Description</target>
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>Optionally, enter a description for the policy that helps you identify it in the Intune console.</source>
           <target state="new">Optionally, enter a description for the policy that helps you identify it in the Intune console.</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Edition to upgrade to</source>
-          <target state="new">Edition to upgrade to</target>
+          <source><bpt id="p1">**</bpt>Edition to upgrade to<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Edition to upgrade to<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>From the drop-down list, select the version of Windows 10 Desktop, Windows 10 Holographic, or Windows 10 Mobile that you want to upgrade targeted devices to.</source>
           <target state="new">From the drop-down list, select the version of Windows 10 Desktop, Windows 10 Holographic, or Windows 10 Mobile that you want to upgrade targeted devices to.</target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>Product Key</source>
-          <target state="new">Product Key</target>
+          <source><bpt id="p1">**</bpt>Product Key<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Product Key<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>Specify the product key that you obtained from Microsoft, which can be used to upgrade all targeted Windows 10 Desktop devices.</source>
@@ -126,8 +126,8 @@
           <target state="new">To change the product key, you must enter the entire key again.</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>License File</source>
-          <target state="new">License File</target>
+          <source><bpt id="p1">**</bpt>License File<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>License File<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>Choose <bpt id="p1">**</bpt>Browse<ept id="p1">**</ept> to select the license file you obtained from Microsoft that contains license information for the Windows Holographic, or Windows 10 Mobile edition that you want to upgrade targeted devices to.</source>
@@ -138,8 +138,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
-          <target state="new">Manage settings and features on your devices with Microsoft Intune policies</target>
+          <source><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></target>
         </trans-unit>
       </group>
     </body>

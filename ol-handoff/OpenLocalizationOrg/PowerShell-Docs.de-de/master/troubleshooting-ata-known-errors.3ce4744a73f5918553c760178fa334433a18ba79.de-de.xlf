@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">82e79752689029abd1319aedd1a4b1370e9321bd</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\troubleshooting-ata-known-errors.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c747d4af60683b0eba876ccd702dff954432c32d</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26a18039f76e8775cb69ddb0e45e1656bbcac09e</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e5efa844d8b5e9871e12d04be90f55df0e295e2f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57447d242dc8bc95d8768f9f6a432aed2e07d581</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -22,8 +22,8 @@
           <target state="new">Describes how you can troubleshoot common errors in ATA</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>Applies to: Advanced Threat Analytics version 1.7</source>
-          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+          <source><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Troubleshooting the ATA error log</source>
@@ -262,8 +262,8 @@
           <target state="new">Uninstall and reinstall the IIS URL Rewrite module.</target>
         </trans-unit>
         <trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>Download the IIS URL Rewrite module</source>
-          <target state="new">Download the IIS URL Rewrite module</target>
+          <source><bpt id="p1">[</bpt>Download the IIS URL Rewrite module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=615137)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Download the IIS URL Rewrite module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=615137)</ept></target>
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>Deployment errors</source>
@@ -302,24 +302,24 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
-          <source>ATA prerequisites</source>
-          <target state="new">ATA prerequisites</target>
+          <source><bpt id="p1">[</bpt>ATA prerequisites<ept id="p1">](/advanced-threat-analytics/plan-design/ata-prerequisites)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>ATA prerequisites<ept id="p1">](/advanced-threat-analytics/plan-design/ata-prerequisites)</ept></target>
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
-          <source>ATA capacity planning</source>
-          <target state="new">ATA capacity planning</target>
+          <source><bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept></target>
         </trans-unit>
         <trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>Configure event collection</source>
-          <target state="new">Configure event collection</target>
+          <source><bpt id="p1">[</bpt>Configure event collection<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configure event collection<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection)</ept></target>
         </trans-unit>
         <trans-unit id="176" translate="yes" xml:space="preserve">
-          <source>Configuring Windows event forwarding</source>
-          <target state="new">Configuring Windows event forwarding</target>
+          <source><bpt id="p1">[</bpt>Configuring Windows event forwarding<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection#configuring-windows-event-forwarding)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configuring Windows event forwarding<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection#configuring-windows-event-forwarding)</ept></target>
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
       </group>
     </body>

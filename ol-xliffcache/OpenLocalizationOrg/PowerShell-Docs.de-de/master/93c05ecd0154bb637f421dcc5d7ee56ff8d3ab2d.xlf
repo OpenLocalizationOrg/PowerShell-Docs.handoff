@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93c05ecd0154bb637f421dcc5d7ee56ff8d3ab2d</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\add-apps.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b24074979c71afbfcaba9ceb264a0b9b05c9dbb</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f421486eb308ac88f1f4e8f2e188283dc2a1609a</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">413975cfbae6d80bca3674f29172a10c747d56de</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ebe30ff3b8abb2881e60d549a96b012b40400a46</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -54,8 +54,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Windows Installer (&amp;#42;.exe, &amp;#42;.msi)</source>
-          <target state="new">Windows Installer (&amp;#42;.exe, &amp;#42;.msi)</target>
+          <source><bpt id="p1">**</bpt>Windows Installer (&amp;#42;.exe, &amp;#42;.msi)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Installer (&amp;#42;.exe, &amp;#42;.msi)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>This type of app must support silent installation with no user input.</source>
@@ -86,16 +86,16 @@
           <target state="new">If command-line arguments are required, they must be entered as Name=Value pairs (such as TRANSFORMS=custom_transform.mst).</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>App Package for Android (&amp;#42;.apk)</source>
-          <target state="new">App Package for Android (&amp;#42;.apk)</target>
+          <source><bpt id="p1">**</bpt>App Package for Android (&amp;#42;.apk)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>App Package for Android (&amp;#42;.apk)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>To deploy Android apps, you must have a valid .apk package.</source>
           <target state="new">To deploy Android apps, you must have a valid .apk package.</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>App Package for iOS (&amp;#42;.ipa)</source>
-          <target state="new">App Package for iOS (&amp;#42;.ipa)</target>
+          <source><bpt id="p1">**</bpt>App Package for iOS (&amp;#42;.ipa)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>App Package for iOS (&amp;#42;.ipa)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>To deploy iOS apps, you must have a valid .ipa package.</source>
@@ -126,8 +126,8 @@
           <target state="new">You don't need to deploy a manifest  file (.plist) with the app.</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Windows Phone app package (&amp;#42;.xap, .appx, .appxbundle)</source>
-          <target state="new">Windows Phone app package (&amp;#42;.xap, .appx, .appxbundle)</target>
+          <source><bpt id="p1">**</bpt>Windows Phone app package (&amp;#42;.xap, .appx, .appxbundle)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Phone app package (&amp;#42;.xap, .appx, .appxbundle)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>To deploy apps, you'll need an enterprise mobile code-signing certificate.</source>
@@ -138,8 +138,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Set up Windows Phone management with Microsoft Intune<ept id="p1">](set-up-windows-phone-management-with-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Windows app package (.appx, .appxbundle)</source>
-          <target state="new">Windows app package (.appx, .appxbundle)</target>
+          <source><bpt id="p1">**</bpt>Windows app package (.appx, .appxbundle)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows app package (.appx, .appxbundle)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>To deploy apps, you'll need an enterprise mobile code-signing certificate.</source>
@@ -150,8 +150,8 @@
           <target state="new">For details, see <bpt id="p1">[</bpt>Set up Windows device management with Microsoft Intune<ept id="p1">](set-up-windows-device-management-with-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>Windows Installer through MDM (&amp;#42;.msi)</source>
-          <target state="new">Windows Installer through MDM (&amp;#42;.msi)</target>
+          <source><bpt id="p1">**</bpt>Windows Installer through MDM (&amp;#42;.msi)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Installer through MDM (&amp;#42;.msi)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>You use this app to create and deploy Windows Installer-based apps to enrolled PCs that run Windows 10.</source>
@@ -198,8 +198,8 @@
           <target state="new">All software installer app types are uploaded to your cloud storage space.</target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>External Link</source>
-          <target state="new">External Link</target>
+          <source><bpt id="p1">**</bpt>External Link<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>External Link<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>Use an external link when you have a:</source>
@@ -218,8 +218,8 @@
           <target state="new">Apps based on external links are not stored in your Intune cloud storage space.</target>
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>Managed iOS app from the app store</source>
-          <target state="new">Managed iOS app from the app store</target>
+          <source><bpt id="p1">**</bpt>Managed iOS app from the app store<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Managed iOS app from the app store<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>You can use managed iOS apps to manage and deploy iOS apps that are free of charge from the app store.</source>

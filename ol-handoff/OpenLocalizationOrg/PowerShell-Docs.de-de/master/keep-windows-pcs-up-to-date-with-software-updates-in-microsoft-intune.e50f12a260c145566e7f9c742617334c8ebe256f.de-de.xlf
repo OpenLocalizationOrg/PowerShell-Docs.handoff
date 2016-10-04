@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e26786066b98adf187a6cf3ccbf172e919871f50</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">899648d0142bd45974469e4bbc1a63544eb7e34a</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">095095e196efe25c255362ee94c8b8232501573e</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec50bdeb8ff40486e8e2acc11fe93354f5c92346</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2cc63030e260a7bd1f9d106f97e155577a84e0b4</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -98,8 +98,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Update and application detection frequency (hours)</source>
-          <target state="new">Update and application detection frequency (hours)</target>
+          <source><bpt id="p1">**</bpt>Update and application detection frequency (hours)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Update and application detection frequency (hours)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Specifies how frequently (from 8-22 hours) Intune checks for new updates and applications.</source>
@@ -110,8 +110,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>8<ept id="p1">**</ept> hours.</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>Automated or prompted installation of updates and applications</source>
-          <target state="new">Automated or prompted installation of updates and applications</target>
+          <source><bpt id="p1">**</bpt>Automated or prompted installation of updates and applications<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Automated or prompted installation of updates and applications<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Specifies whether updates are installed automatically or whether the user is prompted before installation.</source>
@@ -142,20 +142,20 @@
           <target state="new"><bpt id="p1">**</bpt>Install updates and applications automatically as scheduled<ept id="p1">**</ept> selected</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>Day scheduled: Every day</source>
-          <target state="new">Day scheduled: Every day</target>
+          <source><bpt id="p1">**</bpt>Day scheduled: Every day<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Day scheduled: Every day<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>Time scheduled: 3:00 AM</source>
-          <target state="new">Time scheduled: 3:00 AM</target>
+          <source><bpt id="p1">**</bpt>Time scheduled: 3:00 AM<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Time scheduled: 3:00 AM<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Use Automatic Maintenance for Windows computers<ept id="p1">**</ept> selected</source>
           <target state="new"><bpt id="p1">**</bpt>Use Automatic Maintenance for Windows computers<ept id="p1">**</ept> selected</target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>Allow immediate installation of updates that do not interrupt Windows</source>
-          <target state="new">Allow immediate installation of updates that do not interrupt Windows</target>
+          <source><bpt id="p1">**</bpt>Allow immediate installation of updates that do not interrupt Windows<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow immediate installation of updates that do not interrupt Windows<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Allow<ept id="p1">**</ept> installs updates immediately after they are downloaded, except for updates that would interrupt or restart Windows.</source>
@@ -174,8 +174,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Allow<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>Delay to restart Windows after installation of scheduled updates and applications (minutes)</source>
-          <target state="new">Delay to restart Windows after installation of scheduled updates and applications (minutes)</target>
+          <source><bpt id="p1">**</bpt>Delay to restart Windows after installation of scheduled updates and applications (minutes)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Delay to restart Windows after installation of scheduled updates and applications (minutes)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Specifies (from 1-30 minutes), the time to wait to restart Windows after the installation of scheduled updates and applications.</source>
@@ -186,8 +186,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>15 minutes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)</source>
-          <target state="new">Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)</target>
+          <source><bpt id="p1">**</bpt>Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Specifies (from 1-60 minutes), how long to wait to start the installation of updates and applications after Windows is restarted when a scheduled update was missed.</source>
@@ -198,8 +198,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>5 minutes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>Allow logged-on user to control Windows restart after installation of scheduled updates and applications</source>
-          <target state="new">Allow logged-on user to control Windows restart after installation of scheduled updates and applications</target>
+          <source><bpt id="p1">**</bpt>Allow logged-on user to control Windows restart after installation of scheduled updates and applications<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow logged-on user to control Windows restart after installation of scheduled updates and applications<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>Specifies whether the logged-on user can delay restarting Windows (if set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>), or be notified of the automatic Windows restart (if set to <bpt id="p2">**</bpt>No<ept id="p2">**</ept>).</source>
@@ -218,8 +218,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>Prompt user to restart Windows during Intune client agent mandatory updates</source>
-          <target state="new">Prompt user to restart Windows during Intune client agent mandatory updates</target>
+          <source><bpt id="p1">**</bpt>Prompt user to restart Windows during Intune client agent mandatory updates<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Prompt user to restart Windows during Intune client agent mandatory updates<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>Specifies whether the logged on users is prompted to restart Windows when an Intune client mandatory update requires Windows to restart.</source>
@@ -230,8 +230,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>Microsoft Intune client agent mandatory updates installation schedule</source>
-          <target state="new">Microsoft Intune client agent mandatory updates installation schedule</target>
+          <source><bpt id="p1">**</bpt>Microsoft Intune client agent mandatory updates installation schedule<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft Intune client agent mandatory updates installation schedule<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>Schedules when the installation of client updates occur.</source>
@@ -242,8 +242,8 @@
           <target state="new">Recommended value: not configured</target>
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)</source>
-          <target state="new">Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)</target>
+          <source><bpt id="p1">**</bpt>Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>Specifies how frequently (from 1-1440 minutes) the user is prompted to restart Windows when a scheduled update or application that requires restarting Windows is installed, and the user delays the restart.</source>
@@ -482,16 +482,16 @@
           <target state="new">Select one or more of the following rules to determine whether the update is already installed on managed computers:</target>
         </trans-unit>
         <trans-unit id="218" translate="yes" xml:space="preserve">
-          <source>File exists</source>
-          <target state="new">File exists</target>
+          <source><bpt id="p1">**</bpt>File exists<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>File exists<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="219" translate="yes" xml:space="preserve">
-          <source>MSI product code exists</source>
-          <target state="new">MSI product code exists</target>
+          <source><bpt id="p1">**</bpt>MSI product code exists<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>MSI product code exists<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>Registry key exists</source>
-          <target state="new">Registry key exists</target>
+          <source><bpt id="p1">**</bpt>Registry key exists<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Registry key exists<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>Provide any further information that is required to configure the detection rule such as a file path and name, Windows Installer product code, or a registry key, and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
@@ -506,16 +506,16 @@
           <target state="new">You can specify <bpt id="p1">**</bpt>None<ept id="p1">**</ept>, select a software package that has already been added to, and is managed by Intune, or you can specify one of the following rules to describe the software:</target>
         </trans-unit>
         <trans-unit id="224" translate="yes" xml:space="preserve">
-          <source>File exists</source>
-          <target state="new">File exists</target>
+          <source><bpt id="p1">**</bpt>File exists<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>File exists<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="225" translate="yes" xml:space="preserve">
-          <source>MSI product code exists</source>
-          <target state="new">MSI product code exists</target>
+          <source><bpt id="p1">**</bpt>MSI product code exists<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>MSI product code exists<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="226" translate="yes" xml:space="preserve">
-          <source>Registry key exists</source>
-          <target state="new">Registry key exists</target>
+          <source><bpt id="p1">**</bpt>Registry key exists<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Registry key exists<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="227" translate="yes" xml:space="preserve">
           <source>Provide any further information that is required to configure the detection rule like a file path and name, Windows Installer product code, or a registry key, and then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
@@ -562,16 +562,16 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="238" translate="yes" xml:space="preserve">
-          <source>0</source>
-          <target state="new">0</target>
+          <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>0<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="239" translate="yes" xml:space="preserve">
           <source>Success</source>
           <target state="new">Success</target>
         </trans-unit>
         <trans-unit id="240" translate="yes" xml:space="preserve">
-          <source>3010</source>
-          <target state="new">3010</target>
+          <source><bpt id="p1">**</bpt>3010<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>3010<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="241" translate="yes" xml:space="preserve">
           <source>Success with restart</source>
@@ -654,16 +654,16 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="261" translate="yes" xml:space="preserve">
-          <source>View Properties</source>
-          <target state="new">View Properties</target>
+          <source><bpt id="p1">**</bpt>View Properties<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>View Properties<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="262" translate="yes" xml:space="preserve">
           <source>Displays detailed information about the update including the number of computers to which it is applicable.</source>
           <target state="new">Displays detailed information about the update including the number of computers to which it is applicable.</target>
         </trans-unit>
         <trans-unit id="263" translate="yes" xml:space="preserve">
-          <source>Edit</source>
-          <target state="new">Edit</target>
+          <source><bpt id="p1">**</bpt>Edit<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Edit<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="264" translate="yes" xml:space="preserve">
           <source>For non-Microsoft updates only.</source>
@@ -674,8 +674,8 @@
           <target state="new">Allows you to edit the properties of the update.</target>
         </trans-unit>
         <trans-unit id="266" translate="yes" xml:space="preserve">
-          <source>Approve</source>
-          <target state="new">Approve</target>
+          <source><bpt id="p1">**</bpt>Approve<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Approve<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="267" translate="yes" xml:space="preserve">
           <source>Approves the selected update and allows you to configure which groups is will be deployed to.</source>
@@ -686,8 +686,8 @@
           <target state="new">For more information, see the procedure <bpt id="p1">**</bpt>To approve updates<ept id="p1">**</ept> in this topic.</target>
         </trans-unit>
         <trans-unit id="269" translate="yes" xml:space="preserve">
-          <source>Decline</source>
-          <target state="new">Decline</target>
+          <source><bpt id="p1">**</bpt>Decline<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Decline<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="270" translate="yes" xml:space="preserve">
           <source>Removes any previous approvals for the update and hides the update from the default views.</source>
@@ -714,8 +714,8 @@
           <target state="new">If you delete an updates policy that is deployed to computers, the values of those updates policy settings are reset to the default state for the operating system that is installed on the computers.</target>
         </trans-unit>
         <trans-unit id="276" translate="yes" xml:space="preserve">
-          <source>Delete</source>
-          <target state="new">Delete</target>
+          <source><bpt id="p1">**</bpt>Delete<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Delete<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="277" translate="yes" xml:space="preserve">
           <source>For non-Microsoft updates only.</source>
@@ -726,8 +726,8 @@
           <target state="new">Deletes the selected update.</target>
         </trans-unit>
         <trans-unit id="279" translate="yes" xml:space="preserve">
-          <source>Upload</source>
-          <target state="new">Upload</target>
+          <source><bpt id="p1">**</bpt>Upload<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Upload<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="280" translate="yes" xml:space="preserve">
           <source>Starts the <bpt id="p1">**</bpt>Upload Update<ept id="p1">**</ept> wizard that allows you to upload non-Microsoft updates that you want to deploy.</source>
@@ -830,8 +830,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="305" translate="yes" xml:space="preserve">
-          <source>Policies to protect Windows PCs</source>
-          <target state="new">Policies to protect Windows PCs</target>
+          <source><bpt id="p1">[</bpt>Policies to protect Windows PCs<ept id="p1">](policies-to-protect-windows-pcs-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Policies to protect Windows PCs<ept id="p1">](policies-to-protect-windows-pcs-in-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

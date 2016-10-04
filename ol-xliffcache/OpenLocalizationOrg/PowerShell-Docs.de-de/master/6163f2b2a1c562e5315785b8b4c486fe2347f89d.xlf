@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6163f2b2a1c562e5315785b8b4c486fe2347f89d</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3c04a5563e963a33d07d71f64ddcf6d33ec1aa5c</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5195ad880316eab5399308fe73c7c8c47246ea55</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97cd9de3f2be70bb726acc125ee5e6e5c2f61225</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85b98fa25f73744c18f7b0c60848a97170c4439f</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -82,8 +82,8 @@
           <target state="new">MAM policies are not supported for apps that connect to on-premises Exchange, Skype for Business, or SharePoint services.</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>The important benefits of using MAM policies are</source>
-          <target state="new">The important benefits of using MAM policies are</target>
+          <source><bpt id="p1">**</bpt>The important benefits of using MAM policies are<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>The important benefits of using MAM policies are<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Protecting your company data at the app level.</source>
@@ -210,8 +210,8 @@
           <target state="new">Image that shows how MAM policies work on BYOD devices</target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>For devices enrolled in an MDM solution</source>
-          <target state="new">For devices enrolled in an MDM solution</target>
+          <source><bpt id="p1">**</bpt>For devices enrolled in an MDM solution<ept id="p1">**</ept><ph id="ph1">-</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>For devices enrolled in an MDM solution<ept id="p1">**</ept><ph id="ph1">-</ph></target>
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>The illustration above shows the layers of protection that MDM and MAM policies offer together.</source>
@@ -234,8 +234,8 @@
           <target state="new">Provides ongoing device compliance and management</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>MAM policies add value by:</source>
-          <target state="new">MAM policies add value by:</target>
+          <source><bpt id="p1">**</bpt>MAM policies add value by:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>MAM policies add value by:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>Helping protect  company data from leaking to consumer apps and services</source>
@@ -314,12 +314,12 @@
           <target state="new">Next steps</target>
         </trans-unit>
         <trans-unit id="176" translate="yes" xml:space="preserve">
-          <source>Get ready to configure mobile app management policies</source>
-          <target state="new">Get ready to configure mobile app management policies</target>
+          <source><bpt id="p1">[</bpt>Get ready to configure mobile app management policies<ept id="p1">](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get ready to configure mobile app management policies<ept id="p1">](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>Create and deploy mobile app management policies with Microsoft Intune</source>
-          <target state="new">Create and deploy mobile app management policies with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Create and deploy mobile app management policies with Microsoft Intune<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create and deploy mobile app management policies with Microsoft Intune<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

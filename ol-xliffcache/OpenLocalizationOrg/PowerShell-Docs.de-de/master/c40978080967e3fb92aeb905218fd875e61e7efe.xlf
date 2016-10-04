@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c40978080967e3fb92aeb905218fd875e61e7efe</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\exchange-access-rules-for-mobile-devices.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">965f7f930fd06178ac052472645145de6442bcb8</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8ba8ee3437282aaa4bd10308a11f46ff08a2c7ba</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a80db94ffcccd15f20ac1ef60613a0b0f3b65c9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c86ed0815868ad85bfbccd6dfd3f90b6d6c130f5</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -50,8 +50,8 @@
           <target state="new">Description</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Allow the devices to access Exchange</source>
-          <target state="new">Allow the devices to access Exchange</target>
+          <source><bpt id="p1">**</bpt>Allow the devices to access Exchange<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow the devices to access Exchange<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">*</bpt>allow access<ept id="p1">*</ept> state, mobile devices can sync through Exchange ActiveSync and connect to the Exchange server to retrieve email and manage Calendar, Contacts, Tasks, and Notes.</source>
@@ -62,8 +62,8 @@
           <target state="new">This continues as long as the device complies with any Exchange ActiveSync mailbox policy that you have configured in Exchange, unless the user or the specific mobile device has been blocked by the Exchange administrator.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Block the devices from accessing Exchange</source>
-          <target state="new">Block the devices from accessing Exchange</target>
+          <source><bpt id="p1">**</bpt>Block the devices from accessing Exchange<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Block the devices from accessing Exchange<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">*</bpt>block access<ept id="p1">*</ept> state, mobile devices are blocked and aren't allowed to connect to the Exchange server.</source>
@@ -86,8 +86,8 @@
           <target state="new">By using the <bpt id="p1">**</bpt>Set User Notification<ept id="p1">**</ept> task, you can add customized text to this message to provide instructions for users whose devices are blocked.</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>Quarantine the devices so that you can allow or block them later</source>
-          <target state="new">Quarantine the devices so that you can allow or block them later</target>
+          <source><bpt id="p1">**</bpt>Quarantine the devices so that you can allow or block them later<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Quarantine the devices so that you can allow or block them later<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>When a mobile device is quarantined, the mobile device is allowed to connect to the Exchange server.</source>

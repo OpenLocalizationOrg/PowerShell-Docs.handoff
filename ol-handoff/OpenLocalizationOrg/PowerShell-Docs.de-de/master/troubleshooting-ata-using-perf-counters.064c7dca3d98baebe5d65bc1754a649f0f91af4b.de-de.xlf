@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">75646ac1e1c6c11769510119045cd3b20fd01818</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\troubleshooting-ata-using-perf-counters.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">772570866d6f5c4d6033d6701b459a4d408423f6</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eaa76dcbb4d47ea1783ebb9598be302d184be228</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a57fc8ebebb03ff693c719f88eb1719207606cc1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">808ce8169c9c3be172fb5cd797e2a738200c56ea</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -22,8 +22,8 @@
           <target state="new">Describes how you can use performance counters to troubleshoot issues with ATA</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>Applies to: Advanced Threat Analytics version 1.7</source>
-          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+          <source><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Troubleshooting ATA using the performance counters</source>
@@ -382,8 +382,8 @@
           <target state="new">Troubleshooting</target>
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
-          <source>Process(Microsoft.Tri.Gateway)<ph id="ph1">\%</ph>Processor Time</source>
-          <target state="new">Process(Microsoft.Tri.Gateway)<ph id="ph1">\%</ph>Processor Time</target>
+          <source>Process(Microsoft.Tri.Gateway)\%Processor Time</source>
+          <target state="new">Process(Microsoft.Tri.Gateway)\%Processor Time</target>
         </trans-unit>
         <trans-unit id="194" translate="yes" xml:space="preserve">
           <source>The amount of CPU time (in percentage) that the Lightweight Gateway process is actually consuming.</source>
@@ -606,8 +606,8 @@
           <target state="new">Troubleshooting</target>
         </trans-unit>
         <trans-unit id="249" translate="yes" xml:space="preserve">
-          <source>Processor(_Total)<ph id="ph1">\%</ph> Processor Time</source>
-          <target state="new">Processor(_Total)<ph id="ph1">\%</ph> Processor Time</target>
+          <source>Processor(_Total)\% Processor Time</source>
+          <target state="new">Processor(_Total)\% Processor Time</target>
         </trans-unit>
         <trans-unit id="250" translate="yes" xml:space="preserve">
           <source>The percentage of elapsed time that the processor spends to execute a non-Idle thread.</source>
@@ -630,8 +630,8 @@
           <target state="new">Reduce the amount of traffic per server.</target>
         </trans-unit>
         <trans-unit id="255" translate="yes" xml:space="preserve">
-          <source>The "Processor(_Total)<ph id="ph1">\%</ph> Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</source>
-          <target state="new">The "Processor(_Total)<ph id="ph1">\%</ph> Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</target>
+          <source>The "Processor(_Total)\% Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</source>
+          <target state="new">The "Processor(_Total)\% Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</target>
         </trans-unit>
         <trans-unit id="256" translate="yes" xml:space="preserve">
           <source>System\Context Switches/sec</source>
@@ -658,8 +658,8 @@
           <target state="new">Reduce the amount of traffic per server.</target>
         </trans-unit>
         <trans-unit id="262" translate="yes" xml:space="preserve">
-          <source>The "Processor(_Total)<ph id="ph1">\%</ph> Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</source>
-          <target state="new">The "Processor(_Total)<ph id="ph1">\%</ph> Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</target>
+          <source>The "Processor(_Total)\% Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</source>
+          <target state="new">The "Processor(_Total)\% Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</target>
         </trans-unit>
         <trans-unit id="263" translate="yes" xml:space="preserve">
           <source>System\Processor Queue Length</source>
@@ -686,8 +686,8 @@
           <target state="new">Reduce the amount of traffic per server.</target>
         </trans-unit>
         <trans-unit id="269" translate="yes" xml:space="preserve">
-          <source>The "Processor(_Total)<ph id="ph1">\%</ph> Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</source>
-          <target state="new">The "Processor(_Total)<ph id="ph1">\%</ph> Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</target>
+          <source>The "Processor(_Total)\% Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</source>
+          <target state="new">The "Processor(_Total)\% Processor Time" counter may be less accurate on virtual servers, in which case the more accurate way to measure the lack of processor power is through the "System\Processor Queue Length" counter.</target>
         </trans-unit>
         <trans-unit id="270" translate="yes" xml:space="preserve">
           <source>Memory\Available MBytes</source>
@@ -838,24 +838,24 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="307" translate="yes" xml:space="preserve">
-          <source>ATA prerequisites</source>
-          <target state="new">ATA prerequisites</target>
+          <source><bpt id="p1">[</bpt>ATA prerequisites<ept id="p1">](/advanced-threat-analytics/plan-design/ata-prerequisites)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>ATA prerequisites<ept id="p1">](/advanced-threat-analytics/plan-design/ata-prerequisites)</ept></target>
         </trans-unit>
         <trans-unit id="308" translate="yes" xml:space="preserve">
-          <source>ATA capacity planning</source>
-          <target state="new">ATA capacity planning</target>
+          <source><bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept></target>
         </trans-unit>
         <trans-unit id="309" translate="yes" xml:space="preserve">
-          <source>Configure event collection</source>
-          <target state="new">Configure event collection</target>
+          <source><bpt id="p1">[</bpt>Configure event collection<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configure event collection<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection)</ept></target>
         </trans-unit>
         <trans-unit id="310" translate="yes" xml:space="preserve">
-          <source>Configuring Windows event forwarding</source>
-          <target state="new">Configuring Windows event forwarding</target>
+          <source><bpt id="p1">[</bpt>Configuring Windows event forwarding<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection#configuring-windows-event-forwarding)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configuring Windows event forwarding<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection#configuring-windows-event-forwarding)</ept></target>
         </trans-unit>
         <trans-unit id="311" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
       </group>
     </body>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf22e9bd54699344c478ab4d169220c93e053f5b</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-update-1.7-migration-guide.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">372586beb68070a2a7e2f913d472c6871ef1677c</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c05829e05460cecfb87b8e48a6e1e000a3db1a2</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e5679f5fa37e001c7b8c7935afedf3ef5f39c94</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6d17c33e6b5a0d8e03721fb185c6609655e1e2a</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -62,8 +62,8 @@
           <target state="new">Follow these steps to update to ATA version 1.7:</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Download update 1.7</source>
-          <target state="new">Download update 1.7</target>
+          <source><bpt id="p1">[</bpt>Download update 1.7<ept id="p1">](http://www.microsoft.com/evalcenter/evaluate-microsoft-advanced-threat-analytics)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Download update 1.7<ept id="p1">](http://www.microsoft.com/evalcenter/evaluate-microsoft-advanced-threat-analytics)</ept></target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>In this version of, the same installation file (Microsoft ATA Center Setup.exe) is used for installing a new deployment of ATA and for upgrading existing deployments.</source>
@@ -114,12 +114,12 @@
           <target state="new">In the Microsoft Update page, select <bpt id="p1">**</bpt>Use Microsoft Update when I check for updates (recommended)<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>Keep ATA up to date image<ph id="ph1">](media/ata_ms_update.png)</ph> This will adjust the Windows settings to enable updates for other Microsoft products (including ATA), as seen here.</source>
-          <target state="new">Keep ATA up to date image<ph id="ph1">](media/ata_ms_update.png)</ph> This will adjust the Windows settings to enable updates for other Microsoft products (including ATA), as seen here.</target>
+          <source><ph id="ph1">![</ph>Keep ATA up to date image<ph id="ph2">](media/ata_ms_update.png)</ph> This will adjust the Windows settings to enable updates for other Microsoft products (including ATA), as seen here.</source>
+          <target state="new"><ph id="ph1">![</ph>Keep ATA up to date image<ph id="ph2">](media/ata_ms_update.png)</ph> This will adjust the Windows settings to enable updates for other Microsoft products (including ATA), as seen here.</target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>Windows auto-update image</source>
-          <target state="new">Windows auto-update image</target>
+          <source><ph id="ph1">![</ph>Windows auto-update image<ph id="ph2">](media/ata_installupdatesautomatically.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Windows auto-update image<ph id="ph2">](media/ata_installupdatesautomatically.png)</ph></target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Data migration<ept id="p1">**</ept> screen, select whether you want to migrate all or partial data.</source>
@@ -170,16 +170,16 @@
           <target state="new">After the ATA Center update completes successfully, click <bpt id="p1">**</bpt>Launch<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Update<ept id="p2">**</ept> screen in the ATA console for the ATA Gateways.</target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>Update success screen</source>
-          <target state="new">Update success screen</target>
+          <source><ph id="ph1">![</ph>Update success screen<ph id="ph2">](media/migration center success.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Update success screen<ph id="ph2">](media/migration center success.png)</ph></target>
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> screen, if you already set your ATA Gateways to automatically update, they will update at this point, if not, click <bpt id="p2">**</bpt>Update<ept id="p2">**</ept> next to each ATA Gateway.</source>
           <target state="new">In the <bpt id="p1">**</bpt>Updates<ept id="p1">**</ept> screen, if you already set your ATA Gateways to automatically update, they will update at this point, if not, click <bpt id="p2">**</bpt>Update<ept id="p2">**</ept> next to each ATA Gateway.</target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>Update gateways image</source>
-          <target state="new">Update gateways image</target>
+          <source><ph id="ph1">![</ph>Update gateways image<ph id="ph2">](media/migration update gw.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Update gateways image<ph id="ph2">](media/migration update gw.png)</ph></target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Update all the ATA Gateways to make sure ATA functions properly.</source>
@@ -194,8 +194,8 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
       </group>
     </body>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">904b89a92cef870f4672e5f40e6ac91ece10d3b7</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\deploy-apps-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">13d6590e9ae3a0419742e2ec51322549123b8af2</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bb8cc7d4eeb5c9c8075530df2539fad52ba41326</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">32b45d2f1427419701aaad177daf08f201c47623</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cd3828d3b7a6a1050e4643242bda7eb344994336</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -94,8 +94,8 @@
           <target state="new">On this page, choose the mobile application management policy that you want to associate with this app.</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>See which Microsoft apps are compatible with mobile application management policies.</source>
-          <target state="new">See which Microsoft apps are compatible with mobile application management policies.</target>
+          <source><bpt id="p1">[</bpt>See which Microsoft apps are compatible with mobile application management policies.<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>See which Microsoft apps are compatible with mobile application management policies.<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>If the app you are deploying is compatible with Intune VPN profiles, the <bpt id="p1">**</bpt>VPN Profile<ept id="p1">**</ept> page is displayed.</source>
@@ -138,8 +138,8 @@
           <target state="new">The option <bpt id="p1">**</bpt>Display this as a featured app and highlight it in the company portal<ept id="p1">**</ept> was selected.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>iOS available app</source>
-          <target state="new">iOS available app</target>
+          <source><ph id="ph1">![</ph>iOS available app<ph id="ph2">](./media/available-install-on-iOS.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>iOS available app<ph id="ph2">](./media/available-install-on-iOS.png)</ph></target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>If you deployed the app as <bpt id="p1">**</bpt>Required<ept id="p1">**</ept> to an iOS device, the user will get a notification that an app is ready to install.</source>
@@ -150,8 +150,8 @@
           <target state="new">For example, in this screenshot, the Work Folders for iOS app was deployed by using the <bpt id="p1">**</bpt>Managed iOS app from the app store<ept id="p1">**</ept> installation type.</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>iOS required app</source>
-          <target state="new">iOS required app</target>
+          <source><ph id="ph1">![</ph>iOS required app<ph id="ph2">](./media/iOS-Required-install.PNG)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>iOS required app<ph id="ph2">](./media/iOS-Required-install.PNG)</ph></target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>Next steps</source>

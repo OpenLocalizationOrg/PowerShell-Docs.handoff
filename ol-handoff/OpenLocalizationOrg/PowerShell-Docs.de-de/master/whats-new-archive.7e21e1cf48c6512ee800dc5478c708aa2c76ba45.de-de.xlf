@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e5ca7345aef574446d437bac25bffc0c3414c68</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\whats-new-archive.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c035576391ac550225bf4dbe990623660cd521b</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af1c149c1683d707ed350d96c54090f1a47b47cf</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">03204bcd16cb98a2dcb45b664a0ea863993c03b6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">510836ec21be4f1b325b9fab7fafec52d1fe5965</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -30,8 +30,8 @@
           <target state="new">The following changes have been made to the Company Portal in this release.</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>Android Company Portal app</source>
-          <target state="new">Android Company Portal app</target>
+          <source><bpt id="p1">**</bpt>Android Company Portal app<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Android Company Portal app<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>The following changes have been made to comply with new Google requirements.</source>
@@ -70,8 +70,8 @@
           <target state="new">Enables the user's device phone number and IMEI to be sent to the Intune service and appear in the Admin console on the Hardware page.</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>NOTE: The Company Portal app never makes or manages phone calls!</source>
-          <target state="new">NOTE: The Company Portal app never makes or manages phone calls!</target>
+          <source><bpt id="p1">**</bpt>NOTE: The Company Portal app never makes or manages phone calls!<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>NOTE: The Company Portal app never makes or manages phone calls!<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>The message text is controlled by Google and cannot be changed.</source>
@@ -150,8 +150,8 @@
           <target state="new">Enables the device to write data logs to the device's SD card, which enables logs to be moved by using a USB cable.</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>NOTE: The Company Portal app never accesses users' photos, media, and files!</source>
-          <target state="new">NOTE: The Company Portal app never accesses users' photos, media, and files!</target>
+          <source><bpt id="p1">**</bpt>NOTE: The Company Portal app never accesses users' photos, media, and files!<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>NOTE: The Company Portal app never accesses users' photos, media, and files!<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>The message text is controlled by Google and cannot be changed.</source>
@@ -206,8 +206,8 @@
           <target state="new">For IT Pros: The information in this table is also in <bpt id="p1">[</bpt>Helping your users understand Company Portal app messages<ept id="p1">](https://technet.microsoft.com/library/dn948527.aspx#BKMK_help_users_understd_msgs)</ept></target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>iOS Company Portal app</source>
-          <target state="new">iOS Company Portal app</target>
+          <source><bpt id="p1">**</bpt>iOS Company Portal app<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>iOS Company Portal app<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Users can now use Microsoft Outlook or other mail apps to send diagnostic logs to the IT administrator.</source>
@@ -234,8 +234,8 @@
           <target state="new">Before this check mark was added, users couldn't tell which enrolled device they were using.</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Windows Company Portal app</source>
-          <target state="new">Windows Company Portal app</target>
+          <source><bpt id="p1">**</bpt>Windows Company Portal app<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Company Portal app<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>Microsoft automatically collects anonymous data about the performance and use of the company portal to improve Microsoft products and services.</source>
@@ -282,12 +282,12 @@
           <target state="new">You can find more information about these new MAM capabilities in the following blog posts:</target>
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>Enhancing managed mobile productivity</source>
-          <target state="new">Enhancing managed mobile productivity</target>
+          <source><bpt id="p1">[</bpt>Enhancing managed mobile productivity<ept id="p1">](http://blogs.technet.com/b/microsoftintune/archive/2015/11/17/enhancing-managed-mobile-productivity.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enhancing managed mobile productivity<ept id="p1">](http://blogs.technet.com/b/microsoftintune/archive/2015/11/17/enhancing-managed-mobile-productivity.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="169" translate="yes" xml:space="preserve">
-          <source>Announcing new Microsoft Enterprise Mobility capabilities</source>
-          <target state="new">Announcing new Microsoft Enterprise Mobility capabilities</target>
+          <source><bpt id="p1">[</bpt>Announcing new Microsoft Enterprise Mobility capabilities<ept id="p1">](http://blogs.technet.com/b/microsoftintune/archive/2015/11/17/enhancing-managed-mobile-productivity.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Announcing new Microsoft Enterprise Mobility capabilities<ept id="p1">](http://blogs.technet.com/b/microsoftintune/archive/2015/11/17/enhancing-managed-mobile-productivity.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>Additionally, here are some highlights and additional information about Intune's MAM features:</source>
@@ -566,12 +566,12 @@
           <target state="new">If you have any questions about this change, feel free to contact your Intune support team:</target>
         </trans-unit>
         <trans-unit id="239" translate="yes" xml:space="preserve">
-          <source>Microsoft Intune support channels</source>
-          <target state="new">Microsoft Intune support channels</target>
+          <source><bpt id="p1">[</bpt>Microsoft Intune support channels<ept id="p1">](https://technet.microsoft.com/library/jj839713.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Microsoft Intune support channels<ept id="p1">](https://technet.microsoft.com/library/jj839713.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="240" translate="yes" xml:space="preserve">
-          <source>Community support</source>
-          <target state="new">Community support</target>
+          <source><bpt id="p1">[</bpt>Community support<ept id="p1">](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Community support<ept id="p1">](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod)</ept></target>
         </trans-unit>
         <trans-unit id="241" translate="yes" xml:space="preserve">
           <source>For general Microsoft Intune feedback, including filing Design Change Requests (DCRs) or bugs, please visit <bpt id="p1">[</bpt>Intune user voice<ept id="p1">](https://microsoftintune.uservoice.com/)</ept>.</source>
@@ -582,8 +582,8 @@
           <target state="new">What's new in Intune documentation -- November 2015</target>
         </trans-unit>
         <trans-unit id="243" translate="yes" xml:space="preserve">
-          <source>New content</source>
-          <target state="new">New content</target>
+          <source><bpt id="p1">**</bpt>New content<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>New content<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="244" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>Mac OS X configuration policy settings in Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/mt627823.aspx)</ept>: How to control device settings and features for Mac OS X devices.</source>
@@ -622,8 +622,8 @@
           <target state="new"><bpt id="p1">[</bpt>Wipe managed company app data with Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/mt627826.aspx)</ept>: How you can remove company app data.</target>
         </trans-unit>
         <trans-unit id="253" translate="yes" xml:space="preserve">
-          <source>Updated content</source>
-          <target state="new">Updated content</target>
+          <source><bpt id="p1">**</bpt>Updated content<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Updated content<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="254" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>Windows 10 configuration policy settings in Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/mt404697.aspx)</ept>: Added new Edge browser settings.</source>
@@ -804,8 +804,8 @@
           <target state="new">The following changes have been made to the company portal apps in this release:</target>
         </trans-unit>
         <trans-unit id="298" translate="yes" xml:space="preserve">
-          <source>iOS</source>
-          <target state="new">iOS</target>
+          <source><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="299" translate="yes" xml:space="preserve">
           <source>Microsoft automatically collects anonymous data about the performance and use of the company portal to improve Microsoft products and services.</source>
@@ -828,8 +828,8 @@
           <target state="new">What's new in Intune documentation -- September 2015</target>
         </trans-unit>
         <trans-unit id="304" translate="yes" xml:space="preserve">
-          <source>New topics</source>
-          <target state="new">New topics</target>
+          <source><bpt id="p1">**</bpt>New topics<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>New topics<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="305" translate="yes" xml:space="preserve">
           <source>Name</source>
@@ -840,24 +840,24 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="307" translate="yes" xml:space="preserve">
-          <source>Windows 10 configuration policy settings in Microsoft Intune</source>
-          <target state="new">Windows 10 configuration policy settings in Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Windows 10 configuration policy settings in Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/mt404697.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows 10 configuration policy settings in Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/mt404697.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="308" translate="yes" xml:space="preserve">
           <source>This is a new configuration policy that lets you manage settings and features on devices that run Windows 10 and Windows 10 Mobile.</source>
           <target state="new">This is a new configuration policy that lets you manage settings and features on devices that run Windows 10 and Windows 10 Mobile.</target>
         </trans-unit>
         <trans-unit id="309" translate="yes" xml:space="preserve">
-          <source>Configure apps with mobile app configuration policies in Microsoft Intune</source>
-          <target state="new">Configure apps with mobile app configuration policies in Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Configure apps with mobile app configuration policies in Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/mt481447.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configure apps with mobile app configuration policies in Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/mt481447.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="310" translate="yes" xml:space="preserve">
           <source>This is a new policy type that lets you automatically supply settings that might be required when the user runs an iOS app.</source>
           <target state="new">This is a new policy type that lets you automatically supply settings that might be required when the user runs an iOS app.</target>
         </trans-unit>
         <trans-unit id="311" translate="yes" xml:space="preserve">
-          <source>Updated topics</source>
-          <target state="new">Updated topics</target>
+          <source><bpt id="p1">**</bpt>Updated topics<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Updated topics<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="312" translate="yes" xml:space="preserve">
           <source>Name</source>
@@ -868,8 +868,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="314" translate="yes" xml:space="preserve">
-          <source>Use policies to manage computers and mobile devices with Microsoft Intune</source>
-          <target state="new">Use policies to manage computers and mobile devices with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/dn743712.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/dn743712.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="315" translate="yes" xml:space="preserve">
           <source>Updated to include the latest information to help you understand and create policies.</source>
@@ -984,8 +984,8 @@
           <target state="new">The following changes have been made to the company portal apps in this release:</target>
         </trans-unit>
         <trans-unit id="343" translate="yes" xml:space="preserve">
-          <source>Android</source>
-          <target state="new">Android</target>
+          <source><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="344" translate="yes" xml:space="preserve">
           <source>Users will now see device enrollment instructions after signing in if they have not yet enrolled their device for management.</source>
@@ -996,8 +996,8 @@
           <target state="new">What's new in Intune documentation -- August 2015</target>
         </trans-unit>
         <trans-unit id="346" translate="yes" xml:space="preserve">
-          <source>New topics</source>
-          <target state="new">New topics</target>
+          <source><bpt id="p1">**</bpt>New topics<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>New topics<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="347" translate="yes" xml:space="preserve">
           <source>Title</source>
@@ -1008,16 +1008,16 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="349" translate="yes" xml:space="preserve">
-          <source>Help protect iOS devices with Activation Lock bypass for Microsoft Intune</source>
-          <target state="new">Help protect iOS devices with Activation Lock bypass for Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Help protect iOS devices with Activation Lock bypass for Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/mt414176.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Help protect iOS devices with Activation Lock bypass for Microsoft Intune<ept id="p1">](https://technet.microsoft.com/library/mt414176.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="350" translate="yes" xml:space="preserve">
           <source>Learn about how you can use Intune to bypass iOS Activation lock when a user leaves the company and returns a locked device.</source>
           <target state="new">Learn about how you can use Intune to bypass iOS Activation lock when a user leaves the company and returns a locked device.</target>
         </trans-unit>
         <trans-unit id="351" translate="yes" xml:space="preserve">
-          <source>Updated topics</source>
-          <target state="new">Updated topics</target>
+          <source><bpt id="p1">**</bpt>Updated topics<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Updated topics<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="352" translate="yes" xml:space="preserve">
           <source>Title</source>
@@ -1028,16 +1028,16 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="354" translate="yes" xml:space="preserve">
-          <source>Microsoft apps you can use with Microsoft Intune mobile application management policies</source>
-          <target state="new">Microsoft apps you can use with Microsoft Intune mobile application management policies</target>
+          <source><bpt id="p1">[</bpt>Microsoft apps you can use with Microsoft Intune mobile application management policies<ept id="p1">](https://technet.microsoft.com/library/dn708489.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Microsoft apps you can use with Microsoft Intune mobile application management policies<ept id="p1">](https://technet.microsoft.com/library/dn708489.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="355" translate="yes" xml:space="preserve">
           <source>Updated with the latest information about apps you can manage with mobile application management policies.</source>
           <target state="new">Updated with the latest information about apps you can manage with mobile application management policies.</target>
         </trans-unit>
         <trans-unit id="356" translate="yes" xml:space="preserve">
-          <source>Use policies to manage computers and mobile devices with Microsoft Intune</source>
-          <target state="new">Use policies to manage computers and mobile devices with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id="p1">](http://technet.microsoft.com/library/dn743712.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id="p1">](http://technet.microsoft.com/library/dn743712.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="357" translate="yes" xml:space="preserve">
           <source>Updated with the newest policies added to Intune.</source>

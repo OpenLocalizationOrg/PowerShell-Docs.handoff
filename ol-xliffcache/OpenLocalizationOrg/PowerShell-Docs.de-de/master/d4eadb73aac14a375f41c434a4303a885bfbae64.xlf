@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4eadb73aac14a375f41c434a4303a885bfbae64</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-based-on-device-network-app-risk.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">babaec76c8729cd86690496efb3818f4ebb2232c</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ee38d5cce0c00794ff4427e473b411365e05bb4</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65773c12281f4cee5f7c620411a8111605c42be4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">094ece900089944face35512b517c95dafcd1f0b</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -131,13 +131,13 @@
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Access blocked when malicious apps are detected:<ept id="p1">**</ept><ph id="ph1">
-![</ph>diagram showing conditional access policy blocking access when device is determined to be non-compliant due to malicious apps on the device</source>
+</ph><ph id="ph2">![</ph>diagram showing conditional access policy blocking access when device is determined to be non-compliant due to malicious apps on the device<ph id="ph3">](../media/mtp/malicious-apps-blocked.png)</ph></source>
           <target state="new"><bpt id="p1">**</bpt>Access blocked when malicious apps are detected:<ept id="p1">**</ept><ph id="ph1">
-![</ph>diagram showing conditional access policy blocking access when device is determined to be non-compliant due to malicious apps on the device</target>
+</ph><ph id="ph2">![</ph>diagram showing conditional access policy blocking access when device is determined to be non-compliant due to malicious apps on the device<ph id="ph3">](../media/mtp/malicious-apps-blocked.png)</ph></target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>Device unblocked and is able to access company resources when the threat is remediated:</source>
-          <target state="new">Device unblocked and is able to access company resources when the threat is remediated:</target>
+          <source><bpt id="p1">**</bpt>Device unblocked and is able to access company resources when the threat is remediated:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Device unblocked and is able to access company resources when the threat is remediated:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>diagram showing conditional access policy granting access when device is determined to be compliant after remediation</source>
@@ -153,13 +153,13 @@
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Access to network through WiFi blocked:<ept id="p1">**</ept><ph id="ph1">
-![</ph>diagram showing conditional access blocking WiFi access based on network threats</source>
+</ph><ph id="ph2">![</ph>diagram showing conditional access blocking WiFi access based on network threats<ph id="ph3">](../media/mtp/network-wifi-blocked.png)</ph></source>
           <target state="new"><bpt id="p1">**</bpt>Access to network through WiFi blocked:<ept id="p1">**</ept><ph id="ph1">
-![</ph>diagram showing conditional access blocking WiFi access based on network threats</target>
+</ph><ph id="ph2">![</ph>diagram showing conditional access blocking WiFi access based on network threats<ph id="ph3">](../media/mtp/network-wifi-blocked.png)</ph></target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>Access granted on remediation:</source>
-          <target state="new">Access granted on remediation:</target>
+          <source><bpt id="p1">**</bpt>Access granted on remediation:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Access granted on remediation:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>diagram showing conditional access allowing access on remediation of the threat</source>
@@ -174,16 +174,16 @@
           <target state="new">Detect threats to your network such as Man-in-the-middle attacks, and prevent synchronization of corporate files based on the device risk.</target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>Access blocked SharePoint Online based on network threat detected on the device:</source>
-          <target state="new">Access blocked SharePoint Online based on network threat detected on the device:</target>
+          <source><bpt id="p1">**</bpt>Access blocked SharePoint Online based on network threat detected on the device:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Access blocked SharePoint Online based on network threat detected on the device:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>Diagram showing conditional access blocking device access to SharePoint Online based on threat detection</source>
           <target state="new">Diagram showing conditional access blocking device access to SharePoint Online based on threat detection</target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>Access granted on remediation:</source>
-          <target state="new">Access granted on remediation:</target>
+          <source><bpt id="p1">**</bpt>Access granted on remediation:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Access granted on remediation:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Diagram showing conditional access allowing access after the network threat is remediated</source>
@@ -198,24 +198,24 @@
           <target state="new">Here are the main steps you must do to implement this solution:</target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>Set up your subscription with Lookout mobile threat protection</source>
-          <target state="new">Set up your subscription with Lookout mobile threat protection</target>
+          <source><bpt id="p1">[</bpt>Set up your subscription with Lookout mobile threat protection<ept id="p1">](set-up-your-subscription-with-lookout-mtp.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set up your subscription with Lookout mobile threat protection<ept id="p1">](set-up-your-subscription-with-lookout-mtp.md)</ept></target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>Enable Lookout MTP connection in Intune</source>
-          <target state="new">Enable Lookout MTP connection in Intune</target>
+          <source><bpt id="p1">[</bpt>Enable Lookout MTP connection in Intune<ept id="p1">](enable-lookout-mtp-connection-in-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enable Lookout MTP connection in Intune<ept id="p1">](enable-lookout-mtp-connection-in-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>Configure and deploy Lookout for work application</source>
-          <target state="new">Configure and deploy Lookout for work application</target>
+          <source><bpt id="p1">[</bpt>Configure and deploy Lookout for work application<ept id="p1">](configure-and-deploy-lookout-for-work-apps.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configure and deploy Lookout for work application<ept id="p1">](configure-and-deploy-lookout-for-work-apps.md)</ept></target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Configure compliance policy</source>
-          <target state="new">Configure compliance policy</target>
+          <source><bpt id="p1">[</bpt>Configure compliance policy<ept id="p1">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configure compliance policy<ept id="p1">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept></target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>Troubleshoot Lookout Integration</source>
-          <target state="new">Troubleshoot Lookout Integration</target>
+          <source><bpt id="p1">[</bpt>Troubleshoot Lookout Integration<ept id="p1">](http://docs.microsoft.com/en-us/intune/troubleshoot/troubleshooting-lookout-integration)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Troubleshoot Lookout Integration<ept id="p1">](http://docs.microsoft.com/en-us/intune/troubleshoot/troubleshooting-lookout-integration)</ept></target>
         </trans-unit>
       </group>
     </body>

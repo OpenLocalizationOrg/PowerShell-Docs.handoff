@@ -2,13 +2,13 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33ef6a417c38ab04095afc8fb7573ea92253f229</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\add-apps-for-windows-pcs-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e981925e0d95b6bfec3b201f7dbeeb3d76150c11</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">323e23415eca3ead27f111cfafd9bdf1e8122f7a</xliffext:olskeletonhash>
       <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33d866be56068d7b92488aeca4fb2c13b95ee849</xliffext:olxliffhash>
     </header>
     <body>
@@ -242,8 +242,8 @@
           <target state="new">Specify the path to the file that you want to detect.</target>
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>You can search under <bpt id="p1">**</bpt>%ProgramFiles%<ept id="p1">**</ept> (which searches <bpt id="p2">**</bpt>Program Files<ept id="p2">**</ept><ph id="ph1">\&amp;</ph>lt;path<ph id="ph2">&amp;gt;</ph> and <bpt id="p3">**</bpt>Program Files (x86)<ept id="p3">**</ept><ph id="ph3">\&amp;</ph>lt;path<ph id="ph4">&amp;gt;</ph>) on the PC or <bpt id="p4">**</bpt>%SystemDrive%<ept id="p4">**</ept> (which searches from the root drive of the PC, typically drive C).</source>
-          <target state="new">You can search under <bpt id="p1">**</bpt>%ProgramFiles%<ept id="p1">**</ept> (which searches <bpt id="p2">**</bpt>Program Files<ept id="p2">**</ept><ph id="ph1">\&amp;</ph>lt;path<ph id="ph2">&amp;gt;</ph> and <bpt id="p3">**</bpt>Program Files (x86)<ept id="p3">**</ept><ph id="ph3">\&amp;</ph>lt;path<ph id="ph4">&amp;gt;</ph>) on the PC or <bpt id="p4">**</bpt>%SystemDrive%<ept id="p4">**</ept> (which searches from the root drive of the PC, typically drive C).</target>
+          <source>You can search under <bpt id="p1">**</bpt>%ProgramFiles%<ept id="p1">**</ept> (which searches <bpt id="p2">**</bpt>Program Files<ept id="p2">**</ept><ph id="ph1">\</ph><ph id="ph2">&amp;lt;</ph>path<ph id="ph3">&amp;gt;</ph> and <bpt id="p3">**</bpt>Program Files (x86)<ept id="p3">**</ept><ph id="ph4">\</ph><ph id="ph5">&amp;lt;</ph>path<ph id="ph6">&amp;gt;</ph>) on the PC or <bpt id="p4">**</bpt>%SystemDrive%<ept id="p4">**</ept> (which searches from the root drive of the PC, typically drive C).</source>
+          <target state="new">You can search under <bpt id="p1">**</bpt>%ProgramFiles%<ept id="p1">**</ept> (which searches <bpt id="p2">**</bpt>Program Files<ept id="p2">**</ept><ph id="ph1">\</ph><ph id="ph2">&amp;lt;</ph>path<ph id="ph3">&amp;gt;</ph> and <bpt id="p3">**</bpt>Program Files (x86)<ept id="p3">**</ept><ph id="ph4">\</ph><ph id="ph5">&amp;lt;</ph>path<ph id="ph6">&amp;gt;</ph>) on the PC or <bpt id="p4">**</bpt>%SystemDrive%<ept id="p4">**</ept> (which searches from the root drive of the PC, typically drive C).</target>
         </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>MSI product code exists<ept id="p1">**</ept>.</source>
@@ -258,8 +258,8 @@
           <target state="new"><bpt id="p1">**</bpt>Registry key exists<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="162" translate="yes" xml:space="preserve">
-          <source>Specify a registry key that begins with *<bpt id="p1">*</bpt>HKEY_LOCAL_MACHINE<ph id="ph1">\*</ph><ept id="p1">*</ept>.</source>
-          <target state="new">Specify a registry key that begins with *<bpt id="p1">*</bpt>HKEY_LOCAL_MACHINE<ph id="ph1">\*</ph><ept id="p1">*</ept>.</target>
+          <source>Specify a registry key that begins with *<bpt id="p1">*</bpt>HKEY_LOCAL_MACHINE\*<ept id="p1">*</ept>.</source>
+          <target state="new">Specify a registry key that begins with *<bpt id="p1">*</bpt>HKEY_LOCAL_MACHINE\*<ept id="p1">*</ept>.</target>
         </trans-unit>
         <trans-unit id="163" translate="yes" xml:space="preserve">
           <source>Both 32-bit and 64-bit registry paths are searched.</source>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e2c71127801afc21d52e08d13dd9099b263e801</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\set-up-your-subscription-with-lookout-mtp.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">569d0e608d44d5529b1a535c736edb079840eb52</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cce97edda50074104ce933a4febbc32c445b18fa</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3ce47a580d6712eb5fc7b3d9247e8a3bcbdcaa1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">89bdc7bdd07d6884292275b4bcac1e8e16f9892e</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -26,8 +26,8 @@
           <target state="new">Set up your subscription for  Lookout mobile threat protection</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>To get your subscription ready for the Lookout MTP service, Lookout support (enterprisesupport@lookout.com) will need the following information about your Azure Active Directory (Azure AD).</source>
-          <target state="new">To get your subscription ready for the Lookout MTP service, Lookout support (enterprisesupport@lookout.com) will need the following information about your Azure Active Directory (Azure AD).</target>
+          <source>To get your subscription ready for the Lookout MTP service, Lookout support <ph id="ph1">(enterprisesupport@lookout.com)</ph> will need the following information about your Azure Active Directory (Azure AD).</source>
+          <target state="new">To get your subscription ready for the Lookout MTP service, Lookout support <ph id="ph1">(enterprisesupport@lookout.com)</ph> will need the following information about your Azure Active Directory (Azure AD).</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Azure AD Tenant ID</source>
@@ -58,8 +58,8 @@
           <target state="new">Log into the Azure AD management portal: https://manage.windowsazure.com and select your subscription.</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>screenshot of the Azure AD page showing the name of the tenant<ph id="ph1">](../media/mtp/aad_tenant_name.png)</ph> When you choose the name of your subscription, the resulting URL  includes the subscription ID.</source>
-          <target state="new">screenshot of the Azure AD page showing the name of the tenant<ph id="ph1">](../media/mtp/aad_tenant_name.png)</ph> When you choose the name of your subscription, the resulting URL  includes the subscription ID.</target>
+          <source><ph id="ph1">![</ph>screenshot of the Azure AD page showing the name of the tenant<ph id="ph2">](../media/mtp/aad_tenant_name.png)</ph> When you choose the name of your subscription, the resulting URL  includes the subscription ID.</source>
+          <target state="new"><ph id="ph1">![</ph>screenshot of the Azure AD page showing the name of the tenant<ph id="ph2">](../media/mtp/aad_tenant_name.png)</ph> When you choose the name of your subscription, the resulting URL  includes the subscription ID.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>If you have any issues finding your subscription ID, the <bpt id="p1">[</bpt>Microsoft support article<ept id="p1">](https://support.office.com/en-us/article/Find-your-Office-365-tenant-ID-6891b561-a52d-4ade-9f39-b492285e2c9b?ui=en-US&amp;rs=en-US&amp;ad=US)</ept> provides additional tips.</source>
@@ -98,8 +98,8 @@
           <target state="new">screenshot of the properties page with GroupID field highlighted</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Once you have gathered this information, contact Lookout support (email: enterprisesupport@lookout.com).</source>
-          <target state="new">Once you have gathered this information, contact Lookout support (email: enterprisesupport@lookout.com).</target>
+          <source>Once you have gathered this information, contact Lookout support (email: <ph id="ph1">enterprisesupport@lookout.com).</ph></source>
+          <target state="new">Once you have gathered this information, contact Lookout support (email: <ph id="ph1">enterprisesupport@lookout.com).</ph></target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Lookout support will work with your primary contact to onboard your subscription and create your Lookout MTP Enterprise account, using the information that you collected.</source>
@@ -138,8 +138,8 @@
           <target state="new">Choose <bpt id="p1">**</bpt>accept<ept id="p1">**</ept> to complete the registration.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>screenshot of the first time login page of the Lookout MTP console<ph id="ph1">](../media/mtp/lookout_mtp_initial_login.png)</ph> Once you have accepted and consented, you are redirected to the Lookout MTP Console.</source>
-          <target state="new">screenshot of the first time login page of the Lookout MTP console<ph id="ph1">](../media/mtp/lookout_mtp_initial_login.png)</ph> Once you have accepted and consented, you are redirected to the Lookout MTP Console.</target>
+          <source><ph id="ph1">![</ph>screenshot of the first time login page of the Lookout MTP console<ph id="ph2">](../media/mtp/lookout_mtp_initial_login.png)</ph> Once you have accepted and consented, you are redirected to the Lookout MTP Console.</source>
+          <target state="new"><ph id="ph1">![</ph>screenshot of the first time login page of the Lookout MTP console<ph id="ph2">](../media/mtp/lookout_mtp_initial_login.png)</ph> Once you have accepted and consented, you are redirected to the Lookout MTP Console.</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Subsequent logins after the initial registration, can be done using the URL:  https://aad.lookout.com</source>
@@ -210,8 +210,8 @@
           <target state="new">The first time they open the Lookout for Work app on their supported device, it is activated in Lookout MTP.</target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>screenshot of the Intune connector enrollment page</source>
-          <target state="new">screenshot of the Intune connector enrollment page</target>
+          <source><ph id="ph1">![</ph>screenshot of the Intune connector enrollment page<ph id="ph2">](../media/mtp/lookout-mtp-enrollment.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>screenshot of the Intune connector enrollment page<ph id="ph2">](../media/mtp/lookout-mtp-enrollment.png)</ph></target>
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>Best practice is to leave the increment to check for new devices to be the default 5 minutes.</source>
@@ -234,8 +234,8 @@
           <target state="new">The title however is displayed in all lower case and should not be used to enter into the Lookout MTP console.</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>screenshot of the Azure portal, Azure Active Directory service, properties page</source>
-          <target state="new">screenshot of the Azure portal, Azure Active Directory service, properties page</target>
+          <source><ph id="ph1">![</ph>screenshot of the Azure portal, Azure Active Directory service, properties page<ph id="ph2">](../media/mtp/aad-group-display-name.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>screenshot of the Azure portal, Azure Active Directory service, properties page<ph id="ph2">](../media/mtp/aad-group-display-name.png)</ph></target>
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>The current release has the following limitations:</source>
@@ -302,8 +302,8 @@
           <target state="new">Save your changes.</target>
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
-          <source>screenshot of the preferences page with the user account displayed<ph id="ph1">](../media/mtp/lookout-mtp-email-notifications.png)</ph> If you no longer wish to receive email notifications, set the notifications to <bpt id="p1">**</bpt>OFF<ept id="p1">**</ept> and save your changes.</source>
-          <target state="new">screenshot of the preferences page with the user account displayed<ph id="ph1">](../media/mtp/lookout-mtp-email-notifications.png)</ph> If you no longer wish to receive email notifications, set the notifications to <bpt id="p1">**</bpt>OFF<ept id="p1">**</ept> and save your changes.</target>
+          <source><ph id="ph1">![</ph>screenshot of the preferences page with the user account displayed<ph id="ph2">](../media/mtp/lookout-mtp-email-notifications.png)</ph> If you no longer wish to receive email notifications, set the notifications to <bpt id="p1">**</bpt>OFF<ept id="p1">**</ept> and save your changes.</source>
+          <target state="new"><ph id="ph1">![</ph>screenshot of the preferences page with the user account displayed<ph id="ph2">](../media/mtp/lookout-mtp-email-notifications.png)</ph> If you no longer wish to receive email notifications, set the notifications to <bpt id="p1">**</bpt>OFF<ept id="p1">**</ept> and save your changes.</target>
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>Step 7: Configure threat classification</source>
@@ -366,8 +366,8 @@
           <target state="new">Next steps</target>
         </trans-unit>
         <trans-unit id="189" translate="yes" xml:space="preserve">
-          <source>Enable Lookout MTP connection Intune</source>
-          <target state="new">Enable Lookout MTP connection Intune</target>
+          <source><bpt id="p1">[</bpt>Enable Lookout MTP connection Intune<ept id="p1">](enable-lookout-mtp-connection-in-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enable Lookout MTP connection Intune<ept id="p1">](enable-lookout-mtp-connection-in-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7fe00828108ac3f84e91a0eeb3ed4c344228588</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9093c90048c9043f67a62d696c0146b58333206c</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ccb5dc5e99d076c17589642e9a57bfc9fdb871a</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b0d474422c159099b0936cf95df4ac522899412f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9d05be6c0b22d732d5261d130e13bf3c98ff9fa3</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -82,12 +82,12 @@
           <target state="new">It supports the following app installation types:</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Managed iOS app from the app store</source>
-          <target state="new">Managed iOS app from the app store</target>
+          <source><bpt id="p1">**</bpt>Managed iOS app from the app store<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Managed iOS app from the app store<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>App package for iOS</source>
-          <target state="new">App package for iOS</target>
+          <source><bpt id="p1">**</bpt>App package for iOS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>App package for iOS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>For more information about app installation types, see <bpt id="p1">[</bpt>Deploy apps with Microsoft Intune<ept id="p1">](deploy-apps.md)</ept>.</source>
@@ -162,28 +162,28 @@
           <target state="new">Intune supports the following data types in a property list:</target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>integer</source>
-          <target state="new">integer</target>
+          <source><ph id="ph1">&amp;lt;</ph>integer<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>integer<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>real</source>
-          <target state="new">real</target>
+          <source><ph id="ph1">&amp;lt;</ph>real<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>real<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>string</source>
-          <target state="new">string</target>
+          <source><ph id="ph1">&amp;lt;</ph>string<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>string<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>array</source>
-          <target state="new">array</target>
+          <source><ph id="ph1">&amp;lt;</ph>array<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>array<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>dict</source>
-          <target state="new">dict</target>
+          <source><ph id="ph1">&amp;lt;</ph>dict<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>dict<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>true /<ph id="ph1">&amp;gt;</ph> or <ph id="ph2">&amp;lt;</ph>false /</source>
-          <target state="new">true /<ph id="ph1">&amp;gt;</ph> or <ph id="ph2">&amp;lt;</ph>false /</target>
+          <source><ph id="ph1">&amp;lt;</ph>true /<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>false /<ph id="ph4">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>true /<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>false /<ph id="ph4">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>For more information about data types, see <bpt id="p1">[</bpt>About Property Lists<ept id="p1">](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/PropertyLists/AboutPropertyLists/AboutPropertyLists.html)</ept> in the iOS Developer Library.</source>
@@ -194,44 +194,44 @@
           <target state="new">Additionally, Intune supports the following token types in the property list:</target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>userprincipalname<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John@contoso.com<ept id="p1">**</ept>)</source>
-          <target state="new">userprincipalname<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John@contoso.com<ept id="p1">**</ept>)</target>
+          <source>\{\{userprincipalname\}\} - (Example: <bpt id="p1">**</bpt><ph id="ph1">John@contoso.com</ph><ept id="p1">**</ept>)</source>
+          <target state="new">\{\{userprincipalname\}\} - (Example: <bpt id="p1">**</bpt><ph id="ph1">John@contoso.com</ph><ept id="p1">**</ept>)</target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>mail<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John@contoso.com<ept id="p1">**</ept>)</source>
-          <target state="new">mail<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John@contoso.com<ept id="p1">**</ept>)</target>
+          <source>\{\{mail\}\} - (Example: <bpt id="p1">**</bpt><ph id="ph1">John@contoso.com</ph><ept id="p1">**</ept>)</source>
+          <target state="new">\{\{mail\}\} - (Example: <bpt id="p1">**</bpt><ph id="ph1">John@contoso.com</ph><ept id="p1">**</ept>)</target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>partialupn<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John<ept id="p1">**</ept>)</source>
-          <target state="new">partialupn<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John<ept id="p1">**</ept>)</target>
+          <source>\{\{partialupn\}\} - (Example: <bpt id="p1">**</bpt>John<ept id="p1">**</ept>)</source>
+          <target state="new">\{\{partialupn\}\} - (Example: <bpt id="p1">**</bpt>John<ept id="p1">**</ept>)</target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>accountid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>fc0dc142-71d8-4b12-bbea-bae2a8514c81<ept id="p1">**</ept>)</source>
-          <target state="new">accountid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>fc0dc142-71d8-4b12-bbea-bae2a8514c81<ept id="p1">**</ept>)</target>
+          <source>\{\{accountid\}\} - (Example: <bpt id="p1">**</bpt>fc0dc142-71d8-4b12-bbea-bae2a8514c81<ept id="p1">**</ept>)</source>
+          <target state="new">\{\{accountid\}\} - (Example: <bpt id="p1">**</bpt>fc0dc142-71d8-4b12-bbea-bae2a8514c81<ept id="p1">**</ept>)</target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>deviceid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>b9841cd9-9843-405f-be28-b2265c59ef97<ept id="p1">**</ept>)</source>
-          <target state="new">deviceid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>b9841cd9-9843-405f-be28-b2265c59ef97<ept id="p1">**</ept>)</target>
+          <source>\{\{deviceid\}\} - (Example: <bpt id="p1">**</bpt>b9841cd9-9843-405f-be28-b2265c59ef97<ept id="p1">**</ept>)</source>
+          <target state="new">\{\{deviceid\}\} - (Example: <bpt id="p1">**</bpt>b9841cd9-9843-405f-be28-b2265c59ef97<ept id="p1">**</ept>)</target>
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
-          <source>userid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>3ec2c00f-b125-4519-acf0-302ac3761822<ept id="p1">**</ept>)</source>
-          <target state="new">userid<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>3ec2c00f-b125-4519-acf0-302ac3761822<ept id="p1">**</ept>)</target>
+          <source>\{\{userid\}\} - (Example: <bpt id="p1">**</bpt>3ec2c00f-b125-4519-acf0-302ac3761822<ept id="p1">**</ept>)</source>
+          <target state="new">\{\{userid\}\} - (Example: <bpt id="p1">**</bpt>3ec2c00f-b125-4519-acf0-302ac3761822<ept id="p1">**</ept>)</target>
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>username<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John Doe<ept id="p1">**</ept>)</source>
-          <target state="new">username<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>John Doe<ept id="p1">**</ept>)</target>
+          <source>\{\{username\}\} - (Example: <bpt id="p1">**</bpt>John Doe<ept id="p1">**</ept>)</source>
+          <target state="new">\{\{username\}\} - (Example: <bpt id="p1">**</bpt>John Doe<ept id="p1">**</ept>)</target>
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>serialnumber<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>F4KN99ZUG5V2<ept id="p1">**</ept>) for iOS devices</source>
-          <target state="new">serialnumber<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>F4KN99ZUG5V2<ept id="p1">**</ept>) for iOS devices</target>
+          <source>\{\{serialnumber\}\} - (Example: <bpt id="p1">**</bpt>F4KN99ZUG5V2<ept id="p1">**</ept>) for iOS devices</source>
+          <target state="new">\{\{serialnumber\}\} - (Example: <bpt id="p1">**</bpt>F4KN99ZUG5V2<ept id="p1">**</ept>) for iOS devices</target>
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>serialnumberlast4digits<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>G5V2<ept id="p1">**</ept>) for iOS devices</source>
-          <target state="new">serialnumberlast4digits<ph id="ph1">\}\}</ph> - (Example: <bpt id="p1">**</bpt>G5V2<ept id="p1">**</ept>) for iOS devices</target>
+          <source>\{\{serialnumberlast4digits\}\} - (Example: <bpt id="p1">**</bpt>G5V2<ept id="p1">**</ept>) for iOS devices</source>
+          <target state="new">\{\{serialnumberlast4digits\}\} - (Example: <bpt id="p1">**</bpt>G5V2<ept id="p1">**</ept>) for iOS devices</target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>The <ph id="ph1">\{\{</ph> and <ph id="ph2">\}\}</ph> characters are used by token types only and must not be used for other purposes.</source>
-          <target state="new">The <ph id="ph1">\{\{</ph> and <ph id="ph2">\}\}</ph> characters are used by token types only and must not be used for other purposes.</target>
+          <source>The \{\{ and \}\} characters are used by token types only and must not be used for other purposes.</source>
+          <target state="new">The \{\{ and \}\} characters are used by token types only and must not be used for other purposes.</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>Associate a mobile app configuration policy with an app</source>

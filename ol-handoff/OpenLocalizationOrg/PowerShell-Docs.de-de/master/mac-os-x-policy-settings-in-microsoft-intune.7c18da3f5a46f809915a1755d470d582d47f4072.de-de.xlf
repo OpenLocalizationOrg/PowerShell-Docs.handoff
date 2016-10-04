@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6b010e49b4e581dad056aa6e8bb17123030f7b0</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\mac-os-x-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dfce6df58f61fe36f8b0074cb6e29c7d6e6c4bfc</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3ef72249e826243e2fb8446de9e2f51a0737d92d</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b20951c8ed5bdf3f990db410f3b0da23d64c2ae</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a929b9a5c0791144e5cb62a2d125e7507e36b665</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -86,8 +86,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>Require a password to unlock devices</source>
-          <target state="new">Require a password to unlock devices</target>
+          <source><bpt id="p1">**</bpt>Require a password to unlock devices<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require a password to unlock devices<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Specify whether the user must use a password to access their Mac computer.</source>
@@ -98,8 +98,8 @@
           <target state="new"><bpt id="p1">**</bpt>Important:<ept id="p1">**</ept> Unlike iOS devices, on Mac OS X devices, the user is not immediately notified to update their password to comply with this setting.</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Required password type</source>
-          <target state="new">Required password type</target>
+          <source><bpt id="p1">**</bpt>Required password type<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Required password type<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Specify whether the password can be <bpt id="p1">**</bpt>Numeric<ept id="p1">**</ept> only, or whether it must be <bpt id="p2">**</bpt>Alphanumeric<ept id="p2">**</ept> (contain letters and numbers).</source>
@@ -110,8 +110,8 @@
           <target state="new"><bpt id="p1">**</bpt>Important:<ept id="p1">**</ept> This setting is supported only on Mac OS X version 10.10.3 and later.</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>Number of complex characters required in password</source>
-          <target state="new">Number of complex characters required in password</target>
+          <source><bpt id="p1">**</bpt>Number of complex characters required in password<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Number of complex characters required in password<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Specify the number of complex characters required in the password (<bpt id="p1">**</bpt>0<ept id="p1">**</ept> to <bpt id="p2">**</bpt>4<ept id="p2">**</ept>).</source>
@@ -122,40 +122,40 @@
           <target state="new">A complex character is a symbol, such as <bpt id="p1">**</bpt>?<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>Minimum password length</source>
-          <target state="new">Minimum password length</target>
+          <source><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>Specify the minimum length for the password (<bpt id="p1">**</bpt>4<ept id="p1">**</ept> to <bpt id="p2">**</bpt>14<ept id="p2">**</ept> characters).</source>
           <target state="new">Specify the minimum length for the password (<bpt id="p1">**</bpt>4<ept id="p1">**</ept> to <bpt id="p2">**</bpt>14<ept id="p2">**</ept> characters).</target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>Allow simple passwords</source>
-          <target state="new">Allow simple passwords</target>
+          <source><bpt id="p1">**</bpt>Allow simple passwords<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow simple passwords<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Allow the use of simple passwords such as <bpt id="p1">**</bpt>0000<ept id="p1">**</ept> or <bpt id="p2">**</bpt>1234<ept id="p2">**</ept>.</source>
           <target state="new">Allow the use of simple passwords such as <bpt id="p1">**</bpt>0000<ept id="p1">**</ept> or <bpt id="p2">**</bpt>1234<ept id="p2">**</ept>.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Minutes of inactivity before password is required</source>
-          <target state="new">Minutes of inactivity before password is required</target>
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before password is required<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Minutes of inactivity before password is required<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Specify how long the computer must be inactive before a password is required to unlock it.</source>
           <target state="new">Specify how long the computer must be inactive before a password is required to unlock it.</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>Password expiration (days)</source>
-          <target state="new">Password expiration (days)</target>
+          <source><bpt id="p1">**</bpt>Password expiration (days)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Password expiration (days)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>Specify how many days elapse before the user must change the password (<bpt id="p1">**</bpt>1<ept id="p1">**</ept> to <bpt id="p2">**</bpt>255<ept id="p2">**</ept> days).</source>
           <target state="new">Specify how many days elapse before the user must change the password (<bpt id="p1">**</bpt>1<ept id="p1">**</ept> to <bpt id="p2">**</bpt>255<ept id="p2">**</ept> days).</target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>Remember password history</source>
-          <target state="new">Remember password history</target>
+          <source><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>Prevent the user from using a previously used password.</source>
@@ -166,8 +166,8 @@
           <target state="new">When this is set, you can also set <bpt id="p1">**</bpt>Prevent reuse of previous passwords<ept id="p1">**</ept> to specify the number of previously used passwords that cannot be reused (<bpt id="p2">**</bpt>1<ept id="p2">**</ept> to <bpt id="p3">**</bpt>24<ept id="p3">**</ept>).</target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>Minutes of inactivity before screensaver activates</source>
-          <target state="new">Minutes of inactivity before screensaver activates</target>
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before screensaver activates<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Minutes of inactivity before screensaver activates<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>Specify the length of time that the computer must be idle before the screensaver is activated.</source>
@@ -206,8 +206,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Report noncompliance when users install the listed apps</source>
-          <target state="new">Report noncompliance when users install the listed apps</target>
+          <source><bpt id="p1">**</bpt>Report noncompliance when users install the listed apps<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Report noncompliance when users install the listed apps<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Displays the Mac OS X apps that users are not allowed to install.</source>
@@ -218,8 +218,8 @@
           <target state="new">If users install any of these apps, they will be reported in <bpt id="p1">**</bpt>Noncompliant Apps Reports<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>Report noncompliance when users install apps which are not listed</source>
-          <target state="new">Report noncompliance when users install apps which are not listed</target>
+          <source><bpt id="p1">**</bpt>Report noncompliance when users install apps which are not listed<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Report noncompliance when users install apps which are not listed<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>Displays the Mac OS X apps that users are allowed to install.</source>
@@ -230,8 +230,8 @@
           <target state="new">If users install any other apps, they will be reported in <bpt id="p1">**</bpt>Noncompliant Apps Reports<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>Add</source>
-          <target state="new">Add</target>
+          <source><bpt id="p1">**</bpt>Add<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Add<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>Add an app to the selected list.</source>
@@ -266,8 +266,8 @@
           <target state="new">The format for the bundle ID is <bpt id="p1">**</bpt>com.contoso.appname<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>Import Apps</source>
-          <target state="new">Import Apps</target>
+          <source><bpt id="p1">**</bpt>Import Apps<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Import Apps<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
           <source>Import a list of apps that you have specified in a comma-separated values file.</source>
@@ -278,16 +278,16 @@
           <target state="new">In the file, use this format: app name, publisher, app bundle ID.</target>
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>Edit</source>
-          <target state="new">Edit</target>
+          <source><bpt id="p1">**</bpt>Edit<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Edit<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>Edit the name, publisher, and app bundle ID of the selected app.</source>
           <target state="new">Edit the name, publisher, and app bundle ID of the selected app.</target>
         </trans-unit>
         <trans-unit id="169" translate="yes" xml:space="preserve">
-          <source>Delete</source>
-          <target state="new">Delete</target>
+          <source><bpt id="p1">**</bpt>Delete<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Delete<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="170" translate="yes" xml:space="preserve">
           <source>Delete the selected app from the list.</source>
@@ -378,16 +378,16 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="192" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <target state="new">Name</target>
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>Enter a unique name for the Mac OS X custom policy to help you identify it in the Intune console.</source>
           <target state="new">Enter a unique name for the Mac OS X custom policy to help you identify it in the Intune console.</target>
         </trans-unit>
         <trans-unit id="194" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <target state="new">Description</target>
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
           <source>Provide a description that gives an overview of the Mac OS X custom policy and other relevant information that helps you to locate it.</source>
@@ -406,16 +406,16 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="199" translate="yes" xml:space="preserve">
-          <source>Custom configuration profile name (displayed to users)</source>
-          <target state="new">Custom configuration profile name (displayed to users)</target>
+          <source><bpt id="p1">**</bpt>Custom configuration profile name (displayed to users)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Custom configuration profile name (displayed to users)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="200" translate="yes" xml:space="preserve">
           <source>Provide a name for the policy as it will be displayed on the device and in Intune policy reports.</source>
           <target state="new">Provide a name for the policy as it will be displayed on the device and in Intune policy reports.</target>
         </trans-unit>
         <trans-unit id="201" translate="yes" xml:space="preserve">
-          <source>Configuration profile file</source>
-          <target state="new">Configuration profile file</target>
+          <source><bpt id="p1">**</bpt>Configuration profile file<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Configuration profile file<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="202" translate="yes" xml:space="preserve">
           <source>Choose <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>, and then browse to the configuration profile that you created by using the Apple Configurator.</source>
@@ -426,8 +426,8 @@
           <target state="new"><bpt id="p1">**</bpt>Tip:<ept id="p1">**</ept> See "How to create a configuration profile file" in this topic for help in creating the configuration profile.</target>
         </trans-unit>
         <trans-unit id="204" translate="yes" xml:space="preserve">
-          <source>Configuration profile details</source>
-          <target state="new">Configuration profile details</target>
+          <source><bpt id="p1">**</bpt>Configuration profile details<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Configuration profile details<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="205" translate="yes" xml:space="preserve">
           <source>Display the XML code for the configuration profile that you imported.</source>
@@ -454,8 +454,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="211" translate="yes" xml:space="preserve">
-          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
-          <target state="new">Manage settings and features on your devices with Microsoft Intune policies</target>
+          <source><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></target>
         </trans-unit>
       </group>
     </body>

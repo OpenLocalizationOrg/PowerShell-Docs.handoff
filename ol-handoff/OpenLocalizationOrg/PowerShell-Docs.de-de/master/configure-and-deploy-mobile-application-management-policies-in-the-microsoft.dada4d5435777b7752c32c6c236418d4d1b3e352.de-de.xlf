@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1584022db4b312919f88ef39dd3912c47b859099</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1af897793ce1cd56f0c1ccb719e4a742cedb282</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cec338020358bc7bffb7e72bffb98651c3bcc0e5</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0f877c030ae854cc07cfcad8055a75f823a6345f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4c222164fb0850359141b79139e5c439f51e8a7</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -266,12 +266,12 @@
           <target state="new">Configure and deploy one of the following <bpt id="p1">**</bpt>Software<ept id="p1">**</ept> policies, depending on the device type that you want to configure apps for:</target>
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>Mobile Application Management Policy (Android 4 and later)</source>
-          <target state="new">Mobile Application Management Policy (Android 4 and later)</target>
+          <source><bpt id="p1">**</bpt>Mobile Application Management Policy (Android 4 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Mobile Application Management Policy (Android 4 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>Mobile Application Management Policy (iOS 8.0 and later)</source>
-          <target state="new">Mobile Application Management Policy (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>Mobile Application Management Policy (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Mobile Application Management Policy (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>You can use recommended settings or customize the settings.</source>
@@ -298,24 +298,24 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="172" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <target state="new">Name</target>
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
           <source>Specify a name for this policy.</source>
           <target state="new">Specify a name for this policy.</target>
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <target state="new">Description</target>
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="175" translate="yes" xml:space="preserve">
           <source>Optionally, specify a description for this policy.</source>
           <target state="new">Optionally, specify a description for this policy.</target>
         </trans-unit>
         <trans-unit id="176" translate="yes" xml:space="preserve">
-          <source>Restrict web content to display in a corporate managed browser</source>
-          <target state="new">Restrict web content to display in a corporate managed browser</target>
+          <source><bpt id="p1">**</bpt>Restrict web content to display in a corporate managed browser<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Restrict web content to display in a corporate managed browser<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>When this setting is enabled, any links in the app will be opened in the managed browser.</source>
@@ -334,8 +334,8 @@
           <target state="new">This setting disables the backup of any information from the app.</target>
         </trans-unit>
         <trans-unit id="181" translate="yes" xml:space="preserve">
-          <source>Allow app to transfer data to other apps</source>
-          <target state="new">Allow app to transfer data to other apps</target>
+          <source><bpt id="p1">**</bpt>Allow app to transfer data to other apps<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow app to transfer data to other apps<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="182" translate="yes" xml:space="preserve">
           <source>This setting specifies the apps that this app can send data to.</source>
@@ -370,8 +370,8 @@
           <target state="new">To manage Open In, see <bpt id="p1">[</bpt>Manage data transfer between iOS apps with Microsoft Intune<ept id="p1">](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="190" translate="yes" xml:space="preserve">
-          <source>Allow app to receive data from other apps</source>
-          <target state="new">Allow app to receive data from other apps</target>
+          <source><bpt id="p1">**</bpt>Allow app to receive data from other apps<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow app to receive data from other apps<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>This setting specifies the apps that this app can receive data from.</source>
@@ -394,16 +394,16 @@
           <target state="new">Or, this applies to an enrolled device with a mobile application management policy applied.</target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
-          <source>Prevent “Save As”</source>
-          <target state="new">Prevent “Save As”</target>
+          <source><bpt id="p1">**</bpt>Prevent “Save As”<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Prevent “Save As”<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>This setting disables use of the <bpt id="p1">**</bpt>Save As<ept id="p1">**</ept> option to save data to personal cloud storage locations (such as OneDrive or Dropbox) in any app that uses this policy.</source>
           <target state="new">This setting disables use of the <bpt id="p1">**</bpt>Save As<ept id="p1">**</ept> option to save data to personal cloud storage locations (such as OneDrive or Dropbox) in any app that uses this policy.</target>
         </trans-unit>
         <trans-unit id="198" translate="yes" xml:space="preserve">
-          <source>Restrict cut, copy and paste with other apps</source>
-          <target state="new">Restrict cut, copy and paste with other apps</target>
+          <source><bpt id="p1">**</bpt>Restrict cut, copy and paste with other apps<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Restrict cut, copy and paste with other apps<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>This setting specifies how cut, copy, and paste operations can be used with the app.</source>
@@ -454,8 +454,8 @@
           <target state="new">To copy and paste data between managed apps, both apps must have either the <bpt id="p1">**</bpt>Policy Managed Apps<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Policy Managed Apps with Paste In<ept id="p2">**</ept> setting configured.</target>
         </trans-unit>
         <trans-unit id="211" translate="yes" xml:space="preserve">
-          <source>Require simple PIN for access</source>
-          <target state="new">Require simple PIN for access</target>
+          <source><bpt id="p1">**</bpt>Require simple PIN for access<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require simple PIN for access<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>This setting requires the user to enter a PIN that they specify to use this app.</source>
@@ -466,48 +466,48 @@
           <target state="new">The user will be asked to set this up the first time they run the app.</target>
         </trans-unit>
         <trans-unit id="214" translate="yes" xml:space="preserve">
-          <source>Number of attempts before PIN reset</source>
-          <target state="new">Number of attempts before PIN reset</target>
+          <source><bpt id="p1">**</bpt>Number of attempts before PIN reset<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Number of attempts before PIN reset<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>Specify the number of PIN entry attempts that can be made before the user must reset the PIN.</source>
           <target state="new">Specify the number of PIN entry attempts that can be made before the user must reset the PIN.</target>
         </trans-unit>
         <trans-unit id="216" translate="yes" xml:space="preserve">
-          <source>Require corporate credentials for access</source>
-          <target state="new">Require corporate credentials for access</target>
+          <source><bpt id="p1">**</bpt>Require corporate credentials for access<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require corporate credentials for access<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="217" translate="yes" xml:space="preserve">
           <source>This setting requires the user to enter their corporate logon information before they can access the app.</source>
           <target state="new">This setting requires the user to enter their corporate logon information before they can access the app.</target>
         </trans-unit>
         <trans-unit id="218" translate="yes" xml:space="preserve">
-          <source>Require device compliance with corporate policy for access</source>
-          <target state="new">Require device compliance with corporate policy for access</target>
+          <source><bpt id="p1">**</bpt>Require device compliance with corporate policy for access<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require device compliance with corporate policy for access<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>This setting allows the app to be used only when the device is not jailbroken or rooted.</source>
           <target state="new">This setting allows the app to be used only when the device is not jailbroken or rooted.</target>
         </trans-unit>
         <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>Recheck the access requirements after (minutes)</source>
-          <target state="new">Recheck the access requirements after (minutes)</target>
+          <source><bpt id="p1">**</bpt>Recheck the access requirements after (minutes)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Recheck the access requirements after (minutes)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Timeout<ept id="p1">**</ept> field, specify the time period before the access requirements for the app are rechecked after the app is opened.</source>
           <target state="new">In the <bpt id="p1">**</bpt>Timeout<ept id="p1">**</ept> field, specify the time period before the access requirements for the app are rechecked after the app is opened.</target>
         </trans-unit>
         <trans-unit id="222" translate="yes" xml:space="preserve">
-          <source>Offline grace period</source>
-          <target state="new">Offline grace period</target>
+          <source><bpt id="p1">**</bpt>Offline grace period<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Offline grace period<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="223" translate="yes" xml:space="preserve">
           <source>If the device is offline, specify the time period before the access requirements for the app are rechecked.</source>
           <target state="new">If the device is offline, specify the time period before the access requirements for the app are rechecked.</target>
         </trans-unit>
         <trans-unit id="224" translate="yes" xml:space="preserve">
-          <source>Encrypt app data</source>
-          <target state="new">Encrypt app data</target>
+          <source><bpt id="p1">**</bpt>Encrypt app data<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Encrypt app data<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="225" translate="yes" xml:space="preserve">
           <source>This setting specifies that all data associated with this app will be encrypted.</source>
@@ -518,8 +518,8 @@
           <target state="new">This includes data stored externally, such as in SD cards.</target>
         </trans-unit>
         <trans-unit id="227" translate="yes" xml:space="preserve">
-          <source>Encryption for iOS</source>
-          <target state="new">Encryption for iOS</target>
+          <source><bpt id="p1">**</bpt>Encryption for iOS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Encryption for iOS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="228" translate="yes" xml:space="preserve">
           <source>For apps that are associated with an Intune mobile application management policy, data is encrypted at rest through device-level encryption that the OS provides.</source>
@@ -538,8 +538,8 @@
           <target state="new">As stated in Apple documentation, <bpt id="p1">[</bpt>the modules that iOS uses are FIPS 140-2 certified<ept id="p1">](http://support.apple.com/en-us/HT202739)</ept>.</target>
         </trans-unit>
         <trans-unit id="232" translate="yes" xml:space="preserve">
-          <source>Encryption for Android</source>
-          <target state="new">Encryption for Android</target>
+          <source><bpt id="p1">**</bpt>Encryption for Android<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Encryption for Android<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="233" translate="yes" xml:space="preserve">
           <source>For apps that are associated with an Intune mobile application management policy, Microsoft provides encryption.</source>

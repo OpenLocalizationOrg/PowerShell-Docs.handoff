@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a94754404b9ee135642e5683ffa0e4a6351e6830</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54c83d28a4b7048e725cbaee99432be96d2faed1</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">093824de436eb05f6719dd0002ab82dd444d9c88</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">46765b0ec82ef9c85d1ff5efc3730aae6118125f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">530bb20b578f8672ba249a7d5c94aa16dfce1bcd</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -194,48 +194,48 @@
           <target state="new">More information</target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>-h</source>
-          <target state="new">-h</target>
+          <source><bpt id="p1">**</bpt>-h<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>-h<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>Displays the available command-line properties for the app wrapping tool.</source>
           <target state="new">Displays the available command-line properties for the app wrapping tool.</target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>-i</source>
-          <target state="new">-i</target>
+          <source><bpt id="p1">**</bpt>-i<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>-i<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>Specifies the path and file name of the input app.</source>
           <target state="new">Specifies the path and file name of the input app.</target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>-o</source>
-          <target state="new">-o</target>
+          <source><bpt id="p1">**</bpt>-o<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>-o<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>Specifies the path in which to save the processed app.</source>
           <target state="new">Specifies the path in which to save the processed app.</target>
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>-p</source>
-          <target state="new">-p</target>
+          <source><bpt id="p1">**</bpt>-p<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>-p<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>Specifies the path to your provisioning profile for iOS apps.</source>
           <target state="new">Specifies the path to your provisioning profile for iOS apps.</target>
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>-c</source>
-          <target state="new">-c</target>
+          <source><bpt id="p1">**</bpt>-c<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>-c<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>Specifies the SHA1 hash of the signing certificate.</source>
           <target state="new">Specifies the SHA1 hash of the signing certificate.</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>-v</source>
-          <target state="new">-v</target>
+          <source><bpt id="p1">**</bpt>-v<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>-v<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>Output verbose messages to the console (Optional).</source>
@@ -246,8 +246,8 @@
           <target state="new">-f</target>
         </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>Optional)</source>
-          <target state="new">Optional)</target>
+          <source>Optional) <ph id="ph1">&lt;Path to a plist file specifying arguments&gt;</ph></source>
+          <target state="new">Optional) <ph id="ph1">&lt;Path to a plist file specifying arguments&gt;</ph></target>
         </trans-unit>
         <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>-b</source>
@@ -750,8 +750,8 @@
           <target state="new">When using App Groups, use reverse DNS notation:</target>
         </trans-unit>
         <trans-unit id="285" translate="yes" xml:space="preserve">
-          <source>group.com.companyName.AppGroup</source>
-          <target state="new">group.com.companyName.AppGroup</target>
+          <source><bpt id="p1">*</bpt>group.com.companyName.AppGroup<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>group.com.companyName.AppGroup<ept id="p1">*</ept></target>
         </trans-unit>
         <trans-unit id="286" translate="yes" xml:space="preserve">
           <source>Background Modes</source>
@@ -802,8 +802,8 @@
           <target state="new">When using Keychain Sharing, use reverse DNS notation:</target>
         </trans-unit>
         <trans-unit id="298" translate="yes" xml:space="preserve">
-          <source>com.companyName.KeychainGroup</source>
-          <target state="new">com.companyName.KeychainGroup</target>
+          <source><bpt id="p1">*</bpt>com.companyName.KeychainGroup<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>com.companyName.KeychainGroup<ept id="p1">*</ept></target>
         </trans-unit>
         <trans-unit id="299" translate="yes" xml:space="preserve">
           <source>Personal VPN</source>
@@ -1090,16 +1090,16 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="370" translate="yes" xml:space="preserve">
-          <source>Decide how to prepare apps for mobile application management with Microsoft Intune</source>
-          <target state="new">Decide how to prepare apps for mobile application management with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Decide how to prepare apps for mobile application management with Microsoft Intune<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Decide how to prepare apps for mobile application management with Microsoft Intune<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="371" translate="yes" xml:space="preserve">
-          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
-          <target state="new">Manage settings and features on your devices with Microsoft Intune policies</target>
+          <source><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></target>
         </trans-unit>
         <trans-unit id="372" translate="yes" xml:space="preserve">
-          <source>Use the SDK to enable apps for mobile application management</source>
-          <target state="new">Use the SDK to enable apps for mobile application management</target>
+          <source><bpt id="p1">[</bpt>Use the SDK to enable apps for mobile application management<ept id="p1">](use-the-sdk-to-enable-apps-for-mobile-application-management.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Use the SDK to enable apps for mobile application management<ept id="p1">](use-the-sdk-to-enable-apps-for-mobile-application-management.md)</ept></target>
         </trans-unit>
       </group>
     </body>

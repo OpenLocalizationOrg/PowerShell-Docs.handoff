@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fc92c7724a9e1f256faa8b028bcf93e354e7997</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\plan-your-user-and-device-groups.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83d747b229aa96f785774432f87cb0551ede488a</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bfb0b95d3d16950836f4f84a276a86dc77a3ff40</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b55a46250e119fba37b13126211c40ff05f5b75e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4cfbc0abcbc95434f8cd3c895895eeba588b6db2</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -266,20 +266,20 @@
           <target state="new">Built-in groups</target>
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>Intune has nine built-in groups that you cannot edit or delete:</source>
-          <target state="new">Intune has nine built-in groups that you cannot edit or delete:</target>
+          <source>Intune has nine built-in groups that you cannot edit or delete: <ph id="ph1">&lt;!--maybe a screen shot would be best?--&gt;</ph></source>
+          <target state="new">Intune has nine built-in groups that you cannot edit or delete: <ph id="ph1">&lt;!--maybe a screen shot would be best?--&gt;</ph></target>
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>All Users</source>
-          <target state="new">All Users</target>
+          <source><bpt id="p1">**</bpt>All Users<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>All Users<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>Ungrouped Users</source>
           <target state="new">Ungrouped Users</target>
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>All Devices</source>
-          <target state="new">All Devices</target>
+          <source><bpt id="p1">**</bpt>All Devices<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>All Devices<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>All Computers</source>
@@ -602,8 +602,8 @@
           <target state="new">Next steps</target>
         </trans-unit>
         <trans-unit id="248" translate="yes" xml:space="preserve">
-          <source>Create groups</source>
-          <target state="new">Create groups</target>
+          <source><bpt id="p1">[</bpt>Create groups<ept id="p1">](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create groups<ept id="p1">](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

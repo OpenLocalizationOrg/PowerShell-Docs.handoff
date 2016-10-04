@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da988778ab1156597fe19ac40bab155be6046d75</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\Configure-certificate-infrastructure-for-pfx.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8878f926cc12d8c458b20c4c27d59ca2e452e3c7</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">215048aef7fba2ae2017fb98246e34ff3b073583</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4dae00aefc95e7d19cef0a0aeb8305cb99f9a684</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd5c4a840a5299d28ab9fccbec545f87872bdc4a</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -138,16 +138,16 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Certificate Template</source>
-          <target state="new">Certificate Template</target>
+          <source><bpt id="p1">**</bpt>Certificate Template<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Certificate Template<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>You configure this template on your issuing CA.</source>
           <target state="new">You configure this template on your issuing CA.</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>Trusted Root CA certificate</source>
-          <target state="new">Trusted Root CA certificate</target>
+          <source><bpt id="p1">**</bpt>Trusted Root CA certificate<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Trusted Root CA certificate<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>You export this as a <bpt id="p1">**</bpt>.cer<ept id="p1">**</ept> file from the issuing CA or any device which trusts the issuing CA, and deploy it to devices by using the Trusted CA certificate profile.</source>
@@ -254,24 +254,24 @@
           <target state="new">a.</target>
         </trans-unit>
         <trans-unit id="161" translate="yes" xml:space="preserve">
-          <source>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE</source>
-          <target state="new">certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE</target>
+          <source><bpt id="p1">**</bpt>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>b.</source>
           <target state="new">b.</target>
         </trans-unit>
         <trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>net stop certsvc</source>
-          <target state="new">net stop certsvc</target>
+          <source><bpt id="p1">**</bpt>net stop certsvc<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>net stop certsvc<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>c.</source>
           <target state="new">c.</target>
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>net start certsvc</source>
-          <target state="new">net start certsvc</target>
+          <source><bpt id="p1">**</bpt>net start certsvc<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>net start certsvc<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
           <source>On the issuing CA, use the Certification Authority snap-in to publish the certificate template.</source>
@@ -282,8 +282,8 @@
           <target state="new">a.</target>
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</source>
-          <target state="new">Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</target>
+          <source>Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-</ph><ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</source>
+          <target state="new">Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-</ph><ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</target>
         </trans-unit>
         <trans-unit id="169" translate="yes" xml:space="preserve">
           <source>b.</source>
@@ -378,8 +378,8 @@
           <target state="new">If you close the wizard before launching the Certificate Connector UI, you can reopen it by running the following command:</target>
         </trans-unit>
         <trans-unit id="192" translate="yes" xml:space="preserve">
-          <source>install_Path<ph id="ph1">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe</source>
-          <target state="new">install_Path<ph id="ph1">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe</target>
+          <source><bpt id="p1">**</bpt><ph id="ph1">&amp;lt;</ph>install_Path<ph id="ph2">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><ph id="ph1">&amp;lt;</ph>install_Path<ph id="ph2">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Certificate Connector<ept id="p1">**</ept> UI:</source>
@@ -426,8 +426,8 @@
           <target state="new">To validate that the service is running, open a browser and enter the following URL, which should return a <bpt id="p1">**</bpt>403<ept id="p1">**</ept> error:</target>
         </trans-unit>
         <trans-unit id="204" translate="yes" xml:space="preserve">
-          <source>http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll</source>
-          <target state="new">http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll</target>
+          <source><bpt id="p1">**</bpt>http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="205" translate="yes" xml:space="preserve">
           <source>Next steps</source>

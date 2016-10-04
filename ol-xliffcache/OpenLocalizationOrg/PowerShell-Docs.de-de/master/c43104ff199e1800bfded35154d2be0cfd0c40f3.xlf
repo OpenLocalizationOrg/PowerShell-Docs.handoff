@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c43104ff199e1800bfded35154d2be0cfd0c40f3</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\configure-and-deploy-lookout-for-work-apps.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">42b627f262027ea760ea11af9b6a394734953d24</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d2459381929a0ec4375b53b32320a1b5c49c31f6</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">41de1b7f53d1f9b9c5e78eb0e7e2dcf847371423</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2bcf693ea5ee42cbad7fa27391229fff970c5c65</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -78,8 +78,8 @@
           <target state="new">Step 4:  Upon successful completion you see a message <bpt id="p1">**</bpt>Upload of data to Microsoft Intune successfully completed<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>On the Intune Console when you click on the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> you will now see the Lookout for Work app in the list <ph id="ph1">![</ph>screenshot of Intune admin console apps page showing the Lookout for work apps in the list</source>
-          <target state="new">On the Intune Console when you click on the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> you will now see the Lookout for Work app in the list <ph id="ph1">![</ph>screenshot of Intune admin console apps page showing the Lookout for work apps in the list</target>
+          <source>On the Intune Console when you click on the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> you will now see the Lookout for Work app in the list <ph id="ph1">![</ph>screenshot of Intune admin console apps page showing the Lookout for work apps in the list<ph id="ph2">](../media/mtp/lookout-app-listed-intune-console.png)</ph></source>
+          <target state="new">On the Intune Console when you click on the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> you will now see the Lookout for Work app in the list <ph id="ph1">![</ph>screenshot of Intune admin console apps page showing the Lookout for work apps in the list<ph id="ph2">](../media/mtp/lookout-app-listed-intune-console.png)</ph></target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Step 5: At this point Intune knows how to deploy the Lookout for work android app.</source>
@@ -126,20 +126,20 @@
           <target state="new">A detailed walkthrough with the end-user flow can be found in the following topics:</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>You are prompted to install Lookout for Work on your Android device</source>
-          <target state="new">You are prompted to install Lookout for Work on your Android device</target>
+          <source><bpt id="p1">[</bpt>You are prompted to install Lookout for Work on your Android device<ept id="p1">](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>You are prompted to install Lookout for Work on your Android device<ept id="p1">](http://docs.microsoft.com/intune/enduser/you-are-prompted-to-install-lookout-for-work-android)</ept></target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>You need to resolve a threat that Lookout for Work found on your Android device</source>
-          <target state="new">You need to resolve a threat that Lookout for Work found on your Android device</target>
+          <source><bpt id="p1">[</bpt>You need to resolve a threat that Lookout for Work found on your Android device<ept id="p1">](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>You need to resolve a threat that Lookout for Work found on your Android device<ept id="p1">](http://docs.microsoft.com/intune/enduser/you-need-to-resolve-a-threat-found-by-lookout-for-work-android)</ept></target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Next steps</source>
           <target state="new">Next steps</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Enable device threat protection rule in the compliance policy</source>
-          <target state="new">Enable device threat protection rule in the compliance policy</target>
+          <source><bpt id="p1">[</bpt>Enable device threat protection rule in the compliance policy<ept id="p1">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enable device threat protection rule in the compliance policy<ept id="p1">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept></target>
         </trans-unit>
       </group>
     </body>

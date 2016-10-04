@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6aff6de22c01db680b5a7bb2c6f68e8185b4350</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\set-up-windows-phone-8.0-management-with-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">213eaf2ef5a2430481b7fab2b1b925edff845be6</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf39d655cb9c2827301486a0372629fa857a78b3</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4fc3feb7723207d7f1da279cf2da8a5492969102</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef89b49059c01113bc80f991bf1ac385b8a18b5d</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -162,12 +162,12 @@
           <target state="new">If there is more than one verified domain, create a CNAME record for each domain.</target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>– Supports a redirect to the Intune service with domain recognition from the email’s domain name</source>
-          <target state="new">– Supports a redirect to the Intune service with domain recognition from the email’s domain name</target>
+          <source><ph id="ph1">`enterpriseenrollment-s.manage.microsoft.com`</ph> – Supports a redirect to the Intune service with domain recognition from the email’s domain name</source>
+          <target state="new"><ph id="ph1">`enterpriseenrollment-s.manage.microsoft.com`</ph> – Supports a redirect to the Intune service with domain recognition from the email’s domain name</target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>– Supports workplace join for mobile devices.</source>
-          <target state="new">– Supports workplace join for mobile devices.</target>
+          <source><ph id="ph1">`enterpriseregistration.windows.net`</ph> – Supports workplace join for mobile devices.</source>
+          <target state="new"><ph id="ph1">`enterpriseregistration.windows.net`</ph> – Supports workplace join for mobile devices.</target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>It also supports conditional access for Windows 8.1</source>
@@ -290,8 +290,8 @@
           <target state="new">For more information, see <bpt id="p1">[</bpt>How to Export a Certificate with the Private Key<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=203031)</ept>.</target>
         </trans-unit>
         <trans-unit id="170" translate="yes" xml:space="preserve">
-          <source>Download and sign the Company Portal app</source>
-          <target state="new">Download and sign the Company Portal app</target>
+          <source><bpt id="p1">**</bpt>Download and sign the Company Portal app<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Download and sign the Company Portal app<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>Support for Windows Phone enrollment requires the Windows Phone 8.0 Company Portal app be signed and uploaded to Intune.</source>
@@ -366,8 +366,8 @@
           <target state="new"><bpt id="p1">**</bpt>Tell users how to get access to company resources with the company portal<ept id="p1">**</ept> Your users will need to know how to enroll their devices and what to expect once they're brought into management.</target>
         </trans-unit>
         <trans-unit id="189" translate="yes" xml:space="preserve">
-          <source>What to tell your end users about using Microsoft Intune</source>
-          <target state="new">What to tell your end users about using Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>What to tell your end users about using Microsoft Intune<ept id="p1">](what-to-tell-your-end-users-about-using-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>What to tell your end users about using Microsoft Intune<ept id="p1">](what-to-tell-your-end-users-about-using-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="190" translate="yes" xml:space="preserve">
           <source>Deploy the Windows Phone 8.1 Company Portal app</source>
@@ -390,8 +390,8 @@
           <target state="new">This is only necessary if your users won't use the Company Store and you want to deploy the Company Portal to Windows Phone 8.1 devices.</target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>Download the Company Portal</source>
-          <target state="new">Download the Company Portal</target>
+          <source><bpt id="p1">**</bpt>Download the Company Portal<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Download the Company Portal<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>Download the <bpt id="p1">[</bpt>Microsoft Intune Company Portal App for Windows Phone 8.1<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=615799)</ept> from the Download Center and run the self-extracting (.exe) file.</source>
@@ -442,8 +442,8 @@
           <target state="new"><bpt id="p1">**</bpt>Code-sign the app using PowerShell<ept id="p1">**</ept> As an administrator, open <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept> on the host computer installed with the Windows SDK, the Symantec Enterprise Mobile Code Signing Certificate, navigate to the Sign-WinPhoneCompanyPortal.ps1 file and run the script.</target>
         </trans-unit>
         <trans-unit id="208" translate="yes" xml:space="preserve">
-          <source>Example 1</source>
-          <target state="new">Example 1</target>
+          <source><bpt id="p1">**</bpt>Example 1<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Example 1<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>This example signs the CompanyPortal.appx at C:\temp\ and produces the CompanyPortalEnterpriseSigned.appx.</source>
@@ -458,8 +458,8 @@
           <target state="new">It reads the enterprise ID from the cert.aetx file as well.</target>
         </trans-unit>
         <trans-unit id="212" translate="yes" xml:space="preserve">
-          <source>Example 2</source>
-          <target state="new">Example 2</target>
+          <source><bpt id="p1">**</bpt>Example 2<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Example 2<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="213" translate="yes" xml:space="preserve">
           <source>This example signs the CompanyPortal.appx at C:\temp\ and produces the CompanyPortalEnterpriseSigned.appx.</source>
@@ -470,44 +470,44 @@
           <target state="new">It would use PFX password 1234 and use the publisher ID specified.</target>
         </trans-unit>
         <trans-unit id="215" translate="yes" xml:space="preserve">
-          <source>Parameters:</source>
-          <target state="new">Parameters:</target>
+          <source><bpt id="p1">**</bpt>Parameters:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Parameters:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="216" translate="yes" xml:space="preserve">
-          <source>– The local path to the CompanyPortal.appx file in single quotes.</source>
-          <target state="new">– The local path to the CompanyPortal.appx file in single quotes.</target>
+          <source><ph id="ph1">`-InputAppx`</ph> – The local path to the CompanyPortal.appx file in single quotes.</source>
+          <target state="new"><ph id="ph1">`-InputAppx`</ph> – The local path to the CompanyPortal.appx file in single quotes.</target>
         </trans-unit>
         <trans-unit id="217" translate="yes" xml:space="preserve">
           <source>For example 'C:\temp\CompanyPortal.appx'</source>
           <target state="new">For example 'C:\temp\CompanyPortal.appx'</target>
         </trans-unit>
         <trans-unit id="218" translate="yes" xml:space="preserve">
-          <source>– The local path and file name for the signed Company Portal app in single quotes.</source>
-          <target state="new">– The local path and file name for the signed Company Portal app in single quotes.</target>
+          <source><ph id="ph1">`-OutputAppx`</ph> – The local path and file name for the signed Company Portal app in single quotes.</source>
+          <target state="new"><ph id="ph1">`-OutputAppx`</ph> – The local path and file name for the signed Company Portal app in single quotes.</target>
         </trans-unit>
         <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>For example, 'C:\temp\CompanyPortalEnterpriseSigned.appx'</source>
           <target state="new">For example, 'C:\temp\CompanyPortalEnterpriseSigned.appx'</target>
         </trans-unit>
         <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>– The local path and file name for the exported PFX file of the Symantec certificate.</source>
-          <target state="new">– The local path and file name for the exported PFX file of the Symantec certificate.</target>
+          <source><ph id="ph1">`-PfxFilePath`</ph> – The local path and file name for the exported PFX file of the Symantec certificate.</source>
+          <target state="new"><ph id="ph1">`-PfxFilePath`</ph> – The local path and file name for the exported PFX file of the Symantec certificate.</target>
         </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>For example, 'C:\signing\cert.pfx'</source>
           <target state="new">For example, 'C:\signing\cert.pfx'</target>
         </trans-unit>
         <trans-unit id="222" translate="yes" xml:space="preserve">
-          <source>– The password used to sign the PFX file in single quotes.</source>
-          <target state="new">– The password used to sign the PFX file in single quotes.</target>
+          <source><ph id="ph1">`-PfxPassword`</ph> – The password used to sign the PFX file in single quotes.</source>
+          <target state="new"><ph id="ph1">`-PfxPassword`</ph> – The password used to sign the PFX file in single quotes.</target>
         </trans-unit>
         <trans-unit id="223" translate="yes" xml:space="preserve">
           <source>For example '1234'</source>
           <target state="new">For example '1234'</target>
         </trans-unit>
         <trans-unit id="224" translate="yes" xml:space="preserve">
-          <source>– The local path to the .aetx file which is used for reading the enterprise ID if the 'EnterpriseId' argument is not defined.</source>
-          <target state="new">– The local path to the .aetx file which is used for reading the enterprise ID if the 'EnterpriseId' argument is not defined.</target>
+          <source><ph id="ph1">`-AetxPath`</ph> – The local path to the .aetx file which is used for reading the enterprise ID if the 'EnterpriseId' argument is not defined.</source>
+          <target state="new"><ph id="ph1">`-AetxPath`</ph> – The local path to the .aetx file which is used for reading the enterprise ID if the 'EnterpriseId' argument is not defined.</target>
         </trans-unit>
         <trans-unit id="225" translate="yes" xml:space="preserve">
           <source>Either this argument or EnterpriseId must be provided.</source>
@@ -518,8 +518,8 @@
           <target state="new">For example 'C:\signing\cert.aetx'</target>
         </trans-unit>
         <trans-unit id="227" translate="yes" xml:space="preserve">
-          <source>- The Publisher ID of the enterprise.</source>
-          <target state="new">- The Publisher ID of the enterprise.</target>
+          <source><ph id="ph1">`-PublisherId`</ph> - The Publisher ID of the enterprise.</source>
+          <target state="new"><ph id="ph1">`-PublisherId`</ph> - The Publisher ID of the enterprise.</target>
         </trans-unit>
         <trans-unit id="228" translate="yes" xml:space="preserve">
           <source>If absent, the 'Subject' field of the Symantec Enterprise Mobile Code Signing Certificate is used.</source>
@@ -530,16 +530,16 @@
           <target state="new">For example, 'OID.0.9.2342.19200300.100.1.1=1000000001, CN="Test, Inc.", OU=Test 1'</target>
         </trans-unit>
         <trans-unit id="230" translate="yes" xml:space="preserve">
-          <source>- The path to the root folder of the Windows SDK for Windows 8.1.</source>
-          <target state="new">- The path to the root folder of the Windows SDK for Windows 8.1.</target>
+          <source><ph id="ph1">`-SdkPath`</ph> - The path to the root folder of the Windows SDK for Windows 8.1.</source>
+          <target state="new"><ph id="ph1">`-SdkPath`</ph> - The path to the root folder of the Windows SDK for Windows 8.1.</target>
         </trans-unit>
         <trans-unit id="231" translate="yes" xml:space="preserve">
           <source>This argument is optional and defaults to ${env:ProgramFiles(x86)}\Windows Kits\8.1.</source>
           <target state="new">This argument is optional and defaults to ${env:ProgramFiles(x86)}\Windows Kits\8.1.</target>
         </trans-unit>
         <trans-unit id="232" translate="yes" xml:space="preserve">
-          <source>- The enterprise ID.</source>
-          <target state="new">- The enterprise ID.</target>
+          <source><ph id="ph1">`-EnterpriseId`</ph> - The enterprise ID.</source>
+          <target state="new"><ph id="ph1">`-EnterpriseId`</ph> - The enterprise ID.</target>
         </trans-unit>
         <trans-unit id="233" translate="yes" xml:space="preserve">
           <source>Either this argument or 'AetxPath' must be provided.</source>

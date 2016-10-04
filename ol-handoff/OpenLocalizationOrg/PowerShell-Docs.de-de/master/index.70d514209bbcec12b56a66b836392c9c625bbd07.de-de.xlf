@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a05f2536897cd7d9e3534c0c58165817e0138d45</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\index.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">37edbdec833208e3585a83be5631af2769901e6b</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98f5f68f44e9459a93a1d891eec53cbba182f6e5</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">678f6ccd2cd2c2c37696a9582f3850e473a84d3f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33a0ea0cd833e89528d2e9336a11d515e157b3e7</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -42,8 +42,8 @@
           <target state="new">New to ATA?</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Visit our product page</source>
-          <target state="new">Visit our product page</target>
+          <source><ph id="ph1">&lt;a href="http://go.microsoft.com/fwlink/?LinkId=816859" target="_blank"&gt;</ph>Visit our product page <ph id="ph2">&amp;rarr;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="http://go.microsoft.com/fwlink/?LinkId=816859" target="_blank"&gt;</ph>Visit our product page <ph id="ph2">&amp;rarr;</ph></target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Ready to get hands-on?</source>
@@ -58,8 +58,8 @@
           <target state="new">Featured Content</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>NEW<ph id="ph1">&lt;/b&gt;&lt;/mark&gt; &lt;a href="/advanced-threat-analytics/understand-explore/whats-new-version-1.7"&gt;</ph>Release of ATA version 1.7</source>
-          <target state="new">NEW<ph id="ph1">&lt;/b&gt;&lt;/mark&gt; &lt;a href="/advanced-threat-analytics/understand-explore/whats-new-version-1.7"&gt;</ph>Release of ATA version 1.7</target>
+          <source>NEW<ph id="ph1">&lt;/b&gt;&lt;/mark&gt;</ph><ph id="ph2"> &lt;a href="/advanced-threat-analytics/understand-explore/whats-new-version-1.7"&gt;</ph>Release of ATA version 1.7</source>
+          <target state="new">NEW<ph id="ph1">&lt;/b&gt;&lt;/mark&gt;</ph><ph id="ph2"> &lt;a href="/advanced-threat-analytics/understand-explore/whats-new-version-1.7"&gt;</ph>Release of ATA version 1.7</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>What is Advanced Threat Analytics?</source>
@@ -78,8 +78,12 @@
           <target state="new">ATA capacity planning</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>1</source>
-          <target state="new">1</target>
+          <source><ph id="ph1">
+                  &lt;span class="step-number"&gt;</ph>1<ph id="ph2">&lt;/span&gt;</ph><ph id="ph3">
+                  </ph></source>
+          <target state="new"><ph id="ph1">
+                  &lt;span class="step-number"&gt;</ph>1<ph id="ph2">&lt;/span&gt;</ph><ph id="ph3">
+                  </ph></target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Understand <ph id="ph1">&amp;amp;</ph> Explore</source>
@@ -114,8 +118,12 @@
           <target state="new">See a list of what was updated in the latest versions along with known issues and migration guides.</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>2</source>
-          <target state="new">2</target>
+          <source><ph id="ph1">
+                  &lt;span class="step-number"&gt;</ph>2<ph id="ph2">&lt;/span&gt;</ph><ph id="ph3">
+                  </ph></source>
+          <target state="new"><ph id="ph1">
+                  &lt;span class="step-number"&gt;</ph>2<ph id="ph2">&lt;/span&gt;</ph><ph id="ph3">
+                  </ph></target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>Plan <ph id="ph1">&amp;amp;</ph> Design</source>
@@ -150,8 +158,12 @@
           <target state="new">Plan the requirements for a successful deployment of ATA in your environment.</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>3</source>
-          <target state="new">3</target>
+          <source><ph id="ph1">
+                  &lt;span class="step-number"&gt;</ph>3<ph id="ph2">&lt;/span&gt;</ph><ph id="ph3">
+                  </ph></source>
+          <target state="new"><ph id="ph1">
+                  &lt;span class="step-number"&gt;</ph>3<ph id="ph2">&lt;/span&gt;</ph><ph id="ph3">
+                  </ph></target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>Deploy <ph id="ph1">&amp;amp;</ph> Use</source>
@@ -186,8 +198,12 @@
           <target state="new">Modify ATA configuration and perform daily monitoring using ATA.</target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>4</source>
-          <target state="new">4</target>
+          <source><ph id="ph1">
+                  &lt;span class="step-number"&gt;</ph>4<ph id="ph2">&lt;/span&gt;</ph><ph id="ph3">
+                  </ph></source>
+          <target state="new"><ph id="ph1">
+                  &lt;span class="step-number"&gt;</ph>4<ph id="ph2">&lt;/span&gt;</ph><ph id="ph3">
+                  </ph></target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Troubleshoot</source>

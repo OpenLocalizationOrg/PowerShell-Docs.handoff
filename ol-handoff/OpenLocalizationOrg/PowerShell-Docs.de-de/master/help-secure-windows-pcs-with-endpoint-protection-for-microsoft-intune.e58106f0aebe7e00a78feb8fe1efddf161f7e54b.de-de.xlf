@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8bcc70ba6451f13f80319229b191b6feb2d5664e</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3d79a9b436036445db22a2d28180dfb450145d3</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b084c420d5709db755fb0da1c45d0a0727d479e1</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd0df61d49f519e76b99f536e772478c5547f373</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">848f4a60b03e8b531a8bfdd37aa8a92929f28d13</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -234,8 +234,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Install Endpoint Protection</source>
-          <target state="new">Install Endpoint Protection</target>
+          <source><bpt id="p1">**</bpt>Install Endpoint Protection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Install Endpoint Protection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to install Endpoint Protection on managed computers.</source>
@@ -262,8 +262,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>Install Endpoint Protection even if a third-party endpoint protection application is installed</source>
-          <target state="new">Install Endpoint Protection even if a third-party endpoint protection application is installed</target>
+          <source><bpt id="p1">**</bpt>Install Endpoint Protection even if a third-party endpoint protection application is installed<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Install Endpoint Protection even if a third-party endpoint protection application is installed<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to install Microsoft Intune Endpoint Protection even if a third-party endpoint protection application is detected.</source>
@@ -274,8 +274,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>Enable Endpoint Protection</source>
-          <target state="new">Enable Endpoint Protection</target>
+          <source><bpt id="p1">**</bpt>Enable Endpoint Protection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enable Endpoint Protection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to enable Microsoft Intune Endpoint Protection on computers that have the Endpoint Protection client.</source>
@@ -290,8 +290,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="170" translate="yes" xml:space="preserve">
-          <source>Disable Client UI</source>
-          <target state="new">Disable Client UI</target>
+          <source><bpt id="p1">**</bpt>Disable Client UI<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Disable Client UI<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="171" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to hide the Microsoft Intune Endpoint Protection client user interface from users (requires a client computer restart to take effect).</source>
@@ -302,8 +302,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
-          <source>Install Endpoint Protection even if a third-party endpoint protection application is installed</source>
-          <target state="new">Install Endpoint Protection even if a third-party endpoint protection application is installed</target>
+          <source><bpt id="p1">**</bpt>Install Endpoint Protection even if a third-party endpoint protection application is installed<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Install Endpoint Protection even if a third-party endpoint protection application is installed<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to force the installation of Microsoft Intune Endpoint Protection, even if a third-party endpoint protection application is detected.</source>
@@ -314,8 +314,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="176" translate="yes" xml:space="preserve">
-          <source>Create a system restore point before malware remediation</source>
-          <target state="new">Create a system restore point before malware remediation</target>
+          <source><bpt id="p1">**</bpt>Create a system restore point before malware remediation<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Create a system restore point before malware remediation<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to create a Windows System Restore Point before any malware remediation begins.</source>
@@ -326,8 +326,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="179" translate="yes" xml:space="preserve">
-          <source>Track resolved malware (days)</source>
-          <target state="new">Track resolved malware (days)</target>
+          <source><bpt id="p1">**</bpt>Track resolved malware (days)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Track resolved malware (days)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="180" translate="yes" xml:space="preserve">
           <source>Enables Endpoint Protection to track resolved malware for a specified time so that you can manually check previously infected computers.</source>
@@ -374,8 +374,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="191" translate="yes" xml:space="preserve">
-          <source>Enable real-time protection</source>
-          <target state="new">Enable real-time protection</target>
+          <source><bpt id="p1">**</bpt>Enable real-time protection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enable real-time protection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="192" translate="yes" xml:space="preserve">
           <source>Enables monitoring and scanning of all files and applications that are accessed.</source>
@@ -390,8 +390,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>Scan all downloads</source>
-          <target state="new">Scan all downloads</target>
+          <source><bpt id="p1">**</bpt>Scan all downloads<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan all downloads<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>Enables the scanning of all files and attachments that are downloaded from the Internet to computers.</source>
@@ -402,8 +402,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="198" translate="yes" xml:space="preserve">
-          <source>Monitor file and program activity on computers</source>
-          <target state="new">Monitor file and program activity on computers</target>
+          <source><bpt id="p1">**</bpt>Monitor file and program activity on computers<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Monitor file and program activity on computers<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="199" translate="yes" xml:space="preserve">
           <source>Enables the monitoring of incoming and outgoing files, and program activity on computers.</source>
@@ -418,8 +418,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="202" translate="yes" xml:space="preserve">
-          <source>Files monitored</source>
-          <target state="new">Files monitored</target>
+          <source><bpt id="p1">**</bpt>Files monitored<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Files monitored<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="203" translate="yes" xml:space="preserve">
           <source>Enables you to choose if only incoming, only outgoing, or all files are monitored.</source>
@@ -430,8 +430,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Monitor all files<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="205" translate="yes" xml:space="preserve">
-          <source>Enable behavior monitoring</source>
-          <target state="new">Enable behavior monitoring</target>
+          <source><bpt id="p1">**</bpt>Enable behavior monitoring<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enable behavior monitoring<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="206" translate="yes" xml:space="preserve">
           <source>Enables Microsoft Intune Endpoint Protection to check for certain patterns of suspicious activity on client computers.</source>
@@ -442,8 +442,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="208" translate="yes" xml:space="preserve">
-          <source>Enable Network Inspection System</source>
-          <target state="new">Enable Network Inspection System</target>
+          <source><bpt id="p1">**</bpt>Enable Network Inspection System<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enable Network Inspection System<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="209" translate="yes" xml:space="preserve">
           <source>Enables Network Inspection System (NIS) on client computers.</source>
@@ -474,8 +474,8 @@
           <target state="new">More information</target>
         </trans-unit>
         <trans-unit id="216" translate="yes" xml:space="preserve">
-          <source>Schedule a daily quick scan</source>
-          <target state="new">Schedule a daily quick scan</target>
+          <source><bpt id="p1">**</bpt>Schedule a daily quick scan<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Schedule a daily quick scan<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="217" translate="yes" xml:space="preserve">
           <source>Schedules a daily quick scan of both frequently used files and important system files on computers.</source>
@@ -490,8 +490,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>Run a quick scan if you have missed two consecutive scans</source>
-          <target state="new">Run a quick scan if you have missed two consecutive scans</target>
+          <source><bpt id="p1">**</bpt>Run a quick scan if you have missed two consecutive scans<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Run a quick scan if you have missed two consecutive scans<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>Configures Endpoint Protection to automatically run a quick scan on computers if they have missed two consecutive quick scans.</source>
@@ -502,8 +502,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="223" translate="yes" xml:space="preserve">
-          <source>Schedule a full scan</source>
-          <target state="new">Schedule a full scan</target>
+          <source><bpt id="p1">**</bpt>Schedule a full scan<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Schedule a full scan<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="224" translate="yes" xml:space="preserve">
           <source>Configures a full scan of all files and resources on the local computer hard disks.</source>
@@ -518,8 +518,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="227" translate="yes" xml:space="preserve">
-          <source>Run a full scan if you have missed two consecutive full scans</source>
-          <target state="new">Run a full scan if you have missed two consecutive full scans</target>
+          <source><bpt id="p1">**</bpt>Run a full scan if you have missed two consecutive full scans<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Run a full scan if you have missed two consecutive full scans<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="228" translate="yes" xml:space="preserve">
           <source>Configures Endpoint Protection to automatically run a full scan on computers if they have missed two consecutive scans.</source>
@@ -542,8 +542,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="233" translate="yes" xml:space="preserve">
-          <source>Run a full scan after installation of Endpoint Protection</source>
-          <target state="new">Run a full scan after installation of Endpoint Protection</target>
+          <source><bpt id="p1">**</bpt>Run a full scan after installation of Endpoint Protection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Run a full scan after installation of Endpoint Protection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="234" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to let Endpoint Protection automatically run a full system scan after it is installed on computers.</source>
@@ -558,8 +558,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="237" translate="yes" xml:space="preserve">
-          <source>Automatically run a full scan when needed to follow up malware removal</source>
-          <target state="new">Automatically run a full scan when needed to follow up malware removal</target>
+          <source><bpt id="p1">**</bpt>Automatically run a full scan when needed to follow up malware removal<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Automatically run a full scan when needed to follow up malware removal<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="238" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to let Endpoint Protection automatically run a full system scan on computers after the removal of malware to help confirm that other files were not affected.</source>
@@ -570,8 +570,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="240" translate="yes" xml:space="preserve">
-          <source>Start a scheduled scan only when the computer is idle</source>
-          <target state="new">Start a scheduled scan only when the computer is idle</target>
+          <source><bpt id="p1">**</bpt>Start a scheduled scan only when the computer is idle<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Start a scheduled scan only when the computer is idle<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="241" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to prevent scheduled scans from starting when computers are in use to prevent any loss of user productivity.</source>
@@ -582,8 +582,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="243" translate="yes" xml:space="preserve">
-          <source>Check for the latest malware definitions before starting a scan</source>
-          <target state="new">Check for the latest malware definitions before starting a scan</target>
+          <source><bpt id="p1">**</bpt>Check for the latest malware definitions before starting a scan<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Check for the latest malware definitions before starting a scan<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="244" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to let Endpoint Protection automatically check for the latest malware definitions before it starts a scan on computers.</source>
@@ -594,8 +594,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="246" translate="yes" xml:space="preserve">
-          <source>Scan archive files</source>
-          <target state="new">Scan archive files</target>
+          <source><bpt id="p1">**</bpt>Scan archive files<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan archive files<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="247" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan for malware in archive files (like .zip or .cab files) on computers.</source>
@@ -606,8 +606,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="249" translate="yes" xml:space="preserve">
-          <source>Scan email messages</source>
-          <target state="new">Scan email messages</target>
+          <source><bpt id="p1">**</bpt>Scan email messages<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan email messages<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="250" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan incoming email messages when they arrive on computers.</source>
@@ -618,8 +618,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="252" translate="yes" xml:space="preserve">
-          <source>Scan files opened from network shared folders</source>
-          <target state="new">Scan files opened from network shared folders</target>
+          <source><bpt id="p1">**</bpt>Scan files opened from network shared folders<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan files opened from network shared folders<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="253" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan files that are opened from shared folders on the network.</source>
@@ -638,8 +638,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="257" translate="yes" xml:space="preserve">
-          <source>Scan mapped network drives</source>
-          <target state="new">Scan mapped network drives</target>
+          <source><bpt id="p1">**</bpt>Scan mapped network drives<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan mapped network drives<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="258" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan files on mapped network drives.</source>
@@ -654,8 +654,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="261" translate="yes" xml:space="preserve">
-          <source>Scan removable drives</source>
-          <target state="new">Scan removable drives</target>
+          <source><bpt id="p1">**</bpt>Scan removable drives<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan removable drives<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="262" translate="yes" xml:space="preserve">
           <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan for malware and unwanted software on removable drives, like USB flash drives, when you run a full scan on computers.</source>
@@ -666,8 +666,8 @@
           <target state="new">Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="264" translate="yes" xml:space="preserve">
-          <source>Limit CPU usage during a scan</source>
-          <target state="new">Limit CPU usage during a scan</target>
+          <source><bpt id="p1">**</bpt>Limit CPU usage during a scan<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Limit CPU usage during a scan<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="265" translate="yes" xml:space="preserve">
           <source>Set the maximum percentage of CPU usage that can be used during scheduled scans on computers.</source>
@@ -954,8 +954,8 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="336" translate="yes" xml:space="preserve">
-          <source>Policies to protect Windows PCs</source>
-          <target state="new">Policies to protect Windows PCs</target>
+          <source><bpt id="p1">[</bpt>Policies to protect Windows PCs<ept id="p1">](policies-to-protect-windows-pcs-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Policies to protect Windows PCs<ept id="p1">](policies-to-protect-windows-pcs-in-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

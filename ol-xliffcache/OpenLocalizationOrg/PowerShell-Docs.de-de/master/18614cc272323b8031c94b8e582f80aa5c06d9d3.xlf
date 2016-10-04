@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18614cc272323b8031c94b8e582f80aa5c06d9d3</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\intune-on-premises-exchange-connector.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">63095bfa2c58ca92004822b0fd784ca60eb3a4e1</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e7ef62f001fadc710a097af48d8778685aa38072</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">39f174dbff50f0dd1477ef83ba1894593d65936f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b92cfd5213b8ffb9f47375dee73b010254ef0b1f</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -198,8 +198,8 @@
           <target state="new">On a supported Windows Server operating system for the on-premises Exchange Connector, open the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> (http://manage.microsoft.com) with a user account that is an administrator in the Exchange tenant with a license to use Exchange Server.</target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>Open set up Exchange Connection</source>
-          <target state="new">Open set up Exchange Connection</target>
+          <source><ph id="ph1">![</ph>Open set up Exchange Connection<ph id="ph2">](../media/ExchangeConnector.gif)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Open set up Exchange Connection<ph id="ph2">](../media/ExchangeConnector.gif)</ph></target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>In the workspace shortcuts pane, choose <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Mobile Device Management<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Microsoft Exchange<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Setup Exchange Connection<ept id="p4">**</ept>.</source>

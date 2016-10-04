@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb04f0e7b9627ad1869ef677f1b32380db868490</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">deec57225d450ad4368ea024cbba779e134f4883</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1206b1145b15abfb1e023f0a15f8ef91cb085dee</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dbce95d16bf6ea6d4ed010878a8bf2979d0978f7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8146a9dbde6d3777de1ec3dd0ae8613d9a1d0b32</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -98,8 +98,8 @@
           <target state="new">Provide a name for the app, the bundle identifier in the App identifier field, and the platform (iOS or Android).</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Screenshot of the Add a custom app blade <ph id="ph1">](../media/mam-azure-portal-add-app-details.png)</ph> This step helps create a unique listing of your app.</source>
-          <target state="new">Screenshot of the Add a custom app blade <ph id="ph1">](../media/mam-azure-portal-add-app-details.png)</ph> This step helps create a unique listing of your app.</target>
+          <source><ph id="ph1">![</ph>Screenshot of the Add a custom app blade <ph id="ph2">](../media/mam-azure-portal-add-app-details.png)</ph> This step helps create a unique listing of your app.</source>
+          <target state="new"><ph id="ph1">![</ph>Screenshot of the Add a custom app blade <ph id="ph2">](../media/mam-azure-portal-add-app-details.png)</ph> This step helps create a unique listing of your app.</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>The app will be also be displayed in the list of Targeted apps for a MAM policy for your tenant, as described in the next step.</source>

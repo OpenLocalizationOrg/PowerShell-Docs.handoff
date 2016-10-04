@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09902b33cc63b991ec3de3b82860fa93d347f472</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2c84eb77b1f86fa9145abaccd500dee2f8052d9</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">52faff5565a97f97ef8755338099ce661a5214b6</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d244a47d1479aa468522ff2e243eea791c121fdf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">613f54398d6ca9930b7d8d96b50494e080f5dbf0</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -50,20 +50,20 @@
           <target state="new"><bpt id="p1">**</bpt>Upload a CSV file containing serial numbers<ept id="p1">**</ept> – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>IMEI #1</source>
-          <target state="new">IMEI #1</target>
+          <source><ph id="ph1">&amp;lt;</ph>IMEI #1<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>IMEI #1<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Device #1 Details</source>
-          <target state="new">Device #1 Details</target>
+          <source><ph id="ph1">&amp;lt;</ph>Device #1 Details<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>Device #1 Details<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>IMEI #2</source>
-          <target state="new">IMEI #2</target>
+          <source><ph id="ph1">&amp;lt;</ph>IMEI #2<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>IMEI #2<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Device #2 Details</source>
-          <target state="new">Device #2 Details</target>
+          <source><ph id="ph1">&amp;lt;</ph>Device #2 Details<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>Device #2 Details<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>This .csv file when viewed in a text editor appears as:</source>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c83ab31ead73015aa95bf2f252d0a706def0fbab</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\what-is-ata.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2fa0b5f5fecaaed16d658427c2ea37a41d008c91</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6e75e171f30d7e08bbc566d70ef990f17c2b65d</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">69500cdd0edbb14c1c73d8d8cd4bde21a55bc06a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f2ede91af635e3f7d7f0e50fffbe25baa503ee0d</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -26,8 +26,8 @@
           <target state="new">Explains what Microsoft Advanced Threat Analytics (ATA) is and what kinds of suspicious activities it can detect</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>Applies to: Advanced Threat Analytics version 1.7</source>
-          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+          <source><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>What is Advanced Threat Analytics?</source>
@@ -242,8 +242,8 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
       </group>
     </body>

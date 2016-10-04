@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b02804f933f8c259ea12efefd0353a7d5ceda25c</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\windows-configuration-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">405fc566b26e43a5fe1db0ec3102fde729da2414</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51d4014a749d88ab860c0de5475456a44ec61da6</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">297aeda79d4a0d3bb5e60c678459a1391e96616c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d49cfd2f2c46cb2246e97df24a8652dc269506c3</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -42,8 +42,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Apply all configurations to Windows 10</source>
-          <target state="new">Apply all configurations to Windows 10</target>
+          <source><bpt id="p1">**</bpt>Apply all configurations to Windows 10<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Apply all configurations to Windows 10<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Enables settings in this policy to be applied to Windows 10 devices, in addition to Windows 8 and Windows 8.1 devices.</source>
@@ -70,8 +70,8 @@
           <target state="new">Windows RT</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>Required password type</source>
-          <target state="new">Required password type</target>
+          <source><bpt id="p1">**</bpt>Required password type<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Required password type<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Specifies the type of password that's required, such as alphanumeric or numeric only.</source>
@@ -86,8 +86,8 @@
           <target state="new">Yes</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>Required password type – Minimum number of character sets</source>
-          <target state="new">Required password type – Minimum number of character sets</target>
+          <source><bpt id="p1">**</bpt>Required password type – Minimum number of character sets<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Required password type – Minimum number of character sets<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Specifies how many different character sets must be included in the password.</source>
@@ -110,8 +110,8 @@
           <target state="new">Yes</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</source>
-          <target state="new"><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</target>
+          <source><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph></target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Configures the minimum required length (in characters) for the password.</source>
@@ -126,8 +126,8 @@
           <target state="new">Yes</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>Number of repeated sign-in failures to allow before the device is wiped</source>
-          <target state="new">Number of repeated sign-in failures to allow before the device is wiped</target>
+          <source><bpt id="p1">**</bpt>Number of repeated sign-in failures to allow before the device is wiped<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Number of repeated sign-in failures to allow before the device is wiped<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>Wipes the device if the sign-in attempts fail this number of times.</source>
@@ -142,8 +142,8 @@
           <target state="new">Yes</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>Minutes of inactivity before screen turns off</source>
-          <target state="new">Minutes of inactivity before screen turns off</target>
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before screen turns off<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Minutes of inactivity before screen turns off<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>Specifies the number of minutes a device must be idle before a password is required to unlock it.</source>
@@ -158,8 +158,8 @@
           <target state="new">Yes</target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Password expiration (days)</source>
-          <target state="new">Password expiration (days)</target>
+          <source><bpt id="p1">**</bpt>Password expiration (days)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Password expiration (days)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Specifies the number of days before the device password must be changed.</source>
@@ -174,8 +174,8 @@
           <target state="new">Yes</target>
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>Remember password history</source>
-          <target state="new">Remember password history</target>
+          <source><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Specifies whether the user can configure previously used passwords.</source>
@@ -206,8 +206,8 @@
           <target state="new">Yes</target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Allow picture password and PIN</source>
-          <target state="new">Allow picture password and PIN</target>
+          <source><bpt id="p1">**</bpt>Allow picture password and PIN<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow picture password and PIN<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Enables the use of a picture password and PIN.</source>
@@ -230,8 +230,8 @@
           <target state="new">Yes</target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>1<ph id="ph1">&lt;/sup&gt;</ph> When you deploy a password length policy to devices that run Windows RT, users will be forced to reset their passwords, even if their current password complies with the policy requirements.</source>
-          <target state="new">1<ph id="ph1">&lt;/sup&gt;</ph> When you deploy a password length policy to devices that run Windows RT, users will be forced to reset their passwords, even if their current password complies with the policy requirements.</target>
+          <source><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph> When you deploy a password length policy to devices that run Windows RT, users will be forced to reset their passwords, even if their current password complies with the policy requirements.</source>
+          <target state="new"><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph> When you deploy a password length policy to devices that run Windows RT, users will be forced to reset their passwords, even if their current password complies with the policy requirements.</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>Encryption settings</source>
@@ -254,8 +254,8 @@
           <target state="new">Windows RT</target>
         </trans-unit>
         <trans-unit id="161" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</source>
-          <target state="new"><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</target>
+          <source><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph></target>
         </trans-unit>
         <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>Requires that files on the device are encrypted.</source>
@@ -274,8 +274,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>1<ph id="ph1">&lt;/sup&gt;</ph> Additional information for devices that run Windows 8.1</source>
-          <target state="new">1<ph id="ph1">&lt;/sup&gt;</ph> Additional information for devices that run Windows 8.1</target>
+          <source><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph> Additional information for devices that run Windows 8.1</source>
+          <target state="new"><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph> Additional information for devices that run Windows 8.1</target>
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>To enforce encryption on devices that run Windows 8.1, you must install the <bpt id="p1">[</bpt>December 2014 MDM client update for Windows<ept id="p1">](http://support.microsoft.com/kb/3013816)</ept> on each device.</source>
@@ -318,8 +318,8 @@
           <target state="new">Windows RT</target>
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>Require network firewall</source>
-          <target state="new">Require network firewall</target>
+          <source><bpt id="p1">**</bpt>Require network firewall<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require network firewall<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="178" translate="yes" xml:space="preserve">
           <source>Requires that the Windows Firewall is turned on.</source>
@@ -334,8 +334,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="181" translate="yes" xml:space="preserve">
-          <source>Enable SmartScreen</source>
-          <target state="new">Enable SmartScreen</target>
+          <source><bpt id="p1">**</bpt>Enable SmartScreen<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enable SmartScreen<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="182" translate="yes" xml:space="preserve">
           <source>Requires the use of Windows SmartScreen.</source>
@@ -370,8 +370,8 @@
           <target state="new">Windows RT</target>
         </trans-unit>
         <trans-unit id="190" translate="yes" xml:space="preserve">
-          <source>Require automatic updates</source>
-          <target state="new">Require automatic updates</target>
+          <source><bpt id="p1">**</bpt>Require automatic updates<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require automatic updates<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="191" translate="yes" xml:space="preserve">
           <source>Turns on the automatic updates setting on devices.</source>
@@ -386,20 +386,20 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="194" translate="yes" xml:space="preserve">
-          <source>Require automatic updates – Minimum classification of updates to install automatically</source>
-          <target state="new">Require automatic updates – Minimum classification of updates to install automatically</target>
+          <source><bpt id="p1">**</bpt>Require automatic updates – Minimum classification of updates to install automatically<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require automatic updates – Minimum classification of updates to install automatically<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
           <source>Chooses the classification of updates that will be installed automatically:</source>
           <target state="new">Chooses the classification of updates that will be installed automatically:</target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Important<ept id="p1">**</ept> – Installs all updates that are classified as important.</source>
-          <target state="new"><bpt id="p1">**</bpt>Important<ept id="p1">**</ept> – Installs all updates that are classified as important.</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Important<ept id="p1">**</ept> – Installs all updates that are classified as important.</source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Important<ept id="p1">**</ept> – Installs all updates that are classified as important.</target>
         </trans-unit>
         <trans-unit id="197" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Recommended<ept id="p1">**</ept> – Installs all updates that are classified as important or recommended.</source>
-          <target state="new"><bpt id="p1">**</bpt>Recommended<ept id="p1">**</ept> – Installs all updates that are classified as important or recommended.</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Recommended<ept id="p1">**</ept> – Installs all updates that are classified as important or recommended.</source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Recommended<ept id="p1">**</ept> – Installs all updates that are classified as important or recommended.</target>
         </trans-unit>
         <trans-unit id="198" translate="yes" xml:space="preserve">
           <source>Yes</source>
@@ -410,8 +410,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="200" translate="yes" xml:space="preserve">
-          <source>User Account Control</source>
-          <target state="new">User Account Control</target>
+          <source><bpt id="p1">**</bpt>User Account Control<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>User Account Control<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="201" translate="yes" xml:space="preserve">
           <source>Requires the use of User Account Control (UAC) on devices.</source>
@@ -426,8 +426,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="204" translate="yes" xml:space="preserve">
-          <source>Allow diagnostic data submission</source>
-          <target state="new">Allow diagnostic data submission</target>
+          <source><bpt id="p1">**</bpt>Allow diagnostic data submission<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow diagnostic data submission<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="205" translate="yes" xml:space="preserve">
           <source>Enables the device to submit diagnostic information to Microsoft.</source>
@@ -462,8 +462,8 @@
           <target state="new">Windows RT</target>
         </trans-unit>
         <trans-unit id="213" translate="yes" xml:space="preserve">
-          <source>Work Folders URL</source>
-          <target state="new">Work Folders URL</target>
+          <source><bpt id="p1">**</bpt>Work Folders URL<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Work Folders URL<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="214" translate="yes" xml:space="preserve">
           <source>Sets the URL of the work folder to allow documents to be synchronized across devices.</source>
@@ -498,8 +498,8 @@
           <target state="new">Windows RT</target>
         </trans-unit>
         <trans-unit id="222" translate="yes" xml:space="preserve">
-          <source>Make Microsoft account optional in Windows Mail application</source>
-          <target state="new">Make Microsoft account optional in Windows Mail application</target>
+          <source><bpt id="p1">**</bpt>Make Microsoft account optional in Windows Mail application<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Make Microsoft account optional in Windows Mail application<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="223" translate="yes" xml:space="preserve">
           <source>Enables access to the Windows Mail application without a Microsoft account.</source>
@@ -534,8 +534,8 @@
           <target state="new">Windows RT</target>
         </trans-unit>
         <trans-unit id="231" translate="yes" xml:space="preserve">
-          <source>Allow autofill</source>
-          <target state="new">Allow autofill</target>
+          <source><bpt id="p1">**</bpt>Allow autofill<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow autofill<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="232" translate="yes" xml:space="preserve">
           <source>Enables users to change autocomplete settings in the browser.</source>
@@ -550,8 +550,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="235" translate="yes" xml:space="preserve">
-          <source>Allow pop-up blocker</source>
-          <target state="new">Allow pop-up blocker</target>
+          <source><bpt id="p1">**</bpt>Allow pop-up blocker<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow pop-up blocker<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="236" translate="yes" xml:space="preserve">
           <source>Enables or disables the browser pop-up blocker.</source>
@@ -566,8 +566,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="239" translate="yes" xml:space="preserve">
-          <source>Allow plug-ins</source>
-          <target state="new">Allow plug-ins</target>
+          <source><bpt id="p1">**</bpt>Allow plug-ins<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow plug-ins<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="240" translate="yes" xml:space="preserve">
           <source>Enables users to add plug-ins to Internet Explorer.</source>
@@ -582,8 +582,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="243" translate="yes" xml:space="preserve">
-          <source>Allow active scripting</source>
-          <target state="new">Allow active scripting</target>
+          <source><bpt id="p1">**</bpt>Allow active scripting<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow active scripting<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="244" translate="yes" xml:space="preserve">
           <source>Enables the browser to run scripts, such as Active X scripts.</source>
@@ -598,8 +598,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="247" translate="yes" xml:space="preserve">
-          <source>Allow fraud warning</source>
-          <target state="new">Allow fraud warning</target>
+          <source><bpt id="p1">**</bpt>Allow fraud warning<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow fraud warning<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="248" translate="yes" xml:space="preserve">
           <source>Enables or disables warnings for potential fraudulent websites.</source>
@@ -614,8 +614,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="251" translate="yes" xml:space="preserve">
-          <source>Allow intranet site for single word entry</source>
-          <target state="new">Allow intranet site for single word entry</target>
+          <source><bpt id="p1">**</bpt>Allow intranet site for single word entry<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow intranet site for single word entry<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="252" translate="yes" xml:space="preserve">
           <source>Enables use of a single word to direct Internet Explorer to a web site, such as Bing.</source>
@@ -630,8 +630,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="255" translate="yes" xml:space="preserve">
-          <source>Allow automatic detection of intranet network</source>
-          <target state="new">Allow automatic detection of intranet network</target>
+          <source><bpt id="p1">**</bpt>Allow automatic detection of intranet network<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow automatic detection of intranet network<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="256" translate="yes" xml:space="preserve">
           <source>Helps configure security for intranet sites in Internet Explorer.</source>
@@ -646,8 +646,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="259" translate="yes" xml:space="preserve">
-          <source>Security level for Internet</source>
-          <target state="new">Security level for Internet</target>
+          <source><bpt id="p1">**</bpt>Security level for Internet<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security level for Internet<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="260" translate="yes" xml:space="preserve">
           <source>Sets the Internet Explorer security level for Internet sites.</source>
@@ -662,8 +662,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="263" translate="yes" xml:space="preserve">
-          <source>Security level for intranet</source>
-          <target state="new">Security level for intranet</target>
+          <source><bpt id="p1">**</bpt>Security level for intranet<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security level for intranet<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="264" translate="yes" xml:space="preserve">
           <source>Sets the Internet Explorer security level for intranet sites.</source>
@@ -678,8 +678,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="267" translate="yes" xml:space="preserve">
-          <source>Security level for trusted sites</source>
-          <target state="new">Security level for trusted sites</target>
+          <source><bpt id="p1">**</bpt>Security level for trusted sites<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security level for trusted sites<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="268" translate="yes" xml:space="preserve">
           <source>Configures the security level for the trusted sites zone.</source>
@@ -694,8 +694,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="271" translate="yes" xml:space="preserve">
-          <source>Security level for restricted sites</source>
-          <target state="new">Security level for restricted sites</target>
+          <source><bpt id="p1">**</bpt>Security level for restricted sites<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security level for restricted sites<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="272" translate="yes" xml:space="preserve">
           <source>Configures the security level for the restricted sites zone.</source>
@@ -710,8 +710,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="275" translate="yes" xml:space="preserve">
-          <source>Send Do Not Track header</source>
-          <target state="new">Send Do Not Track header</target>
+          <source><bpt id="p1">**</bpt>Send Do Not Track header<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Send Do Not Track header<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="276" translate="yes" xml:space="preserve">
           <source>Sends  a do not track header to visited sites in Internet Explorer.</source>
@@ -726,8 +726,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="279" translate="yes" xml:space="preserve">
-          <source>Allow Enterprise Mode menu access</source>
-          <target state="new">Allow Enterprise Mode menu access</target>
+          <source><bpt id="p1">**</bpt>Allow Enterprise Mode menu access<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Enterprise Mode menu access<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="280" translate="yes" xml:space="preserve">
           <source>Lets users access the Enterprise Mode menu options from Internet Explorer.</source>
@@ -746,8 +746,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="284" translate="yes" xml:space="preserve">
-          <source>Enterprise Mode site list location</source>
-          <target state="new">Enterprise Mode site list location</target>
+          <source><bpt id="p1">**</bpt>Enterprise Mode site list location<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enterprise Mode site list location<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="285" translate="yes" xml:space="preserve">
           <source>Specifies the location of the list of websites that will use Enterprise Mode when it is active.</source>
@@ -782,8 +782,8 @@
           <target state="new">Windows RT</target>
         </trans-unit>
         <trans-unit id="293" translate="yes" xml:space="preserve">
-          <source>Allow data roaming</source>
-          <target state="new">Allow data roaming</target>
+          <source><bpt id="p1">**</bpt>Allow data roaming<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow data roaming<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="294" translate="yes" xml:space="preserve">
           <source>Enables data roaming when the device is on a cellular network.</source>
@@ -802,8 +802,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="298" translate="yes" xml:space="preserve">
-          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
-          <target state="new">Manage settings and features on your devices with Microsoft Intune policies</target>
+          <source><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></target>
         </trans-unit>
       </group>
     </body>

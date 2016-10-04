@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">309f0701426d6ea22c2c9bd1c3a64393b95c4859</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\use-remote-wipe-to-help-protect-data-using-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b3ce7bc9b6057fa917286fd8c6a2d952d4ebef57</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73e3be3a286ed9596445f903e68603a3a5d80421</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5eac4f8423184f0ee1b4ac4a3d25af32e131ddd9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e486e3aeb135a1e9631e48841909733aad0213f3</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -90,8 +90,8 @@
           <target state="new">You can find them either by user or by device.</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>By user:</source>
-          <target state="new">By user:</target>
+          <source><bpt id="p1">**</bpt>By user:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>By user:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">[</bpt>Intune administrator console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Users<ept id="p3">**</ept>.</source>
@@ -114,8 +114,8 @@
           <target state="new">Use Ctrl+click to multi-select devices.</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>By device:</source>
-          <target state="new">By device:</target>
+          <source><bpt id="p1">**</bpt>By device:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>By device:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">[</bpt>Intune administrator console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Mobile Devices<ept id="p3">**</ept>.</source>
@@ -182,8 +182,8 @@
           <target state="new">The following tables describe by platform what data is removed and the effect on data that remains on the device after a selective wipe.</target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>iOS</source>
-          <target state="new">iOS</target>
+          <source><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Data type</source>
@@ -278,8 +278,8 @@
           <target state="new">Currently, only Outlook app is supported.</target>
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>Android</source>
-          <target state="new">Android</target>
+          <source><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>Data type</source>
@@ -490,8 +490,8 @@
           <target state="new">Currently, only Outlook app is supported.</target>
         </trans-unit>
         <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>Windows</source>
-          <target state="new">Windows</target>
+          <source><bpt id="p1">**</bpt>Windows<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>Data type</source>
@@ -722,12 +722,12 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="278" translate="yes" xml:space="preserve">
-          <source>Retire devices</source>
-          <target state="new">Retire devices</target>
+          <source><bpt id="p1">[</bpt>Retire devices<ept id="p1">](retire-devices-from-microsoft-intune-management.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Retire devices<ept id="p1">](retire-devices-from-microsoft-intune-management.md)</ept></target>
         </trans-unit>
         <trans-unit id="279" translate="yes" xml:space="preserve">
-          <source>Windows Selective Wipe for Device Data Management</source>
-          <target state="new">Windows Selective Wipe for Device Data Management</target>
+          <source><bpt id="p1">[</bpt>Windows Selective Wipe for Device Data Management<ept id="p1">](http://technet.microsoft.com/library/dn486874.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows Selective Wipe for Device Data Management<ept id="p1">](http://technet.microsoft.com/library/dn486874.aspx)</ept></target>
         </trans-unit>
       </group>
     </body>

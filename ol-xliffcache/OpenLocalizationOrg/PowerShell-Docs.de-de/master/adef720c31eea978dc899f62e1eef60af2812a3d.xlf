@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">adef720c31eea978dc899f62e1eef60af2812a3d</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\Configure-certificate-infrastructure-for-scep.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">deb33378f3a3508a236ecbb610c103efeb751198</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01c8d34e614586f8c194da5e89bbf01d8233272f</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b44e1486ee55e31c8f0102fe364e02fc964e1163</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4288e89aad5d615faf8d43c0b7350beea4d0bef</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -146,8 +146,8 @@
           <target state="new">We recommend publishing the NDES server through a proxy, such as the <bpt id="p1">[</bpt>Azure AD application proxy<ept id="p1">](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-publish/)</ept>, <bpt id="p2">[</bpt>Web Access Proxy<ept id="p2">](https://technet.microsoft.com/en-us/library/dn584107.aspx)</ept>, or a third-party proxy.</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">&lt;a name="BKMK_CertsAndTemplates"&gt;&lt;/a&gt;</ph>Certificates and Templates</source>
-          <target state="new"><ph id="ph1">&lt;a name="BKMK_CertsAndTemplates"&gt;&lt;/a&gt;</ph>Certificates and Templates</target>
+          <source><ph id="ph1">&lt;a name="BKMK_CertsAndTemplates"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Certificates and Templates</source>
+          <target state="new"><ph id="ph1">&lt;a name="BKMK_CertsAndTemplates"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Certificates and Templates</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>Object</source>
@@ -158,32 +158,32 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Certificate Template</source>
-          <target state="new">Certificate Template</target>
+          <source><bpt id="p1">**</bpt>Certificate Template<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Certificate Template<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>You configure this template on your issuing CA.</source>
           <target state="new">You configure this template on your issuing CA.</target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>Client authentication certificate</source>
-          <target state="new">Client authentication certificate</target>
+          <source><bpt id="p1">**</bpt>Client authentication certificate<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Client authentication certificate<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>Requested from your issuing CA or public CA, you install this certificate on the NDES Server.</source>
           <target state="new">Requested from your issuing CA or public CA, you install this certificate on the NDES Server.</target>
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>Server authentication certificate</source>
-          <target state="new">Server authentication certificate</target>
+          <source><bpt id="p1">**</bpt>Server authentication certificate<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Server authentication certificate<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Requested from your issuing CA or public CA, you install and bind this SSL certificate in IIS on the NDES server.</source>
           <target state="new">Requested from your issuing CA or public CA, you install and bind this SSL certificate in IIS on the NDES server.</target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Trusted Root CA certificate</source>
-          <target state="new">Trusted Root CA certificate</target>
+          <source><bpt id="p1">**</bpt>Trusted Root CA certificate<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Trusted Root CA certificate<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>You export this as a <bpt id="p1">**</bpt>.cer<ept id="p1">**</ept> file from the root CA or any device which trusts the root CA, and deploy it to devices by using the Trusted CA certificate profile.</source>
@@ -202,8 +202,8 @@
           <target state="new">For example, you might do this to provide a trust to a CA that signs the server authentication certificates for your Wi-Fi access points.</target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">&lt;a name="BKMK_Accounts"&gt;&lt;/a&gt;</ph>Accounts</source>
-          <target state="new"><ph id="ph1">&lt;a name="BKMK_Accounts"&gt;&lt;/a&gt;</ph>Accounts</target>
+          <source><ph id="ph1">&lt;a name="BKMK_Accounts"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Accounts</source>
+          <target state="new"><ph id="ph1">&lt;a name="BKMK_Accounts"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Accounts</target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>Name</source>
@@ -214,16 +214,16 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
-          <source>NDES service account</source>
-          <target state="new">NDES service account</target>
+          <source><bpt id="p1">**</bpt>NDES service account<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>NDES service account<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
           <source>You specify a domain user account to use as the NDES Service account.</source>
           <target state="new">You specify a domain user account to use as the NDES Service account.</target>
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">&lt;a name="BKMK_ConfigureInfrastructure"&gt;&lt;/a&gt;</ph>Configure your infrastructure</source>
-          <target state="new"><ph id="ph1">&lt;a name="BKMK_ConfigureInfrastructure"&gt;&lt;/a&gt;</ph>Configure your infrastructure</target>
+          <source><ph id="ph1">&lt;a name="BKMK_ConfigureInfrastructure"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Configure your infrastructure</source>
+          <target state="new"><ph id="ph1">&lt;a name="BKMK_ConfigureInfrastructure"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Configure your infrastructure</target>
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
           <source>Before you can configure certificate profiles you must complete the following tasks, which require knowledge of Windows Server 2012 R2 and Active Directory Certificate Services (ADCS):</source>
@@ -390,24 +390,24 @@
           <target state="new">To configure the CA to allow the requester to specify the validity period, on the CA run the following commands:</target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE</source>
-          <target state="new">certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE</target>
+          <source><bpt id="p1">**</bpt>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
-          <source>net stop certsvc</source>
-          <target state="new">net stop certsvc</target>
+          <source><bpt id="p1">**</bpt>net stop certsvc<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>net stop certsvc<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="197" translate="yes" xml:space="preserve">
-          <source>net start certsvc</source>
-          <target state="new">net start certsvc</target>
+          <source><bpt id="p1">**</bpt>net start certsvc<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>net start certsvc<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="198" translate="yes" xml:space="preserve">
           <source>On the issuing CA, use the Certification Authority snap-in to publish the certificate template.</source>
           <target state="new">On the issuing CA, use the Certification Authority snap-in to publish the certificate template.</target>
         </trans-unit>
         <trans-unit id="199" translate="yes" xml:space="preserve">
-          <source>Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</source>
-          <target state="new">Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</target>
+          <source>Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-</ph><ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</source>
+          <target state="new">Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-</ph><ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</target>
         </trans-unit>
         <trans-unit id="200" translate="yes" xml:space="preserve">
           <source>Validate that the template published by viewing it under the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> folder.</source>
@@ -578,8 +578,8 @@
           <target state="new">After the wizard completes, edit the following registry key on the NDES Server:</target>
         </trans-unit>
         <trans-unit id="242" translate="yes" xml:space="preserve">
-          <source>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP</source>
-          <target state="new">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP</target>
+          <source><ph id="ph1">*</ph><bpt id="p1">*</bpt>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP\*<ept id="p1">*</ept></source>
+          <target state="new"><ph id="ph1">*</ph><bpt id="p1">*</bpt>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP\*<ept id="p1">*</ept></target>
         </trans-unit>
         <trans-unit id="243" translate="yes" xml:space="preserve">
           <source>To edit this key, identify the certificate template's <bpt id="p1">**</bpt>Purpose<ept id="p1">**</ept>, as found on its <bpt id="p2">**</bpt>Request Handling<ept id="p2">**</ept> tab, and then edit the corresponding entry in the registry by replacing the existing data with the name of the certificate template (not the display name of the template) that you specified in Task 1.</source>
@@ -830,8 +830,8 @@
           <target state="new">Review the following registry key:</target>
         </trans-unit>
         <trans-unit id="305" translate="yes" xml:space="preserve">
-          <source>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</source>
-          <target state="new">HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</target>
+          <source><bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="306" translate="yes" xml:space="preserve">
           <source>Ensure the following values are set as DWORD entries:</source>
@@ -938,8 +938,8 @@
           <target state="new">If you close the wizard before launching the Certificate Connector UI, you can reopen it by running the following command:</target>
         </trans-unit>
         <trans-unit id="332" translate="yes" xml:space="preserve">
-          <source>install_Path<ph id="ph1">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe</source>
-          <target state="new">install_Path<ph id="ph1">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe</target>
+          <source><bpt id="p1">**</bpt><ph id="ph1">&amp;lt;</ph>install_Path<ph id="ph2">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><ph id="ph1">&amp;lt;</ph>install_Path<ph id="ph2">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="333" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">**</bpt>Certificate Connector<ept id="p1">**</ept> UI:</source>
@@ -970,8 +970,8 @@
           <target state="new">To validate that the service is running, open a browser and enter the following URL, which should return a <bpt id="p1">**</bpt>403<ept id="p1">**</ept> error:</target>
         </trans-unit>
         <trans-unit id="340" translate="yes" xml:space="preserve">
-          <source>http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll</source>
-          <target state="new">http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll</target>
+          <source><bpt id="p1">**</bpt>http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="341" translate="yes" xml:space="preserve">
           <source>Next steps</source>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e94e4efa5a3ecb055ce416c3ee8dd21e56bad65</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\prerequisites-for-enrollment.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e7272874fe7f36e00332e65d6650a4749519048</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e315f25a81d5b0f668882754316b18c0177e4c46</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2bf6858f908094e86efa34f1e4d1a0e9a5fa3ec1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b6ee45d42aec7150f51a6e7d88b62c9269778906</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -190,8 +190,8 @@
           <target state="new">This contact address is displayed on the <bpt id="p1">**</bpt>Contact IT<ept id="p1">**</ept> page.</target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>You must enter a valid email address in the format <bpt id="p1">**</bpt>alias@domainname.com<ept id="p1">**</ept>.</source>
-          <target state="new">You must enter a valid email address in the format <bpt id="p1">**</bpt>alias@domainname.com<ept id="p1">**</ept>.</target>
+          <source>You must enter a valid email address in the format <bpt id="p1">**</bpt><ph id="ph1">alias@domainname.com</ph><ept id="p1">**</ept>.</source>
+          <target state="new">You must enter a valid email address in the format <bpt id="p1">**</bpt><ph id="ph1">alias@domainname.com</ph><ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Additional information</source>
@@ -382,20 +382,20 @@
           <target state="new">Set up management for the following platforms:</target>
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
-          <source>Android</source>
-          <target state="new">Android</target>
+          <source><bpt id="p1">[</bpt>Android<ept id="p1">](set-up-android-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Android<ept id="p1">](set-up-android-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="194" translate="yes" xml:space="preserve">
-          <source>iOS and Mac</source>
-          <target state="new">iOS and Mac</target>
+          <source><bpt id="p1">[</bpt>iOS and Mac<ept id="p1">](set-up-ios-and-mac-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>iOS and Mac<ept id="p1">](set-up-ios-and-mac-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>Windows PCs and laptops</source>
-          <target state="new">Windows PCs and laptops</target>
+          <source><bpt id="p1">[</bpt>Windows PCs and laptops<ept id="p1">](set-up-windows-device-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PCs and laptops<ept id="p1">](set-up-windows-device-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
-          <source>Windows 10 Mobile and Windows Phone</source>
-          <target state="new">Windows 10 Mobile and Windows Phone</target>
+          <source><bpt id="p1">[</bpt>Windows 10 Mobile and Windows Phone<ept id="p1">](set-up-windows-phone-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows 10 Mobile and Windows Phone<ept id="p1">](set-up-windows-phone-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="197" translate="yes" xml:space="preserve">
           <source>You can also:</source>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76b8ab90974dc258992ed8c660a04fc08872a4ec</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\use-groups-to-manage-users-and-devices-with-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e9278512c0dd24bb2ec0b0c254230961549bb60f</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">27499dfb333b57bab01a074b386e89206c50207a</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4db5df979d453a0b3540dd17a4e413d2a27e6339</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9c08dcf32e55a8ec3121cb796f61f5368ba5f7a0</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -138,8 +138,8 @@
           <target state="new">We'll give you notice before you are migrated.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>If you have any migration concerns, please contact our migration team at <bpt id="p1">&lt;</bpt>intunegrps@microsoft.com<ept id="p1">&gt;</ept>.</source>
-          <target state="new">If you have any migration concerns, please contact our migration team at <bpt id="p1">&lt;</bpt>intunegrps@microsoft.com<ept id="p1">&gt;</ept>.</target>
+          <source>If you have any migration concerns, please contact our migration team at <bpt id="p1">&lt;</bpt><ph id="ph1">intunegrps@microsoft.com</ph><ept id="p1">&gt;</ept>.</source>
+          <target state="new">If you have any migration concerns, please contact our migration team at <bpt id="p1">&lt;</bpt><ph id="ph1">intunegrps@microsoft.com</ph><ept id="p1">&gt;</ept>.</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>What happens to my existing user and device groups?</source>
@@ -570,28 +570,28 @@
           <target state="new">The admin also doesn't see status information on these pages of the admin console:</target>
         </trans-unit>
         <trans-unit id="240" translate="yes" xml:space="preserve">
-          <source>System Overview</source>
-          <target state="new">System Overview</target>
+          <source><bpt id="p1">**</bpt>System Overview<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>System Overview<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="241" translate="yes" xml:space="preserve">
-          <source>Groups Overview</source>
-          <target state="new">Groups Overview</target>
+          <source><bpt id="p1">**</bpt>Groups Overview<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Groups Overview<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="242" translate="yes" xml:space="preserve">
-          <source>Endpoint Protection Overview</source>
-          <target state="new">Endpoint Protection Overview</target>
+          <source><bpt id="p1">**</bpt>Endpoint Protection Overview<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Endpoint Protection Overview<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="243" translate="yes" xml:space="preserve">
-          <source>Alerts Overview</source>
-          <target state="new">Alerts Overview</target>
+          <source><bpt id="p1">**</bpt>Alerts Overview<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Alerts Overview<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="244" translate="yes" xml:space="preserve">
-          <source>Software Overview</source>
-          <target state="new">Software Overview</target>
+          <source><bpt id="p1">**</bpt>Software Overview<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Software Overview<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="245" translate="yes" xml:space="preserve">
-          <source>Policy Overview</source>
-          <target state="new">Policy Overview</target>
+          <source><bpt id="p1">**</bpt>Policy Overview<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Policy Overview<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="246" translate="yes" xml:space="preserve">
           <source>To create a filtered group view</source>

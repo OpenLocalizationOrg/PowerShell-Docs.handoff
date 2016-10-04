@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">00d63fa55cd29c938dd082e2eff240f08319e01a</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\protect-windows-devices-with-multi-factor-authentication.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">966a1408c7e2c412539c61f6baaa41d1b037e59b</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0b8ff408502c404ad16b68f7b460187d4219a74</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d10e8dcd94b00052f45e57b98b9756b6e0bbe507</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a01efc028cfac48ea32aa2b9cc7626bf97f53a5</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -50,12 +50,12 @@
           <target state="new">Automatic enrollment, as described in <bpt id="p1">[</bpt>Set up Windows device management<ept id="p1">](set-up-windows-device-management-with-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>An Active Directory domain to which the ADFS server is joined.</source>
-          <target state="new">An Active Directory domain to which the ADFS server is joined.</target>
+          <source><bpt id="p1">**</bpt>An Active Directory domain to which the ADFS server is joined.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>An Active Directory domain to which the ADFS server is joined.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Active Directory Federation Services (ADFS) server, configured for MFA.</source>
-          <target state="new">Active Directory Federation Services (ADFS) server, configured for MFA.</target>
+          <source><bpt id="p1">**</bpt>Active Directory Federation Services (ADFS) server, configured for MFA.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Active Directory Federation Services (ADFS) server, configured for MFA.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>A server that's running Windows Server 2012 R2 and is set up as an ADFS server.</source>

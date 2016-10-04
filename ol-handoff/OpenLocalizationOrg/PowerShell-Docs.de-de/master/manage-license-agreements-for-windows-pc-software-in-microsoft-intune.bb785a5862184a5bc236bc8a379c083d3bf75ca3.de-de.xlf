@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4af08b38716e04766175e2ab55db1a0dba788c20</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">089ab0b547ee1d3d0633a72169903c8f481ee3c4</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">82df11b43f8aaf4a090cc507bc4991b57dda39ec</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be5d252f409a4608158a3159931525f2126b541e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b3dc7cd2b80e82cc5e3cdd17781ccdc114eccda</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -142,8 +142,8 @@
           <target state="new">Only ASCII characters are supported.</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>The following characters are not allowed in the agreement name: <bpt id="p1">**</bpt>~ ! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</source>
-          <target state="new">The following characters are not allowed in the agreement name: <bpt id="p1">**</bpt>~ ! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</target>
+          <source>The following characters are not allowed in the agreement name: <bpt id="p1">**</bpt>~ ! <ph id="ph1">@</ph> # $ ^ <ph id="ph2">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph3">&amp;lt;</ph> <ph id="ph4">&amp;gt;</ph><ph id="ph5"> /</ph><ept id="p1">**</ept>.</source>
+          <target state="new">The following characters are not allowed in the agreement name: <bpt id="p1">**</bpt>~ ! <ph id="ph1">@</ph> # $ ^ <ph id="ph2">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph3">&amp;lt;</ph> <ph id="ph4">&amp;gt;</ph><ph id="ph5"> /</ph><ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>Spaces are allowed in the name.</source>
@@ -158,8 +158,8 @@
           <target state="new">The file must contain at least one agreement pair, and cannot contain more than 5,000 agreement pairs.</target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>Format for the file</source>
-          <target state="new">Format for the file</target>
+          <source><bpt id="p1">**</bpt>Format for the file<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Format for the file<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>You can create this file by adding your agreement pairs to a plain text document in one of the following formats, depending on the organization type that you have registered with the VLSC.</source>
@@ -206,8 +206,8 @@
           <target state="new"><bpt id="p1">**</bpt>Agreement name<ept id="p1">**</ept> - Specify a unique name for the agreement.</target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</source>
-          <target state="new">The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</target>
+          <source>The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! <ph id="ph1">@</ph> # $ ^ <ph id="ph2">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph3">&amp;lt;</ph> <ph id="ph4">&amp;gt;</ph><ph id="ph5"> /</ph><ept id="p1">**</ept>.</source>
+          <target state="new">The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! <ph id="ph1">@</ph> # $ ^ <ph id="ph2">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph3">&amp;lt;</ph> <ph id="ph4">&amp;gt;</ph><ph id="ph5"> /</ph><ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Spaces are allowed in the name.</source>
@@ -342,8 +342,8 @@
           <target state="new"><bpt id="p1">**</bpt>Agreement name<ept id="p1">**</ept> (required).</target>
         </trans-unit>
         <trans-unit id="183" translate="yes" xml:space="preserve">
-          <source>The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</source>
-          <target state="new">The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</target>
+          <source>The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! <ph id="ph1">@</ph> # $ ^ <ph id="ph2">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph3">&amp;lt;</ph> <ph id="ph4">&amp;gt;</ph><ph id="ph5"> /</ph><ept id="p1">**</ept>.</source>
+          <target state="new">The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! <ph id="ph1">@</ph> # $ ^ <ph id="ph2">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph3">&amp;lt;</ph> <ph id="ph4">&amp;gt;</ph><ph id="ph5"> /</ph><ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="184" translate="yes" xml:space="preserve">
           <source>Spaces are allowed in the name.</source>

@@ -2,13 +2,13 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2c2774dd85d8ce9c056248f801220e06f17063b</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\control-microsoft-passport-settings-on-devices-with-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48d8f132a132f307c0824c7f8c0396f105fa640e</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">589705b7cf9617cad8c37a0306890a062ddba15a</xliffext:olskeletonhash>
       <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">00facaef691bf957f1fc037b41463bb4d06ad547</xliffext:olxliffhash>
     </header>
     <body>
@@ -210,8 +210,8 @@
           <target state="new">(This is also the behavior if the setting is not configured.)</target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>Special characters include: <bpt id="p1">**</bpt>! " # $ % <ph id="ph1">&amp;amp;</ph> ' ( ) &amp;#42; + , - . / : ; <ph id="ph2">&amp;lt; = &amp;gt;</ph> ? @ [ \ ] ^ _ &amp;#96; { &amp;#124; } ~<ept id="p1">**</ept>.</source>
-          <target state="new">Special characters include: <bpt id="p1">**</bpt>! " # $ % <ph id="ph1">&amp;amp;</ph> ' ( ) &amp;#42; + , - . / : ; <ph id="ph2">&amp;lt; = &amp;gt;</ph> ? @ [ \ ] ^ _ &amp;#96; { &amp;#124; } ~<ept id="p1">**</ept>.</target>
+          <source>Special characters include: <bpt id="p1">**</bpt>! " # $ % <ph id="ph1">&amp;amp;</ph> ' ( ) &amp;#42; + , - . / : ; <ph id="ph2">&amp;lt;</ph><ph id="ph3"> = </ph><ph id="ph4">&amp;gt;</ph> ? <ph id="ph5">@</ph> [ \ ] ^ _ &amp;#96; { &amp;#124; } ~<ept id="p1">**</ept>.</source>
+          <target state="new">Special characters include: <bpt id="p1">**</bpt>! " # $ % <ph id="ph1">&amp;amp;</ph> ' ( ) &amp;#42; + , - . / : ; <ph id="ph2">&amp;lt;</ph><ph id="ph3"> = </ph><ph id="ph4">&amp;gt;</ph> ? <ph id="ph5">@</ph> [ \ ] ^ _ &amp;#96; { &amp;#124; } ~<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>PIN expiration (days)<ept id="p1">**</ept>.</source>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1aabf820170483eacc83bec5e2b275e84dc07ffd</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\intune-service-to-service-exchange-connector.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">745f54592e23c3e2b3ce67901afee023344d19c9</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e924f61c1e92799b1003b3a37bc5d02b444d89e0</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">28fbface76d5d410106894fd19952516d3911a69</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bd7712f7cd19a871f5f91d005dbe66f9e28bbad4</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -58,16 +58,16 @@
           <target state="new">Exchange Online configured and running</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>Exchange Online</source>
-          <target state="new">Exchange Online</target>
+          <source><bpt id="p1">[</bpt>Exchange Online<ept id="p1">](https://technet.microsoft.com/library/jj200580.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Exchange Online<ept id="p1">](https://technet.microsoft.com/library/jj200580.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Mobile device management authority</source>
           <target state="new">Mobile device management authority</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>Set the mobile device management authority to Microsoft Intune</source>
-          <target state="new">Set the mobile device management authority to Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Set the mobile device management authority to Microsoft Intune<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set the mobile device management authority to Microsoft Intune<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)</ept></target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Microsoft Exchange version</source>
@@ -138,8 +138,8 @@
           <target state="new">In the workspace shortcuts pane, choose <bpt id="p1">**</bpt>ADMIN<ept id="p1">**</ept>, then go <bpt id="p2">**</bpt>Mobile Device Management<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Microsoft Exchange<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Set Up Exchange Connection<ept id="p4">**</ept>.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Set up service to service connector page</source>
-          <target state="new">Set up service to service connector page</target>
+          <source><ph id="ph1">![</ph>Set up service to service connector page<ph id="ph2">](../media/intunesa5cservicetoserviceconnector.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Set up service to service connector page<ph id="ph2">](../media/intunesa5cservicetoserviceconnector.png)</ph></target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>On the <bpt id="p1">**</bpt>Set Up Exchange Connection<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Set Up Service to Service Connector<ept id="p2">**</ept>.</source>

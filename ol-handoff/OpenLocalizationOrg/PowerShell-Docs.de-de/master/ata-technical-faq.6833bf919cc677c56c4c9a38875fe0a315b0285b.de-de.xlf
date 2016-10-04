@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97a1ceae8453bfd305efeae7cc4760282c962c4c</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-technical-faq.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c349b747253cc9b4a1114d1c505bc05281163939</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2f78b5a81b6e7b206034bc84f634eb8131f0846</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a8012b2fe7e038992be19af4066db5fe761fc103</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fe6a7b21532e5b626dfc57a1564d29b49268bc6</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -22,8 +22,8 @@
           <target state="new">Provides a list of frequently asked questions about ATA and the associated answers</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>Applies to: Advanced Threat Analytics version 1.7</source>
-          <target state="new">Applies to: Advanced Threat Analytics version 1.7</target>
+          <source><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>ATA frequently asked questions</source>
@@ -386,24 +386,24 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="194" translate="yes" xml:space="preserve">
-          <source>ATA prerequisites</source>
-          <target state="new">ATA prerequisites</target>
+          <source><bpt id="p1">[</bpt>ATA prerequisites<ept id="p1">](/advanced-threat-analytics/plan-design/ata-prerequisites)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>ATA prerequisites<ept id="p1">](/advanced-threat-analytics/plan-design/ata-prerequisites)</ept></target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>ATA capacity planning</source>
-          <target state="new">ATA capacity planning</target>
+          <source><bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>ATA capacity planning<ept id="p1">](/advanced-threat-analytics/plan-design/ata-capacity-planning)</ept></target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
-          <source>Configure event collection</source>
-          <target state="new">Configure event collection</target>
+          <source><bpt id="p1">[</bpt>Configure event collection<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configure event collection<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection)</ept></target>
         </trans-unit>
         <trans-unit id="197" translate="yes" xml:space="preserve">
-          <source>Configuring Windows event forwarding</source>
-          <target state="new">Configuring Windows event forwarding</target>
+          <source><bpt id="p1">[</bpt>Configuring Windows event forwarding<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection#Configuring-Windows-Event-Forwarding)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configuring Windows event forwarding<ept id="p1">](/advanced-threat-analytics/deploy-use/configure-event-collection#Configuring-Windows-Event-Forwarding)</ept></target>
         </trans-unit>
         <trans-unit id="198" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
       </group>
     </body>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d212dddc1d5665b7badf6cc27b41e012f74d96c</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\manage-data-transfer-between-ios-apps-with-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64c48deb503e6a6cac9a1ea24c60c97952930832</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">00130e65eda0359d8a47478d9062cccb9d280a75</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b791bf75616d6449208c75d3014c1667950998fe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7783dc16235145b1a90c20a0bc5b687b406c190</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -138,8 +138,8 @@
           <target state="new">Deploy the apps and the email profile that you want managed <bpt id="p1">**</bpt>through your third-party MDM solution<ept id="p1">**</ept> using the setting described in steps 3 and 4.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Deploy the app with the following app configuration settings: key=IntuneMAMUPN, Value=<bpt id="p1">&lt;</bpt>username@company.com<ept id="p1">&gt;</ept> [example: ‘IntuneMAMUPN’, ‘jondoe@microsoft.com’]</source>
-          <target state="new">Deploy the app with the following app configuration settings: key=IntuneMAMUPN, Value=<bpt id="p1">&lt;</bpt>username@company.com<ept id="p1">&gt;</ept> [example: ‘IntuneMAMUPN’, ‘jondoe@microsoft.com’]</target>
+          <source>Deploy the app with the following app configuration settings: key=IntuneMAMUPN, Value=<bpt id="p1">&lt;</bpt><ph id="ph1">username@company.com</ph><ept id="p1">&gt;</ept> [example: ‘IntuneMAMUPN’, <ph id="ph2">‘jondoe@microsoft.com’]</ph></source>
+          <target state="new">Deploy the app with the following app configuration settings: key=IntuneMAMUPN, Value=<bpt id="p1">&lt;</bpt><ph id="ph1">username@company.com</ph><ept id="p1">&gt;</ept> [example: ‘IntuneMAMUPN’, <ph id="ph2">‘jondoe@microsoft.com’]</ph></target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Deploy the Open in management policy to enrolled devices.</source>
@@ -190,8 +190,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>Protect app data using mobile app management policies with Microsoft Intune</source>
-          <target state="new">Protect app data using mobile app management policies with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Protect app data using mobile app management policies with Microsoft Intune<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Protect app data using mobile app management policies with Microsoft Intune<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

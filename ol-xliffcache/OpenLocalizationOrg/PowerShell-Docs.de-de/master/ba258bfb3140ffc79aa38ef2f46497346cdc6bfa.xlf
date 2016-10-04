@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba258bfb3140ffc79aa38ef2f46497346cdc6bfa</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\ios-mam-policy-settings.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0364559289aba96c206c4dc6eef195c0d41cc39f</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5dc355b8a1bafe3d9ed06bb85c21897afaf197a</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">94194a7d9685d1cec0ec8c1b07c8f2773a63aad6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eedc1c2a7c8805a994a1f1c4fcc1aa7b1c4c51b7</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -46,8 +46,8 @@
           <target state="new"><bpt id="p1">**</bpt>Prevent iTunes and iCloud backups:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to disable, or <bpt id="p3">**</bpt>No<ept id="p3">**</ept> to allow backup of company data from the policy managed apps.</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>Default value = Yes</source>
-          <target state="new">Default value = Yes</target>
+          <source><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Allow app to transfer data to other apps:<ept id="p1">**</ept>   Choose one of the options to indicate the apps that can receive data from policy managed apps:</source>
@@ -74,8 +74,8 @@
           <target state="new"><bpt id="p1">**</bpt>This setting does not control use of the Open In feature on mobile devices. To manage Open In, see <bpt id="p2">[</bpt>here<ept id="p2">](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)</ept><ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>Default value = Policy managed apps</source>
-          <target state="new">Default value = Policy managed apps</target>
+          <source><bpt id="p1">**</bpt>Default value = Policy managed apps<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = Policy managed apps<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Allow app to receive data from other apps:<ept id="p1">**</ept>  Specify apps that are allowed to transfer data to the policy managed apps:</source>
@@ -94,8 +94,8 @@
           <target state="new"><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: Do not allow data transfer from any app.</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Default value = All apps</source>
-          <target state="new">Default value = All apps</target>
+          <source><bpt id="p1">**</bpt>Default value = All apps<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = All apps<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Prevent Save As:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to disable the use of the Save As option in any app that uses this policy.</source>
@@ -106,8 +106,8 @@
           <target state="new">Choose <bpt id="p1">**</bpt>No<ept id="p1">**</ept> if you want to allow the use of Save As.</target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>Default value = Yes</source>
-          <target state="new">Default value = Yes</target>
+          <source><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Restrict cut, copy and paste with other apps:<ept id="p1">**</ept> Specify when  cut, copy, and paste operations should be restricted.</source>
@@ -138,8 +138,8 @@
           <target state="new"><bpt id="p1">**</bpt>Any App<ept id="p1">**</ept>: No restrictions for  cut, copy, and paste operations between any apps.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Default value =Policy managed apps with paste in</source>
-          <target state="new">Default value =Policy managed apps with paste in</target>
+          <source><bpt id="p1">**</bpt>Default value =Policy managed apps with paste in<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value =Policy managed apps with paste in<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Restrict web content to display in the Managed Browser:<ept id="p1">**</ept> When this setting is enabled, any links in the app will be opened in the Managed Browser.</source>
@@ -154,8 +154,8 @@
           <target state="new">If you are using Intune to manage your devices, see <bpt id="p1">[</bpt>manage internet access using managed browser policies with Microsoft Intune<ept id="p1">](manage-internet-access-using-managed-browser-policies.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>Default value = Yes</source>
-          <target state="new">Default value = Yes</target>
+          <source><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Encrypt app data:<ept id="p1">**</ept> For apps that are associated with an <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> mobile app management policy, data is encrypted at rest using device level encryption provided by the OS.</source>
@@ -206,8 +206,8 @@
           <target state="new">If there is no PIN, the apps will not launch and the end user will be prompted to set a PIN with a message -“Your company has required that you must first enable a device PIN to access this application.”</target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Default value -Encryption option is not selected.</source>
-          <target state="new">Default value -Encryption option is not selected.</target>
+          <source><bpt id="p1">**</bpt>Default value -Encryption option is not selected.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value -Encryption option is not selected.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Disable contact sync:<ept id="p1">**</ept>  Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to prevent contact information from synchronizing to the native address book app on the device.</source>
@@ -230,8 +230,8 @@
           <target state="new">Currently this is applicable only to the <bpt id="p1">**</bpt>Microsoft Outlook<ept id="p1">**</ept> app.</target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>Default value = Yes</source>
-          <target state="new">Default value = Yes</target>
+          <source><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
           <source>iOS Access policy settings</source>
@@ -250,8 +250,8 @@
           <target state="new">The user is prompted to set this up the first time they run the app in a work context.</target>
         </trans-unit>
         <trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>Default value = Yes</source>
-          <target state="new">Default value = Yes</target>
+          <source><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="161" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Allow simple PIN:<ept id="p1">**</ept> Specify whether to allow users to use simple PIN sequences such as 1234 or 1111.</source>
@@ -266,8 +266,8 @@
           <target state="new"><bpt id="p1">**</bpt>PIN Length:<ept id="p1">**</ept> Specify the minimum number of digits in a PIN.</target>
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>Default value = 4</source>
-          <target state="new">Default value = 4</target>
+          <source><bpt id="p1">**</bpt>Default value = 4<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = 4<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Number of attempts before PIN reset:<ept id="p1">**</ept> Specify the number of PIN entry attempts that can be made before the user must reset the PIN.</source>
@@ -290,24 +290,24 @@
           <target state="new">When the end user tries to access this app using their work account, they are prompted to provide their fingerprint identity instead of entering a PIN number.</target>
         </trans-unit>
         <trans-unit id="170" translate="yes" xml:space="preserve">
-          <source>Default value = Yes</source>
-          <target state="new">Default value = Yes</target>
+          <source><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="171" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Require corporate credentials for access:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to require corporate credentials instead of a PIN for app access.</source>
           <target state="new"><bpt id="p1">**</bpt>Require corporate credentials for access:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to require corporate credentials instead of a PIN for app access.</target>
         </trans-unit>
         <trans-unit id="172" translate="yes" xml:space="preserve">
-          <source>If you set this to Yes, this overrides the requirements for PIN or Touch ID.</source>
-          <target state="new">If you set this to Yes, this overrides the requirements for PIN or Touch ID.</target>
+          <source><bpt id="p1">**</bpt>If you set this to Yes, this overrides the requirements for PIN or Touch ID.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>If you set this to Yes, this overrides the requirements for PIN or Touch ID.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
           <source>The user will be prompted to provide their corporate credentials.</source>
           <target state="new">The user will be prompted to provide their corporate credentials.</target>
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
-          <source>Default value = No</source>
-          <target state="new">Default value = No</target>
+          <source><bpt id="p1">**</bpt>Default value = No<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = No<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="175" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Block managed apps from running on jailbroken or rooted devices:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to block apps from running on jailbroken or rooted devices.</source>
@@ -318,8 +318,8 @@
           <target state="new">The user will continue to be able to use the apps for personal tasks, but will have to use a different device for work.</target>
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>Default value = Yes</source>
-          <target state="new">Default value = Yes</target>
+          <source><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="178" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Recheck the access requirements after (minutes)<ept id="p1">**</ept><ph id="ph1">|-   </ph><bpt id="p2">**</bpt>Timeout:<ept id="p2">**</ept> Time (in minutes) before the access requirements for the app are rechecked.</source>
@@ -330,8 +330,8 @@
           <target state="new"><bpt id="p1">**</bpt>Offline grace period:<ept id="p1">**</ept> If the device is offline, specify the time (in minutes) before the access requirements for the app are rechecked.</target>
         </trans-unit>
         <trans-unit id="180" translate="yes" xml:space="preserve">
-          <source>Default value = 30 minute timeout, and 720 minute offline grace period</source>
-          <target state="new">Default value = 30 minute timeout, and 720 minute offline grace period</target>
+          <source><bpt id="p1">**</bpt>Default value = 30 minute timeout, and 720 minute offline grace period<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = 30 minute timeout, and 720 minute offline grace period<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="181" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Offline interval before app data is wiped (days):<ept id="p1">**</ept> You can choose to wipe the company data if a device has been offline for a certain period.</source>
@@ -346,8 +346,8 @@
           <target state="new"><bpt id="p1">**</bpt>Entering a value of  0 will turn this setting off<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="184" translate="yes" xml:space="preserve">
-          <source>Default value = 90 days</source>
-          <target state="new">Default value = 90 days</target>
+          <source><bpt id="p1">**</bpt>Default value = 90 days<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Default value = 90 days<ept id="p1">**</ept></target>
         </trans-unit>
       </group>
     </body>

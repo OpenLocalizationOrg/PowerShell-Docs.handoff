@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">21f4e16787a3f5aa1970fbf7d22214018bc8c69c</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\exchange-activesync-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eaafa1aba95686beb67c7576a7751e68aaf4435e</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b93dc84ec123305997a5d8b9230c5b7bc2bbc117</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5170ba8e238361dd07991a6e4f828d6e2348fbf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57f5acb52c9191ce8199387c9fa89e8101658796</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -42,8 +42,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Require a password to unlock mobile devices</source>
-          <target state="new">Require a password to unlock mobile devices</target>
+          <source><bpt id="p1">**</bpt>Require a password to unlock mobile devices<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require a password to unlock mobile devices<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Specifies whether devices must be locked by using a password.</source>
@@ -54,48 +54,48 @@
           <target state="new">(not applicable to devices running Windows RT).</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Required password type</source>
-          <target state="new">Required password type</target>
+          <source><bpt id="p1">**</bpt>Required password type<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Required password type<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Specifies the type of password that will be required, such as numeric only or alphanumeric.</source>
           <target state="new">Specifies the type of password that will be required, such as numeric only or alphanumeric.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Minimum password length</source>
-          <target state="new">Minimum password length</target>
+          <source><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Specifies the minimum number of required characters in the device password.</source>
           <target state="new">Specifies the minimum number of required characters in the device password.</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>Allow simple passwords</source>
-          <target state="new">Allow simple passwords</target>
+          <source><bpt id="p1">**</bpt>Allow simple passwords<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow simple passwords<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Specifies whether you can use simple passwords, which include ‘0000’ and ‘1234’.</source>
           <target state="new">Specifies whether you can use simple passwords, which include ‘0000’ and ‘1234’.</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>Number of repeated sign-in failures to allow before the device is wiped</source>
-          <target state="new">Number of repeated sign-in failures to allow before the device is wiped</target>
+          <source><bpt id="p1">**</bpt>Number of repeated sign-in failures to allow before the device is wiped<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Number of repeated sign-in failures to allow before the device is wiped<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Specifies the number of times that a user can enter an incorrect password before the device is wiped.</source>
           <target state="new">Specifies the number of times that a user can enter an incorrect password before the device is wiped.</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>Password expiration (days)</source>
-          <target state="new">Password expiration (days)</target>
+          <source><bpt id="p1">**</bpt>Password expiration (days)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Password expiration (days)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Specifies the number of days after which the device password must be changed.</source>
           <target state="new">Specifies the number of days after which the device password must be changed.</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Remember password history</source>
-          <target state="new">Remember password history</target>
+          <source><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>Specifies whether to not allow the use of previously used passwords.</source>
@@ -110,8 +110,8 @@
           <target state="new">Specifies the number of previously used passwords that can't be used again.</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>Minutes of inactivity before password is required</source>
-          <target state="new">Minutes of inactivity before password is required</target>
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before password is required<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Minutes of inactivity before password is required<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Specifies the amount of time that a device must be idle before the screen is locked.</source>
@@ -130,8 +130,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</source>
-          <target state="new"><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</target>
+          <source><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph></target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Requires the data on a device to be encrypted when supported.</source>
@@ -146,16 +146,16 @@
           <target state="new">To enable encryption on iOS devices, enable the <bpt id="p1">**</bpt>Require a password to unlock mobile devices<ept id="p1">**</ept> setting.</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
-          <source>Require encryption on storage cards</source>
-          <target state="new">Require encryption on storage cards</target>
+          <source><bpt id="p1">**</bpt>Require encryption on storage cards<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require encryption on storage cards<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>Requires data that is stored on external storage such as an SD card to be encrypted (on supported devices).</source>
           <target state="new">Requires data that is stored on external storage such as an SD card to be encrypted (on supported devices).</target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>1<ph id="ph1">&lt;/sup&gt;</ph> Additional information for devices that run Windows 8.1</source>
-          <target state="new">1<ph id="ph1">&lt;/sup&gt;</ph> Additional information for devices that run Windows 8.1</target>
+          <source><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph> Additional information for devices that run Windows 8.1</source>
+          <target state="new"><ph id="ph1">&lt;sup&gt;</ph>1<ph id="ph2">&lt;/sup&gt;</ph> Additional information for devices that run Windows 8.1</target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>If you want to enforce encryption on devices that run Windows 8.1, you must install the <bpt id="p1">[</bpt>December 2014 MDM client update for Windows<ept id="p1">](http://support.microsoft.com/kb/3013816)</ept> on each device.</source>
@@ -190,24 +190,24 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>Allow users to download email attachments</source>
-          <target state="new">Allow users to download email attachments</target>
+          <source><bpt id="p1">**</bpt>Allow users to download email attachments<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow users to download email attachments<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Specifies whether email attachments can be downloaded to the device.</source>
           <target state="new">Specifies whether email attachments can be downloaded to the device.</target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>Email synchronization period</source>
-          <target state="new">Email synchronization period</target>
+          <source><bpt id="p1">**</bpt>Email synchronization period<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Email synchronization period<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
           <source>Specifies the number of days of received email that will be synchronized to the device.</source>
           <target state="new">Specifies the number of days of received email that will be synchronized to the device.</target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Allow mobile devices that don’t fully support Exchange ActiveSync settings to synchronize with Exchange</source>
-          <target state="new">Allow mobile devices that don’t fully support Exchange ActiveSync settings to synchronize with Exchange</target>
+          <source><bpt id="p1">**</bpt>Allow mobile devices that don’t fully support Exchange ActiveSync settings to synchronize with Exchange<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow mobile devices that don’t fully support Exchange ActiveSync settings to synchronize with Exchange<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Specifies whether to allow Exchange access on devices that don't support one or more Exchange ActiveSync settings.</source>
@@ -226,8 +226,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>Allow web browser</source>
-          <target state="new">Allow web browser</target>
+          <source><bpt id="p1">**</bpt>Allow web browser<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow web browser<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>Specifies whether the web browser on the device can be used.</source>
@@ -250,8 +250,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>Allow camera</source>
-          <target state="new">Allow camera</target>
+          <source><bpt id="p1">**</bpt>Allow camera<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow camera<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>Specifies whether the camera on the device can be used.</source>
@@ -266,8 +266,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
-          <target state="new">Manage settings and features on your devices with Microsoft Intune policies</target>
+          <source><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></target>
         </trans-unit>
       </group>
     </body>

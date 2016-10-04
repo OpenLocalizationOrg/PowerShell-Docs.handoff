@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5bad6dce377bcec66154ecbb4febe5316894402f</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\wi-fi-connections-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">678d432b423560a3d8447fd7822322405e4bfbaa</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4f6cb7424f6b79239467c428538684aeceaa87e</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5f5c1c2bd17c3f794aeb1e0602b1c65c5fb6507</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eeb26838e5dec9a5d2afa6334debe73ec657b1eb</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -154,24 +154,24 @@
           <target state="new">Use when:</target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>Proxy settings for this Wi-Fi connection</source>
-          <target state="new">Proxy settings for this Wi-Fi connection</target>
+          <source><bpt id="p1">**</bpt>Proxy settings for this Wi-Fi connection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Proxy settings for this Wi-Fi connection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>Choose the proxy settings type:</source>
           <target state="new">Choose the proxy settings type:</target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept> (default)</source>
-          <target state="new"><bpt id="p1">**</bpt>None<ept id="p1">**</ept> (default)</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>None<ept id="p1">**</ept> (default)</source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>None<ept id="p1">**</ept> (default)</target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Manual<ept id="p1">**</ept> -   Manually specify the URL and port number of the proxy server.</source>
-          <target state="new"><bpt id="p1">**</bpt>Manual<ept id="p1">**</ept> -   Manually specify the URL and port number of the proxy server.</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Manual<ept id="p1">**</ept> -   Manually specify the URL and port number of the proxy server.</source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Manual<ept id="p1">**</ept> -   Manually specify the URL and port number of the proxy server.</target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept> – Use a configuration file to configure the proxy server.</source>
-          <target state="new"><bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept> – Use a configuration file to configure the proxy server.</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept> – Use a configuration file to configure the proxy server.</source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept> – Use a configuration file to configure the proxy server.</target>
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>Always</source>
@@ -190,8 +190,8 @@
           <target state="new"><bpt id="p1">**</bpt>Proxy settings for this Wi-Fi connection<ept id="p1">**</ept> is set to <bpt id="p2">**</bpt>Manual<ept id="p2">**</ept></target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>Proxy Server URL</source>
-          <target state="new">Proxy Server URL</target>
+          <source><bpt id="p1">**</bpt>Proxy Server URL<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Proxy Server URL<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Specify the URL of the file containing the proxy server settings.</source>
@@ -294,16 +294,16 @@
           <target state="new">More information</target>
         </trans-unit>
         <trans-unit id="171" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <target state="new">Name</target>
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="172" translate="yes" xml:space="preserve">
           <source>Enter a unique name for the Wi-Fi profile to identify it in the Intune console.</source>
           <target state="new">Enter a unique name for the Wi-Fi profile to identify it in the Intune console.</target>
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <target state="new">Description</target>
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
           <source>Provide a description w of the Wi-Fi profile and other relevant information that helps you to locate it.</source>
@@ -322,24 +322,24 @@
           <target state="new">More information</target>
         </trans-unit>
         <trans-unit id="178" translate="yes" xml:space="preserve">
-          <source>Configuration profile file</source>
-          <target state="new">Configuration profile file</target>
+          <source><bpt id="p1">**</bpt>Configuration profile file<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Configuration profile file<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="179" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>Import<ept id="p1">**</ept> to select the XML file containing the Wi-Fi profile settings that you want to import into Intune.</source>
           <target state="new">Click <bpt id="p1">**</bpt>Import<ept id="p1">**</ept> to select the XML file containing the Wi-Fi profile settings that you want to import into Intune.</target>
         </trans-unit>
         <trans-unit id="180" translate="yes" xml:space="preserve">
-          <source>Custom configuration profile name (displayed to users)</source>
-          <target state="new">Custom configuration profile name (displayed to users)</target>
+          <source><bpt id="p1">**</bpt>Custom configuration profile name (displayed to users)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Custom configuration profile name (displayed to users)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="181" translate="yes" xml:space="preserve">
           <source>Displays the name of the Wi-Fi configuration profile as it will be shown to users on their device.</source>
           <target state="new">Displays the name of the Wi-Fi configuration profile as it will be shown to users on their device.</target>
         </trans-unit>
         <trans-unit id="182" translate="yes" xml:space="preserve">
-          <source>Configuration profile details</source>
-          <target state="new">Configuration profile details</target>
+          <source><bpt id="p1">**</bpt>Configuration profile details<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Configuration profile details<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="183" translate="yes" xml:space="preserve">
           <source>Displays the XML code for the configuration profile you selected.</source>
@@ -410,52 +410,52 @@
           <target state="new">Use when:</target>
         </trans-unit>
         <trans-unit id="200" translate="yes" xml:space="preserve">
-          <source>Security type</source>
-          <target state="new">Security type</target>
+          <source><bpt id="p1">**</bpt>Security type<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security type<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="201" translate="yes" xml:space="preserve">
           <source>Select the security protocol for the wireless network:</source>
           <target state="new">Select the security protocol for the wireless network:</target>
         </trans-unit>
         <trans-unit id="202" translate="yes" xml:space="preserve">
-          <source>WPA-Enterprise/WPA2-Enterprise</source>
-          <target state="new">WPA-Enterprise/WPA2-Enterprise</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>WPA-Enterprise/WPA2-Enterprise<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>WPA-Enterprise/WPA2-Enterprise<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="203" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>No authentication (Open)<ept id="p1">**</ept> if the network is unsecured.</source>
-          <target state="new"><bpt id="p1">**</bpt>No authentication (Open)<ept id="p1">**</ept> if the network is unsecured.</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>No authentication (Open)<ept id="p1">**</ept> if the network is unsecured.</source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>No authentication (Open)<ept id="p1">**</ept> if the network is unsecured.</target>
         </trans-unit>
         <trans-unit id="204" translate="yes" xml:space="preserve">
           <source>Always</source>
           <target state="new">Always</target>
         </trans-unit>
         <trans-unit id="205" translate="yes" xml:space="preserve">
-          <source>EAP Type</source>
-          <target state="new">EAP Type</target>
+          <source><bpt id="p1">**</bpt>EAP Type<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>EAP Type<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="206" translate="yes" xml:space="preserve">
           <source>Choose the Extensible Authentication Protocol (EAP) type used to authenticate secured wireless connections:</source>
           <target state="new">Choose the Extensible Authentication Protocol (EAP) type used to authenticate secured wireless connections:</target>
         </trans-unit>
         <trans-unit id="207" translate="yes" xml:space="preserve">
-          <source>EAP-TLS</source>
-          <target state="new">EAP-TLS</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-TLS<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-TLS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="208" translate="yes" xml:space="preserve">
-          <source>PEAP</source>
-          <target state="new">PEAP</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>PEAP<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>PEAP<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="209" translate="yes" xml:space="preserve">
-          <source>EAP-TTLS</source>
-          <target state="new">EAP-TTLS</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-TTLS<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-TTLS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="210" translate="yes" xml:space="preserve">
           <source>You selected the <bpt id="p1">**</bpt>WPA-Enterprise/WPA2-Enterprise<ept id="p1">**</ept> security type.</source>
           <target state="new">You selected the <bpt id="p1">**</bpt>WPA-Enterprise/WPA2-Enterprise<ept id="p1">**</ept> security type.</target>
         </trans-unit>
         <trans-unit id="211" translate="yes" xml:space="preserve">
-          <source>Select root certificates for server validation</source>
-          <target state="new">Select root certificates for server validation</target>
+          <source><bpt id="p1">**</bpt>Select root certificates for server validation<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Select root certificates for server validation<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="212" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>, then choose the trusted root certificate profile used to authenticate the connection.</source>
@@ -470,52 +470,52 @@
           <target state="new">Any <bpt id="p1">**</bpt>EAP Type<ept id="p1">**</ept> is selected.</target>
         </trans-unit>
         <trans-unit id="215" translate="yes" xml:space="preserve">
-          <source>Authentication method</source>
-          <target state="new">Authentication method</target>
+          <source><bpt id="p1">**</bpt>Authentication method<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Authentication method<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="216" translate="yes" xml:space="preserve">
           <source>Select the authentication method for the connection:</source>
           <target state="new">Select the authentication method for the connection:</target>
         </trans-unit>
         <trans-unit id="217" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept> to specify the client certificate</source>
-          <target state="new"><bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept> to specify the client certificate</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept> to specify the client certificate</source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept> to specify the client certificate</target>
         </trans-unit>
         <trans-unit id="218" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Username and Password<ept id="p1">**</ept> to specify a different method for authentication</source>
-          <target state="new"><bpt id="p1">**</bpt>Username and Password<ept id="p1">**</ept> to specify a different method for authentication</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Username and Password<ept id="p1">**</ept> to specify a different method for authentication</source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Username and Password<ept id="p1">**</ept> to specify a different method for authentication</target>
         </trans-unit>
         <trans-unit id="219" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>EAP type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>PEAP<ept id="p2">**</ept> or <bpt id="p3">**</bpt>EAP-TTLS<ept id="p3">**</ept>.</source>
           <target state="new">The <bpt id="p1">**</bpt>EAP type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>PEAP<ept id="p2">**</ept> or <bpt id="p3">**</bpt>EAP-TTLS<ept id="p3">**</ept>.</target>
         </trans-unit>
         <trans-unit id="220" translate="yes" xml:space="preserve">
-          <source>Select a non-EAP method for authentication (Inner identity)</source>
-          <target state="new">Select a non-EAP method for authentication (Inner identity)</target>
+          <source><bpt id="p1">**</bpt>Select a non-EAP method for authentication (Inner identity)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Select a non-EAP method for authentication (Inner identity)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
           <source>Select how you will authenticate the connection:</source>
           <target state="new">Select how you will authenticate the connection:</target>
         </trans-unit>
         <trans-unit id="222" translate="yes" xml:space="preserve">
-          <source>None</source>
-          <target state="new">None</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>None<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>None<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="223" translate="yes" xml:space="preserve">
-          <source>Unencrypted password (PAP)</source>
-          <target state="new">Unencrypted password (PAP)</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Unencrypted password (PAP)<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Unencrypted password (PAP)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="224" translate="yes" xml:space="preserve">
-          <source>Challenge Handshake Authentication Protocol (CHAP)</source>
-          <target state="new">Challenge Handshake Authentication Protocol (CHAP)</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Challenge Handshake Authentication Protocol (CHAP)<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Challenge Handshake Authentication Protocol (CHAP)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="225" translate="yes" xml:space="preserve">
-          <source>Microsoft CHAP (MS-CHAP)</source>
-          <target state="new">Microsoft CHAP (MS-CHAP)</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Microsoft CHAP (MS-CHAP)<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Microsoft CHAP (MS-CHAP)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="226" translate="yes" xml:space="preserve">
-          <source>Microsoft CHAP Version 2 (MS-CHAP v2)</source>
-          <target state="new">Microsoft CHAP Version 2 (MS-CHAP v2)</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Microsoft CHAP Version 2 (MS-CHAP v2)<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>Microsoft CHAP Version 2 (MS-CHAP v2)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="227" translate="yes" xml:space="preserve">
           <source>The available options depend on the EAP type you selected.</source>
@@ -526,8 +526,8 @@
           <target state="new">The <bpt id="p1">**</bpt>Authentication method<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Username and Password<ept id="p2">**</ept>.</target>
         </trans-unit>
         <trans-unit id="229" translate="yes" xml:space="preserve">
-          <source>Enable identity privacy (Outer Identity)</source>
-          <target state="new">Enable identity privacy (Outer Identity)</target>
+          <source><bpt id="p1">**</bpt>Enable identity privacy (Outer Identity)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enable identity privacy (Outer Identity)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="230" translate="yes" xml:space="preserve">
           <source>Specify the text sent in response to an EAP identity request.</source>
@@ -546,8 +546,8 @@
           <target state="new">The <bpt id="p1">**</bpt>EAP type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>PEAP<ept id="p2">**</ept> or <bpt id="p3">**</bpt>EAP-TTLS<ept id="p3">**</ept>.</target>
         </trans-unit>
         <trans-unit id="234" translate="yes" xml:space="preserve">
-          <source>Select a client certificate for client authentication (Identity Certificate)</source>
-          <target state="new">Select a client certificate for client authentication (Identity Certificate)</target>
+          <source><bpt id="p1">**</bpt>Select a client certificate for client authentication (Identity Certificate)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Select a client certificate for client authentication (Identity Certificate)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="235" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>, then choose the SCEP certificate profile used to authenticate the connection.</source>
@@ -578,72 +578,72 @@
           <target state="new">Use when:</target>
         </trans-unit>
         <trans-unit id="242" translate="yes" xml:space="preserve">
-          <source>Security type</source>
-          <target state="new">Security type</target>
+          <source><bpt id="p1">**</bpt>Security type<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security type<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="243" translate="yes" xml:space="preserve">
           <source>Select the wireless network security protocol:</source>
           <target state="new">Select the wireless network security protocol:</target>
         </trans-unit>
         <trans-unit id="244" translate="yes" xml:space="preserve">
-          <source>WPA-Personal/WPA2-Personal</source>
-          <target state="new">WPA-Personal/WPA2-Personal</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>WPA-Personal/WPA2-Personal<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>WPA-Personal/WPA2-Personal<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="245" translate="yes" xml:space="preserve">
-          <source>WPA-Enterprise/WPA2-Enterprise</source>
-          <target state="new">WPA-Enterprise/WPA2-Enterprise</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>WPA-Enterprise/WPA2-Enterprise<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>WPA-Enterprise/WPA2-Enterprise<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="246" translate="yes" xml:space="preserve">
-          <source>WEP</source>
-          <target state="new">WEP</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>WEP<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>WEP<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="247" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>No authentication (Open)<ept id="p1">**</ept> if the network is unsecured.</source>
-          <target state="new"><bpt id="p1">**</bpt>No authentication (Open)<ept id="p1">**</ept> if the network is unsecured.</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>No authentication (Open)<ept id="p1">**</ept> if the network is unsecured.</source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>No authentication (Open)<ept id="p1">**</ept> if the network is unsecured.</target>
         </trans-unit>
         <trans-unit id="248" translate="yes" xml:space="preserve">
           <source>Always</source>
           <target state="new">Always</target>
         </trans-unit>
         <trans-unit id="249" translate="yes" xml:space="preserve">
-          <source>EAP Type</source>
-          <target state="new">EAP Type</target>
+          <source><bpt id="p1">**</bpt>EAP Type<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>EAP Type<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="250" translate="yes" xml:space="preserve">
           <source>Choose the Extensible Authentication Protocol (EAP) type used to authenticate secured wireless connections:</source>
           <target state="new">Choose the Extensible Authentication Protocol (EAP) type used to authenticate secured wireless connections:</target>
         </trans-unit>
         <trans-unit id="251" translate="yes" xml:space="preserve">
-          <source>EAP-TLS</source>
-          <target state="new">EAP-TLS</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-TLS<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-TLS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="252" translate="yes" xml:space="preserve">
-          <source>PEAP</source>
-          <target state="new">PEAP</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>PEAP<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>PEAP<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="253" translate="yes" xml:space="preserve">
-          <source>EAP-TLS</source>
-          <target state="new">EAP-TLS</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-TLS<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-TLS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="254" translate="yes" xml:space="preserve">
-          <source>EAP-AST</source>
-          <target state="new">EAP-AST</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-AST<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-AST<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="255" translate="yes" xml:space="preserve">
-          <source>LEAP</source>
-          <target state="new">LEAP</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>LEAP<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>LEAP<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="256" translate="yes" xml:space="preserve">
-          <source>EAP-SIM</source>
-          <target state="new">EAP-SIM</target>
+          <source><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-SIM<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">-   </ph><bpt id="p1">**</bpt>EAP-SIM<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="257" translate="yes" xml:space="preserve">
           <source>You selected a security type of <bpt id="p1">**</bpt>WPA-Enterprise/WPA2-Enterprise<ept id="p1">**</ept>.</source>
           <target state="new">You selected a security type of <bpt id="p1">**</bpt>WPA-Enterprise/WPA2-Enterprise<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="258" translate="yes" xml:space="preserve">
-          <source>Trusted server certificate names</source>
-          <target state="new">Trusted server certificate names</target>
+          <source><bpt id="p1">**</bpt>Trusted server certificate names<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Trusted server certificate names<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="259" translate="yes" xml:space="preserve">
           <source>Select the trusted root certificate profile used to authenticate the connection.</source>
@@ -658,8 +658,8 @@
           <target state="new">You selected an EAP type of <bpt id="p1">**</bpt>EAP-TLS<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PEAP<ept id="p2">**</ept>, <bpt id="p3">**</bpt>EAP-TTLS<ept id="p3">**</ept> or <bpt id="p4">**</bpt>EAP-FAST<ept id="p4">**</ept>.</target>
         </trans-unit>
         <trans-unit id="262" translate="yes" xml:space="preserve">
-          <source>Use Protected Access Credential (PAC)</source>
-          <target state="new">Use Protected Access Credential (PAC)</target>
+          <source><bpt id="p1">**</bpt>Use Protected Access Credential (PAC)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Use Protected Access Credential (PAC)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="263" translate="yes" xml:space="preserve">
           <source>Select to use protected access credentials to establish an authenticated tunnel between the client and the authentication server.</source>
@@ -674,8 +674,8 @@
           <target state="new">The <bpt id="p1">**</bpt>EAP-type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>EAP-FAST<ept id="p2">**</ept>.</target>
         </trans-unit>
         <trans-unit id="266" translate="yes" xml:space="preserve">
-          <source>Provision PAC</source>
-          <target state="new">Provision PAC</target>
+          <source><bpt id="p1">**</bpt>Provision PAC<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Provision PAC<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="267" translate="yes" xml:space="preserve">
           <source>Provisions the PAC file to your devices.</source>
@@ -690,8 +690,8 @@
           <target state="new"><bpt id="p1">**</bpt>Use Protected Access Credential (PAC)<ept id="p1">**</ept> is selected.</target>
         </trans-unit>
         <trans-unit id="270" translate="yes" xml:space="preserve">
-          <source>Authentication method</source>
-          <target state="new">Authentication method</target>
+          <source><bpt id="p1">**</bpt>Authentication method<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Authentication method<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="271" translate="yes" xml:space="preserve">
           <source>Select the authentication method used for the connection:</source>
@@ -706,36 +706,36 @@
           <target state="new"><bpt id="p1">**</bpt>Username and Password<ept id="p1">**</ept> to specify one of the following non-EAP methods for authentication (also known as Inner identity):</target>
         </trans-unit>
         <trans-unit id="274" translate="yes" xml:space="preserve">
-          <source>None</source>
-          <target state="new">None</target>
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>None<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="275" translate="yes" xml:space="preserve">
-          <source>Unencrypted password (PAP)</source>
-          <target state="new">Unencrypted password (PAP)</target>
+          <source><bpt id="p1">**</bpt>Unencrypted password (PAP)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Unencrypted password (PAP)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="276" translate="yes" xml:space="preserve">
-          <source>Challenge Handshake Authentication Protocol (CHAP)</source>
-          <target state="new">Challenge Handshake Authentication Protocol (CHAP)</target>
+          <source><bpt id="p1">**</bpt>Challenge Handshake Authentication Protocol (CHAP)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Challenge Handshake Authentication Protocol (CHAP)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="277" translate="yes" xml:space="preserve">
-          <source>Microsoft CHAP (MS-CHAP)</source>
-          <target state="new">Microsoft CHAP (MS-CHAP)</target>
+          <source><bpt id="p1">**</bpt>Microsoft CHAP (MS-CHAP)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft CHAP (MS-CHAP)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="278" translate="yes" xml:space="preserve">
-          <source>Microsoft CHAP Version 2 (MS-CHAP v2)</source>
-          <target state="new">Microsoft CHAP Version 2 (MS-CHAP v2)</target>
+          <source><bpt id="p1">**</bpt>Microsoft CHAP Version 2 (MS-CHAP v2)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft CHAP Version 2 (MS-CHAP v2)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="279" translate="yes" xml:space="preserve">
-          <source>EAP-TLS</source>
-          <target state="new">EAP-TLS</target>
+          <source><bpt id="p1">**</bpt>EAP-TLS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>EAP-TLS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="280" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>EAP type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>PEAP<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>EAP-TTLS<ept id="p3">**</ept>.</source>
           <target state="new">The <bpt id="p1">**</bpt>EAP type<ept id="p1">**</ept> is <bpt id="p2">**</bpt>PEAP<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>EAP-TTLS<ept id="p3">**</ept>.</target>
         </trans-unit>
         <trans-unit id="281" translate="yes" xml:space="preserve">
-          <source>Select a client certificate for client authentication (Identity Certificate)</source>
-          <target state="new">Select a client certificate for client authentication (Identity Certificate)</target>
+          <source><bpt id="p1">**</bpt>Select a client certificate for client authentication (Identity Certificate)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Select a client certificate for client authentication (Identity Certificate)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="282" translate="yes" xml:space="preserve">
           <source>Select the SCEP certificate profile used to authenticate the connection.</source>
@@ -750,8 +750,8 @@
           <target state="new">When the security type is <bpt id="p1">**</bpt>WPA-Enterprise/WPA2-Enterprise<ept id="p1">**</ept> and the <bpt id="p2">**</bpt>EAP type<ept id="p2">**</ept> is <bpt id="p3">**</bpt>EAP-TLS<ept id="p3">**</ept>, <bpt id="p4">**</bpt>PEAP<ept id="p4">**</ept> or <bpt id="p5">**</bpt>EAP-TTLS<ept id="p5">**</ept>.</target>
         </trans-unit>
         <trans-unit id="285" translate="yes" xml:space="preserve">
-          <source>Enable identity privacy (Outer Identity)</source>
-          <target state="new">Enable identity privacy (Outer Identity)</target>
+          <source><bpt id="p1">**</bpt>Enable identity privacy (Outer Identity)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enable identity privacy (Outer Identity)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="286" translate="yes" xml:space="preserve">
           <source>Specify text that sent in response to an EAP identity request.</source>

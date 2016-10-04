@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">27d993974d71b34b36cbd3216b83a1303689bf15</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-to-skype-for-business-online-with-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfb3f79d6fef00a498068f27b9694400d0bcf07b</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4c294e1c56e163cffa78e07359ee1375b5739fd</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd2d1cd892e284e1a4afadc6da4e72772c05d589</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b6b8f0c17521530d806cd3fc59f20dcefda53daf</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -202,12 +202,12 @@
           <target state="new">Under <bpt id="p1">**</bpt>Application access<ept id="p1">**</ept>, you can choose to apply conditional access policy to:</target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>iOS</source>
-          <target state="new">iOS</target>
+          <source><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Android</source>
-          <target state="new">Android</target>
+          <source><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
           <source>Under <bpt id="p1">**</bpt>Targeted Groups<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Modify<ept id="p2">**</ept> to select the Azure Active Directory security groups to which the policy will apply.</source>

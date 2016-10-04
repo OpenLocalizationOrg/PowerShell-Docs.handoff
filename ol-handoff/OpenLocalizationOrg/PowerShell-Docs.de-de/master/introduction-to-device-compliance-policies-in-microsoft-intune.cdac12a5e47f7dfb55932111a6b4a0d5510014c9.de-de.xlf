@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">476f44df54fbea5c0fcfe8cf0e3ce4a61bd7c0a0</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\introduction-to-device-compliance-policies-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bcde458db17093b71ac3f99d94c23ebf2820fe47</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">43793752d2d1fb697c956b0b0cff1ae9651b31e4</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c750ae0e083de28cdbb9ec2f78275591241e4ac</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a8ded8e86a145a22469a64b96de337975cc8220</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -102,8 +102,8 @@
           <target state="new">Samsung KNOX Standard 4.0 and later</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>PIN or Password Configuration</source>
-          <target state="new">PIN or Password Configuration</target>
+          <source><bpt id="p1">**</bpt>PIN or Password Configuration<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>PIN or Password Configuration<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>Remediated</source>
@@ -122,8 +122,8 @@
           <target state="new">Quarantined</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>Device encryption</source>
-          <target state="new">Device encryption</target>
+          <source><bpt id="p1">**</bpt>Device encryption<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Device encryption<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>N/A</source>
@@ -142,8 +142,8 @@
           <target state="new">Quarantined</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>Jailbroken or rooted device</source>
-          <target state="new">Jailbroken or rooted device</target>
+          <source><bpt id="p1">**</bpt>Jailbroken or rooted device<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Jailbroken or rooted device<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>N/A</source>
@@ -162,8 +162,8 @@
           <target state="new">Quarantined (not a setting)</target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>Email profile</source>
-          <target state="new">Email profile</target>
+          <source><bpt id="p1">**</bpt>Email profile<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Email profile<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>N/A</source>
@@ -182,8 +182,8 @@
           <target state="new">N/A</target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Minimum OS version</source>
-          <target state="new">Minimum OS version</target>
+          <source><bpt id="p1">**</bpt>Minimum OS version<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Minimum OS version<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Quarantined</source>
@@ -202,8 +202,8 @@
           <target state="new">Quarantined</target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>Maximum OS version</source>
-          <target state="new">Maximum OS version</target>
+          <source><bpt id="p1">**</bpt>Maximum OS version<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Maximum OS version<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>Quarantined</source>
@@ -222,8 +222,8 @@
           <target state="new">Quarantined</target>
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>Windows health attestation</source>
-          <target state="new">Windows health attestation</target>
+          <source><bpt id="p1">**</bpt>Windows health attestation<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows health attestation<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
           <source>Windows 10 and Windows 10 Mobile are Quarantined.</source>
@@ -274,20 +274,20 @@
           <target state="new">Next steps</target>
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>Create a device compliance policy</source>
-          <target state="new">Create a device compliance policy</target>
+          <source><bpt id="p1">[</bpt>Create a device compliance policy<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create a device compliance policy<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>Deploy and monitor a device compliance policy</source>
-          <target state="new">Deploy and monitor a device compliance policy</target>
+          <source><bpt id="p1">[</bpt>Deploy and monitor a device compliance policy<ept id="p1">](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Deploy and monitor a device compliance policy<ept id="p1">](deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="169" translate="yes" xml:space="preserve">
-          <source>Restrict access to email and O365 services</source>
-          <target state="new">Restrict access to email and O365 services</target>
+          <source><bpt id="p1">[</bpt>Restrict access to email and O365 services<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Restrict access to email and O365 services<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea1a6ef60b6a9cdd64559f67276280a4f491e30e</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f2a570fdcaaa427850773fb68a2069c0acd9b66d</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b07f481c708540c94af9c007b928e4b90f0f432</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f95c68f5223199f585a8b64dae0cdc84944f413</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">455d4daf46f4c1deb9728dd572fe8a9d89e0ac5d</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -158,16 +158,16 @@
           <target state="new">Examples</target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>-InputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</source>
-          <target state="new"><bpt id="p1">**</bpt>-InputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</target>
+          <source><bpt id="p1">**</bpt>-InputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>-InputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Path of the source Android app (.apk).</source>
           <target state="new">Path of the source Android app (.apk).</target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>-OutputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</source>
-          <target state="new"><bpt id="p1">**</bpt>-OutputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</target>
+          <source><bpt id="p1">**</bpt>-OutputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>-OutputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>Path to the "output" Android app.</source>
@@ -178,16 +178,16 @@
           <target state="new">If this is the same directory path as InputPath, the packaging will fail.</target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>-KeyStorePath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</source>
-          <target state="new"><bpt id="p1">**</bpt>-KeyStorePath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</target>
+          <source><bpt id="p1">**</bpt>-KeyStorePath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>-KeyStorePath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Path to the keystore file that contains the public/private key pair for signing.</source>
           <target state="new">Path to the keystore file that contains the public/private key pair for signing.</target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>-KeyStorePassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</source>
-          <target state="new"><bpt id="p1">**</bpt>-KeyStorePassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</target>
+          <source><bpt id="p1">**</bpt>-KeyStorePassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>-KeyStorePassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
           <source>Password used to decrypt the keystore.</source>
@@ -210,24 +210,24 @@
           <target state="new">keytool.exe -genkey -v -keystore keystorefile -alias ks -keyalg RSA -keysize 2048 -validity 50000</target>
         </trans-unit>
         <trans-unit id="150" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>-KeyAlias<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</source>
-          <target state="new"><bpt id="p1">**</bpt>-KeyAlias<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</target>
+          <source><bpt id="p1">**</bpt>-KeyAlias<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>-KeyAlias<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="151" translate="yes" xml:space="preserve">
           <source>Name of the key to be used for signing.</source>
           <target state="new">Name of the key to be used for signing.</target>
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>-KeyPassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</source>
-          <target state="new"><bpt id="p1">**</bpt>-KeyPassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</target>
+          <source><bpt id="p1">**</bpt>-KeyPassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>-KeyPassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
           <source>Password used to decrypt the private key that will be used for signing.</source>
           <target state="new">Password used to decrypt the private key that will be used for signing.</target>
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>-SigAlg<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</source>
-          <target state="new"><bpt id="p1">**</bpt>-SigAlg<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</target>
+          <source><bpt id="p1">**</bpt>-SigAlg<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>-SigAlg<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>Name of the signature algorithm to be used for signing.</source>
@@ -256,8 +256,8 @@
           <target state="new">To see help for the tool, enter the command:</target>
         </trans-unit>
         <trans-unit id="161" translate="yes" xml:space="preserve">
-          <source>Example:</source>
-          <target state="new">Example:</target>
+          <source><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>You will then be prompted for the <bpt id="p1">**</bpt>KeyStorePassword<ept id="p1">**</ept> and <bpt id="p2">**</bpt>KeyPassword<ept id="p2">**</ept>.</source>
@@ -308,12 +308,12 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="174" translate="yes" xml:space="preserve">
-          <source>Decide how to prepare apps for mobile application management with Microsoft Intune</source>
-          <target state="new">Decide how to prepare apps for mobile application management with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Decide how to prepare apps for mobile application management with Microsoft Intune<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Decide how to prepare apps for mobile application management with Microsoft Intune<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>Use the SDK to enable apps for mobile application management</source>
-          <target state="new">Use the SDK to enable apps for mobile application management</target>
+          <source><bpt id="p1">[</bpt>Use the SDK to enable apps for mobile application management<ept id="p1">](use-the-sdk-to-enable-apps-for-mobile-application-management.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Use the SDK to enable apps for mobile application management<ept id="p1">](use-the-sdk-to-enable-apps-for-mobile-application-management.md)</ept></target>
         </trans-unit>
       </group>
     </body>

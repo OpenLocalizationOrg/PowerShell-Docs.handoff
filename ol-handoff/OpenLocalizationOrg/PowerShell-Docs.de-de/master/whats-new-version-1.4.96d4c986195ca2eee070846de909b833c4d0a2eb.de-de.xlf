@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3ce91d8d53105e8dae6c437596d6c2b8326f253</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\whats-new-version-1.4.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45353de44ccb5f22e2736c9dbdc87f803588357c</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b3f91dc04a3769087c8662c3b0fd3faeaecd7e93</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">38244c9c4e281e2f3dc305c549dd28cd8dabd867</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b46f223a7df0e87b902443150e2584cb8620773f</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -150,8 +150,8 @@
           <target state="new">When you attempt to uninstall the ATA Center or ATA Gateway, if the ATA installation opens instead of the uninstallation, you will need to add the following registry key and then uninstall ATA again.</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>ATA Center</source>
-          <target state="new">ATA Center</target>
+          <source><bpt id="p1">**</bpt>ATA Center<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>ATA Center<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>HKLM\SOFTWARE\Microsoft\Microsoft Advanced Threat Analytics\Center</source>
@@ -174,8 +174,8 @@
           <target state="new">Registry editor for ATA Center installation path</target>
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>ATA Gateway</source>
-          <target state="new">ATA Gateway</target>
+          <source><bpt id="p1">**</bpt>ATA Gateway<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>ATA Gateway<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
           <source>HKLM\SOFTWARE\Microsoft\Microsoft Advanced Threat Analytics\Gateway</source>
@@ -234,12 +234,12 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Update ATA to version 1.6 - migration guide</source>
-          <target state="new">Update ATA to version 1.6 - migration guide</target>
+          <source><bpt id="p1">[</bpt>Update ATA to version 1.6 - migration guide<ept id="p1">](ata-update-1.6-migration-guide.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Update ATA to version 1.6 - migration guide<ept id="p1">](ata-update-1.6-migration-guide.md)</ept></target>
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
       </group>
     </body>

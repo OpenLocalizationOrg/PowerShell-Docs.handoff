@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4dbf5123fc909d5372a0ca29c22d0df6d0eef26b</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\enroll-devices-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ab1151c9abf169ee586fcc4ba1f9ca2144db92f</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b63c4bf2a103246dc28003cf6ed655dc6569b176</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3fffb456b99b0f0012643ffaf87a2fd8580aca4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee019888b965987d41ff118bc9f2e74f0b154004</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -70,8 +70,8 @@
           <target state="new"><bpt id="p1">**</bpt>Wipe<ept id="p1">**</ept> - Factory reset the device, removing all data.</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>Retire devices</source>
-          <target state="new">Retire devices</target>
+          <source><bpt id="p1">[</bpt>Retire devices<ept id="p1">](retire-devices-from-microsoft-intune-management.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Retire devices<ept id="p1">](retire-devices-from-microsoft-intune-management.md)</ept></target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Affinity<ept id="p1">**</ept> - Associates devices with users.</source>
@@ -82,8 +82,8 @@
           <target state="new">Required for mobile application management (MAM) and conditional access to company data.</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>User Affinity</source>
-          <target state="new">User Affinity</target>
+          <source><bpt id="p1">[</bpt>User Affinity<ept id="p1">](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#using-company-portal-on-dep-or-apple-configurator-enrolled-devices)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>User Affinity<ept id="p1">](enroll-corporate-owned-ios-devices-in-microsoft-intune.md#using-company-portal-on-dep-or-apple-configurator-enrolled-devices)</ept></target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Lock<ept id="p1">**</ept> Prevents users from  removing the device from management.</source>
@@ -94,36 +94,36 @@
           <target state="new">iOS devices require Supervised mode for Lock.</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Remote lock</source>
-          <target state="new">Remote lock</target>
+          <source><bpt id="p1">[</bpt>Remote lock<ept id="p1">](retire-devices-from-microsoft-intune-management.md#block-access-a-device)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Remote lock<ept id="p1">](retire-devices-from-microsoft-intune-management.md#block-access-a-device)</ept></target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>iOS enrollment methods</source>
-          <target state="new">iOS enrollment methods</target>
+          <source><bpt id="p1">**</bpt>iOS enrollment methods<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>iOS enrollment methods<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>Method</source>
-          <target state="new">Method</target>
+          <source><bpt id="p1">**</bpt>Method<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Method<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>Wipe</source>
-          <target state="new">Wipe</target>
+          <source><bpt id="p1">**</bpt>Wipe<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Wipe<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>Affinity</source>
-          <target state="new">Affinity</target>
+          <source><bpt id="p1">**</bpt>Affinity<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Affinity<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>Lock</source>
-          <target state="new">Lock</target>
+          <source><bpt id="p1">**</bpt>Lock<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Lock<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>Details</source>
-          <target state="new">Details</target>
+          <source><bpt id="p1">**</bpt>Details<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Details<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
-          <source>BYOD</source>
-          <target state="new">BYOD</target>
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>BYOD<ept id="p2">](#byod)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>BYOD<ept id="p2">](#byod)</ept><ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>No</source>
@@ -138,12 +138,12 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>more</source>
-          <target state="new">more</target>
+          <source><bpt id="p1">[</bpt>more<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>more<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)</ept></target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>DEM</source>
-          <target state="new">DEM</target>
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>DEM<ept id="p2">](#dem)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>DEM<ept id="p2">](#dem)</ept><ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>No</source>
@@ -158,12 +158,12 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
-          <source>more</source>
-          <target state="new">more</target>
+          <source><bpt id="p1">[</bpt>more<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>more<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>DEP</source>
-          <target state="new">DEP</target>
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>DEP<ept id="p2">](#dep)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>DEP<ept id="p2">](#dep)</ept><ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>Yes</source>
@@ -178,12 +178,12 @@
           <target state="new">Optional</target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>more</source>
-          <target state="new">more</target>
+          <source><bpt id="p1">[</bpt>more<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>more<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>USB-SA</source>
-          <target state="new">USB-SA</target>
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>USB-SA<ept id="p2">](#usb-sa)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>USB-SA<ept id="p2">](#usb-sa)</ept><ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>Yes</source>
@@ -198,12 +198,12 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>more</source>
-          <target state="new">more</target>
+          <source><bpt id="p1">[</bpt>more<ept id="p1">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>more<ept id="p1">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>USB-Direct</source>
-          <target state="new">USB-Direct</target>
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>USB-Direct<ept id="p2">](#usb-direct)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>USB-Direct<ept id="p2">](#usb-direct)</ept><ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>No</source>
@@ -218,36 +218,36 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>more</source>
-          <target state="new">more</target>
+          <source><bpt id="p1">[</bpt>more<ept id="p1">](ios-direct-enrollment-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>more<ept id="p1">](ios-direct-enrollment-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>Windows and Android enrollment methods</source>
-          <target state="new">Windows and Android enrollment methods</target>
+          <source><bpt id="p1">**</bpt>Windows and Android enrollment methods<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows and Android enrollment methods<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>Method</source>
-          <target state="new">Method</target>
+          <source><bpt id="p1">**</bpt>Method<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Method<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>Wipe</source>
-          <target state="new">Wipe</target>
+          <source><bpt id="p1">**</bpt>Wipe<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Wipe<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Affinity</source>
-          <target state="new">Affinity</target>
+          <source><bpt id="p1">**</bpt>Affinity<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Affinity<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>Lock</source>
-          <target state="new">Lock</target>
+          <source><bpt id="p1">**</bpt>Lock<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Lock<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>Details</source>
-          <target state="new">Details</target>
+          <source><bpt id="p1">**</bpt>Details<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Details<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>BYOD</source>
-          <target state="new">BYOD</target>
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>BYOD<ept id="p2">](#byod)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>BYOD<ept id="p2">](#byod)</ept><ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="160" translate="yes" xml:space="preserve">
           <source>No</source>
@@ -262,12 +262,12 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>more</source>
-          <target state="new">more</target>
+          <source><bpt id="p1">[</bpt>more<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>more<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-up-device-management)</ept></target>
         </trans-unit>
         <trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>DEM</source>
-          <target state="new">DEM</target>
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>DEM<ept id="p2">](#dem)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>DEM<ept id="p2">](#dem)</ept><ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
           <source>No</source>
@@ -282,8 +282,8 @@
           <target state="new">No</target>
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>more</source>
-          <target state="new">more</target>
+          <source><bpt id="p1">[</bpt>more<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>more<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="169" translate="yes" xml:space="preserve">
           <source>For a series of question that help you find the right method, see <bpt id="p1">[</bpt>Choose how to enroll devices<ept id="p1">](/intune/get-started/choose-how-to-enroll-devices1)</ept>.</source>
@@ -334,8 +334,8 @@
           <target state="new">Devices with an IMEI number can also be identified and tagged as company-owned to enable COD scenarios.</target>
         </trans-unit>
         <trans-unit id="181" translate="yes" xml:space="preserve">
-          <source>Enroll corporate-owned devices</source>
-          <target state="new">Enroll corporate-owned devices</target>
+          <source><bpt id="p1">[</bpt>Enroll corporate-owned devices<ept id="p1">](manage-corporate-owned-devices.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enroll corporate-owned devices<ept id="p1">](manage-corporate-owned-devices.md)</ept></target>
         </trans-unit>
         <trans-unit id="182" translate="yes" xml:space="preserve">
           <source>DEM</source>
@@ -494,8 +494,8 @@
           <target state="new">Intune uses an Exchange Connector to communicate with EAS, either on-premises and cloud-hosted.</target>
         </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
-          <source>Mobile device management with Exchange ActiveSync and Intune</source>
-          <target state="new">Mobile device management with Exchange ActiveSync and Intune</target>
+          <source><bpt id="p1">[</bpt>Mobile device management with Exchange ActiveSync and Intune<ept id="p1">](mobile-device-management-with-exchange-activesync-and-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Mobile device management with Exchange ActiveSync and Intune<ept id="p1">](mobile-device-management-with-exchange-activesync-and-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>Manage Windows PCs with Intune</source>
@@ -526,8 +526,8 @@
           <target state="new">PCs managed with the Intune client software cannot be wiped, and cannot take advantage of many Intune management features such as conditional access, VPN and Wi-Fi settings, or deployment of certificates and email configurations.</target>
         </trans-unit>
         <trans-unit id="229" translate="yes" xml:space="preserve">
-          <source>Manage Windows PCs with Intune</source>
-          <target state="new">Manage Windows PCs with Intune</target>
+          <source><bpt id="p1">[</bpt>Manage Windows PCs with Intune<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage Windows PCs with Intune<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="230" translate="yes" xml:space="preserve">
           <source>Supported device platforms</source>
@@ -542,16 +542,16 @@
           <target state="new">Next steps</target>
         </trans-unit>
         <trans-unit id="233" translate="yes" xml:space="preserve">
-          <source>Prerequisites for device enrollment</source>
-          <target state="new">Prerequisites for device enrollment</target>
+          <source><bpt id="p1">[</bpt>Prerequisites for device enrollment<ept id="p1">](prerequisites-for-enrollment.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Prerequisites for device enrollment<ept id="p1">](prerequisites-for-enrollment.md)</ept></target>
         </trans-unit>
         <trans-unit id="234" translate="yes" xml:space="preserve">
-          <source>Manage corporate-owned devices</source>
-          <target state="new">Manage corporate-owned devices</target>
+          <source><bpt id="p1">[</bpt>Manage corporate-owned devices<ept id="p1">](manage-corporate-owned-devices.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage corporate-owned devices<ept id="p1">](manage-corporate-owned-devices.md)</ept></target>
         </trans-unit>
         <trans-unit id="235" translate="yes" xml:space="preserve">
-          <source>Supported mobile  devices and computers</source>
-          <target state="new">Supported mobile  devices and computers</target>
+          <source><bpt id="p1">[</bpt>Supported mobile  devices and computers<ept id="p1">](../get-started/supported-mobile-devices-and-computers.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Supported mobile  devices and computers<ept id="p1">](../get-started/supported-mobile-devices-and-computers.md)</ept></target>
         </trans-unit>
       </group>
     </body>

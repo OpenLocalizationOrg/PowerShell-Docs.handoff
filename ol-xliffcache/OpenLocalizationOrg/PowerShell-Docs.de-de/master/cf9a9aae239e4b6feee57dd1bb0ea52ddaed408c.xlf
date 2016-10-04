@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf9a9aae239e4b6feee57dd1bb0ea52ddaed408c</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-to-exchange-onpremises-with-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e5c47d121db011c09f26a10bc12c960bdfee8e0</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">051f615ef384dc3f2d2a49b703df90cc7991d960</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7a78d7cf36e195f06b4c086180ab50e7c2899d9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26dccf12b8281c68d4759c8ffeff0ba929f7d5b5</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -134,8 +134,8 @@
           <target state="new">The following diagram illustrates the  flow that is used by conditional access policies for Exchange on-premises to evaluate whether to allow or block devices.</target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>Diagram that shows the decision points that determine if a device is allowed access to Exchange on-premises or blocked<ph id="ph1">](../media/ConditionalAccess8-2.png)</ph> If a conditional access policy is not met, the user is presented with one of the following messages when they log in:</source>
-          <target state="new">Diagram that shows the decision points that determine if a device is allowed access to Exchange on-premises or blocked<ph id="ph1">](../media/ConditionalAccess8-2.png)</ph> If a conditional access policy is not met, the user is presented with one of the following messages when they log in:</target>
+          <source><ph id="ph1">![</ph>Diagram that shows the decision points that determine if a device is allowed access to Exchange on-premises or blocked<ph id="ph2">](../media/ConditionalAccess8-2.png)</ph> If a conditional access policy is not met, the user is presented with one of the following messages when they log in:</source>
+          <target state="new"><ph id="ph1">![</ph>Diagram that shows the decision points that determine if a device is allowed access to Exchange on-premises or blocked<ph id="ph2">](../media/ConditionalAccess8-2.png)</ph> If a conditional access policy is not met, the user is presented with one of the following messages when they log in:</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>If the device is not enrolled with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the Company Portal  app, enroll the device, and activate email.</source>
@@ -186,12 +186,12 @@
           <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Conditional Access<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Exchange on-premises policy<ept id="p4">**</ept>.</target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>IntuneSA5aSelectExchOnPremPolicy</source>
-          <target state="new">IntuneSA5aSelectExchOnPremPolicy</target>
+          <source><ph id="ph1">![</ph>IntuneSA5aSelectExchOnPremPolicy<ph id="ph2">](../media/IntuneSA5aSelectExchOnPremPolicy.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>IntuneSA5aSelectExchOnPremPolicy<ph id="ph2">](../media/IntuneSA5aSelectExchOnPremPolicy.png)</ph></target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>Configure the policy with the settings you require: <ph id="ph1">![</ph>Screenshot of the Exchange on-premises policy page</source>
-          <target state="new">Configure the policy with the settings you require: <ph id="ph1">![</ph>Screenshot of the Exchange on-premises policy page</target>
+          <source>Configure the policy with the settings you require: <ph id="ph1">![</ph>Screenshot of the Exchange on-premises policy page<ph id="ph2">](../media/IntuneSA5bExchangeOnPremPolicy.png)</ph></source>
+          <target state="new">Configure the policy with the settings you require: <ph id="ph1">![</ph>Screenshot of the Exchange on-premises policy page<ph id="ph2">](../media/IntuneSA5bExchangeOnPremPolicy.png)</ph></target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Block email apps from accessing Exchange on-premises if the device is noncompliant or not enrolled to Microsoft Intune:<ept id="p1">**</ept> When you select this option, devices that are not managed by <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, or not compliant with a compliance policy are blocked from accessing Exchange services.</source>
@@ -314,20 +314,20 @@
           <target state="new">If the user un-enrolls from <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> it might take from 1-3 hours for the device to be blocked.</target>
         </trans-unit>
         <trans-unit id="176" translate="yes" xml:space="preserve">
-          <source>To see some example scenarios of how you would configure conditional access policy to restrict device access, see <bpt id="p1">[</bpt>restrict email access example scenarios<ept id="p1">](restrict-email-access-example-scenarios.md)</ept>.</source>
-          <target state="new">To see some example scenarios of how you would configure conditional access policy to restrict device access, see <bpt id="p1">[</bpt>restrict email access example scenarios<ept id="p1">](restrict-email-access-example-scenarios.md)</ept>.</target>
+          <source><bpt id="p1">**</bpt>To see some example scenarios of how you would configure conditional access policy to restrict device access, see <bpt id="p2">[</bpt>restrict email access example scenarios<ept id="p2">](restrict-email-access-example-scenarios.md)</ept>.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>To see some example scenarios of how you would configure conditional access policy to restrict device access, see <bpt id="p2">[</bpt>restrict email access example scenarios<ept id="p2">](restrict-email-access-example-scenarios.md)</ept>.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
           <source>Next steps</source>
           <target state="new">Next steps</target>
         </trans-unit>
         <trans-unit id="178" translate="yes" xml:space="preserve">
-          <source>Restrict access to SharePoint Online</source>
-          <target state="new">Restrict access to SharePoint Online</target>
+          <source><bpt id="p1">[</bpt>Restrict access to SharePoint Online<ept id="p1">](restrict-access-to-sharepoint-online-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Restrict access to SharePoint Online<ept id="p1">](restrict-access-to-sharepoint-online-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="179" translate="yes" xml:space="preserve">
-          <source>Restrict access to Skype for Business Online</source>
-          <target state="new">Restrict access to Skype for Business Online</target>
+          <source><bpt id="p1">[</bpt>Restrict access to Skype for Business Online<ept id="p1">](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Restrict access to Skype for Business Online<ept id="p1">](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

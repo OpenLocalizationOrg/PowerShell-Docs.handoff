@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6c8a658532ba9e7367c12c62581486399ff77840</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\manage-corporate-owned-devices.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d77ffd9dc1569d68ba2e268bdc25d406ac90cad</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d18f366e7e9d8c5fb86196cb57d9f7596c57b2c3</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f89a36247156af0cde4ec0e1685b55d430a5a9d0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">395261535a2718e9f9574416cf0980291daaa3db</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -50,8 +50,8 @@
           <target state="new">Intune supports enrollment via <bpt id="p1">[</bpt>Apple's Device Enrollment Program (DEP)<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept> or using the Apple Configurator tool running on a Mac computer for <bpt id="p2">[</bpt>direct<ept id="p2">](ios-direct-enrollment-in-microsoft-intune.md)</ept> or <bpt id="p3">[</bpt>Setup Assistant<ept id="p3">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept> enrollment.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Enroll corporate-owned iOS devices</source>
-          <target state="new">Enroll corporate-owned iOS devices</target>
+          <source><bpt id="p1">[</bpt>Enroll corporate-owned iOS devices<ept id="p1">](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enroll corporate-owned iOS devices<ept id="p1">](enroll-corporate-owned-ios-devices-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Device enrollment manager</source>
@@ -74,8 +74,8 @@
           <target state="new">These devices are good for point-of-sale or utility apps, for example, but bad for users who need access to email or company resources.</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>Enroll corporate-owned devices with the device enrollment manager</source>
-          <target state="new">Enroll corporate-owned devices with the device enrollment manager</target>
+          <source><bpt id="p1">[</bpt>Enroll corporate-owned devices with the device enrollment manager<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enroll corporate-owned devices with the device enrollment manager<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Enroll corporate-owned Windows 10 desktops</source>
@@ -98,20 +98,20 @@
           <target state="new">Devices can be identified as corporate-owned in the following ways:</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Enrolled with device enrollment manager (DEM)</source>
-          <target state="new">Enrolled with device enrollment manager (DEM)</target>
+          <source><bpt id="p1">[</bpt>Enrolled with device enrollment manager (DEM)<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enrolled with device enrollment manager (DEM)<ept id="p1">](enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Enrolled with Apple's <bpt id="p1">[</bpt>device enrollment program (DEP)<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept>  or <bpt id="p2">[</bpt>Apple Configurator<ept id="p2">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept></source>
           <target state="new">Enrolled with Apple's <bpt id="p1">[</bpt>device enrollment program (DEP)<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept>  or <bpt id="p2">[</bpt>Apple Configurator<ept id="p2">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>Predeclare devices with IMEI numbers</source>
-          <target state="new">Predeclare devices with IMEI numbers</target>
+          <source><bpt id="p1">[</bpt>Predeclare devices with IMEI numbers<ept id="p1">](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Predeclare devices with IMEI numbers<ept id="p1">](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)</ept></target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>Azure Active Directory/Enterprise Management Suite registration of Windows 10 devices</source>
-          <target state="new">Azure Active Directory/Enterprise Management Suite registration of Windows 10 devices</target>
+          <source><bpt id="p1">[</bpt>Azure Active Directory/Enterprise Management Suite registration of Windows 10 devices<ept id="p1">](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Azure Active Directory/Enterprise Management Suite registration of Windows 10 devices<ept id="p1">](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)</ept></target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>International mobile equipment identity (IMEI)</source>
@@ -130,8 +130,8 @@
           <target state="new">When the device becomes managed by Intune, it is tagged as a corporate-owned device.</target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers</source>
-          <target state="new">Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers</target>
+          <source><bpt id="p1">[</bpt>Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers<ept id="p1">](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers<ept id="p1">](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)</ept></target>
         </trans-unit>
       </group>
     </body>

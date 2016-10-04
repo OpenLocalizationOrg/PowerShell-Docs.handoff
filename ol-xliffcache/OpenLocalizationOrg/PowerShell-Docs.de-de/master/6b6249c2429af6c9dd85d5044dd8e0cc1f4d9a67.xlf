@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6b6249c2429af6c9dd85d5044dd8e0cc1f4d9a67</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\set-up-windows-device-management-with-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d397c73867f70f5a04f6b9c49e82d7671eb74e71</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">393d3bababd16aada1fd95b740f8523274489da9</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">74a630c3a0d6f649c97e2407ce81eda21a23c637</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4f7b476080d5e30011c96ea33dac7aae33f671c</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -50,8 +50,8 @@
           <target state="new">Creating a DNS CNAME helps users connect and enroll in Intune without entering a server name.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Set up Intune</source>
-          <target state="new">Set up Intune</target>
+          <source><bpt id="p1">**</bpt>Set up Intune<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Set up Intune<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>If you haven’t already, prepare for mobile device management by  <bpt id="p1">[</bpt>setting the mobile device management authority<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)</ept> as <bpt id="p2">**</bpt>Microsoft Intune<ept id="p2">**</ept> and setting up MDM.</source>
@@ -126,12 +126,12 @@
           <target state="new">1 Hour</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>– Supports a redirect to the Intune service with domain recognition from the email’s domain name</source>
-          <target state="new">– Supports a redirect to the Intune service with domain recognition from the email’s domain name</target>
+          <source><ph id="ph1">`EnterpriseEnrollment-s.manage.microsoft.com`</ph> – Supports a redirect to the Intune service with domain recognition from the email’s domain name</source>
+          <target state="new"><ph id="ph1">`EnterpriseEnrollment-s.manage.microsoft.com`</ph> – Supports a redirect to the Intune service with domain recognition from the email’s domain name</target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>– Supports Windows 8.1 and Windows 10 Mobile devices that will register with Azure Active Directory using their work or school account</source>
-          <target state="new">– Supports Windows 8.1 and Windows 10 Mobile devices that will register with Azure Active Directory using their work or school account</target>
+          <source><ph id="ph1">`EnterpriseRegistration.windows.net`</ph> – Supports Windows 8.1 and Windows 10 Mobile devices that will register with Azure Active Directory using their work or school account</source>
+          <target state="new"><ph id="ph1">`EnterpriseRegistration.windows.net`</ph> – Supports Windows 8.1 and Windows 10 Mobile devices that will register with Azure Active Directory using their work or school account</target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>If your company uses multiple domains for user credentials, create CNAME records for each domain.</source>
@@ -150,8 +150,8 @@
           <target state="new">You cannot verify the DNS change in Intune until the DNS record propagates.</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>Verify CNAME</source>
-          <target state="new">Verify CNAME</target>
+          <source><bpt id="p1">**</bpt>Verify CNAME<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Verify CNAME<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>In the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept>, click <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows<ept id="p4">**</ept>.</source>
@@ -166,8 +166,8 @@
           <target state="new">Windows device management dialog box</target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>Optional steps</source>
-          <target state="new">Optional steps</target>
+          <source><bpt id="p1">**</bpt>Optional steps<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Optional steps<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>Add Sideloading keys<ept id="p1">**</ept> step is not needed for Windows 10.</source>
@@ -178,32 +178,32 @@
           <target state="new">The <bpt id="p1">**</bpt>Upload Code-Signing Certificate<ept id="p1">**</ept> step is only needed if you will distribute line-of-business (LOB) apps to devices not available from the Windows Store.</target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>Learn more</source>
-          <target state="new">Learn more</target>
+          <source><bpt id="p1">[</bpt>Learn more<ept id="p1">](set-up-windows-phone-8.0-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Learn more<ept id="p1">](set-up-windows-phone-8.0-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Inform users</source>
-          <target state="new">Inform users</target>
+          <source><bpt id="p1">**</bpt>Inform users<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Inform users<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>You'll need to tell your users how to enroll their devices and what to expect once they're brought into management:</source>
           <target state="new">You'll need to tell your users how to enroll their devices and what to expect once they're brought into management:</target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>What to tell your end users about using Microsoft Intune</source>
-          <target state="new">What to tell your end users about using Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>What to tell your end users about using Microsoft Intune<ept id="p1">](what-to-tell-your-end-users-about-using-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>What to tell your end users about using Microsoft Intune<ept id="p1">](what-to-tell-your-end-users-about-using-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>End user guidance for Windows devices</source>
-          <target state="new">End user guidance for Windows devices</target>
+          <source><bpt id="p1">[</bpt>End user guidance for Windows devices<ept id="p1">](../enduser/using-your-windows-device-with-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>End user guidance for Windows devices<ept id="p1">](../enduser/using-your-windows-device-with-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
           <source>See also</source>
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>Get ready to enroll devices in Microsoft Intune</source>
-          <target state="new">Get ready to enroll devices in Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Get ready to enroll devices in Microsoft Intune<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get ready to enroll devices in Microsoft Intune<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

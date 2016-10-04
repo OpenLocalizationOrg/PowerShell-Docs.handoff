@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2b431308e80dd85e93436a97429f194ae833d27</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\whats-new-version-1.6.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">601dc4c974839c23f58b11c41da8835cef753d9c</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a87afbc54f81b52c28c4943892f8256d77ff973</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f941836134b7d3c7484f9a8e73aa83cf9a07f306</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1cbe08e86cd0db7a59f0526c72c946cb22ebf61</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -234,12 +234,12 @@
           <target state="new">Updating ATA to version 1.6 may fail the pre-update Readiness Checks, as shown in the image below.</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Failed readiness check</source>
-          <target state="new">Failed readiness check</target>
+          <source><ph id="ph1">  ![</ph>Failed readiness check<ph id="ph2">](media/ata_failed_readinesschecks.png)</ph></source>
+          <target state="new"><ph id="ph1">  ![</ph>Failed readiness check<ph id="ph2">](media/ata_failed_readinesschecks.png)</ph></target>
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>Before updating ATA to version 1.6, update the following registry key with the correct database path:</source>
-          <target state="new">Before updating ATA to version 1.6, update the following registry key with the correct database path:</target>
+          <source>Before updating ATA to version 1.6, update the following registry key with the correct database path:  <ph id="ph1">`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Advanced Threat Analytics\Center\DatabaseDataPath`</ph></source>
+          <target state="new">Before updating ATA to version 1.6, update the following registry key with the correct database path:  <ph id="ph1">`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Advanced Threat Analytics\Center\DatabaseDataPath`</ph></target>
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
           <source>Migration failure when updating from ATA 1.5</source>
@@ -250,8 +250,8 @@
           <target state="new">When updating to ATA 1.6, the update process may fail with the following error code:</target>
         </trans-unit>
         <trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>Update ATA to 1.6 error<ph id="ph1">](http://i.imgur.com/QrLSApr.png)</ph> If you see this error, review the deployment log in: <bpt id="p1">**</bpt>C:\Users<ph id="ph2">\&lt;</ph>User&gt;\AppData\Local\Temp<ept id="p1">**</ept>, and look for the following exception:</source>
-          <target state="new">Update ATA to 1.6 error<ph id="ph1">](http://i.imgur.com/QrLSApr.png)</ph> If you see this error, review the deployment log in: <bpt id="p1">**</bpt>C:\Users<ph id="ph2">\&lt;</ph>User&gt;\AppData\Local\Temp<ept id="p1">**</ept>, and look for the following exception:</target>
+          <source><ph id="ph1">![</ph>Update ATA to 1.6 error<ph id="ph2">](http://i.imgur.com/QrLSApr.png)</ph> If you see this error, review the deployment log in: <bpt id="p1">**</bpt>C:\Users\&lt;User&gt;\AppData\Local\Temp<ept id="p1">**</ept>, and look for the following exception:</source>
+          <target state="new"><ph id="ph1">![</ph>Update ATA to 1.6 error<ph id="ph2">](http://i.imgur.com/QrLSApr.png)</ph> If you see this error, review the deployment log in: <bpt id="p1">**</bpt>C:\Users\&lt;User&gt;\AppData\Local\Temp<ept id="p1">**</ept>, and look for the following exception:</target>
         </trans-unit>
         <trans-unit id="161" translate="yes" xml:space="preserve">
           <source>You may also see this error: System.ArgumentNullException: Value cannot be null.</source>
@@ -274,8 +274,8 @@
           <target state="new">Uninstall the ATA Center v1.5, and delete all database data.</target>
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>Uninstall ATA 1.5</source>
-          <target state="new">Uninstall ATA 1.5</target>
+          <source><ph id="ph1">![</ph>Uninstall ATA 1.5<ph id="ph2">](http://i.imgur.com/x4nJycx.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Uninstall ATA 1.5<ph id="ph2">](http://i.imgur.com/x4nJycx.png)</ph></target>
         </trans-unit>
         <trans-unit id="167" translate="yes" xml:space="preserve">
           <source>Re-install ATA Center v1.5.</source>
@@ -362,8 +362,8 @@
           <target state="new">This is especially important when installing the ATA Lightweight Gateway on a domain controller, as you may want to plan a maintenance window before the installation.</target>
         </trans-unit>
         <trans-unit id="188" translate="yes" xml:space="preserve">
-          <source>.Net Framework restart</source>
-          <target state="new">.Net Framework restart</target>
+          <source><ph id="ph1">    ![</ph>.Net Framework restart<ph id="ph2">](media/ata-net-framework-restart.png)</ph></source>
+          <target state="new"><ph id="ph1">    ![</ph>.Net Framework restart<ph id="ph2">](media/ata-net-framework-restart.png)</ph></target>
         </trans-unit>
         <trans-unit id="189" translate="yes" xml:space="preserve">
           <source>Historical network activities no longer migrated</source>
@@ -390,12 +390,12 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
-          <source>Update ATA to version 1.6 - migration guide</source>
-          <target state="new">Update ATA to version 1.6 - migration guide</target>
+          <source><bpt id="p1">[</bpt>Update ATA to version 1.6 - migration guide<ept id="p1">](ata-update-1.6-migration-guide.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Update ATA to version 1.6 - migration guide<ept id="p1">](ata-update-1.6-migration-guide.md)</ept></target>
         </trans-unit>
       </group>
     </body>

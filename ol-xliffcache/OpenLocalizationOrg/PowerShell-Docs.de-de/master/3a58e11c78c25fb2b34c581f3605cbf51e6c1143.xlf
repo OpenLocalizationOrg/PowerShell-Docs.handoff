@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3a58e11c78c25fb2b34c581f3605cbf51e6c1143</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\get-ready-to-enroll-devices-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5991dd1a732042b597ee43d52524ce9ba435289d</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">977a6f24f7d8eb75fae9178f09abc89190780966</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7fa5aaa0a0d5e023d1b173f9b216e0bd6f7244e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e0c5806cd1128418828f4234581dbd3e00cc2030</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -190,8 +190,8 @@
           <target state="new">This contact address is displayed on the <bpt id="p1">**</bpt>Contact IT<ept id="p1">**</ept> page.</target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>You must enter a valid email address in the format <bpt id="p1">**</bpt>alias@domainname.com<ept id="p1">**</ept>.</source>
-          <target state="new">You must enter a valid email address in the format <bpt id="p1">**</bpt>alias@domainname.com<ept id="p1">**</ept>.</target>
+          <source>You must enter a valid email address in the format <bpt id="p1">**</bpt><ph id="ph1">alias@domainname.com</ph><ept id="p1">**</ept>.</source>
+          <target state="new">You must enter a valid email address in the format <bpt id="p1">**</bpt><ph id="ph1">alias@domainname.com</ph><ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Additional information</source>
@@ -378,20 +378,20 @@
           <target state="new">On the other hand, Windows and iOS require a trust relationship between devices and Intune to allow management.</target>
         </trans-unit>
         <trans-unit id="192" translate="yes" xml:space="preserve">
-          <source>Set up Android management with Microsoft Intune</source>
-          <target state="new">Set up Android management with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Set up Android management with Microsoft Intune<ept id="p1">](set-up-android-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set up Android management with Microsoft Intune<ept id="p1">](set-up-android-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
-          <source>Set up iOS and Mac management with Microsoft Intune</source>
-          <target state="new">Set up iOS and Mac management with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Set up iOS and Mac management with Microsoft Intune<ept id="p1">](set-up-ios-and-mac-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set up iOS and Mac management with Microsoft Intune<ept id="p1">](set-up-ios-and-mac-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="194" translate="yes" xml:space="preserve">
-          <source>Set up Windows Phone management with Microsoft Intune</source>
-          <target state="new">Set up Windows Phone management with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Set up Windows Phone management with Microsoft Intune<ept id="p1">](set-up-windows-phone-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set up Windows Phone management with Microsoft Intune<ept id="p1">](set-up-windows-phone-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="195" translate="yes" xml:space="preserve">
-          <source>Set up Windows device management with Microsoft Intune</source>
-          <target state="new">Set up Windows device management with Microsoft Intune</target>
+          <source><bpt id="p1">[</bpt>Set up Windows device management with Microsoft Intune<ept id="p1">](set-up-windows-device-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set up Windows device management with Microsoft Intune<ept id="p1">](set-up-windows-device-management-with-microsoft-intune.md)</ept></target>
         </trans-unit>
         <trans-unit id="196" translate="yes" xml:space="preserve">
           <source>You can also:</source>

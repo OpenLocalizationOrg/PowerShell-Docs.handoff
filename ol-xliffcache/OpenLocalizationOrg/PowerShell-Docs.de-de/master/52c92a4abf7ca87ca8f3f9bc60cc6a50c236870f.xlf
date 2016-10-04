@@ -2,19 +2,20 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4fb33c9" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">52c92a4abf7ca87ca8f3f9bc60cc6a50c236870f</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">OsmondTest\test1.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5fc48329ed1282a4c932196cdd63eb12fcf255f3</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5caa2195e8d211dee5e47886f740e534e6abfee</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9f524d9837932249812f0fef22efa506dad3fa0</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
-          <source>1111 222 333 444 555 asfasdf <ph id="ph1">![</ph>image</source>
-          <target state="new">1111 222 333 444 555 asfasdf <ph id="ph1">![</ph>image</target>
+          <source>1111 222 333 444 555 asfasdf <ph id="ph1">![</ph>image<ph id="ph2">](test.png)</ph></source>
+          <target state="new">1111 222 333 444 555 asfasdf <ph id="ph1">![</ph>image<ph id="ph2">](test.png)</ph></target>
         </trans-unit>
       </group>
     </body>

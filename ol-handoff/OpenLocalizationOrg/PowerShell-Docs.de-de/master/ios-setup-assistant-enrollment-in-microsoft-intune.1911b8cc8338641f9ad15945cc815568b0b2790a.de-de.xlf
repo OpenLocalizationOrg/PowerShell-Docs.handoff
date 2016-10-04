@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1260001be3e5479ff0758178dc161260d31dcc3e</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\ios-setup-assistant-enrollment-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af25357041ca59da22bfa177272f3d445df1ecb0</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3fb6f35e476b3f053eb44c44919aafd016d77cd1</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5c45e893f7bc44cb011ef8f62bf78a999814765d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84af2f6d4ee1ca68abf5598bac776b196b891b23</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -50,8 +50,8 @@
           <target state="new">Most scenarios require that the policy applied to the iOS device include <bpt id="p1">**</bpt>user affinity<ept id="p1">**</ept> to enable the Intune Company Portal app.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Prerequisites</source>
-          <target state="new">Prerequisites</target>
+          <source><bpt id="p1">**</bpt>Prerequisites<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Prerequisites<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>iOS enrollment enabled<ept id="p1">](set-up-ios-and-mac-management-with-microsoft-intune.md)</ept> by installing an APNs certificate</source>
@@ -94,8 +94,8 @@
           <target state="new">In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> go <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Corporate Device Enrollment<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Add…<ept id="p4">**</ept>.</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Create device enrollment profile</source>
-          <target state="new">Create device enrollment profile</target>
+          <source><ph id="ph1">![</ph>Create device enrollment profile<ph id="ph2">](../media/pol-sa-corp-enroll.png)</ph></source>
+          <target state="new"><ph id="ph1">![</ph>Create device enrollment profile<ph id="ph2">](../media/pol-sa-corp-enroll.png)</ph></target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>Enter details for the device profiles:</source>
@@ -178,20 +178,20 @@
           <target state="new"><bpt id="p1">**</bpt>Upload a CSV file containing serial numbers<ept id="p1">**</ept> – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file.</target>
         </trans-unit>
         <trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>Serial #1</source>
-          <target state="new">Serial #1</target>
+          <source><ph id="ph1">&amp;lt;</ph>Serial #1<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>Serial #1<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Device #1 Details</source>
-          <target state="new">Device #1 Details</target>
+          <source><ph id="ph1">&amp;lt;</ph>Device #1 Details<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>Device #1 Details<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>Serial#2</source>
-          <target state="new">Serial#2</target>
+          <source><ph id="ph1">&amp;lt;</ph>Serial#2<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>Serial#2<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>Device #2 Details</source>
-          <target state="new">Device #2 Details</target>
+          <source><ph id="ph1">&amp;lt;</ph>Device #2 Details<ph id="ph2">&amp;gt;</ph></source>
+          <target state="new"><ph id="ph1">&amp;lt;</ph>Device #2 Details<ph id="ph2">&amp;gt;</ph></target>
         </trans-unit>
         <trans-unit id="146" translate="yes" xml:space="preserve">
           <source>This .csv file when viewed in a text editor appears as:</source>
@@ -386,8 +386,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="194" translate="yes" xml:space="preserve">
-          <source>Get ready to enroll devices</source>
-          <target state="new">Get ready to enroll devices</target>
+          <source><bpt id="p1">[</bpt>Get ready to enroll devices<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get ready to enroll devices<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md)</ept></target>
         </trans-unit>
       </group>
     </body>

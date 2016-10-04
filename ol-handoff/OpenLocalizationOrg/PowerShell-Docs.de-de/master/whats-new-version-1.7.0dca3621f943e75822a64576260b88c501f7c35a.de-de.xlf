@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b1b8f2c41a9b07992ebcafc8c2daeccf6738ead</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\whats-new-version-1.7.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf01caa42d9146d99d47e1cb57777e0894150ae4</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da0871aeca126fc2fa77343afe573283a733fd8c</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d067f9ddde6d6335b0cec3dc48d6ea54cb9e8f27</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c00920822ed26dc1c3143363bbb26c54495726e6</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -170,8 +170,8 @@
           <target state="new">Review the deployment log to find the cause of the failure.</target>
         </trans-unit>
         <trans-unit id="140" translate="yes" xml:space="preserve">
-          <source>The deployment log is located in the following location, <bpt id="p1">**</bpt>%temp%<ph id="ph1">\.</ph>.\Microsoft Advanced Thread Analytics Center_{date_stamp}_MsiPackage.log<ept id="p1">**</ept>.</source>
-          <target state="new">The deployment log is located in the following location, <bpt id="p1">**</bpt>%temp%<ph id="ph1">\.</ph>.\Microsoft Advanced Thread Analytics Center_{date_stamp}_MsiPackage.log<ept id="p1">**</ept>.</target>
+          <source>The deployment log is located in the following location, <bpt id="p1">**</bpt>%temp%\..\Microsoft Advanced Thread Analytics Center_{date_stamp}_MsiPackage.log<ept id="p1">**</ept>.</source>
+          <target state="new">The deployment log is located in the following location, <bpt id="p1">**</bpt>%temp%\..\Microsoft Advanced Thread Analytics Center_{date_stamp}_MsiPackage.log<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="141" translate="yes" xml:space="preserve">
           <source>In the table below lists the errors to look for and the corresponding Mongo script to fix the error.</source>
@@ -318,12 +318,12 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
         <trans-unit id="178" translate="yes" xml:space="preserve">
-          <source>Update ATA to version 1.7 - migration guide</source>
-          <target state="new">Update ATA to version 1.7 - migration guide</target>
+          <source><bpt id="p1">[</bpt>Update ATA to version 1.7 - migration guide<ept id="p1">](ata-update-1.7-migration-guide.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Update ATA to version 1.7 - migration guide<ept id="p1">](ata-update-1.7-migration-guide.md)</ept></target>
         </trans-unit>
       </group>
     </body>

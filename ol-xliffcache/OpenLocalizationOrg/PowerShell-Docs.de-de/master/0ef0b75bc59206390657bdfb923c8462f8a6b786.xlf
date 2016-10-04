@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ef0b75bc59206390657bdfb923c8462f8a6b786</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-update-1.5-migration-guide.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0bbfb6945fa8291185519bd6b6392a4841a1d393</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c996a47d82aad3c3db8ea49e12dd89c2685e17c4</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d9e1b6e908358524a50b400e2a032d73e746086</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db7dca6a72aca82ccbc5c482ac4d8df2808214b6</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -74,8 +74,8 @@
           <target state="new">Follow these steps to update to ATA version 1.5:</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>Download update 1.5</source>
-          <target state="new">Download update 1.5</target>
+          <source><bpt id="p1">[</bpt>Download update 1.5<ept id="p1">](http://aka.ms/ata1_5update)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Download update 1.5<ept id="p1">](http://aka.ms/ata1_5update)</ept></target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>You can also use the updated full version of ATA to perform the update to version 1.5.</source>
@@ -258,8 +258,8 @@
           <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="162" translate="yes" xml:space="preserve">
-          <source>Check out the ATA forum!</source>
-          <target state="new">Check out the ATA forum!</target>
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
         </trans-unit>
       </group>
     </body>

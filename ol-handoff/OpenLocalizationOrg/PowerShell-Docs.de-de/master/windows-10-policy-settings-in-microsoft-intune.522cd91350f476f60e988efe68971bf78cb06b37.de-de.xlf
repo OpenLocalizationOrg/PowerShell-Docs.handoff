@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">712883874f022ceb3f38473839fe0d6e4c373164</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\windows-10-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4227cc437bc2086604a78b23f60982536e364015</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">395e2a675b58ebc256513a7b19c82d82fbbeca45</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">21a07b7f2264a1d43f032aea80c6d97fe7e81296</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0899d4a53af3b5cc4eba1fa2344d81929c6fde84</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -62,16 +62,16 @@
           <target state="new">Supply the following settings in a custom policy:</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>General</source>
-          <target state="new">General</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>General</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>General</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Enter a name and optionally, a description for this policy to help you identify it in the Intune console.</source>
           <target state="new">Enter a name and optionally, a description for this policy to help you identify it in the Intune console.</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
-          <source>OMA-URI settings</source>
-          <target state="new">OMA-URI settings</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>OMA-URI settings</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>OMA-URI settings</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>For each OMA-URI setting you want to add, enter the following information.</source>
@@ -94,28 +94,28 @@
           <target state="new"><bpt id="p1">**</bpt>Data type<ept id="p1">**</ept> - Choose from:</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>String</source>
-          <target state="new">String</target>
+          <source><bpt id="p1">**</bpt>String<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>String<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>String (XML)</source>
-          <target state="new">String (XML)</target>
+          <source><bpt id="p1">**</bpt>String (XML)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>String (XML)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>Date and time</source>
-          <target state="new">Date and time</target>
+          <source><bpt id="p1">**</bpt>Date and time<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Date and time<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>Integer</source>
-          <target state="new">Integer</target>
+          <source><bpt id="p1">**</bpt>Integer<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Integer<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>Floating point</source>
-          <target state="new">Floating point</target>
+          <source><bpt id="p1">**</bpt>Floating point<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Floating point<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>Boolean</source>
-          <target state="new">Boolean</target>
+          <source><bpt id="p1">**</bpt>Boolean<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Boolean<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>OMA-URI (case sensitive)<ept id="p1">**</ept> - Specify the OMA-URI you want to supply a setting for.</source>
@@ -150,8 +150,8 @@
           <target state="new">Use this section to learn about the OMA-URI settings you can configure with a <bpt id="p1">**</bpt>Windows 10 Custom Policy<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>Policy</source>
-          <target state="new">Policy</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Policy</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Policy</target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>Policy name and URI</source>
@@ -162,8 +162,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
-          <source>Allow Auto Update</source>
-          <target state="new">Allow Auto Update</target>
+          <source><bpt id="p1">**</bpt>Allow Auto Update<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Auto Update<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Update/AllowAutoUpdate</source>
@@ -182,8 +182,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept><ph id="ph1"> - </ph><bpt id="p3">**</bpt>5<ept id="p3">**</ept> (default: <bpt id="p4">**</bpt>1<ept id="p4">**</ept>)</target>
         </trans-unit>
         <trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>Schedule Install Day</source>
-          <target state="new">Schedule Install Day</target>
+          <source><bpt id="p1">**</bpt>Schedule Install Day<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Schedule Install Day<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="144" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Update/ScheduledInstallDay</source>
@@ -198,8 +198,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - Every day (default)</source>
@@ -234,8 +234,8 @@
           <target state="new"><bpt id="p1">**</bpt>7<ept id="p1">**</ept> - Saturday</target>
         </trans-unit>
         <trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>Schedule Install Time</source>
-          <target state="new">Schedule Install Time</target>
+          <source><bpt id="p1">**</bpt>Schedule Install Time<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Schedule Install Time<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="157" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Update/ScheduledInstallTime</source>
@@ -254,8 +254,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – <bpt id="p3">**</bpt>23<ept id="p3">**</ept> hours (<bpt id="p4">**</bpt>0<ept id="p4">**</ept> is midnight) (default: <bpt id="p5">**</bpt>3<ept id="p5">**</ept>)</target>
         </trans-unit>
         <trans-unit id="161" translate="yes" xml:space="preserve">
-          <source>DeviceLock/AllowIdleReturnWithoutPassword</source>
-          <target state="new">DeviceLock/AllowIdleReturnWithoutPassword</target>
+          <source><bpt id="p1">**</bpt>DeviceLock/AllowIdleReturnWithoutPassword<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>DeviceLock/AllowIdleReturnWithoutPassword<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="162" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/DeviceLock/AllowIdleReturnWithoutPassword</source>
@@ -270,8 +270,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="166" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - user cannot set the password grace period timer; value is set as “each time”</source>
@@ -282,8 +282,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> - user can set the password grace period timer (default)</target>
         </trans-unit>
         <trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>WiFi/AllowWiFi</source>
-          <target state="new">WiFi/AllowWiFi</target>
+          <source><bpt id="p1">**</bpt>WiFi/AllowWiFi<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>WiFi/AllowWiFi<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="169" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/WiFi/AllowWiFi</source>
@@ -298,8 +298,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="172" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="173" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Do not allow <bpt id="p2">**</bpt>use Wi-Fi connection<ept id="p2">**</ept>.</source>
@@ -310,8 +310,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> –<bpt id="p2">**</bpt>Allow use Wi-Fi connection<ept id="p2">**</ept> (default)</target>
         </trans-unit>
         <trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>WiFi/AllowInternetSharing</source>
-          <target state="new">WiFi/AllowInternetSharing</target>
+          <source><bpt id="p1">**</bpt>WiFi/AllowInternetSharing<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>WiFi/AllowInternetSharing<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="176" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/WiFi/AllowInternetSharing</source>
@@ -330,8 +330,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – Don't allow Internet Sharing, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – Allow Internet Sharing (default)</target>
         </trans-unit>
         <trans-unit id="180" translate="yes" xml:space="preserve">
-          <source>WiFi/AllowAutoConnectToWiFiSenseHotspots</source>
-          <target state="new">WiFi/AllowAutoConnectToWiFiSenseHotspots</target>
+          <source><bpt id="p1">**</bpt>WiFi/AllowAutoConnectToWiFiSenseHotspots<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>WiFi/AllowAutoConnectToWiFiSenseHotspots<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="181" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/WiFi/AllowAutoConnectToWiFiSenseHotspots</source>
@@ -350,8 +350,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="185" translate="yes" xml:space="preserve">
-          <source>WiFi/AllowManualWiFiConfiguration</source>
-          <target state="new">WiFi/AllowManualWiFiConfiguration</target>
+          <source><bpt id="p1">**</bpt>WiFi/AllowManualWiFiConfiguration<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>WiFi/AllowManualWiFiConfiguration<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="186" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/WiFi/AllowManualWiFiConfiguration</source>
@@ -366,8 +366,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="189" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="190" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – No Wi-Fi connection outside of MDM provisioned is allowed.</source>
@@ -378,8 +378,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> – Adding new network SSIDs beyond the already MDM provisioned ones is allowed (default)</target>
         </trans-unit>
         <trans-unit id="192" translate="yes" xml:space="preserve">
-          <source>System/AllowLocation</source>
-          <target state="new">System/AllowLocation</target>
+          <source><bpt id="p1">**</bpt>System/AllowLocation<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>System/AllowLocation<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="193" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/System/AllowLocation</source>
@@ -398,8 +398,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="197" translate="yes" xml:space="preserve">
-          <source>System/AllowTelemetry</source>
-          <target state="new">System/AllowTelemetry</target>
+          <source><bpt id="p1">**</bpt>System/AllowTelemetry<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>System/AllowTelemetry<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="198" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/System/AllowTelemetry</source>
@@ -414,8 +414,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="201" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="202" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Not allowed (Enterprise only setting)</source>
@@ -434,8 +434,8 @@
           <target state="new"><bpt id="p1">**</bpt>3<ept id="p1">**</ept> - Full and  diagnostics information</target>
         </trans-unit>
         <trans-unit id="206" translate="yes" xml:space="preserve">
-          <source>System/AllowExperimentation</source>
-          <target state="new">System/AllowExperimentation</target>
+          <source><bpt id="p1">**</bpt>System/AllowExperimentation<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>System/AllowExperimentation<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="207" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/System/AllowExperimentation</source>
@@ -450,8 +450,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="210" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="211" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Not allowed</source>
@@ -466,8 +466,8 @@
           <target state="new"><bpt id="p1">**</bpt>2<ept id="p1">**</ept>- Settings and experimentation</target>
         </trans-unit>
         <trans-unit id="214" translate="yes" xml:space="preserve">
-          <source>Security/AntiTheftMode</source>
-          <target state="new">Security/AntiTheftMode</target>
+          <source><bpt id="p1">**</bpt>Security/AntiTheftMode<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security/AntiTheftMode<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="215" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Security/AntiTheftMode</source>
@@ -482,8 +482,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="218" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="219" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - don't allow Anti Theft mode</source>
@@ -494,8 +494,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> User preference (default)</target>
         </trans-unit>
         <trans-unit id="221" translate="yes" xml:space="preserve">
-          <source>Connectivity/AllowUSBConnection</source>
-          <target state="new">Connectivity/AllowUSBConnection</target>
+          <source><bpt id="p1">**</bpt>Connectivity/AllowUSBConnection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Connectivity/AllowUSBConnection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="222" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Connectivity/AllowUSBConnection</source>
@@ -514,8 +514,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="226" translate="yes" xml:space="preserve">
-          <source>System/AllowUserToResetPhone</source>
-          <target state="new">System/AllowUserToResetPhone</target>
+          <source><bpt id="p1">**</bpt>System/AllowUserToResetPhone<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>System/AllowUserToResetPhone<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="227" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/System/AllowUserToResetPhone</source>
@@ -534,8 +534,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="231" translate="yes" xml:space="preserve">
-          <source>Connectivity/AllowCellularDataRoaming</source>
-          <target state="new">Connectivity/AllowCellularDataRoaming</target>
+          <source><bpt id="p1">**</bpt>Connectivity/AllowCellularDataRoaming<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Connectivity/AllowCellularDataRoaming<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="232" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Connectivity/AllowCellularDataRoaming</source>
@@ -554,8 +554,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="236" translate="yes" xml:space="preserve">
-          <source>Connectivity/AllowVPNOverCellular</source>
-          <target state="new">Connectivity/AllowVPNOverCellular</target>
+          <source><bpt id="p1">**</bpt>Connectivity/AllowVPNOverCellular<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Connectivity/AllowVPNOverCellular<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="237" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Connectivity/AllowVPNOverCellular</source>
@@ -570,8 +570,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="240" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="241" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - VPN is not allowed over cellular</source>
@@ -582,8 +582,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> – VPN could use any connection including cellular (default)</target>
         </trans-unit>
         <trans-unit id="243" translate="yes" xml:space="preserve">
-          <source>Connectivity/AllowVPNRoamingOverCellular</source>
-          <target state="new">Connectivity/AllowVPNRoamingOverCellular</target>
+          <source><bpt id="p1">**</bpt>Connectivity/AllowVPNRoamingOverCellular<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Connectivity/AllowVPNRoamingOverCellular<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="244" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Connectivity/AllowVPNRoamingOverCellular</source>
@@ -602,8 +602,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="248" translate="yes" xml:space="preserve">
-          <source>Connectivity/AllowVPNRoamingOverCellular</source>
-          <target state="new">Connectivity/AllowVPNRoamingOverCellular</target>
+          <source><bpt id="p1">**</bpt>Connectivity/AllowVPNRoamingOverCellular<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Connectivity/AllowVPNRoamingOverCellular<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="249" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Connectivity/AllowVPNRoamingOverCellular</source>
@@ -622,8 +622,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="253" translate="yes" xml:space="preserve">
-          <source>Connectivity/AllowBluetooth</source>
-          <target state="new">Connectivity/AllowBluetooth</target>
+          <source><bpt id="p1">**</bpt>Connectivity/AllowBluetooth<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Connectivity/AllowBluetooth<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="254" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Connectivity/AllowBluetooth</source>
@@ -638,8 +638,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="257" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="258" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Don’t allow the user to turn Bluetooth on.</source>
@@ -662,8 +662,8 @@
           <target state="new">The user can turn on and configure Bluetooth (default)</target>
         </trans-unit>
         <trans-unit id="263" translate="yes" xml:space="preserve">
-          <source>Experience/AllowScreenCapture</source>
-          <target state="new">Experience/AllowScreenCapture</target>
+          <source><bpt id="p1">**</bpt>Experience/AllowScreenCapture<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Experience/AllowScreenCapture<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="264" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Experience/AllowScreenCapture</source>
@@ -682,8 +682,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="268" translate="yes" xml:space="preserve">
-          <source>Experience/AllowTaskSwitcher</source>
-          <target state="new">Experience/AllowTaskSwitcher</target>
+          <source><bpt id="p1">**</bpt>Experience/AllowTaskSwitcher<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Experience/AllowTaskSwitcher<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="269" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Experience/AllowTaskSwitcher</source>
@@ -702,8 +702,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="273" translate="yes" xml:space="preserve">
-          <source>Experience/AllowVoiceRecording</source>
-          <target state="new">Experience/AllowVoiceRecording</target>
+          <source><bpt id="p1">**</bpt>Experience/AllowVoiceRecording<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Experience/AllowVoiceRecording<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="274" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Experience/AllowVoiceRecording</source>
@@ -722,8 +722,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="278" translate="yes" xml:space="preserve">
-          <source>Experience/AllowSyncMySettings</source>
-          <target state="new">Experience/AllowSyncMySettings</target>
+          <source><bpt id="p1">**</bpt>Experience/AllowSyncMySettings<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Experience/AllowSyncMySettings<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="279" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Experience/AllowSyncMySettings</source>
@@ -742,8 +742,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – Don’t allow roaming, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – Allow roaming (default)</target>
         </trans-unit>
         <trans-unit id="283" translate="yes" xml:space="preserve">
-          <source>Experience/AllowManualMDMUnenrollment</source>
-          <target state="new">Experience/AllowManualMDMUnenrollment</target>
+          <source><bpt id="p1">**</bpt>Experience/AllowManualMDMUnenrollment<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Experience/AllowManualMDMUnenrollment<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="284" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Experience/AllowManualMDMUnenrollment</source>
@@ -762,8 +762,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="288" translate="yes" xml:space="preserve">
-          <source>Accounts/AllowMicrosoftAccountConnection</source>
-          <target state="new">Accounts/AllowMicrosoftAccountConnection</target>
+          <source><bpt id="p1">**</bpt>Accounts/AllowMicrosoftAccountConnection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Accounts/AllowMicrosoftAccountConnection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="289" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Accounts/AllowMicrosoftAccountConnection</source>
@@ -782,8 +782,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="293" translate="yes" xml:space="preserve">
-          <source>Accounts/AllowAddingNonMicrosoftAccountsManually</source>
-          <target state="new">Accounts/AllowAddingNonMicrosoftAccountsManually</target>
+          <source><bpt id="p1">**</bpt>Accounts/AllowAddingNonMicrosoftAccountsManually<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Accounts/AllowAddingNonMicrosoftAccountsManually<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="294" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Accounts/AllowAddingNonMicrosoftAccountsManually</source>
@@ -802,8 +802,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="298" translate="yes" xml:space="preserve">
-          <source>Security/AllowManualRootCertificateInstallation</source>
-          <target state="new">Security/AllowManualRootCertificateInstallation</target>
+          <source><bpt id="p1">**</bpt>Security/AllowManualRootCertificateInstallation<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security/AllowManualRootCertificateInstallation<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="299" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Security/AllowManualRootCertificateInstallation</source>
@@ -822,8 +822,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="303" translate="yes" xml:space="preserve">
-          <source>Security/AllowAddProvisioningPackages</source>
-          <target state="new">Security/AllowAddProvisioningPackages</target>
+          <source><bpt id="p1">**</bpt>Security/AllowAddProvisioningPackages<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security/AllowAddProvisioningPackages<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="304" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Security/AllowAddProvisioningPackages</source>
@@ -842,8 +842,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="308" translate="yes" xml:space="preserve">
-          <source>Search/DisableBackoff</source>
-          <target state="new">Search/DisableBackoff</target>
+          <source><bpt id="p1">**</bpt>Search/DisableBackoff<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Search/DisableBackoff<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="309" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Search/DisableBackoff</source>
@@ -862,8 +862,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept></target>
         </trans-unit>
         <trans-unit id="313" translate="yes" xml:space="preserve">
-          <source>Search/PreventRemoteQueries</source>
-          <target state="new">Search/PreventRemoteQueries</target>
+          <source><bpt id="p1">**</bpt>Search/PreventRemoteQueries<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Search/PreventRemoteQueries<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="314" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Search/PreventRemoteQueries</source>
@@ -882,8 +882,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept>, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> (default)</target>
         </trans-unit>
         <trans-unit id="318" translate="yes" xml:space="preserve">
-          <source>Search/AllowUsingDiacritics</source>
-          <target state="new">Search/AllowUsingDiacritics</target>
+          <source><bpt id="p1">**</bpt>Search/AllowUsingDiacritics<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Search/AllowUsingDiacritics<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="319" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Search/AllowUsingDiacritics</source>
@@ -902,8 +902,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept></target>
         </trans-unit>
         <trans-unit id="323" translate="yes" xml:space="preserve">
-          <source>Search/AlwaysUseAutoLangDetection</source>
-          <target state="new">Search/AlwaysUseAutoLangDetection</target>
+          <source><bpt id="p1">**</bpt>Search/AlwaysUseAutoLangDetection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Search/AlwaysUseAutoLangDetection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="324" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Search/AlwaysUseAutoLangDetection</source>
@@ -922,8 +922,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept></target>
         </trans-unit>
         <trans-unit id="328" translate="yes" xml:space="preserve">
-          <source>Search/DisableRemovableDriveIndexing</source>
-          <target state="new">Search/DisableRemovableDriveIndexing</target>
+          <source><bpt id="p1">**</bpt>Search/DisableRemovableDriveIndexing<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Search/DisableRemovableDriveIndexing<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="329" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Search/DisableRemovableDriveIndexing</source>
@@ -942,8 +942,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept></target>
         </trans-unit>
         <trans-unit id="333" translate="yes" xml:space="preserve">
-          <source>Search/PreventIndexingLowDiskSpaceMB</source>
-          <target state="new">Search/PreventIndexingLowDiskSpaceMB</target>
+          <source><bpt id="p1">**</bpt>Search/PreventIndexingLowDiskSpaceMB<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Search/PreventIndexingLowDiskSpaceMB<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="334" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Search/PreventIndexingLowDiskSpaceMB</source>
@@ -962,8 +962,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept>, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> (default)</target>
         </trans-unit>
         <trans-unit id="338" translate="yes" xml:space="preserve">
-          <source>Search/AllowIndexingEncryptedStoresOrItems</source>
-          <target state="new">Search/AllowIndexingEncryptedStoresOrItems</target>
+          <source><bpt id="p1">**</bpt>Search/AllowIndexingEncryptedStoresOrItems<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Search/AllowIndexingEncryptedStoresOrItems<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="339" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Search/AllowIndexingEncryptedStoresOrItems</source>
@@ -982,8 +982,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept></target>
         </trans-unit>
         <trans-unit id="343" translate="yes" xml:space="preserve">
-          <source>Security/AllowRemoveProvisioningPackage</source>
-          <target state="new">Security/AllowRemoveProvisioningPackage</target>
+          <source><bpt id="p1">**</bpt>Security/AllowRemoveProvisioningPackage<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security/AllowRemoveProvisioningPackage<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="344" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Security/AllowRemoveProvisioningPackage</source>
@@ -1002,8 +1002,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="348" translate="yes" xml:space="preserve">
-          <source>Security/RequireProvisioningPackageSignature</source>
-          <target state="new">Security/RequireProvisioningPackageSignature</target>
+          <source><bpt id="p1">**</bpt>Security/RequireProvisioningPackageSignature<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Security/RequireProvisioningPackageSignature<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="349" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Security/RequireProvisioningPackageSignature</source>
@@ -1022,8 +1022,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept></target>
         </trans-unit>
         <trans-unit id="353" translate="yes" xml:space="preserve">
-          <source>AboveLock/AllowActionCenterNotifications</source>
-          <target state="new">AboveLock/AllowActionCenterNotifications</target>
+          <source><bpt id="p1">**</bpt>AboveLock/AllowActionCenterNotifications<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AboveLock/AllowActionCenterNotifications<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="354" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/AboveLock/AllowActionCenterNotifications</source>
@@ -1042,8 +1042,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="358" translate="yes" xml:space="preserve">
-          <source>TextInput/AllowIMENetworkAccess</source>
-          <target state="new">TextInput/AllowIMENetworkAccess</target>
+          <source><bpt id="p1">**</bpt>TextInput/AllowIMENetworkAccess<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/AllowIMENetworkAccess<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="359" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/AllowIMENetworkAccess</source>
@@ -1058,8 +1058,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="362" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="363" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Don’t allow</source>
@@ -1110,8 +1110,8 @@
           <target state="new">Use the cloud candidate feature.</target>
         </trans-unit>
         <trans-unit id="375" translate="yes" xml:space="preserve">
-          <source>TextInput/AllowIMELogging</source>
-          <target state="new">TextInput/AllowIMELogging</target>
+          <source><bpt id="p1">**</bpt>TextInput/AllowIMELogging<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/AllowIMELogging<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="376" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/AllowIMELogging</source>
@@ -1126,8 +1126,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="379" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="380" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - Misconversion logging off.</source>
@@ -1138,8 +1138,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> - Misconversion logging on (default)</target>
         </trans-unit>
         <trans-unit id="382" translate="yes" xml:space="preserve">
-          <source>TextInput/AllowJapaneseNonPublishingStandardGlyph</source>
-          <target state="new">TextInput/AllowJapaneseNonPublishingStandardGlyph</target>
+          <source><bpt id="p1">**</bpt>TextInput/AllowJapaneseNonPublishingStandardGlyph<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/AllowJapaneseNonPublishingStandardGlyph<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="383" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/AllowJapaneseNonPublishingStandardGlyph</source>
@@ -1158,8 +1158,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="387" translate="yes" xml:space="preserve">
-          <source>TextInput/AllowJapaneseIVSCharacters</source>
-          <target state="new">TextInput/AllowJapaneseIVSCharacters</target>
+          <source><bpt id="p1">**</bpt>TextInput/AllowJapaneseIVSCharacters<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/AllowJapaneseIVSCharacters<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="388" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/AllowJapaneseIVSCharacters</source>
@@ -1178,8 +1178,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="392" translate="yes" xml:space="preserve">
-          <source>TextInput/AllowJapaneseUserDictionary</source>
-          <target state="new">TextInput/AllowJapaneseUserDictionary</target>
+          <source><bpt id="p1">**</bpt>TextInput/AllowJapaneseUserDictionary<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/AllowJapaneseUserDictionary<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="393" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/AllowJapaneseUserDictionary</source>
@@ -1198,8 +1198,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="397" translate="yes" xml:space="preserve">
-          <source>TextInput/AllowJapaneseIMESurrogatePairCharacters</source>
-          <target state="new">TextInput/AllowJapaneseIMESurrogatePairCharacters</target>
+          <source><bpt id="p1">**</bpt>TextInput/AllowJapaneseIMESurrogatePairCharacters<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/AllowJapaneseIMESurrogatePairCharacters<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="398" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/AllowJapaneseIMESurrogatePairCharacters</source>
@@ -1218,8 +1218,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="402" translate="yes" xml:space="preserve">
-          <source>TextInput/ExcludeJapaneseIMEExceptShiftJIS</source>
-          <target state="new">TextInput/ExcludeJapaneseIMEExceptShiftJIS</target>
+          <source><bpt id="p1">**</bpt>TextInput/ExcludeJapaneseIMEExceptShiftJIS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/ExcludeJapaneseIMEExceptShiftJIS<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="403" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/ExcludeJapaneseIMEExceptShiftJIS</source>
@@ -1234,8 +1234,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="406" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="407" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - No characters are filtered (default)</source>
@@ -1246,8 +1246,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> - All Except Shift JIS characters are filtered</target>
         </trans-unit>
         <trans-unit id="409" translate="yes" xml:space="preserve">
-          <source>TextInput/ExcludeJapaneseIMEExceptJIS0208</source>
-          <target state="new">TextInput/ExcludeJapaneseIMEExceptJIS0208</target>
+          <source><bpt id="p1">**</bpt>TextInput/ExcludeJapaneseIMEExceptJIS0208<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/ExcludeJapaneseIMEExceptJIS0208<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="410" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/ExcludeJapaneseIMEExceptJIS0208</source>
@@ -1262,8 +1262,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="413" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="414" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - No characters are filtered (default)</source>
@@ -1274,8 +1274,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> - All except JIS0208 characters are filtered</target>
         </trans-unit>
         <trans-unit id="416" translate="yes" xml:space="preserve">
-          <source>TextInput/ExcludeJapaneseIMEExceptJIS0208andEUDC</source>
-          <target state="new">TextInput/ExcludeJapaneseIMEExceptJIS0208andEUDC</target>
+          <source><bpt id="p1">**</bpt>TextInput/ExcludeJapaneseIMEExceptJIS0208andEUDC<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/ExcludeJapaneseIMEExceptJIS0208andEUDC<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="417" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/ExcludeJapaneseIMEExceptJIS0208andEUDC</source>
@@ -1290,8 +1290,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="420" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="421" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - No characters are filtered (default)</source>
@@ -1302,8 +1302,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> - All except JIS0208 characters or EUDC characters are filtered</target>
         </trans-unit>
         <trans-unit id="423" translate="yes" xml:space="preserve">
-          <source>TextInput/AllowInputPanel</source>
-          <target state="new">TextInput/AllowInputPanel</target>
+          <source><bpt id="p1">**</bpt>TextInput/AllowInputPanel<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>TextInput/AllowInputPanel<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="424" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/TextInput/AllowInputPanel</source>
@@ -1322,8 +1322,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="428" translate="yes" xml:space="preserve">
-          <source>Bluetooth/AllowDiscoverableMode</source>
-          <target state="new">Bluetooth/AllowDiscoverableMode</target>
+          <source><bpt id="p1">**</bpt>Bluetooth/AllowDiscoverableMode<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Bluetooth/AllowDiscoverableMode<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="429" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Bluetooth/AllowDiscoverableMode</source>
@@ -1342,8 +1342,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="433" translate="yes" xml:space="preserve">
-          <source>Bluetooth/AllowAdvertising</source>
-          <target state="new">Bluetooth/AllowAdvertising</target>
+          <source><bpt id="p1">**</bpt>Bluetooth/AllowAdvertising<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Bluetooth/AllowAdvertising<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="434" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Bluetooth/AllowAdvertising</source>
@@ -1362,8 +1362,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="438" translate="yes" xml:space="preserve">
-          <source>Settings/AllowDataSense</source>
-          <target state="new">Settings/AllowDataSense</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowDataSense<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowDataSense<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="439" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowDataSense</source>
@@ -1382,8 +1382,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="443" translate="yes" xml:space="preserve">
-          <source>Settings/AllowVPN</source>
-          <target state="new">Settings/AllowVPN</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowVPN<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowVPN<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="444" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowVPN</source>
@@ -1402,8 +1402,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="448" translate="yes" xml:space="preserve">
-          <source>Settings/AllowWorkplace</source>
-          <target state="new">Settings/AllowWorkplace</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowWorkplace<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowWorkplace<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="449" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowWorkplace</source>
@@ -1422,8 +1422,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="453" translate="yes" xml:space="preserve">
-          <source>Settings/AllowDateTime</source>
-          <target state="new">Settings/AllowDateTime</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowDateTime<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowDateTime<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="454" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowDateTime</source>
@@ -1442,8 +1442,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="458" translate="yes" xml:space="preserve">
-          <source>Settings/AllowLanguage</source>
-          <target state="new">Settings/AllowLanguage</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowLanguage<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowLanguage<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="459" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowLanguage</source>
@@ -1462,8 +1462,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="463" translate="yes" xml:space="preserve">
-          <source>Settings/AllowRegion</source>
-          <target state="new">Settings/AllowRegion</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowRegion<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowRegion<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="464" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowRegion</source>
@@ -1482,8 +1482,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="468" translate="yes" xml:space="preserve">
-          <source>Settings/AllowSignInOptions</source>
-          <target state="new">Settings/AllowSignInOptions</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowSignInOptions<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowSignInOptions<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="469" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowSignInOptions</source>
@@ -1502,8 +1502,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="473" translate="yes" xml:space="preserve">
-          <source>Settings/AllowYourAccount</source>
-          <target state="new">Settings/AllowYourAccount</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowYourAccount<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowYourAccount<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="474" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowYourAccount</source>
@@ -1522,8 +1522,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="478" translate="yes" xml:space="preserve">
-          <source>Settings/AllowPowerSleep</source>
-          <target state="new">Settings/AllowPowerSleep</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowPowerSleep<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowPowerSleep<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="479" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowPowerSleep</source>
@@ -1542,8 +1542,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="483" translate="yes" xml:space="preserve">
-          <source>Settings/AllowAutoPlay</source>
-          <target state="new">Settings/AllowAutoPlay</target>
+          <source><bpt id="p1">**</bpt>Settings/AllowAutoPlay<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Settings/AllowAutoPlay<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="484" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Settings/AllowAutoPlay</source>
@@ -1562,8 +1562,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="488" translate="yes" xml:space="preserve">
-          <source>Experience/AllowCortana</source>
-          <target state="new">Experience/AllowCortana</target>
+          <source><bpt id="p1">**</bpt>Experience/AllowCortana<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Experience/AllowCortana<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="489" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Experience/AllowCortana</source>
@@ -1582,8 +1582,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="493" translate="yes" xml:space="preserve">
-          <source>Search/SafeSearchPermissions</source>
-          <target state="new">Search/SafeSearchPermissions</target>
+          <source><bpt id="p1">**</bpt>Search/SafeSearchPermissions<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Search/SafeSearchPermissions<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="494" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Search/SafeSearchPermissions</source>
@@ -1598,8 +1598,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="497" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="498" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Strict, highest filtering against adult content</source>
@@ -1610,8 +1610,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> – Moderate, moderate filtering against adult content (valid search results will not be filtered - default)</target>
         </trans-unit>
         <trans-unit id="500" translate="yes" xml:space="preserve">
-          <source>Experience/AllowCopyPaste</source>
-          <target state="new">Experience/AllowCopyPaste</target>
+          <source><bpt id="p1">**</bpt>Experience/AllowCopyPaste<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Experience/AllowCopyPaste<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="501" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Experience/AllowCopyPaste</source>
@@ -1630,8 +1630,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="505" translate="yes" xml:space="preserve">
-          <source>Force Start Size</source>
-          <target state="new">Force Start Size</target>
+          <source><bpt id="p1">**</bpt>Force Start Size<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Force Start Size<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="506" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Start/ForceStartSize</source>
@@ -1646,8 +1646,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="509" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="510" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - allow user change size (default)</source>
@@ -1662,8 +1662,8 @@
           <target state="new"><bpt id="p1">**</bpt>2<ept id="p1">**</ept> - force full screen</target>
         </trans-unit>
         <trans-unit id="513" translate="yes" xml:space="preserve">
-          <source>Update/RequireDeferUpgrade</source>
-          <target state="new">Update/RequireDeferUpgrade</target>
+          <source><bpt id="p1">**</bpt>Update/RequireDeferUpgrade<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Update/RequireDeferUpgrade<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="514" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Update/RequireDeferUpgrade</source>
@@ -1678,8 +1678,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="517" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="518" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept>: do not defer upgrade (stay in current branch, CB - default)</source>
@@ -1694,16 +1694,16 @@
           <target state="new">For details, see:</target>
         </trans-unit>
         <trans-unit id="521" translate="yes" xml:space="preserve">
-          <source>Introduction to Windows 10 servicing</source>
-          <target state="new">Introduction to Windows 10 servicing</target>
+          <source><bpt id="p1">[</bpt>Introduction to Windows 10 servicing<ept id="p1">](https://technet.microsoft.com/library/mt598226.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Introduction to Windows 10 servicing<ept id="p1">](https://technet.microsoft.com/library/mt598226.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="522" translate="yes" xml:space="preserve">
-          <source>Plan for Windows 10 deployment</source>
-          <target state="new">Plan for Windows 10 deployment</target>
+          <source><bpt id="p1">[</bpt>Plan for Windows 10 deployment<ept id="p1">](https://technet.microsoft.com/library/mt574241.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Plan for Windows 10 deployment<ept id="p1">](https://technet.microsoft.com/library/mt574241.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="523" translate="yes" xml:space="preserve">
-          <source>Update/DeferUpdatePeriod</source>
-          <target state="new">Update/DeferUpdatePeriod</target>
+          <source><bpt id="p1">**</bpt>Update/DeferUpdatePeriod<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Update/DeferUpdatePeriod<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="524" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Update/DeferUpdatePeriod</source>
@@ -1722,8 +1722,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="528" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="529" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept>: Apply updates immediately (default)</source>
@@ -1738,16 +1738,16 @@
           <target state="new">For details, see:</target>
         </trans-unit>
         <trans-unit id="532" translate="yes" xml:space="preserve">
-          <source>Introduction to Windows 10 servicing</source>
-          <target state="new">Introduction to Windows 10 servicing</target>
+          <source><bpt id="p1">[</bpt>Introduction to Windows 10 servicing<ept id="p1">](https://technet.microsoft.com/library/mt598226.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Introduction to Windows 10 servicing<ept id="p1">](https://technet.microsoft.com/library/mt598226.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="533" translate="yes" xml:space="preserve">
-          <source>Plan for Windows 10 deployment</source>
-          <target state="new">Plan for Windows 10 deployment</target>
+          <source><bpt id="p1">[</bpt>Plan for Windows 10 deployment<ept id="p1">](https://technet.microsoft.com/library/mt574241.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Plan for Windows 10 deployment<ept id="p1">](https://technet.microsoft.com/library/mt574241.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="534" translate="yes" xml:space="preserve">
-          <source>Update/DeferUpgradePeriod</source>
-          <target state="new">Update/DeferUpgradePeriod</target>
+          <source><bpt id="p1">**</bpt>Update/DeferUpgradePeriod<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Update/DeferUpgradePeriod<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="535" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Update/DeferUpgradePeriod</source>
@@ -1766,8 +1766,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="539" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="540" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept>: Apply updates immediately (default)</source>
@@ -1782,16 +1782,16 @@
           <target state="new">For details, see:</target>
         </trans-unit>
         <trans-unit id="543" translate="yes" xml:space="preserve">
-          <source>Introduction to Windows 10 servicing</source>
-          <target state="new">Introduction to Windows 10 servicing</target>
+          <source><bpt id="p1">[</bpt>Introduction to Windows 10 servicing<ept id="p1">](https://technet.microsoft.com/library/mt598226.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Introduction to Windows 10 servicing<ept id="p1">](https://technet.microsoft.com/library/mt598226.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="544" translate="yes" xml:space="preserve">
-          <source>Plan for Windows 10 deployment</source>
-          <target state="new">Plan for Windows 10 deployment</target>
+          <source><bpt id="p1">[</bpt>Plan for Windows 10 deployment<ept id="p1">](https://technet.microsoft.com/library/mt574241.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Plan for Windows 10 deployment<ept id="p1">](https://technet.microsoft.com/library/mt574241.aspx)</ept></target>
         </trans-unit>
         <trans-unit id="545" translate="yes" xml:space="preserve">
-          <source>Update/PauseDeferrals</source>
-          <target state="new">Update/PauseDeferrals</target>
+          <source><bpt id="p1">**</bpt>Update/PauseDeferrals<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Update/PauseDeferrals<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="546" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Update/PauseDeferrals</source>
@@ -1810,8 +1810,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="550" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="551" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept>: Apply updates immediately (default)</source>
@@ -1822,8 +1822,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept>: Pause updates and upgrades (expires after 5 weeks)</target>
         </trans-unit>
         <trans-unit id="553" translate="yes" xml:space="preserve">
-          <source>Windows Defender</source>
-          <target state="new">Windows Defender</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Windows Defender</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Windows Defender</target>
         </trans-unit>
         <trans-unit id="554" translate="yes" xml:space="preserve">
           <source>Policy name and URI</source>
@@ -1834,8 +1834,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="556" translate="yes" xml:space="preserve">
-          <source>AllowRealtimeMonitoring</source>
-          <target state="new">AllowRealtimeMonitoring</target>
+          <source><bpt id="p1">**</bpt>AllowRealtimeMonitoring<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowRealtimeMonitoring<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="557" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowRealtimeMonitoring</source>
@@ -1854,8 +1854,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="561" translate="yes" xml:space="preserve">
-          <source>AllowBehaviorMonitoring</source>
-          <target state="new">AllowBehaviorMonitoring</target>
+          <source><bpt id="p1">**</bpt>AllowBehaviorMonitoring<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowBehaviorMonitoring<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="562" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowBehaviorMonitoring</source>
@@ -1874,8 +1874,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="566" translate="yes" xml:space="preserve">
-          <source>AllowIntrusionPreventionSystem</source>
-          <target state="new">AllowIntrusionPreventionSystem</target>
+          <source><bpt id="p1">**</bpt>AllowIntrusionPreventionSystem<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowIntrusionPreventionSystem<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="567" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowIntrusionPreventionSystem</source>
@@ -1894,8 +1894,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="571" translate="yes" xml:space="preserve">
-          <source>AllowIOAVProtection</source>
-          <target state="new">AllowIOAVProtection</target>
+          <source><bpt id="p1">**</bpt>AllowIOAVProtection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowIOAVProtection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="572" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowIOAVProtection</source>
@@ -1914,8 +1914,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="576" translate="yes" xml:space="preserve">
-          <source>AllowScriptScanning</source>
-          <target state="new">AllowScriptScanning</target>
+          <source><bpt id="p1">**</bpt>AllowScriptScanning<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowScriptScanning<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="577" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowScriptScanning</source>
@@ -1934,8 +1934,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="581" translate="yes" xml:space="preserve">
-          <source>AllowOnAccessProtection</source>
-          <target state="new">AllowOnAccessProtection</target>
+          <source><bpt id="p1">**</bpt>AllowOnAccessProtection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowOnAccessProtection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="582" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowOnAccessProtection</source>
@@ -1954,8 +1954,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="586" translate="yes" xml:space="preserve">
-          <source>RealTimeScanDirection</source>
-          <target state="new">RealTimeScanDirection</target>
+          <source><bpt id="p1">**</bpt>RealTimeScanDirection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>RealTimeScanDirection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="587" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/RealTimeScanDirection</source>
@@ -1970,8 +1970,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="590" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="591" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Monitor all files (default)</source>
@@ -1986,8 +1986,8 @@
           <target state="new"><bpt id="p1">**</bpt>2<ept id="p1">**</ept> – Monitor outgoing files</target>
         </trans-unit>
         <trans-unit id="594" translate="yes" xml:space="preserve">
-          <source>DaysToRetainCleanedMalware</source>
-          <target state="new">DaysToRetainCleanedMalware</target>
+          <source><bpt id="p1">**</bpt>DaysToRetainCleanedMalware<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>DaysToRetainCleanedMalware<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="595" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/DaysToRetainCleanedMalware</source>
@@ -2002,8 +2002,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="598" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="599" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept><ph id="ph1"> - </ph><bpt id="p2">**</bpt>90<ept id="p2">**</ept> – Represents what how long malware will be retained</source>
@@ -2014,8 +2014,8 @@
           <target state="new"><bpt id="p1">**</bpt>Default:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – keeps in the quarantine folder forever, and doesn’t automatically remove</target>
         </trans-unit>
         <trans-unit id="601" translate="yes" xml:space="preserve">
-          <source>AllowUserUIAccess</source>
-          <target state="new">AllowUserUIAccess</target>
+          <source><bpt id="p1">**</bpt>AllowUserUIAccess<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowUserUIAccess<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="602" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowUserUIAccess</source>
@@ -2034,8 +2034,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="606" translate="yes" xml:space="preserve">
-          <source>ScanParameter</source>
-          <target state="new">ScanParameter</target>
+          <source><bpt id="p1">**</bpt>ScanParameter<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>ScanParameter<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="607" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/ScanParameter</source>
@@ -2050,8 +2050,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="610" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="611" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>1<ept id="p1">**</ept> – Quick scan (default)</source>
@@ -2062,8 +2062,8 @@
           <target state="new"><bpt id="p1">**</bpt>2<ept id="p1">**</ept> - Full scan</target>
         </trans-unit>
         <trans-unit id="613" translate="yes" xml:space="preserve">
-          <source>ScheduleScanDay</source>
-          <target state="new">ScheduleScanDay</target>
+          <source><bpt id="p1">**</bpt>ScheduleScanDay<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>ScheduleScanDay<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="614" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/ScheduleScanDay</source>
@@ -2078,8 +2078,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="617" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="618" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - Everyday (default)</source>
@@ -2118,8 +2118,8 @@
           <target state="new"><bpt id="p1">**</bpt>8<ept id="p1">**</ept> – No scheduled scan</target>
         </trans-unit>
         <trans-unit id="627" translate="yes" xml:space="preserve">
-          <source>ScheduleScanTime</source>
-          <target state="new">ScheduleScanTime</target>
+          <source><bpt id="p1">**</bpt>ScheduleScanTime<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>ScheduleScanTime<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="628" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/ScheduleScanTime</source>
@@ -2134,8 +2134,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="631" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="632" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - 12:00 am</source>
@@ -2234,8 +2234,8 @@
           <target state="new"><bpt id="p1">**</bpt>1381<ept id="p1">**</ept> – Maintenance window</target>
         </trans-unit>
         <trans-unit id="656" translate="yes" xml:space="preserve">
-          <source>ScheduleQuickScanTime</source>
-          <target state="new">ScheduleQuickScanTime</target>
+          <source><bpt id="p1">**</bpt>ScheduleQuickScanTime<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>ScheduleQuickScanTime<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="657" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/ScheduleQuickScanTime</source>
@@ -2250,8 +2250,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="660" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="661" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> - 12:00 am</source>
@@ -2350,8 +2350,8 @@
           <target state="new"><bpt id="p1">**</bpt>1380<ept id="p1">**</ept> – 11:00 pm</target>
         </trans-unit>
         <trans-unit id="685" translate="yes" xml:space="preserve">
-          <source>AVGCPULoadFactor</source>
-          <target state="new">AVGCPULoadFactor</target>
+          <source><bpt id="p1">**</bpt>AVGCPULoadFactor<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AVGCPULoadFactor<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="686" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AVGCPULoadFactor</source>
@@ -2370,8 +2370,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept><ph id="ph1"> - </ph><bpt id="p3">**</bpt>100<ept id="p3">**</ept> (default: <bpt id="p4">**</bpt>50<ept id="p4">**</ept>)</target>
         </trans-unit>
         <trans-unit id="690" translate="yes" xml:space="preserve">
-          <source>AllowArchiveScanning</source>
-          <target state="new">AllowArchiveScanning</target>
+          <source><bpt id="p1">**</bpt>AllowArchiveScanning<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowArchiveScanning<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="691" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowArchiveScanning</source>
@@ -2390,8 +2390,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="695" translate="yes" xml:space="preserve">
-          <source>AllowEmailScanning</source>
-          <target state="new">AllowEmailScanning</target>
+          <source><bpt id="p1">**</bpt>AllowEmailScanning<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowEmailScanning<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="696" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowEmailScanning</source>
@@ -2410,8 +2410,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed</target>
         </trans-unit>
         <trans-unit id="700" translate="yes" xml:space="preserve">
-          <source>AllowFullScanRemovableDriveScanning</source>
-          <target state="new">AllowFullScanRemovableDriveScanning</target>
+          <source><bpt id="p1">**</bpt>AllowFullScanRemovableDriveScanning<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowFullScanRemovableDriveScanning<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="701" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowFullScanRemovableDriveScanning</source>
@@ -2430,8 +2430,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed</target>
         </trans-unit>
         <trans-unit id="705" translate="yes" xml:space="preserve">
-          <source>AllowFullScanOnMappedNetworkDrives</source>
-          <target state="new">AllowFullScanOnMappedNetworkDrives</target>
+          <source><bpt id="p1">**</bpt>AllowFullScanOnMappedNetworkDrives<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowFullScanOnMappedNetworkDrives<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="706" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowFullScanOnMappedNetworkDrives</source>
@@ -2450,8 +2450,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="710" translate="yes" xml:space="preserve">
-          <source>AllowScanningNetworkFiles</source>
-          <target state="new">AllowScanningNetworkFiles</target>
+          <source><bpt id="p1">**</bpt>AllowScanningNetworkFiles<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowScanningNetworkFiles<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="711" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowScanningNetworkFiles</source>
@@ -2470,8 +2470,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default) – Also runs when RTP is on if set to allowed</target>
         </trans-unit>
         <trans-unit id="715" translate="yes" xml:space="preserve">
-          <source>SignatureUpdateInterval</source>
-          <target state="new">SignatureUpdateInterval</target>
+          <source><bpt id="p1">**</bpt>SignatureUpdateInterval<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>SignatureUpdateInterval<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="716" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/SignatureUpdateInterval</source>
@@ -2486,8 +2486,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="719" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="720" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Don't check for signatures on an interval</source>
@@ -2510,8 +2510,8 @@
           <target state="new"><bpt id="p1">**</bpt>Default value:<ept id="p1">**</ept> 8 – Check every 8 hours</target>
         </trans-unit>
         <trans-unit id="725" translate="yes" xml:space="preserve">
-          <source>AllowCloudProtection</source>
-          <target state="new">AllowCloudProtection</target>
+          <source><bpt id="p1">**</bpt>AllowCloudProtection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowCloudProtection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="726" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/AllowCloudProtection</source>
@@ -2530,8 +2530,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – not allowed, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – allowed (default)</target>
         </trans-unit>
         <trans-unit id="730" translate="yes" xml:space="preserve">
-          <source>SubmitSamplesConsent</source>
-          <target state="new">SubmitSamplesConsent</target>
+          <source><bpt id="p1">**</bpt>SubmitSamplesConsent<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>SubmitSamplesConsent<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="731" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/SubmitSamplesConsent</source>
@@ -2546,8 +2546,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="734" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="735" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Always prompt (default)</source>
@@ -2566,8 +2566,8 @@
           <target state="new"><bpt id="p1">**</bpt>3<ept id="p1">**</ept> – Send all samples automatically</target>
         </trans-unit>
         <trans-unit id="739" translate="yes" xml:space="preserve">
-          <source>ExcludedExtensions</source>
-          <target state="new">ExcludedExtensions</target>
+          <source><bpt id="p1">**</bpt>ExcludedExtensions<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>ExcludedExtensions<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="740" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/ExcludedExtensions</source>
@@ -2582,24 +2582,24 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> String</target>
         </trans-unit>
         <trans-unit id="743" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="744" translate="yes" xml:space="preserve">
           <source><bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>list of extensions separated by semi-colon<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept> E.g.</source>
           <target state="new"><bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>list of extensions separated by semi-colon<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept> E.g.</target>
         </trans-unit>
         <trans-unit id="745" translate="yes" xml:space="preserve">
-          <source>obj;lib</source>
-          <target state="new">obj;lib</target>
+          <source><bpt id="p1">**</bpt>obj;lib<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>obj;lib<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="746" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Default:<ept id="p1">**</ept> No extensions excluded</source>
           <target state="new"><bpt id="p1">**</bpt>Default:<ept id="p1">**</ept> No extensions excluded</target>
         </trans-unit>
         <trans-unit id="747" translate="yes" xml:space="preserve">
-          <source>ExcludedPaths</source>
-          <target state="new">ExcludedPaths</target>
+          <source><bpt id="p1">**</bpt>ExcludedPaths<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>ExcludedPaths<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="748" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/ExcludedPaths</source>
@@ -2614,12 +2614,12 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> String</target>
         </trans-unit>
         <trans-unit id="751" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="752" translate="yes" xml:space="preserve">
-          <source>list of paths separated by semi-colon</source>
-          <target state="new">list of paths separated by semi-colon</target>
+          <source><bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>list of paths separated by semi-colon<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>list of paths separated by semi-colon<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept></target>
         </trans-unit>
         <trans-unit id="753" translate="yes" xml:space="preserve">
           <source>Example: <bpt id="p1">**</bpt>c:\test;c:\test1.exe<ept id="p1">**</ept></source>
@@ -2630,8 +2630,8 @@
           <target state="new"><bpt id="p1">**</bpt>Default value:<ept id="p1">**</ept> No paths are excluded</target>
         </trans-unit>
         <trans-unit id="755" translate="yes" xml:space="preserve">
-          <source>ExcludedProcesses</source>
-          <target state="new">ExcludedProcesses</target>
+          <source><bpt id="p1">**</bpt>ExcludedProcesses<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>ExcludedProcesses<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="756" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Defender/ExcludedProcesses</source>
@@ -2646,12 +2646,12 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> String</target>
         </trans-unit>
         <trans-unit id="759" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="760" translate="yes" xml:space="preserve">
-          <source>list of paths separated by semi-colon</source>
-          <target state="new">list of paths separated by semi-colon</target>
+          <source><bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>list of paths separated by semi-colon<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>list of paths separated by semi-colon<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept></target>
         </trans-unit>
         <trans-unit id="761" translate="yes" xml:space="preserve">
           <source>Example: <bpt id="p1">**</bpt>c:\test.exe;c:\test1.exe<ept id="p1">**</ept></source>
@@ -2662,8 +2662,8 @@
           <target state="new"><bpt id="p1">**</bpt>Default value:<ept id="p1">**</ept> No processes are excluded</target>
         </trans-unit>
         <trans-unit id="763" translate="yes" xml:space="preserve">
-          <source>Edge browser</source>
-          <target state="new">Edge browser</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Edge browser</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Edge browser</target>
         </trans-unit>
         <trans-unit id="764" translate="yes" xml:space="preserve">
           <source>Policy name and URI</source>
@@ -2674,8 +2674,8 @@
           <target state="new">Details</target>
         </trans-unit>
         <trans-unit id="766" translate="yes" xml:space="preserve">
-          <source>Allow Browser</source>
-          <target state="new">Allow Browser</target>
+          <source><bpt id="p1">**</bpt>Allow Browser<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Browser<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="767" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/AllowBrowser</source>
@@ -2694,8 +2694,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept>: browsing off, <bpt id="p3">**</bpt>1<ept id="p3">**</ept>: browsing on (default)</target>
         </trans-unit>
         <trans-unit id="771" translate="yes" xml:space="preserve">
-          <source>AllowSearchSuggestionsinAddressBar</source>
-          <target state="new">AllowSearchSuggestionsinAddressBar</target>
+          <source><bpt id="p1">**</bpt>AllowSearchSuggestionsinAddressBar<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>AllowSearchSuggestionsinAddressBar<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="772" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/AllowSearchSuggestionsinAddressBar</source>
@@ -2714,8 +2714,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept>: Don't show suggestions, <bpt id="p3">**</bpt>1<ept id="p3">**</ept>: Show suggestions (default)</target>
         </trans-unit>
         <trans-unit id="776" translate="yes" xml:space="preserve">
-          <source>SendIntranetTraffictoInternetExplorer</source>
-          <target state="new">SendIntranetTraffictoInternetExplorer</target>
+          <source><bpt id="p1">**</bpt>SendIntranetTraffictoInternetExplorer<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>SendIntranetTraffictoInternetExplorer<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="777" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/SendIntranetTraffictoInternetExplorer</source>
@@ -2730,8 +2730,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="780" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="781" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept>: Disabled (open intranet sites in Edge browser - default))</source>
@@ -2742,8 +2742,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> - Enabled (open intranet sites in Internet Explorer).</target>
         </trans-unit>
         <trans-unit id="783" translate="yes" xml:space="preserve">
-          <source>Allow Do Not Track</source>
-          <target state="new">Allow Do Not Track</target>
+          <source><bpt id="p1">**</bpt>Allow Do Not Track<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Do Not Track<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="784" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/AllowDoNotTrack</source>
@@ -2762,8 +2762,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – Disabled (DNT not sent - default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – Enabled (send DNT)</target>
         </trans-unit>
         <trans-unit id="788" translate="yes" xml:space="preserve">
-          <source>Configure SmartScreen</source>
-          <target state="new">Configure SmartScreen</target>
+          <source><bpt id="p1">**</bpt>Configure SmartScreen<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Configure SmartScreen<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="789" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/AllowSmartScreen</source>
@@ -2782,8 +2782,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – Do not allow, <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – Allow (default)</target>
         </trans-unit>
         <trans-unit id="793" translate="yes" xml:space="preserve">
-          <source>Allow Pop-ups</source>
-          <target state="new">Allow Pop-ups</target>
+          <source><bpt id="p1">**</bpt>Allow Pop-ups<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Pop-ups<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="794" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/AllowPopups</source>
@@ -2802,8 +2802,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – Block pop-ups (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – Allow pop-ups</target>
         </trans-unit>
         <trans-unit id="798" translate="yes" xml:space="preserve">
-          <source>Allow Cookies</source>
-          <target state="new">Allow Cookies</target>
+          <source><bpt id="p1">**</bpt>Allow Cookies<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Cookies<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="799" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/AllowCookies</source>
@@ -2818,8 +2818,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="802" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="803" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Allow cookies from all web sites (default)</source>
@@ -2834,8 +2834,8 @@
           <target state="new"><bpt id="p1">**</bpt>2<ept id="p1">**</ept> – Block all cookies</target>
         </trans-unit>
         <trans-unit id="806" translate="yes" xml:space="preserve">
-          <source>Allow Save Password</source>
-          <target state="new">Allow Save Password</target>
+          <source><bpt id="p1">**</bpt>Allow Save Password<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Save Password<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="807" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/AllowPasswordManager</source>
@@ -2850,8 +2850,8 @@
           <target state="new"><bpt id="p1">**</bpt>Data type:<ept id="p1">**</ept> Integer</target>
         </trans-unit>
         <trans-unit id="810" translate="yes" xml:space="preserve">
-          <source>Values:</source>
-          <target state="new">Values:</target>
+          <source><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="811" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>0<ept id="p1">**</ept> – Password manager is disabled;</source>
@@ -2862,8 +2862,8 @@
           <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept> – Password manager is enabled (default)</target>
         </trans-unit>
         <trans-unit id="813" translate="yes" xml:space="preserve">
-          <source>Allow Autofill</source>
-          <target state="new">Allow Autofill</target>
+          <source><bpt id="p1">**</bpt>Allow Autofill<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Autofill<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="814" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/AllowAutofill</source>
@@ -2882,8 +2882,8 @@
           <target state="new"><bpt id="p1">**</bpt>Values:<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> – Disabled (default), <bpt id="p3">**</bpt>1<ept id="p3">**</ept> – Enabled</target>
         </trans-unit>
         <trans-unit id="818" translate="yes" xml:space="preserve">
-          <source>Configure Enterprise Site List</source>
-          <target state="new">Configure Enterprise Site List</target>
+          <source><bpt id="p1">**</bpt>Configure Enterprise Site List<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Configure Enterprise Site List<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="819" translate="yes" xml:space="preserve">
           <source>./Vendor/MSFT/Policy/Config/Browser/EnterpriseModeSiteList</source>
@@ -2910,8 +2910,8 @@
           <target state="new">Use the Microsoft Intune <bpt id="p1">**</bpt>general configuration policy<ept id="p1">**</ept> for Windows 10 to configure built-in settings for enrolled Windows 10 desktop, and Windows 10 Mobile devices.</target>
         </trans-unit>
         <trans-unit id="825" translate="yes" xml:space="preserve">
-          <source>Password</source>
-          <target state="new">Password</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Password</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Password</target>
         </trans-unit>
         <trans-unit id="826" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -2922,12 +2922,12 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="828" translate="yes" xml:space="preserve">
-          <source>Require a password to unlock devices</source>
-          <target state="new">Require a password to unlock devices</target>
+          <source><bpt id="p1">**</bpt>Require a password to unlock devices<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require a password to unlock devices<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="829" translate="yes" xml:space="preserve">
-          <source>Required password type</source>
-          <target state="new">Required password type</target>
+          <source><bpt id="p1">**</bpt>Required password type<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Required password type<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="830" translate="yes" xml:space="preserve">
           <source>Specifies whether the password must be numeric only, or alphanumeric</source>
@@ -2946,16 +2946,16 @@
           <target state="new">This setting specifies how many of these sets must be included in the password.</target>
         </trans-unit>
         <trans-unit id="834" translate="yes" xml:space="preserve">
-          <source>Minimum password length</source>
-          <target state="new">Minimum password length</target>
+          <source><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="835" translate="yes" xml:space="preserve">
           <source>Applies to Windows 10 Mobile only</source>
           <target state="new">Applies to Windows 10 Mobile only</target>
         </trans-unit>
         <trans-unit id="836" translate="yes" xml:space="preserve">
-          <source>Number of repeated sign-in failures to allow before the device is wiped</source>
-          <target state="new">Number of repeated sign-in failures to allow before the device is wiped</target>
+          <source><bpt id="p1">**</bpt>Number of repeated sign-in failures to allow before the device is wiped<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Number of repeated sign-in failures to allow before the device is wiped<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="837" translate="yes" xml:space="preserve">
           <source>For devices running Windows 10: If the device has BitLocker enabled, it will be placed into BitLocker recovery mode after sign-in fails the number of times you specify.</source>
@@ -2970,24 +2970,24 @@
           <target state="new">For devices running Windows 10 Mobile: After sign-in fails the number of times you specify, the device will be wiped.</target>
         </trans-unit>
         <trans-unit id="840" translate="yes" xml:space="preserve">
-          <source>Minutes of inactivity before screen turns off</source>
-          <target state="new">Minutes of inactivity before screen turns off</target>
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before screen turns off<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Minutes of inactivity before screen turns off<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="841" translate="yes" xml:space="preserve">
           <source>Specifies the length of time a device must be idle before the screen is locked.</source>
           <target state="new">Specifies the length of time a device must be idle before the screen is locked.</target>
         </trans-unit>
         <trans-unit id="842" translate="yes" xml:space="preserve">
-          <source>Password expiration (days)</source>
-          <target state="new">Password expiration (days)</target>
+          <source><bpt id="p1">**</bpt>Password expiration (days)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Password expiration (days)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="843" translate="yes" xml:space="preserve">
           <source>Specifies the length of time after which the device password must be changed.</source>
           <target state="new">Specifies the length of time after which the device password must be changed.</target>
         </trans-unit>
         <trans-unit id="844" translate="yes" xml:space="preserve">
-          <source>Remember password history</source>
-          <target state="new">Remember password history</target>
+          <source><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="845" translate="yes" xml:space="preserve">
           <source>Specifies whether you want to restrict the end user from creating previously used passwords.</source>
@@ -3002,8 +3002,8 @@
           <target state="new">Specifies the number of previously used passwords remembered by the device.</target>
         </trans-unit>
         <trans-unit id="848" translate="yes" xml:space="preserve">
-          <source>Require a password when the device returns from an idle state</source>
-          <target state="new">Require a password when the device returns from an idle state</target>
+          <source><bpt id="p1">**</bpt>Require a password when the device returns from an idle state<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require a password when the device returns from an idle state<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="849" translate="yes" xml:space="preserve">
           <source>If enabled, the user must enter a password to unlock the device.</source>
@@ -3014,8 +3014,8 @@
           <target state="new">(Windows 10 Mobile only)</target>
         </trans-unit>
         <trans-unit id="851" translate="yes" xml:space="preserve">
-          <source>Encryption</source>
-          <target state="new">Encryption</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Encryption</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Encryption</target>
         </trans-unit>
         <trans-unit id="852" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -3026,8 +3026,8 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="854" translate="yes" xml:space="preserve">
-          <source>Require encryption on mobile device</source>
-          <target state="new">Require encryption on mobile device</target>
+          <source><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="855" translate="yes" xml:space="preserve">
           <source>Enable encryption on targeted devices.</source>
@@ -3038,8 +3038,8 @@
           <target state="new">(Windows 10 Mobile only)</target>
         </trans-unit>
         <trans-unit id="857" translate="yes" xml:space="preserve">
-          <source>System</source>
-          <target state="new">System</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>System</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>System</target>
         </trans-unit>
         <trans-unit id="858" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -3050,8 +3050,8 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="860" translate="yes" xml:space="preserve">
-          <source>Allow screen capture</source>
-          <target state="new">Allow screen capture</target>
+          <source><bpt id="p1">**</bpt>Allow screen capture<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow screen capture<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="861" translate="yes" xml:space="preserve">
           <source>Let's the user capture the device screen as an image.</source>
@@ -3062,24 +3062,24 @@
           <target state="new">(Windows 10 Mobile only)</target>
         </trans-unit>
         <trans-unit id="863" translate="yes" xml:space="preserve">
-          <source>Allow manual unenrollment</source>
-          <target state="new">Allow manual unenrollment</target>
+          <source><bpt id="p1">**</bpt>Allow manual unenrollment<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow manual unenrollment<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="864" translate="yes" xml:space="preserve">
           <source>Lets the user manually delete the workplace account from the device.</source>
           <target state="new">Lets the user manually delete the workplace account from the device.</target>
         </trans-unit>
         <trans-unit id="865" translate="yes" xml:space="preserve">
-          <source>Allow manual root certificate installation</source>
-          <target state="new">Allow manual root certificate installation</target>
+          <source><bpt id="p1">**</bpt>Allow manual root certificate installation<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow manual root certificate installation<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="866" translate="yes" xml:space="preserve">
           <source>Applies to Windows 10 Mobile</source>
           <target state="new">Applies to Windows 10 Mobile</target>
         </trans-unit>
         <trans-unit id="867" translate="yes" xml:space="preserve">
-          <source>Allow diagnostic and usage data to be sent to Microsoft</source>
-          <target state="new">Allow diagnostic and usage data to be sent to Microsoft</target>
+          <source><bpt id="p1">**</bpt>Allow diagnostic and usage data to be sent to Microsoft<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow diagnostic and usage data to be sent to Microsoft<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="868" translate="yes" xml:space="preserve">
           <source>Possible values are:</source>
@@ -3102,8 +3102,8 @@
           <target state="new"><bpt id="p1">**</bpt>Full (recommended)<ept id="p1">**</ept> - Sends the same data as <bpt id="p2">**</bpt>Enhanced<ept id="p2">**</ept>, plus additional data about the device state</target>
         </trans-unit>
         <trans-unit id="873" translate="yes" xml:space="preserve">
-          <source>Account and synchronization</source>
-          <target state="new">Account and synchronization</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Account and synchronization</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Account and synchronization</target>
         </trans-unit>
         <trans-unit id="874" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -3114,32 +3114,32 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="876" translate="yes" xml:space="preserve">
-          <source>Allow Microsoft account</source>
-          <target state="new">Allow Microsoft account</target>
+          <source><bpt id="p1">**</bpt>Allow Microsoft account<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Microsoft account<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="877" translate="yes" xml:space="preserve">
           <source>Lets the user associate a Microsoft account with the device.</source>
           <target state="new">Lets the user associate a Microsoft account with the device.</target>
         </trans-unit>
         <trans-unit id="878" translate="yes" xml:space="preserve">
-          <source>Allow adding non-Microsoft accounts manually</source>
-          <target state="new">Allow adding non-Microsoft accounts manually</target>
+          <source><bpt id="p1">**</bpt>Allow adding non-Microsoft accounts manually<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow adding non-Microsoft accounts manually<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="879" translate="yes" xml:space="preserve">
           <source>Lets the user add email accounts to the device that are not associated with a Microsoft account.</source>
           <target state="new">Lets the user add email accounts to the device that are not associated with a Microsoft account.</target>
         </trans-unit>
         <trans-unit id="880" translate="yes" xml:space="preserve">
-          <source>Allow settings synchronization for Microsoft accounts</source>
-          <target state="new">Allow settings synchronization for Microsoft accounts</target>
+          <source><bpt id="p1">**</bpt>Allow settings synchronization for Microsoft accounts<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow settings synchronization for Microsoft accounts<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="881" translate="yes" xml:space="preserve">
           <source>Allow device and app settings associated with a Microsoft account to synchronize between devices.</source>
           <target state="new">Allow device and app settings associated with a Microsoft account to synchronize between devices.</target>
         </trans-unit>
         <trans-unit id="882" translate="yes" xml:space="preserve">
-          <source>Microsoft Edge</source>
-          <target state="new">Microsoft Edge</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Microsoft Edge</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Microsoft Edge</target>
         </trans-unit>
         <trans-unit id="883" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -3150,8 +3150,8 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="885" translate="yes" xml:space="preserve">
-          <source>Allow web browser</source>
-          <target state="new">Allow web browser</target>
+          <source><bpt id="p1">**</bpt>Allow web browser<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow web browser<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="886" translate="yes" xml:space="preserve">
           <source>Allow the use of the Edge web browser on the device.</source>
@@ -3162,16 +3162,16 @@
           <target state="new">(Windows 10 Mobile only)</target>
         </trans-unit>
         <trans-unit id="888" translate="yes" xml:space="preserve">
-          <source>Allow search suggestions in address bar</source>
-          <target state="new">Allow search suggestions in address bar</target>
+          <source><bpt id="p1">**</bpt>Allow search suggestions in address bar<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow search suggestions in address bar<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="889" translate="yes" xml:space="preserve">
           <source>Lets your search engine suggest sites as you type search phrases.</source>
           <target state="new">Lets your search engine suggest sites as you type search phrases.</target>
         </trans-unit>
         <trans-unit id="890" translate="yes" xml:space="preserve">
-          <source>Allow sending intranet traffic to Internet Explorer</source>
-          <target state="new">Allow sending intranet traffic to Internet Explorer</target>
+          <source><bpt id="p1">**</bpt>Allow sending intranet traffic to Internet Explorer<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow sending intranet traffic to Internet Explorer<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="891" translate="yes" xml:space="preserve">
           <source>Lets users open intranet websites in Internet Explorer.</source>
@@ -3182,40 +3182,40 @@
           <target state="new">(Windows 10 desktop only)</target>
         </trans-unit>
         <trans-unit id="893" translate="yes" xml:space="preserve">
-          <source>Allow do not track</source>
-          <target state="new">Allow do not track</target>
+          <source><bpt id="p1">**</bpt>Allow do not track<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow do not track<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="894" translate="yes" xml:space="preserve">
           <source>Configures the Edge browser to send do not track headers to websites that users visit.</source>
           <target state="new">Configures the Edge browser to send do not track headers to websites that users visit.</target>
         </trans-unit>
         <trans-unit id="895" translate="yes" xml:space="preserve">
-          <source>Enable SmartScreen</source>
-          <target state="new">Enable SmartScreen</target>
+          <source><bpt id="p1">**</bpt>Enable SmartScreen<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enable SmartScreen<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="896" translate="yes" xml:space="preserve">
-          <source>Allow active scripting</source>
-          <target state="new">Allow active scripting</target>
+          <source><bpt id="p1">**</bpt>Allow active scripting<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow active scripting<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="897" translate="yes" xml:space="preserve">
           <source>Allows scripts, like Javascript to be run in the Edge browser.</source>
           <target state="new">Allows scripts, like Javascript to be run in the Edge browser.</target>
         </trans-unit>
         <trans-unit id="898" translate="yes" xml:space="preserve">
-          <source>Allow pop-ups</source>
-          <target state="new">Allow pop-ups</target>
+          <source><bpt id="p1">**</bpt>Allow pop-ups<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow pop-ups<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="899" translate="yes" xml:space="preserve">
           <source>Applies to Windows 10 desktop only</source>
           <target state="new">Applies to Windows 10 desktop only</target>
         </trans-unit>
         <trans-unit id="900" translate="yes" xml:space="preserve">
-          <source>Allow cookies</source>
-          <target state="new">Allow cookies</target>
+          <source><bpt id="p1">**</bpt>Allow cookies<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow cookies<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="901" translate="yes" xml:space="preserve">
-          <source>Allow Autofill</source>
-          <target state="new">Allow Autofill</target>
+          <source><bpt id="p1">**</bpt>Allow Autofill<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Autofill<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="902" translate="yes" xml:space="preserve">
           <source>Allow users to change autocomplete settings in the browser.</source>
@@ -3226,16 +3226,16 @@
           <target state="new">(Windows 10 desktop only)</target>
         </trans-unit>
         <trans-unit id="904" translate="yes" xml:space="preserve">
-          <source>Allow Password Manager</source>
-          <target state="new">Allow Password Manager</target>
+          <source><bpt id="p1">**</bpt>Allow Password Manager<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Password Manager<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="905" translate="yes" xml:space="preserve">
           <source>Enable or disable the Edge Password Manager feature.</source>
           <target state="new">Enable or disable the Edge Password Manager feature.</target>
         </trans-unit>
         <trans-unit id="906" translate="yes" xml:space="preserve">
-          <source>Enterprise Mode site list location</source>
-          <target state="new">Enterprise Mode site list location</target>
+          <source><bpt id="p1">**</bpt>Enterprise Mode site list location<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enterprise Mode site list location<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="907" translate="yes" xml:space="preserve">
           <source>Specifies where to find the list of web sites that will open in Enterprise mode.</source>
@@ -3250,8 +3250,8 @@
           <target state="new">(Windows 10 desktop only)</target>
         </trans-unit>
         <trans-unit id="910" translate="yes" xml:space="preserve">
-          <source>Apps</source>
-          <target state="new">Apps</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Apps</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Apps</target>
         </trans-unit>
         <trans-unit id="911" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -3262,16 +3262,16 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="913" translate="yes" xml:space="preserve">
-          <source>Allow application store</source>
-          <target state="new">Allow application store</target>
+          <source><bpt id="p1">**</bpt>Allow application store<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow application store<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="914" translate="yes" xml:space="preserve">
           <source>Applies to Windows 10 Mobile only</source>
           <target state="new">Applies to Windows 10 Mobile only</target>
         </trans-unit>
         <trans-unit id="915" translate="yes" xml:space="preserve">
-          <source>Cellular</source>
-          <target state="new">Cellular</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Cellular</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Cellular</target>
         </trans-unit>
         <trans-unit id="916" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -3282,32 +3282,32 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="918" translate="yes" xml:space="preserve">
-          <source>Allow data roaming</source>
-          <target state="new">Allow data roaming</target>
+          <source><bpt id="p1">**</bpt>Allow data roaming<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow data roaming<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="919" translate="yes" xml:space="preserve">
           <source>Allow roaming between networks when accessing data.</source>
           <target state="new">Allow roaming between networks when accessing data.</target>
         </trans-unit>
         <trans-unit id="920" translate="yes" xml:space="preserve">
-          <source>Allow VPN over cellular</source>
-          <target state="new">Allow VPN over cellular</target>
+          <source><bpt id="p1">**</bpt>Allow VPN over cellular<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow VPN over cellular<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="921" translate="yes" xml:space="preserve">
           <source>Controls whether the device can access VPN connections when connected to a cellular network.</source>
           <target state="new">Controls whether the device can access VPN connections when connected to a cellular network.</target>
         </trans-unit>
         <trans-unit id="922" translate="yes" xml:space="preserve">
-          <source>Allow VPN roaming over cellular</source>
-          <target state="new">Allow VPN roaming over cellular</target>
+          <source><bpt id="p1">**</bpt>Allow VPN roaming over cellular<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow VPN roaming over cellular<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="923" translate="yes" xml:space="preserve">
           <source>Controls whether the device can access VPN connections when roaming on a cellular network.</source>
           <target state="new">Controls whether the device can access VPN connections when roaming on a cellular network.</target>
         </trans-unit>
         <trans-unit id="924" translate="yes" xml:space="preserve">
-          <source>Hardware</source>
-          <target state="new">Hardware</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Hardware</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Hardware</target>
         </trans-unit>
         <trans-unit id="925" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -3318,36 +3318,36 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="927" translate="yes" xml:space="preserve">
-          <source>Allow camera</source>
-          <target state="new">Allow camera</target>
+          <source><bpt id="p1">**</bpt>Allow camera<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow camera<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="928" translate="yes" xml:space="preserve">
-          <source>Allow removable storage</source>
-          <target state="new">Allow removable storage</target>
+          <source><bpt id="p1">**</bpt>Allow removable storage<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow removable storage<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="929" translate="yes" xml:space="preserve">
           <source>Specifies whether external storage devices such as an SD card can be used with the device.</source>
           <target state="new">Specifies whether external storage devices such as an SD card can be used with the device.</target>
         </trans-unit>
         <trans-unit id="930" translate="yes" xml:space="preserve">
-          <source>Allow Wi-Fi</source>
-          <target state="new">Allow Wi-Fi</target>
+          <source><bpt id="p1">**</bpt>Allow Wi-Fi<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Wi-Fi<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="931" translate="yes" xml:space="preserve">
           <source>Applies to Windows 10 Mobile only</source>
           <target state="new">Applies to Windows 10 Mobile only</target>
         </trans-unit>
         <trans-unit id="932" translate="yes" xml:space="preserve">
-          <source>Allow internet sharing</source>
-          <target state="new">Allow internet sharing</target>
+          <source><bpt id="p1">**</bpt>Allow internet sharing<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow internet sharing<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="933" translate="yes" xml:space="preserve">
           <source>Allow the use of Internet connection sharing on the device.</source>
           <target state="new">Allow the use of Internet connection sharing on the device.</target>
         </trans-unit>
         <trans-unit id="934" translate="yes" xml:space="preserve">
-          <source>Allow manual Wi-Fi configuration</source>
-          <target state="new">Allow manual Wi-Fi configuration</target>
+          <source><bpt id="p1">**</bpt>Allow manual Wi-Fi configuration<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow manual Wi-Fi configuration<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="935" translate="yes" xml:space="preserve">
           <source>Controls whether the user can configure their own Wi-Fi connections, or whether they can only use connections configured by a Wi-Fi profile.</source>
@@ -3358,76 +3358,76 @@
           <target state="new">(Windows 10 Mobile only)</target>
         </trans-unit>
         <trans-unit id="937" translate="yes" xml:space="preserve">
-          <source>Allow automatic connection to free Wi-Fi hotspots</source>
-          <target state="new">Allow automatic connection to free Wi-Fi hotspots</target>
+          <source><bpt id="p1">**</bpt>Allow automatic connection to free Wi-Fi hotspots<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow automatic connection to free Wi-Fi hotspots<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="938" translate="yes" xml:space="preserve">
           <source>Lets the device automatically connect to free Wi-Fi hotspots and automatically accept any terms and conditions for the connection.</source>
           <target state="new">Lets the device automatically connect to free Wi-Fi hotspots and automatically accept any terms and conditions for the connection.</target>
         </trans-unit>
         <trans-unit id="939" translate="yes" xml:space="preserve">
-          <source>Allow geolocation</source>
-          <target state="new">Allow geolocation</target>
+          <source><bpt id="p1">**</bpt>Allow geolocation<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow geolocation<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="940" translate="yes" xml:space="preserve">
           <source>Specifies whether the device can use location services information.</source>
           <target state="new">Specifies whether the device can use location services information.</target>
         </trans-unit>
         <trans-unit id="941" translate="yes" xml:space="preserve">
-          <source>Allow NFC</source>
-          <target state="new">Allow NFC</target>
+          <source><bpt id="p1">**</bpt>Allow NFC<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow NFC<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="942" translate="yes" xml:space="preserve">
           <source>Allows the device to use it's Near Field Communications capabilities.</source>
           <target state="new">Allows the device to use it's Near Field Communications capabilities.</target>
         </trans-unit>
         <trans-unit id="943" translate="yes" xml:space="preserve">
-          <source>Allow Bluetooth</source>
-          <target state="new">Allow Bluetooth</target>
+          <source><bpt id="p1">**</bpt>Allow Bluetooth<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Bluetooth<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="944" translate="yes" xml:space="preserve">
-          <source>Allow Bluetooth discoverable mode</source>
-          <target state="new">Allow Bluetooth discoverable mode</target>
+          <source><bpt id="p1">**</bpt>Allow Bluetooth discoverable mode<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Bluetooth discoverable mode<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="945" translate="yes" xml:space="preserve">
           <source>Let's this device be discovered by other Bluetooth-enabled devices.</source>
           <target state="new">Let's this device be discovered by other Bluetooth-enabled devices.</target>
         </trans-unit>
         <trans-unit id="946" translate="yes" xml:space="preserve">
-          <source>Allow Bluetooth advertising</source>
-          <target state="new">Allow Bluetooth advertising</target>
+          <source><bpt id="p1">**</bpt>Allow Bluetooth advertising<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Bluetooth advertising<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="947" translate="yes" xml:space="preserve">
           <source>Allows devices to receive advertisements over Bluetooth.</source>
           <target state="new">Allows devices to receive advertisements over Bluetooth.</target>
         </trans-unit>
         <trans-unit id="948" translate="yes" xml:space="preserve">
-          <source>Allow phone reset</source>
-          <target state="new">Allow phone reset</target>
+          <source><bpt id="p1">**</bpt>Allow phone reset<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow phone reset<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="949" translate="yes" xml:space="preserve">
           <source>Controls whether the user can factory reset their device.</source>
           <target state="new">Controls whether the user can factory reset their device.</target>
         </trans-unit>
         <trans-unit id="950" translate="yes" xml:space="preserve">
-          <source>Allow USB connection</source>
-          <target state="new">Allow USB connection</target>
+          <source><bpt id="p1">**</bpt>Allow USB connection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow USB connection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="951" translate="yes" xml:space="preserve">
           <source>Controls whether devices can access external storage devices through a USB connection.</source>
           <target state="new">Controls whether devices can access external storage devices through a USB connection.</target>
         </trans-unit>
         <trans-unit id="952" translate="yes" xml:space="preserve">
-          <source>Allow AntiTheft mode</source>
-          <target state="new">Allow AntiTheft mode</target>
+          <source><bpt id="p1">**</bpt>Allow AntiTheft mode<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow AntiTheft mode<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="953" translate="yes" xml:space="preserve">
           <source>Configure whether Windows Antitheft mode is enabled.</source>
           <target state="new">Configure whether Windows Antitheft mode is enabled.</target>
         </trans-unit>
         <trans-unit id="954" translate="yes" xml:space="preserve">
-          <source>Features</source>
-          <target state="new">Features</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Features</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Features</target>
         </trans-unit>
         <trans-unit id="955" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -3438,32 +3438,32 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="957" translate="yes" xml:space="preserve">
-          <source>Allow copy and paste</source>
-          <target state="new">Allow copy and paste</target>
+          <source><bpt id="p1">**</bpt>Allow copy and paste<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow copy and paste<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="958" translate="yes" xml:space="preserve">
           <source>Applies to Windows 10 Mobile only</source>
           <target state="new">Applies to Windows 10 Mobile only</target>
         </trans-unit>
         <trans-unit id="959" translate="yes" xml:space="preserve">
-          <source>Allow voice recording</source>
-          <target state="new">Allow voice recording</target>
+          <source><bpt id="p1">**</bpt>Allow voice recording<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow voice recording<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="960" translate="yes" xml:space="preserve">
           <source>Applies to Windows 10 Mobile only</source>
           <target state="new">Applies to Windows 10 Mobile only</target>
         </trans-unit>
         <trans-unit id="961" translate="yes" xml:space="preserve">
-          <source>Allow Cortana</source>
-          <target state="new">Allow Cortana</target>
+          <source><bpt id="p1">**</bpt>Allow Cortana<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow Cortana<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="962" translate="yes" xml:space="preserve">
           <source>Enable or disable the Cortana voice assistant.</source>
           <target state="new">Enable or disable the Cortana voice assistant.</target>
         </trans-unit>
         <trans-unit id="963" translate="yes" xml:space="preserve">
-          <source>Allow action center notifications</source>
-          <target state="new">Allow action center notifications</target>
+          <source><bpt id="p1">**</bpt>Allow action center notifications<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow action center notifications<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="964" translate="yes" xml:space="preserve">
           <source>Enable or disable action center notifications on the device lock screen.</source>
@@ -3474,8 +3474,8 @@
           <target state="new">(Windows 10 Mobile only)</target>
         </trans-unit>
         <trans-unit id="966" translate="yes" xml:space="preserve">
-          <source>Windows Defender</source>
-          <target state="new">Windows Defender</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Windows Defender</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Windows Defender</target>
         </trans-unit>
         <trans-unit id="967" translate="yes" xml:space="preserve">
           <source>All settings are for Windows 10 desktop only.</source>
@@ -3490,56 +3490,56 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="970" translate="yes" xml:space="preserve">
-          <source>Allow real-time monitoring</source>
-          <target state="new">Allow real-time monitoring</target>
+          <source><bpt id="p1">**</bpt>Allow real-time monitoring<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow real-time monitoring<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="971" translate="yes" xml:space="preserve">
           <source>Enables real-time scanning for malware, spyware, and other unwanted software.</source>
           <target state="new">Enables real-time scanning for malware, spyware, and other unwanted software.</target>
         </trans-unit>
         <trans-unit id="972" translate="yes" xml:space="preserve">
-          <source>Allow behavior monitoring</source>
-          <target state="new">Allow behavior monitoring</target>
+          <source><bpt id="p1">**</bpt>Allow behavior monitoring<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow behavior monitoring<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="973" translate="yes" xml:space="preserve">
           <source>Lets Defender check for certain known patterns of suspicious activity on devices.</source>
           <target state="new">Lets Defender check for certain known patterns of suspicious activity on devices.</target>
         </trans-unit>
         <trans-unit id="974" translate="yes" xml:space="preserve">
-          <source>Enable Network Inspection System</source>
-          <target state="new">Enable Network Inspection System</target>
+          <source><bpt id="p1">**</bpt>Enable Network Inspection System<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enable Network Inspection System<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="975" translate="yes" xml:space="preserve">
           <source>The Network Inspection System (NIS) helps to protect devices against network-based exploits by using the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.</source>
           <target state="new">The Network Inspection System (NIS) helps to protect devices against network-based exploits by using the signatures of known vulnerabilities from the Microsoft Endpoint Protection Center to help detect and block malicious traffic.</target>
         </trans-unit>
         <trans-unit id="976" translate="yes" xml:space="preserve">
-          <source>Scan all downloads</source>
-          <target state="new">Scan all downloads</target>
+          <source><bpt id="p1">**</bpt>Scan all downloads<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan all downloads<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="977" translate="yes" xml:space="preserve">
           <source>Controls whether Defender scans all files downloaded from the Internet.</source>
           <target state="new">Controls whether Defender scans all files downloaded from the Internet.</target>
         </trans-unit>
         <trans-unit id="978" translate="yes" xml:space="preserve">
-          <source>Allow script scanning</source>
-          <target state="new">Allow script scanning</target>
+          <source><bpt id="p1">**</bpt>Allow script scanning<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow script scanning<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="979" translate="yes" xml:space="preserve">
           <source>Lets Defender scan scripts that are used in Internet Explorer.</source>
           <target state="new">Lets Defender scan scripts that are used in Internet Explorer.</target>
         </trans-unit>
         <trans-unit id="980" translate="yes" xml:space="preserve">
-          <source>Monitor file and program activity</source>
-          <target state="new">Monitor file and program activity</target>
+          <source><bpt id="p1">**</bpt>Monitor file and program activity<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Monitor file and program activity<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="981" translate="yes" xml:space="preserve">
           <source>Enable this setting to allow Defender to monitor file and program activity on devices.</source>
           <target state="new">Enable this setting to allow Defender to monitor file and program activity on devices.</target>
         </trans-unit>
         <trans-unit id="982" translate="yes" xml:space="preserve">
-          <source>Days to track resolved malware</source>
-          <target state="new">Days to track resolved malware</target>
+          <source><bpt id="p1">**</bpt>Days to track resolved malware<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Days to track resolved malware<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="983" translate="yes" xml:space="preserve">
           <source>Lets Defender continue to track resolved malware for the number of days you specify so that you can manually check previously affected devices.</source>
@@ -3550,8 +3550,8 @@
           <target state="new">If you set the number of days to <bpt id="p1">**</bpt>0<ept id="p1">**</ept>, malware remains in the Quarantine folder and is not automatically removed.</target>
         </trans-unit>
         <trans-unit id="985" translate="yes" xml:space="preserve">
-          <source>Allow client UI access</source>
-          <target state="new">Allow client UI access</target>
+          <source><bpt id="p1">**</bpt>Allow client UI access<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow client UI access<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="986" translate="yes" xml:space="preserve">
           <source>Controls whether the Windows Defender user interface is hidden from end users.</source>
@@ -3562,56 +3562,56 @@
           <target state="new">When this setting is changed, it will take effect the next time the end user's PC is restarted.</target>
         </trans-unit>
         <trans-unit id="988" translate="yes" xml:space="preserve">
-          <source>Schedule a daily quick scan</source>
-          <target state="new">Schedule a daily quick scan</target>
+          <source><bpt id="p1">**</bpt>Schedule a daily quick scan<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Schedule a daily quick scan<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="989" translate="yes" xml:space="preserve">
           <source>Lets you schedule a quick scan that occurs daily at the time you select.</source>
           <target state="new">Lets you schedule a quick scan that occurs daily at the time you select.</target>
         </trans-unit>
         <trans-unit id="990" translate="yes" xml:space="preserve">
-          <source>Schedule a system scan</source>
-          <target state="new">Schedule a system scan</target>
+          <source><bpt id="p1">**</bpt>Schedule a system scan<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Schedule a system scan<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="991" translate="yes" xml:space="preserve">
           <source>Lets you schedule a full or quick system scan that occurs regularly on the day and time you select.</source>
           <target state="new">Lets you schedule a full or quick system scan that occurs regularly on the day and time you select.</target>
         </trans-unit>
         <trans-unit id="992" translate="yes" xml:space="preserve">
-          <source>Limit CPU usage during a scan</source>
-          <target state="new">Limit CPU usage during a scan</target>
+          <source><bpt id="p1">**</bpt>Limit CPU usage during a scan<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Limit CPU usage during a scan<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="993" translate="yes" xml:space="preserve">
           <source>Lets you limit the amount of CPU that scans are allowed to use (from <bpt id="p1">**</bpt>1<ept id="p1">**</ept> to <bpt id="p2">**</bpt>100<ept id="p2">**</ept>)</source>
           <target state="new">Lets you limit the amount of CPU that scans are allowed to use (from <bpt id="p1">**</bpt>1<ept id="p1">**</ept> to <bpt id="p2">**</bpt>100<ept id="p2">**</ept>)</target>
         </trans-unit>
         <trans-unit id="994" translate="yes" xml:space="preserve">
-          <source>Scan archive files</source>
-          <target state="new">Scan archive files</target>
+          <source><bpt id="p1">**</bpt>Scan archive files<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan archive files<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="995" translate="yes" xml:space="preserve">
           <source>Allows Defender to scan archived files such as Zip or Cab files.</source>
           <target state="new">Allows Defender to scan archived files such as Zip or Cab files.</target>
         </trans-unit>
         <trans-unit id="996" translate="yes" xml:space="preserve">
-          <source>Scan email messages</source>
-          <target state="new">Scan email messages</target>
+          <source><bpt id="p1">**</bpt>Scan email messages<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan email messages<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="997" translate="yes" xml:space="preserve">
           <source>Allows Defender to scan email messages as they arrive on the device.</source>
           <target state="new">Allows Defender to scan email messages as they arrive on the device.</target>
         </trans-unit>
         <trans-unit id="998" translate="yes" xml:space="preserve">
-          <source>Scan removable drives</source>
-          <target state="new">Scan removable drives</target>
+          <source><bpt id="p1">**</bpt>Scan removable drives<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan removable drives<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="999" translate="yes" xml:space="preserve">
           <source>Lets Defender scan removable drives like USB sticks.</source>
           <target state="new">Lets Defender scan removable drives like USB sticks.</target>
         </trans-unit>
         <trans-unit id="1000" translate="yes" xml:space="preserve">
-          <source>Scan mapped network drives</source>
-          <target state="new">Scan mapped network drives</target>
+          <source><bpt id="p1">**</bpt>Scan mapped network drives<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan mapped network drives<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1001" translate="yes" xml:space="preserve">
           <source>Lets Defender scan files on mapped network drive.</source>
@@ -3622,8 +3622,8 @@
           <target state="new">If the files on the drive are read-only, Defender will be unable to remove any malware found in them.</target>
         </trans-unit>
         <trans-unit id="1003" translate="yes" xml:space="preserve">
-          <source>Scan files opened from network shared folders</source>
-          <target state="new">Scan files opened from network shared folders</target>
+          <source><bpt id="p1">**</bpt>Scan files opened from network shared folders<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Scan files opened from network shared folders<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1004" translate="yes" xml:space="preserve">
           <source>Lets Defender scan files on shared network drives (for instance, those accessed from a UNC path.</source>
@@ -3634,16 +3634,16 @@
           <target state="new">If the files on the drive are read-only, Defender will be unable to remove any malware found in them.</target>
         </trans-unit>
         <trans-unit id="1006" translate="yes" xml:space="preserve">
-          <source>Signature update interval</source>
-          <target state="new">Signature update interval</target>
+          <source><bpt id="p1">**</bpt>Signature update interval<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Signature update interval<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1007" translate="yes" xml:space="preserve">
           <source>Specify the interval at which Defender will check for new signature files.</source>
           <target state="new">Specify the interval at which Defender will check for new signature files.</target>
         </trans-unit>
         <trans-unit id="1008" translate="yes" xml:space="preserve">
-          <source>Allow cloud protection</source>
-          <target state="new">Allow cloud protection</target>
+          <source><bpt id="p1">**</bpt>Allow cloud protection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow cloud protection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1009" translate="yes" xml:space="preserve">
           <source>Allow or block the Microsoft Active Protection Service from receiving information about malware activity from devices you manage.</source>
@@ -3654,16 +3654,16 @@
           <target state="new">This information is used to improve the service in the future.</target>
         </trans-unit>
         <trans-unit id="1011" translate="yes" xml:space="preserve">
-          <source>Prompt users for samples submission</source>
-          <target state="new">Prompt users for samples submission</target>
+          <source><bpt id="p1">**</bpt>Prompt users for samples submission<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Prompt users for samples submission<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1012" translate="yes" xml:space="preserve">
           <source>Controls whether files that might require further analysis by Microsoft to determine if they are malicious are automatically sent to Microsoft.</source>
           <target state="new">Controls whether files that might require further analysis by Microsoft to determine if they are malicious are automatically sent to Microsoft.</target>
         </trans-unit>
         <trans-unit id="1013" translate="yes" xml:space="preserve">
-          <source>Potentially Unwanted Application Detection</source>
-          <target state="new">Potentially Unwanted Application Detection</target>
+          <source><bpt id="p1">**</bpt>Potentially Unwanted Application Detection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Potentially Unwanted Application Detection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1014" translate="yes" xml:space="preserve">
           <source>This setting can be used to protect enrolled Windows desktop devices against running software classified by Windows Defender as potentially unwanted.</source>
@@ -3674,8 +3674,8 @@
           <target state="new">You can protect against these applications running, or use audit mode to report when a potentially unwanted application is installed.</target>
         </trans-unit>
         <trans-unit id="1016" translate="yes" xml:space="preserve">
-          <source>Files and folders to exclude when running a scan or using real-time protection</source>
-          <target state="new">Files and folders to exclude when running a scan or using real-time protection</target>
+          <source><bpt id="p1">**</bpt>Files and folders to exclude when running a scan or using real-time protection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Files and folders to exclude when running a scan or using real-time protection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1017" translate="yes" xml:space="preserve">
           <source>Add one or more files and folders like <bpt id="p1">**</bpt>C:\Path<ept id="p1">**</ept> or <bpt id="p2">**</bpt>%ProgramFiles%\Path\filename.exe<ept id="p2">**</ept> to the exclusions list.</source>
@@ -3686,8 +3686,8 @@
           <target state="new">These files and folders will not be included in any real-time, or scheduled scans.</target>
         </trans-unit>
         <trans-unit id="1019" translate="yes" xml:space="preserve">
-          <source>File extensions to exclude when running a scan or using real-time protection</source>
-          <target state="new">File extensions to exclude when running a scan or using real-time protection</target>
+          <source><bpt id="p1">**</bpt>File extensions to exclude when running a scan or using real-time protection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>File extensions to exclude when running a scan or using real-time protection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1020" translate="yes" xml:space="preserve">
           <source>Add one or more file extensions like <bpt id="p1">**</bpt>jpg<ept id="p1">**</ept> or <bpt id="p2">**</bpt>txt<ept id="p2">**</ept> to the exclusions list.</source>
@@ -3698,8 +3698,8 @@
           <target state="new">Any files with these extensions will not be included in any real-time, or scheduled scans.</target>
         </trans-unit>
         <trans-unit id="1022" translate="yes" xml:space="preserve">
-          <source>Processes to exclude when running a scan or using real-time protection</source>
-          <target state="new">Processes to exclude when running a scan or using real-time protection</target>
+          <source><bpt id="p1">**</bpt>Processes to exclude when running a scan or using real-time protection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Processes to exclude when running a scan or using real-time protection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1023" translate="yes" xml:space="preserve">
           <source>Add one or more processes of the type <bpt id="p1">**</bpt>.exe<ept id="p1">**</ept>, <bpt id="p2">**</bpt>.com<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>.scr<ept id="p3">**</ept> to the exclusions list.</source>
@@ -3710,8 +3710,8 @@
           <target state="new">These processes will not be included in any real-time, or scheduled scans.</target>
         </trans-unit>
         <trans-unit id="1025" translate="yes" xml:space="preserve">
-          <source>Updates</source>
-          <target state="new">Updates</target>
+          <source><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Updates</source>
+          <target state="new"><ph id="ph1">&amp;nbsp;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph>Updates</target>
         </trans-unit>
         <trans-unit id="1026" translate="yes" xml:space="preserve">
           <source>Setting name</source>
@@ -3722,8 +3722,8 @@
           <target state="new">Additional information (where required)</target>
         </trans-unit>
         <trans-unit id="1028" translate="yes" xml:space="preserve">
-          <source>Allow automatic updates</source>
-          <target state="new">Allow automatic updates</target>
+          <source><bpt id="p1">**</bpt>Allow automatic updates<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow automatic updates<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1029" translate="yes" xml:space="preserve">
           <source>Enable this setting to allow automatic updates.</source>
@@ -3734,16 +3734,16 @@
           <target state="new">Then, configure one of the following settings to control update behavior:</target>
         </trans-unit>
         <trans-unit id="1031" translate="yes" xml:space="preserve">
-          <source>Notify download</source>
-          <target state="new">Notify download</target>
+          <source><bpt id="p1">**</bpt>Notify download<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Notify download<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1032" translate="yes" xml:space="preserve">
-          <source>Auto install at maintenance time</source>
-          <target state="new">Auto install at maintenance time</target>
+          <source><bpt id="p1">**</bpt>Auto install at maintenance time<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Auto install at maintenance time<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1033" translate="yes" xml:space="preserve">
-          <source>Auto install and reboot at maintenance time</source>
-          <target state="new">Auto install and reboot at maintenance time</target>
+          <source><bpt id="p1">**</bpt>Auto install and reboot at maintenance time<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Auto install and reboot at maintenance time<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1034" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Auto install and reboot at scheduled time<ept id="p1">**</ept> <bpt id="p2">**</bpt>Note:<ept id="p2">**</ept> When this option is selected, you can also configure the following settings:  <bpt id="p3">**</bpt>Suppress notification to end user<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Define install day for scheduled updates<ept id="p4">**</ept>.</source>
@@ -3754,8 +3754,8 @@
           <target state="new">(Windows 10 desktop only)</target>
         </trans-unit>
         <trans-unit id="1036" translate="yes" xml:space="preserve">
-          <source>Allow pre-release features</source>
-          <target state="new">Allow pre-release features</target>
+          <source><bpt id="p1">**</bpt>Allow pre-release features<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Allow pre-release features<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="1037" translate="yes" xml:space="preserve">
           <source>Lets Microsoft deploy pre-release settings and features to Windows 10 devices.</source>
@@ -3770,8 +3770,8 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="1040" translate="yes" xml:space="preserve">
-          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
-          <target state="new">Manage settings and features on your devices with Microsoft Intune policies</target>
+          <source><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept></target>
         </trans-unit>
       </group>
     </body>

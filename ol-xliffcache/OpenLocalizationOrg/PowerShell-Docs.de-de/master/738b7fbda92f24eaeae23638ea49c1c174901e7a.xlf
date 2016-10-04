@@ -2,14 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">738b7fbda92f24eaeae23638ea49c1c174901e7a</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\vpn-connections-in-microsoft-intune.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">312b7d17d5a147986e3c6a1f301558dc053e503a</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a489f15c9f190fe46cec5799328cabe4a1956114</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85ee367f3c313ba64765f0b7c15503dfdb55c996</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9ecb393cbf44f624763134560da31be6425ff10</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -514,8 +514,8 @@
           <target state="new">Yes</target>
         </trans-unit>
         <trans-unit id="226" translate="yes" xml:space="preserve">
-          <source>Without additional settings that are otherwise available for Windows 10.</source>
-          <target state="new">Without additional settings that are otherwise available for Windows 10.</target>
+          <source>\* Without additional settings that are otherwise available for Windows 10.</source>
+          <target state="new">\* Without additional settings that are otherwise available for Windows 10.</target>
         </trans-unit>
         <trans-unit id="227" translate="yes" xml:space="preserve">
           <source>Before you can use VPN profiles deployed to a device, you must install the applicable VPN app for the profile.</source>
@@ -586,28 +586,28 @@
           <target state="new">Select a template for the new policy by expanding the relevant device type, and then choose the VPN profile for that device:</target>
         </trans-unit>
         <trans-unit id="244" translate="yes" xml:space="preserve">
-          <source>VPN Profile (Android 4 and later)</source>
-          <target state="new">VPN Profile (Android 4 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (Android 4 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (Android 4 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="245" translate="yes" xml:space="preserve">
-          <source>VPN Profile (iOS 8.0 and later)</source>
-          <target state="new">VPN Profile (iOS 8.0 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (iOS 8.0 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (iOS 8.0 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="246" translate="yes" xml:space="preserve">
-          <source>VPN Profile (Mac OS X 10.9 and later)</source>
-          <target state="new">VPN Profile (Mac OS X 10.9 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (Mac OS X 10.9 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (Mac OS X 10.9 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="247" translate="yes" xml:space="preserve">
-          <source>VPN Profile (Windows 8.1 and later)</source>
-          <target state="new">VPN Profile (Windows 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (Windows 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (Windows 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="248" translate="yes" xml:space="preserve">
-          <source>VPN Profile (Windows Phone 8.1 and later)</source>
-          <target state="new">VPN Profile (Windows Phone 8.1 and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (Windows Phone 8.1 and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (Windows Phone 8.1 and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="249" translate="yes" xml:space="preserve">
-          <source>VPN Profile (Windows 10 Desktop and Mobile and later)</source>
-          <target state="new">VPN Profile (Windows 10 Desktop and Mobile and later)</target>
+          <source><bpt id="p1">**</bpt>VPN Profile (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN Profile (Windows 10 Desktop and Mobile and later)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="250" translate="yes" xml:space="preserve">
           <source>You can create and deploy only a custom VPN profile policy.</source>
@@ -630,24 +630,24 @@
           <target state="new">More information</target>
         </trans-unit>
         <trans-unit id="255" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <target state="new">Name</target>
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="256" translate="yes" xml:space="preserve">
           <source>Enter a unique name for the VPN profile to help you identify it in the Intune console.</source>
           <target state="new">Enter a unique name for the VPN profile to help you identify it in the Intune console.</target>
         </trans-unit>
         <trans-unit id="257" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <target state="new">Description</target>
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="258" translate="yes" xml:space="preserve">
           <source>Provide a description that gives an overview of the VPN profile and other relevant information that helps you to locate it.</source>
           <target state="new">Provide a description that gives an overview of the VPN profile and other relevant information that helps you to locate it.</target>
         </trans-unit>
         <trans-unit id="259" translate="yes" xml:space="preserve">
-          <source>VPN connection name (displayed to users)</source>
-          <target state="new">VPN connection name (displayed to users)</target>
+          <source><bpt id="p1">**</bpt>VPN connection name (displayed to users)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN connection name (displayed to users)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="260" translate="yes" xml:space="preserve">
           <source>Specify a name for the VPN profile.</source>
@@ -658,16 +658,16 @@
           <target state="new">This is the name that users will see in the list of available VPN connections on their devices.</target>
         </trans-unit>
         <trans-unit id="262" translate="yes" xml:space="preserve">
-          <source>Connection type</source>
-          <target state="new">Connection type</target>
+          <source><bpt id="p1">**</bpt>Connection type<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Connection type<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="263" translate="yes" xml:space="preserve">
           <source>Select one of the following connection types to use in the VPN profile: <bpt id="p1">**</bpt>Cisco AnyConnect<ept id="p1">**</ept> (not available for Windows 8.1 or Windows Phone 8.1), <bpt id="p2">**</bpt>Pulse Secure<ept id="p2">**</ept>, <bpt id="p3">**</bpt>F5 Edge Client<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Dell SonicWALL Mobile Connect<ept id="p4">**</ept>, <bpt id="p5">**</bpt>CheckPoint Mobile VPN<ept id="p5">**</ept>.</source>
           <target state="new">Select one of the following connection types to use in the VPN profile: <bpt id="p1">**</bpt>Cisco AnyConnect<ept id="p1">**</ept> (not available for Windows 8.1 or Windows Phone 8.1), <bpt id="p2">**</bpt>Pulse Secure<ept id="p2">**</ept>, <bpt id="p3">**</bpt>F5 Edge Client<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Dell SonicWALL Mobile Connect<ept id="p4">**</ept>, <bpt id="p5">**</bpt>CheckPoint Mobile VPN<ept id="p5">**</ept>.</target>
         </trans-unit>
         <trans-unit id="264" translate="yes" xml:space="preserve">
-          <source>VPN server description</source>
-          <target state="new">VPN server description</target>
+          <source><bpt id="p1">**</bpt>VPN server description<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>VPN server description<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="265" translate="yes" xml:space="preserve">
           <source>Specify a description for the VPN server that devices will connect to.</source>
@@ -682,8 +682,8 @@
           <target state="new">When the connection type is <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Server list<ept id="p2">**</ept> field to specify a list of server descriptions and IP addresses.</target>
         </trans-unit>
         <trans-unit id="268" translate="yes" xml:space="preserve">
-          <source>Server IP address or FQDN</source>
-          <target state="new">Server IP address or FQDN</target>
+          <source><bpt id="p1">**</bpt>Server IP address or FQDN<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Server IP address or FQDN<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="269" translate="yes" xml:space="preserve">
           <source>Provide the IP address or fully qualified domain name of the VPN server that devices will connect to.</source>
@@ -698,8 +698,8 @@
           <target state="new">When the connection type is <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Server list<ept id="p2">**</ept> field to specify a list of server descriptions and IP addresses.</target>
         </trans-unit>
         <trans-unit id="272" translate="yes" xml:space="preserve">
-          <source>Server list</source>
-          <target state="new">Server list</target>
+          <source><bpt id="p1">**</bpt>Server list<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Server list<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="273" translate="yes" xml:space="preserve">
           <source>Choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to add a new VPN server to use for the VPN connection.</source>
@@ -714,8 +714,8 @@
           <target state="new">This option is displayed only when the connection type is <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="276" translate="yes" xml:space="preserve">
-          <source>Send all network traffic through the VPN connection</source>
-          <target state="new">Send all network traffic through the VPN connection</target>
+          <source><bpt id="p1">**</bpt>Send all network traffic through the VPN connection<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Send all network traffic through the VPN connection<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="277" translate="yes" xml:space="preserve">
           <source>If you select this option, all network traffic is sent through the VPN connection.</source>
@@ -734,8 +734,8 @@
           <target state="new">VPN tunneling is not used when you connect to resources on the Internet.</target>
         </trans-unit>
         <trans-unit id="281" translate="yes" xml:space="preserve">
-          <source>Authentication method</source>
-          <target state="new">Authentication method</target>
+          <source><bpt id="p1">**</bpt>Authentication method<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Authentication method<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="282" translate="yes" xml:space="preserve">
           <source>Select the authentication method that the VPN connection uses: <bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Username and Password<ept id="p2">**</ept>.</source>
@@ -746,16 +746,16 @@
           <target state="new">(<bpt id="p1">**</bpt>Username and Password<ept id="p1">**</ept> is not available when the connection type is Cisco AnyConnect.) The <bpt id="p2">**</bpt>Authentication method<ept id="p2">**</ept> option is not available for Windows 8.1.</target>
         </trans-unit>
         <trans-unit id="284" translate="yes" xml:space="preserve">
-          <source>Remember the user credentials at each logon</source>
-          <target state="new">Remember the user credentials at each logon</target>
+          <source><bpt id="p1">**</bpt>Remember the user credentials at each logon<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Remember the user credentials at each logon<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="285" translate="yes" xml:space="preserve">
           <source>Select this option to ensure that the user credentials are remembered so that the user does not have to enter credentials each time a connection is established.</source>
           <target state="new">Select this option to ensure that the user credentials are remembered so that the user does not have to enter credentials each time a connection is established.</target>
         </trans-unit>
         <trans-unit id="286" translate="yes" xml:space="preserve">
-          <source>Select a client certificate for client authentication (Identity Certificate)</source>
-          <target state="new">Select a client certificate for client authentication (Identity Certificate)</target>
+          <source><bpt id="p1">**</bpt>Select a client certificate for client authentication (Identity Certificate)<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Select a client certificate for client authentication (Identity Certificate)<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="287" translate="yes" xml:space="preserve">
           <source>Select the client SCEP certificate that you previously created and that will be used to authenticate the VPN connection.</source>
@@ -770,8 +770,8 @@
           <target state="new">This option is displayed only when the authentication method is <bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="290" translate="yes" xml:space="preserve">
-          <source>Role</source>
-          <target state="new">Role</target>
+          <source><bpt id="p1">**</bpt>Role<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Role<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="291" translate="yes" xml:space="preserve">
           <source>Specify the name of the user role that has access to this connection.</source>
@@ -786,8 +786,8 @@
           <target state="new">This option is displayed only when the connection type is <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="294" translate="yes" xml:space="preserve">
-          <source>Realm</source>
-          <target state="new">Realm</target>
+          <source><bpt id="p1">**</bpt>Realm<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Realm<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="295" translate="yes" xml:space="preserve">
           <source>Specify the name of the authentication realm that you want to use.</source>
@@ -802,8 +802,8 @@
           <target state="new">This option is displayed only when the connection type is <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="298" translate="yes" xml:space="preserve">
-          <source>Login group or domain</source>
-          <target state="new">Login group or domain</target>
+          <source><bpt id="p1">**</bpt>Login group or domain<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Login group or domain<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="299" translate="yes" xml:space="preserve">
           <source>Specify the name of the login group or domain that you want to connect to.</source>
@@ -814,8 +814,8 @@
           <target state="new">This option is displayed only when the connection type is <bpt id="p1">**</bpt>Dell SonicWALL Mobile Connect<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="301" translate="yes" xml:space="preserve">
-          <source>Fingerprint</source>
-          <target state="new">Fingerprint</target>
+          <source><bpt id="p1">**</bpt>Fingerprint<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Fingerprint<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="302" translate="yes" xml:space="preserve">
           <source>Specify a string (for example, "Contoso Fingerprint Code") that will be used to verify that the VPN server can be trusted.</source>
@@ -834,8 +834,8 @@
           <target state="new">(The user manually verifies the fingerprint and chooses <bpt id="p1">**</bpt>trust<ept id="p1">**</ept> to connect.) This option is displayed only when the connection type is <bpt id="p2">**</bpt>CheckPoint Mobile VPN<ept id="p2">**</ept>.</target>
         </trans-unit>
         <trans-unit id="306" translate="yes" xml:space="preserve">
-          <source>Per App VPN</source>
-          <target state="new">Per App VPN</target>
+          <source><bpt id="p1">**</bpt>Per App VPN<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Per App VPN<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="307" translate="yes" xml:space="preserve">
           <source>Select this option if you want to associate this VPN connection with an iOS or Mac OS X app so that the connection will be opened when the app is run.</source>
@@ -850,8 +850,8 @@
           <target state="new">For more information, see <bpt id="p1">[</bpt>Deploy apps in Microsoft Intune<ept id="p1">](deploy-apps-in-microsoft-intune.md)</ept>.</target>
         </trans-unit>
         <trans-unit id="310" translate="yes" xml:space="preserve">
-          <source>On-demand VPN</source>
-          <target state="new">On-demand VPN</target>
+          <source><bpt id="p1">**</bpt>On-demand VPN<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>On-demand VPN<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="311" translate="yes" xml:space="preserve">
           <source>You can set up on-demand VPN for iOS 8.0 and later devices.</source>
@@ -918,20 +918,20 @@
           <target state="new">Specify custom XML commands that configure the VPN connection.</target>
         </trans-unit>
         <trans-unit id="327" translate="yes" xml:space="preserve">
-          <source>Example for <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>pulse-schema<ph id="ph2">&amp;gt;&amp;lt;</ph>isSingleSignOnCredential<ph id="ph3">&amp;gt;</ph>true<ph id="ph4">&amp;lt;</ph>/isSingleSignOnCredential<ph id="ph5">&amp;gt;&amp;lt;</ph>/pulse-schema<ph id="ph6">&amp;gt;</ph>.</source>
-          <target state="new">Example for <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>pulse-schema<ph id="ph2">&amp;gt;&amp;lt;</ph>isSingleSignOnCredential<ph id="ph3">&amp;gt;</ph>true<ph id="ph4">&amp;lt;</ph>/isSingleSignOnCredential<ph id="ph5">&amp;gt;&amp;lt;</ph>/pulse-schema<ph id="ph6">&amp;gt;</ph>.</target>
+          <source>Example for <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>pulse-schema<ph id="ph2">&amp;gt;</ph><ph id="ph3">&amp;lt;</ph>isSingleSignOnCredential<ph id="ph4">&amp;gt;</ph>true<ph id="ph5">&amp;lt;</ph>/isSingleSignOnCredential<ph id="ph6">&amp;gt;</ph><ph id="ph7">&amp;lt;</ph>/pulse-schema<ph id="ph8">&amp;gt;</ph>.</source>
+          <target state="new">Example for <bpt id="p1">**</bpt>Pulse Secure<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>pulse-schema<ph id="ph2">&amp;gt;</ph><ph id="ph3">&amp;lt;</ph>isSingleSignOnCredential<ph id="ph4">&amp;gt;</ph>true<ph id="ph5">&amp;lt;</ph>/isSingleSignOnCredential<ph id="ph6">&amp;gt;</ph><ph id="ph7">&amp;lt;</ph>/pulse-schema<ph id="ph8">&amp;gt;</ph>.</target>
         </trans-unit>
         <trans-unit id="328" translate="yes" xml:space="preserve">
           <source>Example for <bpt id="p1">**</bpt>CheckPoint Mobile VPN<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>CheckPointVPN port="443" name="CheckPointSelfhost" sso="true"  debug="3" /<ph id="ph2">&amp;gt;</ph>.</source>
           <target state="new">Example for <bpt id="p1">**</bpt>CheckPoint Mobile VPN<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>CheckPointVPN port="443" name="CheckPointSelfhost" sso="true"  debug="3" /<ph id="ph2">&amp;gt;</ph>.</target>
         </trans-unit>
         <trans-unit id="329" translate="yes" xml:space="preserve">
-          <source>Example for <bpt id="p1">**</bpt>Dell SonicWALL Mobile Connect<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>MobileConnect<ph id="ph2">&amp;gt;&amp;lt;</ph>Compression<ph id="ph3">&amp;gt;</ph>false<ph id="ph4">&amp;lt;</ph>/Compression<ph id="ph5">&amp;gt;&amp;lt;</ph>debugLogging<ph id="ph6">&amp;gt;</ph>True<ph id="ph7">&amp;lt;</ph>/debugLogging<ph id="ph8">&amp;gt;&amp;lt;</ph>packetCapture<ph id="ph9">&amp;gt;</ph>False<ph id="ph10">&amp;lt;</ph>/packetCapture<ph id="ph11">&amp;gt;&amp;lt;</ph>/MobileConnect<ph id="ph12">&amp;gt;</ph>.</source>
-          <target state="new">Example for <bpt id="p1">**</bpt>Dell SonicWALL Mobile Connect<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>MobileConnect<ph id="ph2">&amp;gt;&amp;lt;</ph>Compression<ph id="ph3">&amp;gt;</ph>false<ph id="ph4">&amp;lt;</ph>/Compression<ph id="ph5">&amp;gt;&amp;lt;</ph>debugLogging<ph id="ph6">&amp;gt;</ph>True<ph id="ph7">&amp;lt;</ph>/debugLogging<ph id="ph8">&amp;gt;&amp;lt;</ph>packetCapture<ph id="ph9">&amp;gt;</ph>False<ph id="ph10">&amp;lt;</ph>/packetCapture<ph id="ph11">&amp;gt;&amp;lt;</ph>/MobileConnect<ph id="ph12">&amp;gt;</ph>.</target>
+          <source>Example for <bpt id="p1">**</bpt>Dell SonicWALL Mobile Connect<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>MobileConnect<ph id="ph2">&amp;gt;</ph><ph id="ph3">&amp;lt;</ph>Compression<ph id="ph4">&amp;gt;</ph>false<ph id="ph5">&amp;lt;</ph>/Compression<ph id="ph6">&amp;gt;</ph><ph id="ph7">&amp;lt;</ph>debugLogging<ph id="ph8">&amp;gt;</ph>True<ph id="ph9">&amp;lt;</ph>/debugLogging<ph id="ph10">&amp;gt;</ph><ph id="ph11">&amp;lt;</ph>packetCapture<ph id="ph12">&amp;gt;</ph>False<ph id="ph13">&amp;lt;</ph>/packetCapture<ph id="ph14">&amp;gt;</ph><ph id="ph15">&amp;lt;</ph>/MobileConnect<ph id="ph16">&amp;gt;</ph>.</source>
+          <target state="new">Example for <bpt id="p1">**</bpt>Dell SonicWALL Mobile Connect<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>MobileConnect<ph id="ph2">&amp;gt;</ph><ph id="ph3">&amp;lt;</ph>Compression<ph id="ph4">&amp;gt;</ph>false<ph id="ph5">&amp;lt;</ph>/Compression<ph id="ph6">&amp;gt;</ph><ph id="ph7">&amp;lt;</ph>debugLogging<ph id="ph8">&amp;gt;</ph>True<ph id="ph9">&amp;lt;</ph>/debugLogging<ph id="ph10">&amp;gt;</ph><ph id="ph11">&amp;lt;</ph>packetCapture<ph id="ph12">&amp;gt;</ph>False<ph id="ph13">&amp;lt;</ph>/packetCapture<ph id="ph14">&amp;gt;</ph><ph id="ph15">&amp;lt;</ph>/MobileConnect<ph id="ph16">&amp;gt;</ph>.</target>
         </trans-unit>
         <trans-unit id="330" translate="yes" xml:space="preserve">
-          <source>Example for <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>f5-vpn-conf<ph id="ph2">&amp;gt;&amp;lt;</ph>single-sign-on-credential /<ph id="ph3">&amp;gt;&amp;lt;</ph>/f5-vpn-conf<ph id="ph4">&amp;gt;</ph>.</source>
-          <target state="new">Example for <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>f5-vpn-conf<ph id="ph2">&amp;gt;&amp;lt;</ph>single-sign-on-credential /<ph id="ph3">&amp;gt;&amp;lt;</ph>/f5-vpn-conf<ph id="ph4">&amp;gt;</ph>.</target>
+          <source>Example for <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>f5-vpn-conf<ph id="ph2">&amp;gt;</ph><ph id="ph3">&amp;lt;</ph>single-sign-on-credential /<ph id="ph4">&amp;gt;</ph><ph id="ph5">&amp;lt;</ph>/f5-vpn-conf<ph id="ph6">&amp;gt;</ph>.</source>
+          <target state="new">Example for <bpt id="p1">**</bpt>F5 Edge Client<ept id="p1">**</ept>: <ph id="ph1">&amp;lt;</ph>f5-vpn-conf<ph id="ph2">&amp;gt;</ph><ph id="ph3">&amp;lt;</ph>single-sign-on-credential /<ph id="ph4">&amp;gt;</ph><ph id="ph5">&amp;lt;</ph>/f5-vpn-conf<ph id="ph6">&amp;gt;</ph>.</target>
         </trans-unit>
         <trans-unit id="331" translate="yes" xml:space="preserve">
           <source>Refer to each manufacturer's VPN documentation for more information about how to write custom XML commands.</source>
@@ -982,8 +982,8 @@
           <target state="new">More information</target>
         </trans-unit>
         <trans-unit id="343" translate="yes" xml:space="preserve">
-          <source>Network traffic rules</source>
-          <target state="new">Network traffic rules</target>
+          <source><bpt id="p1">**</bpt>Network traffic rules<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Network traffic rules<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="344" translate="yes" xml:space="preserve">
           <source>Select which protocols, and which local and remote port and address ranges, will be enabled for the VPN connection.</source>
@@ -998,24 +998,24 @@
           <target state="new">After you create a rule, the VPN connection will use only the protocols, ports, and address ranges that you specify in that rule.</target>
         </trans-unit>
         <trans-unit id="347" translate="yes" xml:space="preserve">
-          <source>Routes</source>
-          <target state="new">Routes</target>
+          <source><bpt id="p1">**</bpt>Routes<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Routes<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="348" translate="yes" xml:space="preserve">
           <source>Select which routes will use the VPN connection.</source>
           <target state="new">Select which routes will use the VPN connection.</target>
         </trans-unit>
         <trans-unit id="349" translate="yes" xml:space="preserve">
-          <source>DNS servers</source>
-          <target state="new">DNS servers</target>
+          <source><bpt id="p1">**</bpt>DNS servers<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>DNS servers<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="350" translate="yes" xml:space="preserve">
           <source>Select which DNS servers the VPN connection will use after the connection is established.</source>
           <target state="new">Select which DNS servers the VPN connection will use after the connection is established.</target>
         </trans-unit>
         <trans-unit id="351" translate="yes" xml:space="preserve">
-          <source>Associated apps</source>
-          <target state="new">Associated apps</target>
+          <source><bpt id="p1">**</bpt>Associated apps<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Associated apps<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="352" translate="yes" xml:space="preserve">
           <source>Provide a list of apps that will automatically use the VPN connection.</source>
@@ -1142,8 +1142,8 @@
           <target state="new">Choose one of these actions:</target>
         </trans-unit>
         <trans-unit id="383" translate="yes" xml:space="preserve">
-          <source>Connect</source>
-          <target state="new">Connect</target>
+          <source><bpt id="p1">**</bpt>Connect<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Connect<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="384" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Evaluate connection<ept id="p1">**</ept>, which has three settings a.</source>
@@ -1254,12 +1254,12 @@
           <target state="new">See also</target>
         </trans-unit>
         <trans-unit id="410" translate="yes" xml:space="preserve">
-          <source>Custom configurations for VPN profiles</source>
-          <target state="new">Custom configurations for VPN profiles</target>
+          <source><bpt id="p1">[</bpt>Custom configurations for VPN profiles<ept id="p1">](Custom-configurations-for-VPN-profiles.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Custom configurations for VPN profiles<ept id="p1">](Custom-configurations-for-VPN-profiles.md)</ept></target>
         </trans-unit>
         <trans-unit id="411" translate="yes" xml:space="preserve">
-          <source>Per-app VPN for Android Pulse Secure</source>
-          <target state="new">Per-app VPN for Android Pulse Secure</target>
+          <source><bpt id="p1">[</bpt>Per-app VPN for Android Pulse Secure<ept id="p1">](per-app-vpn-for-android-pulse-secure.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Per-app VPN for Android Pulse Secure<ept id="p1">](per-app-vpn-for-android-pulse-secure.md)</ept></target>
         </trans-unit>
       </group>
     </body>
