@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6163f2b2a1c562e5315785b8b4c486fe2347f89d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97cd9de3f2be70bb726acc125ee5e6e5c2f61225</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85b98fa25f73744c18f7b0c60848a97170c4439f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Protect app data using MAM policies | Microsoft Intune</source>
+          <target state="new">Protect app data using MAM policies | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic explains how  mobile app management policies can help protect your company data, prevent data loss, and keep personal and work information separate.</source>
+          <target state="new">This topic explains how  mobile app management policies can help protect your company data, prevent data loss, and keep personal and work information separate.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Protect app data using mobile app management policies with Microsoft Intune</source>
+          <target state="new">Protect app data using mobile app management policies with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>How you can protect app data</source>
+          <target state="new">How you can protect app data</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Your employees use mobile devices for both personal and work tasks.</source>
+          <target state="new">Your employees use mobile devices for both personal and work tasks.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>While making sure your employees can be productive, you also want to prevent data loss, intentional and unintentional.</source>
+          <target state="new">While making sure your employees can be productive, you also want to prevent data loss, intentional and unintentional.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In addition, you want to have the ability to protect company data accessed using devices even in the case where they are not managed by you.</source>
+          <target state="new">In addition, you want to have the ability to protect company data accessed using devices even in the case where they are not managed by you.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can use Intune mobile app management (MAM) policies to help protect your company’s data.</source>
+          <target state="new">You can use Intune mobile app management (MAM) policies to help protect your company’s data.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Because Intune MAM policies can be used <bpt id="p1">**</bpt>independent of any mobile-device management (MDM) solution<ept id="p1">**</ept>, you can use it to protect your company’s data with or without enrolling devices in a device management solution.</source>
+          <target state="new">Because Intune MAM policies can be used <bpt id="p1">**</bpt>independent of any mobile-device management (MDM) solution<ept id="p1">**</ept>, you can use it to protect your company’s data with or without enrolling devices in a device management solution.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>By implementing <bpt id="p1">**</bpt>app-level policies<ept id="p1">**</ept>, you can restrict access to company resources and keep data within the purview of your IT department.</source>
+          <target state="new">By implementing <bpt id="p1">**</bpt>app-level policies<ept id="p1">**</ept>, you can restrict access to company resources and keep data within the purview of your IT department.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>MAM policies can be configured for app running on devices that are:</source>
+          <target state="new">MAM policies can be configured for app running on devices that are:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enrolled in Microsoft Intune:<ept id="p1">**</ept> The devices in this category are typically corporate owned devices.</source>
+          <target state="new"><bpt id="p1">**</bpt>Enrolled in Microsoft Intune:<ept id="p1">**</ept> The devices in this category are typically corporate owned devices.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enrolled in a third-party Mobile device management (MDM)  solution:<ept id="p1">**</ept>   The devices in this category are typically corporate owned devices.</source>
+          <target state="new"><bpt id="p1">**</bpt>Enrolled in a third-party Mobile device management (MDM)  solution:<ept id="p1">**</ept>   The devices in this category are typically corporate owned devices.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Mobile app management policies should not be used with third party mobile app management  or secure container solutions.</source>
+          <target state="new">Mobile app management policies should not be used with third party mobile app management  or secure container solutions.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Not enrolled in any mobile device management solution:<ept id="p1">**</ept>  The devices in this category are typically employee owned devices that are not managed or enrolled in Intune or other MDM solutions.</source>
+          <target state="new"><bpt id="p1">**</bpt>Not enrolled in any mobile device management solution:<ept id="p1">**</ept>  The devices in this category are typically employee owned devices that are not managed or enrolled in Intune or other MDM solutions.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can create mobile app management policies for Office mobile apps that connect to Office 365 services.</source>
+          <target state="new">You can create mobile app management policies for Office mobile apps that connect to Office 365 services.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>MAM policies are not supported for apps that connect to on-premises Exchange, Skype for Business, or SharePoint services.</source>
+          <target state="new">MAM policies are not supported for apps that connect to on-premises Exchange, Skype for Business, or SharePoint services.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The important benefits of using MAM policies are<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>The important benefits of using MAM policies are<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Protecting your company data at the app level.</source>
+          <target state="new">Protecting your company data at the app level.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Since mobile app management does not require device management, you can protect company data on both managed and unmanaged devices.</source>
+          <target state="new">Since mobile app management does not require device management, you can protect company data on both managed and unmanaged devices.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The management is centered on the user identity, which removes the requirement for device management.</source>
+          <target state="new">The management is centered on the user identity, which removes the requirement for device management.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>End user productivity is not impacted, and the policies are not applied when using the app in a personal context.</source>
+          <target state="new">End user productivity is not impacted, and the policies are not applied when using the app in a personal context.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The policies are applied only in a work context, thus giving you the ability to protect company data without touching personal data.</source>
+          <target state="new">The policies are applied only in a work context, thus giving you the ability to protect company data without touching personal data.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>There are additional benefits to using MDM with MAM  policies, and companies can use both MAM with and without MDM at the same time.</source>
+          <target state="new">There are additional benefits to using MDM with MAM  policies, and companies can use both MAM with and without MDM at the same time.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, an employee may use a phone issued by the company as well as a personal tablet.</source>
+          <target state="new">For example, an employee may use a phone issued by the company as well as a personal tablet.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In this case, the company phone is enrolled in MDM and protected by MAM policies, and the personal device is protected by MAM policies only.</source>
+          <target state="new">In this case, the company phone is enrolled in MDM and protected by MAM policies, and the personal device is protected by MAM policies only.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MDM makes sure that the device is protected<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>MDM makes sure that the device is protected<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, you can require a PIN to access the device, or you can deploy managed apps to the device.</source>
+          <target state="new">For example, you can require a PIN to access the device, or you can deploy managed apps to the device.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can also deploy apps to devices through your MDM solution, to give you more control over app management.</source>
+          <target state="new">You can also deploy apps to devices through your MDM solution, to give you more control over app management.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MAM policies makes sure that the app-layer protections are in place<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>MAM policies makes sure that the app-layer protections are in place<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, you can require a PIN to open an app in a work context, or if data can be shared between apps, or preventing company app data from being saved to a personal storage location.</source>
+          <target state="new">For example, you can require a PIN to open an app in a work context, or if data can be shared between apps, or preventing company app data from being saved to a personal storage location.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>MAM polices are currently supported on:</source>
+          <target state="new">MAM polices are currently supported on:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>iOS 8.1 or later</source>
+          <target state="new">iOS 8.1 or later</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Android 4 or later</source>
+          <target state="new">Android 4 or later</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Windows devices are currently not supported.</source>
+          <target state="new">Windows devices are currently not supported.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>How MAM policies protect app data</source>
+          <target state="new">How MAM policies protect app data</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Apps without MAM policies:</source>
+          <target state="new">Apps without MAM policies:</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Image that shows data can move freely between apps when there are no MAM policies in place</source>
+          <target state="new">Image that shows data can move freely between apps when there are no MAM policies in place</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When apps are used without restrictions, company and personal data can get intermingled.</source>
+          <target state="new">When apps are used without restrictions, company and personal data can get intermingled.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Company data could end up in locations like personal storage or transferred to apps outside of your  purview,  resulting in data loss.</source>
+          <target state="new">Company data could end up in locations like personal storage or transferred to apps outside of your  purview,  resulting in data loss.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The arrows in the diagram show unrestricted data movement between apps (corporate and personal) and to storage locations.</source>
+          <target state="new">The arrows in the diagram show unrestricted data movement between apps (corporate and personal) and to storage locations.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Data protection with MAM policies:</source>
+          <target state="new">Data protection with MAM policies:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Image that shows how company data is protect when MAM policies are applied</source>
+          <target state="new">Image that shows how company data is protect when MAM policies are applied</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can use MAM policies to prevent company data from saving to the local storage of the device, and restrict data movement to other apps that are not protected by MAM policies.</source>
+          <target state="new">You can use MAM policies to prevent company data from saving to the local storage of the device, and restrict data movement to other apps that are not protected by MAM policies.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>MAM policy settings include:</source>
+          <target state="new">MAM policy settings include:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Data relocation policies like <bpt id="p1">**</bpt>Prevent Save As<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Restrict cut, copy, and paste<ept id="p2">**</ept>.</source>
+          <target state="new">Data relocation policies like <bpt id="p1">**</bpt>Prevent Save As<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Restrict cut, copy, and paste<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Access policy settings like <bpt id="p1">**</bpt>Require simple PIN for access<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Block managed apps from running on jailbroken or rooted devices<ept id="p2">**</ept>.</source>
+          <target state="new">Access policy settings like <bpt id="p1">**</bpt>Require simple PIN for access<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Block managed apps from running on jailbroken or rooted devices<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Data protection with MAM policies on devices managed by a MDM solution:</source>
+          <target state="new">Data protection with MAM policies on devices managed by a MDM solution:</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Image that shows how MAM policies work on BYOD devices</source>
+          <target state="new">Image that shows how MAM policies work on BYOD devices</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>For devices enrolled in an MDM solution<ept id="p1">**</ept><ph id="ph1">-</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>For devices enrolled in an MDM solution<ept id="p1">**</ept><ph id="ph1">-</ph></target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The illustration above shows the layers of protection that MDM and MAM policies offer together.</source>
+          <target state="new">The illustration above shows the layers of protection that MDM and MAM policies offer together.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The MDM solution:</source>
+          <target state="new">The MDM solution:</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enrolls the device</source>
+          <target state="new">Enrolls the device</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Deploys the apps to the device</source>
+          <target state="new">Deploys the apps to the device</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Provides ongoing device compliance and management</source>
+          <target state="new">Provides ongoing device compliance and management</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MAM policies add value by:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>MAM policies add value by:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Helping protect  company data from leaking to consumer apps and services</source>
+          <target state="new">Helping protect  company data from leaking to consumer apps and services</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Applying restrictions (save-as, clipboard, PIN, etc.) to mobile apps</source>
+          <target state="new">Applying restrictions (save-as, clipboard, PIN, etc.) to mobile apps</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Wipe company data from apps without removing those apps from the device</source>
+          <target state="new">Wipe company data from apps without removing those apps from the device</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Data protection with MAM policies for devices without enrollment</source>
+          <target state="new">Data protection with MAM policies for devices without enrollment</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Image that shows how MAM policies work on managed devices</source>
+          <target state="new">Image that shows how MAM policies work on managed devices</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The diagram above illustrates how the data protection policies work at the app level without MDM.</source>
+          <target state="new">The diagram above illustrates how the data protection policies work at the app level without MDM.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For BYOD devices not enrolled in any MDM solution, MAM policies can help protect company data at the app level.</source>
+          <target state="new">For BYOD devices not enrolled in any MDM solution, MAM policies can help protect company data at the app level.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>However, there are some limitations to be aware of, like:</source>
+          <target state="new">However, there are some limitations to be aware of, like:</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You cannot deploy apps to the device.</source>
+          <target state="new">You cannot deploy apps to the device.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The end user has to get the apps from the store.</source>
+          <target state="new">The end user has to get the apps from the store.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You cannot provision certificate profiles on these devices.</source>
+          <target state="new">You cannot provision certificate profiles on these devices.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You cannot provision company Wi-Fi and VPN settings on these devices.</source>
+          <target state="new">You cannot provision company Wi-Fi and VPN settings on these devices.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Multi-identity</source>
+          <target state="new">Multi-identity</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Apps that support multi-identity gives you the ability to use different accounts - work and personal, to access the same apps while MAM policies are applied on when the apps are used in the work context.</source>
+          <target state="new">Apps that support multi-identity gives you the ability to use different accounts - work and personal, to access the same apps while MAM policies are applied on when the apps are used in the work context.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For example, when the end user launches the OneDrive app using their work account, they cannot move the files to a personal storage location.</source>
+          <target state="new">For example, when the end user launches the OneDrive app using their work account, they cannot move the files to a personal storage location.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>However, when the end user uses OneDrive with their personal account, they can copy and move data from their personal OneDrive without restrictions.</source>
+          <target state="new">However, when the end user uses OneDrive with their personal account, they can copy and move data from their personal OneDrive without restrictions.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For a detailed explanation of the experience of using apps that are associated with MAM policies, and how apps with Multi-identity support enable applying MAM policies only in work context, read <bpt id="p1">[</bpt>using apps with multi-identity support<ept id="p1">](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md#using-apps-with-multi-identity-support)</ept></source>
+          <target state="new">For a detailed explanation of the experience of using apps that are associated with MAM policies, and how apps with Multi-identity support enable applying MAM policies only in work context, read <bpt id="p1">[</bpt>using apps with multi-identity support<ept id="p1">](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md#using-apps-with-multi-identity-support)</ept></target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>All Office mobile apps support multi-identity.</source>
+          <target state="new">All Office mobile apps support multi-identity.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get ready to configure mobile app management policies<ept id="p1">](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get ready to configure mobile app management policies<ept id="p1">](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create and deploy mobile app management policies with Microsoft Intune<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create and deploy mobile app management policies with Microsoft Intune<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

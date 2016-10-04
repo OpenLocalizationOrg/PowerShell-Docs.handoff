@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54bb78b313c4f0c721862910496c5154ed5444ef</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\pullClientConfigID.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7fc66e06659fe217920bc874a0b376f79094fcd2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3617b8b0f23d91adac3e9340fc457d8e81763a04</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a pull client using configuration ID</source>
+          <target state="new">Setting up a pull client using configuration ID</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Each target node has to be told to use pull mode and given the URL where it can contact the pull server to get configurations.</source>
+          <target state="new">Each target node has to be told to use pull mode and given the URL where it can contact the pull server to get configurations.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To do this, you have to configure the Local Configuration Manager (LCM) with the necessary information.</source>
+          <target state="new">To do this, you have to configure the Local Configuration Manager (LCM) with the necessary information.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To configure the LCM, you create a special type of configuration, derated with the <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept> attribute.</source>
+          <target state="new">To configure the LCM, you create a special type of configuration, derated with the <bpt id="p1">**</bpt>DSCLocalConfigurationManager<ept id="p1">**</ept> attribute.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information about configuring the LCM, see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept>.</source>
+          <target state="new">For more information about configuring the LCM, see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This topic applies to PowerShell 5.0.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This topic applies to PowerShell 5.0.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For information on setting up a pull client in PowerShell 4.0, see <bpt id="p1">[</bpt>Setting up a pull client using configuration ID in PowerShell 4.0<ept id="p1">](pullClientConfigID4.md)</ept></source>
+          <target state="new">For information on setting up a pull client in PowerShell 4.0, see <bpt id="p1">[</bpt>Setting up a pull client using configuration ID in PowerShell 4.0<ept id="p1">](pullClientConfigID4.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following script configures the LCM to pull configurations from a server named "CONTOSO-PullSrv".</source>
+          <target state="new">The following script configures the LCM to pull configurations from a server named "CONTOSO-PullSrv".</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the script, the <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> block defines the pull server.</source>
+          <target state="new">In the script, the <bpt id="p1">**</bpt>ConfigurationRepositoryWeb<ept id="p1">**</ept> block defines the pull server.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ServerURL<ept id="p1">**</ept></source>
+          <target state="new">The <bpt id="p1">**</bpt>ServerURL<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After this script runs, it creates a new output folder named <bpt id="p1">**</bpt>PullClientConfigID<ept id="p1">**</ept> and puts a metaconfiguration MOF file there.</source>
+          <target state="new">After this script runs, it creates a new output folder named <bpt id="p1">**</bpt>PullClientConfigID<ept id="p1">**</ept> and puts a metaconfiguration MOF file there.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In this case, the metaconfiguration MOF file will be named <ph id="ph1">`localhost.meta.mof`</ph>.</source>
+          <target state="new">In this case, the metaconfiguration MOF file will be named <ph id="ph1">`localhost.meta.mof`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To apply the configuration, call the <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept> cmdlet, with the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> set to the location of the metaconfiguration MOF file.</source>
+          <target state="new">To apply the configuration, call the <bpt id="p1">**</bpt>Set-DscLocalConfigurationManager<ept id="p1">**</ept> cmdlet, with the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> set to the location of the metaconfiguration MOF file.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example: <ph id="ph1">`Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`</ph></source>
+          <target state="new">For example: <ph id="ph1">`Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`</ph></target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Configuration ID</source>
+          <target state="new">Configuration ID</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The script sets the <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> property of LCM to a GUID that had been previously created for this purpose (you can create a GUID by using the <bpt id="p2">**</bpt>New-Guid<ept id="p2">**</ept> cmdlet).</source>
+          <target state="new">The script sets the <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> property of LCM to a GUID that had been previously created for this purpose (you can create a GUID by using the <bpt id="p2">**</bpt>New-Guid<ept id="p2">**</ept> cmdlet).</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> is what the LCM uses to find the appropriate configuration on the pull server.</source>
+          <target state="new">The <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> is what the LCM uses to find the appropriate configuration on the pull server.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The configuration MOF file on the pull server must be named <bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept>.mof, where <bpt id="p2">_</bpt>ConfigurationID<ept id="p2">_</ept> is the value of the <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept> property of the target node's LCM.</source>
+          <target state="new">The configuration MOF file on the pull server must be named <bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept>.mof, where <bpt id="p2">_</bpt>ConfigurationID<ept id="p2">_</ept> is the value of the <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept> property of the target node's LCM.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>SMB pull server</source>
+          <target state="new">SMB pull server</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To set up a client to pull configurations from an SMB server, use a <bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept> block.</source>
+          <target state="new">To set up a client to pull configurations from an SMB server, use a <bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In a <bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept> block, you specify the path to the server by setting the <bpt id="p2">**</bpt>SourcePath<ept id="p2">**</ept> property.</source>
+          <target state="new">In a <bpt id="p1">**</bpt>ConfigurationRepositoryShare<ept id="p1">**</ept> block, you specify the path to the server by setting the <bpt id="p2">**</bpt>SourcePath<ept id="p2">**</ept> property.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following metaconfiguration configures the target node to pull from an SMB pull server named <bpt id="p1">**</bpt>SMBPullServer<ept id="p1">**</ept>.</source>
+          <target state="new">The following metaconfiguration configures the target node to pull from an SMB pull server named <bpt id="p1">**</bpt>SMBPullServer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Resource and report servers</source>
+          <target state="new">Resource and report servers</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>By default, the client node gets required resources from and reports status to the configuration pull server.</source>
+          <target state="new">By default, the client node gets required resources from and reports status to the configuration pull server.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>However, you can specify different pull servers for resources and reporting.</source>
+          <target state="new">However, you can specify different pull servers for resources and reporting.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To specify a resource server, you use either a <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> (for a web pull server) or a <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept> block (for an SMB pull server).</source>
+          <target state="new">To specify a resource server, you use either a <bpt id="p1">**</bpt>ResourceRepositoryWeb<ept id="p1">**</ept> (for a web pull server) or a <bpt id="p2">**</bpt>ResourceRepositoryShare<ept id="p2">**</ept> block (for an SMB pull server).</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To specify a report server, you use a <bpt id="p1">**</bpt>ReportRepositoryWeb<ept id="p1">**</ept> block.</source>
+          <target state="new">To specify a report server, you use a <bpt id="p1">**</bpt>ReportRepositoryWeb<ept id="p1">**</ept> block.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A report server cannot be an SMB server.</source>
+          <target state="new">A report server cannot be an SMB server.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following metaconfiguration configures a pull client to get its configurations from <bpt id="p1">**</bpt>CONTOSO-PullSrv<ept id="p1">**</ept> and its resources from <bpt id="p2">**</bpt>CONTOSO-ResourceSrv<ept id="p2">**</ept>, and to send status reports to <bpt id="p3">**</bpt>CONTOSO-ReportSrv<ept id="p3">**</ept>.</source>
+          <target state="new">The following metaconfiguration configures a pull client to get its configurations from <bpt id="p1">**</bpt>CONTOSO-PullSrv<ept id="p1">**</ept> and its resources from <bpt id="p2">**</bpt>CONTOSO-ResourceSrv<ept id="p2">**</ept>, and to send status reports to <bpt id="p3">**</bpt>CONTOSO-ReportSrv<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting up a pull client with configuration names<ept id="p1">](pullClientConfigNames.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Setting up a pull client with configuration names<ept id="p1">](pullClientConfigNames.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

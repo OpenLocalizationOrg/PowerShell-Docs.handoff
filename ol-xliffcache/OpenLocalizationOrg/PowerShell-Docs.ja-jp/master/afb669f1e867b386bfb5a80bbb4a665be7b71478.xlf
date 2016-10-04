@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">afb669f1e867b386bfb5a80bbb4a665be7b71478</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\renew-a-symantec-code-signing-certificate.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a6e7d074dfc9e3b09027cce7ccd15d079326a2c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9588c03c3c7a3741100853c766257b7ec3736373</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Renew a Symantec enterprise code-signing certificate to use with Intune | Microsoft Intune</source>
+          <target state="new">Renew a Symantec enterprise code-signing certificate to use with Intune | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Guidance to renew Symantec certificates used to manage certain Windows and Windows Phone mobile devices</source>
+          <target state="new">Guidance to renew Symantec certificates used to manage certain Windows and Windows Phone mobile devices</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Renew a Symantec enterprise code-signing certificate for Windows devices</source>
+          <target state="new">Renew a Symantec enterprise code-signing certificate for Windows devices</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Symantec certificate used to manage certain Windows and Windows Phone mobile devices must be renewed periodically.</source>
+          <target state="new">The Symantec certificate used to manage certain Windows and Windows Phone mobile devices must be renewed periodically.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For Windows Phone 8.0 devices, a signed Company Portal app and the code-signing certificate are needed for device enrollment.</source>
+          <target state="new">For Windows Phone 8.0 devices, a signed Company Portal app and the code-signing certificate are needed for device enrollment.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Later Windows Phone devices can use the company portal app downloaded from the store.</source>
+          <target state="new">Later Windows Phone devices can use the company portal app downloaded from the store.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A code-signing certificate is also be required for deploying line-of-business apps.</source>
+          <target state="new">A code-signing certificate is also be required for deploying line-of-business apps.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>How to renew the Symantec enterprise code-signing certificate</source>
+          <target state="new">How to renew the Symantec enterprise code-signing certificate</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Look for a renewal email sent from Symantec approximately 14 days prior to certificate expiration.</source>
+          <target state="new">Look for a renewal email sent from Symantec approximately 14 days prior to certificate expiration.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This email contains directions from Symantec about renewing your enterprise certificate.</source>
+          <target state="new">This email contains directions from Symantec about renewing your enterprise certificate.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For additional information about Symantec certificates, visit <bpt id="p1">[</bpt>www.symantec.com<ept id="p1">](http://www.symantec.com)</ept> or call 1-877-438-8776 or 1-650-426-3400.</source>
+          <target state="new">For additional information about Symantec certificates, visit <bpt id="p1">[</bpt>www.symantec.com<ept id="p1">](http://www.symantec.com)</ept> or call 1-877-438-8776 or 1-650-426-3400.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Go to the website (example: <bpt id="p1">[</bpt>https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do<ept id="p1">](https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do)</ept>) and login with the Symantec Publisher ID and email addressed associated with the certificate.</source>
+          <target state="new">Go to the website (example: <bpt id="p1">[</bpt>https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do<ept id="p1">](https://products.websecurity.symantec.com/orders/enrollment/microsoftCert.do)</ept>) and login with the Symantec Publisher ID and email addressed associated with the certificate.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Remember to use the same machine for starting the renewal that you’ll use to download the certificate.</source>
+          <target state="new">Remember to use the same machine for starting the renewal that you’ll use to download the certificate.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Once the renewal is approved and paid for, download the certificate.</source>
+          <target state="new">Once the renewal is approved and paid for, download the certificate.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>How to install the updated certificate for Windows Phone 8.0</source>
+          <target state="new">How to install the updated certificate for Windows Phone 8.0</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Download and sign the latest Windows Phone Company Portal located here: <bpt id="p1">[</bpt>http://www.microsoft.com/en-us/download/details.aspx?id=36060<ept id="p1">](http://www.microsoft.com/en-us/download/details.aspx?id=36060)</ept>.</source>
+          <target state="new">Download and sign the latest Windows Phone Company Portal located here: <bpt id="p1">[</bpt>http://www.microsoft.com/en-us/download/details.aspx?id=36060<ept id="p1">](http://www.microsoft.com/en-us/download/details.aspx?id=36060)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Open your Intune Administration Console (<bpt id="p1">[</bpt>https://admin.manage.microsoft.com<ept id="p1">](https://admin.manage.microsoft.com)</ept>) and go to <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows Phone<ept id="p4">**</ept> and click <bpt id="p5">**</bpt>Upload Signed App<ept id="p5">**</ept>.</source>
+          <target state="new">Open your Intune Administration Console (<bpt id="p1">[</bpt>https://admin.manage.microsoft.com<ept id="p1">](https://admin.manage.microsoft.com)</ept>) and go to <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows Phone<ept id="p4">**</ept> and click <bpt id="p5">**</bpt>Upload Signed App<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Upload the newly signed Company Portal.</source>
+          <target state="new">Upload the newly signed Company Portal.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You’ll need the newly signed SSP.xap and the new .PFX file you received from Symantec or the application enrollment token that was created with this new .PFX file.</source>
+          <target state="new">You’ll need the newly signed SSP.xap and the new .PFX file you received from Symantec or the application enrollment token that was created with this new .PFX file.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When the upload is complete, remove the old Company Portal version in the <bpt id="p1">**</bpt>Software<ept id="p1">**</ept> workspace in the Intune Management Console.</source>
+          <target state="new">When the upload is complete, remove the old Company Portal version in the <bpt id="p1">**</bpt>Software<ept id="p1">**</ept> workspace in the Intune Management Console.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Sign all enterprise line-of-business apps again using the same certificate and upload and replace existing applications.</source>
+          <target state="new">Sign all enterprise line-of-business apps again using the same certificate and upload and replace existing applications.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Providing a signed SSP.xap file is currently the only way to provide the updated code signing certificate.</source>
+          <target state="new">Providing a signed SSP.xap file is currently the only way to provide the updated code signing certificate.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To support signed line-of-business apps, you must sign and upload a Company Portal app even though your users will install the Company Portal app from the store.</source>
+          <target state="new">To support signed line-of-business apps, you must sign and upload a Company Portal app even though your users will install the Company Portal app from the store.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>How to install the updated certificate for Windows Phone 8.1 and later devices</source>
+          <target state="new">How to install the updated certificate for Windows Phone 8.1 and later devices</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Download and sign the latest Windows Phone Company Portal from the Download Center located here: <bpt id="p1">[</bpt>http://www.microsoft.com/en-us/download/details.aspx?id=36060<ept id="p1">](http://www.microsoft.com/en-us/download/details.aspx?id=36060)</ept>.</source>
+          <target state="new">Download and sign the latest Windows Phone Company Portal from the Download Center located here: <bpt id="p1">[</bpt>http://www.microsoft.com/en-us/download/details.aspx?id=36060<ept id="p1">](http://www.microsoft.com/en-us/download/details.aspx?id=36060)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Open your <bpt id="p1">[</bpt>Intune Administration Console<ept id="p1">](https://admin.manage.microsoft.com)</ept> (https://admin.manage.microsoft.com) and go to <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows Phone<ept id="p4">**</ept> and click <bpt id="p5">**</bpt>Upload Signed App<ept id="p5">**</ept>.</source>
+          <target state="new">Open your <bpt id="p1">[</bpt>Intune Administration Console<ept id="p1">](https://admin.manage.microsoft.com)</ept> (https://admin.manage.microsoft.com) and go to <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows Phone<ept id="p4">**</ept> and click <bpt id="p5">**</bpt>Upload Signed App<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Upload the newly signed Company Portal.</source>
+          <target state="new">Upload the newly signed Company Portal.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You’ll need the newly signed SSP.xap and the new .PFX file you received from Symantec or the Application enrollment token that was created with this new .PFX file.</source>
+          <target state="new">You’ll need the newly signed SSP.xap and the new .PFX file you received from Symantec or the Application enrollment token that was created with this new .PFX file.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When the upload is complete, remove the old Company Portal version in the <bpt id="p1">**</bpt>Software<ept id="p1">**</ept>  workspace.</source>
+          <target state="new">When the upload is complete, remove the old Company Portal version in the <bpt id="p1">**</bpt>Software<ept id="p1">**</ept>  workspace.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Sign all new and any updated enterprise line-of-business apps using the new certificate.</source>
+          <target state="new">Sign all new and any updated enterprise line-of-business apps using the new certificate.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Existing applications do not need to be resigned and redeployed.</source>
+          <target state="new">Existing applications do not need to be resigned and redeployed.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set up Windows Phone 8.0 management<ept id="p1">](set-up-windows-phone-8.0-management-with-microsoft-intune.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Set up Windows Phone management<ept id="p2">](set-up-windows-phone-management-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set up Windows Phone 8.0 management<ept id="p1">](set-up-windows-phone-8.0-management-with-microsoft-intune.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Set up Windows Phone management<ept id="p2">](set-up-windows-phone-management-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

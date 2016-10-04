@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce115dd79b0793718f8e79bb465f244b7cc725b1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\fileResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3934a39c7de81ced292c600a70fd5afc558c0c3f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fdc78a69a6f9590644004bce81084ac504b71cfb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC File Resource</source>
+          <target state="new">DSC File Resource</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The File resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage files and folders on the target node.</source>
+          <target state="new">The File resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage files and folders on the target node.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DestinationPath</source>
+          <target state="new">DestinationPath</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Indicates the location where you want to ensure the state for a file or directory.</source>
+          <target state="new">Indicates the location where you want to ensure the state for a file or directory.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Attributes</source>
+          <target state="new">Attributes</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Specifies the desired state of the attributes for the targeted file or directory.</source>
+          <target state="new">Specifies the desired state of the attributes for the targeted file or directory.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Checksum</source>
+          <target state="new">Checksum</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Indicates the checksum type to use when determining whether two files are the same.</source>
+          <target state="new">Indicates the checksum type to use when determining whether two files are the same.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">__</bpt>Checksum<ept id="p1">__</ept> is not specified, only the file or directory name is used for comparison.</source>
+          <target state="new">If <bpt id="p1">__</bpt>Checksum<ept id="p1">__</ept> is not specified, only the file or directory name is used for comparison.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Valid values include: SHA-1, SHA-256, SHA-512, createdDate, modifiedDate.</source>
+          <target state="new">Valid values include: SHA-1, SHA-256, SHA-512, createdDate, modifiedDate.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Contents</source>
+          <target state="new">Contents</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Specifies the contents of a file, such as a particular string.</source>
+          <target state="new">Specifies the contents of a file, such as a particular string.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Credential</source>
+          <target state="new">Credential</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Indicates the credentials that are required to access resources, such as source files, if such access is required.</source>
+          <target state="new">Indicates the credentials that are required to access resources, such as source files, if such access is required.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Ensure</source>
+          <target state="new">Ensure</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Indicates if the file or directory exists.</source>
+          <target state="new">Indicates if the file or directory exists.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Set this property to "Absent" to ensure that the file or directory does not exist.</source>
+          <target state="new">Set this property to "Absent" to ensure that the file or directory does not exist.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Set it to "Present" to ensure that the file or directory does exist.</source>
+          <target state="new">Set it to "Present" to ensure that the file or directory does exist.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The default is "Present".</source>
+          <target state="new">The default is "Present".</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Force</source>
+          <target state="new">Force</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.</source>
+          <target state="new">Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Using the Force property overrides such errors.</source>
+          <target state="new">Using the Force property overrides such errors.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</source>
+          <target state="new">The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Recurse</source>
+          <target state="new">Recurse</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Indicates if subdirectories are included.</source>
+          <target state="new">Indicates if subdirectories are included.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> to indicate that you want subdirectories to be included.</source>
+          <target state="new">Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> to indicate that you want subdirectories to be included.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</source>
+          <target state="new">The default is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This property is only valid when the Type property is set to Directory.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This property is only valid when the Type property is set to Directory.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>SourcePath</source>
+          <target state="new">SourcePath</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Indicates the path from which to copy the file or folder resource.</source>
+          <target state="new">Indicates the path from which to copy the file or folder resource.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="new">Type</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Indicates if the resource being configured is a directory or a file.</source>
+          <target state="new">Indicates if the resource being configured is a directory or a file.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Set this property to "Directory" to indicate that the resource is a directory.</source>
+          <target state="new">Set this property to "Directory" to indicate that the resource is a directory.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Set it to "File" to indicate that the resource is a file.</source>
+          <target state="new">Set it to "File" to indicate that the resource is a file.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The default value is “File”.</source>
+          <target state="new">The default value is “File”.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>MatchSource</source>
+          <target state="new">MatchSource</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If set to the default value of <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>, then any files on the source (say, files A, B, and C) will be added to the destination the first time the configuration is applied.</source>
+          <target state="new">If set to the default value of <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>, then any files on the source (say, files A, B, and C) will be added to the destination the first time the configuration is applied.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If a new file (D) is added to the source, it will not be added to the destination, even when the configuration is re-applied later.</source>
+          <target state="new">If a new file (D) is added to the source, it will not be added to the destination, even when the configuration is re-applied later.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the value is <bpt id="p1">__</bpt>$true<ept id="p1">__</ept>, then each time the configuration is applied, new files subsequently found on the source (such as file D in this example) are added to the destination.</source>
+          <target state="new">If the value is <bpt id="p1">__</bpt>$true<ept id="p1">__</ept>, then each time the configuration is applied, new files subsequently found on the source (such as file D in this example) are added to the destination.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="new">Example</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The following example shows how to use the File resource to ensure that a directory with the path <ph id="ph1">`C:\Users\Public\Documents\DSCDemo\DemoSource`</ph> on a source computer (such as the “pull” server) is also present (along with all subdirectories) on the target node.</source>
+          <target state="new">The following example shows how to use the File resource to ensure that a directory with the path <ph id="ph1">`C:\Users\Public\Documents\DSCDemo\DemoSource`</ph> on a source computer (such as the “pull” server) is also present (along with all subdirectories) on the target node.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It also writes a confirmatory message to the log when complete and includes a statement to ensure that the file-checking operation runs prior to the logging operation.</source>
+          <target state="new">It also writes a confirmatory message to the log when complete and includes a statement to ensure that the file-checking operation runs prior to the logging operation.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4b8e27b2d120d8b01289af1acd903f12f5cc019</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-role-groups.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4c56eaa66e6f70d0a087fd38c9807f264fe25fb1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0589d312b6c695c45d8f39d9956c6601f2ab1d3f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working with role groups - Complete | Microsoft ATA</source>
+          <target state="new">Working with role groups - Complete | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Walks you through working with ATA role groups.</source>
+          <target state="new">Walks you through working with ATA role groups.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>ATA Role Groups</source>
+          <target state="new">ATA Role Groups</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Role groups enables access management for ATA.</source>
+          <target state="new">Role groups enables access management for ATA.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Using role groups, you can segregate duties within your security team, and grant only the amount of access that users need to perform their jobs.</source>
+          <target state="new">Using role groups, you can segregate duties within your security team, and grant only the amount of access that users need to perform their jobs.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This article explains access management and ATA role authorization, and helps you get up and running with role groups in ATA.</source>
+          <target state="new">This article explains access management and ATA role authorization, and helps you get up and running with role groups in ATA.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Types of ATA Role Groups</source>
+          <target state="new">Types of ATA Role Groups</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ATA introduces 3 types of Role group: ATA Administrators, ATA Users and ATA Viewers.</source>
+          <target state="new">ATA introduces 3 types of Role group: ATA Administrators, ATA Users and ATA Viewers.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following table describes the type of access in ATA available per role.</source>
+          <target state="new">The following table describes the type of access in ATA available per role.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Depending on which role you assign, various screens and menu options in ATA will not be available, as follows:</source>
+          <target state="new">Depending on which role you assign, various screens and menu options in ATA will not be available, as follows:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Activity</source>
+          <target state="new">Activity</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Microsoft Advanced Threat Analytics Administrators</source>
+          <target state="new">Microsoft Advanced Threat Analytics Administrators</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Microsoft Advanced Threat Analytics Users</source>
+          <target state="new">Microsoft Advanced Threat Analytics Users</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Microsoft Advanced Threat Analytics Viewers</source>
+          <target state="new">Microsoft Advanced Threat Analytics Viewers</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Login</source>
+          <target state="new">Login</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Provide Input for Suspicious Activities</source>
+          <target state="new">Provide Input for Suspicious Activities</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Change status of Suspicious Activities</source>
+          <target state="new">Change status of Suspicious Activities</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Share/Export suspicious activity via email/get link</source>
+          <target state="new">Share/Export suspicious activity via email/get link</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Add/Edit notes for Suspicious Activities</source>
+          <target state="new">Add/Edit notes for Suspicious Activities</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Change status of Monitoring Alerts</source>
+          <target state="new">Change status of Monitoring Alerts</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Update ATA Configuration</source>
+          <target state="new">Update ATA Configuration</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gateway – Add</source>
+          <target state="new">Gateway – Add</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gateway – Delete</source>
+          <target state="new">Gateway – Delete</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Monitored DC – Add</source>
+          <target state="new">Monitored DC – Add</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Monitored DC – Delete</source>
+          <target state="new">Monitored DC – Delete</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Available</source>
+          <target state="new">Available</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Not available</source>
+          <target state="new">Not available</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When users try to access a page that is not available for their role group, they will be redirected to the ATA unauthorized page.</source>
+          <target state="new">When users try to access a page that is not available for their role group, they will be redirected to the ATA unauthorized page.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Add \ Remove users - ATA Role Groups</source>
+          <target state="new">Add \ Remove users - ATA Role Groups</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>ATA uses the local Windows groups as a basis for role groups.</source>
+          <target state="new">ATA uses the local Windows groups as a basis for role groups.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To add or remove users, use the <bpt id="p1">**</bpt>Local Users and Groups<ept id="p1">**</ept> MMC (Lusrmgr.msc).</source>
+          <target state="new">To add or remove users, use the <bpt id="p1">**</bpt>Local Users and Groups<ept id="p1">**</ept> MMC (Lusrmgr.msc).</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>On a domain joined machine, you can add domain accounts as well as local accounts.</source>
+          <target state="new">On a domain joined machine, you can add domain accounts as well as local accounts.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

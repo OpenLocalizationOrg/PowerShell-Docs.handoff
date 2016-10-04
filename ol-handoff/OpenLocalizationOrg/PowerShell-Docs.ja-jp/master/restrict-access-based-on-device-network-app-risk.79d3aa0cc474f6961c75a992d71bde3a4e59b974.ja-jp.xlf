@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4eadb73aac14a375f41c434a4303a885bfbae64</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-based-on-device-network-app-risk.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65773c12281f4cee5f7c620411a8111605c42be4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">094ece900089944face35512b517c95dafcd1f0b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Restrict access using mobile threat protection | Microsoft Intune</source>
+          <target state="new">Restrict access using mobile threat protection | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Restrict access to company resources based on device, network and application risk.</source>
+          <target state="new">Restrict access to company resources based on device, network and application risk.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Restrict access to company resource based on device, network, and application risk</source>
+          <target state="new">Restrict access to company resource based on device, network, and application risk</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can control access from mobile devices to corporate resources, based on risk assessment conducted by Lookout, a mobile threat protection (MTP) solution that is integrated with Microsoft Intune.</source>
+          <target state="new">You can control access from mobile devices to corporate resources, based on risk assessment conducted by Lookout, a mobile threat protection (MTP) solution that is integrated with Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The risk is based on telemetry that the Lookout MTP service collects from devices for operating system (OS) vulnerabilities, installed malicious apps, and network profiles.</source>
+          <target state="new">The risk is based on telemetry that the Lookout MTP service collects from devices for operating system (OS) vulnerabilities, installed malicious apps, and network profiles.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Based on the risk assessment you can then configure conditional access policies in Intune and allow or block devices that have been determined to be noncompliant due to threats detected on those devices.</source>
+          <target state="new">Based on the risk assessment you can then configure conditional access policies in Intune and allow or block devices that have been determined to be noncompliant due to threats detected on those devices.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This is currently supported only for <bpt id="p1">**</bpt>Android<ept id="p1">**</ept> devices running <bpt id="p2">**</bpt>4.1 and later<ept id="p2">**</ept> and enrolled in Microsoft Intune.</source>
+          <target state="new">This is currently supported only for <bpt id="p1">**</bpt>Android<ept id="p1">**</ept> devices running <bpt id="p2">**</bpt>4.1 and later<ept id="p2">**</ept> and enrolled in Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What problem does this solve?</source>
+          <target state="new">What problem does this solve?</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Companies and organizations need to protect sensitive data from emerging threats that include physical, app-based, and network-based threats, as well as OS vulnerabilities.</source>
+          <target state="new">Companies and organizations need to protect sensitive data from emerging threats that include physical, app-based, and network-based threats, as well as OS vulnerabilities.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Historically, companies and organizations have taken an active position of protecting PCs against malicious attacks.</source>
+          <target state="new">Historically, companies and organizations have taken an active position of protecting PCs against malicious attacks.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Mobile is an emerging area that often goes unprotected.</source>
+          <target state="new">Mobile is an emerging area that often goes unprotected.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Although the mobile platforms have built-in protection of the OS using techniques such as app isolation and vetted consumer app stores, these platforms continue to be vulnerable to sophisticated attacks.</source>
+          <target state="new">Although the mobile platforms have built-in protection of the OS using techniques such as app isolation and vetted consumer app stores, these platforms continue to be vulnerable to sophisticated attacks.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>As mobile devices are increasingly used by employees to do work and need access to information that can be sensitive and valuable, these devices need to be protected from a variety of sophisticated attacks.</source>
+          <target state="new">As mobile devices are increasingly used by employees to do work and need access to information that can be sensitive and valuable, these devices need to be protected from a variety of sophisticated attacks.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Intune gives you the ability to control the access to company resources and data based on risk assessment that MTP solutions like Lookout provides.</source>
+          <target state="new">Intune gives you the ability to control the access to company resources and data based on risk assessment that MTP solutions like Lookout provides.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>How do Intune and Lookout mobile threat protection help protect company resources?</source>
+          <target state="new">How do Intune and Lookout mobile threat protection help protect company resources?</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Lookout’s mobile app (Lookout for work), running on mobile devices, captures file system, network stack, and device and application telemetry (where available) and send it to the Lookout mobile threat protection (MTP) cloud service to calculate an aggregate device risk for mobile threats.</source>
+          <target state="new">Lookout’s mobile app (Lookout for work), running on mobile devices, captures file system, network stack, and device and application telemetry (where available) and send it to the Lookout mobile threat protection (MTP) cloud service to calculate an aggregate device risk for mobile threats.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can also change the classification of the risk level for the threats in the MTP console to suit your requirements.</source>
+          <target state="new">You can also change the classification of the risk level for the threats in the MTP console to suit your requirements.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The compliance policy in Intune now includes a new rule for Lookout mobile threat protection that is based on the Lookout MTP risk assessment.</source>
+          <target state="new">The compliance policy in Intune now includes a new rule for Lookout mobile threat protection that is based on the Lookout MTP risk assessment.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When this rule is enabled, Microsoft Intune then evaluates the device compliance with the policy that you enabled.</source>
+          <target state="new">When this rule is enabled, Microsoft Intune then evaluates the device compliance with the policy that you enabled.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the device is determined as noncompliant with the compliance policy, access to resources like Exchange Online and SharePoint Online can blocked using conditional access policies.</source>
+          <target state="new">If the device is determined as noncompliant with the compliance policy, access to resources like Exchange Online and SharePoint Online can blocked using conditional access policies.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When access is blocked, the end-users are provided with a walkthrough to  help resolve the issue and gain access to company resources.</source>
+          <target state="new">When access is blocked, the end-users are provided with a walkthrough to  help resolve the issue and gain access to company resources.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This walkthrough is launched through the Lookout for work app.</source>
+          <target state="new">This walkthrough is launched through the Lookout for work app.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example scenarios</source>
+          <target state="new">Example scenarios</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Following are some common scenarios:</source>
+          <target state="new">Following are some common scenarios:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Threat from malicious apps:</source>
+          <target state="new">Threat from malicious apps:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When malicious apps such as malware is detected on the device, you can block such devices from:</source>
+          <target state="new">When malicious apps such as malware is detected on the device, you can block such devices from:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Connecting to corporate e-mail before resolving the threat.</source>
+          <target state="new">Connecting to corporate e-mail before resolving the threat.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Synchronizing corporate files using the OneDrive for Work app.</source>
+          <target state="new">Synchronizing corporate files using the OneDrive for Work app.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Accessing business-critical apps.</source>
+          <target state="new">Accessing business-critical apps.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Access blocked when malicious apps are detected:<ept id="p1">**</ept><ph id="ph1">
+</ph><ph id="ph2">![</ph>diagram showing conditional access policy blocking access when device is determined to be non-compliant due to malicious apps on the device<ph id="ph3">](../media/mtp/malicious-apps-blocked.png)</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>Access blocked when malicious apps are detected:<ept id="p1">**</ept><ph id="ph1">
+</ph><ph id="ph2">![</ph>diagram showing conditional access policy blocking access when device is determined to be non-compliant due to malicious apps on the device<ph id="ph3">](../media/mtp/malicious-apps-blocked.png)</ph></target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Device unblocked and is able to access company resources when the threat is remediated:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Device unblocked and is able to access company resources when the threat is remediated:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>diagram showing conditional access policy granting access when device is determined to be compliant after remediation</source>
+          <target state="new">diagram showing conditional access policy granting access when device is determined to be compliant after remediation</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Threat to network:</source>
+          <target state="new">Threat to network:</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Detect threats to your network such as Man-in-the-middle attacks and restrict access to WiFi networks based on the device risk.</source>
+          <target state="new">Detect threats to your network such as Man-in-the-middle attacks and restrict access to WiFi networks based on the device risk.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Access to network through WiFi blocked:<ept id="p1">**</ept><ph id="ph1">
+</ph><ph id="ph2">![</ph>diagram showing conditional access blocking WiFi access based on network threats<ph id="ph3">](../media/mtp/network-wifi-blocked.png)</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>Access to network through WiFi blocked:<ept id="p1">**</ept><ph id="ph1">
+</ph><ph id="ph2">![</ph>diagram showing conditional access blocking WiFi access based on network threats<ph id="ph3">](../media/mtp/network-wifi-blocked.png)</ph></target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Access granted on remediation:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Access granted on remediation:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>diagram showing conditional access allowing access on remediation of the threat</source>
+          <target state="new">diagram showing conditional access allowing access on remediation of the threat</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Threat to network (preventing access to SharePoint Online):</source>
+          <target state="new">Threat to network (preventing access to SharePoint Online):</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Detect threats to your network such as Man-in-the-middle attacks, and prevent synchronization of corporate files based on the device risk.</source>
+          <target state="new">Detect threats to your network such as Man-in-the-middle attacks, and prevent synchronization of corporate files based on the device risk.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Access blocked SharePoint Online based on network threat detected on the device:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Access blocked SharePoint Online based on network threat detected on the device:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Diagram showing conditional access blocking device access to SharePoint Online based on threat detection</source>
+          <target state="new">Diagram showing conditional access blocking device access to SharePoint Online based on threat detection</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Access granted on remediation:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Access granted on remediation:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Diagram showing conditional access allowing access after the network threat is remediated</source>
+          <target state="new">Diagram showing conditional access allowing access after the network threat is remediated</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Here are the main steps you must do to implement this solution:</source>
+          <target state="new">Here are the main steps you must do to implement this solution:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set up your subscription with Lookout mobile threat protection<ept id="p1">](set-up-your-subscription-with-lookout-mtp.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set up your subscription with Lookout mobile threat protection<ept id="p1">](set-up-your-subscription-with-lookout-mtp.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Enable Lookout MTP connection in Intune<ept id="p1">](enable-lookout-mtp-connection-in-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enable Lookout MTP connection in Intune<ept id="p1">](enable-lookout-mtp-connection-in-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Configure and deploy Lookout for work application<ept id="p1">](configure-and-deploy-lookout-for-work-apps.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configure and deploy Lookout for work application<ept id="p1">](configure-and-deploy-lookout-for-work-apps.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Configure compliance policy<ept id="p1">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configure compliance policy<ept id="p1">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Troubleshoot Lookout Integration<ept id="p1">](http://docs.microsoft.com/en-us/intune/troubleshoot/troubleshooting-lookout-integration)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Troubleshoot Lookout Integration<ept id="p1">](http://docs.microsoft.com/en-us/intune/troubleshoot/troubleshooting-lookout-integration)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

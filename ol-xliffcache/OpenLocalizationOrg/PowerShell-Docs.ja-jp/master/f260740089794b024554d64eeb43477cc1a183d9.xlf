@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f260740089794b024554d64eeb43477cc1a183d9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-threats.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">916e17cbed9d23141d73f720908d932a5a890844</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47fe769fec959d95d15b9f79da02e9604ca1a278</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>What threats does ATA detect?</source>
+          <target state="new">What threats does ATA detect?</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>| Microsoft ATA</source>
+          <target state="new">| Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Lists the threats that Advanced Threat Analytics detects</source>
+          <target state="new">Lists the threats that Advanced Threat Analytics detects</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What threats does ATA look for?</source>
+          <target state="new">What threats does ATA look for?</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>ATA provides detection for the following various phases of an advanced attack: reconnaissance, credential compromise, lateral movement, privilege escalation, domain dominance and others.</source>
+          <target state="new">ATA provides detection for the following various phases of an advanced attack: reconnaissance, credential compromise, lateral movement, privilege escalation, domain dominance and others.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These detections are aimed at detecting advanced attacks and insider threats before they cause damage to your organization.</source>
+          <target state="new">These detections are aimed at detecting advanced attacks and insider threats before they cause damage to your organization.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The detection of each phase results in several suspicious activities relevant for the phase in question, where each suspicious activity correlates to different flavors of possible attacks.</source>
+          <target state="new">The detection of each phase results in several suspicious activities relevant for the phase in question, where each suspicious activity correlates to different flavors of possible attacks.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These phases in the kill-chain where ATA currently provides detections are highlighted in the image below.</source>
+          <target state="new">These phases in the kill-chain where ATA currently provides detections are highlighted in the image below.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>ATA focus on lateral activity in attack kill chain</source>
+          <target state="new">ATA focus on lateral activity in attack kill chain</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Reconnaissance</source>
+          <target state="new">Reconnaissance</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>ATA provides multiple reconnaissance detections.</source>
+          <target state="new">ATA provides multiple reconnaissance detections.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These detections include:</source>
+          <target state="new">These detections include:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Reconnaissance using account enumeration<ept id="p1">**</ept> Detects attempts by attackers using the Kerberos protocol to discover if a user exists, even if the activity was not logged as an event on the domain controller.</source>
+          <target state="new"><bpt id="p1">**</bpt>Reconnaissance using account enumeration<ept id="p1">**</ept> Detects attempts by attackers using the Kerberos protocol to discover if a user exists, even if the activity was not logged as an event on the domain controller.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Net Session Enumeration<ept id="p1">**</ept> As part of the reconnaissance phase, attackers may query the DC for all active SMB sessions on the server, allowing them to gain access to all the users and IP addresses associated with those SMB sessions.</source>
+          <target state="new"><bpt id="p1">**</bpt>Net Session Enumeration<ept id="p1">**</ept> As part of the reconnaissance phase, attackers may query the DC for all active SMB sessions on the server, allowing them to gain access to all the users and IP addresses associated with those SMB sessions.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>SMB session enumeration can be used by attackers for targeting sensitive accounts, helping them move laterally across the network.</source>
+          <target state="new">SMB session enumeration can be used by attackers for targeting sensitive accounts, helping them move laterally across the network.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Reconnaissance using DNS<ept id="p1">**</ept> DNS information in the target network is often very useful reconnaissance information.</source>
+          <target state="new"><bpt id="p1">**</bpt>Reconnaissance using DNS<ept id="p1">**</ept> DNS information in the target network is often very useful reconnaissance information.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>DNS information contains a list of all the servers and often all the clients and the mapping to their IP addresses.</source>
+          <target state="new">DNS information contains a list of all the servers and often all the clients and the mapping to their IP addresses.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Viewing DNS information may provide attackers with a detailed view of these entities in your environment allowing attackers to focus their efforts on the relevant entities for the campaign.</source>
+          <target state="new">Viewing DNS information may provide attackers with a detailed view of these entities in your environment allowing attackers to focus their efforts on the relevant entities for the campaign.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Reconnaissance using directory services enumeration<ept id="p1">**</ept> Detecting reconnaissance for entities (users, groups, etc.) performed using the SAM-remote protocol to run queries against the domain controllers.</source>
+          <target state="new"><bpt id="p1">**</bpt>Reconnaissance using directory services enumeration<ept id="p1">**</ept> Detecting reconnaissance for entities (users, groups, etc.) performed using the SAM-remote protocol to run queries against the domain controllers.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This reconnaissance method is prevalent in many types of malware seen in real-world attack scenarios.</source>
+          <target state="new">This reconnaissance method is prevalent in many types of malware seen in real-world attack scenarios.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Compromised credentials</source>
+          <target state="new">Compromised credentials</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To provide detection of compromised credentials, ATA leverages both machine-learning based behavioral analytics as well as known malicious attacks and technique detection.</source>
+          <target state="new">To provide detection of compromised credentials, ATA leverages both machine-learning based behavioral analytics as well as known malicious attacks and technique detection.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Using behavioral analytics and machine learning, ATA is able to detect suspicious activities such as anomalous logins, abnormal resource access, and abnormal working hours which would point to credential compromise.</source>
+          <target state="new">Using behavioral analytics and machine learning, ATA is able to detect suspicious activities such as anomalous logins, abnormal resource access, and abnormal working hours which would point to credential compromise.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To protect against compromised credentials, ATA detects the following known malicious attacks and techniques:</source>
+          <target state="new">To protect against compromised credentials, ATA detects the following known malicious attacks and techniques:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Brute force<ept id="p1">**</ept> In brute-force attacks, attackers try to guess user credentials by trying multiple users and pairing them with multiple password attempts.</source>
+          <target state="new"><bpt id="p1">**</bpt>Brute force<ept id="p1">**</ept> In brute-force attacks, attackers try to guess user credentials by trying multiple users and pairing them with multiple password attempts.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The attackers often use complex algorithms or dictionaries to try as many values as a system allows.</source>
+          <target state="new">The attackers often use complex algorithms or dictionaries to try as many values as a system allows.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sensitive account exposed in plain text authentication<ept id="p1">**</ept> If high-privileged account credentials are sent in plain text, ATA alerts you so that you can update the computer configuration.</source>
+          <target state="new"><bpt id="p1">**</bpt>Sensitive account exposed in plain text authentication<ept id="p1">**</ept> If high-privileged account credentials are sent in plain text, ATA alerts you so that you can update the computer configuration.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Service exposing accounts in plain text authentication<ept id="p1">**</ept> If a service on a computer is sending multiple account credentials in plain text, ATA alerts you so that you can update the service configuration.</source>
+          <target state="new"><bpt id="p1">**</bpt>Service exposing accounts in plain text authentication<ept id="p1">**</ept> If a service on a computer is sending multiple account credentials in plain text, ATA alerts you so that you can update the service configuration.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Honey Token account suspicious activities<ept id="p1">**</ept> Honey Token accounts are dummy accounts set up to trap, identify, and track malicious activity that attempts to use these dummy accounts.</source>
+          <target state="new"><bpt id="p1">**</bpt>Honey Token account suspicious activities<ept id="p1">**</ept> Honey Token accounts are dummy accounts set up to trap, identify, and track malicious activity that attempts to use these dummy accounts.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>ATA alerts you to any activities across these Honey Tokens accounts.</source>
+          <target state="new">ATA alerts you to any activities across these Honey Tokens accounts.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unusual protocol implementation<ept id="p1">**</ept> Authentication requests (Kerberos or NTLM) are usually performed using a normal set of methods and protocols.</source>
+          <target state="new"><bpt id="p1">**</bpt>Unusual protocol implementation<ept id="p1">**</ept> Authentication requests (Kerberos or NTLM) are usually performed using a normal set of methods and protocols.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>However, in order to successfully authenticate, the request only has to meet a specific set of requirements.</source>
+          <target state="new">However, in order to successfully authenticate, the request only has to meet a specific set of requirements.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Attackers can implement these protocols with minor deviations from the normal implementation in the environment.</source>
+          <target state="new">Attackers can implement these protocols with minor deviations from the normal implementation in the environment.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These deviations may indicate the presence of an attacker attempting to leverage or successfully leveraging compromised credentials.</source>
+          <target state="new">These deviations may indicate the presence of an attacker attempting to leverage or successfully leveraging compromised credentials.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Malicious Data Protection Private Information Request<ept id="p1">**</ept> Data Protection API (DPAPI) is a password-based data protection service.</source>
+          <target state="new"><bpt id="p1">**</bpt>Malicious Data Protection Private Information Request<ept id="p1">**</ept> Data Protection API (DPAPI) is a password-based data protection service.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This protection service is used by various applications that stores user’s secrets, such as website passwords and file share credentials.</source>
+          <target state="new">This protection service is used by various applications that stores user’s secrets, such as website passwords and file share credentials.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In order to support password-loss scenarios, users can decrypt protected data by using a recovery key which does not involve their password.</source>
+          <target state="new">In order to support password-loss scenarios, users can decrypt protected data by using a recovery key which does not involve their password.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In a domain environment, attackers may remotely steal the recovery key and use it to decrypt protected data in all the domain joined computers.</source>
+          <target state="new">In a domain environment, attackers may remotely steal the recovery key and use it to decrypt protected data in all the domain joined computers.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Abnormal Behavior<ept id="p1">**</ept> Often in cases of insider threats, as well as advanced attacks, the account credentials may be compromised using social engineering methods or new and not-yet-known methods and techniques.</source>
+          <target state="new"><bpt id="p1">**</bpt>Abnormal Behavior<ept id="p1">**</ept> Often in cases of insider threats, as well as advanced attacks, the account credentials may be compromised using social engineering methods or new and not-yet-known methods and techniques.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>ATA is able to detect these types of compromises by analyzing the entity’s behavior and detecting and alerting on abnormalities of the operations performed by the entity.</source>
+          <target state="new">ATA is able to detect these types of compromises by analyzing the entity’s behavior and detecting and alerting on abnormalities of the operations performed by the entity.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Lateral movement</source>
+          <target state="new">Lateral movement</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To provide detection of lateral movement, when users take advantage of credentials that provide access to some resources to gain access resources that they are not meant to have access to, ATA leverages both machine-learning based behavioral analytics as well as known malicious attacks and technique detection.</source>
+          <target state="new">To provide detection of lateral movement, when users take advantage of credentials that provide access to some resources to gain access resources that they are not meant to have access to, ATA leverages both machine-learning based behavioral analytics as well as known malicious attacks and technique detection.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Using behavioral analytics and machine learning, ATA detects abnormal resource access, abnormal devices used and other indicators that are evidence of lateral movement.</source>
+          <target state="new">Using behavioral analytics and machine learning, ATA detects abnormal resource access, abnormal devices used and other indicators that are evidence of lateral movement.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In addition, ATA is able to detect lateral movement by detecting the techniques used by attackers to perform lateral movement, such as:</source>
+          <target state="new">In addition, ATA is able to detect lateral movement by detecting the techniques used by attackers to perform lateral movement, such as:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Pass the ticket<ept id="p1">**</ept> In pass the ticket attacks, attackers steal a Kerberos ticket from one computer and use it to gain access to another computer by impersonating an entity on your network.</source>
+          <target state="new"><bpt id="p1">**</bpt>Pass the ticket<ept id="p1">**</ept> In pass the ticket attacks, attackers steal a Kerberos ticket from one computer and use it to gain access to another computer by impersonating an entity on your network.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Pass the hash<ept id="p1">**</ept> In pass the hash attacks, attackers steal the NTLM hash of an entity, and use it to authenticate with NTLM and impersonate that entity and gain access to resources on your network.</source>
+          <target state="new"><bpt id="p1">**</bpt>Pass the hash<ept id="p1">**</ept> In pass the hash attacks, attackers steal the NTLM hash of an entity, and use it to authenticate with NTLM and impersonate that entity and gain access to resources on your network.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Over-pass the hash<ept id="p1">**</ept> Over-pass the hash are attacks in which the attacker uses a stolen NTLM hash to authenticate with Kerberos, and obtain a valid Kerberos TGT ticket, which is then used to authenticate as a valid user and gain access to resources on your network.</source>
+          <target state="new"><bpt id="p1">**</bpt>Over-pass the hash<ept id="p1">**</ept> Over-pass the hash are attacks in which the attacker uses a stolen NTLM hash to authenticate with Kerberos, and obtain a valid Kerberos TGT ticket, which is then used to authenticate as a valid user and gain access to resources on your network.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Abnormal behavior<ept id="p1">**</ept> Lateral movement is a technique often used by attackers, to move between devices and areas in the victim’s network to gain access to privileged credentials or sensitive information of interest to the attacker.</source>
+          <target state="new"><bpt id="p1">**</bpt>Abnormal behavior<ept id="p1">**</ept> Lateral movement is a technique often used by attackers, to move between devices and areas in the victim’s network to gain access to privileged credentials or sensitive information of interest to the attacker.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>ATA is able to detect lateral movement by analyzing the behavior of users, devices and their relationship inside the corporate network, and detect on any abnormal access patterns which may indicate a lateral movement performed by an attacker.</source>
+          <target state="new">ATA is able to detect lateral movement by analyzing the behavior of users, devices and their relationship inside the corporate network, and detect on any abnormal access patterns which may indicate a lateral movement performed by an attacker.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Privilege escalation</source>
+          <target state="new">Privilege escalation</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>ATA detects successful and attempted privilege escalation attacks, in which attackers attempt to increase existing privileges and use them multiple times in order to eventually gain full control over the victim’s environment.</source>
+          <target state="new">ATA detects successful and attempted privilege escalation attacks, in which attackers attempt to increase existing privileges and use them multiple times in order to eventually gain full control over the victim’s environment.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>ATA enables privilege escalation detection by combining behavioral analytics to detect anomalous behavior of privileged accounts as well as detecting known and malicious attacks and techniques that are often used to escalate privileges such as:</source>
+          <target state="new">ATA enables privilege escalation detection by combining behavioral analytics to detect anomalous behavior of privileged accounts as well as detecting known and malicious attacks and techniques that are often used to escalate privileges such as:</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MS14-068 exploit (Forged PAC)<ept id="p1">**</ept> Forged PAC are attacks in which the attacker plants authorization data in their valid TGT ticket in the form of a forged authorization header that grants them additional permissions that they weren't granted by their organization.</source>
+          <target state="new"><bpt id="p1">**</bpt>MS14-068 exploit (Forged PAC)<ept id="p1">**</ept> Forged PAC are attacks in which the attacker plants authorization data in their valid TGT ticket in the form of a forged authorization header that grants them additional permissions that they weren't granted by their organization.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In this scenario the attacker leverages previously compromised credentials, or credentials harvested during lateral movement operations.</source>
+          <target state="new">In this scenario the attacker leverages previously compromised credentials, or credentials harvested during lateral movement operations.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MS11-013 exploit (Silver PAC)<ept id="p1">**</ept> MS11-013 exploit attacks are an elevation of privilege vulnerability in Kerberos which allows for certain aspects of a Kerberos service ticket to be forged.</source>
+          <target state="new"><bpt id="p1">**</bpt>MS11-013 exploit (Silver PAC)<ept id="p1">**</ept> MS11-013 exploit attacks are an elevation of privilege vulnerability in Kerberos which allows for certain aspects of a Kerberos service ticket to be forged.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A malicious user or attacker who successfully exploited this vulnerability could obtain a token with elevated privileges on the Domain Controller.</source>
+          <target state="new">A malicious user or attacker who successfully exploited this vulnerability could obtain a token with elevated privileges on the Domain Controller.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In this scenario the attacker leverages previously compromised credentials, or credentials harvested during lateral movement operations.</source>
+          <target state="new">In this scenario the attacker leverages previously compromised credentials, or credentials harvested during lateral movement operations.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Domain dominance</source>
+          <target state="new">Domain dominance</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>ATA detects attackers attempting or successfully achieving total control and dominance over the victim’s environment by performing detection over known techniques used by attackers, which include:</source>
+          <target state="new">ATA detects attackers attempting or successfully achieving total control and dominance over the victim’s environment by performing detection over known techniques used by attackers, which include:</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Skeleton key malware<ept id="p1">**</ept> In skeleton key attacks, malware is installed on your domain controller that allows attackers to authenticate as any user, while still enabling legitimate users to log on.</source>
+          <target state="new"><bpt id="p1">**</bpt>Skeleton key malware<ept id="p1">**</ept> In skeleton key attacks, malware is installed on your domain controller that allows attackers to authenticate as any user, while still enabling legitimate users to log on.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Golden ticket<ept id="p1">**</ept> In golden ticket attacks, an attacker steals the KBTGT's credentials, the Kerberos Golden Ticket.</source>
+          <target state="new"><bpt id="p1">**</bpt>Golden ticket<ept id="p1">**</ept> In golden ticket attacks, an attacker steals the KBTGT's credentials, the Kerberos Golden Ticket.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>That ticket enables the attacker to create a TGT ticket offline, to be used to gain access to resources in the network.</source>
+          <target state="new">That ticket enables the attacker to create a TGT ticket offline, to be used to gain access to resources in the network.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remote execution<ept id="p1">**</ept> Attackers can attempt to control your network by running code remotely on your domain controller.</source>
+          <target state="new"><bpt id="p1">**</bpt>Remote execution<ept id="p1">**</ept> Attackers can attempt to control your network by running code remotely on your domain controller.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Malicious replication requests<ept id="p1">**</ept> In Active Directory (AD) environments replication happens regularly between Domain Controllers.</source>
+          <target state="new"><bpt id="p1">**</bpt>Malicious replication requests<ept id="p1">**</ept> In Active Directory (AD) environments replication happens regularly between Domain Controllers.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An attacker can spoof AD replication request (sometimes impersonating as a Domain Controller) allowing the attacker to retrieve the data stored in AD, including password hashes, without utilizing more intrusive techniques like Volume Shadow Copy.</source>
+          <target state="new">An attacker can spoof AD replication request (sometimes impersonating as a Domain Controller) allowing the attacker to retrieve the data stored in AD, including password hashes, without utilizing more intrusive techniques like Volume Shadow Copy.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>What's next?</source>
+          <target state="new">What's next?</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For more information about how ATA fits into your network: <bpt id="p1">[</bpt>ATA architecture<ept id="p1">](/advanced-threat-analytics/plan-design/ata-architecture)</ept></source>
+          <target state="new">For more information about how ATA fits into your network: <bpt id="p1">[</bpt>ATA architecture<ept id="p1">](/advanced-threat-analytics/plan-design/ata-architecture)</ept></target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To get started deploying ATA: <bpt id="p1">[</bpt>Install ATA<ept id="p1">](/advanced-threat-analytics/deploy-use/install-ata)</ept></source>
+          <target state="new">To get started deploying ATA: <bpt id="p1">[</bpt>Install ATA<ept id="p1">](/advanced-threat-analytics/deploy-use/install-ata)</ept></target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

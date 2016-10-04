@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e5761859f4c0c30f1bd818c968bba3a3c6c60b6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">832fa1cfbe5b361a8489a565f64c327004307691</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e225c0c4412ab1ac797de977a01507bee43c8fda</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Prepare apps for mobile application management | Microsoft Intune</source>
+          <target state="new">Prepare apps for mobile application management | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The information in this topic helps you decide when you should use the App wrapping tool and the App SDK to enable your custom line of business apps to use the mobile app management policies.</source>
+          <target state="new">The information in this topic helps you decide when you should use the App wrapping tool and the App SDK to enable your custom line of business apps to use the mobile app management policies.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Decide how to prepare apps for mobile application management with Microsoft Intune</source>
+          <target state="new">Decide how to prepare apps for mobile application management with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can enable your apps to use mobile application management (MAM) policies by using either the Intune App Wrapping Tool or the Intune App SDK.</source>
+          <target state="new">You can enable your apps to use mobile application management (MAM) policies by using either the Intune App Wrapping Tool or the Intune App SDK.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use this information to learn about these two methods and when to use them.</source>
+          <target state="new">Use this information to learn about these two methods and when to use them.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Intune App Wrapping Tool</source>
+          <target state="new">Intune App Wrapping Tool</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The App Wrapping Tool is used primarily for internal line-of-business (LOB) apps.</source>
+          <target state="new">The App Wrapping Tool is used primarily for internal line-of-business (LOB) apps.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The tool is a command line application that creates a wrapper around the app, which then allows the app to be managed by an Intune mobile application management policy.</source>
+          <target state="new">The tool is a command line application that creates a wrapper around the app, which then allows the app to be managed by an Intune mobile application management policy.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You don't need the source code to use the tool, but you do need signing credentials.</source>
+          <target state="new">You don't need the source code to use the tool, but you do need signing credentials.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more about signing credentials, see the <bpt id="p1">[</bpt>Intune blog<ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)</ept>.</source>
+          <target state="new">For more about signing credentials, see the <bpt id="p1">[</bpt>Intune blog<ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For the App Wrapping Tool documentation, see <bpt id="p1">[</bpt>Android App Wrapping Tool <ept id="p1">](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</ept> and <bpt id="p2">[</bpt>iOS App Wrapping Tool<ept id="p2">](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</ept>.</source>
+          <target state="new">For the App Wrapping Tool documentation, see <bpt id="p1">[</bpt>Android App Wrapping Tool <ept id="p1">](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</ept> and <bpt id="p2">[</bpt>iOS App Wrapping Tool<ept id="p2">](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The App Wrapping Tool does not support Apps in the App or Play Store or features that require development time integration (see the following feature comparison table).</source>
+          <target state="new">The App Wrapping Tool does not support Apps in the App or Play Store or features that require development time integration (see the following feature comparison table).</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You should use the App Wrapping Tool, rather than the SDK, if the  app has already been written or if the source code isn't available.</source>
+          <target state="new">You should use the App Wrapping Tool, rather than the SDK, if the  app has already been written or if the source code isn't available.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The App Wrapping Tool for MAM on devices that are not enrolled in Intune is currently supported in public preview. For more information, see <bpt id="p2">[</bpt>Protect LOB apps on devices not enrolled in Intune<ept id="p2">](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)</ept> topic<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>The App Wrapping Tool for MAM on devices that are not enrolled in Intune is currently supported in public preview. For more information, see <bpt id="p2">[</bpt>Protect LOB apps on devices not enrolled in Intune<ept id="p2">](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)</ept> topic<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Supported Platforms</source>
+          <target state="new">Supported Platforms</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>App Wrapping Tool<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>App Wrapping Tool<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Xamarin<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Xamarin<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cordova<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Cordova<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Intune App SDK</source>
+          <target state="new">Intune App SDK</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The App SDK is designed mainly for customers who have apps in the App or Play stores and want to be able to manage the apps with Intune.</source>
+          <target state="new">The App SDK is designed mainly for customers who have apps in the App or Play stores and want to be able to manage the apps with Intune.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>However, any app can take advantage of integrating the SDK, even if it’s a LOB app.</source>
+          <target state="new">However, any app can take advantage of integrating the SDK, even if it’s a LOB app.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To learn more about the SDK, see the <bpt id="p1">[</bpt>Overview<ept id="p1">](/intune/develop/intune-app-sdk)</ept>.</source>
+          <target state="new">To learn more about the SDK, see the <bpt id="p1">[</bpt>Overview<ept id="p1">](/intune/develop/intune-app-sdk)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To get started with the SDK, see <bpt id="p1">[</bpt>Getting Started With the Microsoft Intune App SDK<ept id="p1">](/intune/develop/intune-app-sdk-get-started)</ept>.</source>
+          <target state="new">To get started with the SDK, see <bpt id="p1">[</bpt>Getting Started With the Microsoft Intune App SDK<ept id="p1">](/intune/develop/intune-app-sdk-get-started)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Supported Platforms</source>
+          <target state="new">Supported Platforms</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Intune App SDK<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Intune App SDK<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Xamarin<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Xamarin<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cordova<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Cordova<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Yes – use the Intune App SDK Xamarin component</source>
+          <target state="new">Yes – use the Intune App SDK Xamarin component</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Yes – use the Intune App SDK Cordova plugin</source>
+          <target state="new">Yes – use the Intune App SDK Cordova plugin</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Android<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Yes – use the Intune App SDK Xamarin Component</source>
+          <target state="new">Yes – use the Intune App SDK Xamarin Component</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Yes – use the Intune App SDK Cordova plugin</source>
+          <target state="new">Yes – use the Intune App SDK Cordova plugin</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Feature comparison</source>
+          <target state="new">Feature comparison</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This table lists the settings that you can use for the App SDK and App Wrapping Tool.</source>
+          <target state="new">This table lists the settings that you can use for the App SDK and App Wrapping Tool.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The App Wrapping Tool can be used with Intune Standalone or Intune with Configuration Manager.</source>
+          <target state="new">The App Wrapping Tool can be used with Intune Standalone or Intune with Configuration Manager.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Feature</source>
+          <target state="new">Feature</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>App SDK</source>
+          <target state="new">App SDK</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>App Wrapping Tool</source>
+          <target state="new">App Wrapping Tool</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Restrict web content to display in a corporate managed browser</source>
+          <target state="new">Restrict web content to display in a corporate managed browser</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Prevent Android, iTunes or iCloud backups</source>
+          <target state="new">Prevent Android, iTunes or iCloud backups</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Allow app to transfer data to other apps</source>
+          <target state="new">Allow app to transfer data to other apps</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Allow app to receive data from other apps</source>
+          <target state="new">Allow app to receive data from other apps</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Restrict cut, copy and paste with other apps</source>
+          <target state="new">Restrict cut, copy and paste with other apps</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Require simple PIN for access</source>
+          <target state="new">Require simple PIN for access</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Replace built-in app PIN with Intune PIN</source>
+          <target state="new">Replace built-in app PIN with Intune PIN</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Specify the number of attempts before PIN reset</source>
+          <target state="new">Specify the number of attempts before PIN reset</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Require fingerprint instead of PIN (iOS only)</source>
+          <target state="new">Require fingerprint instead of PIN (iOS only)</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Only available in MAM-only environments.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Only available in MAM-only environments.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Require corporate credentials for access</source>
+          <target state="new">Require corporate credentials for access</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Block managed apps from running on jailbroken or rooted devices</source>
+          <target state="new">Block managed apps from running on jailbroken or rooted devices</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Encrypt app data</source>
+          <target state="new">Encrypt app data</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Recheck the access requirements after a specified number of minutes</source>
+          <target state="new">Recheck the access requirements after a specified number of minutes</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Specify the offline grace period</source>
+          <target state="new">Specify the offline grace period</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Block screen capture (Android only)</source>
+          <target state="new">Block screen capture (Android only)</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Full Wipe</source>
+          <target state="new">Full Wipe</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Selective Wipe</source>
+          <target state="new">Selective Wipe</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> For iOS, when the management profile is removed, the app is also removed.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> For iOS, when the management profile is removed, the app is also removed.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Prevent “Save as”</source>
+          <target state="new">Prevent “Save as”</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Support for Multi-Identity</source>
+          <target state="new">Support for Multi-Identity</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <target state="new">X</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Android app wrapping tool<ept id="p1">](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Android app wrapping tool<ept id="p1">](prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">
+</ph><bpt id="p1">[</bpt>iOS app wrapping tool<ept id="p1">](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</ept></source>
+          <target state="new"><ph id="ph1">
+</ph><bpt id="p1">[</bpt>iOS app wrapping tool<ept id="p1">](prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">
+</ph><bpt id="p1">[</bpt>Use the SDK to enable apps for mobile application management<ept id="p1">](use-the-sdk-to-enable-apps-for-mobile-application-management.md)</ept></source>
+          <target state="new"><ph id="ph1">
+</ph><bpt id="p1">[</bpt>Use the SDK to enable apps for mobile application management<ept id="p1">](use-the-sdk-to-enable-apps-for-mobile-application-management.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

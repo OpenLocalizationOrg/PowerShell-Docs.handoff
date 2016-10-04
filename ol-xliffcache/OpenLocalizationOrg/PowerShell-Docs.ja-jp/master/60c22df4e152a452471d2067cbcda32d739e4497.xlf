@@ -1,0 +1,1067 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">60c22df4e152a452471d2067cbcda32d739e4497</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-silent-installation.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">80c588eee7bdedb290dacac9a6a2b1851e607fec</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3b783cad8a17a999cd700284ae309baab7d08721</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Install ATA Silently | Microsoft ATA</source>
+          <target state="new">Install ATA Silently | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This describes how to silently install ATA.</source>
+          <target state="new">This describes how to silently install ATA.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Applies to: Advanced Threat Analytics version 1.7<ept id="p1">*</ept></target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>ATA Silent Installation</source>
+          <target state="new">ATA Silent Installation</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This article provides instructions for silently installing ATA.</source>
+          <target state="new">This article provides instructions for silently installing ATA.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="new">Prerequisites</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Microsoft ATA v1.7 requires the installation of Microsoft .NET Framework 4.6.1.</source>
+          <target state="new">Microsoft ATA v1.7 requires the installation of Microsoft .NET Framework 4.6.1.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When you install or update ATA, .Net Framework 4.6.1 will be automatically installed as part of the deployment of Microsoft ATA.</source>
+          <target state="new">When you install or update ATA, .Net Framework 4.6.1 will be automatically installed as part of the deployment of Microsoft ATA.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The installation of .Net framework 4.6.1 may require rebooting the server.</source>
+          <target state="new">The installation of .Net framework 4.6.1 may require rebooting the server.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When installing ATA Gateway on Domain Controllers, consider scheduling a maintenance window for these Domain Controllers.</source>
+          <target state="new">When installing ATA Gateway on Domain Controllers, consider scheduling a maintenance window for these Domain Controllers.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When using ATA silent installation method, the installer is configured to automatically restart the server at the end of the installation (if necessary).</source>
+          <target state="new">When using ATA silent installation method, the installer is configured to automatically restart the server at the end of the installation (if necessary).</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To avoid restarting the server as part of the installation, use the <ph id="ph1">`-NoRestart`</ph> flag.</source>
+          <target state="new">To avoid restarting the server as part of the installation, use the <ph id="ph1">`-NoRestart`</ph> flag.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When using the <ph id="ph1">`-NoRestart`</ph> flag and restart will be required as part of the installation, the installer will pause until the server is restarted.</source>
+          <target state="new">When using the <ph id="ph1">`-NoRestart`</ph> flag and restart will be required as part of the installation, the installer will pause until the server is restarted.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To track the progress of the deployment, monitor ATA installer logs which are located in <bpt id="p1">**</bpt>%AppData%\Local\Temp<ept id="p1">**</ept>.</source>
+          <target state="new">To track the progress of the deployment, monitor ATA installer logs which are located in <bpt id="p1">**</bpt>%AppData%\Local\Temp<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Install the ATA Center</source>
+          <target state="new">Install the ATA Center</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use the following command to install the ATA Center:</source>
+          <target state="new">Use the following command to install the ATA Center:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Mandatory for silent installation?</source>
+          <target state="new">Mandatory for silent installation?</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Quiet</source>
+          <target state="new">Quiet</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>/quiet</source>
+          <target state="new">/quiet</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Runs the installer displaying no UI and no prompts.</source>
+          <target state="new">Runs the installer displaying no UI and no prompts.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>NoRestart</source>
+          <target state="new">NoRestart</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>/norestart</source>
+          <target state="new">/norestart</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Suppresses any attempts to restart.</source>
+          <target state="new">Suppresses any attempts to restart.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>By default, UI will prompt before restart.</source>
+          <target state="new">By default, UI will prompt before restart.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>/help</source>
+          <target state="new">/help</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Provides help and quick reference.</source>
+          <target state="new">Provides help and quick reference.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Displays the correct use of the setup command including a list of all options and behaviors.</source>
+          <target state="new">Displays the correct use of the setup command including a list of all options and behaviors.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>NetFrameworkCommandLineArguments="/q"</source>
+          <target state="new">NetFrameworkCommandLineArguments="/q"</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>NetFrameworkCommandLineArguments="/q"</source>
+          <target state="new">NetFrameworkCommandLineArguments="/q"</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies the parameters for the .Net Framework installation.</source>
+          <target state="new">Specifies the parameters for the .Net Framework installation.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Must be set to enforce the silent installation of .Net Framework.</source>
+          <target state="new">Must be set to enforce the silent installation of .Net Framework.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>LicenseAccepted</source>
+          <target state="new">LicenseAccepted</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>--LicenseAccepted</source>
+          <target state="new">--LicenseAccepted</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Indicates that the license was read and approved.</source>
+          <target state="new">Indicates that the license was read and approved.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Must be set on silent installation.</source>
+          <target state="new">Must be set on silent installation.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation parameters<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation parameters<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Mandatory for silent installation?</source>
+          <target state="new">Mandatory for silent installation?</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>InstallationPath</source>
+          <target state="new">InstallationPath</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>InstallationPath=“<ph id="ph1">&lt;InstallPath&gt;</ph>”</source>
+          <target state="new">InstallationPath=“<ph id="ph1">&lt;InstallPath&gt;</ph>”</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Sets the path for the installation of ATA binaries.</source>
+          <target state="new">Sets the path for the installation of ATA binaries.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Default path: C:\Program Files\Microsoft Advanced Threat Analytics\Center</source>
+          <target state="new">Default path: C:\Program Files\Microsoft Advanced Threat Analytics\Center</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>DatabaseDataPath</source>
+          <target state="new">DatabaseDataPath</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>DatabaseDataPath= “<ph id="ph1">&lt;DBPath&gt;</ph>”</source>
+          <target state="new">DatabaseDataPath= “<ph id="ph1">&lt;DBPath&gt;</ph>”</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Sets the path for the ATA Database data folder.</source>
+          <target state="new">Sets the path for the ATA Database data folder.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Default path: C:\Program Files\Microsoft Advanced Threat Analytics\Center\MongoDB\bin\data</source>
+          <target state="new">Default path: C:\Program Files\Microsoft Advanced Threat Analytics\Center\MongoDB\bin\data</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>CenterIpAddress</source>
+          <target state="new">CenterIpAddress</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>CenterIpAddress=<ph id="ph1">&lt;CenterIPAddress&gt;</ph></source>
+          <target state="new">CenterIpAddress=<ph id="ph1">&lt;CenterIPAddress&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Sets the IP address of the ATA Center Service</source>
+          <target state="new">Sets the IP address of the ATA Center Service</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>CenterPort</source>
+          <target state="new">CenterPort</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>CenterPort=<ph id="ph1">&lt;CenterPort&gt;</ph></source>
+          <target state="new">CenterPort=<ph id="ph1">&lt;CenterPort&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Sets the network port of the ATA Center Service</source>
+          <target state="new">Sets the network port of the ATA Center Service</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>CenterCertificateThumbprint</source>
+          <target state="new">CenterCertificateThumbprint</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>CenterCertificateThumbprint=“<ph id="ph1">&lt;CertThumbprint&gt;</ph>”</source>
+          <target state="new">CenterCertificateThumbprint=“<ph id="ph1">&lt;CertThumbprint&gt;</ph>”</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Sets the certificate thumbprint for the ATA Center Service.</source>
+          <target state="new">Sets the certificate thumbprint for the ATA Center Service.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This Certificate is used to secure communication between the ATA Center and the ATA Gateway.</source>
+          <target state="new">This Certificate is used to secure communication between the ATA Center and the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If not set, the installation will generate a self-signed certificate.</source>
+          <target state="new">If not set, the installation will generate a self-signed certificate.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>ConsoleIpAddress</source>
+          <target state="new">ConsoleIpAddress</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>ConsoleIpAddress=<ph id="ph1">&lt;ConsoleIPAddress&gt;</ph></source>
+          <target state="new">ConsoleIpAddress=<ph id="ph1">&lt;ConsoleIPAddress&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Sets the IP address of the ATA Console</source>
+          <target state="new">Sets the IP address of the ATA Console</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>ConsoleCertificateThumbprint</source>
+          <target state="new">ConsoleCertificateThumbprint</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>ConsoleCertificateThumbprint=”<ph id="ph1">&lt;CertThumbprint &gt;</ph>”</source>
+          <target state="new">ConsoleCertificateThumbprint=”<ph id="ph1">&lt;CertThumbprint &gt;</ph>”</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Specifies the certificate thumbprint for the ATA Console.</source>
+          <target state="new">Specifies the certificate thumbprint for the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This Certificate is used to validate the identity of the ATA Console website.If not specified, the installation will generate a self-signed certificate</source>
+          <target state="new">This Certificate is used to validate the identity of the ATA Console website.If not specified, the installation will generate a self-signed certificate</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To install the ATA Center with default installation paths and a single IP address:</source>
+          <target state="new"><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To install the ATA Center with default installation paths and a single IP address:</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To install the ATA Center with default installation paths, two IP addresses, and user-defined certificate thumbprints:</source>
+          <target state="new">To install the ATA Center with default installation paths, two IP addresses, and user-defined certificate thumbprints:</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Update the ATA Center</source>
+          <target state="new">Update the ATA Center</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Use the following command to update the ATA Center:</source>
+          <target state="new">Use the following command to update the ATA Center:</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Mandatory for silent installation?</source>
+          <target state="new">Mandatory for silent installation?</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Quiet</source>
+          <target state="new">Quiet</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>/quiet</source>
+          <target state="new">/quiet</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Runs the installer displaying no UI and no prompts.</source>
+          <target state="new">Runs the installer displaying no UI and no prompts.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>NoRestart</source>
+          <target state="new">NoRestart</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>/norestart</source>
+          <target state="new">/norestart</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Suppresses any attempts to restart.</source>
+          <target state="new">Suppresses any attempts to restart.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>By default, the UI will prompt before restart.</source>
+          <target state="new">By default, the UI will prompt before restart.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>/help</source>
+          <target state="new">/help</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Provides help and quick reference.</source>
+          <target state="new">Provides help and quick reference.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Displays the correct use of the setup command including a list of all options and behaviors.</source>
+          <target state="new">Displays the correct use of the setup command including a list of all options and behaviors.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>NetFrameworkCommandLineArguments="/q"</source>
+          <target state="new">NetFrameworkCommandLineArguments="/q"</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>NetFrameworkCommandLineArguments="/q"</source>
+          <target state="new">NetFrameworkCommandLineArguments="/q"</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Specifies the parameters for the .Net Framework installation.</source>
+          <target state="new">Specifies the parameters for the .Net Framework installation.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Must be set to enforce the silent installation of .Net Framework.</source>
+          <target state="new">Must be set to enforce the silent installation of .Net Framework.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>When updating ATA, the installer automatically detects that ATA is already installed on the server, and no update installation option is required.</source>
+          <target state="new">When updating ATA, the installer automatically detects that ATA is already installed on the server, and no update installation option is required.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To update the ATA Center silently.</source>
+          <target state="new"><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To update the ATA Center silently.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>In large environments, the ATA Center update can take a while to complete.</source>
+          <target state="new">In large environments, the ATA Center update can take a while to complete.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Monitor ATA logs to track the progress of the update.</source>
+          <target state="new">Monitor ATA logs to track the progress of the update.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Uninstall the ATA Center silently</source>
+          <target state="new">Uninstall the ATA Center silently</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Use the following command to perform a silent uninstall of the ATA Center: <bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</source>
+          <target state="new">Use the following command to perform a silent uninstall of the ATA Center: <bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Mandatory for silent uninstallation?</source>
+          <target state="new">Mandatory for silent uninstallation?</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Quiet</source>
+          <target state="new">Quiet</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>/quiet</source>
+          <target state="new">/quiet</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Runs the uninstaller displaying no UI and no prompts.</source>
+          <target state="new">Runs the uninstaller displaying no UI and no prompts.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Uninstall</source>
+          <target state="new">Uninstall</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>/uninstall</source>
+          <target state="new">/uninstall</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Runs the silent uninstallation of the ATA Center from the server.</source>
+          <target state="new">Runs the silent uninstallation of the ATA Center from the server.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>NoRestart</source>
+          <target state="new">NoRestart</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>/norestart</source>
+          <target state="new">/norestart</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Suppresses any attempts to restart.</source>
+          <target state="new">Suppresses any attempts to restart.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>By default, the UI will prompt before restart.</source>
+          <target state="new">By default, the UI will prompt before restart.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>/help</source>
+          <target state="new">/help</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Provides help and quick reference.</source>
+          <target state="new">Provides help and quick reference.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Displays the correct use of the setup command including a list of all options and behaviors.</source>
+          <target state="new">Displays the correct use of the setup command including a list of all options and behaviors.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation parameters<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation parameters<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Mandatory for silent uninstallation?</source>
+          <target state="new">Mandatory for silent uninstallation?</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>DeleteExistingDatabaseData</source>
+          <target state="new">DeleteExistingDatabaseData</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>DeleteExistingDatabaseData</source>
+          <target state="new">DeleteExistingDatabaseData</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Deletes all the files in the existing database.</source>
+          <target state="new">Deletes all the files in the existing database.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To silently uninstall the ATA Center from the server, removing all existing database data:</source>
+          <target state="new"><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To silently uninstall the ATA Center from the server, removing all existing database data:</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>ATA Gateway Silent Installation</source>
+          <target state="new">ATA Gateway Silent Installation</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Use the following command to silently install the ATA Gateway:</source>
+          <target state="new">Use the following command to silently install the ATA Gateway:</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Mandatory for silent installation?</source>
+          <target state="new">Mandatory for silent installation?</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Quiet</source>
+          <target state="new">Quiet</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>/quiet</source>
+          <target state="new">/quiet</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Runs the installer displaying no UI and no prompts.</source>
+          <target state="new">Runs the installer displaying no UI and no prompts.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>NoRestart</source>
+          <target state="new">NoRestart</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>/norestart</source>
+          <target state="new">/norestart</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Suppresses any attempts to restart.</source>
+          <target state="new">Suppresses any attempts to restart.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>By default, UI will prompt before restart.</source>
+          <target state="new">By default, UI will prompt before restart.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>/help</source>
+          <target state="new">/help</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Provides help and quick reference.</source>
+          <target state="new">Provides help and quick reference.</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Displays the correct use of the setup command including a list of all options and behaviors.</source>
+          <target state="new">Displays the correct use of the setup command including a list of all options and behaviors.</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>NetFrameworkCommandLineArguments="/q"</source>
+          <target state="new">NetFrameworkCommandLineArguments="/q"</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>NetFrameworkCommandLineArguments="/q"</source>
+          <target state="new">NetFrameworkCommandLineArguments="/q"</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Specifies the parameters for the .Net Framework installation.</source>
+          <target state="new">Specifies the parameters for the .Net Framework installation.</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Must be set to enforce the silent installation of .Net Framework.</source>
+          <target state="new">Must be set to enforce the silent installation of .Net Framework.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>LicenseAccepted</source>
+          <target state="new">LicenseAccepted</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>--LicenseAccepted</source>
+          <target state="new">--LicenseAccepted</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Indicates that the license was read and approved.</source>
+          <target state="new">Indicates that the license was read and approved.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Must be set on silent installation.</source>
+          <target state="new">Must be set on silent installation.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation parameters<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation parameters<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Mandatory for silent installation?</source>
+          <target state="new">Mandatory for silent installation?</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>GatewayCertificateThumbprint</source>
+          <target state="new">GatewayCertificateThumbprint</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>GatewayCertificateThumbprint=”<ph id="ph1">&lt;CertThumbprint &gt;</ph>”</source>
+          <target state="new">GatewayCertificateThumbprint=”<ph id="ph1">&lt;CertThumbprint &gt;</ph>”</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Sets the certificate thumbprint for the ATA Center service.</source>
+          <target state="new">Sets the certificate thumbprint for the ATA Center service.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>This certificate is used to secure communication between the ATA Center and the ATA Gateway.</source>
+          <target state="new">This certificate is used to secure communication between the ATA Center and the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>If not set, the installation will generate a self-signed certificate.</source>
+          <target state="new">If not set, the installation will generate a self-signed certificate.</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>ConsoleAccountName</source>
+          <target state="new">ConsoleAccountName</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>ConsoleAccountName=”<ph id="ph1">&lt;AccountName&gt;</ph>”</source>
+          <target state="new">ConsoleAccountName=”<ph id="ph1">&lt;AccountName&gt;</ph>”</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Sets the name of the user account <ph id="ph1">(user@domain.com)</ph> that is used to register the ATA Gateway with the ATA Center.</source>
+          <target state="new">Sets the name of the user account <ph id="ph1">(user@domain.com)</ph> that is used to register the ATA Gateway with the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>ConsoleAccountPassword</source>
+          <target state="new">ConsoleAccountPassword</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>ConsoleAccountPassword=”<ph id="ph1">&lt;AccountPassword&gt;</ph>”</source>
+          <target state="new">ConsoleAccountPassword=”<ph id="ph1">&lt;AccountPassword&gt;</ph>”</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Sets the password for the user account <ph id="ph1">(user@domain.com)</ph> that is used to register the ATA Gateway with the ATA Center.</source>
+          <target state="new">Sets the password for the user account <ph id="ph1">(user@domain.com)</ph> that is used to register the ATA Gateway with the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To silently install the ATA Gateway and register it with the ATA Center using the specified credentials:</source>
+          <target state="new"><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To silently install the ATA Gateway and register it with the ATA Center using the specified credentials:</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Update the ATA Gateway</source>
+          <target state="new">Update the ATA Gateway</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Use the following command to silently update the ATA Gateway:</source>
+          <target state="new">Use the following command to silently update the ATA Gateway:</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Mandatory for silent installation?</source>
+          <target state="new">Mandatory for silent installation?</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Quiet</source>
+          <target state="new">Quiet</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>/quiet</source>
+          <target state="new">/quiet</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Runs the installer displaying no UI and no prompts.</source>
+          <target state="new">Runs the installer displaying no UI and no prompts.</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>NoRestart</source>
+          <target state="new">NoRestart</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>/norestart</source>
+          <target state="new">/norestart</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Suppresses any attempts to restart.</source>
+          <target state="new">Suppresses any attempts to restart.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>By default, the UI will prompt before restart.</source>
+          <target state="new">By default, the UI will prompt before restart.</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>/help</source>
+          <target state="new">/help</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Provides help and quick reference.</source>
+          <target state="new">Provides help and quick reference.</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Displays the correct use of the setup command including a list of all options and behaviors.</source>
+          <target state="new">Displays the correct use of the setup command including a list of all options and behaviors.</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>NetFrameworkCommandLineArguments="/q"</source>
+          <target state="new">NetFrameworkCommandLineArguments="/q"</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>NetFrameworkCommandLineArguments="/q"</source>
+          <target state="new">NetFrameworkCommandLineArguments="/q"</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Specifies the parameters for the .Net Framework installation.</source>
+          <target state="new">Specifies the parameters for the .Net Framework installation.</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Must be set to enforce the silent installation of .Net Framework.</source>
+          <target state="new">Must be set to enforce the silent installation of .Net Framework.</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To update the ATA Gateway silently:</source>
+          <target state="new"><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To update the ATA Gateway silently:</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Uninstall the ATA Gateway silently</source>
+          <target state="new">Uninstall the ATA Gateway silently</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Use the following command to perform a silent uninstall of the ATA Gateway: <bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</source>
+          <target state="new">Use the following command to perform a silent uninstall of the ATA Gateway: <bpt id="p1">**</bpt>Syntax<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Installation options<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Mandatory for silent uninstallation?</source>
+          <target state="new">Mandatory for silent uninstallation?</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Quiet</source>
+          <target state="new">Quiet</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>/quiet</source>
+          <target state="new">/quiet</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Runs the uninstaller displaying no UI and no prompts.</source>
+          <target state="new">Runs the uninstaller displaying no UI and no prompts.</target>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Uninstall</source>
+          <target state="new">Uninstall</target>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>/uninstall</source>
+          <target state="new">/uninstall</target>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Runs the silent uninstallation of the ATA Gateway from the server.</source>
+          <target state="new">Runs the silent uninstallation of the ATA Gateway from the server.</target>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>NoRestart</source>
+          <target state="new">NoRestart</target>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>/norestart</source>
+          <target state="new">/norestart</target>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Suppresses any attempts to restart.</source>
+          <target state="new">Suppresses any attempts to restart.</target>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>By default, the UI will prompt before restart.</source>
+          <target state="new">By default, the UI will prompt before restart.</target>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>/help</source>
+          <target state="new">/help</target>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Provides help and quick reference.</source>
+          <target state="new">Provides help and quick reference.</target>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Displays the correct use of the setup command including a list of all options and behaviors.</source>
+          <target state="new">Displays the correct use of the setup command including a list of all options and behaviors.</target>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To silently uninstall the ATA Gateway from the server:</source>
+          <target state="new"><bpt id="p1">**</bpt>Examples<ept id="p1">**</ept>: To silently uninstall the ATA Gateway from the server:</target>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Configure event collection<ept id="p1">](configure-event-collection.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configure event collection<ept id="p1">](configure-event-collection.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>ATA prerequisites<ept id="p1">](/advanced-threat-analytics/plan-design/ata-prerequisites)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>ATA prerequisites<ept id="p1">](/advanced-threat-analytics/plan-design/ata-prerequisites)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ef0b75bc59206390657bdfb923c8462f8a6b786</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ATADocsTest\ata-update-1.5-migration-guide.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d9e1b6e908358524a50b400e2a032d73e746086</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db7dca6a72aca82ccbc5c482ac4d8df2808214b6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>ATA update to 1.5 migration guide | Microsoft ATA</source>
+          <target state="new">ATA update to 1.5 migration guide | Microsoft ATA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Procedures to update ATA to version 1.5</source>
+          <target state="new">Procedures to update ATA to version 1.5</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>ATA update to 1.5 migration guide</source>
+          <target state="new">ATA update to 1.5 migration guide</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The update to ATA 1.5 provides improvements in the following areas:</source>
+          <target state="new">The update to ATA 1.5 provides improvements in the following areas:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Faster detection times</source>
+          <target state="new">Faster detection times</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Enhanced automatic detection algorithm for NAT (network address translation) devices</source>
+          <target state="new">Enhanced automatic detection algorithm for NAT (network address translation) devices</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Enhanced name resolution process for non-domain joined devices</source>
+          <target state="new">Enhanced name resolution process for non-domain joined devices</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Support for data migration during product updates</source>
+          <target state="new">Support for data migration during product updates</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Better UI responsiveness for suspicious activities with thousands of entities involved</source>
+          <target state="new">Better UI responsiveness for suspicious activities with thousands of entities involved</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Improved auto-resolution of monitoring alerts</source>
+          <target state="new">Improved auto-resolution of monitoring alerts</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Additional performance counters for enhanced monitoring and troubleshooting</source>
+          <target state="new">Additional performance counters for enhanced monitoring and troubleshooting</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Updating ATA to version 1.5</source>
+          <target state="new">Updating ATA to version 1.5</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If ATA is not installed in your environment, download the full version of ATA which includes version 1.5  and follow the standard installation procedure described in <bpt id="p1">[</bpt>Install ATA<ept id="p1">](/advanced-threat-analytics/deploy-use/install-ata)</ept>.</source>
+          <target state="new">If ATA is not installed in your environment, download the full version of ATA which includes version 1.5  and follow the standard installation procedure described in <bpt id="p1">[</bpt>Install ATA<ept id="p1">](/advanced-threat-analytics/deploy-use/install-ata)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you already have ATA version 1.4 deployed, this procedure will walk you through the steps necessary to update your installation.</source>
+          <target state="new">If you already have ATA version 1.4 deployed, this procedure will walk you through the steps necessary to update your installation.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Follow these steps to update to ATA version 1.5:</source>
+          <target state="new">Follow these steps to update to ATA version 1.5:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Download update 1.5<ept id="p1">](http://aka.ms/ata1_5update)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Download update 1.5<ept id="p1">](http://aka.ms/ata1_5update)</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can also use the updated full version of ATA to perform the update to version 1.5.</source>
+          <target state="new">You can also use the updated full version of ATA to perform the update to version 1.5.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Update the ATA Center</source>
+          <target state="new">Update the ATA Center</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Download the updated ATA Gateway package</source>
+          <target state="new">Download the updated ATA Gateway package</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Update the ATA Gateways</source>
+          <target state="new">Update the ATA Gateways</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Update all the ATA Gateways to make sure ATA functions properly.</source>
+          <target state="new">Update all the ATA Gateways to make sure ATA functions properly.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Step 1: Update the ATA Center</source>
+          <target state="new">Step 1: Update the ATA Center</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Back up your database: (optional)</source>
+          <target state="new">Back up your database: (optional)</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If the ATA Center is running as a virtual machine and you want to take a checkpoint, shut the virtual machine down first.</source>
+          <target state="new">If the ATA Center is running as a virtual machine and you want to take a checkpoint, shut the virtual machine down first.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If the ATA Center is running on a physical server, follow the recommended procedure to <bpt id="p1">[</bpt>back up MongoDB<ept id="p1">](https://docs.mongodb.org/manual/core/backups/)</ept>.</source>
+          <target state="new">If the ATA Center is running on a physical server, follow the recommended procedure to <bpt id="p1">[</bpt>back up MongoDB<ept id="p1">](https://docs.mongodb.org/manual/core/backups/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Run the update file, Microsoft ATA Center Update.exe, and follow the instructions on the screen to install the update.</source>
+          <target state="new">Run the update file, Microsoft ATA Center Update.exe, and follow the instructions on the screen to install the update.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Welcome<ept id="p1">**</ept> page, select your language and click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Welcome<ept id="p1">**</ept> page, select your language and click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Read the End User License Agreement and if you accept the terms, click the checkbox and click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="new">Read the End User License Agreement and if you accept the terms, click the checkbox and click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select whether you want to run the full (default) or partial migration.</source>
+          <target state="new">Select whether you want to run the full (default) or partial migration.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose full or partial migration</source>
+          <target state="new">Choose full or partial migration</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you select <bpt id="p1">**</bpt>Partial<ept id="p1">**</ept> migration, any network traffic collected and forwarded Windows events analyzed by ATA will be deleted and user behavioral profiles will have to be re-learned; this takes a minimum of three weeks.</source>
+          <target state="new">If you select <bpt id="p1">**</bpt>Partial<ept id="p1">**</ept> migration, any network traffic collected and forwarded Windows events analyzed by ATA will be deleted and user behavioral profiles will have to be re-learned; this takes a minimum of three weeks.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you are running low on disk space then it is helpful to run a <bpt id="p1">**</bpt>Partial<ept id="p1">**</ept> migration.</source>
+          <target state="new">If you are running low on disk space then it is helpful to run a <bpt id="p1">**</bpt>Partial<ept id="p1">**</ept> migration.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you run a <bpt id="p1">**</bpt>Full<ept id="p1">**</ept> migration, you will need additional disk space, as calculated for you on the upgrade page, and the migration may take longer, depending on the network traffic.</source>
+          <target state="new">If you run a <bpt id="p1">**</bpt>Full<ept id="p1">**</ept> migration, you will need additional disk space, as calculated for you on the upgrade page, and the migration may take longer, depending on the network traffic.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The full migration retains all previously collected data and user behavioral profiles are maintained, meaning that it will not take additional time for ATA to learn behavior profiles and anomalous behavior can be detected immediately after update.</source>
+          <target state="new">The full migration retains all previously collected data and user behavioral profiles are maintained, meaning that it will not take additional time for ATA to learn behavior profiles and anomalous behavior can be detected immediately after update.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Update<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Update<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Once you click Update, ATA is offline until the update procedure is complete.</source>
+          <target state="new">Once you click Update, ATA is offline until the update procedure is complete.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>After updating the ATA Center, the ATA Gateways will report that they are now outdated.</source>
+          <target state="new">After updating the ATA Center, the ATA Gateways will report that they are now outdated.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Outdated gateways image</source>
+          <target state="new">Outdated gateways image</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Update all the ATA Gateways to make sure ATA functions properly.</source>
+          <target state="new">Update all the ATA Gateways to make sure ATA functions properly.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Step 2.</source>
+          <target state="new">Step 2.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Download the ATA Gateway setup package</source>
+          <target state="new">Download the ATA Gateway setup package</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>After configuring the domain connectivity settings you can download the ATA Gateway setup package.</source>
+          <target state="new">After configuring the domain connectivity settings you can download the ATA Gateway setup package.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To download the ATA Gateway package:</source>
+          <target state="new">To download the ATA Gateway package:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Delete any previous versions of the ATA Gateway package you previously downloaded.</source>
+          <target state="new">Delete any previous versions of the ATA Gateway package you previously downloaded.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>On the ATA Gateway machine, open a browser and enter the IP address you configured in the ATA Center for the ATA Console.</source>
+          <target state="new">On the ATA Gateway machine, open a browser and enter the IP address you configured in the ATA Center for the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When the ATA Console opens, click on the settings icon and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</source>
+          <target state="new">When the ATA Console opens, click on the settings icon and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Configuration settings icon</source>
+          <target state="new">Configuration settings icon</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>ATA Gateways<ept id="p1">**</ept> tab, click <bpt id="p2">**</bpt>Download ATA Gateway Setup<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>ATA Gateways<ept id="p1">**</ept> tab, click <bpt id="p2">**</bpt>Download ATA Gateway Setup<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Save the package locally.</source>
+          <target state="new">Save the package locally.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The zip file includes the following:</source>
+          <target state="new">The zip file includes the following:</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>ATA Gateway installer</source>
+          <target state="new">ATA Gateway installer</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Configuration setting file with the required information to connect to the ATA Center</source>
+          <target state="new">Configuration setting file with the required information to connect to the ATA Center</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Step 3: Update the ATA Gateways</source>
+          <target state="new">Step 3: Update the ATA Gateways</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>On each ATA Gateway, extract the files from the ATA Gateway package and run the file Microsoft ATA Gateway Setup.</source>
+          <target state="new">On each ATA Gateway, extract the files from the ATA Gateway package and run the file Microsoft ATA Gateway Setup.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can also use this ATA Gateway package to install new ATA Gateways.</source>
+          <target state="new">You can also use this ATA Gateway package to install new ATA Gateways.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Your previous settings will be preserved, but it may take a few minutes until for the service to restart.</source>
+          <target state="new">Your previous settings will be preserved, but it may take a few minutes until for the service to restart.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Repeat this step for all other ATA Gateways deployed.</source>
+          <target state="new">Repeat this step for all other ATA Gateways deployed.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>After successfully updating an ATA Gateway, the outdated notification for the specific ATA Gateway will go away.</source>
+          <target state="new">After successfully updating an ATA Gateway, the outdated notification for the specific ATA Gateway will go away.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You will know that all the ATA Gateways have been successfully updated when all the ATA Gateways report that they are successfully synced and the message that an updated ATA Gateway package is available is no longer displayed.</source>
+          <target state="new">You will know that all the ATA Gateways have been successfully updated when all the ATA Gateways report that they are successfully synced and the message that an updated ATA Gateway package is available is no longer displayed.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Updated gateways image</source>
+          <target state="new">Updated gateways image</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Check out the ATA forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/home?forum=mata)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

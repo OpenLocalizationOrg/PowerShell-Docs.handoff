@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f2127f50750f5b483bd5d9fa2bed31a63b9d65f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\protect-apps-and-data-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">425a6633d3e2fcabf4b94452944d7f201f3c82db</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2607bb2b64ad36259a1c33518cc844d26bfedc8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Protect apps and data | Microsoft Intune</source>
+          <target state="new">Protect apps and data | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic describes the various Intune features and capabilities that are available to you to help protect your company apps and data.</source>
+          <target state="new">This topic describes the various Intune features and capabilities that are available to you to help protect your company apps and data.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Protect apps and data with Microsoft Intune</source>
+          <target state="new">Protect apps and data with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Intune protects company data through multiple technology layers.</source>
+          <target state="new">Intune protects company data through multiple technology layers.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>At the identity layer, conditional access protects access to services by only allowing access from managed and compliant devices.</source>
+          <target state="new">At the identity layer, conditional access protects access to services by only allowing access from managed and compliant devices.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>At the client application layer, mobile app management (MAM)  protects data loss by preventing data from moving to non-protected apps or storage locations and by wiping data when a device is lost or stolen.</source>
+          <target state="new">At the client application layer, mobile app management (MAM)  protects data loss by preventing data from moving to non-protected apps or storage locations and by wiping data when a device is lost or stolen.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These two layers of protection should be used together in order to secure data while keeping your mobile workforce productive.</source>
+          <target state="new">These two layers of protection should be used together in order to secure data while keeping your mobile workforce productive.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An important first step to protecting company data is to implement conditional access by making sure that devices used to access that data are using security protections like strong password, encryption, and are not jailbroken.</source>
+          <target state="new">An important first step to protecting company data is to implement conditional access by making sure that devices used to access that data are using security protections like strong password, encryption, and are not jailbroken.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune gives you the ability to set conditions that the devices have to comply with, before they are allowed to access your company email and data.</source>
+          <target state="new">Microsoft Intune gives you the ability to set conditions that the devices have to comply with, before they are allowed to access your company email and data.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Conditional access<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> is determined by two types of policies you can set in Intune:</source>
+          <target state="new"><bpt id="p1">[</bpt>Conditional access<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> is determined by two types of policies you can set in Intune:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Compliance policies<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> determine the compliance of a device.</source>
+          <target state="new"><bpt id="p1">[</bpt>Compliance policies<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> determine the compliance of a device.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>They evaluate settings and conditions like:</source>
+          <target state="new">They evaluate settings and conditions like:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>PIN and passwords: You can create rules to require passwords before unlocking a device, the complexity requirements of the password, and other password settings.</source>
+          <target state="new">PIN and passwords: You can create rules to require passwords before unlocking a device, the complexity requirements of the password, and other password settings.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Encryption: You can restrict access to devices that are encrypted.</source>
+          <target state="new">Encryption: You can restrict access to devices that are encrypted.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Device is not jailbroken or rooted: Intune can detect if an enrolled device is jailbroken, and you can set the policy to block access on such devices.</source>
+          <target state="new">Device is not jailbroken or rooted: Intune can detect if an enrolled device is jailbroken, and you can set the policy to block access on such devices.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Conditional access policies<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> are configured for a particular service like Exchange Online or SharePoint Online.</source>
+          <target state="new"><bpt id="p1">[</bpt>Conditional access policies<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> are configured for a particular service like Exchange Online or SharePoint Online.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For each service, you can define which groups of users these policies should apply to.</source>
+          <target state="new">For each service, you can define which groups of users these policies should apply to.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, you can make sure that everyone in the finance department can only access company email from enrolled and compliant devices.</source>
+          <target state="new">For example, you can make sure that everyone in the finance department can only access company email from enrolled and compliant devices.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Securing access to company resources is just the first step to protecting company data.</source>
+          <target state="new">Securing access to company resources is just the first step to protecting company data.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You still need the ability to protect the data once it has been accessed on the device.</source>
+          <target state="new">You still need the ability to protect the data once it has been accessed on the device.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The data can now be copied, moved, saved to a different location, or shared.</source>
+          <target state="new">The data can now be copied, moved, saved to a different location, or shared.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Intune solves this problem by providing you with the ability to restrict data movement by creating a set of rules like:</source>
+          <target state="new">Intune solves this problem by providing you with the ability to restrict data movement by creating a set of rules like:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Block copy and paste, or prevent data transfer outside of the work context.</source>
+          <target state="new">Block copy and paste, or prevent data transfer outside of the work context.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Prevent backup to personal cloud storage, prevent Save as.</source>
+          <target state="new">Prevent backup to personal cloud storage, prevent Save as.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Secure app access by requiring PIN/passcode or corporate credentials.</source>
+          <target state="new">Secure app access by requiring PIN/passcode or corporate credentials.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Have all web links open within the Intune Managed Browser.</source>
+          <target state="new">Have all web links open within the Intune Managed Browser.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>These set of rules are referred to as <bpt id="p1">[</bpt>mobile app management (MAM) policies<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept>.</source>
+          <target state="new">These set of rules are referred to as <bpt id="p1">[</bpt>mobile app management (MAM) policies<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>MAM policies can be applied to apps running on devices that may or may not be managed by you.</source>
+          <target state="new">MAM policies can be applied to apps running on devices that may or may not be managed by you.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can protect your company data using MAM policies for devices that are <bpt id="p1">**</bpt>enrolled in Intune<ept id="p1">**</ept>, devices that are <bpt id="p2">**</bpt>enrolled and managed by another third party MDM<ept id="p2">**</ept>, or a device that is <bpt id="p3">**</bpt>not enrolled in any MDM solution<ept id="p3">**</ept>, like the employee owned devices.</source>
+          <target state="new">You can protect your company data using MAM policies for devices that are <bpt id="p1">**</bpt>enrolled in Intune<ept id="p1">**</ept>, devices that are <bpt id="p2">**</bpt>enrolled and managed by another third party MDM<ept id="p2">**</ept>, or a device that is <bpt id="p3">**</bpt>not enrolled in any MDM solution<ept id="p3">**</ept>, like the employee owned devices.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To associate an app with a MAM policy, the app must incorporate the Microsoft Intune App Software Development Kit (SDK), or use the App wrapping tool.</source>
+          <target state="new">To associate an app with a MAM policy, the app must incorporate the Microsoft Intune App Software Development Kit (SDK), or use the App wrapping tool.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Apps like Microsoft Office apps have the App SDK built-in.</source>
+          <target state="new">Apps like Microsoft Office apps have the App SDK built-in.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The full list of supported apps can be found on the <bpt id="p1">[</bpt>Microsoft Intune mobile application gallery<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> in the Microsoft Intune application partners page.</source>
+          <target state="new">The full list of supported apps can be found on the <bpt id="p1">[</bpt>Microsoft Intune mobile application gallery<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> in the Microsoft Intune application partners page.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the app to see the supported scenarios, platforms and whether or not the app supports multi-identity.</source>
+          <target state="new">Choose the app to see the supported scenarios, platforms and whether or not the app supports multi-identity.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can also <bpt id="p1">[</bpt>enable your custom built line of business apps<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept> to use with MAM policies.</source>
+          <target state="new">You can also <bpt id="p1">[</bpt>enable your custom built line of business apps<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept> to use with MAM policies.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In addition to restricting data movement, if a device gets lost or stolen, or if the user is no longer working with your company, you can <bpt id="p1">[</bpt>selectively wipe company data<ept id="p1">](wipe-managed-company-app-data-with-microsoft-intune.md)</ept>, leaving only personal data behind.</source>
+          <target state="new">In addition to restricting data movement, if a device gets lost or stolen, or if the user is no longer working with your company, you can <bpt id="p1">[</bpt>selectively wipe company data<ept id="p1">](wipe-managed-company-app-data-with-microsoft-intune.md)</ept>, leaving only personal data behind.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

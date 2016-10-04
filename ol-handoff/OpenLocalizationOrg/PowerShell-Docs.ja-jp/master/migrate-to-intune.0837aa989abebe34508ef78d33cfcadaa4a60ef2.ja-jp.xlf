@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b2e4e606327a452a49cd2066a13e030db808836c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\migrate-to-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">52e13f6e44779004f8cd8e0b5a0717bcb4d5f721</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce739b06da49a91bd16f6776ac1b734ec30e3f43</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Migrate to Intune | Microsoft Intune</source>
+          <target state="new">Migrate to Intune | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Migrate to Intune</source>
+          <target state="new">Migrate to Intune</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The migration to Intune from your existing enterprise mobility management solution may follow the general sequence of steps below:</source>
+          <target state="new">The migration to Intune from your existing enterprise mobility management solution may follow the general sequence of steps below:</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Migration steps for Intune</source>
+          <target state="new">Migration steps for Intune</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Notify users</source>
+          <target state="new">Notify users</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Once you’re comfortable that the Intune pilot deployment has met your requirements, communicate with your users about the upcoming migration of their devices to Intune.</source>
+          <target state="new">Once you’re comfortable that the Intune pilot deployment has met your requirements, communicate with your users about the upcoming migration of their devices to Intune.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Email messages, instructions, and <bpt id="p1">[</bpt>posters<ept id="p1">](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT)</ept> can help set expectations and provide enrollment details on the steps users need to take in order to maintain uninterrupted connectivity to company resources and applications.</source>
+          <target state="new">Email messages, instructions, and <bpt id="p1">[</bpt>posters<ept id="p1">](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c?WT.mc_id=Blog_Intune_General_PCIT)</ept> can help set expectations and provide enrollment details on the steps users need to take in order to maintain uninterrupted connectivity to company resources and applications.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Make sure your support team is ready to assist users in the migration process.</source>
+          <target state="new">Make sure your support team is ready to assist users in the migration process.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Modify your existing enterprise mobility management solution</source>
+          <target state="new">Modify your existing enterprise mobility management solution</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Depending on how you plan to handle conditional access policies between your existing enterprise mobility management solution and Intune, you may need to disable your existing conditional access policies.</source>
+          <target state="new">Depending on how you plan to handle conditional access policies between your existing enterprise mobility management solution and Intune, you may need to disable your existing conditional access policies.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You’ll either disable your existing conditional access policies OR scope the existing conditional access policies to not include users/devices you are about to migrate to Intune.</source>
+          <target state="new">You’ll either disable your existing conditional access policies OR scope the existing conditional access policies to not include users/devices you are about to migrate to Intune.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Do not have both Intune and your existing enterprise mobility management solution applying conditional access policies to the same users/devices.</source>
+          <target state="new">Do not have both Intune and your existing enterprise mobility management solution applying conditional access policies to the same users/devices.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Enable Intune conditional access policy (optional)</source>
+          <target state="new">Enable Intune conditional access policy (optional)</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you’ve decided to immediately enforce the conditional access policies without a grace period for migrating devices, enable conditional access policies in Intune in this step.</source>
+          <target state="new">If you’ve decided to immediately enforce the conditional access policies without a grace period for migrating devices, enable conditional access policies in Intune in this step.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Make sure that this decision is well-communicated with your users and your helpdesk team.</source>
+          <target state="new">Make sure that this decision is well-communicated with your users and your helpdesk team.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If devices aren’t enrolled in Intune and aren’t compliant with Intune policies, users won’t be able to access corporate resources until they enroll in Intune and the devices are compliant with Intune policies.</source>
+          <target state="new">If devices aren’t enrolled in Intune and aren’t compliant with Intune policies, users won’t be able to access corporate resources until they enroll in Intune and the devices are compliant with Intune policies.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Unenrolling devices from your existing enterprise mobility management solution</source>
+          <target state="new">Unenrolling devices from your existing enterprise mobility management solution</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Devices must be unenrolled from your existing enterprise mobility management solution prior to enrolling in Intune.</source>
+          <target state="new">Devices must be unenrolled from your existing enterprise mobility management solution prior to enrolling in Intune.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Our recommendation is to allow users to unenroll their devices themselves for the best user experience.</source>
+          <target state="new">Our recommendation is to allow users to unenroll their devices themselves for the best user experience.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Be sure to follow the unenrollment guidance from the solution provider to make sure you correctly remove users and devices from your platform, ensuring minimum possible disruption to your end users.</source>
+          <target state="new">Be sure to follow the unenrollment guidance from the solution provider to make sure you correctly remove users and devices from your platform, ensuring minimum possible disruption to your end users.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Enrolling devices in Intune</source>
+          <target state="new">Enrolling devices in Intune</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Users scheduled for migration should immediately enroll in Intune to either regain or prevent loss of access to corporate resources, email, and applications.</source>
+          <target state="new">Users scheduled for migration should immediately enroll in Intune to either regain or prevent loss of access to corporate resources, email, and applications.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you’ve configured conditional access and users try to connect to email before enrolling in Intune, their access is blocked and an enrollment email greets them.</source>
+          <target state="new">If you’ve configured conditional access and users try to connect to email before enrolling in Intune, their access is blocked and an enrollment email greets them.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This email guides them to enroll their device in Intune.</source>
+          <target state="new">This email guides them to enroll their device in Intune.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Alternatively, users can enroll in Intune via the Intune Company Portal app or natively through the operating system on Windows 8.1 and Windows 10 Mobile.</source>
+          <target state="new">Alternatively, users can enroll in Intune via the Intune Company Portal app or natively through the operating system on Windows 8.1 and Windows 10 Mobile.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Refer to <bpt id="p1">[</bpt>What to tell your end users about using Microsoft Intune<ept id="p1">](what-to-tell-your-end-users-about-using-microsoft-intune.md)</ept> for further guidance on enrollment steps per platform.</source>
+          <target state="new">Refer to <bpt id="p1">[</bpt>What to tell your end users about using Microsoft Intune<ept id="p1">](what-to-tell-your-end-users-about-using-microsoft-intune.md)</ept> for further guidance on enrollment steps per platform.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Configure Intune conditional access (optional)</source>
+          <target state="new">Configure Intune conditional access (optional)</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you’ve allowed a grace period for conditional access enforcement, enable conditional access policies in Intune to start enforcement when the grace period that you have communicated to your end-users has ended.</source>
+          <target state="new">If you’ve allowed a grace period for conditional access enforcement, enable conditional access policies in Intune to start enforcement when the grace period that you have communicated to your end-users has ended.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This will immediately require all devices to meet the requirements of the Intune conditional access policy.</source>
+          <target state="new">This will immediately require all devices to meet the requirements of the Intune conditional access policy.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Enroll remaining devices and users</source>
+          <target state="new">Enroll remaining devices and users</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Now that you have enabled conditional access, all users are required to enroll in Intune and meet your organization’s compliance policies to gain access to corporate resources.</source>
+          <target state="new">Now that you have enabled conditional access, all users are required to enroll in Intune and meet your organization’s compliance policies to gain access to corporate resources.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you’ve migrated your users in a phased enrollment (not all at once), repeat the steps above until all the devices and users are enrolled and managed by Intune.</source>
+          <target state="new">If you’ve migrated your users in a phased enrollment (not all at once), repeat the steps above until all the devices and users are enrolled and managed by Intune.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Retire the previous enterprise mobility management solution</source>
+          <target state="new">Retire the previous enterprise mobility management solution</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>After you’ve migrated all your users and devices to Intune and you’ve validated that the migrations to Intune are successful, you can retire the previous enterprise mobility management solution and/or unsubscribe from the service.</source>
+          <target state="new">After you’ve migrated all your users and devices to Intune and you’ve validated that the migrations to Intune are successful, you can retire the previous enterprise mobility management solution and/or unsubscribe from the service.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Be sure to follow the guidance from the solution provider to make sure you correctly remove any unneeded infrastructure requirements and cancel any subscriptions/licenses.</source>
+          <target state="new">Be sure to follow the guidance from the solution provider to make sure you correctly remove any unneeded infrastructure requirements and cancel any subscriptions/licenses.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Additional migration resources</source>
+          <target state="new">Additional migration resources</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Do you need extra help with your migration to Intune?</source>
+          <target state="new">Do you need extra help with your migration to Intune?</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>We provide expert assistance options to help make sure your migration is trouble-free:</source>
+          <target state="new">We provide expert assistance options to help make sure your migration is trouble-free:</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Consulting Services<ept id="p1">](https://www.microsoft.com/en-us/microsoftservices/default.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Microsoft Consulting Services<ept id="p1">](https://www.microsoft.com/en-us/microsoftservices/default.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Intune technical and non-technical support<ept id="p1">](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Intune technical and non-technical support<ept id="p1">](/intune/troubleshoot/how-to-get-support-for-microsoft-intune)</ept></target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Intune TechNet forum<ept id="p1">](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Microsoft Intune TechNet forum<ept id="p1">](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod)</ept></target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Get a downloadable copy of this guide</source>
+          <target state="new">Get a downloadable copy of this guide</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To get a downloadable copy of this entire guide, visit the <bpt id="p1">[</bpt>TechNet Gallery<ept id="p1">](https://gallery.technet.microsoft.com/Migrating-to-Intune-ea439387)</ept>.</source>
+          <target state="new">To get a downloadable copy of this entire guide, visit the <bpt id="p1">[</bpt>TechNet Gallery<ept id="p1">](https://gallery.technet.microsoft.com/Migrating-to-Intune-ea439387)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

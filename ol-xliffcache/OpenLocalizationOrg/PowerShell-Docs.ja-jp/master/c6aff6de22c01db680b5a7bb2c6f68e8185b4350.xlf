@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6aff6de22c01db680b5a7bb2c6f68e8185b4350</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\set-up-windows-phone-8.0-management-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4fc3feb7723207d7f1da279cf2da8a5492969102</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef89b49059c01113bc80f991bf1ac385b8a18b5d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Set up Windows Phone 8.0 management | Microsoft Intune</source>
+          <target state="new">Set up Windows Phone 8.0 management | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enable mobile device management (MDM) for Windows Phone 8.0 devices with Microsoft Intune.</source>
+          <target state="new">Enable mobile device management (MDM) for Windows Phone 8.0 devices with Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set up device management for Windows Phone 8.0</source>
+          <target state="new">Set up device management for Windows Phone 8.0</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.0 requires a Symantec certificate to install the Intune Company Portal app and allow device management.</source>
+          <target state="new">Windows Phone 8.0 requires a Symantec certificate to install the Intune Company Portal app and allow device management.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A certificate is also required to sign line-of-business apps.</source>
+          <target state="new">A certificate is also required to sign line-of-business apps.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The following topic is only for Windows Phone 8.0.</source>
+          <target state="new">The following topic is only for Windows Phone 8.0.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To manage Windows Phone 8.1 or later, including Windows 10 Mobile, see <bpt id="p1">[</bpt>Set up Windows Phone enrollment<ept id="p1">](set-up-windows-phone-management-with-microsoft-intune.md)</ept>.</source>
+          <target state="new">To manage Windows Phone 8.1 or later, including Windows 10 Mobile, see <bpt id="p1">[</bpt>Set up Windows Phone enrollment<ept id="p1">](set-up-windows-phone-management-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Starting September of 2016, the Company Portal app for Windows 8.0 and Windows Phone 8.0 will no longer be available for download.</source>
+          <target state="new">Starting September of 2016, the Company Portal app for Windows 8.0 and Windows Phone 8.0 will no longer be available for download.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows Phone 8<ept id="p1">**</ept> - Certificate required</source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Phone 8<ept id="p1">**</ept> - Certificate required</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows Phone 8.1 and Windows 10 Mobile<ept id="p1">**</ept> require a certificate only if:</source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Phone 8.1 and Windows 10 Mobile<ept id="p1">**</ept> require a certificate only if:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You want to deploy the Company Portal app using Intune</source>
+          <target state="new">You want to deploy the Company Portal app using Intune</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You'll deploy  line-of-business (AKA "side-loaded") apps</source>
+          <target state="new">You'll deploy  line-of-business (AKA "side-loaded") apps</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Certificate requirements diagram</source>
+          <target state="new">Certificate requirements diagram</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Symantec certificate used to manage certain Windows and Windows Phone mobile devices <bpt id="p1">[</bpt>must be renewed periodically<ept id="p1">](renew-a-symantec-code-signing-certificate.md)</ept>.</source>
+          <target state="new">The Symantec certificate used to manage certain Windows and Windows Phone mobile devices <bpt id="p1">[</bpt>must be renewed periodically<ept id="p1">](renew-a-symantec-code-signing-certificate.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Setup requirements for Window Phone mobile device management depend upon how you'll manage devices.</source>
+          <target state="new">Setup requirements for Window Phone mobile device management depend upon how you'll manage devices.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Setting two CNAMEs in your company's DNS registration makes enrollment easier for uses.</source>
+          <target state="new">Setting two CNAMEs in your company's DNS registration makes enrollment easier for uses.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If your users will download the Company Portal app from the Store, then once you've configured DNS settings you just need to set up the Company Portal and inform users how to enroll.</source>
+          <target state="new">If your users will download the Company Portal app from the Store, then once you've configured DNS settings you just need to set up the Company Portal and inform users how to enroll.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For Windows Phone 8.0, or Windows Phone 8.1 where you'll deploy the Company Portal, you'll need a Symantec certificate to code-sign the app.</source>
+          <target state="new">For Windows Phone 8.0, or Windows Phone 8.1 where you'll deploy the Company Portal, you'll need a Symantec certificate to code-sign the app.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Configure setup requirements to enable Windows Phone management</source>
+          <target state="new">Configure setup requirements to enable Windows Phone management</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Set up Intune<ept id="p1">**</ept> If you haven’t already, prepare for mobile device management by  <bpt id="p2">[</bpt>setting the mobile device management authority<ept id="p2">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)</ept> as <bpt id="p3">**</bpt>Microsoft Intune<ept id="p3">**</ept> and setting up MDM.</source>
+          <target state="new"><bpt id="p1">**</bpt>Set up Intune<ept id="p1">**</ept> If you haven’t already, prepare for mobile device management by  <bpt id="p2">[</bpt>setting the mobile device management authority<ept id="p2">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)</ept> as <bpt id="p3">**</bpt>Microsoft Intune<ept id="p3">**</ept> and setting up MDM.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Set a DNS alias for the enrollment server address<ept id="p1">**</ept> (optional)</source>
+          <target state="new"><bpt id="p1">**</bpt>Set a DNS alias for the enrollment server address<ept id="p1">**</ept> (optional)</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A DNS alias (CNAME record type) makes it easier users to enroll their devices by automatically populating the server name during enrollment.</source>
+          <target state="new">A DNS alias (CNAME record type) makes it easier users to enroll their devices by automatically populating the server name during enrollment.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept>, click <bpt id="p2">**</bpt>Administration<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows Phone<ept id="p4">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept>, click <bpt id="p2">**</bpt>Administration<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows Phone<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Type the URL of the verified domain of the company website in the <bpt id="p1">**</bpt>Specify a verified domain name<ept id="p1">**</ept> box and then click <bpt id="p2">**</bpt>Test Auto-Detection<ept id="p2">**</ept>.</source>
+          <target state="new">Type the URL of the verified domain of the company website in the <bpt id="p1">**</bpt>Specify a verified domain name<ept id="p1">**</ept> box and then click <bpt id="p2">**</bpt>Test Auto-Detection<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Create <bpt id="p1">**</bpt>CNAME<ept id="p1">**</ept> DNS resource records for your company’s domain.</source>
+          <target state="new">Create <bpt id="p1">**</bpt>CNAME<ept id="p1">**</ept> DNS resource records for your company’s domain.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The CNAME resource records must contain the following information:</source>
+          <target state="new">The CNAME resource records must contain the following information:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Host Name</source>
+          <target state="new">Host Name</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Points to</source>
+          <target state="new">Points to</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>TTL</source>
+          <target state="new">TTL</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>enterpriseenrollment.company_domain.com</source>
+          <target state="new">enterpriseenrollment.company_domain.com</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>enterpriseenrollment-s.manage.microsoft.com</source>
+          <target state="new">enterpriseenrollment-s.manage.microsoft.com</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>1 Hour</source>
+          <target state="new">1 Hour</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>enterpriseregistration.company_domain.com</source>
+          <target state="new">enterpriseregistration.company_domain.com</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>enterpriseregistration.windows.net</source>
+          <target state="new">enterpriseregistration.windows.net</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>1 Hour</source>
+          <target state="new">1 Hour</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if your company’s website is contoso.com, you would create a CNAME in DNS that redirects EnterpriseEnrollment.contoso.com to manage.microsoft.com.</source>
+          <target state="new">For example, if your company’s website is contoso.com, you would create a CNAME in DNS that redirects EnterpriseEnrollment.contoso.com to manage.microsoft.com.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If there is more than one verified domain, create a CNAME record for each domain.</source>
+          <target state="new">If there is more than one verified domain, create a CNAME record for each domain.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`enterpriseenrollment-s.manage.microsoft.com`</ph> – Supports a redirect to the Intune service with domain recognition from the email’s domain name</source>
+          <target state="new"><ph id="ph1">`enterpriseenrollment-s.manage.microsoft.com`</ph> – Supports a redirect to the Intune service with domain recognition from the email’s domain name</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`enterpriseregistration.windows.net`</ph> – Supports workplace join for mobile devices.</source>
+          <target state="new"><ph id="ph1">`enterpriseregistration.windows.net`</ph> – Supports workplace join for mobile devices.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It also supports conditional access for Windows 8.1</source>
+          <target state="new">It also supports conditional access for Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Windows Phone Mobile Device Management Settings dialog box</source>
+          <target state="new">Windows Phone Mobile Device Management Settings dialog box</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Certificate management to support app signing<ept id="p1">**</ept> [Required for Windows Phone 8.0 and Windows Phone 8.1 that won’t access the Windows Phone Store and/or need line-of-business apps.]</source>
+          <target state="new"><bpt id="p1">**</bpt>Certificate management to support app signing<ept id="p1">**</ept> [Required for Windows Phone 8.0 and Windows Phone 8.1 that won’t access the Windows Phone Store and/or need line-of-business apps.]</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To support the Company Portal app for Windows Phone 8.0 and to deploy company apps to Windows Phone 8.1 you must get a <bpt id="p1">**</bpt>Symantec Enterprise Mobile Code Signing Certificate<ept id="p1">**</ept>.</source>
+          <target state="new">To support the Company Portal app for Windows Phone 8.0 and to deploy company apps to Windows Phone 8.1 you must get a <bpt id="p1">**</bpt>Symantec Enterprise Mobile Code Signing Certificate<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You cannot use a certificate issued by your own certification authority because only the Symantec certificate is trusted by Windows Phone devices.</source>
+          <target state="new">You cannot use a certificate issued by your own certification authority because only the Symantec certificate is trusted by Windows Phone devices.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This certificate is required in order to:</source>
+          <target state="new">This certificate is required in order to:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Sign the Company Portal app for deployment to <ph id="ph1">[!INCLUDE[winphone8_client_1](../includes/winphone8_client_1_md.md)]</ph> for enrollment and phone management</source>
+          <target state="new">Sign the Company Portal app for deployment to <ph id="ph1">[!INCLUDE[winphone8_client_1](../includes/winphone8_client_1_md.md)]</ph> for enrollment and phone management</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Sign company line-of-business apps so <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> can deploy them to Windows Phones</source>
+          <target state="new">Sign company line-of-business apps so <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> can deploy them to Windows Phones</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The steps below will help you get the required certificates and sign the company portal app.</source>
+          <target state="new">The steps below will help you get the required certificates and sign the company portal app.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You will need a Windows Phone Dev Center account and then you will need to purchase a Symantec certificate.</source>
+          <target state="new">You will need a Windows Phone Dev Center account and then you will need to purchase a Symantec certificate.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Join the Windows Phone Dev Center<ept id="p1">**</ept> Join the <bpt id="p2">[</bpt>Windows Phone Dev Center<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=268442)</ept> using corporate account information when logging in to purchase your company account.</source>
+          <target state="new"><bpt id="p1">**</bpt>Join the Windows Phone Dev Center<ept id="p1">**</ept> Join the <bpt id="p2">[</bpt>Windows Phone Dev Center<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=268442)</ept> using corporate account information when logging in to purchase your company account.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This request will need to be authorized by a company officer before you receive a code-signing certificate.</source>
+          <target state="new">This request will need to be authorized by a company officer before you receive a code-signing certificate.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get a company Symantec certificate<ept id="p1">**</ept> Purchase a certificate from the <bpt id="p2">[</bpt>Symantec website<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=268441)</ept> using your Symantec ID.</source>
+          <target state="new"><bpt id="p1">**</bpt>Get a company Symantec certificate<ept id="p1">**</ept> Purchase a certificate from the <bpt id="p2">[</bpt>Symantec website<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=268441)</ept> using your Symantec ID.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>After you purchase the certificate, the corporate approver whom you designated in your Windows Phone Dev Center account will receive an email asking for approval of the certificate request.</source>
+          <target state="new">After you purchase the certificate, the corporate approver whom you designated in your Windows Phone Dev Center account will receive an email asking for approval of the certificate request.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information about the Symantec certificate requirement, see the <bpt id="p1">[</bpt>Why Windows Phone requires a Symantec certificate?<ept id="p1">](https://technet.microsoft.com/en-us/library/dn764959.aspx#BKMK_Symantec)</ept></source>
+          <target state="new">For more information about the Symantec certificate requirement, see the <bpt id="p1">[</bpt>Why Windows Phone requires a Symantec certificate?<ept id="p1">](https://technet.microsoft.com/en-us/library/dn764959.aspx#BKMK_Symantec)</ept></target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Windows device enrollment FAQ.</source>
+          <target state="new">Windows device enrollment FAQ.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import certificates<ept id="p1">**</ept> Once the request has been approved, you will receive an email containing instructions for importing certificates.</source>
+          <target state="new"><bpt id="p1">**</bpt>Import certificates<ept id="p1">**</ept> Once the request has been approved, you will receive an email containing instructions for importing certificates.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Follow the instructions in the email to import the certificates.</source>
+          <target state="new">Follow the instructions in the email to import the certificates.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Verify certificates imported<ept id="p1">**</ept> To verify that the certificates have been imported correctly, go to the <bpt id="p2">**</bpt>Certificates<ept id="p2">**</ept> snap-in, right-click <bpt id="p3">**</bpt>Certificates<ept id="p3">**</ept>, and select <bpt id="p4">**</bpt>Find Certificates<ept id="p4">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Verify certificates imported<ept id="p1">**</ept> To verify that the certificates have been imported correctly, go to the <bpt id="p2">**</bpt>Certificates<ept id="p2">**</ept> snap-in, right-click <bpt id="p3">**</bpt>Certificates<ept id="p3">**</ept>, and select <bpt id="p4">**</bpt>Find Certificates<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> field, enter “Symantec”, and click <bpt id="p2">**</bpt>Find Now<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> field, enter “Symantec”, and click <bpt id="p2">**</bpt>Find Now<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The certificates you imported should appear in the results.</source>
+          <target state="new">The certificates you imported should appear in the results.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Find the Symantec certificate</source>
+          <target state="new">Find the Symantec certificate</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export a signing certificate<ept id="p1">**</ept> Having verified that the certificates are present, you can export the .pfx file to sign the company portal.</source>
+          <target state="new"><bpt id="p1">**</bpt>Export a signing certificate<ept id="p1">**</ept> Having verified that the certificates are present, you can export the .pfx file to sign the company portal.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Select the Symantec certificate with <bpt id="p1">**</bpt>Intended purpose<ept id="p1">**</ept> “code-signing.”</source>
+          <target state="new">Select the Symantec certificate with <bpt id="p1">**</bpt>Intended purpose<ept id="p1">**</ept> “code-signing.”</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Right-click the code-signing certificate and select <bpt id="p1">**</bpt>Export<ept id="p1">**</ept>.</source>
+          <target state="new">Right-click the code-signing certificate and select <bpt id="p1">**</bpt>Export<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Export the signing certificate</source>
+          <target state="new">Export the signing certificate</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Certificate Export Wizard<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Yes, export the private key<ept id="p2">**</ept> and then click <bpt id="p3">**</bpt>Next<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Certificate Export Wizard<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Yes, export the private key<ept id="p2">**</ept> and then click <bpt id="p3">**</bpt>Next<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Select Personal Information Exchange –PKCS #12 (.PFX)<ept id="p1">**</ept> and check <bpt id="p2">**</bpt>Include all the certificates in the certification path if possible<ept id="p2">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Select Personal Information Exchange –PKCS #12 (.PFX)<ept id="p1">**</ept> and check <bpt id="p2">**</bpt>Include all the certificates in the certification path if possible<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Complete the wizard.</source>
+          <target state="new">Complete the wizard.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>How to Export a Certificate with the Private Key<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=203031)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>How to Export a Certificate with the Private Key<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=203031)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Download and sign the Company Portal app<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Download and sign the Company Portal app<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Support for Windows Phone enrollment requires the Windows Phone 8.0 Company Portal app be signed and uploaded to Intune.</source>
+          <target state="new">Support for Windows Phone enrollment requires the Windows Phone 8.0 Company Portal app be signed and uploaded to Intune.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Download the Company Portal<ept id="p1">**</ept> Download the <bpt id="p2">[</bpt>Intune Company Portal for Windows Phone<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=268440)</ept> from the Download Center.</source>
+          <target state="new"><bpt id="p1">**</bpt>Download the Company Portal<ept id="p1">**</ept> Download the <bpt id="p2">[</bpt>Intune Company Portal for Windows Phone<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=268440)</ept> from the Download Center.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default installation location is <ph id="ph1">`C:\Program Files (x86)\Microsoft Corporation\Windows Intune Company Portal for Windows Phone`</ph>.</source>
+          <target state="new">The default installation location is <ph id="ph1">`C:\Program Files (x86)\Microsoft Corporation\Windows Intune Company Portal for Windows Phone`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Download the Windows Phone 8.0 SDK<ept id="p1">**</ept> Download the <bpt id="p2">[</bpt>Windows Phone SDK<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=615570)</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Download the Windows Phone 8.0 SDK<ept id="p1">**</ept> Download the <bpt id="p2">[</bpt>Windows Phone SDK<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=615570)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Code-sign the Company Portal app<ept id="p1">**</ept> Use the XAPSignTool app downloaded with the SDK to sign the company portal with the .pfx file you created from the Symantec certificate.</source>
+          <target state="new"><bpt id="p1">**</bpt>Code-sign the Company Portal app<ept id="p1">**</ept> Use the XAPSignTool app downloaded with the SDK to sign the company portal with the .pfx file you created from the Symantec certificate.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>How to sign a company app by using XapSignTool<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=280195)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>How to sign a company app by using XapSignTool<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=280195)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Upload the Company Portal app to Intune<ept id="p1">**</ept> Upload the signed Company Portal app file and your code-signing certificate to make the app available to your end users.</source>
+          <target state="new"><bpt id="p1">**</bpt>Upload the Company Portal app to Intune<ept id="p1">**</ept> Upload the signed Company Portal app file and your code-signing certificate to make the app available to your end users.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> click <bpt id="p2">**</bpt>Administration<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Windows Phone<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> click <bpt id="p2">**</bpt>Administration<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Windows Phone<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Upload Signed App File<ept id="p1">**</ept> and sign in with your Intune Administrator ID.</source>
+          <target state="new">Click the <bpt id="p1">**</bpt>Upload Signed App File<ept id="p1">**</ept> and sign in with your Intune Administrator ID.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Software setup<ept id="p1">**</ept> page for <bpt id="p2">**</bpt>Specify the location of the software setup files<ept id="p2">**</ept>, browse to the code-signed Company Portal app location (.xap for Windows Phone 8.0 or .appx for Windows Phone 8.1).</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Software setup<ept id="p1">**</ept> page for <bpt id="p2">**</bpt>Specify the location of the software setup files<ept id="p2">**</ept>, browse to the code-signed Company Portal app location (.xap for Windows Phone 8.0 or .appx for Windows Phone 8.1).</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If you are evaluating Intune and uploading a code-signed app file in a trial Intune account, uncheck the <bpt id="p1">**</bpt>Use the Company Portal App file signed by the sample Symantec code-signed certificate<ept id="p1">**</ept> checkbox.</source>
+          <target state="new">If you are evaluating Intune and uploading a code-signed app file in a trial Intune account, uncheck the <bpt id="p1">**</bpt>Use the Company Portal App file signed by the sample Symantec code-signed certificate<ept id="p1">**</ept> checkbox.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Add the certificate (.pfx) file that you exported to <bpt id="p1">**</bpt>Code-signing certificate<ept id="p1">**</ept> and create a password for the certificate.</source>
+          <target state="new">Add the certificate (.pfx) file that you exported to <bpt id="p1">**</bpt>Code-signing certificate<ept id="p1">**</ept> and create a password for the certificate.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Software description<ept id="p1">**</ept> page, complete the fields remembering that users see this information on their devices when viewing details about the app in the Company Portal.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Software description<ept id="p1">**</ept> page, complete the fields remembering that users see this information on their devices when viewing details about the app in the Company Portal.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Complete the wizard.</source>
+          <target state="new">Complete the wizard.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Users who enroll a Windows Phone 8.0 device will now get the Company Portal app on their devices during enrollment.</source>
+          <target state="new">Users who enroll a Windows Phone 8.0 device will now get the Company Portal app on their devices during enrollment.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 users can install the Company Portal app from the store version of the Company Portal.</source>
+          <target state="new">Windows Phone 8.1 users can install the Company Portal app from the store version of the Company Portal.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If Windows Phone 8.1 devices are blocked from the Windows Phone Store or you want to deploy the Company Portal app using Intune, you must download and sign the Windows Phone 8.1 Company Portal (SSP.appx) app.</source>
+          <target state="new">If Windows Phone 8.1 devices are blocked from the Windows Phone Store or you want to deploy the Company Portal app using Intune, you must download and sign the Windows Phone 8.1 Company Portal (SSP.appx) app.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tell users how to get access to company resources with the company portal<ept id="p1">**</ept> Your users will need to know how to enroll their devices and what to expect once they're brought into management.</source>
+          <target state="new"><bpt id="p1">**</bpt>Tell users how to get access to company resources with the company portal<ept id="p1">**</ept> Your users will need to know how to enroll their devices and what to expect once they're brought into management.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>What to tell your end users about using Microsoft Intune<ept id="p1">](what-to-tell-your-end-users-about-using-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>What to tell your end users about using Microsoft Intune<ept id="p1">](what-to-tell-your-end-users-about-using-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Deploy the Windows Phone 8.1 Company Portal app</source>
+          <target state="new">Deploy the Windows Phone 8.1 Company Portal app</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can deploy the Company Portal app to Windows Phone 8.1 devices with Intune instead of installing from the Windows Phone Store.</source>
+          <target state="new">You can deploy the Company Portal app to Windows Phone 8.1 devices with Intune instead of installing from the Windows Phone Store.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You must still enable Windows Phone device enrollment with the steps above using the Symantec certificate.</source>
+          <target state="new">You must still enable Windows Phone device enrollment with the steps above using the Symantec certificate.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>You must then download the Windows Phone 8.1 Company Portal app and sign it with your Symantec certificate.</source>
+          <target state="new">You must then download the Windows Phone 8.1 Company Portal app and sign it with your Symantec certificate.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This is only necessary if your users won't use the Company Store and you want to deploy the Company Portal to Windows Phone 8.1 devices.</source>
+          <target state="new">This is only necessary if your users won't use the Company Store and you want to deploy the Company Portal to Windows Phone 8.1 devices.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Download the Company Portal<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Download the Company Portal<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Download the <bpt id="p1">[</bpt>Microsoft Intune Company Portal App for Windows Phone 8.1<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=615799)</ept> from the Download Center and run the self-extracting (.exe) file.</source>
+          <target state="new">Download the <bpt id="p1">[</bpt>Microsoft Intune Company Portal App for Windows Phone 8.1<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=615799)</ept> from the Download Center and run the self-extracting (.exe) file.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This file contains two files:</source>
+          <target state="new">This file contains two files:</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>CompanyPortal.appx– The Company Portal installation app for Windows Phone 8.1</source>
+          <target state="new">CompanyPortal.appx– The Company Portal installation app for Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>WinPhoneCompanyPortal.ps1 – A PowerShell script you can use to sign the Company Portal app file so it can be deployed to Windows Phone 8.1 devices</source>
+          <target state="new">WinPhoneCompanyPortal.ps1 – A PowerShell script you can use to sign the Company Portal app file so it can be deployed to Windows Phone 8.1 devices</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Download the Windows Phone SDK<ept id="p1">**</ept> Download the <bpt id="p2">[</bpt>Windows Phone SDK 8.0<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=615570)</ept> (http://go.microsoft.com/fwlink/?LinkId=268439) and install the SDK to your computer.</source>
+          <target state="new"><bpt id="p1">**</bpt>Download the Windows Phone SDK<ept id="p1">**</ept> Download the <bpt id="p2">[</bpt>Windows Phone SDK 8.0<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=615570)</ept> (http://go.microsoft.com/fwlink/?LinkId=268439) and install the SDK to your computer.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This SDK is needed to generate an application enrollment token.</source>
+          <target state="new">This SDK is needed to generate an application enrollment token.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Generate an AETX file<ept id="p1">**</ept> Generate an application enrollment token (.aetx) file from the Symantec PFX file using AETGenerator.exe, part of Windows Phone SDK 8.0.</source>
+          <target state="new"><bpt id="p1">**</bpt>Generate an AETX file<ept id="p1">**</ept> Generate an application enrollment token (.aetx) file from the Symantec PFX file using AETGenerator.exe, part of Windows Phone SDK 8.0.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For instructions on how to create an AETX file, see <bpt id="p1">[</bpt>How to generate an application enrollment token for Windows Phone<ept id="p1">](https://msdn.microsoft.com/library/windows/apps/jj735576.aspx)</ept></source>
+          <target state="new">For instructions on how to create an AETX file, see <bpt id="p1">[</bpt>How to generate an application enrollment token for Windows Phone<ept id="p1">](https://msdn.microsoft.com/library/windows/apps/jj735576.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Download the Windows SDK for Windows 8.1<ept id="p1">**</ept> Download and install the <bpt id="p2">[</bpt>Windows Phone SDK<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=613525)</ept> (http://go.microsoft.com/fwlink/?LinkId=613525).</source>
+          <target state="new"><bpt id="p1">**</bpt>Download the Windows SDK for Windows 8.1<ept id="p1">**</ept> Download and install the <bpt id="p2">[</bpt>Windows Phone SDK<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=613525)</ept> (http://go.microsoft.com/fwlink/?LinkId=613525).</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Note that the PowerShell script included with the Company Portal app uses the default install location, <ph id="ph1">`${env:ProgramFiles(x86)}\Windows Kits\8.1`</ph>.</source>
+          <target state="new">Note that the PowerShell script included with the Company Portal app uses the default install location, <ph id="ph1">`${env:ProgramFiles(x86)}\Windows Kits\8.1`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If you install elsewhere, you must include the location in a cmdlet parameter.</source>
+          <target state="new">If you install elsewhere, you must include the location in a cmdlet parameter.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Code-sign the app using PowerShell<ept id="p1">**</ept> As an administrator, open <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept> on the host computer installed with the Windows SDK, the Symantec Enterprise Mobile Code Signing Certificate, navigate to the Sign-WinPhoneCompanyPortal.ps1 file and run the script.</source>
+          <target state="new"><bpt id="p1">**</bpt>Code-sign the app using PowerShell<ept id="p1">**</ept> As an administrator, open <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept> on the host computer installed with the Windows SDK, the Symantec Enterprise Mobile Code Signing Certificate, navigate to the Sign-WinPhoneCompanyPortal.ps1 file and run the script.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example 1<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Example 1<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This example signs the CompanyPortal.appx at C:\temp\ and produces the CompanyPortalEnterpriseSigned.appx.</source>
+          <target state="new">This example signs the CompanyPortal.appx at C:\temp\ and produces the CompanyPortalEnterpriseSigned.appx.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>It would use PFX password 1234 and read the publisher ID from the PFX file.</source>
+          <target state="new">It would use PFX password 1234 and read the publisher ID from the PFX file.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>It reads the enterprise ID from the cert.aetx file as well.</source>
+          <target state="new">It reads the enterprise ID from the cert.aetx file as well.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example 2<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Example 2<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This example signs the CompanyPortal.appx at C:\temp\ and produces the CompanyPortalEnterpriseSigned.appx.</source>
+          <target state="new">This example signs the CompanyPortal.appx at C:\temp\ and produces the CompanyPortalEnterpriseSigned.appx.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>It would use PFX password 1234 and use the publisher ID specified.</source>
+          <target state="new">It would use PFX password 1234 and use the publisher ID specified.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Parameters:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Parameters:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`-InputAppx`</ph> – The local path to the CompanyPortal.appx file in single quotes.</source>
+          <target state="new"><ph id="ph1">`-InputAppx`</ph> – The local path to the CompanyPortal.appx file in single quotes.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>For example 'C:\temp\CompanyPortal.appx'</source>
+          <target state="new">For example 'C:\temp\CompanyPortal.appx'</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`-OutputAppx`</ph> – The local path and file name for the signed Company Portal app in single quotes.</source>
+          <target state="new"><ph id="ph1">`-OutputAppx`</ph> – The local path and file name for the signed Company Portal app in single quotes.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>For example, 'C:\temp\CompanyPortalEnterpriseSigned.appx'</source>
+          <target state="new">For example, 'C:\temp\CompanyPortalEnterpriseSigned.appx'</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`-PfxFilePath`</ph> – The local path and file name for the exported PFX file of the Symantec certificate.</source>
+          <target state="new"><ph id="ph1">`-PfxFilePath`</ph> – The local path and file name for the exported PFX file of the Symantec certificate.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>For example, 'C:\signing\cert.pfx'</source>
+          <target state="new">For example, 'C:\signing\cert.pfx'</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`-PfxPassword`</ph> – The password used to sign the PFX file in single quotes.</source>
+          <target state="new"><ph id="ph1">`-PfxPassword`</ph> – The password used to sign the PFX file in single quotes.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For example '1234'</source>
+          <target state="new">For example '1234'</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`-AetxPath`</ph> – The local path to the .aetx file which is used for reading the enterprise ID if the 'EnterpriseId' argument is not defined.</source>
+          <target state="new"><ph id="ph1">`-AetxPath`</ph> – The local path to the .aetx file which is used for reading the enterprise ID if the 'EnterpriseId' argument is not defined.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Either this argument or EnterpriseId must be provided.</source>
+          <target state="new">Either this argument or EnterpriseId must be provided.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For example 'C:\signing\cert.aetx'</source>
+          <target state="new">For example 'C:\signing\cert.aetx'</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`-PublisherId`</ph> - The Publisher ID of the enterprise.</source>
+          <target state="new"><ph id="ph1">`-PublisherId`</ph> - The Publisher ID of the enterprise.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If absent, the 'Subject' field of the Symantec Enterprise Mobile Code Signing Certificate is used.</source>
+          <target state="new">If absent, the 'Subject' field of the Symantec Enterprise Mobile Code Signing Certificate is used.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For example, 'OID.0.9.2342.19200300.100.1.1=1000000001, CN="Test, Inc.", OU=Test 1'</source>
+          <target state="new">For example, 'OID.0.9.2342.19200300.100.1.1=1000000001, CN="Test, Inc.", OU=Test 1'</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`-SdkPath`</ph> - The path to the root folder of the Windows SDK for Windows 8.1.</source>
+          <target state="new"><ph id="ph1">`-SdkPath`</ph> - The path to the root folder of the Windows SDK for Windows 8.1.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This argument is optional and defaults to ${env:ProgramFiles(x86)}\Windows Kits\8.1.</source>
+          <target state="new">This argument is optional and defaults to ${env:ProgramFiles(x86)}\Windows Kits\8.1.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`-EnterpriseId`</ph> - The enterprise ID.</source>
+          <target state="new"><ph id="ph1">`-EnterpriseId`</ph> - The enterprise ID.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Either this argument or 'AetxPath' must be provided.</source>
+          <target state="new">Either this argument or 'AetxPath' must be provided.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If this argument is not provided, the enterprise ID is read from the AETX file.</source>
+          <target state="new">If this argument is not provided, the enterprise ID is read from the AETX file.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>For example, 1000000001</source>
+          <target state="new">For example, 1000000001</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Deploy the Windows Phone 8.1 Company Portal (SSP.appx) app.</source>
+          <target state="new">Deploy the Windows Phone 8.1 Company Portal (SSP.appx) app.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The ssp.xap and the Company Portal from the store can both be installed at the same time, which can be confusing for users.</source>
+          <target state="new">The ssp.xap and the Company Portal from the store can both be installed at the same time, which can be confusing for users.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>To have all users using the ssp.xap, create a blocked app for the store version of the Company Portal.</source>
+          <target state="new">To have all users using the ssp.xap, create a blocked app for the store version of the Company Portal.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>To have all Windows Phone 8.1 devices to use only the store version of the Company Portal, you have three choices:</source>
+          <target state="new">To have all Windows Phone 8.1 devices to use only the store version of the Company Portal, you have three choices:</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If you won’t sideload apps and don’t need to support Windows Phone 8.0, don’t upload the signed ssp.xap.</source>
+          <target state="new">If you won’t sideload apps and don’t need to support Windows Phone 8.0, don’t upload the signed ssp.xap.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>If sideloaded apps are needed, and if there are no Windows Phone 8 devices enrolling, change the automatically created ssp.xap deployment from “available” to “uninstall.”</source>
+          <target state="new">If sideloaded apps are needed, and if there are no Windows Phone 8 devices enrolling, change the automatically created ssp.xap deployment from “available” to “uninstall.”</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If sideloaded apps need to be installed and Windows Phone 8.0 devices need to enroll and receive the ssp.xap, create a new software deployment of the ssp.xap and deploy it with the <bpt id="p1">**</bpt>uninstall<ept id="p1">**</ept> action.</source>
+          <target state="new">If sideloaded apps need to be installed and Windows Phone 8.0 devices need to enroll and receive the ssp.xap, create a new software deployment of the ssp.xap and deploy it with the <bpt id="p1">**</bpt>uninstall<ept id="p1">**</ept> action.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.0 devices don’t support forced install or uninstall of apps, so they will ignore the deployment.</source>
+          <target state="new">Windows Phone 8.0 devices don’t support forced install or uninstall of apps, so they will ignore the deployment.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 devices support the uninstall action and will remove the ssp.xap.</source>
+          <target state="new">Windows Phone 8.1 devices support the uninstall action and will remove the ssp.xap.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

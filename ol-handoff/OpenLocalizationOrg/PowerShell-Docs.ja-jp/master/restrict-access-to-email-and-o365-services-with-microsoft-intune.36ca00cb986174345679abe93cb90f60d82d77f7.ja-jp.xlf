@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e11d71265f01ae31ab3124a46aaa544ad2f453a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-to-email-and-o365-services-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1240d098e78b705120adb2720127e285a47f6110</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd10d4016bf60a063e1fb4dd5aec223bb5697d4a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Restrict access to email and O365 services | Microsoft Intune</source>
+          <target state="new">Restrict access to email and O365 services | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic describes how conditional can be used to allow only compliant devices to access company email and company data on SharePoint Online and other services.</source>
+          <target state="new">This topic describes how conditional can be used to allow only compliant devices to access company email and company data on SharePoint Online and other services.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Restrict access to email, O365, and other services with Microsoft Intune</source>
+          <target state="new">Restrict access to email, O365, and other services with Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can restrict access to your company email and O365 services with Intune's conditional access.</source>
+          <target state="new">You can restrict access to your company email and O365 services with Intune's conditional access.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Intune's conditional access capability allows you to make sure that access to your company email and O365 services is restricted to devices that are compliant with the rules that you set.</source>
+          <target state="new">Intune's conditional access capability allows you to make sure that access to your company email and O365 services is restricted to devices that are compliant with the rules that you set.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How does conditional access work?</source>
+          <target state="new">How does conditional access work?</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings are used to evaluate the compliance of the device.</source>
+          <target state="new">Compliance policy settings are used to evaluate the compliance of the device.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Conditional access policy uses the evaluation to restrict or allow access to a specific service.</source>
+          <target state="new">Conditional access policy uses the evaluation to restrict or allow access to a specific service.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When a conditional access policy is used in combination with a compliance policy, only compliant devices will be allowed to access the service.</source>
+          <target state="new">When a conditional access policy is used in combination with a compliance policy, only compliant devices will be allowed to access the service.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The compliance policy and the conditional access policy are deployed to the user.</source>
+          <target state="new">The compliance policy and the conditional access policy are deployed to the user.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Any device that the user uses to access the services is checked for compliance with the policies.</source>
+          <target state="new">Any device that the user uses to access the services is checked for compliance with the policies.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Keep in mind that the user who is using the device must have a compliance policy deployed to them in order for the device to be evaluated for compliance.</source>
+          <target state="new">Keep in mind that the user who is using the device must have a compliance policy deployed to them in order for the device to be evaluated for compliance.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If no compliance policy is deployed to the user the device is treated as compliant, and no access restrictions will be applied.</source>
+          <target state="new">If no compliance policy is deployed to the user the device is treated as compliant, and no access restrictions will be applied.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When devices do not meet the conditions set in the policies, the end user is guided though the process of enrolling the device and fixing the issue that prevents the device from being compliant.</source>
+          <target state="new">When devices do not meet the conditions set in the policies, the end user is guided though the process of enrolling the device and fixing the issue that prevents the device from being compliant.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A typical flow of conditional access:</source>
+          <target state="new">A typical flow of conditional access:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Diagram shows the decision points used to determine whether a device is allowed access to a service or is blocked</source>
+          <target state="new">Diagram shows the decision points used to determine whether a device is allowed access to a service or is blocked</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>How to configure conditional access?</source>
+          <target state="new">How to configure conditional access?</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Use conditional access to manage access to Microsoft <bpt id="p1">**</bpt>Exchange On-premises<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Exchange Online<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Exchange Online Dedicated<ept id="p3">**</ept>,  <bpt id="p4">**</bpt>SharePoint Online<ept id="p4">**</ept> and <bpt id="p5">**</bpt>Skype for Business Online<ept id="p5">**</ept>.</source>
+          <target state="new">Use conditional access to manage access to Microsoft <bpt id="p1">**</bpt>Exchange On-premises<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Exchange Online<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Exchange Online Dedicated<ept id="p3">**</ept>,  <bpt id="p4">**</bpt>SharePoint Online<ept id="p4">**</ept> and <bpt id="p5">**</bpt>Skype for Business Online<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To set up conditional access, configure a device compliance policy, and a conditional access policy.</source>
+          <target state="new">To set up conditional access, configure a device compliance policy, and a conditional access policy.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The compliance policy includes settings like passcode, encryption, and whether or not a device is jailbroken.</source>
+          <target state="new">The compliance policy includes settings like passcode, encryption, and whether or not a device is jailbroken.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The device must meet these rules in order to be considered compliant.</source>
+          <target state="new">The device must meet these rules in order to be considered compliant.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can set a conditional access policy to restrict access based on:</source>
+          <target state="new">You can set a conditional access policy to restrict access based on:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The device compliance status.</source>
+          <target state="new">The device compliance status.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The platform running on the device.</source>
+          <target state="new">The platform running on the device.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The type of apps used to access the services.</source>
+          <target state="new">The type of apps used to access the services.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Unlike other Intune policies, you do not deploy conditional access policies.</source>
+          <target state="new">Unlike other Intune policies, you do not deploy conditional access policies.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Instead, once you configure the policy and select the users that should have the policy, the policy is applied to all targeted users.</source>
+          <target state="new">Instead, once you configure the policy and select the users that should have the policy, the policy is applied to all targeted users.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When a user is targeted by a policy, each device they use must be compliant in order to access resources.</source>
+          <target state="new">When a user is targeted by a policy, each device they use must be compliant in order to access resources.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="new">Next steps</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Learn about device compliance policy and how it works <ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Learn about device compliance policy and how it works <ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create a compliance policy<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create a compliance policy<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Create a conditional access policy for one of the following:</source>
+          <target state="new">Create a conditional access policy for one of the following:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create a conditional access policy for Exchange Online<ept id="p1">](restrict-access-to-exchange-online-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create a conditional access policy for Exchange Online<ept id="p1">](restrict-access-to-exchange-online-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create a conditional access policy for Exchange On-premises<ept id="p1">](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create a conditional access policy for Exchange On-premises<ept id="p1">](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create a conditional access policy for new Exchange Online Dedicated<ept id="p1">](restrict-access-to-exchange-online-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create a conditional access policy for new Exchange Online Dedicated<ept id="p1">](restrict-access-to-exchange-online-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create a conditional access policy for legacy Exchange Online Dedicated<ept id="p1">](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create a conditional access policy for legacy Exchange Online Dedicated<ept id="p1">](restrict-access-to-exchange-onpremises-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create conditional access policy for SharePoint Online<ept id="p1">](restrict-access-to-sharepoint-online-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create conditional access policy for SharePoint Online<ept id="p1">](restrict-access-to-sharepoint-online-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create conditional access policy for Skype for Business Online<ept id="p1">](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create conditional access policy for Skype for Business Online<ept id="p1">](restrict-access-to-skype-for-business-online-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create conditional access policy for Dynamics CRM Online<ept id="p1">](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Create conditional access policy for Dynamics CRM Online<ept id="p1">](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
