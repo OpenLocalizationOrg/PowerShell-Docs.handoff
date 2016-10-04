@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">012a0e5c4f2a1f60ecea869d588b9c54e0567ced</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\processSetResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da3fd28edbb336027384815a73697112a71f66a8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">286628c93b85dc49f53da5ef972045c3c8964796</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC ProcessSet Resource</source>
+          <target state="new">DSC ProcessSet Resource</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, DSC</source>
+          <target state="new">powershell, DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>DSC WindowsProcess Resource</source>
+          <target state="new">DSC WindowsProcess Resource</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ProcessSet<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to configure processes on a target node.</source>
+          <target state="new">The <bpt id="p1">**</bpt>ProcessSet<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to configure processes on a target node.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This resource is a <bpt id="p1">[</bpt>composite resource<ept id="p1">](authoringResourceComposite.md)</ept> that calls the <bpt id="p2">[</bpt>WindowsProcess resource<ept id="p2">](windowsProcessResource.md)</ept> for each group specified in the <ph id="ph1">`GroupName`</ph> parameter.</source>
+          <target state="new">This resource is a <bpt id="p1">[</bpt>composite resource<ept id="p1">](authoringResourceComposite.md)</ept> that calls the <bpt id="p2">[</bpt>WindowsProcess resource<ept id="p2">](windowsProcessResource.md)</ept> for each group specified in the <ph id="ph1">`GroupName`</ph> parameter.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Arguments</source>
+          <target state="new">Arguments</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A string that contains arguments to pass to the process as-is.</source>
+          <target state="new">A string that contains arguments to pass to the process as-is.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you need to pass several arguments, put them all in this string.</source>
+          <target state="new">If you need to pass several arguments, put them all in this string.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Path</source>
+          <target state="new">Path</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The paths to the process executables.</source>
+          <target state="new">The paths to the process executables.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If these are the names of the executable files (not fully qualified paths), the DSC resource will search the environment <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> variable (<ph id="ph1">`$env:Path`</ph>) to find the files.</source>
+          <target state="new">If these are the names of the executable files (not fully qualified paths), the DSC resource will search the environment <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> variable (<ph id="ph1">`$env:Path`</ph>) to find the files.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the values of this property are fully qualified paths, DSC will not use the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable to find the files, and will throw an error if any of the paths do not exist.</source>
+          <target state="new">If the values of this property are fully qualified paths, DSC will not use the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> environment variable to find the files, and will throw an error if any of the paths do not exist.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Relative paths are not allowed.</source>
+          <target state="new">Relative paths are not allowed.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Credential</source>
+          <target state="new">Credential</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Indicates the credentials for starting the process.</source>
+          <target state="new">Indicates the credentials for starting the process.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Ensure</source>
+          <target state="new">Ensure</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Specifies whether the processes exists.</source>
+          <target state="new">Specifies whether the processes exists.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Set this property to "Present" to ensure that the process exists.</source>
+          <target state="new">Set this property to "Present" to ensure that the process exists.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Otherwise, set it to "Absent".</source>
+          <target state="new">Otherwise, set it to "Absent".</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The default is "Present".</source>
+          <target state="new">The default is "Present".</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>StandardErrorPath</source>
+          <target state="new">StandardErrorPath</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The path to which the processes write standard error.</source>
+          <target state="new">The path to which the processes write standard error.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Any existing file there will be overwritten.</source>
+          <target state="new">Any existing file there will be overwritten.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>StandardInputPath</source>
+          <target state="new">StandardInputPath</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The stream from which the process receives standard input.</source>
+          <target state="new">The stream from which the process receives standard input.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>StandardOutputPath</source>
+          <target state="new">StandardOutputPath</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The path of the file to which the processes write standard output.</source>
+          <target state="new">The path of the file to which the processes write standard output.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Any existing file there will be overwritten.</source>
+          <target state="new">Any existing file there will be overwritten.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>WorkingDirectory</source>
+          <target state="new">WorkingDirectory</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The location used as the current working directory for the processes.</source>
+          <target state="new">The location used as the current working directory for the processes.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">**</bpt>ResourceName<ept id="p1">**</ept> and its type is <bpt id="p2">**</bpt>_ResourceType<ept id="p2">**</ept>, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`` .</source>
+          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">**</bpt>ResourceName<ept id="p1">**</ept> and its type is <bpt id="p2">**</bpt>_ResourceType<ept id="p2">**</ept>, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`` .</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

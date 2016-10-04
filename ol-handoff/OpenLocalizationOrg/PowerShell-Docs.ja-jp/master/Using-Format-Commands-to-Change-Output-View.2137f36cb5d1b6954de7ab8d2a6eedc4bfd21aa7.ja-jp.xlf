@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d8c2392c6a9f59dc5e601308bc08db8c653760e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Using-Format-Commands-to-Change-Output-View.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b70f1c5c5bca2404e67929c7e4a4c15b6641d7d3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a842c416c02a548986cf206dde010165029a5674</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using Format Commands to Change Output View</source>
+          <target state="new">Using Format Commands to Change Output View</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using Format Commands to Change Output View</source>
+          <target state="new">Using Format Commands to Change Output View</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell has a set of cmdlets that allow you to control which properties are displayed for particular objects.</source>
+          <target state="new">Windows PowerShell has a set of cmdlets that allow you to control which properties are displayed for particular objects.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The names of all the cmdlets begin with the verb <bpt id="p1">**</bpt>Format<ept id="p1">**</ept>.</source>
+          <target state="new">The names of all the cmdlets begin with the verb <bpt id="p1">**</bpt>Format<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>They let you select one or more properties to show.</source>
+          <target state="new">They let you select one or more properties to show.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets are <bpt id="p2">**</bpt>Format-Wide<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Format-List<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Format-Table<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Format-Custom<ept id="p5">**</ept>.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets are <bpt id="p2">**</bpt>Format-Wide<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Format-List<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Format-Table<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Format-Custom<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We will only describe the <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Format-List<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Format-Table<ept id="p3">**</ept> cmdlets in this user's guide.</source>
+          <target state="new">We will only describe the <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Format-List<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Format-Table<ept id="p3">**</ept> cmdlets in this user's guide.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Each format cmdlet has default properties that will be used if you do not specify specific properties to display.</source>
+          <target state="new">Each format cmdlet has default properties that will be used if you do not specify specific properties to display.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Each cmdlet also uses the same parameter name, <bpt id="p1">**</bpt>Property<ept id="p1">**</ept>, to specify which properties you want to display.</source>
+          <target state="new">Each cmdlet also uses the same parameter name, <bpt id="p1">**</bpt>Property<ept id="p1">**</ept>, to specify which properties you want to display.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> only shows a single property, its <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> parameter only takes a single value, but the property parameters of <bpt id="p3">**</bpt>Format-List<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Format-Table<ept id="p4">**</ept> will accept a list of property names.</source>
+          <target state="new">Because <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> only shows a single property, its <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> parameter only takes a single value, but the property parameters of <bpt id="p3">**</bpt>Format-List<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Format-Table<ept id="p4">**</ept> will accept a list of property names.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you use the command <bpt id="p1">**</bpt>Get-Process -Name powershell<ept id="p1">**</ept> with two instances of Windows PowerShell running, you get output that looks like this:</source>
+          <target state="new">If you use the command <bpt id="p1">**</bpt>Get-Process -Name powershell<ept id="p1">**</ept> with two instances of Windows PowerShell running, you get output that looks like this:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the rest of this section, we will explore how to use <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets to change the way the output of this command is displayed.</source>
+          <target state="new">In the rest of this section, we will explore how to use <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets to change the way the output of this command is displayed.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using Format-Wide for Single-Item Output</source>
+          <target state="new">Using Format-Wide for Single-Item Output</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> cmdlet, by default, displays only the default property of an object.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> cmdlet, by default, displays only the default property of an object.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The information associated with each object is displayed in a single column:</source>
+          <target state="new">The information associated with each object is displayed in a single column:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can also specify a non-default property:</source>
+          <target state="new">You can also specify a non-default property:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Controlling Format-Wide Display with Column</source>
+          <target state="new">Controlling Format-Wide Display with Column</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> cmdlet, you can only display a single property at a time.</source>
+          <target state="new">With the <bpt id="p1">**</bpt>Format-Wide<ept id="p1">**</ept> cmdlet, you can only display a single property at a time.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This makes it useful for displaying simple lists that show only one element per line.</source>
+          <target state="new">This makes it useful for displaying simple lists that show only one element per line.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To get a simple listing, set the value of the <bpt id="p1">**</bpt>Column<ept id="p1">**</ept> parameter to 1 by typing:</source>
+          <target state="new">To get a simple listing, set the value of the <bpt id="p1">**</bpt>Column<ept id="p1">**</ept> parameter to 1 by typing:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Using Format-List for a List View</source>
+          <target state="new">Using Format-List for a List View</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> cmdlet displays an object in the form of a listing, with each property labeled and displayed on a separate line:</source>
+          <target state="new">The <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> cmdlet displays an object in the form of a listing, with each property labeled and displayed on a separate line:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can specify as many properties as you want:</source>
+          <target state="new">You can specify as many properties as you want:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Getting Detailed Information by Using Format-List with Wildcards</source>
+          <target state="new">Getting Detailed Information by Using Format-List with Wildcards</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> cmdlet lets you use a wildcard as the value of its <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> parameter.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> cmdlet lets you use a wildcard as the value of its <bpt id="p2">**</bpt>Property<ept id="p2">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This lets you display detailed information.</source>
+          <target state="new">This lets you display detailed information.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Often, objects include more information than you need, which is why Windows PowerShell does not show all property values by default.</source>
+          <target state="new">Often, objects include more information than you need, which is why Windows PowerShell does not show all property values by default.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To show all of properties of an object, use the <bpt id="p1">**</bpt>Format-List -Property \&amp;#42;<ept id="p1">**</ept> command.</source>
+          <target state="new">To show all of properties of an object, use the <bpt id="p1">**</bpt>Format-List -Property \&amp;#42;<ept id="p1">**</ept> command.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following command generates over 60 lines of output for a single process:</source>
+          <target state="new">The following command generates over 60 lines of output for a single process:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Although the <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> command is useful for showing detail, if you want an overview of output that includes many items, a simpler tabular view is often more useful.</source>
+          <target state="new">Although the <bpt id="p1">**</bpt>Format-List<ept id="p1">**</ept> command is useful for showing detail, if you want an overview of output that includes many items, a simpler tabular view is often more useful.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Using Format-Table for Tabular Output</source>
+          <target state="new">Using Format-Table for Tabular Output</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> cmdlet with no property names specified to format the output of the <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> command, you get exactly the same output as you do without performing any formatting.</source>
+          <target state="new">If you use the <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> cmdlet with no property names specified to format the output of the <bpt id="p2">**</bpt>Get-Process<ept id="p2">**</ept> command, you get exactly the same output as you do without performing any formatting.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The reason is that processes are usually displayed in a tabular format, as are most Windows PowerShell objects.</source>
+          <target state="new">The reason is that processes are usually displayed in a tabular format, as are most Windows PowerShell objects.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Improving Format-Table Output (AutoSize)</source>
+          <target state="new">Improving Format-Table Output (AutoSize)</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Although a tabular view is useful for displaying a lot of comparable information, it may be difficult to interpret if the display is too narrow for the data.</source>
+          <target state="new">Although a tabular view is useful for displaying a lot of comparable information, it may be difficult to interpret if the display is too narrow for the data.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For example, if you try to display process path, ID, name, and company, you get truncated output for the process path and the company column:</source>
+          <target state="new">For example, if you try to display process path, ID, name, and company, you get truncated output for the process path and the company column:</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you specify the <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> parameter when you run the <bpt id="p2">**</bpt>Format-Table<ept id="p2">**</ept> command, Windows PowerShell will calculate column widths based on the actual data you are going to display.</source>
+          <target state="new">If you specify the <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> parameter when you run the <bpt id="p2">**</bpt>Format-Table<ept id="p2">**</ept> command, Windows PowerShell will calculate column widths based on the actual data you are going to display.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This makes the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> column readable, but the company column remains truncated:</source>
+          <target state="new">This makes the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> column readable, but the company column remains truncated:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> cmdlet might still truncate data, but it will only do so at the end of the screen.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> cmdlet might still truncate data, but it will only do so at the end of the screen.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Properties, other than the last one displayed, are given as much size as they need for their longest data element to display correctly.</source>
+          <target state="new">Properties, other than the last one displayed, are given as much size as they need for their longest data element to display correctly.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can see that company name is visible but path is truncated if you swap the locations of <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Company<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Property<ept id="p3">**</ept> value list:</source>
+          <target state="new">You can see that company name is visible but path is truncated if you swap the locations of <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Company<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Property<ept id="p3">**</ept> value list:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> command assumes that the nearer a property is to the beginning of the property list, the more important it is.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> command assumes that the nearer a property is to the beginning of the property list, the more important it is.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>So it attempts to display the properties nearest the beginning completely.</source>
+          <target state="new">So it attempts to display the properties nearest the beginning completely.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> command cannot display all the properties, it will remove some columns from the display and provide a warning.</source>
+          <target state="new">If the <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> command cannot display all the properties, it will remove some columns from the display and provide a warning.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can see this behavior if you make <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> the last property in the list:</source>
+          <target state="new">You can see this behavior if you make <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> the last property in the list:</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the output above, the ID column is truncated to make it fit into the listing, and the column headings are stacked up.</source>
+          <target state="new">In the output above, the ID column is truncated to make it fit into the listing, and the column headings are stacked up.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Automatically resizing the columns does not always do what you want.</source>
+          <target state="new">Automatically resizing the columns does not always do what you want.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Wrapping Format-Table Output in Columns (Wrap)</source>
+          <target state="new">Wrapping Format-Table Output in Columns (Wrap)</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can force lengthy <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> data to wrap within its display column by using the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</source>
+          <target state="new">You can force lengthy <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> data to wrap within its display column by using the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Using the <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> parameter alone will not necessarily do what you expect, since it uses default settings if you do not also specify <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept>:</source>
+          <target state="new">Using the <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> parameter alone will not necessarily do what you expect, since it uses default settings if you do not also specify <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An advantage of using the <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> parameter by itself is that it does not slow down processing very much.</source>
+          <target state="new">An advantage of using the <bpt id="p1">**</bpt>Wrap<ept id="p1">**</ept> parameter by itself is that it does not slow down processing very much.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you perform a recursive file listing of a large directory system, it might take a very long time and use a lot of memory before displaying the first output items if you use <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept>.</source>
+          <target state="new">If you perform a recursive file listing of a large directory system, it might take a very long time and use a lot of memory before displaying the first output items if you use <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you are not concerned about system load, then <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> works well with the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</source>
+          <target state="new">If you are not concerned about system load, then <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> works well with the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The initial columns are always allotted as much width as they need to display items on one line, just as when you specify <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> without the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</source>
+          <target state="new">The initial columns are always allotted as much width as they need to display items on one line, just as when you specify <bpt id="p1">**</bpt>AutoSize<ept id="p1">**</ept> without the <bpt id="p2">**</bpt>Wrap<ept id="p2">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The only difference is that the final column will be wrapped if necessary:</source>
+          <target state="new">The only difference is that the final column will be wrapped if necessary:</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Some columns might not be displayed if you specify the widest columns first, so it is safest to specify the smallest data elements first.</source>
+          <target state="new">Some columns might not be displayed if you specify the widest columns first, so it is safest to specify the smallest data elements first.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In the following example, we specify the extremely wide path element first, and even with wrapping, we still lose the final <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> column:</source>
+          <target state="new">In the following example, we specify the extremely wide path element first, and even with wrapping, we still lose the final <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> column:</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Organizing Table Output (-GroupBy)</source>
+          <target state="new">Organizing Table Output (-GroupBy)</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Another useful parameter for tabular output control is <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept>.</source>
+          <target state="new">Another useful parameter for tabular output control is <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Longer tabular listings in particular may be hard to compare.</source>
+          <target state="new">Longer tabular listings in particular may be hard to compare.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept> parameter groups output based on a property value.</source>
+          <target state="new">The <bpt id="p1">**</bpt>GroupBy<ept id="p1">**</ept> parameter groups output based on a property value.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, we can group processes by company for easier inspection, omitting the company value from the property listing:</source>
+          <target state="new">For example, we can group processes by company for easier inspection, omitting the company value from the property listing:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

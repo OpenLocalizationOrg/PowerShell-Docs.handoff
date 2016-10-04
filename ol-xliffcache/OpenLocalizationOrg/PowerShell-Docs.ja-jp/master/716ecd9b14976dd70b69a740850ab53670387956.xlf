@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">716ecd9b14976dd70b69a740850ab53670387956</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\sxsResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8eb00ca2fa235107020f75aa818641c727a1f2d6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b68f859a4f61a7ba1d01af31f7997eeb18d25df7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using resources with multiple versions</source>
+          <target state="new">Using resources with multiple versions</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using resources with multiple versions</source>
+          <target state="new">Using resources with multiple versions</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In PowerShell 5.0, DSC resources can have multiple versions, and versions can be installed on a computer side-by-side.</source>
+          <target state="new">In PowerShell 5.0, DSC resources can have multiple versions, and versions can be installed on a computer side-by-side.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is implemented by having multiple versions of a resource module that are contained in the same module folder.</source>
+          <target state="new">This is implemented by having multiple versions of a resource module that are contained in the same module folder.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Installing multiple resource versions side-by-side</source>
+          <target state="new">Installing multiple resource versions side-by-side</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>MinimumVersion<ept id="p1">**</ept>, <bpt id="p2">**</bpt>MaximumVersion<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>RequiredVersion<ept id="p3">**</ept> parameters of the <bpt id="p4">[</bpt>Install-Module<ept id="p4">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to specify which version of a module to install.</source>
+          <target state="new">You can use the <bpt id="p1">**</bpt>MinimumVersion<ept id="p1">**</ept>, <bpt id="p2">**</bpt>MaximumVersion<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>RequiredVersion<ept id="p3">**</ept> parameters of the <bpt id="p4">[</bpt>Install-Module<ept id="p4">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to specify which version of a module to install.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Calling <bpt id="p1">**</bpt>Install-Module<ept id="p1">**</ept> without specifying a version installs the most recent version.</source>
+          <target state="new">Calling <bpt id="p1">**</bpt>Install-Module<ept id="p1">**</ept> without specifying a version installs the most recent version.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, there are multiple versions of the <bpt id="p1">**</bpt>xFailOverCluster<ept id="p1">**</ept> module, each of which contains an <bpt id="p2">**</bpt>xCluster<ept id="p2">**</ept> resouce.</source>
+          <target state="new">For example, there are multiple versions of the <bpt id="p1">**</bpt>xFailOverCluster<ept id="p1">**</ept> module, each of which contains an <bpt id="p2">**</bpt>xCluster<ept id="p2">**</ept> resouce.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The result of calling <bpt id="p1">**</bpt>Install-Module<ept id="p1">**</ept> without specifying the version number is as follows:</source>
+          <target state="new">The result of calling <bpt id="p1">**</bpt>Install-Module<ept id="p1">**</ept> without specifying the version number is as follows:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Now, if you call <bpt id="p1">**</bpt>Install-Module<ept id="p1">**</ept> again, but specify a <bpt id="p2">**</bpt>RequiredVersion<ept id="p2">**</ept> of 1.1.0.0, it results in the following:</source>
+          <target state="new">Now, if you call <bpt id="p1">**</bpt>Install-Module<ept id="p1">**</ept> again, but specify a <bpt id="p2">**</bpt>RequiredVersion<ept id="p2">**</ept> of 1.1.0.0, it results in the following:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Specifying a resource version in a configuration</source>
+          <target state="new">Specifying a resource version in a configuration</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you have multiple resources installed on a computer, you must specify the version of that resource when you use it in a configuration.</source>
+          <target state="new">If you have multiple resources installed on a computer, you must specify the version of that resource when you use it in a configuration.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You do this by specifying the <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Import-DscResource<ept id="p2">**</ept> keyword.</source>
+          <target state="new">You do this by specifying the <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Import-DscResource<ept id="p2">**</ept> keyword.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you fail to specify the version of a resource module of a resource of which you have more than one version installed, the configuration generates an error.</source>
+          <target state="new">If you fail to specify the version of a resource module of a resource of which you have more than one version installed, the configuration generates an error.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following configuration shows how to specify the version of the resource to call:</source>
+          <target state="new">The following configuration shows how to specify the version of the resource to call:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Note: The ModuleVersion parameter of Import-DscResource is not available in PowerShell 4.0.</source>
+          <target state="new">Note: The ModuleVersion parameter of Import-DscResource is not available in PowerShell 4.0.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In PowerShell 4.0, you can specify a module version by passing a module specification object to the ModuleName parameter of Import-DscResource.</source>
+          <target state="new">In PowerShell 4.0, you can specify a module version by passing a module specification object to the ModuleName parameter of Import-DscResource.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A module specification object is a hash table that contains ModuleName and RequiredVersion  keys.</source>
+          <target state="new">A module specification object is a hash table that contains ModuleName and RequiredVersion  keys.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This will also work in PowerShell 5.0, but it is recommended that you use the <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> parameter.</source>
+          <target state="new">This will also work in PowerShell 5.0, but it is recommended that you use the <bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>DSC Configurations<ept id="p1">](configurations.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>DSC Configurations<ept id="p1">](configurations.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>DSC Resources<ept id="p1">](resources.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>DSC Resources<ept id="p1">](resources.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

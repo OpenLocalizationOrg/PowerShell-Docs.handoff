@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e62ae14e4d7334d0cd42681c7e2591692c089187</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Redirecting-Data-with-Out---Cmdlets.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">757e94126d8a9c314bbf0f6d0ad34163f9141674</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">347619c4b3da837cf736644d5a6087f5f2eea2f8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Redirecting Data with Out   Cmdlets</source>
+          <target state="new">Redirecting Data with Out   Cmdlets</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Redirecting Data with Out-* Cmdlets</source>
+          <target state="new">Redirecting Data with Out-* Cmdlets</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell provides several cmdlets that let you control data output directly.</source>
+          <target state="new">Windows PowerShell provides several cmdlets that let you control data output directly.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These cmdlets share two important characteristics.</source>
+          <target state="new">These cmdlets share two important characteristics.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>First, they generally transform data to some form of text.</source>
+          <target state="new">First, they generally transform data to some form of text.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They do this because they output the data to system components that require text input.</source>
+          <target state="new">They do this because they output the data to system components that require text input.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This means they need to represent the objects as text.</source>
+          <target state="new">This means they need to represent the objects as text.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Therefore, the text is formatted as you see it in the Windows PowerShell console window.</source>
+          <target state="new">Therefore, the text is formatted as you see it in the Windows PowerShell console window.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Second, these cmdlets use the Windows PowerShell verb <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> because they send information out from Windows PowerShell to somewhere else.</source>
+          <target state="new">Second, these cmdlets use the Windows PowerShell verb <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> because they send information out from Windows PowerShell to somewhere else.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> cmdlet is no exception: the host window display is outside of Windows PowerShell.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> cmdlet is no exception: the host window display is outside of Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is important because when data is sent out of Windows PowerShell, it is actually removed.</source>
+          <target state="new">This is important because when data is sent out of Windows PowerShell, it is actually removed.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can see this if you try to create a pipeline that pages data to the host window, and then attempt to format it as a list, as shown here:</source>
+          <target state="new">You can see this if you try to create a pipeline that pages data to the host window, and then attempt to format it as a list, as shown here:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You might expect the command to display pages of process information in list format.</source>
+          <target state="new">You might expect the command to display pages of process information in list format.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Instead, it displays the default tabular list:</source>
+          <target state="new">Instead, it displays the default tabular list:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> cmdlet sends the data directly to the console, so the <bpt id="p2">**</bpt>Format-List<ept id="p2">**</ept> command never receives anything to format.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> cmdlet sends the data directly to the console, so the <bpt id="p2">**</bpt>Format-List<ept id="p2">**</ept> command never receives anything to format.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The correct way to structure this command is to put the <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> cmdlet at the end of the pipeline as shown below.</source>
+          <target state="new">The correct way to structure this command is to put the <bpt id="p1">**</bpt>Out-Host<ept id="p1">**</ept> cmdlet at the end of the pipeline as shown below.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This causes the process data to be formatted in a list before being paged and displayed.</source>
+          <target state="new">This causes the process data to be formatted in a list before being paged and displayed.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This applies to all of the <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlets.</source>
+          <target state="new">This applies to all of the <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlet should always appear at the end of the pipeline.</source>
+          <target state="new">An <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlet should always appear at the end of the pipeline.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>All the <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlets render output as text, using the formatting in effect for the console window, including line length limits.</source>
+          <target state="new">All the <bpt id="p1">**</bpt>Out<ept id="p1">**</ept> cmdlets render output as text, using the formatting in effect for the console window, including line length limits.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Paging Console Output (Out-Host)</source>
+          <target state="new">Paging Console Output (Out-Host)</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell sends data to the host window, which is exactly what the Out-Host cmdlet does.</source>
+          <target state="new">By default, Windows PowerShell sends data to the host window, which is exactly what the Out-Host cmdlet does.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The primary use for the Out-Host cmdlet is paging data as we discussed earlier.</source>
+          <target state="new">The primary use for the Out-Host cmdlet is paging data as we discussed earlier.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, the following command uses Out-Host to page the output of the Get-Command cmdlet:</source>
+          <target state="new">For example, the following command uses Out-Host to page the output of the Get-Command cmdlet:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>more<ept id="p1">**</ept> function to page data.</source>
+          <target state="new">You can also use the <bpt id="p1">**</bpt>more<ept id="p1">**</ept> function to page data.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, <bpt id="p1">**</bpt>more<ept id="p1">**</ept> is a function that calls <bpt id="p2">**</bpt>Out-Host -Paging<ept id="p2">**</ept>.</source>
+          <target state="new">In Windows PowerShell, <bpt id="p1">**</bpt>more<ept id="p1">**</ept> is a function that calls <bpt id="p2">**</bpt>Out-Host -Paging<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The following command demonstrates using the <bpt id="p1">**</bpt>more<ept id="p1">**</ept> function to page the output of Get-Command:</source>
+          <target state="new">The following command demonstrates using the <bpt id="p1">**</bpt>more<ept id="p1">**</ept> function to page the output of Get-Command:</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you include one or more filenames as arguments to the more function, the function will read the specified files and page their contents to the host:</source>
+          <target state="new">If you include one or more filenames as arguments to the more function, the function will read the specified files and page their contents to the host:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Discarding Output (Out-Null)</source>
+          <target state="new">Discarding Output (Out-Null)</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out-Null<ept id="p1">**</ept> cmdlet is designed to immediately discard any input it receives.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Out-Null<ept id="p1">**</ept> cmdlet is designed to immediately discard any input it receives.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is useful for discarding unnecessary data that you get as a side-effect of running a command.</source>
+          <target state="new">This is useful for discarding unnecessary data that you get as a side-effect of running a command.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When type the following command, you do not get anything back from the command:</source>
+          <target state="new">When type the following command, you do not get anything back from the command:</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out-Null<ept id="p1">**</ept> cmdlet does not discard error output.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Out-Null<ept id="p1">**</ept> cmdlet does not discard error output.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, if you enter the following command, a message is displayed informing you that Windows PowerShell does not recognize 'Is-NotACommand':</source>
+          <target state="new">For example, if you enter the following command, a message is displayed informing you that Windows PowerShell does not recognize 'Is-NotACommand':</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Printing Data (Out-Printer)</source>
+          <target state="new">Printing Data (Out-Printer)</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can print data by using the <bpt id="p1">**</bpt>Out-Printer<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">You can print data by using the <bpt id="p1">**</bpt>Out-Printer<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out-Printer<ept id="p1">**</ept> cmdlet will use your default printer if you do not provide a printer name.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Out-Printer<ept id="p1">**</ept> cmdlet will use your default printer if you do not provide a printer name.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can use any Windows-based printer by specifying its display name.</source>
+          <target state="new">You can use any Windows-based printer by specifying its display name.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>There is no need for any kind of printer port mapping or even a real physical printer.</source>
+          <target state="new">There is no need for any kind of printer port mapping or even a real physical printer.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, if you have the Microsoft Office document imaging tools installed, you can send the data to an image file by typing:</source>
+          <target state="new">For example, if you have the Microsoft Office document imaging tools installed, you can send the data to an image file by typing:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Saving Data (Out-File)</source>
+          <target state="new">Saving Data (Out-File)</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can send output to a file instead of the console window by using the <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">You can send output to a file instead of the console window by using the <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following command line sends a list of processes to the file <bpt id="p1">**</bpt>C:\\temp\\processlist.txt<ept id="p1">**</ept>:</source>
+          <target state="new">The following command line sends a list of processes to the file <bpt id="p1">**</bpt>C:\\temp\\processlist.txt<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The results of using the <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet may not be what you expect if you are used to traditional output redirection.</source>
+          <target state="new">The results of using the <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet may not be what you expect if you are used to traditional output redirection.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To understand its behavior, you must be aware of the context in which the <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet operates.</source>
+          <target state="new">To understand its behavior, you must be aware of the context in which the <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet operates.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet creates a Unicode file.</source>
+          <target state="new">By default, the <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet creates a Unicode file.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This is the best default in the long run, but it means that tools that expect ASCII files will not work correctly with the default output format.</source>
+          <target state="new">This is the best default in the long run, but it means that tools that expect ASCII files will not work correctly with the default output format.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can change the default output format to ASCII by using the <bpt id="p1">**</bpt>Encoding<ept id="p1">**</ept> parameter:</source>
+          <target state="new">You can change the default output format to ASCII by using the <bpt id="p1">**</bpt>Encoding<ept id="p1">**</ept> parameter:</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Out-file<ept id="p1">**</ept> formats file contents to look like console output.</source>
+          <target state="new"><bpt id="p1">**</bpt>Out-file<ept id="p1">**</ept> formats file contents to look like console output.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This causes the output to be truncated just as it is in a console window in most circumstances.</source>
+          <target state="new">This causes the output to be truncated just as it is in a console window in most circumstances.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For example, if you run the following command:</source>
+          <target state="new">For example, if you run the following command:</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The output will look like this:</source>
+          <target state="new">The output will look like this:</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To get output that does not force line wraps to match the screen width, you can use the <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> parameter to specify line width.</source>
+          <target state="new">To get output that does not force line wraps to match the screen width, you can use the <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> parameter to specify line width.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> is a 32-bit integer parameter, the maximum value it can have is 2147483647.</source>
+          <target state="new">Because <bpt id="p1">**</bpt>Width<ept id="p1">**</ept> is a 32-bit integer parameter, the maximum value it can have is 2147483647.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Type the following to set the line width to this maximum value:</source>
+          <target state="new">Type the following to set the line width to this maximum value:</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet is most useful when you want to save output as it would have displayed on the console.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Out-File<ept id="p1">**</ept> cmdlet is most useful when you want to save output as it would have displayed on the console.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For finer control over output format, you need more advanced tools.</source>
+          <target state="new">For finer control over output format, you need more advanced tools.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We will look at those in the next chapter, along with some details about object manipulation.</source>
+          <target state="new">We will look at those in the next chapter, along with some details about object manipulation.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

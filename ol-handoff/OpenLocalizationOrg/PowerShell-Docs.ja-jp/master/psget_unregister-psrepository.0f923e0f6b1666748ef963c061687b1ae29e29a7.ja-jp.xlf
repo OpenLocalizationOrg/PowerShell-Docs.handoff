@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">193ea4ff8323f6be045639edfd39b792c1a145ea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\repository\psget_unregister-psrepository.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e968be771f9b4bdd15bd808c1682df277255aad0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8cfe2049017294c7d3a6dccd993baeebc7e2578</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Unregister-PSRepository</source>
+          <target state="new">Unregister-PSRepository</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Unregisters a repository.</source>
+          <target state="new">Unregisters a repository.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Unregister-PSRepository cmdlet unregisters a repository for the current user.</source>
+          <target state="new">The Unregister-PSRepository cmdlet unregisters a repository for the current user.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Unregistration and re-registration of the PSGallery repository is allowed for an enterprise and disconnected scenarios.</source>
+          <target state="new">Unregistration and re-registration of the PSGallery repository is allowed for an enterprise and disconnected scenarios.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Users can re-register the PSGallery by simply running <ph id="ph1">`Register-PSRepository -Default`</ph></source>
+          <target state="new">Users can re-register the PSGallery by simply running <ph id="ph1">`Register-PSRepository -Default`</ph></target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Since PSGallery is the default publish repository in Publish-Module and Publish-Script cmdlets, an error will be thrown if PSGallery is not available in the registered repository list.</source>
+          <target state="new">Since PSGallery is the default publish repository in Publish-Module and Publish-Script cmdlets, an error will be thrown if PSGallery is not available in the registered repository list.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Cmdlet syntax</source>
+          <target state="new">Cmdlet syntax</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Cmdlet online help reference</source>
+          <target state="new">Cmdlet online help reference</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Unregister-PSRepository<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=517130)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Unregister-PSRepository<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=517130)</ept></target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Example commands</source>
+          <target state="new">Example commands</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Unregistration and re-registration of the PSGallery repository is allowed for an enterprise and disconnected scenarios.</source>
+          <target state="new">Unregistration and re-registration of the PSGallery repository is allowed for an enterprise and disconnected scenarios.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

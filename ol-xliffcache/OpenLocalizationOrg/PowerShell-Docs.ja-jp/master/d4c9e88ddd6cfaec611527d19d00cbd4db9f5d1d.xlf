@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4c9e88ddd6cfaec611527d19d00cbd4db9f5d1d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\known-issues.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d6badf53847f3f29695dbf083556106a56de564</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7cb164e51a7cf2084d155d2af73821fa9354824c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Known Issues in WMF 5.1 (Preview)</source>
+          <target state="new">Known Issues in WMF 5.1 (Preview)</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell, DSC, WMF</source>
+          <target state="new">PowerShell, DSC, WMF</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Known Issues in WMF 5.1 (Preview)</source>
+          <target state="new">Known Issues in WMF 5.1 (Preview)</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Note: This information is preliminary and subject to change.</source>
+          <target state="new">Note: This information is preliminary and subject to change.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starting PowerShell shortcut as Administrator</source>
+          <target state="new">Starting PowerShell shortcut as Administrator</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Upon installing WMF, if you try to start PowerShell as administrator from the shortcut, you may get an "Unspecified error" message.</source>
+          <target state="new">Upon installing WMF, if you try to start PowerShell as administrator from the shortcut, you may get an "Unspecified error" message.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Reopen the shortcut as non-administrator and the shortcut will now work even as administrator.</source>
+          <target state="new">Reopen the shortcut as non-administrator and the shortcut will now work even as administrator.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Pester</source>
+          <target state="new">Pester</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this release, there are two issues you should be aware of when using Pester on Nano Server:</source>
+          <target state="new">In this release, there are two issues you should be aware of when using Pester on Nano Server:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Running tests against Pester itself can result in some failures because of differences between FULL CLR and CORE CLR.</source>
+          <target state="new">Running tests against Pester itself can result in some failures because of differences between FULL CLR and CORE CLR.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In particular, the Validate method is not available on the XmlDocument type.</source>
+          <target state="new">In particular, the Validate method is not available on the XmlDocument type.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Six tests which attempt to validate the schema of the NUnit output logs are known to fail.</source>
+          <target state="new">Six tests which attempt to validate the schema of the NUnit output logs are known to fail.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>One Code Coverage test fails currently because the <bpt id="p1">*</bpt>WindowsFeature<ept id="p1">*</ept> DSC Resource does not exist in Nano Server.</source>
+          <target state="new">One Code Coverage test fails currently because the <bpt id="p1">*</bpt>WindowsFeature<ept id="p1">*</ept> DSC Resource does not exist in Nano Server.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, these failures are generally benign and can safely be ignored.</source>
+          <target state="new">However, these failures are generally benign and can safely be ignored.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Operation Validation</source>
+          <target state="new">Operation Validation</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Update-Help will fail for Microsoft.PowerShell.Operation.Validation module due to non-working help URI</source>
+          <target state="new">Update-Help will fail for Microsoft.PowerShell.Operation.Validation module due to non-working help URI</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

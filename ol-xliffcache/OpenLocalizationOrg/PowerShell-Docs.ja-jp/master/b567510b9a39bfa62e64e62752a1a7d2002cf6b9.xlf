@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b567510b9a39bfa62e64e62752a1a7d2002cf6b9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Using-Familiar-Command-Names.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">16145e3279867b7f2daa79a98cc5904ab62ab058</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a46da8e52c05614cf2b64ddbaa43b5ce909b9f4c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using Familiar Command Names</source>
+          <target state="new">Using Familiar Command Names</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using Familiar Command Names</source>
+          <target state="new">Using Familiar Command Names</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Using a mechanism called <bpt id="p1">*</bpt>aliasing<ept id="p1">*</ept>, Windows PowerShell allows users to refer to commands by alternate names.</source>
+          <target state="new">Using a mechanism called <bpt id="p1">*</bpt>aliasing<ept id="p1">*</ept>, Windows PowerShell allows users to refer to commands by alternate names.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Aliasing allows users with experience in other shells to reuse common command names that they already know to perform similar operations in Windows PowerShell.</source>
+          <target state="new">Aliasing allows users with experience in other shells to reuse common command names that they already know to perform similar operations in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Although we will not discuss Windows PowerShell aliases in detail, you can still use them as you get started with Windows PowerShell.</source>
+          <target state="new">Although we will not discuss Windows PowerShell aliases in detail, you can still use them as you get started with Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Aliasing associates a command name that you type with another command.</source>
+          <target state="new">Aliasing associates a command name that you type with another command.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, Windows PowerShell has an internal function named <bpt id="p1">**</bpt>Clear-Host<ept id="p1">**</ept> that clears the output window.</source>
+          <target state="new">For example, Windows PowerShell has an internal function named <bpt id="p1">**</bpt>Clear-Host<ept id="p1">**</ept> that clears the output window.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you type either the <bpt id="p1">**</bpt>cls<ept id="p1">**</ept> or <bpt id="p2">**</bpt>clear<ept id="p2">**</ept> command at a command prompt, Windows PowerShell interprets that this is an alias for the <bpt id="p3">**</bpt>Clear-Host<ept id="p3">**</ept> function and runs the <bpt id="p4">**</bpt>Clear-Host<ept id="p4">**</ept> function.</source>
+          <target state="new">If you type either the <bpt id="p1">**</bpt>cls<ept id="p1">**</ept> or <bpt id="p2">**</bpt>clear<ept id="p2">**</ept> command at a command prompt, Windows PowerShell interprets that this is an alias for the <bpt id="p3">**</bpt>Clear-Host<ept id="p3">**</ept> function and runs the <bpt id="p4">**</bpt>Clear-Host<ept id="p4">**</ept> function.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This feature helps users to learn Windows PowerShell.</source>
+          <target state="new">This feature helps users to learn Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>First, most Cmd.exe and UNIX users have a large repertoire of commands that users already know by name, and although the Windows PowerShell equivalents may not produce identical results, they are close enough in form that users can use them to do work without having to first memorize the Windows PowerShell names.</source>
+          <target state="new">First, most Cmd.exe and UNIX users have a large repertoire of commands that users already know by name, and although the Windows PowerShell equivalents may not produce identical results, they are close enough in form that users can use them to do work without having to first memorize the Windows PowerShell names.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Second, the major source of frustration in learning a new shell when the user is already familiar with another shell, is the errors that are caused by "finger memory".</source>
+          <target state="new">Second, the major source of frustration in learning a new shell when the user is already familiar with another shell, is the errors that are caused by "finger memory".</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you have used Cmd.exe for years, when you have a screen full of output and want to clean it up, you would reflexively type the <bpt id="p1">**</bpt>cls<ept id="p1">**</ept> command and press the ENTER key.</source>
+          <target state="new">If you have used Cmd.exe for years, when you have a screen full of output and want to clean it up, you would reflexively type the <bpt id="p1">**</bpt>cls<ept id="p1">**</ept> command and press the ENTER key.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Without the alias to the <bpt id="p1">**</bpt>Clear-Host<ept id="p1">**</ept> function in Windows PowerShell, you would simply get the error message "<bpt id="p2">**</bpt>'cls' is not recognized as a cmdlet, function, operable program, or script file.<ept id="p2">**</ept>"</source>
+          <target state="new">Without the alias to the <bpt id="p1">**</bpt>Clear-Host<ept id="p1">**</ept> function in Windows PowerShell, you would simply get the error message "<bpt id="p2">**</bpt>'cls' is not recognized as a cmdlet, function, operable program, or script file.<ept id="p2">**</ept>"</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>and be left with no idea of what to do to clear the output.</source>
+          <target state="new">and be left with no idea of what to do to clear the output.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following is a brief listing of the common Cmd.exe and UNIX commands that you can use inside Windows PowerShell:</source>
+          <target state="new">The following is a brief listing of the common Cmd.exe and UNIX commands that you can use inside Windows PowerShell:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>cat</source>
+          <target state="new">cat</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>dir</source>
+          <target state="new">dir</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>mount</source>
+          <target state="new">mount</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>rm</source>
+          <target state="new">rm</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>cd</source>
+          <target state="new">cd</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>echo</source>
+          <target state="new">echo</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>move</source>
+          <target state="new">move</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>rmdir</source>
+          <target state="new">rmdir</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>chdir</source>
+          <target state="new">chdir</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>erase</source>
+          <target state="new">erase</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>popd</source>
+          <target state="new">popd</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>sleep</source>
+          <target state="new">sleep</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>clear</source>
+          <target state="new">clear</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>h</source>
+          <target state="new">h</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>ps</source>
+          <target state="new">ps</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>sort</source>
+          <target state="new">sort</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>cls</source>
+          <target state="new">cls</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>history</source>
+          <target state="new">history</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>pushd</source>
+          <target state="new">pushd</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>tee</source>
+          <target state="new">tee</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>copy</source>
+          <target state="new">copy</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>kill</source>
+          <target state="new">kill</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>pwd</source>
+          <target state="new">pwd</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>type</source>
+          <target state="new">type</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>del</source>
+          <target state="new">del</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>lp</source>
+          <target state="new">lp</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>r</source>
+          <target state="new">r</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>write</source>
+          <target state="new">write</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>diff</source>
+          <target state="new">diff</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>ls</source>
+          <target state="new">ls</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>ren</source>
+          <target state="new">ren</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you find yourself using one of these commands reflexively and want to learn the real name of the native Windows PowerShell command, you can use the <bpt id="p1">**</bpt>Get-Alias<ept id="p1">**</ept> command:</source>
+          <target state="new">If you find yourself using one of these commands reflexively and want to learn the real name of the native Windows PowerShell command, you can use the <bpt id="p1">**</bpt>Get-Alias<ept id="p1">**</ept> command:</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To make examples more readable, the Windows PowerShell User's Guide generally avoids using aliases.</source>
+          <target state="new">To make examples more readable, the Windows PowerShell User's Guide generally avoids using aliases.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>However, knowing more about aliases this early can still be useful if you are working with arbitrary snippets of Windows PowerShell code from another source or want to define your own aliases.</source>
+          <target state="new">However, knowing more about aliases this early can still be useful if you are working with arbitrary snippets of Windows PowerShell code from another source or want to define your own aliases.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The rest of this section will discuss standard aliases and how to define your own aliases.</source>
+          <target state="new">The rest of this section will discuss standard aliases and how to define your own aliases.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Interpreting Standard Aliases</source>
+          <target state="new">Interpreting Standard Aliases</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Unlike the aliases described above, which were designed for name-compatibility with other interfaces, the aliases built into Windows PowerShell are generally designed for brevity.</source>
+          <target state="new">Unlike the aliases described above, which were designed for name-compatibility with other interfaces, the aliases built into Windows PowerShell are generally designed for brevity.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These shorter names can be typed quickly, but are impossible to read if you do not know what they refer to.</source>
+          <target state="new">These shorter names can be typed quickly, but are impossible to read if you do not know what they refer to.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell tries to compromise between clarity and brevity by providing a set of standard aliases that are based on shorthand names for common verbs and nouns.</source>
+          <target state="new">Windows PowerShell tries to compromise between clarity and brevity by providing a set of standard aliases that are based on shorthand names for common verbs and nouns.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This allows a core set of aliases for common cmdlets that are readable when you know the shorthand names.</source>
+          <target state="new">This allows a core set of aliases for common cmdlets that are readable when you know the shorthand names.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For example, in standard aliases the verb <bpt id="p1">**</bpt>Get<ept id="p1">**</ept> is abbreviated to <bpt id="p2">**</bpt>g<ept id="p2">**</ept>, the verb <bpt id="p3">**</bpt>Set<ept id="p3">**</ept> is abbreviated to <bpt id="p4">**</bpt>s<ept id="p4">**</ept>, the noun <bpt id="p5">**</bpt>Item<ept id="p5">**</ept> is abbreviated to <bpt id="p6">**</bpt>i<ept id="p6">**</ept>, the noun <bpt id="p7">**</bpt>Location<ept id="p7">**</ept> is abbreviated to <bpt id="p8">**</bpt>l<ept id="p8">**</ept>, and the noun Command is abbreviated to <bpt id="p9">**</bpt>cm<ept id="p9">**</ept>.</source>
+          <target state="new">For example, in standard aliases the verb <bpt id="p1">**</bpt>Get<ept id="p1">**</ept> is abbreviated to <bpt id="p2">**</bpt>g<ept id="p2">**</ept>, the verb <bpt id="p3">**</bpt>Set<ept id="p3">**</ept> is abbreviated to <bpt id="p4">**</bpt>s<ept id="p4">**</ept>, the noun <bpt id="p5">**</bpt>Item<ept id="p5">**</ept> is abbreviated to <bpt id="p6">**</bpt>i<ept id="p6">**</ept>, the noun <bpt id="p7">**</bpt>Location<ept id="p7">**</ept> is abbreviated to <bpt id="p8">**</bpt>l<ept id="p8">**</ept>, and the noun Command is abbreviated to <bpt id="p9">**</bpt>cm<ept id="p9">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Here is a brief example to illustrate how this works.</source>
+          <target state="new">Here is a brief example to illustrate how this works.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The standard alias for Get-Item comes from combining <bpt id="p1">**</bpt>g<ept id="p1">**</ept> for Get and <bpt id="p2">**</bpt>i<ept id="p2">**</ept> for Item: <bpt id="p3">**</bpt>gi<ept id="p3">**</ept>.</source>
+          <target state="new">The standard alias for Get-Item comes from combining <bpt id="p1">**</bpt>g<ept id="p1">**</ept> for Get and <bpt id="p2">**</bpt>i<ept id="p2">**</ept> for Item: <bpt id="p3">**</bpt>gi<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The standard alias for Set-Item comes from combining <bpt id="p1">**</bpt>s<ept id="p1">**</ept> for Set and <bpt id="p2">**</bpt>i<ept id="p2">**</ept> for Item: <bpt id="p3">**</bpt>si<ept id="p3">**</ept>.</source>
+          <target state="new">The standard alias for Set-Item comes from combining <bpt id="p1">**</bpt>s<ept id="p1">**</ept> for Set and <bpt id="p2">**</bpt>i<ept id="p2">**</ept> for Item: <bpt id="p3">**</bpt>si<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The standard alias for Get-Location comes from combining <bpt id="p1">**</bpt>g<ept id="p1">**</ept> for Get and <bpt id="p2">**</bpt>l<ept id="p2">**</ept> for Location, <bpt id="p3">**</bpt>gl<ept id="p3">**</ept>.</source>
+          <target state="new">The standard alias for Get-Location comes from combining <bpt id="p1">**</bpt>g<ept id="p1">**</ept> for Get and <bpt id="p2">**</bpt>l<ept id="p2">**</ept> for Location, <bpt id="p3">**</bpt>gl<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The standard alias for Set-Location comes from combining <bpt id="p1">**</bpt>s<ept id="p1">**</ept> for Set and <bpt id="p2">**</bpt>l<ept id="p2">**</ept> for Location, <bpt id="p3">**</bpt>sl<ept id="p3">**</ept>.</source>
+          <target state="new">The standard alias for Set-Location comes from combining <bpt id="p1">**</bpt>s<ept id="p1">**</ept> for Set and <bpt id="p2">**</bpt>l<ept id="p2">**</ept> for Location, <bpt id="p3">**</bpt>sl<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The standard alias for Get-Command comes from combining <bpt id="p1">**</bpt>g<ept id="p1">**</ept> for Get and <bpt id="p2">**</bpt>cm<ept id="p2">**</ept> for Command, <bpt id="p3">**</bpt>gcm<ept id="p3">**</ept>.</source>
+          <target state="new">The standard alias for Get-Command comes from combining <bpt id="p1">**</bpt>g<ept id="p1">**</ept> for Get and <bpt id="p2">**</bpt>cm<ept id="p2">**</ept> for Command, <bpt id="p3">**</bpt>gcm<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>There is no Set-Command cmdlet, but if there were, we would be able to guess that the standard alias comes from <bpt id="p1">**</bpt>s<ept id="p1">**</ept> for Set and <bpt id="p2">**</bpt>cm<ept id="p2">**</ept> for Command: <bpt id="p3">**</bpt>scm<ept id="p3">**</ept>.</source>
+          <target state="new">There is no Set-Command cmdlet, but if there were, we would be able to guess that the standard alias comes from <bpt id="p1">**</bpt>s<ept id="p1">**</ept> for Set and <bpt id="p2">**</bpt>cm<ept id="p2">**</ept> for Command: <bpt id="p3">**</bpt>scm<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Furthermore, people familiar with Windows PowerShell aliasing who encounter <bpt id="p1">**</bpt>scm<ept id="p1">**</ept> would be able to guess that the alias refers to Set-Command.</source>
+          <target state="new">Furthermore, people familiar with Windows PowerShell aliasing who encounter <bpt id="p1">**</bpt>scm<ept id="p1">**</ept> would be able to guess that the alias refers to Set-Command.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Creating New Aliases</source>
+          <target state="new">Creating New Aliases</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can create your own aliases using the Set-Alias cmdlet.</source>
+          <target state="new">You can create your own aliases using the Set-Alias cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, the following statements create the standard cmdlet aliases discussed in Interpreting Standard Aliases:</source>
+          <target state="new">For example, the following statements create the standard cmdlet aliases discussed in Interpreting Standard Aliases:</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Internally, Windows PowerShell uses commands like these during startup, but these aliases are not changeable.</source>
+          <target state="new">Internally, Windows PowerShell uses commands like these during startup, but these aliases are not changeable.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you attempt to actually execute one of these commands, you will get an error explaining that the alias cannot be modified.</source>
+          <target state="new">If you attempt to actually execute one of these commands, you will get an error explaining that the alias cannot be modified.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>PS&gt; Set-Alias -Name gi -Value Get-Item Set-Alias : Alias is not writeable because alias gi is read-only or constant and cannot be written to.</source>
+          <target state="new">PS&gt; Set-Alias -Name gi -Value Get-Item Set-Alias : Alias is not writeable because alias gi is read-only or constant and cannot be written to.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>At line:1 char:10 + Set-Alias  &lt;&lt;&lt;&lt; -Name gi -Value Get-Item</source>
+          <target state="new">At line:1 char:10 + Set-Alias  &lt;&lt;&lt;&lt; -Name gi -Value Get-Item</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

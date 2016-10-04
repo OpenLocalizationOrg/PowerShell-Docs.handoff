@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0047438f30836ed0e0a365c3536803655b5b7f15</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psgallery\psgallery_gettingstarted.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12d8f26c6c099a0353c9b1b1671d777b1e538685</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5122cd15053ae90d2b833a7554f6faaf6c53bb28</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Get Started with the PowerShell Gallery</source>
+          <target state="new">Get Started with the PowerShell Gallery</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>What is the PowerShell Gallery?</source>
+          <target state="new">What is the PowerShell Gallery?</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The PowerShell Gallery is the central repository for PowerShell content.</source>
+          <target state="new">The PowerShell Gallery is the central repository for PowerShell content.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In it, you can find useful PowerShell modules containing PowerShell commands and Desired State Configuration (DSC) resources.</source>
+          <target state="new">In it, you can find useful PowerShell modules containing PowerShell commands and Desired State Configuration (DSC) resources.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can also find PowerShell scripts, some of which may contain PowerShell workflows, and which outline a set of tasks and provide sequencing for those tasks.</source>
+          <target state="new">You can also find PowerShell scripts, some of which may contain PowerShell workflows, and which outline a set of tasks and provide sequencing for those tasks.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Some of these items are authored by Microsoft, and others are authored by the PowerShell community.</source>
+          <target state="new">Some of these items are authored by Microsoft, and others are authored by the PowerShell community.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Requirements</source>
+          <target state="new">Requirements</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Downloading items from the PowerShell Gallery to your system requires the <bpt id="p1">[</bpt>PowerShellGet<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> module.</source>
+          <target state="new">Downloading items from the PowerShell Gallery to your system requires the <bpt id="p1">[</bpt>PowerShellGet<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> module.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can find the PowerShellGet module in any of the following.</source>
+          <target state="new">You can find the PowerShellGet module in any of the following.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You do not need to sign in to download items from the PowerShell Gallery.</source>
+          <target state="new">You do not need to sign in to download items from the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows 10<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=624830&amp;clcid=0x409)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows 10<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=624830&amp;clcid=0x409)</ept></target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=398175)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=398175)</ept></target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>MSI Installer (for PowerShell 3 and 4)<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=746217&amp;clcid=0x409)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>MSI Installer (for PowerShell 3 and 4)<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=746217&amp;clcid=0x409)</ept></target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>PowerShellGet also requires the <bpt id="p1">[</bpt>NuGet provider<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=722208)</ept> to work with the PowerShell Gallery.</source>
+          <target state="new">PowerShellGet also requires the <bpt id="p1">[</bpt>NuGet provider<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=722208)</ept> to work with the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You will be prompted to install the NuGet provider automatically upon first use of PowerShellGet if the NuGet provider is not in one of the following locations:</source>
+          <target state="new">You will be prompted to install the NuGet provider automatically upon first use of PowerShellGet if the NuGet provider is not in one of the following locations:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>$env:ProgramFiles\\PackageManagement\\ProviderAssemblies</source>
+          <target state="new">$env:ProgramFiles\\PackageManagement\\ProviderAssemblies</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>$env:LOCALAPPDATA\\PackageManagement\\ProviderAssemblies</source>
+          <target state="new">$env:LOCALAPPDATA\\PackageManagement\\ProviderAssemblies</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Or, you can run <bpt id="p1">**</bpt>Install-PackageProvider -Name NuGet -Force<ept id="p1">**</ept> to automate the download and installation of the NuGet provider.</source>
+          <target state="new">Or, you can run <bpt id="p1">**</bpt>Install-PackageProvider -Name NuGet -Force<ept id="p1">**</ept> to automate the download and installation of the NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you have a version older than 2.8.5.201 of NuGet, you will need to call the following PowerShell cmdlets to install and switch to the latest version of NuGet.</source>
+          <target state="new">If you have a version older than 2.8.5.201 of NuGet, you will need to call the following PowerShell cmdlets to install and switch to the latest version of NuGet.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Install-PackageProvider NuGet -MinimumVersion '2.8.5.201' -Force</source>
+          <target state="new">Install-PackageProvider NuGet -MinimumVersion '2.8.5.201' -Force</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Import-PackageProvider NuGet -MinimumVersion '2.8.5.201' -Force</source>
+          <target state="new">Import-PackageProvider NuGet -MinimumVersion '2.8.5.201' -Force</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Delete the older version of NuGet from the above installed location.</source>
+          <target state="new">Delete the older version of NuGet from the above installed location.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">&lt;</bpt>http://oneget.org/<ept id="p1">&gt;</ept> .</source>
+          <target state="new">For more information, see <bpt id="p1">&lt;</bpt>http://oneget.org/<ept id="p1">&gt;</ept> .</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Note: Due to changes in packaging formats, we recommend you update to the latest version of PowerShellGet and PackageManagement to install items that have been updated recently.</source>
+          <target state="new">Note: Due to changes in packaging formats, we recommend you update to the latest version of PowerShellGet and PackageManagement to install items that have been updated recently.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>PowerShellGet is included in Windows 10, which you can learn more about <bpt id="p1">[</bpt>here<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=624830&amp;clcid=0x409)</ept>.</source>
+          <target state="new">PowerShellGet is included in Windows 10, which you can learn more about <bpt id="p1">[</bpt>here<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=624830&amp;clcid=0x409)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PowerShellGet is also part of the Windows Management Framework (WMF) 5.0, which you can download <bpt id="p1">[</bpt>here<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=398175)</ept>.</source>
+          <target state="new">PowerShellGet is also part of the Windows Management Framework (WMF) 5.0, which you can download <bpt id="p1">[</bpt>here<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=398175)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Discovering items from the PowerShell Gallery</source>
+          <target state="new">Discovering items from the PowerShell Gallery</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can find items in the PowerShell Gallery by using the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> control on this website, or by browsing through the Modules and Scripts pages.</source>
+          <target state="new">You can find items in the PowerShell Gallery by using the <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> control on this website, or by browsing through the Modules and Scripts pages.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can also find items from the PowerShell Gallery by running the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Find-Module<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Find-Script<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlets, depending on the item type, with <bpt id="p5">**</bpt>-Repository PSGallery<ept id="p5">**</ept>.</source>
+          <target state="new">You can also find items from the PowerShell Gallery by running the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Find-Module<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Find-Script<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlets, depending on the item type, with <bpt id="p5">**</bpt>-Repository PSGallery<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Filtering results from the Gallery can be done by using the following parameters of <bpt id="p1">[</bpt>Find-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p2">[</bpt>Find-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept></source>
+          <target state="new">Filtering results from the Gallery can be done by using the following parameters of <bpt id="p1">[</bpt>Find-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p2">[</bpt>Find-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept></target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>AllVersions</source>
+          <target state="new">AllVersions</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>MinimumVersion</source>
+          <target state="new">MinimumVersion</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>RequiredVersion</source>
+          <target state="new">RequiredVersion</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Tag</source>
+          <target state="new">Tag</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Includes</source>
+          <target state="new">Includes</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>DscResource</source>
+          <target state="new">DscResource</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>RoleCapability</source>
+          <target state="new">RoleCapability</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Command</source>
+          <target state="new">Command</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Filter</source>
+          <target state="new">Filter</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you're only interested in discovering specific DSC resources in the Gallery, you can run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Find-DscResource<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">If you're only interested in discovering specific DSC resources in the Gallery, you can run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Find-DscResource<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Find-DscResource<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> returns data on DSC resources contained in the Gallery.</source>
+          <target state="new"><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Find-DscResource<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> returns data on DSC resources contained in the Gallery.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Because DSC resources are always delivered as part of a module, you still need to run <bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> to install those DSC resources.</source>
+          <target state="new">Because DSC resources are always delivered as part of a module, you still need to run <bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> to install those DSC resources.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Learning about items in the PowerShell Gallery</source>
+          <target state="new">Learning about items in the PowerShell Gallery</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Once you've identified an item you're interested in, you may want to learn more about it.</source>
+          <target state="new">Once you've identified an item you're interested in, you may want to learn more about it.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can do this by examining that item's specific page on the Gallery.</source>
+          <target state="new">You can do this by examining that item's specific page on the Gallery.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>On that page, you'll be able to see all of the metadata uploaded with the item.</source>
+          <target state="new">On that page, you'll be able to see all of the metadata uploaded with the item.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This metadata for an item is provided by the item's author, and is not verified by Microsoft.</source>
+          <target state="new">This metadata for an item is provided by the item's author, and is not verified by Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The Owner of the item is strongly tied to the Gallery account used to publish the item, and is more trustworthy than the Author field.</source>
+          <target state="new">The Owner of the item is strongly tied to the Gallery account used to publish the item, and is more trustworthy than the Author field.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you discover an item that you feel is not published in good faith, click <bpt id="p1">**</bpt>Report Abuse<ept id="p1">**</ept> on that item's page.</source>
+          <target state="new">If you discover an item that you feel is not published in good faith, click <bpt id="p1">**</bpt>Report Abuse<ept id="p1">**</ept> on that item's page.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you're running <bpt id="p1">[</bpt>Find-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p2">[</bpt>Find-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept>, you can view this data in the returned PSGetModuleInfo object.</source>
+          <target state="new">If you're running <bpt id="p1">[</bpt>Find-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p2">[</bpt>Find-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept>, you can view this data in the returned PSGetModuleInfo object.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For example, running <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Find-Module -Name PSReadLine -Repository PSGallery | Get-Member<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> returns data on the PSReadLine module in the Gallery.</source>
+          <target state="new">For example, running <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Find-Module -Name PSReadLine -Repository PSGallery | Get-Member<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> returns data on the PSReadLine module in the Gallery.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Downloading items from the PowerShell Gallery</source>
+          <target state="new">Downloading items from the PowerShell Gallery</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>We encourage the following process when downloading items from the PowerShell Gallery:</source>
+          <target state="new">We encourage the following process when downloading items from the PowerShell Gallery:</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Inspect</source>
+          <target state="new">Inspect</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To download an item from the Gallery for inspection, run either the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Save-Module<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Save-Script<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet, depending on the item type.</source>
+          <target state="new">To download an item from the Gallery for inspection, run either the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Save-Module<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Save-Script<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet, depending on the item type.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This lets you save the item locally without installing it, and inspect the item contents.</source>
+          <target state="new">This lets you save the item locally without installing it, and inspect the item contents.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Remember to delete the saved item manually.</source>
+          <target state="new">Remember to delete the saved item manually.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Some of these items are authored by Microsoft, and others are authored by the PowerShell community.</source>
+          <target state="new">Some of these items are authored by Microsoft, and others are authored by the PowerShell community.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Microsoft recommends that you review the contents and code of items on this gallery prior to installation.</source>
+          <target state="new">Microsoft recommends that you review the contents and code of items on this gallery prior to installation.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you discover an item that you feel is not published in good faith, click <bpt id="p1">**</bpt>Report Abuse<ept id="p1">**</ept> on that item's page.</source>
+          <target state="new">If you discover an item that you feel is not published in good faith, click <bpt id="p1">**</bpt>Report Abuse<ept id="p1">**</ept> on that item's page.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Install</source>
+          <target state="new">Install</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To install an item from the Gallery for use, run either the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Install-Script<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet, depending on the item type.</source>
+          <target state="new">To install an item from the Gallery for use, run either the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Install-Script<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet, depending on the item type.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> installs the module to $env:ProgramFiles\\WindowsPowerShell\\Modules by default.</source>
+          <target state="new"><bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> installs the module to $env:ProgramFiles\\WindowsPowerShell\\Modules by default.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This requires an administrator account.</source>
+          <target state="new">This requires an administrator account.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If you add the <bpt id="p1">**</bpt>-Scope CurrentUser<ept id="p1">**</ept> parameter, the module is installed to $env:USERPROFILE\\Documents\\WindowsPowerShell\\Modules .</source>
+          <target state="new">If you add the <bpt id="p1">**</bpt>-Scope CurrentUser<ept id="p1">**</ept> parameter, the module is installed to $env:USERPROFILE\\Documents\\WindowsPowerShell\\Modules .</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Install-Script<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> installs the script to $env:ProgramFiles\\WindowsPowerShell\\Scripts by default.</source>
+          <target state="new"><bpt id="p1">[</bpt>Install-Script<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> installs the script to $env:ProgramFiles\\WindowsPowerShell\\Scripts by default.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This requires an administrator account.</source>
+          <target state="new">This requires an administrator account.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you add the <bpt id="p1">**</bpt>-Scope CurrentUser<ept id="p1">**</ept> parameter, the script is installed to $env:USERPROFILE\\Documents\\WindowsPowerShell\\Scripts .</source>
+          <target state="new">If you add the <bpt id="p1">**</bpt>-Scope CurrentUser<ept id="p1">**</ept> parameter, the script is installed to $env:USERPROFILE\\Documents\\WindowsPowerShell\\Scripts .</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>By default, <bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p2">[</bpt>Install-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> installs the most current version of an item.</source>
+          <target state="new">By default, <bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p2">[</bpt>Install-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> installs the most current version of an item.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To install an older version of the item, add the <bpt id="p1">**</bpt>-RequiredVersion<ept id="p1">**</ept> parameter.</source>
+          <target state="new">To install an older version of the item, add the <bpt id="p1">**</bpt>-RequiredVersion<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Deploy</source>
+          <target state="new">Deploy</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To deploy an item from the PowerShell Gallery to Azure Automation, click <bpt id="p1">**</bpt>Deploy to Azure Automation<ept id="p1">**</ept> on the item details page.</source>
+          <target state="new">To deploy an item from the PowerShell Gallery to Azure Automation, click <bpt id="p1">**</bpt>Deploy to Azure Automation<ept id="p1">**</ept> on the item details page.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You will be redirected to the Azure Management Portal, where you sign in by using your Azure account credentials.</source>
+          <target state="new">You will be redirected to the Azure Management Portal, where you sign in by using your Azure account credentials.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Note that deploying items with dependencies will deploy all the dependencies to Azure Automation.</source>
+          <target state="new">Note that deploying items with dependencies will deploy all the dependencies to Azure Automation.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The 'Deploy to Azure Automation' button can be disabled by adding the <bpt id="p1">**</bpt>AzureAutomationNotSupported<ept id="p1">**</ept> tag to your item metadata.</source>
+          <target state="new">The 'Deploy to Azure Automation' button can be disabled by adding the <bpt id="p1">**</bpt>AzureAutomationNotSupported<ept id="p1">**</ept> tag to your item metadata.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To learn more about Azure Automation, see the <bpt id="p1">[</bpt>Azure Automation website<ept id="p1">](http://azure.microsoft.com/en-us/services/automation/)</ept>.</source>
+          <target state="new">To learn more about Azure Automation, see the <bpt id="p1">[</bpt>Azure Automation website<ept id="p1">](http://azure.microsoft.com/en-us/services/automation/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Updating items from the PowerShell Gallery</source>
+          <target state="new">Updating items from the PowerShell Gallery</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To update items installed from the PowerShell Gallery, run either the <bpt id="p1">[</bpt>Update-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p2">[</bpt>Update-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">To update items installed from the PowerShell Gallery, run either the <bpt id="p1">[</bpt>Update-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p2">[</bpt>Update-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>When run without any additional parameters, <bpt id="p1">[</bpt>Update-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> attempts to update each module installed by running <bpt id="p2">[</bpt>Install-Module<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept>.</source>
+          <target state="new">When run without any additional parameters, <bpt id="p1">[</bpt>Update-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> attempts to update each module installed by running <bpt id="p2">[</bpt>Install-Module<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To selectively update modules, add the <bpt id="p1">**</bpt>-Name<ept id="p1">**</ept> parameter.</source>
+          <target state="new">To selectively update modules, add the <bpt id="p1">**</bpt>-Name<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Similarly, when run without any additional parameters, <bpt id="p1">[</bpt>Update-Script<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> also attempts to update each script installed by running <bpt id="p2">[</bpt>Install-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept>.</source>
+          <target state="new">Similarly, when run without any additional parameters, <bpt id="p1">[</bpt>Update-Script<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> also attempts to update each script installed by running <bpt id="p2">[</bpt>Install-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To selectively update scripts, add the <bpt id="p1">**</bpt>-Name<ept id="p1">**</ept> parameter.</source>
+          <target state="new">To selectively update scripts, add the <bpt id="p1">**</bpt>-Name<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>List items that you have installed from the PowerShell Gallery</source>
+          <target state="new">List items that you have installed from the PowerShell Gallery</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To find out which modules you have installed from the PowerShell Gallery, run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Get-InstalledModule<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">To find out which modules you have installed from the PowerShell Gallery, run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Get-InstalledModule<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This command lists all of the modules you have on your system that were installed directly from the PowerShell Gallery.</source>
+          <target state="new">This command lists all of the modules you have on your system that were installed directly from the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Similarly, to find out which scripts you have installed from the PowerShell Gallery, run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Get-InstalledScript<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">Similarly, to find out which scripts you have installed from the PowerShell Gallery, run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Get-InstalledScript<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This command lists all of the scripts you have on your system that were installed directly from the PowerShell Gallery.</source>
+          <target state="new">This command lists all of the scripts you have on your system that were installed directly from the PowerShell Gallery.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

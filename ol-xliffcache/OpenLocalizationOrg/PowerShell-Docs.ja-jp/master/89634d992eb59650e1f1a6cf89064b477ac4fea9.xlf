@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">89634d992eb59650e1f1a6cf89064b477ac4fea9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Understanding-Important-Windows-PowerShell-Concepts.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8566095229bbb5e63d21c2d92eba1ba0530bd48</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea16107c094d614af80ab33669ce11b236c4b86f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Understanding Important Windows PowerShell Concepts</source>
+          <target state="new">Understanding Important Windows PowerShell Concepts</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Understanding Important Windows PowerShell Concepts</source>
+          <target state="new">Understanding Important Windows PowerShell Concepts</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell design integrates concepts from many different environments.</source>
+          <target state="new">The Windows PowerShell design integrates concepts from many different environments.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Several of them are familiar to people with experience in specific shells or programming environments, but very few people will know about all of them.</source>
+          <target state="new">Several of them are familiar to people with experience in specific shells or programming environments, but very few people will know about all of them.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Looking at some of these concepts provides a useful overview of the shell.</source>
+          <target state="new">Looking at some of these concepts provides a useful overview of the shell.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Commands Are Not Text-Based</source>
+          <target state="new">Commands Are Not Text-Based</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Unlike traditional command-line interface commands, Windows PowerShell cmdlets are designed to deal with objects - structured information that is more than just a string of characters appearing on the screen.</source>
+          <target state="new">Unlike traditional command-line interface commands, Windows PowerShell cmdlets are designed to deal with objects - structured information that is more than just a string of characters appearing on the screen.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Command output always carries along extra information that you can use if you need it.</source>
+          <target state="new">Command output always carries along extra information that you can use if you need it.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>We will discuss this topic in depth in this document.</source>
+          <target state="new">We will discuss this topic in depth in this document.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you have used text-processing tools to process command-line data in the past, you will find that they behave differently if you try to use them in Windows PowerShell.</source>
+          <target state="new">If you have used text-processing tools to process command-line data in the past, you will find that they behave differently if you try to use them in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In most cases, you do not need text-processing tools to extract specific information.</source>
+          <target state="new">In most cases, you do not need text-processing tools to extract specific information.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can access portions of the data directly by using standard Windows PowerShell object manipulation commands.</source>
+          <target state="new">You can access portions of the data directly by using standard Windows PowerShell object manipulation commands.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Command Family Is Extensible</source>
+          <target state="new">The Command Family Is Extensible</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Interfaces such as Cmd.exe do not provide a way for you to directly extend the built-in command set.</source>
+          <target state="new">Interfaces such as Cmd.exe do not provide a way for you to directly extend the built-in command set.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can create external command-line tools that run in Cmd.exe, but these external tools do not have services, such as Help integration, and Cmd.exe does not automatically know that they are valid commands.</source>
+          <target state="new">You can create external command-line tools that run in Cmd.exe, but these external tools do not have services, such as Help integration, and Cmd.exe does not automatically know that they are valid commands.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The native binary commands in Windows PowerShell, known as <bpt id="p1">*</bpt>cmdlets<ept id="p1">*</ept> (pronounced command-lets), can be augmented by cmdlets that you create and that you add to Windows PowerShell by using snap-ins.</source>
+          <target state="new">The native binary commands in Windows PowerShell, known as <bpt id="p1">*</bpt>cmdlets<ept id="p1">*</ept> (pronounced command-lets), can be augmented by cmdlets that you create and that you add to Windows PowerShell by using snap-ins.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell <bpt id="p1">*</bpt>snap-ins<ept id="p1">*</ept> are compiled, just like binary tools in any other interface.</source>
+          <target state="new">Windows PowerShell <bpt id="p1">*</bpt>snap-ins<ept id="p1">*</ept> are compiled, just like binary tools in any other interface.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can use them to add Windows PowerShell providers to the shell, as well as new cmdlets.</source>
+          <target state="new">You can use them to add Windows PowerShell providers to the shell, as well as new cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Because of the special nature of the Windows PowerShell internal commands, we will refer to them as <bpt id="p1">*</bpt>cmdlets<ept id="p1">*</ept>.</source>
+          <target state="new">Because of the special nature of the Windows PowerShell internal commands, we will refer to them as <bpt id="p1">*</bpt>cmdlets<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell can run commands other than cmdlets.</source>
+          <target state="new">Windows PowerShell can run commands other than cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We will not be discussing them in detail in the Windows PowerShell User's Guide, but they are useful to know about as categories of command types.</source>
+          <target state="new">We will not be discussing them in detail in the Windows PowerShell User's Guide, but they are useful to know about as categories of command types.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell supports scripts that are analogous to UNIX shell scripts and Cmd.exe batch files, but have a .ps1 file name extension.</source>
+          <target state="new">Windows PowerShell supports scripts that are analogous to UNIX shell scripts and Cmd.exe batch files, but have a .ps1 file name extension.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also allows you to create internal functions that can be used directly in the interface or in scripts.</source>
+          <target state="new">Windows PowerShell also allows you to create internal functions that can be used directly in the interface or in scripts.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Handles Console Input and Display</source>
+          <target state="new">Windows PowerShell Handles Console Input and Display</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you type a command, Windows PowerShell always processes the command-line input directly.</source>
+          <target state="new">When you type a command, Windows PowerShell always processes the command-line input directly.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell also formats the output that you see on the screen.</source>
+          <target state="new">Windows PowerShell also formats the output that you see on the screen.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This is significant because it reduces the work required of each cmdlet and ensures that you can always do things the same way regardless of which cmdlet you are using.</source>
+          <target state="new">This is significant because it reduces the work required of each cmdlet and ensures that you can always do things the same way regardless of which cmdlet you are using.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>One example of how this simplifies life for both tool developers and users is command-line Help.</source>
+          <target state="new">One example of how this simplifies life for both tool developers and users is command-line Help.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Traditional command-line tools have their own schemes for requesting and displaying Help.</source>
+          <target state="new">Traditional command-line tools have their own schemes for requesting and displaying Help.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Some command-line tools use <bpt id="p1">**</bpt>/?<ept id="p1">**</ept></source>
+          <target state="new">Some command-line tools use <bpt id="p1">**</bpt>/?<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>to trigger the Help display; others use <bpt id="p1">**</bpt>-?<ept id="p1">**</ept>, <bpt id="p2">**</bpt>/H<ept id="p2">**</ept>, or even <bpt id="p3">**</bpt><ph id="ph1">//</ph><ept id="p3">**</ept>.</source>
+          <target state="new">to trigger the Help display; others use <bpt id="p1">**</bpt>-?<ept id="p1">**</ept>, <bpt id="p2">**</bpt>/H<ept id="p2">**</ept>, or even <bpt id="p3">**</bpt><ph id="ph1">//</ph><ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Some will display Help in a GUI window, rather than in the console display.</source>
+          <target state="new">Some will display Help in a GUI window, rather than in the console display.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Some complex tools, such as application updaters, unpack internal files before displaying their Help.</source>
+          <target state="new">Some complex tools, such as application updaters, unpack internal files before displaying their Help.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you use the wrong parameter, the tool might ignore what you typed and begin performing a task automatically.</source>
+          <target state="new">If you use the wrong parameter, the tool might ignore what you typed and begin performing a task automatically.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When you enter a command in Windows PowerShell, everything you enter is automatically parsed and pre-processed by Windows PowerShell.</source>
+          <target state="new">When you enter a command in Windows PowerShell, everything you enter is automatically parsed and pre-processed by Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you use the <bpt id="p1">**</bpt>-?<ept id="p1">**</ept></source>
+          <target state="new">If you use the <bpt id="p1">**</bpt>-?<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>parameter with a Windows PowerShell cmdlet, it always means "show me Help for this command".</source>
+          <target state="new">parameter with a Windows PowerShell cmdlet, it always means "show me Help for this command".</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Cmdlet developers do not have to parse the command; they only need to provide the Help text.</source>
+          <target state="new">Cmdlet developers do not have to parse the command; they only need to provide the Help text.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It is important to understand that the Help features of Windows PowerShell are available even when you run traditional command-line tools in Windows PowerShell.</source>
+          <target state="new">It is important to understand that the Help features of Windows PowerShell are available even when you run traditional command-line tools in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell processes the parameters and passes the results to the external tools.</source>
+          <target state="new">Windows PowerShell processes the parameters and passes the results to the external tools.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If you run an graphic application in Windows PowerShell, the window for the application opens.</source>
+          <target state="new">If you run an graphic application in Windows PowerShell, the window for the application opens.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell intervenes only when processing the command-line input you supply or the application output returned to the console window; it does not affect how the application works internally.</source>
+          <target state="new">Windows PowerShell intervenes only when processing the command-line input you supply or the application output returned to the console window; it does not affect how the application works internally.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Uses Some C# Syntax</source>
+          <target state="new">Windows PowerShell Uses Some C# Syntax</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell has syntax features and keywords that are very similar to those used in the C# programming language, because Windows PowerShell is based on the .NET Framework.</source>
+          <target state="new">Windows PowerShell has syntax features and keywords that are very similar to those used in the C# programming language, because Windows PowerShell is based on the .NET Framework.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Learning Windows PowerShell will make it much easier to learn C#, if you are interested in the language.</source>
+          <target state="new">Learning Windows PowerShell will make it much easier to learn C#, if you are interested in the language.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you are not a C# programmer, this similarity is not important.</source>
+          <target state="new">If you are not a C# programmer, this similarity is not important.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>However, if you are already familiar with C#, the similarities can make learning Windows PowerShell much easier.</source>
+          <target state="new">However, if you are already familiar with C#, the similarities can make learning Windows PowerShell much easier.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

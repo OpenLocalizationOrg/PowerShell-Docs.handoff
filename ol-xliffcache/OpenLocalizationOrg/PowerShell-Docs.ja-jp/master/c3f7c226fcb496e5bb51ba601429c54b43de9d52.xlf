@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3f7c226fcb496e5bb51ba601429c54b43de9d52</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Files-and-Folders.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">87026e4ad65f8c257f23f8ffa7db31bc34b41a88</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0676977dc6070c073b9b44172a4c78d01d02d677</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working with Files and Folders</source>
+          <target state="new">Working with Files and Folders</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Working with Files and Folders</source>
+          <target state="new">Working with Files and Folders</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Navigating through Windows PowerShell drives and manipulating the items on them is similar to manipulating files and folders on Windows physical disk drives.</source>
+          <target state="new">Navigating through Windows PowerShell drives and manipulating the items on them is similar to manipulating files and folders on Windows physical disk drives.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We will discuss how to deal with specific file and folder manipulation tasks in this section.</source>
+          <target state="new">We will discuss how to deal with specific file and folder manipulation tasks in this section.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Listing All the Files and Folders Within a Folder</source>
+          <target state="new">Listing All the Files and Folders Within a Folder</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can get all items directly within a folder by using <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>.</source>
+          <target state="new">You can get all items directly within a folder by using <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Add the optional <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to display hidden or system items.</source>
+          <target state="new">Add the optional <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to display hidden or system items.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, this command displays the direct contents of Windows PowerShell Drive C (which is the same as the Windows physical drive C):</source>
+          <target state="new">For example, this command displays the direct contents of Windows PowerShell Drive C (which is the same as the Windows physical drive C):</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The command lists only the directly contained items, much like using Cmd.exe's <bpt id="p1">**</bpt>DIR<ept id="p1">**</ept> command or <bpt id="p2">**</bpt>ls<ept id="p2">**</ept> in a UNIX shell.</source>
+          <target state="new">The command lists only the directly contained items, much like using Cmd.exe's <bpt id="p1">**</bpt>DIR<ept id="p1">**</ept> command or <bpt id="p2">**</bpt>ls<ept id="p2">**</ept> in a UNIX shell.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In order to show contained items, you need to specify the <bpt id="p1">**</bpt>-Recurse<ept id="p1">**</ept> parameter as well.</source>
+          <target state="new">In order to show contained items, you need to specify the <bpt id="p1">**</bpt>-Recurse<ept id="p1">**</ept> parameter as well.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>(This can take an extremely long time to complete.) To list everything on the C drive:</source>
+          <target state="new">(This can take an extremely long time to complete.) To list everything on the C drive:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> can filter items with its <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Include<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept> parameters, but those are typically based only on name.</source>
+          <target state="new"><bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> can filter items with its <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Include<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept> parameters, but those are typically based only on name.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can perform complex filtering based on other properties of items by using <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept>.</source>
+          <target state="new">You can perform complex filtering based on other properties of items by using <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following command finds all executables within the Program Files folder that were last modified after October 1, 2005 and which are neither smaller than 1 megabyte nor larger than 10 megabytes:</source>
+          <target state="new">The following command finds all executables within the Program Files folder that were last modified after October 1, 2005 and which are neither smaller than 1 megabyte nor larger than 10 megabytes:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Copying Files and Folders</source>
+          <target state="new">Copying Files and Folders</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Copying is done with <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept>.</source>
+          <target state="new">Copying is done with <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following command backs up C:\\boot.ini to C:\\boot.bak:</source>
+          <target state="new">The following command backs up C:\\boot.ini to C:\\boot.bak:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the destination file already exists, the copy attempt fails.</source>
+          <target state="new">If the destination file already exists, the copy attempt fails.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To overwrite a pre-existing destination, use the Force parameter:</source>
+          <target state="new">To overwrite a pre-existing destination, use the Force parameter:</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command works even when the destination is read-only.</source>
+          <target state="new">This command works even when the destination is read-only.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Folder copying works the same way.</source>
+          <target state="new">Folder copying works the same way.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This command copies the folder C:\\temp\\test1 to the new folder c:\\temp\\DeleteMe recursively:</source>
+          <target state="new">This command copies the folder C:\\temp\\test1 to the new folder c:\\temp\\DeleteMe recursively:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can also copy a selection of items.</source>
+          <target state="new">You can also copy a selection of items.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following command copies all .txt files contained anywhere in c:\\data to c:\\temp\\text:</source>
+          <target state="new">The following command copies all .txt files contained anywhere in c:\\data to c:\\temp\\text:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can still use other tools to perform file system copies.</source>
+          <target state="new">You can still use other tools to perform file system copies.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>XCOPY, ROBOCOPY, and COM objects, such as the <bpt id="p1">**</bpt>Scripting.FileSystemObject,<ept id="p1">**</ept> all work in Windows PowerShell.</source>
+          <target state="new">XCOPY, ROBOCOPY, and COM objects, such as the <bpt id="p1">**</bpt>Scripting.FileSystemObject,<ept id="p1">**</ept> all work in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, you can use the Windows Script Host <bpt id="p1">**</bpt>Scripting.FileSystem COM<ept id="p1">**</ept> class to back up C:\\boot.ini to C:\\boot.bak:</source>
+          <target state="new">For example, you can use the Windows Script Host <bpt id="p1">**</bpt>Scripting.FileSystem COM<ept id="p1">**</ept> class to back up C:\\boot.ini to C:\\boot.bak:</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Creating Files and Folders</source>
+          <target state="new">Creating Files and Folders</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creating new items works the same on all Windows PowerShell providers.</source>
+          <target state="new">Creating new items works the same on all Windows PowerShell providers.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If a Windows PowerShell provider has more than one type of item—for example, the FileSystem Windows PowerShell provider distinguishes between directories and files—you need to specify the item type.</source>
+          <target state="new">If a Windows PowerShell provider has more than one type of item—for example, the FileSystem Windows PowerShell provider distinguishes between directories and files—you need to specify the item type.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This command creates a new folder C:\\temp\\New Folder:</source>
+          <target state="new">This command creates a new folder C:\\temp\\New Folder:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command creates a new empty file C:\\temp\\New Folder\\file.txt</source>
+          <target state="new">This command creates a new empty file C:\\temp\\New Folder\\file.txt</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Removing All Files and Folders Within a Folder</source>
+          <target state="new">Removing All Files and Folders Within a Folder</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can remove contained items using <bpt id="p1">**</bpt>Remove-Item<ept id="p1">**</ept>, but you will be prompted to confirm the removal if the item contains anything else.</source>
+          <target state="new">You can remove contained items using <bpt id="p1">**</bpt>Remove-Item<ept id="p1">**</ept>, but you will be prompted to confirm the removal if the item contains anything else.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if you attempt to delete the folder C:\\temp\\DeleteMe that contains other items, Windows PowerShell prompts you for confirmation before deleting the folder:</source>
+          <target state="new">For example, if you attempt to delete the folder C:\\temp\\DeleteMe that contains other items, Windows PowerShell prompts you for confirmation before deleting the folder:</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you do not want to be prompted for each contained item, specify the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter:</source>
+          <target state="new">If you do not want to be prompted for each contained item, specify the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter:</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Mapping a Local Folder as a Windows Accessible Drive</source>
+          <target state="new">Mapping a Local Folder as a Windows Accessible Drive</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can also map a local folder, using the <bpt id="p1">**</bpt>subst<ept id="p1">**</ept> command.</source>
+          <target state="new">You can also map a local folder, using the <bpt id="p1">**</bpt>subst<ept id="p1">**</ept> command.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The following command creates a local drive P: rooted in the local Program Files directory:</source>
+          <target state="new">The following command creates a local drive P: rooted in the local Program Files directory:</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Just as with network drives, drives mapped within Windows PowerShell using <bpt id="p1">**</bpt>subst<ept id="p1">**</ept> are immediately visible to the Windows PowerShell shell.</source>
+          <target state="new">Just as with network drives, drives mapped within Windows PowerShell using <bpt id="p1">**</bpt>subst<ept id="p1">**</ept> are immediately visible to the Windows PowerShell shell.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Reading a Text File into an Array</source>
+          <target state="new">Reading a Text File into an Array</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>One of the more common storage formats for text data is in a file with separate lines treated as distinct data elements.</source>
+          <target state="new">One of the more common storage formats for text data is in a file with separate lines treated as distinct data elements.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> cmdlet can be used to read an entire file in one step, as shown here:</source>
+          <target state="new">The <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> cmdlet can be used to read an entire file in one step, as shown here:</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> already treats the data read from the file as an array, with one element per line of file content.</source>
+          <target state="new"><bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> already treats the data read from the file as an array, with one element per line of file content.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can confirm this by checking the <bpt id="p1">**</bpt>Length<ept id="p1">**</ept> of the returned content:</source>
+          <target state="new">You can confirm this by checking the <bpt id="p1">**</bpt>Length<ept id="p1">**</ept> of the returned content:</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This command is most useful for getting lists of information into Windows PowerShell directly.</source>
+          <target state="new">This command is most useful for getting lists of information into Windows PowerShell directly.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, you might store a list of computer names or IP addresses in a file C:\\temp\\domainMembers.txt, with one name on each line of the file.</source>
+          <target state="new">For example, you might store a list of computer names or IP addresses in a file C:\\temp\\domainMembers.txt, with one name on each line of the file.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> to retrieve the file contents and put them in the variable <bpt id="p2">**</bpt>$Computers<ept id="p2">**</ept>:</source>
+          <target state="new">You can use <bpt id="p1">**</bpt>Get-Content<ept id="p1">**</ept> to retrieve the file contents and put them in the variable <bpt id="p2">**</bpt>$Computers<ept id="p2">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>$Computers<ept id="p1">**</ept> is now an array containing a computer name in each element.</source>
+          <target state="new"><bpt id="p1">**</bpt>$Computers<ept id="p1">**</ept> is now an array containing a computer name in each element.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

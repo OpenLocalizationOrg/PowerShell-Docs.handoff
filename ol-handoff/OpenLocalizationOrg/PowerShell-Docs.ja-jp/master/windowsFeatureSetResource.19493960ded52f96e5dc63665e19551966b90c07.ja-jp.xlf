@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df6869cdf1d1f6c823704e4de2882e90cb672ad2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\windowsFeatureSetResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5895a7ffc9a773d395b52dd83427b7dd69c111c0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ccb1afd9fa1a49c8671c835f988888a5928071d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC WindowsFeatureSet Resource</source>
+          <target state="new">DSC WindowsFeatureSet Resource</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>DSC WindowsFeatureSet Resource</source>
+          <target state="new">DSC WindowsFeatureSet Resource</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>WindowsFeatureSet<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to ensure that roles and features are added or removed on a target node.</source>
+          <target state="new">The <bpt id="p1">**</bpt>WindowsFeatureSet<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to ensure that roles and features are added or removed on a target node.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This resource is a <bpt id="p1">[</bpt>composite resource<ept id="p1">](authoringResourceComposite.md)</ept> that calls the <bpt id="p2">[</bpt>WindowsFeature resource<ept id="p2">](windowsfeatureResource.md)</ept> for each feature specified in the <ph id="ph1">`Name`</ph> property.</source>
+          <target state="new">This resource is a <bpt id="p1">[</bpt>composite resource<ept id="p1">](authoringResourceComposite.md)</ept> that calls the <bpt id="p2">[</bpt>WindowsFeature resource<ept id="p2">](windowsfeatureResource.md)</ept> for each feature specified in the <ph id="ph1">`Name`</ph> property.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use this resource when you want to configure a number of Windows Features to the same state.</source>
+          <target state="new">Use this resource when you want to configure a number of Windows Features to the same state.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The names of the roles or features that you want to ensure are added or removed.</source>
+          <target state="new">The names of the roles or features that you want to ensure are added or removed.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This is the same as the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> property of the <bpt id="p2">[</bpt>Get-WindowsFeature<ept id="p2">](https://technet.microsoft.com/en-us/library/jj205469.aspx)</ept> cmdlet, and not the display name of the roles or features.</source>
+          <target state="new">This is the same as the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> property of the <bpt id="p2">[</bpt>Get-WindowsFeature<ept id="p2">](https://technet.microsoft.com/en-us/library/jj205469.aspx)</ept> cmdlet, and not the display name of the roles or features.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Credential</source>
+          <target state="new">Credential</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The credentials to use to add or remove the roles or features.</source>
+          <target state="new">The credentials to use to add or remove the roles or features.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Ensure</source>
+          <target state="new">Ensure</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Indicates whether the roles or features are added.</source>
+          <target state="new">Indicates whether the roles or features are added.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To ensure that the roles or features are added, set this property to "Present" To ensure that the roles or features are removed, set the property to "Absent".</source>
+          <target state="new">To ensure that the roles or features are added, set this property to "Present" To ensure that the roles or features are removed, set the property to "Absent".</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>IncludeAllSubFeature</source>
+          <target state="new">IncludeAllSubFeature</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Set this property to <bpt id="p1">**</bpt>$true<ept id="p1">**</ept> to include all required subfeatures with of the features you specify with the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> property.</source>
+          <target state="new">Set this property to <bpt id="p1">**</bpt>$true<ept id="p1">**</ept> to include all required subfeatures with of the features you specify with the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> property.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>LogPath</source>
+          <target state="new">LogPath</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The path to a log file where you want the resource provider to log the operation.</source>
+          <target state="new">The path to a log file where you want the resource provider to log the operation.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Source</source>
+          <target state="new">Source</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Indicates the location of the source file to use for installation, if necessary.</source>
+          <target state="new">Indicates the location of the source file to use for installation, if necessary.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="new">Example</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following configuration ensures that the <bpt id="p1">**</bpt>Web-Server<ept id="p1">**</ept> (IIS) and <bpt id="p2">**</bpt>SMTP Server<ept id="p2">**</ept> features, and all subfeatures of each, are installed.</source>
+          <target state="new">The following configuration ensures that the <bpt id="p1">**</bpt>Web-Server<ept id="p1">**</ept> (IIS) and <bpt id="p2">**</bpt>SMTP Server<ept id="p2">**</ept> features, and all subfeatures of each, are installed.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

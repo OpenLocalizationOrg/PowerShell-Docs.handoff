@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">96204a0ce674cacd5b830f9f8b820ce3e1cbbc20</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Collecting-Information-About-Computers.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffccd6022edb98fc90a5267ce952f1d904b7bf9e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5022f3c73efcc1a43678e25cdeec88748b55576</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Collecting Information About Computers</source>
+          <target state="new">Collecting Information About Computers</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Collecting Information About Computers</source>
+          <target state="new">Collecting Information About Computers</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> is the most important cmdlet for general system management tasks.</source>
+          <target state="new"><bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> is the most important cmdlet for general system management tasks.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>All critical subsystem settings are exposed through WMI.</source>
+          <target state="new">All critical subsystem settings are exposed through WMI.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Furthermore, WMI treats data as objects that are in collections of one or more items.</source>
+          <target state="new">Furthermore, WMI treats data as objects that are in collections of one or more items.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell also works with objects and has a pipeline that allows you to treat single or multiple objects in the same way, generic WMI access allows you to perform some advanced tasks with very little work.</source>
+          <target state="new">Because Windows PowerShell also works with objects and has a pipeline that allows you to treat single or multiple objects in the same way, generic WMI access allows you to perform some advanced tasks with very little work.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following examples demonstrate how to collect specific information by using <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> against an arbitrary computer.</source>
+          <target state="new">The following examples demonstrate how to collect specific information by using <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> against an arbitrary computer.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We specify the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter with the dot value (<bpt id="p2">**</bpt>.<ept id="p2">**</ept>), which represents the local computer.</source>
+          <target state="new">We specify the <bpt id="p1">**</bpt>ComputerName<ept id="p1">**</ept> parameter with the dot value (<bpt id="p2">**</bpt>.<ept id="p2">**</ept>), which represents the local computer.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can specify a name or IP address associated with any computer you can reach through WMI.</source>
+          <target state="new">You can specify a name or IP address associated with any computer you can reach through WMI.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To retrieve information about the local computer, you could omit the <bpt id="p1">**</bpt>-ComputerName.<ept id="p1">**</ept></source>
+          <target state="new">To retrieve information about the local computer, you could omit the <bpt id="p1">**</bpt>-ComputerName.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Listing Desktop Settings</source>
+          <target state="new">Listing Desktop Settings</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>We'll begin with a command that collects information about the desktops on the local computer.</source>
+          <target state="new">We'll begin with a command that collects information about the desktops on the local computer.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This returns information for all desktops, whether they are in use or not.</source>
+          <target state="new">This returns information for all desktops, whether they are in use or not.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Information returned by some WMI classes can be very detailed, and often include metadata about the WMI class.</source>
+          <target state="new">Information returned by some WMI classes can be very detailed, and often include metadata about the WMI class.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because most of these metadata properties have names that begin with a double underscore, you can filter the properties using Select-Object.</source>
+          <target state="new">Because most of these metadata properties have names that begin with a double underscore, you can filter the properties using Select-Object.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Specify only properties that begin with alphabetic characters by using <bpt id="p1">**</bpt>[a-z]<ept id="p1">**</ept>* as the Property value.</source>
+          <target state="new">Specify only properties that begin with alphabetic characters by using <bpt id="p1">**</bpt>[a-z]<ept id="p1">**</ept>* as the Property value.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To filter out the metadata, use a pipeline operator (|) to send the results of the Get-WmiObject command to <bpt id="p1">**</bpt>Select-Object -Property [a-z]<ept id="p1">**</ept>*.</source>
+          <target state="new">To filter out the metadata, use a pipeline operator (|) to send the results of the Get-WmiObject command to <bpt id="p1">**</bpt>Select-Object -Property [a-z]<ept id="p1">**</ept>*.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Listing BIOS Information</source>
+          <target state="new">Listing BIOS Information</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The WMI Win32_BIOS class returns fairly compact and complete information about the system BIOS on the local computer:</source>
+          <target state="new">The WMI Win32_BIOS class returns fairly compact and complete information about the system BIOS on the local computer:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Listing Processor Information</source>
+          <target state="new">Listing Processor Information</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can retrieve general processor information by using WMI's <bpt id="p1">**</bpt>Win32_Processor<ept id="p1">**</ept> class, although you will likely want to filter the information:</source>
+          <target state="new">You can retrieve general processor information by using WMI's <bpt id="p1">**</bpt>Win32_Processor<ept id="p1">**</ept> class, although you will likely want to filter the information:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For a generic description string of the processor family, you can just return the <bpt id="p1">**</bpt>SystemType<ept id="p1">**</ept> property:</source>
+          <target state="new">For a generic description string of the processor family, you can just return the <bpt id="p1">**</bpt>SystemType<ept id="p1">**</ept> property:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Listing Computer Manufacturer and Model</source>
+          <target state="new">Listing Computer Manufacturer and Model</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Computer model information is also available from <bpt id="p1">**</bpt>Win32_ComputerSystem<ept id="p1">**</ept>.</source>
+          <target state="new">Computer model information is also available from <bpt id="p1">**</bpt>Win32_ComputerSystem<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The standard displayed output will not need any filtering to provide OEM data:</source>
+          <target state="new">The standard displayed output will not need any filtering to provide OEM data:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Your output from commands such as this, which return information directly from some hardware, is only as good as the data you have.</source>
+          <target state="new">Your output from commands such as this, which return information directly from some hardware, is only as good as the data you have.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Some information is not correctly configured by hardware manufacturers and may therefore be unavailable.</source>
+          <target state="new">Some information is not correctly configured by hardware manufacturers and may therefore be unavailable.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Listing Installed Hotfixes</source>
+          <target state="new">Listing Installed Hotfixes</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can list all installed hotfixes by using <bpt id="p1">**</bpt>Win32_QuickFixEngineering<ept id="p1">**</ept>:</source>
+          <target state="new">You can list all installed hotfixes by using <bpt id="p1">**</bpt>Win32_QuickFixEngineering<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This class returns a list of hotfixes that looks like this:</source>
+          <target state="new">This class returns a list of hotfixes that looks like this:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more succinct output, you may want to exclude some properties.</source>
+          <target state="new">For more succinct output, you may want to exclude some properties.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Although you can use the <bpt id="p1">**</bpt>Get-WmiObject's Property<ept id="p1">**</ept> parameter to choose only the <bpt id="p2">**</bpt>HotFixID<ept id="p2">**</ept>, doing so will actually return more information, because all the metadata is displayed by default:</source>
+          <target state="new">Although you can use the <bpt id="p1">**</bpt>Get-WmiObject's Property<ept id="p1">**</ept> parameter to choose only the <bpt id="p2">**</bpt>HotFixID<ept id="p2">**</ept>, doing so will actually return more information, because all the metadata is displayed by default:</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The additional data is returned, because the Property parameter in <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> restricts the properties returned from WMI class instances, not the object returned to Windows PowerShell.</source>
+          <target state="new">The additional data is returned, because the Property parameter in <bpt id="p1">**</bpt>Get-WmiObject<ept id="p1">**</ept> restricts the properties returned from WMI class instances, not the object returned to Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To reduce the output, use <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept>:</source>
+          <target state="new">To reduce the output, use <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Listing Operating System Version Information</source>
+          <target state="new">Listing Operating System Version Information</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> class properties include version and service pack information.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> class properties include version and service pack information.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can explicitly select only these properties to get a version information summary from <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept>:</source>
+          <target state="new">You can explicitly select only these properties to get a version information summary from <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can also use wildcards with the <bpt id="p1">**</bpt>Select-Object's Property<ept id="p1">**</ept> parameter.</source>
+          <target state="new">You can also use wildcards with the <bpt id="p1">**</bpt>Select-Object's Property<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Because all the properties beginning with either <bpt id="p1">**</bpt>Build<ept id="p1">**</ept> or <bpt id="p2">**</bpt>ServicePack<ept id="p2">**</ept> are important to use here, we can shorten this to the following form:</source>
+          <target state="new">Because all the properties beginning with either <bpt id="p1">**</bpt>Build<ept id="p1">**</ept> or <bpt id="p2">**</bpt>ServicePack<ept id="p2">**</ept> are important to use here, we can shorten this to the following form:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Listing Local Users and Owner</source>
+          <target state="new">Listing Local Users and Owner</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Local general user information—number of licensed users, current number of users, and owner name—can be found with a selection of <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> properties.</source>
+          <target state="new">Local general user information—number of licensed users, current number of users, and owner name—can be found with a selection of <bpt id="p1">**</bpt>Win32_OperatingSystem<ept id="p1">**</ept> properties.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can explicitly select the properties to display like this:</source>
+          <target state="new">You can explicitly select the properties to display like this:</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A more succinct version using wildcards is:</source>
+          <target state="new">A more succinct version using wildcards is:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Getting Available Disk Space</source>
+          <target state="new">Getting Available Disk Space</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To see the disk space and free space for local drives, you can use the WMI Win32_LogicalDisk class.</source>
+          <target state="new">To see the disk space and free space for local drives, you can use the WMI Win32_LogicalDisk class.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You need to see only instances with a DriveType of 3—the value WMI uses for fixed hard disks.</source>
+          <target state="new">You need to see only instances with a DriveType of 3—the value WMI uses for fixed hard disks.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Getting Logon Session Information</source>
+          <target state="new">Getting Logon Session Information</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can get general information about logon sessions associated with users through the WMI Win32_LogonSession class:</source>
+          <target state="new">You can get general information about logon sessions associated with users through the WMI Win32_LogonSession class:</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Getting the User Logged on to a Computer</source>
+          <target state="new">Getting the User Logged on to a Computer</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can display the user logged on to a particular computer system using Win32_ComputerSystem.</source>
+          <target state="new">You can display the user logged on to a particular computer system using Win32_ComputerSystem.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This command returns only the user logged on to the system desktop:</source>
+          <target state="new">This command returns only the user logged on to the system desktop:</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Getting Local Time from a Computer</source>
+          <target state="new">Getting Local Time from a Computer</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can retrieve the current local time on a specific computer by using the WMI Win32_LocalTime class.</source>
+          <target state="new">You can retrieve the current local time on a specific computer by using the WMI Win32_LocalTime class.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Because this class by default displays all metadata, you may want to filter it using <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept>:</source>
+          <target state="new">Because this class by default displays all metadata, you may want to filter it using <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Displaying Service Status</source>
+          <target state="new">Displaying Service Status</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To view the status of all services on a specific computer, you can locally use the <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> cmdlet as mentioned earlier.</source>
+          <target state="new">To view the status of all services on a specific computer, you can locally use the <bpt id="p1">**</bpt>Get-Service<ept id="p1">**</ept> cmdlet as mentioned earlier.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For remote systems, you can use the WMI Win32_Service class.</source>
+          <target state="new">For remote systems, you can use the WMI Win32_Service class.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you also use <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> to filter the results to <bpt id="p2">**</bpt>Status<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Name<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>DisplayName<ept id="p4">**</ept>, the output format will be almost identical to that from <bpt id="p5">**</bpt>Get-Service<ept id="p5">**</ept>:</source>
+          <target state="new">If you also use <bpt id="p1">**</bpt>Select-Object<ept id="p1">**</ept> to filter the results to <bpt id="p2">**</bpt>Status<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Name<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>DisplayName<ept id="p4">**</ept>, the output format will be almost identical to that from <bpt id="p5">**</bpt>Get-Service<ept id="p5">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To allow the complete display of names for the occasional services with extremely long names, you may want to use <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> with the <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Wrap<ept id="p3">**</ept> parameters, to optimize column width and allow long names to wrap instead of being truncated:</source>
+          <target state="new">To allow the complete display of names for the occasional services with extremely long names, you may want to use <bpt id="p1">**</bpt>Format-Table<ept id="p1">**</ept> with the <bpt id="p2">**</bpt>AutoSize<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Wrap<ept id="p3">**</ept> parameters, to optimize column width and allow long names to wrap instead of being truncated:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bbfc31fdebdde83ac1784373b51af40b1dc9492</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\pullServer.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c0074589d743147d82f7e1974db5492d61f86af5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b82effc3099b07e4daa2eaeae3347b9f5bbad46c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC web pull server</source>
+          <target state="new">Setting up a DSC web pull server</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC web pull server</source>
+          <target state="new">Setting up a DSC web pull server</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A DSC web pull server is a web service in IIS that uses an OData interface to make DSC configuration files available to target nodes when those nodes ask for them.</source>
+          <target state="new">A DSC web pull server is a web service in IIS that uses an OData interface to make DSC configuration files available to target nodes when those nodes ask for them.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Requirements for using a pull server:</source>
+          <target state="new">Requirements for using a pull server:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A server running:</source>
+          <target state="new">A server running:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>WMF/PowerShell 5.0 or greater</source>
+          <target state="new">WMF/PowerShell 5.0 or greater</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>IIS server role</source>
+          <target state="new">IIS server role</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DSC Service</source>
+          <target state="new">DSC Service</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Ideally, some means of generating a certificate, to secure credentials passed to the Local Configuration Manager (LCM) on target nodes</source>
+          <target state="new">Ideally, some means of generating a certificate, to secure credentials passed to the Local Configuration Manager (LCM) on target nodes</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can add the IIS server role and DSC Service with the Add Roles and Features wizard in Server Manager, or by using PowerShell.</source>
+          <target state="new">You can add the IIS server role and DSC Service with the Add Roles and Features wizard in Server Manager, or by using PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The sample scripts included in this topic will handle both of these steps for you as well.</source>
+          <target state="new">The sample scripts included in this topic will handle both of these steps for you as well.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using the xWebService resource</source>
+          <target state="new">Using the xWebService resource</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The easiest way to set up a web pull server is to use the xWebService resource, included in the xPSDesiredStateConfiguration module.</source>
+          <target state="new">The easiest way to set up a web pull server is to use the xWebService resource, included in the xPSDesiredStateConfiguration module.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following steps explain how to use the resource in a configuration that sets up the web service.</source>
+          <target state="new">The following steps explain how to use the resource in a configuration that sets up the web service.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Call the <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to install the <bpt id="p2">**</bpt>xPSDesiredStateConfiguration<ept id="p2">**</ept> module.</source>
+          <target state="new">Call the <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to install the <bpt id="p2">**</bpt>xPSDesiredStateConfiguration<ept id="p2">**</ept> module.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
+          <target state="new">You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Get an SSL certificate for the DSC Pull server from a trusted Certificate Authority, either within your orgnaization or a public authority.</source>
+          <target state="new">Get an SSL certificate for the DSC Pull server from a trusted Certificate Authority, either within your orgnaization or a public authority.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The certificate recieved from the authority is usually in the PFX format.</source>
+          <target state="new">The certificate recieved from the authority is usually in the PFX format.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Install the certificate on the node that will become the DSC Pull server in the default location which should be CERT:\LocalMachine\My.</source>
+          <target state="new">Install the certificate on the node that will become the DSC Pull server in the default location which should be CERT:\LocalMachine\My.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Make a note of the certificate thumbprint.</source>
+          <target state="new">Make a note of the certificate thumbprint.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select a GUID to be used as the Registration Key.</source>
+          <target state="new">Select a GUID to be used as the Registration Key.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To generate one using PowerShell enter the following at the PS prompt and press enter: '<ph id="ph1">``` [guid]::newGuid()```</ph>'.</source>
+          <target state="new">To generate one using PowerShell enter the following at the PS prompt and press enter: '<ph id="ph1">``` [guid]::newGuid()```</ph>'.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This key will be used by client nodes as a shared key to authenticate during registration.</source>
+          <target state="new">This key will be used by client nodes as a shared key to authenticate during registration.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p1">[</bpt>Registration Key<ept id="p1">](#RegKey)</ept> section below.</source>
+          <target state="new">For more information see <bpt id="p1">[</bpt>Registration Key<ept id="p1">](#RegKey)</ept> section below.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the PowerShell ISE, start (F5) the following configuration script (included in the Example folder of the  <bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> module as Sample_xDscWebService.ps1).</source>
+          <target state="new">In the PowerShell ISE, start (F5) the following configuration script (included in the Example folder of the  <bpt id="p1">**</bpt>xPSDesiredStateConfiguration<ept id="p1">**</ept> module as Sample_xDscWebService.ps1).</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This script sets up the pull server.</source>
+          <target state="new">This script sets up the pull server.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Run the configuration, passing the thumbprint of the SSL certificate as the <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept> parameter and a GUID registration key as the <bpt id="p2">**</bpt>RegistrationKey<ept id="p2">**</ept> parameter:</source>
+          <target state="new">Run the configuration, passing the thumbprint of the SSL certificate as the <bpt id="p1">**</bpt>certificateThumbPrint<ept id="p1">**</ept> parameter and a GUID registration key as the <bpt id="p2">**</bpt>RegistrationKey<ept id="p2">**</ept> parameter:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Registration Key</source>
+          <target state="new">Registration Key</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To allow client nodes to register with the server so that they can use configuration names instead of a configuration ID, a registration key which was created by the above configuration is saved in a file named <ph id="ph1">`RegistrationKeys.txt`</ph> in <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</source>
+          <target state="new">To allow client nodes to register with the server so that they can use configuration names instead of a configuration ID, a registration key which was created by the above configuration is saved in a file named <ph id="ph1">`RegistrationKeys.txt`</ph> in <ph id="ph2">`C:\Program Files\WindowsPowerShell\DscService`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The registration key functions as a shared secret used during the initial registration by the client with the pull server.</source>
+          <target state="new">The registration key functions as a shared secret used during the initial registration by the client with the pull server.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The client will generate a self-signed certificate which is used to uniquely authenticate to the pull server once registration is successfully completed.</source>
+          <target state="new">The client will generate a self-signed certificate which is used to uniquely authenticate to the pull server once registration is successfully completed.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The thumbprint of the this certificate is stored locally and associated with the URL of the pull server.</source>
+          <target state="new">The thumbprint of the this certificate is stored locally and associated with the URL of the pull server.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: Registration keys are not supported in PowerShell 4.0.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: Registration keys are not supported in PowerShell 4.0.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In order to configure the a node to authenticate with the pull server the registration key needs to be in the metaconfiguration for any target node that will be registering with this pull server.</source>
+          <target state="new">In order to configure the a node to authenticate with the pull server the registration key needs to be in the metaconfiguration for any target node that will be registering with this pull server.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Note that the <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> in the metaconfiguration below is removed after the target machine has successfully registered, and that the value '140a952b-b9d6-406b-b416-e0f759c9c0e4' must match the value stored in the RegistrationKeys.txt file on the pull server.</source>
+          <target state="new">Note that the <bpt id="p1">**</bpt>RegistrationKey<ept id="p1">**</ept> in the metaconfiguration below is removed after the target machine has successfully registered, and that the value '140a952b-b9d6-406b-b416-e0f759c9c0e4' must match the value stored in the RegistrationKeys.txt file on the pull server.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Always treat the registration key value securely, because knowing it allows any target machine to register with the pull server.</source>
+          <target state="new">Always treat the registration key value securely, because knowing it allows any target machine to register with the pull server.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: The <bpt id="p2">**</bpt>ReportServerWeb<ept id="p2">**</ept> section allows reporting data to be sent to the pull server.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: The <bpt id="p2">**</bpt>ReportServerWeb<ept id="p2">**</ept> section allows reporting data to be sent to the pull server.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The lack of the <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> property in the metaconfiguration file implicitly means that pull server is supporting the V2 version of the pull server protocol so an initial registration is required.</source>
+          <target state="new">The lack of the <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> property in the metaconfiguration file implicitly means that pull server is supporting the V2 version of the pull server protocol so an initial registration is required.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Conversely, the presence of a <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> means that the V1 version of the pull server protocol is used and there is no registration processing.</source>
+          <target state="new">Conversely, the presence of a <bpt id="p1">**</bpt>ConfigurationID<ept id="p1">**</ept> means that the V1 version of the pull server protocol is used and there is no registration processing.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: In a PUSH scenario, a bug exists in the current relase that makes it necessary to define a ConfigurationID property in the metaconfiguration file for nodes that have never registered with a pull server.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: In a PUSH scenario, a bug exists in the current relase that makes it necessary to define a ConfigurationID property in the metaconfiguration file for nodes that have never registered with a pull server.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This will force the V1 Pull Server protocol and avoid registration failure messages.</source>
+          <target state="new">This will force the V1 Pull Server protocol and avoid registration failure messages.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Placing configurations and resources</source>
+          <target state="new">Placing configurations and resources</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>After the pull server setup completes, the folders defined by the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModulePath<ept id="p2">**</ept> properties in the pull server configuration are where you will place modules and configurations that will be available for target nodes to pull.</source>
+          <target state="new">After the pull server setup completes, the folders defined by the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ModulePath<ept id="p2">**</ept> properties in the pull server configuration are where you will place modules and configurations that will be available for target nodes to pull.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>These files need to be in a specific format in order for the pull server to correctly process them.</source>
+          <target state="new">These files need to be in a specific format in order for the pull server to correctly process them.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>DSC resource module package format</source>
+          <target state="new">DSC resource module package format</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Each resource module needs to be zipped and named according the the following pattern <bpt id="p1">**</bpt>{Module Name}_{Module Version}.zip<ept id="p1">**</ept>.</source>
+          <target state="new">Each resource module needs to be zipped and named according the the following pattern <bpt id="p1">**</bpt>{Module Name}_{Module Version}.zip<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, a module named xWebAdminstration with a module version of 3.1.2.0 would be named 'xWebAdministration_3.2.1.0.zip'.</source>
+          <target state="new">For example, a module named xWebAdminstration with a module version of 3.1.2.0 would be named 'xWebAdministration_3.2.1.0.zip'.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Each version of a module must be contained in a single zip file.</source>
+          <target state="new">Each version of a module must be contained in a single zip file.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Since there is only a single version of a resource in each zip file the module format added in WMF 5.0 with support for multiple module versions in a single directory is not supported.</source>
+          <target state="new">Since there is only a single version of a resource in each zip file the module format added in WMF 5.0 with support for multiple module versions in a single directory is not supported.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This means that before packaging up DSC resource modules for use with pull server you will need to make a small change to the directory structure.</source>
+          <target state="new">This means that before packaging up DSC resource modules for use with pull server you will need to make a small change to the directory structure.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The default format of modules containing DSC resource in WMF 5.0 is '{Module Folder}\{Module Version}\DscResources\{DSC Resource Folder}\'.</source>
+          <target state="new">The default format of modules containing DSC resource in WMF 5.0 is '{Module Folder}\{Module Version}\DscResources\{DSC Resource Folder}\'.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Before packaging up for the pull server simply remove the <bpt id="p1">**</bpt>{Module version}<ept id="p1">**</ept> folder so the path becomes '{Module Folder}\DscResources\{DSC Resource Folder}\'.</source>
+          <target state="new">Before packaging up for the pull server simply remove the <bpt id="p1">**</bpt>{Module version}<ept id="p1">**</ept> folder so the path becomes '{Module Folder}\DscResources\{DSC Resource Folder}\'.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>With this change, zip the folder as described above and place these zip files in the <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept> folder.</source>
+          <target state="new">With this change, zip the folder as described above and place these zip files in the <bpt id="p1">**</bpt>ModulePath<ept id="p1">**</ept> folder.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Configuration MOF format</source>
+          <target state="new">Configuration MOF format</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</source>
+          <target state="new">A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
+          <target state="new">To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
+          <target state="new">The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
+          <target state="new">The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
+          <target state="new">If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Place the MOF files and their associated checksum files in the the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> folder.</source>
+          <target state="new">Place the MOF files and their associated checksum files in the the <bpt id="p1">**</bpt>ConfigurationPath<ept id="p1">**</ept> folder.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Tooling</source>
+          <target state="new">Tooling</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In order to make setting up, validating and managing the pull server easier, the following tools are included as examples in the latest version of the xPSDesiredStateConfiguration module:</source>
+          <target state="new">In order to make setting up, validating and managing the pull server easier, the following tools are included as examples in the latest version of the xPSDesiredStateConfiguration module:</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A module that will help with packaging DSC resource modules and configuration files for use on the pull server.</source>
+          <target state="new">A module that will help with packaging DSC resource modules and configuration files for use on the pull server.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>.</source>
+          <target state="new"><bpt id="p1">[</bpt>PublishModulesAndMofsToPullServer.psm1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCPullServerSetup/PublishModulesAndMofsToPullServer.psm1)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Examples below:</source>
+          <target state="new">Examples below:</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A script that validates the Pull Server is configured correctly.</source>
+          <target state="new">A script that validates the Pull Server is configured correctly.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>.</source>
+          <target state="new"><bpt id="p1">[</bpt>PullServerSetupTests.ps1<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/Examples/PullServerDeploymentVerificationTest/PullServerSetupTests.ps1)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Pull client configuration</source>
+          <target state="new">Pull client configuration</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The following topics describe setting up pull clients in detail:</source>
+          <target state="new">The following topics describe setting up pull clients in detail:</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting up a DSC pull client using a configuration ID<ept id="p1">](pullClientConfigID.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Setting up a DSC pull client using a configuration ID<ept id="p1">](pullClientConfigID.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting up a DSC pull client using configuration names<ept id="p1">](pullClientConfigNames.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Setting up a DSC pull client using configuration names<ept id="p1">](pullClientConfigNames.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Partial configurations<ept id="p1">](partialConfigs.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Partial configurations<ept id="p1">](partialConfigs.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Overview<ept id="p1">](overview.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Overview<ept id="p1">](overview.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Enacting configurations<ept id="p1">](enactingConfigurations.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enacting configurations<ept id="p1">](enactingConfigurations.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using a DSC report server<ept id="p1">](reportServer.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Using a DSC report server<ept id="p1">](reportServer.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

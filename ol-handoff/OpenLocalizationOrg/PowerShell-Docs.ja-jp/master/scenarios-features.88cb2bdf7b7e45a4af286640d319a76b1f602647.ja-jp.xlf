@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9611a7da48a849b52821ac2890e1ea60441a75e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\scenarios-features.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">968f16c69dc9c807d0e3e1d0f96a3545efdbab12</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4c56b97d03227ab7e2fdbb13dd3c3ac72a169224</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>New Scenarios and Features in WMF 5.1 (Preview)</source>
+          <target state="new">New Scenarios and Features in WMF 5.1 (Preview)</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell, DSC, WMF</source>
+          <target state="new">PowerShell, DSC, WMF</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>New Scenarios and Features in WMF 5.1 (Preview)</source>
+          <target state="new">New Scenarios and Features in WMF 5.1 (Preview)</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Note: This information is preliminary and subject to change.</source>
+          <target state="new">Note: This information is preliminary and subject to change.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>PowerShell Editions</source>
+          <target state="new">PowerShell Editions</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Starting with version 5.1, PowerShell is available in different editions which denote varying feature sets and platform compatibility.</source>
+          <target state="new">Starting with version 5.1, PowerShell is available in different editions which denote varying feature sets and platform compatibility.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Desktop Edition:<ept id="p1">**</ept> Built on .NET Framework and provides compatibility with scripts and modules targeting versions of PowerShell running on full footprint editions of Windows such as Server Core and Windows Desktop.</source>
+          <target state="new"><bpt id="p1">**</bpt>Desktop Edition:<ept id="p1">**</ept> Built on .NET Framework and provides compatibility with scripts and modules targeting versions of PowerShell running on full footprint editions of Windows such as Server Core and Windows Desktop.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Core Edition:<ept id="p1">**</ept> Built on .NET Core and provides compatibility with scripts and modules targeting versions of PowerShell running on reduced footprint editions of Windows such as Nano Server and Windows IoT.</source>
+          <target state="new"><bpt id="p1">**</bpt>Core Edition:<ept id="p1">**</ept> Built on .NET Core and provides compatibility with scripts and modules targeting versions of PowerShell running on reduced footprint editions of Windows such as Nano Server and Windows IoT.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Learn more about using PowerShell Editions<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Learn more about using PowerShell Editions<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Determine running edition of PowerShell<ept id="p1">]()</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Determine running edition of PowerShell<ept id="p1">]()</ept></target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Declare a module's compatibility to specific PowerShell versions<ept id="p1">]()</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Declare a module's compatibility to specific PowerShell versions<ept id="p1">]()</ept></target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Filter Get-Module results by CompatiblePSEditions<ept id="p1">]()</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Filter Get-Module results by CompatiblePSEditions<ept id="p1">]()</ept></target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Prevent script execution unless run on a compatible edition of PowerShell<ept id="p1">]()</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Prevent script execution unless run on a compatible edition of PowerShell<ept id="p1">]()</ept></target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Catalog Cmdlets</source>
+          <target state="new">Catalog Cmdlets</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Two new cmdlets have been added in the <bpt id="p1">[</bpt>Microsoft.PowerShell.Security<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> module; these generate and validate Windows catalog files.</source>
+          <target state="new">Two new cmdlets have been added in the <bpt id="p1">[</bpt>Microsoft.PowerShell.Security<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> module; these generate and validate Windows catalog files.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>New-FileCatalog</source>
+          <target state="new">New-FileCatalog</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>New-FileCatalog creates a Windows catalog file for set of folders and files.</source>
+          <target state="new">New-FileCatalog creates a Windows catalog file for set of folders and files.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This catalog file contains hashes for all files in specified paths.</source>
+          <target state="new">This catalog file contains hashes for all files in specified paths.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Users can distribute the set of folders along with corresponding catalog file representing those folders.</source>
+          <target state="new">Users can distribute the set of folders along with corresponding catalog file representing those folders.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This information is useful to validate whether any changes have been made to the folders since catalog creation time.</source>
+          <target state="new">This information is useful to validate whether any changes have been made to the folders since catalog creation time.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Catalog versions 1 and 2 are supported.</source>
+          <target state="new">Catalog versions 1 and 2 are supported.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Version 1 uses the SHA1 hashing algorithm to create file hashes; version 2 uses SHA256.</source>
+          <target state="new">Version 1 uses the SHA1 hashing algorithm to create file hashes; version 2 uses SHA256.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Catalog version 2 is not supported on <bpt id="p1">*</bpt>Windows Server 2008 R2<ept id="p1">*</ept> or <bpt id="p2">*</bpt>Windows 7<ept id="p2">*</ept>.</source>
+          <target state="new">Catalog version 2 is not supported on <bpt id="p1">*</bpt>Windows Server 2008 R2<ept id="p1">*</ept> or <bpt id="p2">*</bpt>Windows 7<ept id="p2">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You should use catalog version 2 on <bpt id="p1">*</bpt>Windows 8<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Windows Server 2012<ept id="p2">*</ept>, and later operating systems.</source>
+          <target state="new">You should use catalog version 2 on <bpt id="p1">*</bpt>Windows 8<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Windows Server 2012<ept id="p2">*</ept>, and later operating systems.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This creates the catalog file.</source>
+          <target state="new">This creates the catalog file.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To verify the integrity of catalog file (Pester.cat in above example), sign it using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> cmdlet.</source>
+          <target state="new">To verify the integrity of catalog file (Pester.cat in above example), sign it using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Test-FileCatalog</source>
+          <target state="new">Test-FileCatalog</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Test-FileCatalog validates the catalog representing a set of folders.</source>
+          <target state="new">Test-FileCatalog validates the catalog representing a set of folders.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This cmdlet compares all the files hashes and their relative paths found in <bpt id="p1">*</bpt>catalog<ept id="p1">*</ept> with ones on <bpt id="p2">*</bpt>disk<ept id="p2">*</ept>.</source>
+          <target state="new">This cmdlet compares all the files hashes and their relative paths found in <bpt id="p1">*</bpt>catalog<ept id="p1">*</ept> with ones on <bpt id="p2">*</bpt>disk<ept id="p2">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If it detects any mismatch between file hashes and paths it returns the status as <bpt id="p1">*</bpt>ValidationFailed<ept id="p1">*</ept>.</source>
+          <target state="new">If it detects any mismatch between file hashes and paths it returns the status as <bpt id="p1">*</bpt>ValidationFailed<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Users can retrieve all this information by using the <bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> parameter.</source>
+          <target state="new">Users can retrieve all this information by using the <bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It also displays signing status of catalog in <bpt id="p1">*</bpt>Signature<ept id="p1">*</ept> property which is equivalent to calling <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> cmdlet on the catalog file.</source>
+          <target state="new">It also displays signing status of catalog in <bpt id="p1">*</bpt>Signature<ept id="p1">*</ept> property which is equivalent to calling <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> cmdlet on the catalog file.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Users can also skip any file during validation by using the <bpt id="p1">*</bpt>-FilesToSkip<ept id="p1">*</ept> parameter.</source>
+          <target state="new">Users can also skip any file during validation by using the <bpt id="p1">*</bpt>-FilesToSkip<ept id="p1">*</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Module Analysis Cache</source>
+          <target state="new">Module Analysis Cache</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Starting with WMF 5.1, PowerShell provides control over the file that is used to cache data about a module, such as the commands it exports.</source>
+          <target state="new">Starting with WMF 5.1, PowerShell provides control over the file that is used to cache data about a module, such as the commands it exports.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>By default, this cache is stored in the file <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</source>
+          <target state="new">By default, this cache is stored in the file <ph id="ph1">`${env:LOCALAPPDATA}\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The cache is typically read at startup while searching for a command and is written on a background thread sometime after a module is imported.</source>
+          <target state="new">The cache is typically read at startup while searching for a command and is written on a background thread sometime after a module is imported.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To change the default location of the cache, set the <ph id="ph1">`$env:PSModuleAnalysisCachePath`</ph> environment variable before starting PowerShell.</source>
+          <target state="new">To change the default location of the cache, set the <ph id="ph1">`$env:PSModuleAnalysisCachePath`</ph> environment variable before starting PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Changes to this environment variable will only affect children processes.</source>
+          <target state="new">Changes to this environment variable will only affect children processes.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The value should name a full path (including filename) that PowerShell has permission to create and write files.</source>
+          <target state="new">The value should name a full path (including filename) that PowerShell has permission to create and write files.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To disable the file cache, set this value to an invalid location, for example:</source>
+          <target state="new">To disable the file cache, set this value to an invalid location, for example:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This sets the path to an invalid device.</source>
+          <target state="new">This sets the path to an invalid device.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If PowerShell can't write to the path, no error is returned, but you can see error reporting by using a tracer:</source>
+          <target state="new">If PowerShell can't write to the path, no error is returned, but you can see error reporting by using a tracer:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When writing out the cache, PowerShell will check for modules that no longer exist to avoid an unnecessarily large cache.</source>
+          <target state="new">When writing out the cache, PowerShell will check for modules that no longer exist to avoid an unnecessarily large cache.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Sometimes these checks are not desirable, in which case you can turn them off by setting:</source>
+          <target state="new">Sometimes these checks are not desirable, in which case you can turn them off by setting:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Setting this environment variable will take effect immediately in the current process.</source>
+          <target state="new">Setting this environment variable will take effect immediately in the current process.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifying module version</source>
+          <target state="new">Specifying module version</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, <ph id="ph1">`using module`</ph> behaves the same way as other module-related constructions in PowerShell.</source>
+          <target state="new">In WMF 5.1, <ph id="ph1">`using module`</ph> behaves the same way as other module-related constructions in PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Previously, you had no way to specify a particular module version; if there were multiple versions present, this resulted in an error.</source>
+          <target state="new">Previously, you had no way to specify a particular module version; if there were multiple versions present, this resulted in an error.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1:</source>
+          <target state="new">In WMF 5.1:</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can use <ph id="ph1">`ModuleSpecification`</ph> <bpt id="p1">[</bpt>hash table<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj136290(v=vs.85).aspx)</ept>.</source>
+          <target state="new">You can use <ph id="ph1">`ModuleSpecification`</ph> <bpt id="p1">[</bpt>hash table<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj136290(v=vs.85).aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This hash table has the same format as <ph id="ph1">`Get-Module -FullyQualifiedName`</ph>.</source>
+          <target state="new">This hash table has the same format as <ph id="ph1">`Get-Module -FullyQualifiedName`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept> <ph id="ph1">`using module @{ModuleName = 'PSReadLine'; RequiredVersion = '1.1'}`</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept> <ph id="ph1">`using module @{ModuleName = 'PSReadLine'; RequiredVersion = '1.1'}`</ph></target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If there are multiple versions of the module, PowerShell uses the <bpt id="p1">**</bpt>same resolution logic<ept id="p1">**</ept> as <ph id="ph1">`Import-Module`</ph> and doesn't return an error--the same behavior as <ph id="ph2">`Import-Module`</ph> and <ph id="ph3">`Import-DscResource`</ph>.</source>
+          <target state="new">If there are multiple versions of the module, PowerShell uses the <bpt id="p1">**</bpt>same resolution logic<ept id="p1">**</ept> as <ph id="ph1">`Import-Module`</ph> and doesn't return an error--the same behavior as <ph id="ph2">`Import-Module`</ph> and <ph id="ph3">`Import-DscResource`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Improvements to Pester</source>
+          <target state="new">Improvements to Pester</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, the version of Pester that ships with PowerShell has been updated from 3.3.5 to 3.4.0, with the addition of commit https://github.com/pester/Pester/pull/484/commits/3854ae8a1f215b39697ac6c2607baf42257b102e, which enables better behavior for Pester on Nano Server.</source>
+          <target state="new">In WMF 5.1, the version of Pester that ships with PowerShell has been updated from 3.3.5 to 3.4.0, with the addition of commit https://github.com/pester/Pester/pull/484/commits/3854ae8a1f215b39697ac6c2607baf42257b102e, which enables better behavior for Pester on Nano Server.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can review the changes in versions 3.3.5 to 3.4.0 by inspecting the ChangeLog.md file at: https://github.com/pester/Pester/blob/master/CHANGELOG.md</source>
+          <target state="new">You can review the changes in versions 3.3.5 to 3.4.0 by inspecting the ChangeLog.md file at: https://github.com/pester/Pester/blob/master/CHANGELOG.md</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

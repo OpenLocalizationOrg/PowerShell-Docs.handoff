@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">16f38fece67b3872b4afcdcb6755eecb0a7db3c3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\msft-dsclocalconfigurationmanager-removeconfiguration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a60978b66371549dc50a014d69adcc04a98985ed</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">70fc6f3c5125332daa4af1407af59c113e9b1481</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>RemoveConfiguration method of the MSFT_DSCLocalConfigurationManager class</source>
+          <target state="new">RemoveConfiguration method of the MSFT_DSCLocalConfigurationManager class</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>RemoveConfiguration method of the MSFT_DSCLocalConfigurationManager class</source>
+          <target state="new">RemoveConfiguration method of the MSFT_DSCLocalConfigurationManager class</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Removes the configuration files.</source>
+          <target state="new">Removes the configuration files.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Parameters</source>
+          <target state="new">Parameters</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Stage<ept id="p1">*</ept> \[in\]</source>
+          <target state="new"><bpt id="p1">*</bpt>Stage<ept id="p1">*</ept> \[in\]</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Specifies which configuration document to remove.</source>
+          <target state="new">Specifies which configuration document to remove.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following values are valid:</source>
+          <target state="new">The following values are valid:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="new">Value</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>1<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>1<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Current<ept id="p1">**</ept> configuration document (current.mof).</source>
+          <target state="new">The <bpt id="p1">**</bpt>Current<ept id="p1">**</ept> configuration document (current.mof).</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>2<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>2<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Pending<ept id="p1">**</ept> configuration document (pending.mof).</source>
+          <target state="new">The <bpt id="p1">**</bpt>Pending<ept id="p1">**</ept> configuration document (pending.mof).</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>4<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>4<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Previous<ept id="p1">**</ept> configuration document (previous.mof).</source>
+          <target state="new">The <bpt id="p1">**</bpt>Previous<ept id="p1">**</ept> configuration document (previous.mof).</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Force<ept id="p1">*</ept> \[in\]</source>
+          <target state="new"><bpt id="p1">*</bpt>Force<ept id="p1">*</ept> \[in\]</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>true<ept id="p1">**</ept> to force the removal of the configuration.</source>
+          <target state="new"><bpt id="p1">**</bpt>true<ept id="p1">**</ept> to force the removal of the configuration.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Return value</source>
+          <target state="new">Return value</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns zero on success; otherwise returns an error code.</source>
+          <target state="new">Returns zero on success; otherwise returns an error code.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Remarks</source>
+          <target state="new">Remarks</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This is a static method.</source>
+          <target state="new">This is a static method.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Requirements</source>
+          <target state="new">Requirements</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MOF:<ept id="p1">**</ept> DscCore.mof</source>
+          <target state="new"><bpt id="p1">**</bpt>MOF:<ept id="p1">**</ept> DscCore.mof</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept>: Root\Microsoft\Windows\DesiredStateConfiguration</source>
+          <target state="new"><bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept>: Root\Microsoft\Windows\DesiredStateConfiguration</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><bpt id="p2">**</bpt>MSFT_DSCLocalConfigurationManager<ept id="p2">**</ept><ept id="p1">](msft-dsclocalconfigurationmanager.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt><bpt id="p2">**</bpt>MSFT_DSCLocalConfigurationManager<ept id="p2">**</ept><ept id="p1">](msft-dsclocalconfigurationmanager.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

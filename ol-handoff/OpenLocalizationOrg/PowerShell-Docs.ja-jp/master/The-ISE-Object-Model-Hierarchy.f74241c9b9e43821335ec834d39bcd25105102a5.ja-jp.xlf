@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12a47e57d461f1e57cd9c7b20365627378d7e87a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\The-ISE-Object-Model-Hierarchy.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b522f122cd8beeb5c9e7c1b216289d822b3e5cb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d9cc62aec0701eed00a482174f0eff7872bb21d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The ISE Object Model Hierarchy</source>
+          <target state="new">The ISE Object Model Hierarchy</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The ISE Object Model Hierarchy</source>
+          <target state="new">The ISE Object Model Hierarchy</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic shows the hierarchy of objects that are part of Windows PowerShell Integrated Scripting Environment (ISE).</source>
+          <target state="new">This topic shows the hierarchy of objects that are part of Windows PowerShell Integrated Scripting Environment (ISE).</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE is included in Windows PowerShell 3.0 and in Windows PowerShell 4.0.</source>
+          <target state="new">Windows PowerShell ISE is included in Windows PowerShell 3.0 and in Windows PowerShell 4.0.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Click an object to take you to the reference documentation for the class that defines the object.</source>
+          <target state="new">Click an object to take you to the reference documentation for the class that defines the object.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="psISE"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>$psISE Object<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">&lt;a name="psISE"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>$psISE Object<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$psISE<ept id="p1">**</ept> object is the <bpt id="p2">[</bpt>root object<ept id="p2">](The-ObjectModelRoot-Object.md)</ept> of the Windows PowerShell ISE object hierarchy.</source>
+          <target state="new">The <bpt id="p1">**</bpt>$psISE<ept id="p1">**</ept> object is the <bpt id="p2">[</bpt>root object<ept id="p2">](The-ObjectModelRoot-Object.md)</ept> of the Windows PowerShell ISE object hierarchy.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Located at the top level, it makes the following objects available for scripting:</source>
+          <target state="new">Located at the top level, it makes the following objects available for scripting:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile<ept id="p2">](#currentfile)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile<ept id="p2">](#currentfile)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab<ept id="p2">](#currentpowershelltab)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab<ept id="p2">](#currentpowershelltab)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool<ept id="p2">](#CurrentVisibleHorizontalTool)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool<ept id="p2">](#CurrentVisibleHorizontalTool)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleVerticalTool<ept id="p2">](#CurrentVisibleVerticalTool)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleVerticalTool<ept id="p2">](#CurrentVisibleVerticalTool)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options<ept id="p2">](#options)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options<ept id="p2">](#options)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.PowerShellTabs<ept id="p2">](#powershelltabs)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.PowerShellTabs<ept id="p2">](#powershelltabs)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="CurrentFile"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile<ept id="p2">](The-ISEFile-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">&lt;a name="CurrentFile"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile<ept id="p2">](The-ISEFile-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$psISE.CurrentFile<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>ISEFile<ept id="p2">](The-ISEFile-Object.md)</ept> class and makes the following objects available for scripting:</source>
+          <target state="new">The <bpt id="p1">**</bpt>$psISE.CurrentFile<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>ISEFile<ept id="p2">](The-ISEFile-Object.md)</ept> class and makes the following objects available for scripting:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile.DisplayName<ept id="p2">](The-ISEFile-Object.md#Displayname)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile.DisplayName<ept id="p2">](The-ISEFile-Object.md#Displayname)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile.Editor<ept id="p2">](The-ISEEditor-Object.md)</ept><ept id="p1">**</ept>  This object is an instance of the <bpt id="p3">[</bpt>ISEEditor<ept id="p3">](The-ISEEditor-Object.md)</ept> class and makes the following objects available for scripting:</source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile.Editor<ept id="p2">](The-ISEEditor-Object.md)</ept><ept id="p1">**</ept>  This object is an instance of the <bpt id="p3">[</bpt>ISEEditor<ept id="p3">](The-ISEEditor-Object.md)</ept> class and makes the following objects available for scripting:</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile.Editor.CanGoToMatch<ept id="p2">](The-ISEEditor-Object.md#cangotomatch)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile.Editor.CanGoToMatch<ept id="p2">](The-ISEEditor-Object.md#cangotomatch)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>CaretColumn<ept id="p2">](The-ISEEditor-Object.md#CaretColumn)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>CaretColumn<ept id="p2">](The-ISEEditor-Object.md#CaretColumn)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>CaretLine<ept id="p2">](The-ISEEditor-Object.md#CaretLine)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>CaretLine<ept id="p2">](The-ISEEditor-Object.md#CaretLine)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile.Editor.CaretLineText<ept id="p2">](The-ISEEditor-Object.md#CaretLineText)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentFile.Editor.CaretLineText<ept id="p2">](The-ISEEditor-Object.md#CaretLineText)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>LineCount<ept id="p2">](The-ISEEditor-Object.md#LineCount)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>LineCount<ept id="p2">](The-ISEEditor-Object.md#LineCount)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>SelectedText<ept id="p2">](The-ISEEditor-Object.md#SelectedText)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>SelectedText<ept id="p2">](The-ISEEditor-Object.md#SelectedText)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Text<ept id="p2">](The-ISEEditor-Object.md#Text)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Text<ept id="p2">](The-ISEEditor-Object.md#Text)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Encoding<ept id="p2">](The-ISEFile-Object.md#Encoding)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Encoding<ept id="p2">](The-ISEFile-Object.md#Encoding)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>FullPath<ept id="p2">](The-ISEFile-Object.md#FullPath)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>FullPath<ept id="p2">](The-ISEFile-Object.md#FullPath)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>IsSaved<ept id="p2">](The-ISEFile-Object.md#IsSaved)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>IsSaved<ept id="p2">](The-ISEFile-Object.md#IsSaved)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>IsUntitled<ept id="p2">](The-ISEFile-Object.md#IsUntitled)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>IsUntitled<ept id="p2">](The-ISEFile-Object.md#IsUntitled)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="CurrentPowerShellTab"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab<ept id="p2">](The-PowerShellTab-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">&lt;a name="CurrentPowerShellTab"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab<ept id="p2">](The-PowerShellTab-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$psISE.CurrentPowerShellTab<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>PowerShellTab<ept id="p2">](The-PowerShellTab-Object.md)</ept> class and makes the following objects available for scripting:</source>
+          <target state="new">The <bpt id="p1">**</bpt>$psISE.CurrentPowerShellTab<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>PowerShellTab<ept id="p2">](The-PowerShellTab-Object.md)</ept> class and makes the following objects available for scripting:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu<ept id="p2">](The-ISEMenuItem-Object.md)</ept><ept id="p1">**</ept>  This object is an instance of the <bpt id="p3">[</bpt>ISEMenuItem<ept id="p3">](The-ISEMenuItem-Object.md)</ept> class and makes the following objects available for scripting:</source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu<ept id="p2">](The-ISEMenuItem-Object.md)</ept><ept id="p1">**</ept>  This object is an instance of the <bpt id="p3">[</bpt>ISEMenuItem<ept id="p3">](The-ISEMenuItem-Object.md)</ept> class and makes the following objects available for scripting:</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.Action<ept id="p2">](The-ISEMenuItem-Object.md#Action)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.Action<ept id="p2">](The-ISEMenuItem-Object.md#Action)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.DisplayName<ept id="p2">](The-ISEMenuItem-Object.md#DisplayName)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.DisplayName<ept id="p2">](The-ISEMenuItem-Object.md#DisplayName)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.Shortcut<ept id="p2">](The-ISEMenuItem-Object.md#Shortcut)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.Shortcut<ept id="p2">](The-ISEMenuItem-Object.md#Shortcut)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.Submenus<ept id="p2">](The-ISEMenuItemCollection-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.Submenus<ept id="p2">](The-ISEMenuItemCollection-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.CanInvoke<ept id="p2">](The-PowerShellTab-Object.md#CanExecute)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.CanInvoke<ept id="p2">](The-PowerShellTab-Object.md#CanExecute)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ConsolePane<ept id="p2">](The-ISEEditor-Object.md)</ept><ept id="p1">**</ept>  This object is an instance of the <bpt id="p3">[</bpt>ISEEditor<ept id="p3">](The-ISEEditor-Object.md)</ept> class and makes the following objects available for scripting:</source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ConsolePane<ept id="p2">](The-ISEEditor-Object.md)</ept><ept id="p1">**</ept>  This object is an instance of the <bpt id="p3">[</bpt>ISEEditor<ept id="p3">](The-ISEEditor-Object.md)</ept> class and makes the following objects available for scripting:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ConsolePane.CanGoToMatch<ept id="p2">](The-ISEEditor-Object.md#cangotomatch)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ConsolePane.CanGoToMatch<ept id="p2">](The-ISEEditor-Object.md#cangotomatch)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>CaretColumn<ept id="p2">](The-ISEEditor-Object.md#CaretColumn)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>CaretColumn<ept id="p2">](The-ISEEditor-Object.md#CaretColumn)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>CaretLine<ept id="p2">](The-ISEEditor-Object.md#CaretLine)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>CaretLine<ept id="p2">](The-ISEEditor-Object.md#CaretLine)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ConsolePane.CaretLineText<ept id="p2">](The-ISEEditor-Object.md#CaretLineText)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ConsolePane.CaretLineText<ept id="p2">](The-ISEEditor-Object.md#CaretLineText)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>LineCount<ept id="p2">](The-ISEEditor-Object.md#LineCount)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>LineCount<ept id="p2">](The-ISEEditor-Object.md#LineCount)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>SelectedText<ept id="p2">](The-ISEEditor-Object.md#SelectedText)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>SelectedText<ept id="p2">](The-ISEEditor-Object.md#SelectedText)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Text<ept id="p2">](The-ISEEditor-Object.md#Text)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Text<ept id="p2">](The-ISEEditor-Object.md#Text)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.DisplayName<ept id="p2">](The-PowerShellTab-Object.md#Displayname)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.DisplayName<ept id="p2">](The-PowerShellTab-Object.md#Displayname)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ExpandedScript<ept id="p2">](The-PowerShellTab-Object.md#ExpandedScript)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ExpandedScript<ept id="p2">](The-PowerShellTab-Object.md#ExpandedScript)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.Files<ept id="p2">](The-ISEFileCollection-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.Files<ept id="p2">](The-ISEFileCollection-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.HorizontalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.HorizontalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.HorizontalAddOnToolsPaneOpened<ept id="p2">](The-PowerShellTab-Object.md#HorizontalAddOnToolsPaneOpened)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.HorizontalAddOnToolsPaneOpened<ept id="p2">](The-PowerShellTab-Object.md#HorizontalAddOnToolsPaneOpened)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.Prompt<ept id="p2">](The-PowerShellTab-Object.md#Prompt)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.Prompt<ept id="p2">](The-PowerShellTab-Object.md#Prompt)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ShowCommands<ept id="p2">](The-PowerShellTab-Object.md#ShowCommands)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.ShowCommands<ept id="p2">](The-PowerShellTab-Object.md#ShowCommands)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.Snippets<ept id="p2">](The-ISESnippetCollection-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.Snippets<ept id="p2">](The-ISESnippetCollection-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.StatusText<ept id="p2">](The-PowerShellTab-Object.md#StatusText)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.StatusText<ept id="p2">](The-PowerShellTab-Object.md#StatusText)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VerticalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VerticalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VerticalAddOnToolsPaneOpened<ept id="p2">](The-PowerShellTab-Object.md#VerticalAddOnToolsPaneOpened)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VerticalAddOnToolsPaneOpened<ept id="p2">](The-PowerShellTab-Object.md#VerticalAddOnToolsPaneOpened)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VisibleHorizontalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VisibleHorizontalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VisibleVerticalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VisibleVerticalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="CurrentVisibleHorizontalTool"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>$psISE.CurrentVisibleHorizontalTool<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">&lt;a name="CurrentVisibleHorizontalTool"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>$psISE.CurrentVisibleHorizontalTool<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$psISE.CurrentVisibleHorizontalTool<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>ISEAddOnTool<ept id="p2">](The-ISEAddOnTool-Object.md)</ept> class.</source>
+          <target state="new">The <bpt id="p1">**</bpt>$psISE.CurrentVisibleHorizontalTool<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>ISEAddOnTool<ept id="p2">](The-ISEAddOnTool-Object.md)</ept> class.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It represents the installed add-on tool that is currently docked to the top edge of the Windows PowerShell ISE window.</source>
+          <target state="new">It represents the installed add-on tool that is currently docked to the top edge of the Windows PowerShell ISE window.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This object makes the following objects available for scripting:</source>
+          <target state="new">This object makes the following objects available for scripting:</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.Control<ept id="p2">](The-ISEAddOnTool-Object.md#control)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.Control<ept id="p2">](The-ISEAddOnTool-Object.md#control)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.IsVisible<ept id="p2">](The-ISEAddOnTool-Object.md#isvisible)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.IsVisible<ept id="p2">](The-ISEAddOnTool-Object.md#isvisible)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.Name<ept id="p2">](The-ISEAddOnTool-Object.md#name)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.Name<ept id="p2">](The-ISEAddOnTool-Object.md#name)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="CurrentVisibleVerticalTool"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>$psISE.CurrentVisibleVerticalTool<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">&lt;a name="CurrentVisibleVerticalTool"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>$psISE.CurrentVisibleVerticalTool<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$psISE.CurrentVisibleHorizontalTool<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>ISEAddOnTool<ept id="p2">](The-ISEAddOnTool-Object.md)</ept> class.</source>
+          <target state="new">The <bpt id="p1">**</bpt>$psISE.CurrentVisibleHorizontalTool<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>ISEAddOnTool<ept id="p2">](The-ISEAddOnTool-Object.md)</ept> class.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It represents the installed add-on tool that is currently docked to the right-hand edge of the Windows PowerShell ISE window.</source>
+          <target state="new">It represents the installed add-on tool that is currently docked to the right-hand edge of the Windows PowerShell ISE window.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This object makes the following objects available for scripting:</source>
+          <target state="new">This object makes the following objects available for scripting:</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.Control<ept id="p2">](The-ISEAddOnTool-Object.md#control)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.Control<ept id="p2">](The-ISEAddOnTool-Object.md#control)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.IsVisible<ept id="p2">](The-ISEAddOnTool-Object.md#isvisible)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.IsVisible<ept id="p2">](The-ISEAddOnTool-Object.md#isvisible)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.Name<ept id="p2">](The-ISEAddOnTool-Object.md#name)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.CurrentVisibleHorizontalTool.Name<ept id="p2">](The-ISEAddOnTool-Object.md#name)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Options"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>$psISE.Options<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">&lt;a name="Options"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>$psISE.Options<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$psISE.Options<ept id="p1">**</ept> object makes the following objects available for scripting:</source>
+          <target state="new">The <bpt id="p1">**</bpt>$psISE.Options<ept id="p1">**</ept> object makes the following objects available for scripting:</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.AutoSaveMinuteInterval<ept id="p2">](The-ISEOptions-Object.md#asmi)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.AutoSaveMinuteInterval<ept id="p2">](The-ISEOptions-Object.md#asmi)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ConsolePaneBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#cpbc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ConsolePaneBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#cpbc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ConsolePaneTextForegroundColor<ept id="p2">](The-ISEOptions-Object.md#conpfc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ConsolePaneTextForegroundColor<ept id="p2">](The-ISEOptions-Object.md#conpfc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ConsolePaneTextBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#conptbc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ConsolePaneTextBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#conptbc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ConsoleTokenColors<ept id="p2">](The-ISEOptions-Object.md#contc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ConsoleTokenColors<ept id="p2">](The-ISEOptions-Object.md#contc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.DebugBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#dbc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.DebugBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#dbc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.DebugForegroundColor<ept id="p2">](The-ISEOptions-Object.md#dfc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.DebugForegroundColor<ept id="p2">](The-ISEOptions-Object.md#dfc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.DefaultOptions<ept id="p2">](The-ISEOptions-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.DefaultOptions<ept id="p2">](The-ISEOptions-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ErrorBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#ebc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ErrorBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#ebc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ErrorForegroundColor<ept id="p2">](The-ISEOptions-Object.md#efc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ErrorForegroundColor<ept id="p2">](The-ISEOptions-Object.md#efc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.FontName<ept id="p2">](The-ISEOptions-Object.md#fn)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.FontName<ept id="p2">](The-ISEOptions-Object.md#fn)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.Fontsize<ept id="p2">](The-ISEOptions-Object.md#fs)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.Fontsize<ept id="p2">](The-ISEOptions-Object.md#fs)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.IntellisenseTimeoutInSeconds<ept id="p2">](The-ISEOptions-Object.md#itis)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.IntellisenseTimeoutInSeconds<ept id="p2">](The-ISEOptions-Object.md#itis)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.MRUCount<ept id="p2">](The-ISEOptions-Object.md#mc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.MRUCount<ept id="p2">](The-ISEOptions-Object.md#mc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ScriptPaneBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#spbc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ScriptPaneBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#spbc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ScriptPaneForegroundColor<ept id="p2">](The-ISEOptions-Object.md#spfc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ScriptPaneForegroundColor<ept id="p2">](The-ISEOptions-Object.md#spfc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.SelectedScriptPaneState<ept id="p2">](The-ISEOptions-Object.md#ssps)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.SelectedScriptPaneState<ept id="p2">](The-ISEOptions-Object.md#ssps)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowDefaultSnippets<ept id="p2">](The-ISEOptions-Object.md#sds)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowDefaultSnippets<ept id="p2">](The-ISEOptions-Object.md#sds)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowIntellisenseInConsolePane<ept id="p2">](The-ISEOptions-Object.md#siicp)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowIntellisenseInConsolePane<ept id="p2">](The-ISEOptions-Object.md#siicp)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowIntellisenseInScriptPane<ept id="p2">](The-ISEOptions-Object.md#siisp)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowIntellisenseInScriptPane<ept id="p2">](The-ISEOptions-Object.md#siisp)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowLineNumbers<ept id="p2">](The-ISEOptions-Object.md#sln)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowLineNumbers<ept id="p2">](The-ISEOptions-Object.md#sln)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowOutlining<ept id="p2">](The-ISEOptions-Object.md#so)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowOutlining<ept id="p2">](The-ISEOptions-Object.md#so)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowToolBar<ept id="p2">](The-ISEOptions-Object.md#stb)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowToolBar<ept id="p2">](The-ISEOptions-Object.md#stb)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowWarningBeforeSavingOnRun<ept id="p2">](The-ISEOptions-Object.md#swbsor)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowWarningBeforeSavingOnRun<ept id="p2">](The-ISEOptions-Object.md#swbsor)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowWarningForDuplicateFiles<ept id="p2">](The-ISEOptions-Object.md#swfdf)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.ShowWarningForDuplicateFiles<ept id="p2">](The-ISEOptions-Object.md#swfdf)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.TokenColors<ept id="p2">](The-ISEOptions-Object.md#tc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.TokenColors<ept id="p2">](The-ISEOptions-Object.md#tc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.UseEnterToSelectConsolePaneIntellisense<ept id="p2">](The-ISEOptions-Object.md#uetsicpi)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.UseEnterToSelectConsolePaneIntellisense<ept id="p2">](The-ISEOptions-Object.md#uetsicpi)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options. UseEnterToSelectScriptPaneIntellisense<ept id="p2">](The-ISEOptions-Object.md#uetsispi)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options. UseEnterToSelectScriptPaneIntellisense<ept id="p2">](The-ISEOptions-Object.md#uetsispi)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.UseLocalHelp<ept id="p2">](The-ISEOptions-Object.md#ulh)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.UseLocalHelp<ept id="p2">](The-ISEOptions-Object.md#ulh)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.VerboseBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#vbc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.VerboseBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#vbc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.VerboseForegroundColor<ept id="p2">](The-ISEOptions-Object.md#vfc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.VerboseForegroundColor<ept id="p2">](The-ISEOptions-Object.md#vfc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.WarningBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#wbc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.WarningBackgroundColor<ept id="p2">](The-ISEOptions-Object.md#wbc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.WarningForegroundColor<ept id="p2">](The-ISEOptions-Object.md#wfc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.WarningForegroundColor<ept id="p2">](The-ISEOptions-Object.md#wfc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.XmlTokenColors<ept id="p2">](The-ISEOptions-Object.md#xtc)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.XmlTokenColors<ept id="p2">](The-ISEOptions-Object.md#xtc)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.Zoom<ept id="p2">](The-ISEOptions-Object.md#z)</ept><ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.Options.Zoom<ept id="p2">](The-ISEOptions-Object.md#z)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="PowerShellTabs"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.PowerShellTabs<ept id="p2">](The-PowerShellTabCollection-Object.md)</ept><ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">&lt;a name="PowerShellTabs"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt><bpt id="p2">[</bpt>$psISE.PowerShellTabs<ept id="p2">](The-PowerShellTabCollection-Object.md)</ept><ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$psISE.PowerShellTabs<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>PowerShellTabCollection<ept id="p2">](The-PowerShellTabCollection-Object.md)</ept> class.</source>
+          <target state="new">The <bpt id="p1">**</bpt>$psISE.PowerShellTabs<ept id="p1">**</ept> object is an instance of the <bpt id="p2">[</bpt>PowerShellTabCollection<ept id="p2">](The-PowerShellTabCollection-Object.md)</ept> class.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>It is a collection of all the currently open PowerShell tabs that represent the available Windows PowerShell run environments on the local computer or on connected remote computers.</source>
+          <target state="new">It is a collection of all the currently open PowerShell tabs that represent the available Windows PowerShell run environments on the local computer or on connected remote computers.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Each member in the collection is an instance of the <bpt id="p1">[</bpt>PowerShellTab<ept id="p1">](The-PowerShellTab-Object.md)</ept> class.</source>
+          <target state="new">Each member in the collection is an instance of the <bpt id="p1">[</bpt>PowerShellTab<ept id="p1">](The-PowerShellTab-Object.md)</ept> class.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell ISE Object Model Reference<ept id="p1">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PowerShell ISE Object Model Reference<ept id="p1">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

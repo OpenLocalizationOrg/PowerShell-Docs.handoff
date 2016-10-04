@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9db7a5a91d25d459313117da34af63016f03c241</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\using-jea.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">37555004c1e6a12055f0d9341b5e0c994512beda</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">822ee5abf5f681f025d57b1d17f2e3128b5b0222</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="new">powershell,cmdlet,jea</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>using jea</source>
+          <target state="new">using jea</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using JEA</source>
+          <target state="new">Using JEA</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This section focuses on understanding the end user experience of <bpt id="p1">*</bpt>using JEA<ept id="p1">*</ept>.</source>
+          <target state="new">This section focuses on understanding the end user experience of <bpt id="p1">*</bpt>using JEA<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the prerequisites section, you created a demo JEA endpoint.</source>
+          <target state="new">In the prerequisites section, you created a demo JEA endpoint.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We will use this demo to show JEA in action.</source>
+          <target state="new">We will use this demo to show JEA in action.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In later sections, the guide will work backwards -- introducing the actions and files that made that end-user experience possible.</source>
+          <target state="new">In later sections, the guide will work backwards -- introducing the actions and files that made that end-user experience possible.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Using JEA as a Non-Administrator</source>
+          <target state="new">Using JEA as a Non-Administrator</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To show JEA in action, you will need to use PowerShell remoting as though you were a non-administrator user.</source>
+          <target state="new">To show JEA in action, you will need to use PowerShell remoting as though you were a non-administrator user.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Run the following command in a new PowerShell window:</source>
+          <target state="new">Run the following command in a new PowerShell window:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Enter the credentials for your non-administrator account when prompted.</source>
+          <target state="new">Enter the credentials for your non-administrator account when prompted.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you followed the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> section, they will be:</source>
+          <target state="new">If you followed the <bpt id="p1">[</bpt>Set Up Users and Groups<ept id="p1">](creating-a-domain-controller.md#set-up-users-and-groups)</ept> section, they will be:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Username = "OperatorUser"</source>
+          <target state="new">Username = "OperatorUser"</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Password = "pa$$w0rd"</source>
+          <target state="new">Password = "pa$$w0rd"</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Next, run the following command to connect to the demo endpoint using the credentials you provided:</source>
+          <target state="new">Next, run the following command to connect to the demo endpoint using the credentials you provided:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You have now entered an interactive remote PowerShell session on the local machine.</source>
+          <target state="new">You have now entered an interactive remote PowerShell session on the local machine.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>By using the "Credential" parameter, you have connected <bpt id="p1">*</bpt>as though you were<ept id="p1">*</ept> OperatorUser (or whichever account you used).</source>
+          <target state="new">By using the "Credential" parameter, you have connected <bpt id="p1">*</bpt>as though you were<ept id="p1">*</ept> OperatorUser (or whichever account you used).</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The change in the prompt to <ph id="ph1">`[localhost]: PS&gt;`</ph> indicates that you are operating against a remote session.</source>
+          <target state="new">The change in the prompt to <ph id="ph1">`[localhost]: PS&gt;`</ph> indicates that you are operating against a remote session.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run the following in your remote command prompt to show the commands available to you:</source>
+          <target state="new">Run the following in your remote command prompt to show the commands available to you:</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>As you can tell, this is a very limited subset of the commands available in a normal PowerShell window (which can often include several thousand commands).</source>
+          <target state="new">As you can tell, this is a very limited subset of the commands available in a normal PowerShell window (which can often include several thousand commands).</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specifically, it only shows the 8 default JEA commands (Clear-Host, Exit-PSSession, Get-Command, Get-FormatData, Get-Help, Measure-Object, Out-Default, Select-Object) and the two commands explicitly included in the maintenance Role Capability file.</source>
+          <target state="new">Specifically, it only shows the 8 default JEA commands (Clear-Host, Exit-PSSession, Get-Command, Get-FormatData, Get-Help, Measure-Object, Out-Default, Select-Object) and the two commands explicitly included in the maintenance Role Capability file.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Next, let's take a look at the user context this session is operating under by invoking the custom function included in the maintenance Role Capability file:</source>
+          <target state="new">Next, let's take a look at the user context this session is operating under by invoking the custom function included in the maintenance Role Capability file:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The output of this function shows the "ConnectedUser" as well as the "RunAsUser."</source>
+          <target state="new">The output of this function shows the "ConnectedUser" as well as the "RunAsUser."</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The connected user is the account that connected to the remote session (e.g. your account).</source>
+          <target state="new">The connected user is the account that connected to the remote session (e.g. your account).</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The connected user does not need to have administrator privileges.</source>
+          <target state="new">The connected user does not need to have administrator privileges.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The "Run As" account is the account actually performing the privileged actions.</source>
+          <target state="new">The "Run As" account is the account actually performing the privileged actions.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>By connecting as one user, and running as a privileged user, we allow non-privileged users to preform specific administrative tasks without giving them administrative rights.</source>
+          <target state="new">By connecting as one user, and running as a privileged user, we allow non-privileged users to preform specific administrative tasks without giving them administrative rights.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To demonstrate this in action, run the following command:</source>
+          <target state="new">To demonstrate this in action, run the following command:</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Normally, Restart-Service requires administrator privileges to be run.</source>
+          <target state="new">Normally, Restart-Service requires administrator privileges to be run.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>With the JEA virtual account, however, we're able to run it using non-privileged credentials.</source>
+          <target state="new">With the JEA virtual account, however, we're able to run it using non-privileged credentials.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>So, JEA lets you get your job done using the commands you already use.</source>
+          <target state="new">So, JEA lets you get your job done using the commands you already use.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>But what about commands you <bpt id="p1">*</bpt>shouldn't<ept id="p1">*</ept> be allowed to use?</source>
+          <target state="new">But what about commands you <bpt id="p1">*</bpt>shouldn't<ept id="p1">*</ept> be allowed to use?</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Try running a different command in the JEA session, like <ph id="ph1">`Restart-Computer`</ph>, and notice that JEA prevents such commands from being executed.</source>
+          <target state="new">Try running a different command in the JEA session, like <ph id="ph1">`Restart-Computer`</ph>, and notice that JEA prevents such commands from being executed.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Finally, to leave the constrained JEA endpoint, run the following command:</source>
+          <target state="new">Finally, to leave the constrained JEA endpoint, run the following command:</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This disconnects you from the remote PowerShell session.</source>
+          <target state="new">This disconnects you from the remote PowerShell session.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

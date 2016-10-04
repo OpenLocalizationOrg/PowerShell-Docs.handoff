@@ -1,0 +1,901 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9c633d457db9d15621285b2662244c4190550f63</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\web-access\use-the-web-based-windows-powershell-console.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">21e01dc807a048878545c6effc7680a0040a33b5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4ff8b79dd7af06e7d0a2c5626f7a0ce25817098</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>use the web based windows powershell console</source>
+          <target state="new">use the web based windows powershell console</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use the Web-based Windows PowerShell Console</source>
+          <target state="new">Use the Web-based Windows PowerShell Console</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Updated: June 24, 2013</source>
+          <target state="new">Updated: June 24, 2013</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Server 2012 R2, Windows Server 2012</source>
+          <target state="new">Applies To: Windows Server 2012 R2, Windows Server 2012</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell® Web Access lets Windows PowerShell® users sign in to a Secure Sockets Layer (SSL)-secured website to use Windows PowerShell sessions, cmdlets, and scripts to manage a remote computer.</source>
+          <target state="new">Windows PowerShell® Web Access lets Windows PowerShell® users sign in to a Secure Sockets Layer (SSL)-secured website to use Windows PowerShell sessions, cmdlets, and scripts to manage a remote computer.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Because the Windows PowerShell console runs in a web browser, it can be opened from a variety of client devices, including cell phones, tablet computers, public computing kiosks, laptop computers, or shared or borrowed computers.</source>
+          <target state="new">Because the Windows PowerShell console runs in a web browser, it can be opened from a variety of client devices, including cell phones, tablet computers, public computing kiosks, laptop computers, or shared or borrowed computers.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The web-based Windows PowerShell console is targeted at a remote computer that is specified by users as part of the sign-in process.</source>
+          <target state="new">The web-based Windows PowerShell console is targeted at a remote computer that is specified by users as part of the sign-in process.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This topic describes how to sign in to and start using the Windows PowerShell Web Access web-based console.</source>
+          <target state="new">This topic describes how to sign in to and start using the Windows PowerShell Web Access web-based console.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This topic does not describe how to use Windows PowerShell or run cmdlets or scripts.</source>
+          <target state="new">This topic does not describe how to use Windows PowerShell or run cmdlets or scripts.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For information about how to use Windows PowerShell, and scripting resources, see the See Also section at the end of this topic.</source>
+          <target state="new">For information about how to use Windows PowerShell, and scripting resources, see the See Also section at the end of this topic.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this topic:</source>
+          <target state="new">In this topic:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Supported browsers and client devices<ept id="p1">](#BKMK_browser)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Supported browsers and client devices<ept id="p1">](#BKMK_browser)</ept></target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Signing in to Windows PowerShell Web Access<ept id="p1">](#BKMK_sign)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Signing in to Windows PowerShell Web Access<ept id="p1">](#BKMK_sign)</ept></target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Signing out and timing out<ept id="p1">](#BKMK_timeout)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Signing out and timing out<ept id="p1">](#BKMK_timeout)</ept></target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Differences in the web-based Windows PowerShell console<ept id="p1">](#BKMK_web)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Differences in the web-based Windows PowerShell console<ept id="p1">](#BKMK_web)</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access supports the following Internet browsers.</source>
+          <target state="new">Windows PowerShell Web Access supports the following Internet browsers.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Although mobile browsers are not officially supported, many may be able to run the web-based Windows PowerShell console.</source>
+          <target state="new">Although mobile browsers are not officially supported, many may be able to run the web-based Windows PowerShell console.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Other browsers that accept cookies, run JavaScript, and run HTTPS websites are expected to work, but are not officially tested.</source>
+          <target state="new">Other browsers that accept cookies, run JavaScript, and run HTTPS websites are expected to work, but are not officially tested.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Supported desktop computer browsers<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Supported desktop computer browsers<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows® Internet Explorer® for Microsoft Windows® 8.0, 9.0, 10.0, and 11.0</source>
+          <target state="new">Windows® Internet Explorer® for Microsoft Windows® 8.0, 9.0, 10.0, and 11.0</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Mozilla Firefox® 10.0.2</source>
+          <target state="new">Mozilla Firefox® 10.0.2</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Google Chrome™ 17.0.963.56m for Windows</source>
+          <target state="new">Google Chrome™ 17.0.963.56m for Windows</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Apple Safari® 5.1.2 for Windows</source>
+          <target state="new">Apple Safari® 5.1.2 for Windows</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Apple Safari 5.1.2 for Mac OS®</source>
+          <target state="new">Apple Safari 5.1.2 for Mac OS®</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Minimally-tested mobile devices or browsers<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Minimally-tested mobile devices or browsers<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Windows Phone 7 and 7.5</source>
+          <target state="new">Windows Phone 7 and 7.5</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Google Android WebKit 3.1 Browser Android 2.2.1 (Kernel 2.6)</source>
+          <target state="new">Google Android WebKit 3.1 Browser Android 2.2.1 (Kernel 2.6)</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Apple Safari for iPhone operating system 5.0.1</source>
+          <target state="new">Apple Safari for iPhone operating system 5.0.1</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Apple Safari for iPad 2 operating system 5.0.1</source>
+          <target state="new">Apple Safari for iPad 2 operating system 5.0.1</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Browser requirements<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Browser requirements<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To use the Windows PowerShell Web Access web-based console, browsers must do the following.</source>
+          <target state="new">To use the Windows PowerShell Web Access web-based console, browsers must do the following.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Allow cookies from the Windows PowerShell Web Access gateway website.</source>
+          <target state="new">Allow cookies from the Windows PowerShell Web Access gateway website.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Be able to open and read HTTPS pages.</source>
+          <target state="new">Be able to open and read HTTPS pages.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Open and run websites that use JavaScript.</source>
+          <target state="new">Open and run websites that use JavaScript.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Signing in to Windows PowerShell Web Access<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph><ph id="ph7">
+</ph><ph id="ph8">&lt;a href="/en-us/library/hh831417(v=ws.11).aspx#Anchor_1" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"&gt;</ph><ph id="ph9">&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Signing in to Windows PowerShell Web Access<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph><ph id="ph7">
+</ph><ph id="ph8">&lt;a href="/en-us/library/hh831417(v=ws.11).aspx#Anchor_1" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"&gt;</ph><ph id="ph9">&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Your Windows PowerShell Web Access administrator should provide you with a URL that is the address of your organization’s Windows PowerShell Web Access gateway website.</source>
+          <target state="new">Your Windows PowerShell Web Access administrator should provide you with a URL that is the address of your organization’s Windows PowerShell Web Access gateway website.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>By default, this website address is https://<ph id="ph1">&amp;lt;</ph>server_name<ph id="ph2">&amp;gt;</ph>/pswa.</source>
+          <target state="new">By default, this website address is https://<ph id="ph1">&amp;lt;</ph>server_name<ph id="ph2">&amp;gt;</ph>/pswa.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Before you sign in to Windows PowerShell Web Access, be sure that you have the name or IP address of the remote computer that you want to manage.</source>
+          <target state="new">Before you sign in to Windows PowerShell Web Access, be sure that you have the name or IP address of the remote computer that you want to manage.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You must be an authorized user on the remote computer, and it must be configured to allow remote management.</source>
+          <target state="new">You must be an authorized user on the remote computer, and it must be configured to allow remote management.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For more information about configuring your computer to allow remote management, see <bpt id="p1">[</bpt>Enable and Use Remote Commands in Windows PowerShell<ept id="p1">](https://technet.microsoft.com/magazine/ff700227.aspx)</ept>.</source>
+          <target state="new">For more information about configuring your computer to allow remote management, see <bpt id="p1">[</bpt>Enable and Use Remote Commands in Windows PowerShell<ept id="p1">](https://technet.microsoft.com/magazine/ff700227.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The simplest method of configuring your computer to allow remote management is to run the <bpt id="p1">**</bpt>Enable-PSRemoting -force<ept id="p1">**</ept> cmdlet on the computer, in a Windows PowerShell session that has been opened with elevated user rights (<bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept>).</source>
+          <target state="new">The simplest method of configuring your computer to allow remote management is to run the <bpt id="p1">**</bpt>Enable-PSRemoting -force<ept id="p1">**</ept> cmdlet on the computer, in a Windows PowerShell session that has been opened with elevated user rights (<bpt id="p2">**</bpt>Run as Administrator<ept id="p2">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To sign in to Windows PowerShell Web Access</source>
+          <target state="new">To sign in to Windows PowerShell Web Access</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Open the Windows PowerShell Web Access website in an Internet browser window or tab.</source>
+          <target state="new">Open the Windows PowerShell Web Access website in an Internet browser window or tab.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>On the Windows PowerShell Web Access sign-in page, provide your network user name, password, and the name of the computer that you want to manage (and on which you are an authorized user).</source>
+          <target state="new">On the Windows PowerShell Web Access sign-in page, provide your network user name, password, and the name of the computer that you want to manage (and on which you are an authorized user).</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the Windows PowerShell Web Access administrator has instructed you to use a URI to a custom site or proxy server instead of a computer name, select <bpt id="p1">**</bpt>Connection URI<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Connection type<ept id="p2">**</ept> field, and then provide the URI.</source>
+          <target state="new">If the Windows PowerShell Web Access administrator has instructed you to use a URI to a custom site or proxy server instead of a computer name, select <bpt id="p1">**</bpt>Connection URI<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Connection type<ept id="p2">**</ept> field, and then provide the URI.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span&gt;</ph><ph id="ph2">&lt;img src="https://i-technet.sec.s-msft.com/dynimg/IC101471.jpeg" title="System_CAPS_note" alt="System_CAPS_note" id="s-e6f6a65cf14f462597b64ac058dbe1d0-system-media-system-caps-note" /&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="alertTitle"&gt;</ph>Note <ph id="ph5">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span&gt;</ph><ph id="ph2">&lt;img src="https://i-technet.sec.s-msft.com/dynimg/IC101471.jpeg" title="System_CAPS_note" alt="System_CAPS_note" id="s-e6f6a65cf14f462597b64ac058dbe1d0-system-media-system-caps-note" /&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="alertTitle"&gt;</ph>Note <ph id="ph5">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the destination computer is in a workgroup, use the following syntax to provide your user name and sign in to the computer:<ph id="ph1">&amp;lt;</ph><ph id="ph2">&lt;em&gt;</ph>workgroup_name<ph id="ph3">&lt;/em&gt;</ph><ph id="ph4">&amp;gt;</ph><ph id="ph5">\</ph><ph id="ph6">&amp;lt;</ph><ph id="ph7">&lt;em&gt;</ph>user_name<ph id="ph8">&lt;/em&gt;</ph><ph id="ph9">&amp;gt;</ph>.</source>
+          <target state="new">If the destination computer is in a workgroup, use the following syntax to provide your user name and sign in to the computer:<ph id="ph1">&amp;lt;</ph><ph id="ph2">&lt;em&gt;</ph>workgroup_name<ph id="ph3">&lt;/em&gt;</ph><ph id="ph4">&amp;gt;</ph><ph id="ph5">\</ph><ph id="ph6">&amp;lt;</ph><ph id="ph7">&lt;em&gt;</ph>user_name<ph id="ph8">&lt;/em&gt;</ph><ph id="ph9">&amp;gt;</ph>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the destination computer is the gateway server, you can specify <ph id="ph1">&lt;strong&gt;</ph>localhost<ph id="ph2">&lt;/strong&gt;</ph> in the <ph id="ph3">&lt;strong&gt;</ph>Computer name<ph id="ph4">&lt;/strong&gt;</ph> field.</source>
+          <target state="new">If the destination computer is the gateway server, you can specify <ph id="ph1">&lt;strong&gt;</ph>localhost<ph id="ph2">&lt;/strong&gt;</ph> in the <ph id="ph3">&lt;strong&gt;</ph>Computer name<ph id="ph4">&lt;/strong&gt;</ph> field.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the destination computer is the gateway server, and the gateway server is in a workgroup, you can use <ph id="ph1">&lt;strong&gt;</ph>localhost<ph id="ph2">&lt;/strong&gt;</ph> in the <ph id="ph3">&lt;strong&gt;</ph>Computer name<ph id="ph4">&lt;/strong&gt;</ph> field, but do not use localhost\<ph id="ph5">&amp;lt;</ph><ph id="ph6">&lt;em&gt;</ph>user_name<ph id="ph7">&lt;/em&gt;</ph><ph id="ph8">&amp;gt;</ph> in the <ph id="ph9">&lt;strong&gt;</ph>User name<ph id="ph10">&lt;/strong&gt;</ph> field.</source>
+          <target state="new">If the destination computer is the gateway server, and the gateway server is in a workgroup, you can use <ph id="ph1">&lt;strong&gt;</ph>localhost<ph id="ph2">&lt;/strong&gt;</ph> in the <ph id="ph3">&lt;strong&gt;</ph>Computer name<ph id="ph4">&lt;/strong&gt;</ph> field, but do not use localhost\<ph id="ph5">&amp;lt;</ph><ph id="ph6">&lt;em&gt;</ph>user_name<ph id="ph7">&lt;/em&gt;</ph><ph id="ph8">&amp;gt;</ph> in the <ph id="ph9">&lt;strong&gt;</ph>User name<ph id="ph10">&lt;/strong&gt;</ph> field.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You must use <ph id="ph1">&amp;lt;</ph><ph id="ph2">&lt;em&gt;</ph>workgroup name<ph id="ph3">&lt;/em&gt;</ph><ph id="ph4">&amp;gt;</ph><ph id="ph5">\</ph><ph id="ph6">&amp;lt;</ph><ph id="ph7">&lt;em&gt;</ph>user_name<ph id="ph8">&lt;/em&gt;</ph><ph id="ph9">&amp;gt;</ph>.</source>
+          <target state="new">You must use <ph id="ph1">&amp;lt;</ph><ph id="ph2">&lt;em&gt;</ph>workgroup name<ph id="ph3">&lt;/em&gt;</ph><ph id="ph4">&amp;gt;</ph><ph id="ph5">\</ph><ph id="ph6">&amp;lt;</ph><ph id="ph7">&lt;em&gt;</ph>user_name<ph id="ph8">&lt;/em&gt;</ph><ph id="ph9">&amp;gt;</ph>.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Optional Connection Settings<ept id="p1">**</ept> section relates to the authorization requirements of the remote computer that you want to manage.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Optional Connection Settings<ept id="p1">**</ept> section relates to the authorization requirements of the remote computer that you want to manage.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information about the parameters that are equivalent to optional connection settings, see the <bpt id="p1">[</bpt>Enter-PSSession cmdlet Help<ept id="p1">](https://technet.microsoft.com/library/dd315384.aspx)</ept>.</source>
+          <target state="new">For more information about the parameters that are equivalent to optional connection settings, see the <bpt id="p1">[</bpt>Enter-PSSession cmdlet Help<ept id="p1">](https://technet.microsoft.com/library/dd315384.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Typically, the credentials you use to pass through the Windows PowerShell Web Access gateway are the same that are recognized by the remote computer that you want to manage.</source>
+          <target state="new">Typically, the credentials you use to pass through the Windows PowerShell Web Access gateway are the same that are recognized by the remote computer that you want to manage.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>However, if you want to use different credentials to manage the remote computer that you specified in step 2, expand the <bpt id="p1">**</bpt>Optional Connection Settings<ept id="p1">**</ept> section, and provide the alternate credentials.</source>
+          <target state="new">However, if you want to use different credentials to manage the remote computer that you specified in step 2, expand the <bpt id="p1">**</bpt>Optional Connection Settings<ept id="p1">**</ept> section, and provide the alternate credentials.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Otherwise, skip to step 6.</source>
+          <target state="new">Otherwise, skip to step 6.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If the Windows PowerShell Web Access administrator has created a custom session configuration for Windows PowerShell Web Access users, type the name of the session configuration name in the <bpt id="p1">**</bpt>Configuration name<ept id="p1">**</ept> field.</source>
+          <target state="new">If the Windows PowerShell Web Access administrator has created a custom session configuration for Windows PowerShell Web Access users, type the name of the session configuration name in the <bpt id="p1">**</bpt>Configuration name<ept id="p1">**</ept> field.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information about session configurations, see <bpt id="p1">[</bpt>about_Session_Configurations<ept id="p1">](https://technet.microsoft.com/library/dd819508.aspx)</ept> on the Microsoft website.</source>
+          <target state="new">For more information about session configurations, see <bpt id="p1">[</bpt>about_Session_Configurations<ept id="p1">](https://technet.microsoft.com/library/dd819508.aspx)</ept> on the Microsoft website.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Keep the <bpt id="p1">**</bpt>Authentication type<ept id="p1">**</ept> set to <bpt id="p2">**</bpt>Default<ept id="p2">**</ept> unless you have been instructed to do otherwise by the Windows PowerShell Web Access administrator.</source>
+          <target state="new">Keep the <bpt id="p1">**</bpt>Authentication type<ept id="p1">**</ept> set to <bpt id="p2">**</bpt>Default<ept id="p2">**</ept> unless you have been instructed to do otherwise by the Windows PowerShell Web Access administrator.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Signing out and timing out<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph><ph id="ph7">
+</ph><ph id="ph8">&lt;a href="/en-us/library/hh831417(v=ws.11).aspx#Anchor_2" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"&gt;</ph><ph id="ph9">&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Signing out and timing out<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph><ph id="ph7">
+</ph><ph id="ph8">&lt;a href="/en-us/library/hh831417(v=ws.11).aspx#Anchor_2" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"&gt;</ph><ph id="ph9">&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Any of the following signs you out of a web-based Windows PowerShell session.</source>
+          <target state="new">Any of the following signs you out of a web-based Windows PowerShell session.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Clicking <bpt id="p1">**</bpt>Sign out<ept id="p1">**</ept> in the lower right corner of the console.</source>
+          <target state="new">Clicking <bpt id="p1">**</bpt>Sign out<ept id="p1">**</ept> in the lower right corner of the console.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>(Windows Server 2012 only)</source>
+          <target state="new">(Windows Server 2012 only)</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Clicking <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Exit<ept id="p2">**</ept> in the lower right corner of the console (Windows Server 2012 R2 only).</source>
+          <target state="new">Clicking <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Exit<ept id="p2">**</ept> in the lower right corner of the console (Windows Server 2012 R2 only).</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Clicking <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> saves and closes your Windows PowerShell Web Access session; you can reconnect to the session later.</source>
+          <target state="new">Clicking <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> saves and closes your Windows PowerShell Web Access session; you can reconnect to the session later.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When you sign in to Windows PowerShell Web Access again, Windows PowerShell Web Access displays a list of your saved sessions; you can either select and reconnect to a saved session, or start a new session.</source>
+          <target state="new">When you sign in to Windows PowerShell Web Access again, Windows PowerShell Web Access displays a list of your saved sessions; you can either select and reconnect to a saved session, or start a new session.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The maximum number of open sessions that users are allowed, both saved and active, is configured by the gateway administrator.</source>
+          <target state="new">The maximum number of open sessions that users are allowed, both saved and active, is configured by the gateway administrator.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Clicking <bpt id="p1">**</bpt>Exit<ept id="p1">**</ept> signs you out of the Windows PowerShell Web Access session without saving it.</source>
+          <target state="new">Clicking <bpt id="p1">**</bpt>Exit<ept id="p1">**</ept> signs you out of the Windows PowerShell Web Access session without saving it.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Attempting to sign in to manage a different remote computer in the same browser session, or in a new tab of the same browser session.</source>
+          <target state="new">Attempting to sign in to manage a different remote computer in the same browser session, or in a new tab of the same browser session.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>(This does not apply if the gateway server is running Windows Server 2012 R2; Windows PowerShell Web Access running on Windows Server 2012 R2 does allow multiple user sessions in new tabs in the same browser session.) For more information about how to use more than one active session on the same computer, see “Connecting to multiple target computers simultaneously” in the <bpt id="p1">[</bpt>Limitations of the web-based console<ept id="p1">](#BKMK_limits)</ept> section of this topic.</source>
+          <target state="new">(This does not apply if the gateway server is running Windows Server 2012 R2; Windows PowerShell Web Access running on Windows Server 2012 R2 does allow multiple user sessions in new tabs in the same browser session.) For more information about how to use more than one active session on the same computer, see “Connecting to multiple target computers simultaneously” in the <bpt id="p1">[</bpt>Limitations of the web-based console<ept id="p1">](#BKMK_limits)</ept> section of this topic.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>20 minutes of inactivity in the session.</source>
+          <target state="new">20 minutes of inactivity in the session.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The gateway administrator can customize the inactivity time-out period; for more information, see <bpt id="p1">[</bpt>Session management<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx#BKMK_sesmgmt)</ept>.</source>
+          <target state="new">The gateway administrator can customize the inactivity time-out period; for more information, see <bpt id="p1">[</bpt>Session management<ept id="p1">](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx#BKMK_sesmgmt)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If you are disconnected from a session in the web-based console because of a network error or other unplanned shutdown or failure, and not because you have closed the session yourself, the Windows PowerShell Web Access session continues to run, connected to the target computer, until the time-out period on the client side lapses.</source>
+          <target state="new">If you are disconnected from a session in the web-based console because of a network error or other unplanned shutdown or failure, and not because you have closed the session yourself, the Windows PowerShell Web Access session continues to run, connected to the target computer, until the time-out period on the client side lapses.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>By default, this time-out period is 20 minutes, and is configured by the gateway administrator.</source>
+          <target state="new">By default, this time-out period is 20 minutes, and is configured by the gateway administrator.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The session is disconnected after either the default 20 minutes, or after the time-out period specified by the gateway administrator, whichever is shorter.</source>
+          <target state="new">The session is disconnected after either the default 20 minutes, or after the time-out period specified by the gateway administrator, whichever is shorter.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If the gateway server is running Windows Server 2012 R2, Windows PowerShell Web Access lets users reconnect to saved sessions at a later time, but you cannot see or reconnect to saved sessions until after the time-out period specified by the gateway administrator has lapsed.</source>
+          <target state="new">If the gateway server is running Windows Server 2012 R2, Windows PowerShell Web Access lets users reconnect to saved sessions at a later time, but you cannot see or reconnect to saved sessions until after the time-out period specified by the gateway administrator has lapsed.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Closing the browser window or tab.</source>
+          <target state="new">Closing the browser window or tab.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Turning off the client device on which the browser is running, or disconnecting it from the network.</source>
+          <target state="new">Turning off the client device on which the browser is running, or disconnecting it from the network.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Running the <bpt id="p1">**</bpt>Exit<ept id="p1">**</ept> command in the web console.</source>
+          <target state="new">Running the <bpt id="p1">**</bpt>Exit<ept id="p1">**</ept> command in the web console.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This command does not work if the session configuration to which you are connected to is configured to support <bpt id="p1">[</bpt>NoLanguage<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/system.management.automation.pslanguagemode.aspx)</ept> mode, or is in a restricted runspace.</source>
+          <target state="new">This command does not work if the session configuration to which you are connected to is configured to support <bpt id="p1">[</bpt>NoLanguage<ept id="p1">](https://msdn.microsoft.com/library/windows/desktop/system.management.automation.pslanguagemode.aspx)</ept> mode, or is in a restricted runspace.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If you want to sign in again, open the Windows PowerShell Web Access web page again, and sign in by following the steps in <bpt id="p1">[</bpt>To sign in to Windows PowerShell Web Access<ept id="p1">](#BKMK_signin)</ept> in this topic.</source>
+          <target state="new">If you want to sign in again, open the Windows PowerShell Web Access web page again, and sign in by following the steps in <bpt id="p1">[</bpt>To sign in to Windows PowerShell Web Access<ept id="p1">](#BKMK_signin)</ept> in this topic.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Differences in the web-based Windows PowerShell console<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph><ph id="ph7">
+</ph><ph id="ph8">&lt;a href="/en-us/library/hh831417(v=ws.11).aspx#Anchor_3" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"&gt;</ph><ph id="ph9">&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Differences in the web-based Windows PowerShell console<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph><ph id="ph7">
+</ph><ph id="ph8">&lt;a href="/en-us/library/hh831417(v=ws.11).aspx#Anchor_3" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"&gt;</ph><ph id="ph9">&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>After signing in to Windows PowerShell Web Access, a web-based Windows PowerShell console opens in your browser window or tab.</source>
+          <target state="new">After signing in to Windows PowerShell Web Access, a web-based Windows PowerShell console opens in your browser window or tab.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Because the console is connected to the remote computer that you specified during the sign-in process, only those Windows PowerShell cmdlets or scripts that are available on the remote computer can be used in the console.</source>
+          <target state="new">Because the console is connected to the remote computer that you specified during the sign-in process, only those Windows PowerShell cmdlets or scripts that are available on the remote computer can be used in the console.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This section describes other limitations of Windows PowerShell Web Access consoles, and differences between Windows PowerShell Web Access consoles and the installed <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> console.</source>
+          <target state="new">This section describes other limitations of Windows PowerShell Web Access consoles, and differences between Windows PowerShell Web Access consoles and the installed <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> console.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Functional disparity with PowerShell.exe<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Functional disparity with PowerShell.exe<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The majority of Windows PowerShell host functionality is available in the Windows PowerShell Web Access web-based console, but there are some features that are not available.</source>
+          <target state="new">The majority of Windows PowerShell host functionality is available in the Windows PowerShell Web Access web-based console, but there are some features that are not available.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="label"&gt;</ph>Nested progress displays.<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="label"&gt;</ph>Nested progress displays.<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access displays a progress GUI for cmdlets that report progress, but only top-level progress information is displayed.</source>
+          <target state="new">Windows PowerShell Web Access displays a progress GUI for cmdlets that report progress, but only top-level progress information is displayed.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="label"&gt;</ph>Input color modification.<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="label"&gt;</ph>Input color modification.<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The input color (both foreground and background) cannot be changed.</source>
+          <target state="new">The input color (both foreground and background) cannot be changed.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The style of output, warning, verbose, and error messages can all be changed by running a script.</source>
+          <target state="new">The style of output, warning, verbose, and error messages can all be changed by running a script.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="label"&gt;</ph>PSHostRawUserInterface.<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="label"&gt;</ph>PSHostRawUserInterface.<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access is implemented over Windows PowerShell remote management, and uses a remote runspace.</source>
+          <target state="new">Windows PowerShell Web Access is implemented over Windows PowerShell remote management, and uses a remote runspace.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access does not implement some methods in this interface; for example, any command that writes to the Windows console.</source>
+          <target state="new">Windows PowerShell Web Access does not implement some methods in this interface; for example, any command that writes to the Windows console.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Commands such as <bpt id="p1">**</bpt>PowerTab<ept id="p1">**</ept> do not work in Windows PowerShell Web Access.</source>
+          <target state="new">Commands such as <bpt id="p1">**</bpt>PowerTab<ept id="p1">**</ept> do not work in Windows PowerShell Web Access.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="label"&gt;</ph>Function keys.<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="label"&gt;</ph>Function keys.<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access does not support some function keys, in many cases because the commands are reserved by the browser.</source>
+          <target state="new">Windows PowerShell Web Access does not support some function keys, in many cases because the commands are reserved by the browser.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Unsupported Function Key</source>
+          <target state="new">Unsupported Function Key</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="new">Action</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Ctrl+C</source>
+          <target state="new">Ctrl+C</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell Web Access, <ph id="ph1">&lt;strong&gt;</ph>Ctrl+C<ph id="ph2">&lt;/strong&gt;</ph> is used by the browser to copy content.</source>
+          <target state="new">In Windows PowerShell Web Access, <ph id="ph1">&lt;strong&gt;</ph>Ctrl+C<ph id="ph2">&lt;/strong&gt;</ph> is used by the browser to copy content.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The console offers a <ph id="ph1">&lt;strong&gt;</ph>Cancel<ph id="ph2">&lt;/strong&gt;</ph> button, and users can also use <ph id="ph3">&lt;strong&gt;</ph>Ctrl+Q<ph id="ph4">&lt;/strong&gt;</ph> to cancel commands.</source>
+          <target state="new">The console offers a <ph id="ph1">&lt;strong&gt;</ph>Cancel<ph id="ph2">&lt;/strong&gt;</ph> button, and users can also use <ph id="ph3">&lt;strong&gt;</ph>Ctrl+Q<ph id="ph4">&lt;/strong&gt;</ph> to cancel commands.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Alt-space, e, l</source>
+          <target state="new">Alt-space, e, l</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Scroll through the screen buffer</source>
+          <target state="new">Scroll through the screen buffer</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Alt+Space, e, f</source>
+          <target state="new">Alt+Space, e, f</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Search for text in the screen buffer</source>
+          <target state="new">Search for text in the screen buffer</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Alt+Space, e, k</source>
+          <target state="new">Alt+Space, e, k</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Select text to be copied from the screen buffer</source>
+          <target state="new">Select text to be copied from the screen buffer</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Alt+Space, e, p</source>
+          <target state="new">Alt+Space, e, p</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Paste clipboard contents into the Windows PowerShell console</source>
+          <target state="new">Paste clipboard contents into the Windows PowerShell console</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Alt+Space, c</source>
+          <target state="new">Alt+Space, c</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Close the Windows PowerShell console</source>
+          <target state="new">Close the Windows PowerShell console</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Ctrl+Break</source>
+          <target state="new">Ctrl+Break</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Force the Windows PowerShell window to close</source>
+          <target state="new">Force the Windows PowerShell window to close</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Ctrl+Home</source>
+          <target state="new">Ctrl+Home</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Deletes from the beginning of the current command line</source>
+          <target state="new">Deletes from the beginning of the current command line</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Ctrl+End</source>
+          <target state="new">Ctrl+End</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Deletes to end of the command line</source>
+          <target state="new">Deletes to end of the command line</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>F1</source>
+          <target state="new">F1</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Move cursor one character to the right on your command line</source>
+          <target state="new">Move cursor one character to the right on your command line</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>F2</source>
+          <target state="new">F2</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Creates a new command by copying your last command up to the character that you type</source>
+          <target state="new">Creates a new command by copying your last command up to the character that you type</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>F3</source>
+          <target state="new">F3</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Complete the command line with content from your last command line</source>
+          <target state="new">Complete the command line with content from your last command line</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>F4</source>
+          <target state="new">F4</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Deletes characters from cursor position</source>
+          <target state="new">Deletes characters from cursor position</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>F5</source>
+          <target state="new">F5</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Scan backward through your command history.</source>
+          <target state="new">Scan backward through your command history.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>To access commands in the command history in Windows PowerShell Web Access, click the <ph id="ph1">&lt;strong&gt;</ph>History<ph id="ph2">&lt;/strong&gt;</ph> scroll buttons in the web-based console.</source>
+          <target state="new">To access commands in the command history in Windows PowerShell Web Access, click the <ph id="ph1">&lt;strong&gt;</ph>History<ph id="ph2">&lt;/strong&gt;</ph> scroll buttons in the web-based console.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>F7</source>
+          <target state="new">F7</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Interactively select a command from your command history</source>
+          <target state="new">Interactively select a command from your command history</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>F8</source>
+          <target state="new">F8</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Scan history displaying commands that match current text</source>
+          <target state="new">Scan history displaying commands that match current text</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>F9</source>
+          <target state="new">F9</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Run a specific numbered command from history</source>
+          <target state="new">Run a specific numbered command from history</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Page Up</source>
+          <target state="new">Page Up</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Run the first command in the history</source>
+          <target state="new">Run the first command in the history</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Page Down</source>
+          <target state="new">Page Down</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Run the last command in the history</source>
+          <target state="new">Run the last command in the history</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Alt+F7</source>
+          <target state="new">Alt+F7</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Clear the command history list</source>
+          <target state="new">Clear the command history list</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">
+
+&lt;a href="" id="BKMK_limits"&gt;&lt;/a&gt;</ph><ph id="ph2">
+###
+
+&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;&lt;/span&gt;&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Limitations of the web-based console<ph id="ph3">&lt;/span&gt;&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">
+
+&lt;a href="" id="BKMK_limits"&gt;&lt;/a&gt;</ph><ph id="ph2">
+###
+
+&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;&lt;/span&gt;&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>Limitations of the web-based console<ph id="ph3">&lt;/span&gt;&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="label"&gt;</ph>Double-hop.<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="label"&gt;</ph>Double-hop.<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>You can encounter the double-hop (or connecting to a second computer from the first connection) limitation if you try to create or work on a new session by using Windows PowerShell Web Access.</source>
+          <target state="new">You can encounter the double-hop (or connecting to a second computer from the first connection) limitation if you try to create or work on a new session by using Windows PowerShell Web Access.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access uses a remote runspace, and currently, <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> does not support establishing a remote connection to a second computer from a remote runspace.</source>
+          <target state="new">Windows PowerShell Web Access uses a remote runspace, and currently, <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> does not support establishing a remote connection to a second computer from a remote runspace.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If you attempt to connect to a second remote computer from an existing connection by using the <bpt id="p1">**</bpt>Enter-PSSession<ept id="p1">**</ept> cmdlet, for example, you can get various errors, such as “Cannot get network resources.”</source>
+          <target state="new">If you attempt to connect to a second remote computer from an existing connection by using the <bpt id="p1">**</bpt>Enter-PSSession<ept id="p1">**</ept> cmdlet, for example, you can get various errors, such as “Cannot get network resources.”</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To avoid double-hop errors, your administrator should configure CredSSP authentication in your organization’s network environment.</source>
+          <target state="new">To avoid double-hop errors, your administrator should configure CredSSP authentication in your organization’s network environment.</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For more information about configuring CredSSP authentication, see <bpt id="p1">[</bpt>CredSSP for second-hop remoting<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2008/06/05/credssp-for-second-hop-remoting-part-i-domain-account.aspx)</ept> on the Microsoft website.</source>
+          <target state="new">For more information about configuring CredSSP authentication, see <bpt id="p1">[</bpt>CredSSP for second-hop remoting<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2008/06/05/credssp-for-second-hop-remoting-part-i-domain-account.aspx)</ept> on the Microsoft website.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>You can also provide explicit credentials when you want to manage a second remote computer; implicit credentials are unlikely to allow the second hop.</source>
+          <target state="new">You can also provide explicit credentials when you want to manage a second remote computer; implicit credentials are unlikely to allow the second hop.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Web Access uses and has the same limitations as a remote Windows PowerShell session.</source>
+          <target state="new">Windows PowerShell Web Access uses and has the same limitations as a remote Windows PowerShell session.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Commands that directly call Windows console APIs, such as those for console-based editors or text-based menu programs, do not work because the commands do not read or write to standard input, output, and error pipes.</source>
+          <target state="new">Commands that directly call Windows console APIs, such as those for console-based editors or text-based menu programs, do not work because the commands do not read or write to standard input, output, and error pipes.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Therefore, commands that launch an executable file, such as <bpt id="p1">**</bpt>notepad.exe<ept id="p1">**</ept>, or display a GUI, such as <ph id="ph1">&lt;span class="code"&gt;</ph>OpenGridView<ph id="ph2">&lt;/span&gt;</ph> or <ph id="ph3">&lt;span class="code"&gt;</ph>ogv<ph id="ph4">&lt;/span&gt;</ph>, do not work.</source>
+          <target state="new">Therefore, commands that launch an executable file, such as <bpt id="p1">**</bpt>notepad.exe<ept id="p1">**</ept>, or display a GUI, such as <ph id="ph1">&lt;span class="code"&gt;</ph>OpenGridView<ph id="ph2">&lt;/span&gt;</ph> or <ph id="ph3">&lt;span class="code"&gt;</ph>ogv<ph id="ph4">&lt;/span&gt;</ph>, do not work.</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Your experience is affected by this behavior; to you, it appears that Windows PowerShell Web Access is not responding to your command.</source>
+          <target state="new">Your experience is affected by this behavior; to you, it appears that Windows PowerShell Web Access is not responding to your command.</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Tab completion does not work in a session configuration with a restricted runspace or one that is in <bpt id="p1">**</bpt>NoLanguage<ept id="p1">**</ept> mode.</source>
+          <target state="new">Tab completion does not work in a session configuration with a restricted runspace or one that is in <bpt id="p1">**</bpt>NoLanguage<ept id="p1">**</ept> mode.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Although administrators can configure a session to support tab completion, it is discouraged for security reasons, because it can expose the following information to unauthorized users.</source>
+          <target state="new">Although administrators can configure a session to support tab completion, it is discouraged for security reasons, because it can expose the following information to unauthorized users.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Internal file system paths</source>
+          <target state="new">Internal file system paths</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Shared folders on internal computers</source>
+          <target state="new">Shared folders on internal computers</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Variables in the runspace</source>
+          <target state="new">Variables in the runspace</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Loaded types or.NET Framework namespaces</source>
+          <target state="new">Loaded types or.NET Framework namespaces</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Environment variables</source>
+          <target state="new">Environment variables</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Users who are signed in to a <bpt id="p1">**</bpt>NoLanguage<ept id="p1">**</ept> session configuration or a restricted runspace in Windows PowerShell Web Access cannot run the <bpt id="p2">**</bpt>Exit<ept id="p2">**</ept> command to end the session.</source>
+          <target state="new">Users who are signed in to a <bpt id="p1">**</bpt>NoLanguage<ept id="p1">**</ept> session configuration or a restricted runspace in Windows PowerShell Web Access cannot run the <bpt id="p2">**</bpt>Exit<ept id="p2">**</ept> command to end the session.</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>To sign out, users should click <bpt id="p1">**</bpt>Sign Out<ept id="p1">**</ept> on the console page.</source>
+          <target state="new">To sign out, users should click <bpt id="p1">**</bpt>Sign Out<ept id="p1">**</ept> on the console page.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="label"&gt;</ph>Connecting to multiple target computers simultaneously.<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="label"&gt;</ph>Connecting to multiple target computers simultaneously.<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>If the gateway server is running Windows Server 2012, Windows PowerShell Web Access allows only one remote computer connection per browser session; it does not allow users to sign in once, and connect to multiple remote computers by using separate browser tabs.</source>
+          <target state="new">If the gateway server is running Windows Server 2012, Windows PowerShell Web Access allows only one remote computer connection per browser session; it does not allow users to sign in once, and connect to multiple remote computers by using separate browser tabs.</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>When you open a new tab or new browser window, Windows PowerShell Web Access prompts you to disconnect your current session and start a new session, so that you can connect to the new (or the same) remote computer.</source>
+          <target state="new">When you open a new tab or new browser window, Windows PowerShell Web Access prompts you to disconnect your current session and start a new session, so that you can connect to the new (or the same) remote computer.</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>If two or more separate sessions to different remote computers are desired, however, a feature in Internet Explorer lets you create a new session.</source>
+          <target state="new">If two or more separate sessions to different remote computers are desired, however, a feature in Internet Explorer lets you create a new session.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>To start a new browser session in Internet Explorer, press <bpt id="p1">**</bpt>ALT<ept id="p1">**</ept>, open the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, and then select <bpt id="p3">**</bpt>New Session<ept id="p3">**</ept>.</source>
+          <target state="new">To start a new browser session in Internet Explorer, press <bpt id="p1">**</bpt>ALT<ept id="p1">**</ept>, open the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, and then select <bpt id="p3">**</bpt>New Session<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Then, open the Windows PowerShell Web Access website in the new session, and sign in to access another remote computer.</source>
+          <target state="new">Then, open the Windows PowerShell Web Access website in the new session, and sign in to access another remote computer.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>When the Windows PowerShell Web Access gateway is running on Windows Server 2012 R2, users can open multiple connections to remote computers in different browser tabs.</source>
+          <target state="new">When the Windows PowerShell Web Access gateway is running on Windows Server 2012 R2, users can open multiple connections to remote computers in different browser tabs.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>If you want to open more than one connection to a remote computer by using the web-based Windows PowerShell console, check with your Windows PowerShell Web Access gateway administrator to see if this feature is supported by the gateway server.</source>
+          <target state="new">If you want to open more than one connection to a remote computer by using the web-based Windows PowerShell console, check with your Windows PowerShell Web Access gateway administrator to see if this feature is supported by the gateway server.</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="label"&gt;</ph>Persistent Windows PowerShell sessions (Reconnection).<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="label"&gt;</ph>Persistent Windows PowerShell sessions (Reconnection).<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>After you time out of the Windows PowerShell Web Access gateway, the remote connection between the gateway and the target computer is closed.</source>
+          <target state="new">After you time out of the Windows PowerShell Web Access gateway, the remote connection between the gateway and the target computer is closed.</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>This stops any cmdlets or scripts that are currently in process.</source>
+          <target state="new">This stops any cmdlets or scripts that are currently in process.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You are encouraged to use the Windows PowerShell <bpt id="p1">**</bpt>-Job<ept id="p1">**</ept> infrastructure when you are performing long-running tasks, so that you can start jobs, disconnect from the computer, reconnect later, and have jobs persist.</source>
+          <target state="new">You are encouraged to use the Windows PowerShell <bpt id="p1">**</bpt>-Job<ept id="p1">**</ept> infrastructure when you are performing long-running tasks, so that you can start jobs, disconnect from the computer, reconnect later, and have jobs persist.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Another benefit of using <bpt id="p1">**</bpt>-Job<ept id="p1">**</ept> cmdlets is that you can start them by using Windows PowerShell Web Access, sign out, and then reconnect later, either by running Windows PowerShell Web Access or another host (such as Windows PowerShell® Integrated Scripting Environment (ISE)).</source>
+          <target state="new">Another benefit of using <bpt id="p1">**</bpt>-Job<ept id="p1">**</ept> cmdlets is that you can start them by using Windows PowerShell Web Access, sign out, and then reconnect later, either by running Windows PowerShell Web Access or another host (such as Windows PowerShell® Integrated Scripting Environment (ISE)).</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="label"&gt;</ph>Console resizing.<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="label"&gt;</ph>Console resizing.<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> console window can be resized in the following three ways.</source>
+          <target state="new">The <bpt id="p1">**</bpt>PowerShell.exe<ept id="p1">**</ept> console window can be resized in the following three ways.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Drag and adjust the console window size with a mouse</source>
+          <target state="new">Drag and adjust the console window size with a mouse</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Change the height and width properties by using a GUI for console properties</source>
+          <target state="new">Change the height and width properties by using a GUI for console properties</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Changing the height and width of console windows with a cmdlet</source>
+          <target state="new">Changing the height and width of console windows with a cmdlet</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The console window for Windows PowerShell Web Access can be configured by using the cmdlets as follows.</source>
+          <target state="new">The console window for Windows PowerShell Web Access can be configured by using the cmdlets as follows.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>In the following example, a user changes the width of Windows PowerShell Web Access console to <bpt id="p1">**</bpt>20<ept id="p1">**</ept>.</source>
+          <target state="new">In the following example, a user changes the width of Windows PowerShell Web Access console to <bpt id="p1">**</bpt>20<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_778d5e55-9195-4bd7-b313-d1fbca7876e4'); "Copy to clipboard.")</source>
+          <target state="new">[Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_778d5e55-9195-4bd7-b313-d1fbca7876e4'); "Copy to clipboard.")</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>You can change the height of the console in a similar manner.</source>
+          <target state="new">You can change the height of the console in a similar manner.</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Additional examples for customizing the console view are available in the <bpt id="p1">[</bpt>Windows PowerShell Team Blog<ept id="p1">](http://blogs.msdn.com/b/powershell/)</ept>.</source>
+          <target state="new">Additional examples for customizing the console view are available in the <bpt id="p1">[</bpt>Windows PowerShell Team Blog<ept id="p1">](http://blogs.msdn.com/b/powershell/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>See Also<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph><ph id="ph7">
+</ph><ph id="ph8">&lt;a href="/en-us/library/hh831417(v=ws.11).aspx#Anchor_4" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"&gt;</ph><ph id="ph9">&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"&gt;</ph><ph id="ph2">&lt;span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"&gt;</ph><ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;span class="LW_CollapsibleArea_Title"&gt;</ph>See Also<ph id="ph5">&lt;/span&gt;</ph><ph id="ph6">&lt;/a&gt;</ph><ph id="ph7">
+</ph><ph id="ph8">&lt;a href="/en-us/library/hh831417(v=ws.11).aspx#Anchor_4" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"&gt;</ph><ph id="ph9">&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell Cmdlet Reference<ept id="p1">](https://technet.microsoft.com/library/ee407531(ws.10).aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Windows PowerShell on Microsoft TechNet<ept id="p2">](https://technet.microsoft.com/library/bb978526.aspx)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>TechNet Script Center Repository<ept id="p3">](http://gallery.technet.microsoft.com/scriptcenter)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Script Center - Hey, Scripting Guy!<ept id="p4">](https://technet.microsoft.com/scriptcenter)</ept><ph id="ph4">
+</ph><bpt id="p5">[</bpt>Windows PowerShell Team Blog<ept id="p5">](http://blogs.msdn.com/b/powershell/)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PowerShell Cmdlet Reference<ept id="p1">](https://technet.microsoft.com/library/ee407531(ws.10).aspx)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Windows PowerShell on Microsoft TechNet<ept id="p2">](https://technet.microsoft.com/library/bb978526.aspx)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>TechNet Script Center Repository<ept id="p3">](http://gallery.technet.microsoft.com/scriptcenter)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Script Center - Hey, Scripting Guy!<ept id="p4">](https://technet.microsoft.com/scriptcenter)</ept><ph id="ph4">
+</ph><bpt id="p5">[</bpt>Windows PowerShell Team Blog<ept id="p5">](http://blogs.msdn.com/b/powershell/)</ept></target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span&gt;</ph>Show:<ph id="ph2">&lt;/span&gt;</ph> Inherited Protected</source>
+          <target state="new"><ph id="ph1">&lt;span&gt;</ph>Show:<ph id="ph2">&lt;/span&gt;</ph> Inherited Protected</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="stdr-votetitle"&gt;</ph>Was this page helpful?<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="stdr-votetitle"&gt;</ph>Was this page helpful?<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Yes No</source>
+          <target state="new">Yes No</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Additional feedback?</source>
+          <target state="new">Additional feedback?</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="stdr-count"&gt;</ph><ph id="ph2">&lt;span class="stdr-charcnt"&gt;</ph>1500<ph id="ph3">&lt;/span&gt;</ph> characters remaining<ph id="ph4">&lt;/span&gt;</ph> Submit Skip this</source>
+          <target state="new"><ph id="ph1">&lt;span class="stdr-count"&gt;</ph><ph id="ph2">&lt;span class="stdr-charcnt"&gt;</ph>1500<ph id="ph3">&lt;/span&gt;</ph> characters remaining<ph id="ph4">&lt;/span&gt;</ph> Submit Skip this</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="stdr-thankyou"&gt;</ph>Thank you!<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="stdr-thankyou"&gt;</ph>Thank you!<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span class="stdr-appreciate"&gt;</ph>We appreciate your feedback.<ph id="ph2">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span class="stdr-appreciate"&gt;</ph>We appreciate your feedback.<ph id="ph2">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manage Your Profile<ept id="p1">](https://social.technet.microsoft.com/profile)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Manage Your Profile<ept id="p1">](https://social.technet.microsoft.com/profile)</ept></target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" id="SiteFeedbackLinkOpener"&gt;</ph><ph id="ph2">&lt;span id="FeedbackButton" class="FeedbackButton clip20x21"&gt;</ph> <ph id="ph3">&lt;img src="https://i-technet.sec.s-msft.com/Areas/Epx/Content/Images/ImageSprite.png?v=635975720914499532" alt="Site Feedback" id="feedBackImg" class="cl_footer_feedback_icon" /&gt;</ph> <ph id="ph4">&lt;/span&gt;</ph> Site Feedback<ph id="ph5">&lt;/a&gt;</ph> Site Feedback</source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" id="SiteFeedbackLinkOpener"&gt;</ph><ph id="ph2">&lt;span id="FeedbackButton" class="FeedbackButton clip20x21"&gt;</ph> <ph id="ph3">&lt;img src="https://i-technet.sec.s-msft.com/Areas/Epx/Content/Images/ImageSprite.png?v=635975720914499532" alt="Site Feedback" id="feedBackImg" class="cl_footer_feedback_icon" /&gt;</ph> <ph id="ph4">&lt;/span&gt;</ph> Site Feedback<ph id="ph5">&lt;/a&gt;</ph> Site Feedback</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a href="javascript:void(0)" id="SiteFeedbackLinkCloser"&gt;</ph>x<ph id="ph2">&lt;/a&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;a href="javascript:void(0)" id="SiteFeedbackLinkCloser"&gt;</ph>x<ph id="ph2">&lt;/a&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Tell us about your experience...</source>
+          <target state="new">Tell us about your experience...</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Did the page load quickly?</source>
+          <target state="new">Did the page load quickly?</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span&gt;</ph> Yes<ph id="ph2">&lt;span&gt;</ph> <ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;/span&gt;</ph> <ph id="ph5">&lt;span&gt;</ph> No<ph id="ph6">&lt;span&gt;</ph> <ph id="ph7">&lt;/span&gt;</ph><ph id="ph8">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span&gt;</ph> Yes<ph id="ph2">&lt;span&gt;</ph> <ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;/span&gt;</ph> <ph id="ph5">&lt;span&gt;</ph> No<ph id="ph6">&lt;span&gt;</ph> <ph id="ph7">&lt;/span&gt;</ph><ph id="ph8">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Do you like the page design?</source>
+          <target state="new">Do you like the page design?</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;span&gt;</ph> Yes<ph id="ph2">&lt;span&gt;</ph> <ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;/span&gt;</ph> <ph id="ph5">&lt;span&gt;</ph> No<ph id="ph6">&lt;span&gt;</ph> <ph id="ph7">&lt;/span&gt;</ph><ph id="ph8">&lt;/span&gt;</ph></source>
+          <target state="new"><ph id="ph1">&lt;span&gt;</ph> Yes<ph id="ph2">&lt;span&gt;</ph> <ph id="ph3">&lt;/span&gt;</ph><ph id="ph4">&lt;/span&gt;</ph> <ph id="ph5">&lt;span&gt;</ph> No<ph id="ph6">&lt;span&gt;</ph> <ph id="ph7">&lt;/span&gt;</ph><ph id="ph8">&lt;/span&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Tell us more</source>
+          <target state="new">Tell us more</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Flash Newsletter<ept id="p1">](https://technet.microsoft.com/cc543196.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Flash Newsletter<ept id="p1">](https://technet.microsoft.com/cc543196.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Contact Us<ept id="p1">](https://technet.microsoft.com/cc512759.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Contact Us<ept id="p1">](https://technet.microsoft.com/cc512759.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Privacy Statement<ept id="p1">](https://privacy.microsoft.com/privacystatement)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Privacy Statement<ept id="p1">](https://privacy.microsoft.com/privacystatement)</ept></target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Terms of Use<ept id="p1">](https://technet.microsoft.com/cc300389.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Terms of Use<ept id="p1">](https://technet.microsoft.com/cc300389.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Trademarks<ept id="p1">](https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Trademarks<ept id="p1">](https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/)</ept></target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="new">© 2016 Microsoft</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>© 2016 Microsoft</source>
+          <target state="new">© 2016 Microsoft</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.</source>
+          <target state="new">Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.</source>
+          <target state="new">See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

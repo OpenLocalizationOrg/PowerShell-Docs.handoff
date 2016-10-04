@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1744841e23aa9c2fedf3eb92230ef422c36f0cd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\The-ISEFile-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90f34c9272101b289046de912a09b8fc7e869cd4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0f8bd3544a16c4324d8bd6296c69d9dec6b12bac</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The ISEFile Object</source>
+          <target state="new">The ISEFile Object</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The ISEFile Object</source>
+          <target state="new">The ISEFile Object</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>ISEFile<ept id="p1">**</ept> object represents a file in Windows PowerShellÂ® Integrated Scripting Environment (ISE).</source>
+          <target state="new">An <bpt id="p1">**</bpt>ISEFile<ept id="p1">**</ept> object represents a file in Windows PowerShellÂ® Integrated Scripting Environment (ISE).</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It is an instance of the Microsoft.PowerShell.Host.ISE.ISEFile class.</source>
+          <target state="new">It is an instance of the Microsoft.PowerShell.Host.ISE.ISEFile class.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This topic lists its member methods and member properties.</source>
+          <target state="new">This topic lists its member methods and member properties.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$psISE.CurrentFile<ept id="p1">**</ept> and the files in the Files collection in a PowerShell tab are all instances of the Microsoft.PowerShell.Host.ISE.ISEFile class.</source>
+          <target state="new">The <bpt id="p1">**</bpt>$psISE.CurrentFile<ept id="p1">**</ept> and the files in the Files collection in a PowerShell tab are all instances of the Microsoft.PowerShell.Host.ISE.ISEFile class.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Methods</source>
+          <target state="new">Methods</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="save-override"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Save\( \[saveEncoding\] \)</source>
+          <target state="new"><ph id="ph1">&lt;a name="save-override"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Save\( \[saveEncoding\] \)</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Saves the file to disk.</source>
+          <target state="new">Saves the file to disk.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>\[saveEncoding\]<ept id="p1">**</ept> – optional <bpt id="p2">[</bpt>System.Text.Encoding<ept id="p2">](http://msdn.microsoft.com/library/system.text.encoding.aspx)</ept><ph id="ph1">
+</ph> An optional character encoding parameter to be used for the saved file.</source>
+          <target state="new"><bpt id="p1">**</bpt>\[saveEncoding\]<ept id="p1">**</ept> – optional <bpt id="p2">[</bpt>System.Text.Encoding<ept id="p2">](http://msdn.microsoft.com/library/system.text.encoding.aspx)</ept><ph id="ph1">
+</ph> An optional character encoding parameter to be used for the saved file.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>UTF8<ept id="p1">**</ept>.</source>
+          <target state="new">The default value is <bpt id="p1">**</bpt>UTF8<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exceptions<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Exceptions<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>System.IO.IOException<ept id="p1">**</ept>: The file could not be saved.</source>
+          <target state="new"><bpt id="p1">**</bpt>System.IO.IOException<ept id="p1">**</ept>: The file could not be saved.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="saveas"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> SaveAs\(filename, \[saveEncoding\]\)</source>
+          <target state="new"><ph id="ph1">&lt;a name="saveas"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> SaveAs\(filename, \[saveEncoding\]\)</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Saves the file with the specified file name and encoding.</source>
+          <target state="new">Saves the file with the specified file name and encoding.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>filename<ept id="p1">**</ept> - String The name to be used to save the file.</source>
+          <target state="new"><bpt id="p1">**</bpt>filename<ept id="p1">**</ept> - String The name to be used to save the file.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>\[saveEncoding\]<ept id="p1">**</ept> – optional <bpt id="p2">[</bpt>System.Text.Encoding<ept id="p2">](http://msdn.microsoft.com/library/system.text.encoding.aspx)</ept><ph id="ph1">
+</ph> An optional character encoding parameter to be used for the saved file.</source>
+          <target state="new"><bpt id="p1">**</bpt>\[saveEncoding\]<ept id="p1">**</ept> – optional <bpt id="p2">[</bpt>System.Text.Encoding<ept id="p2">](http://msdn.microsoft.com/library/system.text.encoding.aspx)</ept><ph id="ph1">
+</ph> An optional character encoding parameter to be used for the saved file.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">**</bpt>UTF8<ept id="p1">**</ept>.</source>
+          <target state="new">The default value is <bpt id="p1">**</bpt>UTF8<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exceptions<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Exceptions<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>System.ArgumentNullException<ept id="p1">**</ept>: The <bpt id="p2">**</bpt>filename<ept id="p2">**</ept> parameter is null.</source>
+          <target state="new"><bpt id="p1">**</bpt>System.ArgumentNullException<ept id="p1">**</ept>: The <bpt id="p2">**</bpt>filename<ept id="p2">**</ept> parameter is null.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>System.ArgumentException<ept id="p1">**</ept>: The <bpt id="p2">**</bpt>filename<ept id="p2">**</ept> parameter is empty.</source>
+          <target state="new"><bpt id="p1">**</bpt>System.ArgumentException<ept id="p1">**</ept>: The <bpt id="p2">**</bpt>filename<ept id="p2">**</ept> parameter is empty.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>System.IO.IOException<ept id="p1">**</ept>: The file could not be saved.</source>
+          <target state="new"><bpt id="p1">**</bpt>System.IO.IOException<ept id="p1">**</ept>: The file could not be saved.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Displayname"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> DisplayName</source>
+          <target state="new"><ph id="ph1">&lt;a name="Displayname"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> DisplayName</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the string that contains the display name of this file.</source>
+          <target state="new">The read-only property that gets the string that contains the display name of this file.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name is shown on the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> tab at the top of the editor.</source>
+          <target state="new">The name is shown on the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> tab at the top of the editor.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The presence of an asterisk \(\*\) at the end of the name indicates that the file has changes that have not been saved.</source>
+          <target state="new">The presence of an asterisk \(\*\) at the end of the name indicates that the file has changes that have not been saved.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Editor"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Editor</source>
+          <target state="new"><ph id="ph1">&lt;a name="Editor"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Editor</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the <bpt id="p1">[</bpt>editor object<ept id="p1">](The-ISEEditor-Object.md)</ept> that is used for the specified file.</source>
+          <target state="new">The read-only property that gets the <bpt id="p1">[</bpt>editor object<ept id="p1">](The-ISEEditor-Object.md)</ept> that is used for the specified file.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Encoding"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Encoding</source>
+          <target state="new"><ph id="ph1">&lt;a name="Encoding"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Encoding</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the original file encoding.</source>
+          <target state="new">The read-only property that gets the original file encoding.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This is a <bpt id="p1">**</bpt>System.Text.Encoding<ept id="p1">**</ept> object.</source>
+          <target state="new">This is a <bpt id="p1">**</bpt>System.Text.Encoding<ept id="p1">**</ept> object.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="FullPath"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> FullPath</source>
+          <target state="new"><ph id="ph1">&lt;a name="FullPath"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> FullPath</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the string that specifies the full path of the opened file.</source>
+          <target state="new">The read-only property that gets the string that specifies the full path of the opened file.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="IsSaved"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> IsSaved</source>
+          <target state="new"><ph id="ph1">&lt;a name="IsSaved"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> IsSaved</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The read-only Boolean property that returns <bpt id="p1">**</bpt>$true<ept id="p1">**</ept> if the file has been saved after it was last modified.</source>
+          <target state="new">The read-only Boolean property that returns <bpt id="p1">**</bpt>$true<ept id="p1">**</ept> if the file has been saved after it was last modified.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="IsUntitled"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> IsUntitled</source>
+          <target state="new"><ph id="ph1">&lt;a name="IsUntitled"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> IsUntitled</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The read-only property that returns <bpt id="p1">**</bpt>$true<ept id="p1">**</ept> if the file has never been given a title.</source>
+          <target state="new">The read-only property that returns <bpt id="p1">**</bpt>$true<ept id="p1">**</ept> if the file has never been given a title.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEFileCollectionObject<ept id="p1">](The-ISEFileCollection-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEFileCollectionObject<ept id="p1">](The-ISEFileCollection-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">88753c43124cfce3581af2259449be5f01579ae8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Sorting-Objects.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2592ce6e6651ba4f359d3ae3f578de76a8c63e1e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eae373bfa6422f9241eccb31ab73c383795514b2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Sorting Objects</source>
+          <target state="new">Sorting Objects</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Sorting Objects</source>
+          <target state="new">Sorting Objects</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We can organize displayed data to make it easier to scan by using the <bpt id="p1">**</bpt>Sort-Object<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">We can organize displayed data to make it easier to scan by using the <bpt id="p1">**</bpt>Sort-Object<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sort-Object<ept id="p1">**</ept> takes the name of one or more properties to sort on, and returns data sorted by the values of those properties.</source>
+          <target state="new"><bpt id="p1">**</bpt>Sort-Object<ept id="p1">**</ept> takes the name of one or more properties to sort on, and returns data sorted by the values of those properties.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Consider the problem of listing Win32_SystemDriver instances.</source>
+          <target state="new">Consider the problem of listing Win32_SystemDriver instances.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If we want to sort by <bpt id="p1">**</bpt>State<ept id="p1">**</ept> and then by <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>, we can do it by typing:</source>
+          <target state="new">If we want to sort by <bpt id="p1">**</bpt>State<ept id="p1">**</ept> and then by <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>, we can do it by typing:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Although this is a lengthy display, you can see items with the same state grouped together:</source>
+          <target state="new">Although this is a lengthy display, you can see items with the same state grouped together:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can also sort the objects in reverse order by specifying the <bpt id="p1">**</bpt>Descending<ept id="p1">**</ept> parameter.</source>
+          <target state="new">You can also sort the objects in reverse order by specifying the <bpt id="p1">**</bpt>Descending<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This reverses the sort order so that names are sorted in reverse alphabetical order and numbers are sorted by descending size.</source>
+          <target state="new">This reverses the sort order so that names are sorted in reverse alphabetical order and numbers are sorted by descending size.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

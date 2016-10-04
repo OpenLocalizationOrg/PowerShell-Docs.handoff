@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a257f792d39f360a2c9e638f42ffac5fed282b00</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\dsc_identicalduplicate.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b460b18096f52c371d6df828bef94fbece58d29e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">35b508485472a188d1fe990198648ee53e8d8199</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allowing for Identical Duplicate Resources in a Configuration</source>
+          <target state="new">Allowing for Identical Duplicate Resources in a Configuration</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>DSC does not allow or handle conflicting resource definitions within a configuration.</source>
+          <target state="new">DSC does not allow or handle conflicting resource definitions within a configuration.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Instead of trying to resolve the conflict, it simply fails.</source>
+          <target state="new">Instead of trying to resolve the conflict, it simply fails.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As configuration reuse becomes more utilized through composite resources, etc. conflicts will occur more often.</source>
+          <target state="new">As configuration reuse becomes more utilized through composite resources, etc. conflicts will occur more often.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When conflicting resource definitions are identical, DSC should be smart and allow this.</source>
+          <target state="new">When conflicting resource definitions are identical, DSC should be smart and allow this.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>With this release, we support having multiple resource instances that have identical definitions:</source>
+          <target state="new">With this release, we support having multiple resource instances that have identical definitions:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In previous releases, the result would be a failed compilation due to a conflict between the WindowsFeature FE_IIS and WindowsFeature Worker_IIS instances trying to ensure the 'Web-Server' role is installed.</source>
+          <target state="new">In previous releases, the result would be a failed compilation due to a conflict between the WindowsFeature FE_IIS and WindowsFeature Worker_IIS instances trying to ensure the 'Web-Server' role is installed.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Notice that <bpt id="p1">*</bpt>all<ept id="p1">*</ept> of the properties that are being configured are identical in these two configurations.</source>
+          <target state="new">Notice that <bpt id="p1">*</bpt>all<ept id="p1">*</ept> of the properties that are being configured are identical in these two configurations.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Since <bpt id="p1">*</bpt>all<ept id="p1">*</ept> of the properties in these two resources are identical, this will result in a successful compilation now.</source>
+          <target state="new">Since <bpt id="p1">*</bpt>all<ept id="p1">*</ept> of the properties in these two resources are identical, this will result in a successful compilation now.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If any of the properties are different between the two resources, they will not be considered identical and compilation will fail:</source>
+          <target state="new">If any of the properties are different between the two resources, they will not be considered identical and compilation will fail:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This very similar configuration will fail because the WindowsFeature FE_IIS and the WindowsFeature Worker_IIS resources are no longer identical and therefore conflict.</source>
+          <target state="new">This very similar configuration will fail because the WindowsFeature FE_IIS and the WindowsFeature Worker_IIS resources are no longer identical and therefore conflict.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

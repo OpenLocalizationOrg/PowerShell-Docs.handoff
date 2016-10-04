@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d36a862d27ed4bb8a4bed2ae58f9479ba1b29d21</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\Running-Remote-Commands.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a45553e5faba02ec4ac8495ef75697bc3463ac86</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f604701e3b4a2748f542af303c67c60730f8b98</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Running Remote Commands</source>
+          <target state="new">Running Remote Commands</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Running Remote Commands</source>
+          <target state="new">Running Remote Commands</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can run commands on one or hundreds of computers with a single Windows PowerShell command.</source>
+          <target state="new">You can run commands on one or hundreds of computers with a single Windows PowerShell command.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell supports remote computing by using various technologies, including WMI, RPC, and WS-Management.</source>
+          <target state="new">Windows PowerShell supports remote computing by using various technologies, including WMI, RPC, and WS-Management.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Remoting Without Configuration</source>
+          <target state="new">Remoting Without Configuration</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Many Windows PowerShell cmdlets have the ComputerName parameter that enables you to collect data and change settings on one or more remote computers.</source>
+          <target state="new">Many Windows PowerShell cmdlets have the ComputerName parameter that enables you to collect data and change settings on one or more remote computers.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>They use a variety of communication technologies and many work on all Windows operating systems that Windows PowerShell supports without any special configuration.</source>
+          <target state="new">They use a variety of communication technologies and many work on all Windows operating systems that Windows PowerShell supports without any special configuration.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These cmdlets include:</source>
+          <target state="new">These cmdlets include:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Restart-Computer<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315301.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Restart-Computer<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315301.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Test-Connection<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315259.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Test-Connection<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315259.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Clear-EventLog<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347552.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Clear-EventLog<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347552.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-EventLog<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315250.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-EventLog<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315250.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-HotFix<ept id="p1">](https://technet.microsoft.com/en-us/library/e1ef636f-5170-4675-b564-199d9ef6f101)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-HotFix<ept id="p1">](https://technet.microsoft.com/en-us/library/e1ef636f-5170-4675-b564-199d9ef6f101)</ept></target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-Process<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347630.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-Process<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347630.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-Service<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347591.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-Service<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347591.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set-Service<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315324.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set-Service<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315324.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-WinEvent<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315358.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-WinEvent<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315358.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-WmiObject<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315295.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-WmiObject<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315295.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Typically, cmdlets that support remoting without special configuration have the ComputerName parameter and do not have the Session parameter.</source>
+          <target state="new">Typically, cmdlets that support remoting without special configuration have the ComputerName parameter and do not have the Session parameter.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To find these cmdlets in your session, type:</source>
+          <target state="new">To find these cmdlets in your session, type:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Remoting</source>
+          <target state="new">Windows PowerShell Remoting</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell remoting, which uses the WS-Management protocol, lets you run any Windows PowerShell command on one or many remote computers.</source>
+          <target state="new">Windows PowerShell remoting, which uses the WS-Management protocol, lets you run any Windows PowerShell command on one or many remote computers.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It lets you establish persistent connections, start 1:1 interactive sessions, and run scripts on multiple computers.</source>
+          <target state="new">It lets you establish persistent connections, start 1:1 interactive sessions, and run scripts on multiple computers.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To use Windows PowerShell remoting, the remote computer must be configured for remote management.</source>
+          <target state="new">To use Windows PowerShell remoting, the remote computer must be configured for remote management.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information, including instructions, see <bpt id="p1">[</bpt>About Remote Requirements<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315349.aspx)</ept>.</source>
+          <target state="new">For more information, including instructions, see <bpt id="p1">[</bpt>About Remote Requirements<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315349.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>After you have configured Windows PowerShell remoting, many remoting strategies are available to you.</source>
+          <target state="new">After you have configured Windows PowerShell remoting, many remoting strategies are available to you.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The remainder of this document lists just a few of them.</source>
+          <target state="new">The remainder of this document lists just a few of them.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>About Remote<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347744.aspx)</ept> and <bpt id="p2">[</bpt>About Remote FAQ<ept id="p2">](https://technet.microsoft.com/en-us/library/dd347744.aspx)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>About Remote<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347744.aspx)</ept> and <bpt id="p2">[</bpt>About Remote FAQ<ept id="p2">](https://technet.microsoft.com/en-us/library/dd347744.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Start an Interactive Session</source>
+          <target state="new">Start an Interactive Session</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To start an interactive session with a single remote computer, use the <bpt id="p1">[</bpt>Enter-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315384.aspx)</ept> cmdlet.</source>
+          <target state="new">To start an interactive session with a single remote computer, use the <bpt id="p1">[</bpt>Enter-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315384.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, to start an interactive session with the Server01 remote computer, type:</source>
+          <target state="new">For example, to start an interactive session with the Server01 remote computer, type:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The command prompt changes to display the name of the computer to which you are connected.</source>
+          <target state="new">The command prompt changes to display the name of the computer to which you are connected.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>From then on, any commands that you type at the prompt run on the remote computer and the results are displayed on the local computer.</source>
+          <target state="new">From then on, any commands that you type at the prompt run on the remote computer and the results are displayed on the local computer.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To end the interactive session, type:</source>
+          <target state="new">To end the interactive session, type:</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For more information about the Enter-PSSession and Exit-PSSession cmdlets, see <bpt id="p1">[</bpt>Enter-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315384.aspx)</ept> and <bpt id="p2">[</bpt>Exit-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/dd315322.aspx)</ept>.</source>
+          <target state="new">For more information about the Enter-PSSession and Exit-PSSession cmdlets, see <bpt id="p1">[</bpt>Enter-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315384.aspx)</ept> and <bpt id="p2">[</bpt>Exit-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/dd315322.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Run a Remote Command</source>
+          <target state="new">Run a Remote Command</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To run any command on one or many remote computers, use the <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347578.aspx)</ept> cmdlet.</source>
+          <target state="new">To run any command on one or many remote computers, use the <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347578.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, to run a <bpt id="p1">[</bpt>Get-UICulture<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347742.aspx)</ept> command on the Server01 and Server02 remote computers, type:</source>
+          <target state="new">For example, to run a <bpt id="p1">[</bpt>Get-UICulture<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347742.aspx)</ept> command on the Server01 and Server02 remote computers, type:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The output is returned to your computer.</source>
+          <target state="new">The output is returned to your computer.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For more information about the Invoke-Command cmdlet, see <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/22fd98ba-1874-492e-95a5-c069467b8462)</ept>.</source>
+          <target state="new">For more information about the Invoke-Command cmdlet, see <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/22fd98ba-1874-492e-95a5-c069467b8462)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Run a Script</source>
+          <target state="new">Run a Script</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To run a script on one or many remote computers, use the FilePath parameter of the Invoke-Command cmdlet.</source>
+          <target state="new">To run a script on one or many remote computers, use the FilePath parameter of the Invoke-Command cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The script must be on or accessible to your local computer.</source>
+          <target state="new">The script must be on or accessible to your local computer.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The results are returned to your local computer.</source>
+          <target state="new">The results are returned to your local computer.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example, the following command runs the DiskCollect.ps1 script on the Server01 and Server02 remote computers.</source>
+          <target state="new">For example, the following command runs the DiskCollect.ps1 script on the Server01 and Server02 remote computers.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about the Invoke-Command cmdlet, see <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347578.aspx)</ept>.</source>
+          <target state="new">For more information about the Invoke-Command cmdlet, see <bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347578.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Establish a Persistent Connection</source>
+          <target state="new">Establish a Persistent Connection</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To run a series of related commands that share data, create a session on the remote computer and then use the Invoke-Command cmdlet to run commands in the session that you create.</source>
+          <target state="new">To run a series of related commands that share data, create a session on the remote computer and then use the Invoke-Command cmdlet to run commands in the session that you create.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To create a remote session, use the New-PSSession cmdlet.</source>
+          <target state="new">To create a remote session, use the New-PSSession cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For example, the following command creates a remote session on the Server01 computer and another remote session on the Server02 computer.</source>
+          <target state="new">For example, the following command creates a remote session on the Server01 computer and another remote session on the Server02 computer.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It saves the session objects in the $s variable.</source>
+          <target state="new">It saves the session objects in the $s variable.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Now that the sessions are established, you can run any command in them.</source>
+          <target state="new">Now that the sessions are established, you can run any command in them.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>And because the sessions are persistent, you can collect data in one command and use it in a subsequent command.</source>
+          <target state="new">And because the sessions are persistent, you can collect data in one command and use it in a subsequent command.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For example, the following command runs a Get-HotFix command in the sessions in the $s variable and it saves the results in the $h variable.</source>
+          <target state="new">For example, the following command runs a Get-HotFix command in the sessions in the $s variable and it saves the results in the $h variable.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The $h variable is created in each of the sessions in $s, but it does not exist in the local session.</source>
+          <target state="new">The $h variable is created in each of the sessions in $s, but it does not exist in the local session.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Now you can use the data in the $h variable in subsequent commands, such as the following one.</source>
+          <target state="new">Now you can use the data in the $h variable in subsequent commands, such as the following one.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The results are displayed on the local computer.</source>
+          <target state="new">The results are displayed on the local computer.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Advanced Remoting</source>
+          <target state="new">Advanced Remoting</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell remote management just begins here.</source>
+          <target state="new">Windows PowerShell remote management just begins here.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>By using the cmdlets installed with Windows PowerShell, you can establish and configure remote sessions both from the local and remote ends, create customized and restricted sessions, allow users to import commands from a remote session that actually run implicitly on the remote session, configure the security of a remote session, and much more.</source>
+          <target state="new">By using the cmdlets installed with Windows PowerShell, you can establish and configure remote sessions both from the local and remote ends, create customized and restricted sessions, allow users to import commands from a remote session that actually run implicitly on the remote session, configure the security of a remote session, and much more.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To facilitate remote configuration, Windows PowerShell includes a WSMan provider.</source>
+          <target state="new">To facilitate remote configuration, Windows PowerShell includes a WSMan provider.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The WSMAN: drive that the provider creates lets you navigate through a hierarchy of configuration settings on the local computer and remote computers.</source>
+          <target state="new">The WSMAN: drive that the provider creates lets you navigate through a hierarchy of configuration settings on the local computer and remote computers.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For more information about the WSMan provider, see  <bpt id="p1">[</bpt>WSMan Provider<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819476.aspx)</ept> and <bpt id="p2">  [</bpt>About WS-Management Cmdlets<ept id="p2">](https://technet.microsoft.com/en-us/library/dd819481.aspx)</ept>, or in the Windows PowerShell console, type "Get-Help wsman".</source>
+          <target state="new">For more information about the WSMan provider, see  <bpt id="p1">[</bpt>WSMan Provider<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819476.aspx)</ept> and <bpt id="p2">  [</bpt>About WS-Management Cmdlets<ept id="p2">](https://technet.microsoft.com/en-us/library/dd819481.aspx)</ept>, or in the Windows PowerShell console, type "Get-Help wsman".</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For more information, see:</source>
+          <target state="new">For more information, see:</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>About Remote FAQ<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315359.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>About Remote FAQ<ept id="p1">](https://technet.microsoft.com/en-us/library/dd315359.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Register-PSSessionConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819496.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Register-PSSessionConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819496.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Import-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347575.aspx)</ept>.</source>
+          <target state="new"><bpt id="p1">[</bpt>Import-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347575.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For help with remoting errors, see <bpt id="p1">[</bpt>about_Remote_Troubleshooting<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347642.aspx)</ept>.</source>
+          <target state="new">For help with remoting errors, see <bpt id="p1">[</bpt>about_Remote_Troubleshooting<ept id="p1">](https://technet.microsoft.com/en-us/library/dd347642.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>about_Remote<ept id="p1">](https://technet.microsoft.com/en-us/library/9b4a5c87-9162-4adf-bdfe-fbc80b9b8970)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>about_Remote<ept id="p1">](https://technet.microsoft.com/en-us/library/9b4a5c87-9162-4adf-bdfe-fbc80b9b8970)</ept></target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>about_Remote_FAQ<ept id="p1">](https://technet.microsoft.com/en-us/library/e23702fd-9415-4a98-9975-390a4d3adc42)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>about_Remote_FAQ<ept id="p1">](https://technet.microsoft.com/en-us/library/e23702fd-9415-4a98-9975-390a4d3adc42)</ept></target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>about_Remote_Requirements<ept id="p1">](https://technet.microsoft.com/en-us/library/da213949-134c-4741-b307-81f4492ba1bd)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>about_Remote_Requirements<ept id="p1">](https://technet.microsoft.com/en-us/library/da213949-134c-4741-b307-81f4492ba1bd)</ept></target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>about_Remote_Troubleshooting<ept id="p1">](https://technet.microsoft.com/en-us/library/2f890148-8578-49ed-85ea-79a489dd6317)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>about_Remote_Troubleshooting<ept id="p1">](https://technet.microsoft.com/en-us/library/2f890148-8578-49ed-85ea-79a489dd6317)</ept></target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>about_PSSessions<ept id="p1">](https://technet.microsoft.com/en-us/library/7a9b4e0e-fa1b-47b0-92f6-6e2995d70acb)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>about_PSSessions<ept id="p1">](https://technet.microsoft.com/en-us/library/7a9b4e0e-fa1b-47b0-92f6-6e2995d70acb)</ept></target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>about_WS-Management_Cmdlets<ept id="p1">](https://technet.microsoft.com/en-us/library/6ed3370a-ea10-45a5-9493-696aeace27ed)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>about_WS-Management_Cmdlets<ept id="p1">](https://technet.microsoft.com/en-us/library/6ed3370a-ea10-45a5-9493-696aeace27ed)</ept></target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/22fd98ba-1874-492e-95a5-c069467b8462)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Invoke-Command<ept id="p1">](https://technet.microsoft.com/en-us/library/22fd98ba-1874-492e-95a5-c069467b8462)</ept></target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Import-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/048c115e-a6fb-4e0d-8cea-c5ca24630c9d)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Import-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/048c115e-a6fb-4e0d-8cea-c5ca24630c9d)</ept></target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>New-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/59452f12-a11d-4558-99ea-e6ca6ad5ffd3)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>New-PSSession<ept id="p1">](https://technet.microsoft.com/en-us/library/59452f12-a11d-4558-99ea-e6ca6ad5ffd3)</ept></target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Register-PSSessionConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/af68867a-d201-4b19-a1de-594015ed8a25)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Register-PSSessionConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/af68867a-d201-4b19-a1de-594015ed8a25)</ept></target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>WSMan Provider<ept id="p1">](https://technet.microsoft.com/en-us/library/66fe1241-e08f-49ca-832f-a84c33ca8735)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>WSMan Provider<ept id="p1">](https://technet.microsoft.com/en-us/library/66fe1241-e08f-49ca-832f-a84c33ca8735)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

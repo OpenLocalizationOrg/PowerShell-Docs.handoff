@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b24e70c1e1aaf71487b00fbccaf6edb0f375b888</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\Improved-dsc-classresource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7db72683f51f3d899d3e8ac6e8b3a0ca51ebf0f0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7cc3b9c4dcf545052fe37132551936907f5536a2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Class Resource Improvements</source>
+          <target state="new">DSC Class Resource Improvements</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>DSC Class Resource Improvements</source>
+          <target state="new">DSC Class Resource Improvements</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this release, we have fixed following know issues from WMF 5.0:</source>
+          <target state="new">In this release, we have fixed following know issues from WMF 5.0:</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration may return empty values (null) or errors if a complex/hashtable type is returned by Get() function of a class based DSC resource.</source>
+          <target state="new">Get-DscConfiguration may return empty values (null) or errors if a complex/hashtable type is returned by Get() function of a class based DSC resource.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration returns error if RunAs credential is used in DSC Configuration.</source>
+          <target state="new">Get-DscConfiguration returns error if RunAs credential is used in DSC Configuration.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Class based resource cannot be used in a Composite Configuration.</source>
+          <target state="new">Class based resource cannot be used in a Composite Configuration.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration hangs if Class based resource has a property of its own type.</source>
+          <target state="new">Start-DscConfiguration hangs if Class based resource has a property of its own type.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Class based resource cannot be used as an exclusive resource.</source>
+          <target state="new">Class based resource cannot be used as an exclusive resource.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

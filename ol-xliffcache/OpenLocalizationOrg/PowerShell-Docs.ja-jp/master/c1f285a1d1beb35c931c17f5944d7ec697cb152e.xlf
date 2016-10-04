@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1f285a1d1beb35c931c17f5944d7ec697cb152e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Exploring-the-Windows-PowerShell-ISE.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d65520d26b56438327fd27aa6c007ae4df45af69</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b8bdccd1fb798f1da92df1b549a67d9696725b53</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Exploring the Windows PowerShell ISE</source>
+          <target state="new">Exploring the Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Exploring the Windows PowerShell ISE</source>
+          <target state="new">Exploring the Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use the Windows PowerShellÂ® Integrated Scripting Environment (ISE) to create, run, and debug commands and scripts.</source>
+          <target state="new">You can use the Windows PowerShellÂ® Integrated Scripting Environment (ISE) to create, run, and debug commands and scripts.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell ISE consists of the menu bar, Windows PowerShell tabs, the toolbar, script tabs, a Script Pane, a Console Pane, a status bar, a text-size slider and context-sensitive Help.</source>
+          <target state="new">The Windows PowerShell ISE consists of the menu bar, Windows PowerShell tabs, the toolbar, script tabs, a Script Pane, a Console Pane, a status bar, a text-size slider and context-sensitive Help.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Beginning with Windows PowerShell ISE 3.0 the Command and Output Panes were combined into a single Console Pane.</source>
+          <target state="new">Beginning with Windows PowerShell ISE 3.0 the Command and Output Panes were combined into a single Console Pane.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Menu Bar</source>
+          <target state="new">Menu Bar</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The menu bar contains the <bpt id="p1">**</bpt>File<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept>, <bpt id="p3">**</bpt>View<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Tools<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Debug<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Add-ons<ept id="p6">**</ept>, and <bpt id="p7">**</bpt>Help<ept id="p7">**</ept> menus.</source>
+          <target state="new">The menu bar contains the <bpt id="p1">**</bpt>File<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept>, <bpt id="p3">**</bpt>View<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Tools<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Debug<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Add-ons<ept id="p6">**</ept>, and <bpt id="p7">**</bpt>Help<ept id="p7">**</ept> menus.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The buttons on the menus allow you to perform tasks related to writing and running scripts and running commands in the Windows PowerShell ISE.</source>
+          <target state="new">The buttons on the menus allow you to perform tasks related to writing and running scripts and running commands in the Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Additionally, an <bpt id="p1">[</bpt>add-on tool<ept id="p1">](../../core-powershell/ise/The-ISEAddOnTool-Object.md)</ept> may be placed on the menu bar by running scripts that use the <bpt id="p2">[</bpt>Windows PowerShell ISE Scripting Object Model<ept id="p2">](../../core-powershell/ise/The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept>.</source>
+          <target state="new">Additionally, an <bpt id="p1">[</bpt>add-on tool<ept id="p1">](../../core-powershell/ise/The-ISEAddOnTool-Object.md)</ept> may be placed on the menu bar by running scripts that use the <bpt id="p2">[</bpt>Windows PowerShell ISE Scripting Object Model<ept id="p2">](../../core-powershell/ise/The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell ISE 2.0, The <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Add-ons<ept id="p2">**</ept> menus were not present.</source>
+          <target state="new">In Windows PowerShell ISE 2.0, The <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Add-ons<ept id="p2">**</ept> menus were not present.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Tabs</source>
+          <target state="new">Windows PowerShell Tabs</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A Windows PowerShell tab is the environment in which a Windows PowerShell script runs.</source>
+          <target state="new">A Windows PowerShell tab is the environment in which a Windows PowerShell script runs.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can open new Windows PowerShell tabs in the Windows PowerShell ISE to create separate environments on your local computer or on remote computers.</source>
+          <target state="new">You can open new Windows PowerShell tabs in the Windows PowerShell ISE to create separate environments on your local computer or on remote computers.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You may have a maximum of eight PowerShell tabs simultaneously open.</source>
+          <target state="new">You may have a maximum of eight PowerShell tabs simultaneously open.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Toolbar</source>
+          <target state="new">Toolbar</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following buttons are located on the toolbar.</source>
+          <target state="new">The following buttons are located on the toolbar.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Button</source>
+          <target state="new">Button</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Function</source>
+          <target state="new">Function</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>New<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Opens a new script.</source>
+          <target state="new">Opens a new script.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Open<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Open<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Opens an existing script or file.</source>
+          <target state="new">Opens an existing script or file.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Save<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Save<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Saves a script or file.</source>
+          <target state="new">Saves a script or file.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cut<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Cut<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Cuts the selected text and copies it to the clipboard.</source>
+          <target state="new">Cuts the selected text and copies it to the clipboard.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Copy<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Copy<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Copies the selected text to the clipboard.</source>
+          <target state="new">Copies the selected text to the clipboard.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Paste<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Paste<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Pastes the contents of the clipboard at the cursor location.</source>
+          <target state="new">Pastes the contents of the clipboard at the cursor location.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Clear Output Pane<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Clear Output Pane<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Clears all content in the Output Pane.</source>
+          <target state="new">Clears all content in the Output Pane.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Undo<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Undo<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Reverses the action that was just performed.</source>
+          <target state="new">Reverses the action that was just performed.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Redo<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Redo<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Performs the action that was just undone.</source>
+          <target state="new">Performs the action that was just undone.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Run Script<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Run Script<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Runs a script.</source>
+          <target state="new">Runs a script.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Run Selction<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Run Selction<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Runs a selected portion of a script.</source>
+          <target state="new">Runs a selected portion of a script.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Stop Execution<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Stop Execution<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Stops a script that is running.</source>
+          <target state="new">Stops a script that is running.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New Remote PowerShell Tab<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>New Remote PowerShell Tab<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Creates a new PowerShell Tab that establishes a session on a remote computer.</source>
+          <target state="new">Creates a new PowerShell Tab that establishes a session on a remote computer.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A dialog box appears and prompts you to enter details required to establish the remote connection.</source>
+          <target state="new">A dialog box appears and prompts you to enter details required to establish the remote connection.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Start PowerShell.exe<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Start PowerShell.exe<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Opens a PowerShell Console.</source>
+          <target state="new">Opens a PowerShell Console.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Show Script Pane Top<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Show Script Pane Top<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Moves the Script Pane to the top in the display.</source>
+          <target state="new">Moves the Script Pane to the top in the display.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Show Script Pane Right<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Show Script Pane Right<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Moves the Script Pane to the right in the display.</source>
+          <target state="new">Moves the Script Pane to the right in the display.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Show Script Pane Maximized<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Show Script Pane Maximized<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Maximizes the Script Pane.</source>
+          <target state="new">Maximizes the Script Pane.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Script Tab</source>
+          <target state="new">Script Tab</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Displays the name of the script you are editing.</source>
+          <target state="new">Displays the name of the script you are editing.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can click a script tab to select the script you want to edit.</source>
+          <target state="new">You can click a script tab to select the script you want to edit.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When you point to the script tab, the fully qualified path to the script file appears in a tooltip.</source>
+          <target state="new">When you point to the script tab, the fully qualified path to the script file appears in a tooltip.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Script Pane</source>
+          <target state="new">Script Pane</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Allows you to create and run scripts.</source>
+          <target state="new">Allows you to create and run scripts.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can open, edit and run existing scripts in the Script Pane.</source>
+          <target state="new">You can open, edit and run existing scripts in the Script Pane.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Output Pane</source>
+          <target state="new">Output Pane</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Displays the results of the commands and scripts you have run.</source>
+          <target state="new">Displays the results of the commands and scripts you have run.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You can also copy and clear the contents in the Output Pane.</source>
+          <target state="new">You can also copy and clear the contents in the Output Pane.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Command Pane</source>
+          <target state="new">Command Pane</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Allows you to write commands.</source>
+          <target state="new">Allows you to write commands.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can run a one line command or a multiline command in the Command Pane.</source>
+          <target state="new">You can run a one line command or a multiline command in the Command Pane.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Press SHIFT+ENTER to enter each line of a multiline command, and press ENTER after the last line to execute the multiline command.</source>
+          <target state="new">Press SHIFT+ENTER to enter each line of a multiline command, and press ENTER after the last line to execute the multiline command.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The prompt displayed on top of the Command Pane shows the path to the current working directory.</source>
+          <target state="new">The prompt displayed on top of the Command Pane shows the path to the current working directory.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Status Bar</source>
+          <target state="new">Status Bar</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Allows you to see whether the commands and scripts that you run are complete.</source>
+          <target state="new">Allows you to see whether the commands and scripts that you run are complete.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The status bar is at the very bottom of the display.</source>
+          <target state="new">The status bar is at the very bottom of the display.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Selected portions of error messages are displayed on the status bar.</source>
+          <target state="new">Selected portions of error messages are displayed on the status bar.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Text-Size Slider</source>
+          <target state="new">Text-Size Slider</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Increases or decreases the size of the text on the screen.</source>
+          <target state="new">Increases or decreases the size of the text on the screen.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Help for Windows PowerShell ISE is available on the Web in the TechNet Library.</source>
+          <target state="new">Help for Windows PowerShell ISE is available on the Web in the TechNet Library.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can open the Help by clicking <bpt id="p1">**</bpt>Windows PowerShell ISE Help<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Help<ept id="p2">**</ept> menu or by pressing the F1 key anywhere except when the cursor is on a cmdlet name in either the Script Pane or the Console Pane.</source>
+          <target state="new">You can open the Help by clicking <bpt id="p1">**</bpt>Windows PowerShell ISE Help<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Help<ept id="p2">**</ept> menu or by pressing the F1 key anywhere except when the cursor is on a cmdlet name in either the Script Pane or the Console Pane.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> menu you can also run the Update-Help cmdlet, and display the Command Window which assists you in constructing commands by showing you all of the parameters for a cmdlet and enabling you to fill in the parameters in an easy-to-use form.</source>
+          <target state="new">From the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> menu you can also run the Update-Help cmdlet, and display the Command Window which assists you in constructing commands by showing you all of the parameters for a cmdlet and enabling you to fill in the parameters in an easy-to-use form.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using the Windows PowerShell ISE<ept id="p1">](../../core-powershell/ise/Using-the-Windows-PowerShell-ISE.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Using the Windows PowerShell ISE<ept id="p1">](../../core-powershell/ise/Using-the-Windows-PowerShell-ISE.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

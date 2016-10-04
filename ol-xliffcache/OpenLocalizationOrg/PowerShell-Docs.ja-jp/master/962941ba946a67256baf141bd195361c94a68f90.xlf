@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">962941ba946a67256baf141bd195361c94a68f90</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\nanoDsc.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb4c0111dbcb802580b4e26c6109ab5a176fc532</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0fc3db58a2b2bc2a8b88ee01cc92bae99302a24d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using DSC on Nano Server</source>
+          <target state="new">Using DSC on Nano Server</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using DSC on Nano Server</source>
+          <target state="new">Using DSC on Nano Server</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DSC on Nano Server<ept id="p1">**</ept> is an optional package in the <ph id="ph1">`NanoServer\Packages`</ph> folder of the Windows Server 2016 media.</source>
+          <target state="new"><bpt id="p1">**</bpt>DSC on Nano Server<ept id="p1">**</ept> is an optional package in the <ph id="ph1">`NanoServer\Packages`</ph> folder of the Windows Server 2016 media.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The package can be installed when you create a VHD for a Nano Server by specifying <bpt id="p1">**</bpt>Microsoft-NanoServer-DSC-Package<ept id="p1">**</ept> as the value of the <bpt id="p2">**</bpt>Packages<ept id="p2">**</ept> parameter of the <bpt id="p3">**</bpt>New-NanoServerImage<ept id="p3">**</ept> function.</source>
+          <target state="new">The package can be installed when you create a VHD for a Nano Server by specifying <bpt id="p1">**</bpt>Microsoft-NanoServer-DSC-Package<ept id="p1">**</ept> as the value of the <bpt id="p2">**</bpt>Packages<ept id="p2">**</ept> parameter of the <bpt id="p3">**</bpt>New-NanoServerImage<ept id="p3">**</ept> function.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, if you are creating a VHD for a virtual machine, the command would look like the following:</source>
+          <target state="new">For example, if you are creating a VHD for a virtual machine, the command would look like the following:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For information about installing and using Nano Server, as well as how to manage Nano Server with PowerShell Remoting, see <bpt id="p1">[</bpt>Getting Started with Nano Server<ept id="p1">](https://technet.microsoft.com/en-us/library/mt126167.aspx)</ept>.</source>
+          <target state="new">For information about installing and using Nano Server, as well as how to manage Nano Server with PowerShell Remoting, see <bpt id="p1">[</bpt>Getting Started with Nano Server<ept id="p1">](https://technet.microsoft.com/en-us/library/mt126167.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DSC features available on Nano Server</source>
+          <target state="new">DSC features available on Nano Server</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Because Nano Server supports only a limited set of APIs compared to a full version of Windows Server, DSC on Nano Server does not have full functional parity with DSC running on full SKUs for the time being.</source>
+          <target state="new">Because Nano Server supports only a limited set of APIs compared to a full version of Windows Server, DSC on Nano Server does not have full functional parity with DSC running on full SKUs for the time being.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DSC on Nano Server is in active development and is not yet feature complete.</source>
+          <target state="new">DSC on Nano Server is in active development and is not yet feature complete.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The following DSC features are currently available on Nano Server:</source>
+          <target state="new">The following DSC features are currently available on Nano Server:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Both push and pull modes</source>
+          <target state="new">Both push and pull modes</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>All DSC cmdlets that exist on a full version of Windows Server, including the following:</source>
+          <target state="new">All DSC cmdlets that exist on a full version of Windows Server, including the following:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521621.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Disable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517872.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Disable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517872.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Stop-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/mt143542.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Stop-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/mt143542.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407379.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407379.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Test-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407382.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Test-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407382.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Publish-DscConfiguraiton<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517875.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Publish-DscConfiguraiton<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517875.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Update-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/mt143541.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Update-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/mt143541.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Restore-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407383.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Restore-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407383.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Remove-DscConfigurationDocument<ept id="p1">](https://technet.microsoft.com/en-us/library/mt143544.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Remove-DscConfigurationDocument<ept id="p1">](https://technet.microsoft.com/en-us/library/mt143544.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-DscConfigurationStatus<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517868.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-DscConfigurationStatus<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517868.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Invoke-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517869.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Invoke-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517869.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Find-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517874.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Find-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517874.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>New-DscChecksum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>New-DscChecksum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Compiling configurations (see <bpt id="p1">[</bpt>DSC configurations<ept id="p1">](configurations.md)</ept>)</source>
+          <target state="new">Compiling configurations (see <bpt id="p1">[</bpt>DSC configurations<ept id="p1">](configurations.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Password encryption (see <bpt id="p2">[</bpt>Securing the MOF File<ept id="p2">](securemof.md)</ept>) during configuration compilation doesn't work.</source>
+          <target state="new"><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Password encryption (see <bpt id="p2">[</bpt>Securing the MOF File<ept id="p2">](securemof.md)</ept>) during configuration compilation doesn't work.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Compiling metaconfigurations (see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept>)</source>
+          <target state="new">Compiling metaconfigurations (see <bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Running a resource under user context (see <bpt id="p1">[</bpt>Running DSC with user credentials (RunAs)<ept id="p1">](runAsUser.md)</ept>)</source>
+          <target state="new">Running a resource under user context (see <bpt id="p1">[</bpt>Running DSC with user credentials (RunAs)<ept id="p1">](runAsUser.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Class-based resources (see <bpt id="p1">[</bpt>Writing a custom DSC resource with PowerShell classes<ept id="p1">](authoringResourceClass.md)</ept>)</source>
+          <target state="new">Class-based resources (see <bpt id="p1">[</bpt>Writing a custom DSC resource with PowerShell classes<ept id="p1">](authoringResourceClass.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Debugging of DSC resources (see <bpt id="p1">[</bpt>Debugging DSC resources<ept id="p1">](debugresource.md)</ept>)</source>
+          <target state="new">Debugging of DSC resources (see <bpt id="p1">[</bpt>Debugging DSC resources<ept id="p1">](debugresource.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Doesn't work if a resource is using PsDscRunAsCredential (see <bpt id="p2">[</bpt>Running DSC with user credentials<ept id="p2">](runAsUser.md)</ept>)</source>
+          <target state="new"><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Doesn't work if a resource is using PsDscRunAsCredential (see <bpt id="p2">[</bpt>Running DSC with user credentials<ept id="p2">](runAsUser.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Resource versioning<ept id="p1">](sxsResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Resource versioning<ept id="p1">](sxsResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Pull client (configurations &amp; resources) (see <bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](pullClientConfigNames.md)</ept>)</source>
+          <target state="new">Pull client (configurations &amp; resources) (see <bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](pullClientConfigNames.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Partial configurations (pull &amp; push)<ept id="p1">](partialConfigs.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Partial configurations (pull &amp; push)<ept id="p1">](partialConfigs.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Reporting to pull server<ept id="p1">](reportServer.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Reporting to pull server<ept id="p1">](reportServer.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>MOF encryption</source>
+          <target state="new">MOF encryption</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Event logging</source>
+          <target state="new">Event logging</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Azure Automation DSC reporting</source>
+          <target state="new">Azure Automation DSC reporting</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Resources that are fully functional</source>
+          <target state="new">Resources that are fully functional</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Archive<ept id="p1">](archiveResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Archive<ept id="p1">](archiveResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Environment<ept id="p1">](environmentResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Environment<ept id="p1">](environmentResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>File<ept id="p1">](fileResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>File<ept id="p1">](fileResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Log<ept id="p1">](logResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Log<ept id="p1">](logResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>ProcessSet</source>
+          <target state="new">ProcessSet</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Registry<ept id="p1">](registryResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Registry<ept id="p1">](registryResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Script<ept id="p1">](scriptResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Script<ept id="p1">](scriptResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>WindowsPackageCab</source>
+          <target state="new">WindowsPackageCab</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>WindowsProcess<ept id="p1">](windowsProcessResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>WindowsProcess<ept id="p1">](windowsProcessResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>WaitForAll (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept>)</source>
+          <target state="new">WaitForAll (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>WaitForAny (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept>)</source>
+          <target state="new">WaitForAny (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>WaitForSome (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept>)</source>
+          <target state="new">WaitForSome (see <bpt id="p1">[</bpt>Specifying cross-node dependencies<ept id="p1">](crossNodeDependencies.md)</ept>)</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Resources that are partially functional</source>
+          <target state="new">Resources that are partially functional</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Group<ept id="p1">](groupResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Group<ept id="p1">](groupResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>GroupSet</source>
+          <target state="new">GroupSet</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Above resources fail if specific instance is called twice (running the same configuration twice)</source>
+          <target state="new"><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Above resources fail if specific instance is called twice (running the same configuration twice)</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Service<ept id="p1">](serviceResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Service<ept id="p1">](serviceResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>ServiceSet</source>
+          <target state="new">ServiceSet</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Only works for starting/stopping (status) service.</source>
+          <target state="new"><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> Only works for starting/stopping (status) service.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Fails, if one tries to change other service attributes like startuptype, credentials, description etc..</source>
+          <target state="new">Fails, if one tries to change other service attributes like startuptype, credentials, description etc..</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The error thrown is similar to:</source>
+          <target state="new">The error thrown is similar to:</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Cannot find type [management.managementobject]: verify that the assembly containing this type is loaded.<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Cannot find type [management.managementobject]: verify that the assembly containing this type is loaded.<ept id="p1">*</ept></target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Resources that are not functional</source>
+          <target state="new">Resources that are not functional</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>User<ept id="p1">](userResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>User<ept id="p1">](userResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>DSC features not available on Nano Server</source>
+          <target state="new">DSC features not available on Nano Server</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The following DSC features are not currently available on Nano Server:</source>
+          <target state="new">The following DSC features are not currently available on Nano Server:</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Decrypting MOF document with encrypted password(s)</source>
+          <target state="new">Decrypting MOF document with encrypted password(s)</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Pull Server--you cannot currently set up a pull server on Nano Server</source>
+          <target state="new">Pull Server--you cannot currently set up a pull server on Nano Server</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Anything that is not in the list of feature works</source>
+          <target state="new">Anything that is not in the list of feature works</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Using custom DSC resources on Nano Server</source>
+          <target state="new">Using custom DSC resources on Nano Server</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Due to a limited sets of Windows APIs and CLR libraries available on Nano Server, DSC resources that work on the full CLR version of Windows do not necessarily work on Nano Server.</source>
+          <target state="new">Due to a limited sets of Windows APIs and CLR libraries available on Nano Server, DSC resources that work on the full CLR version of Windows do not necessarily work on Nano Server.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Complete end-to-end testing before deploying any DSC custom resources to a production environment.</source>
+          <target state="new">Complete end-to-end testing before deploying any DSC custom resources to a production environment.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started with Nano Server<ept id="p1">](https://technet.microsoft.com/en-us/library/mt126167.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Getting Started with Nano Server<ept id="p1">](https://technet.microsoft.com/en-us/library/mt126167.aspx)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

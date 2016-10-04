@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">368c26766961e760fd2de8c99057121bea076158</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\DSCPartialConfigNaming.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2cd2599108ddb0f1d957e968181c7ce1f9347cc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c5e5d7f3687485adef2e1aa808466d3c09edbbf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Pull Partial Configuration Naming Convention</source>
+          <target state="new">Pull Partial Configuration Naming Convention</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Pull Partial Configuration Naming Convention</source>
+          <target state="new">Pull Partial Configuration Naming Convention</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the previous releases, the naming convention for a partial configuration was the mof file name in the pull server /service should match the partial configuration name specified in the local configuration manger settings that in turn has to match the configuration name embedded in the MOF file.</source>
+          <target state="new">In the previous releases, the naming convention for a partial configuration was the mof file name in the pull server /service should match the partial configuration name specified in the local configuration manger settings that in turn has to match the configuration name embedded in the MOF file.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>See the snapshots below:- •   Local configuration settings which defines a partial configuration that a node is allowed to receive.</source>
+          <target state="new">See the snapshots below:- •   Local configuration settings which defines a partial configuration that a node is allowed to receive.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sample metaconfiguration</source>
+          <target state="new">Sample metaconfiguration</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>•   Sample partial configuration definition</source>
+          <target state="new">•   Sample partial configuration definition</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>•   ‘ConfigurationName’ embedded in the generated MOF file.</source>
+          <target state="new">•   ‘ConfigurationName’ embedded in the generated MOF file.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Sample generated mof file</source>
+          <target state="new">Sample generated mof file</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>•   FileName in the pull configuration repository</source>
+          <target state="new">•   FileName in the pull configuration repository</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>FileName in Configuration Repository</source>
+          <target state="new">FileName in Configuration Repository</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure Automation service name generated mof files as <ph id="ph1">``&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof``</ph>.</source>
+          <target state="new">Azure Automation service name generated mof files as <ph id="ph1">``&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof``</ph>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>So the configuration below will compile to PartialOne.Localhost.mof.</source>
+          <target state="new">So the configuration below will compile to PartialOne.Localhost.mof.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This made it impossible to pull a partial configuration from Azure automation service.</source>
+          <target state="new">This made it impossible to pull a partial configuration from Azure automation service.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, partial configuration in the pull server/service can be named as <ph id="ph1">``&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof``</ph>.</source>
+          <target state="new">In WMF 5.1, partial configuration in the pull server/service can be named as <ph id="ph1">``&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof``</ph>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Moreover, if a machine is pulling a single configuration from a pull server/service then the configuration document on the pull server configuration repository can have any name.</source>
+          <target state="new">Moreover, if a machine is pulling a single configuration from a pull server/service then the configuration document on the pull server configuration repository can have any name.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This naming flexibility enables managing partial configuration of a node using both onprem and Azure Automation pull service.</source>
+          <target state="new">This naming flexibility enables managing partial configuration of a node using both onprem and Azure Automation pull service.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, you can have 'base' partial configuration that gets pushed locally and another partial configuration that gets pulled from Azure Automation Service.</source>
+          <target state="new">For example, you can have 'base' partial configuration that gets pushed locally and another partial configuration that gets pulled from Azure Automation Service.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The metaconfiguration below will setup a node to be managed both locally as well as by Azure Automation Service.</source>
+          <target state="new">The metaconfiguration below will setup a node to be managed both locally as well as by Azure Automation Service.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

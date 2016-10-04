@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1fe624c2532e44ed675762f3c141934fb4f0b60d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\directCallResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c4cd4f56586227b8eecc947e249584420ed9ca29</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3442926650b2bfceea00d0c5568a91cb7adfdc6e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Calling DSC resource methods directly</source>
+          <target state="new">Calling DSC resource methods directly</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Calling DSC resource methods directly</source>
+          <target state="new">Calling DSC resource methods directly</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">[</bpt>Invoke-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517869.aspx)</ept> cmdlet to directly call the functions or methods of a DSC resource (The <bpt id="p2">**</bpt>Get-TargetResource<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Test-TargetResource<ept id="p4">**</ept> functions of a MOF-based resource, or the <bpt id="p5">**</bpt>Get<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Set<ept id="p6">**</ept>, and <bpt id="p7">**</bpt>Test<ept id="p7">**</ept> methods of a class-based resource).</source>
+          <target state="new">You can use the <bpt id="p1">[</bpt>Invoke-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517869.aspx)</ept> cmdlet to directly call the functions or methods of a DSC resource (The <bpt id="p2">**</bpt>Get-TargetResource<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Set-TargetResource<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Test-TargetResource<ept id="p4">**</ept> functions of a MOF-based resource, or the <bpt id="p5">**</bpt>Get<ept id="p5">**</ept>, <bpt id="p6">**</bpt>Set<ept id="p6">**</ept>, and <bpt id="p7">**</bpt>Test<ept id="p7">**</ept> methods of a class-based resource).</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This can be used by third-parties that want to use DSC resources, or as a helpful tool while developing resources.</source>
+          <target state="new">This can be used by third-parties that want to use DSC resources, or as a helpful tool while developing resources.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This cmdlet is typically used in combination with a metaconfiguration property <ph id="ph1">`refreshMode = 'Disabled'`</ph>, but it can be used no matter what <bpt id="p1">**</bpt>refreshMode<ept id="p1">**</ept> is set to.</source>
+          <target state="new">This cmdlet is typically used in combination with a metaconfiguration property <ph id="ph1">`refreshMode = 'Disabled'`</ph>, but it can be used no matter what <bpt id="p1">**</bpt>refreshMode<ept id="p1">**</ept> is set to.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When calling the <bpt id="p1">**</bpt>Invoke-DscResource<ept id="p1">**</ept> cmdlet, you specify which method or function to call by using the <bpt id="p2">**</bpt>Method<ept id="p2">**</ept> parameter.</source>
+          <target state="new">When calling the <bpt id="p1">**</bpt>Invoke-DscResource<ept id="p1">**</ept> cmdlet, you specify which method or function to call by using the <bpt id="p2">**</bpt>Method<ept id="p2">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You specify the properties of the resource by passing a hashtable as the value of the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter.</source>
+          <target state="new">You specify the properties of the resource by passing a hashtable as the value of the <bpt id="p1">**</bpt>Property<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following are examples of directly calling resource methods:</source>
+          <target state="new">The following are examples of directly calling resource methods:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Ensure a file is present</source>
+          <target state="new">Ensure a file is present</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Test that a file is present</source>
+          <target state="new">Test that a file is present</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Get the contents of file</source>
+          <target state="new">Get the contents of file</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Directly calling composite resource methods is not supported.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Directly calling composite resource methods is not supported.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Instead, call the methods of the underlying resources that make up the composite resource.</source>
+          <target state="new">Instead, call the methods of the underlying resources that make up the composite resource.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Writing a custom DSC resource with MOF<ept id="p1">](authoringResourceMOF.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Writing a custom DSC resource with MOF<ept id="p1">](authoringResourceMOF.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Writing a custom DSC resource with PowerShell classes<ept id="p1">](authoringResourceClass.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Writing a custom DSC resource with PowerShell classes<ept id="p1">](authoringResourceClass.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Debugging DSC resources<ept id="p1">](debugResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Debugging DSC resources<ept id="p1">](debugResource.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

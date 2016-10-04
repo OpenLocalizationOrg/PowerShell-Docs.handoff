@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f3f2d27c3c82406f8e8967fd1784a6e07579c1fa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\The-PowerShellTab-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97f8c637d8acfa91bc649625e13c932b50e4575b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2eba71edf6fb451f29d6d8cda5695ad180357d1e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The PowerShellTab Object</source>
+          <target state="new">The PowerShellTab Object</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The PowerShellTab Object</source>
+          <target state="new">The PowerShellTab Object</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PowerShellTab<ept id="p1">**</ept> object represents a Windows PowerShell runtime environment.</source>
+          <target state="new">The <bpt id="p1">**</bpt>PowerShellTab<ept id="p1">**</ept> object represents a Windows PowerShell runtime environment.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Methods</source>
+          <target state="new">Methods</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="invoke"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Invoke\( Script \)</source>
+          <target state="new"><ph id="ph1">&lt;a name="invoke"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Invoke\( Script \)</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Runs the given script in the PowerShell tab.</source>
+          <target state="new">Runs the given script in the PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This method only works on other PowerShell tabs, not the PowerShell tab from which it is run.</source>
+          <target state="new">This method only works on other PowerShell tabs, not the PowerShell tab from which it is run.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It does not return any object or value.</source>
+          <target state="new">It does not return any object or value.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the code modifies any variable, then those changes persist on the tab against which the command was invoked.</source>
+          <target state="new">If the code modifies any variable, then those changes persist on the tab against which the command was invoked.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Script<ept id="p1">**</ept> - System.Management.Automation.ScriptBlock or String The script block to run.</source>
+          <target state="new"><bpt id="p1">**</bpt>Script<ept id="p1">**</ept> - System.Management.Automation.ScriptBlock or String The script block to run.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>InvokeSynchronous\( Script, \[useNewScope\], millisecondsTimeout \)</source>
+          <target state="new">InvokeSynchronous\( Script, \[useNewScope\], millisecondsTimeout \)</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Runs the given script in the PowerShell tab.</source>
+          <target state="new">Runs the given script in the PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This method only works on other PowerShell tabs, not the PowerShell tab from which it is run.</source>
+          <target state="new">This method only works on other PowerShell tabs, not the PowerShell tab from which it is run.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The script block is run and any value that is returned from the script is returned to the run environment from which you invoked the command.</source>
+          <target state="new">The script block is run and any value that is returned from the script is returned to the run environment from which you invoked the command.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the command takes longer to run than the <bpt id="p1">**</bpt>millesecondsTimeout<ept id="p1">**</ept> value specifies, then the command fails with an exception: "The operation has timed out."</source>
+          <target state="new">If the command takes longer to run than the <bpt id="p1">**</bpt>millesecondsTimeout<ept id="p1">**</ept> value specifies, then the command fails with an exception: "The operation has timed out."</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Script<ept id="p1">**</ept> - System.Management.Automation.ScriptBlock or String The script block to run.</source>
+          <target state="new"><bpt id="p1">**</bpt>Script<ept id="p1">**</ept> - System.Management.Automation.ScriptBlock or String The script block to run.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>\[useNewScope\]<ept id="p1">**</ept> -  Optional Boolean that defaults to <bpt id="p2">**</bpt>$true<ept id="p2">**</ept><ph id="ph1">
+</ph> If set to <bpt id="p3">**</bpt>$true<ept id="p3">**</ept>, then a new scope is created within which to run the command.</source>
+          <target state="new"><bpt id="p1">**</bpt>\[useNewScope\]<ept id="p1">**</ept> -  Optional Boolean that defaults to <bpt id="p2">**</bpt>$true<ept id="p2">**</ept><ph id="ph1">
+</ph> If set to <bpt id="p3">**</bpt>$true<ept id="p3">**</ept>, then a new scope is created within which to run the command.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It does not modify the runtime environment of the PowerShell tab that is specified by the command.</source>
+          <target state="new">It does not modify the runtime environment of the PowerShell tab that is specified by the command.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>\[millisecondsTimeout\]<ept id="p1">**</ept> -  Optional integer that defaults to <bpt id="p2">**</bpt>500<ept id="p2">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>\[millisecondsTimeout\]<ept id="p1">**</ept> -  Optional integer that defaults to <bpt id="p2">**</bpt>500<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If the command does not finish within the specified time, then the command generates a <bpt id="p1">**</bpt>TimeoutException<ept id="p1">**</ept> with the message "The operation has timed out."</source>
+          <target state="new">If the command does not finish within the specified time, then the command generates a <bpt id="p1">**</bpt>TimeoutException<ept id="p1">**</ept> with the message "The operation has timed out."</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="AddOnsMenu"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> AddOnsMenu</source>
+          <target state="new"><ph id="ph1">&lt;a name="AddOnsMenu"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> AddOnsMenu</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the Add-ons menu for the PowerShell tab.</source>
+          <target state="new">The read-only property that gets the Add-ons menu for the PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="CanExecute"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> CanInvoke</source>
+          <target state="new"><ph id="ph1">&lt;a name="CanExecute"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> CanInvoke</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The read-only Boolean property that returns a <bpt id="p1">**</bpt>$true<ept id="p1">**</ept> value if a script can be invoked with the <bpt id="p2">[</bpt>Invoke( Script )<ept id="p2">](#invoke)</ept> method.</source>
+          <target state="new">The read-only Boolean property that returns a <bpt id="p1">**</bpt>$true<ept id="p1">**</ept> value if a script can be invoked with the <bpt id="p2">[</bpt>Invoke( Script )<ept id="p2">](#invoke)</ept> method.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Commandpane"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Consolepane</source>
+          <target state="new"><ph id="ph1">&lt;a name="Commandpane"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Consolepane</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell ISE 2.0 this was named <bpt id="p1">**</bpt>CommandPane<ept id="p1">**</ept>.</source>
+          <target state="new">In Windows PowerShell ISE 2.0 this was named <bpt id="p1">**</bpt>CommandPane<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the Console pane <bpt id="p1">[</bpt>editor<ept id="p1">](../ise/The-ISEEditor-Object.md)</ept> object.</source>
+          <target state="new">The read-only property that gets the Console pane <bpt id="p1">[</bpt>editor<ept id="p1">](../ise/The-ISEEditor-Object.md)</ept> object.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Displayname"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> DisplayName</source>
+          <target state="new"><ph id="ph1">&lt;a name="Displayname"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> DisplayName</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The read-write property that gets or sets the text that is displayed on the PowerShell tab.</source>
+          <target state="new">The read-write property that gets or sets the text that is displayed on the PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>By default, tabs are named "PowerShell #", where the # represents a number.</source>
+          <target state="new">By default, tabs are named "PowerShell #", where the # represents a number.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="ExpandedScript"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> ExpandedScript</source>
+          <target state="new"><ph id="ph1">&lt;a name="ExpandedScript"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> ExpandedScript</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The read-write Boolean property that determines whether the Script pane is expanded or hidden.</source>
+          <target state="new">The read-write Boolean property that determines whether the Script pane is expanded or hidden.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Files"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Files</source>
+          <target state="new"><ph id="ph1">&lt;a name="Files"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Files</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the <bpt id="p1">[</bpt>collection of script files<ept id="p1">](../ise/The-ISEFileCollection-Object.md)</ept> that are open in the PowerShell tab.</source>
+          <target state="new">The read-only property that gets the <bpt id="p1">[</bpt>collection of script files<ept id="p1">](../ise/The-ISEFileCollection-Object.md)</ept> that are open in the PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Output"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Output</source>
+          <target state="new"><ph id="ph1">&lt;a name="Output"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Output</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This feature is present in Windows PowerShell ISE 2.0, but was removed or renamed in later versions of the ISE.</source>
+          <target state="new">This feature is present in Windows PowerShell ISE 2.0, but was removed or renamed in later versions of the ISE.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In later versions of Windows PowerShell ISE, you can use the <bpt id="p1">**</bpt>ConsolePane<ept id="p1">**</ept> object for the same purposes.</source>
+          <target state="new">In later versions of Windows PowerShell ISE, you can use the <bpt id="p1">**</bpt>ConsolePane<ept id="p1">**</ept> object for the same purposes.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the Output pane of the current <bpt id="p1">[</bpt>editor<ept id="p1">](../ise/The-ISEEditor-Object.md)</ept>.</source>
+          <target state="new">The read-only property that gets the Output pane of the current <bpt id="p1">[</bpt>editor<ept id="p1">](../ise/The-ISEEditor-Object.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Prompt"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Prompt</source>
+          <target state="new"><ph id="ph1">&lt;a name="Prompt"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Prompt</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the current prompt text.</source>
+          <target state="new">The read-only property that gets the current prompt text.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Note: the <bpt id="p1">**</bpt>Prompt<ept id="p1">**</ept> function can be overridden by the user’s profile.</source>
+          <target state="new">Note: the <bpt id="p1">**</bpt>Prompt<ept id="p1">**</ept> function can be overridden by the user’s profile.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If the result is other than a simple string, then this property returns nothing.</source>
+          <target state="new">If the result is other than a simple string, then this property returns nothing.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="ShowCommands"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> ShowCommands</source>
+          <target state="new"><ph id="ph1">&lt;a name="ShowCommands"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> ShowCommands</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The read-write property that indicates if the Commands pane is currently displayed.</source>
+          <target state="new">The read-write property that indicates if the Commands pane is currently displayed.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="StatusText"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> StatusText</source>
+          <target state="new"><ph id="ph1">&lt;a name="StatusText"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> StatusText</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the <bpt id="p1">**</bpt>PowerShellTab<ept id="p1">**</ept> status text.</source>
+          <target state="new">The read-only property that gets the <bpt id="p1">**</bpt>PowerShellTab<ept id="p1">**</ept> status text.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="HorizontalAddOnToolsPaneOpened"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> HorizontalAddOnToolsPaneOpened</source>
+          <target state="new"><ph id="ph1">&lt;a name="HorizontalAddOnToolsPaneOpened"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> HorizontalAddOnToolsPaneOpened</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The read-only property that indicates whether the horizontal Add-Ons tool pane is currently open.</source>
+          <target state="new">The read-only property that indicates whether the horizontal Add-Ons tool pane is currently open.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="VerticalAddOnToolsPaneOpened"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>VerticalAddOnToolsPaneOpened<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">&lt;a name="VerticalAddOnToolsPaneOpened"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> <bpt id="p1">**</bpt>VerticalAddOnToolsPaneOpened<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The read-only property that indicates whether the vertical Add-Ons tool pane is currently open.</source>
+          <target state="new">The read-only property that indicates whether the vertical Add-Ons tool pane is currently open.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The PowerShellTabCollection Object<ept id="p1">](The-PowerShellTabCollection-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](../ise/The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](../ise/Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](../ise/The-ISE-Object-Model-Hierarchy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The PowerShellTabCollection Object<ept id="p1">](The-PowerShellTabCollection-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](../ise/The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](../ise/Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](../ise/The-ISE-Object-Model-Hierarchy.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

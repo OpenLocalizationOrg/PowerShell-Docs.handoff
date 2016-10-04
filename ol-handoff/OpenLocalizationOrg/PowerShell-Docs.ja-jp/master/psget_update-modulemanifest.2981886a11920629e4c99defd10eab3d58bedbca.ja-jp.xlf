@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">967d85a99256f5f4347aeec1b5f9dad3eca7a939</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\module\psget_update-modulemanifest.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5eceba80f7f8373925461064db8f6fe4825626c2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0f20bc9187df20af71bcee898087a66ea58cb6b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Update-ModuleManifest</source>
+          <target state="new">Update-ModuleManifest</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Updates a module manifest file.</source>
+          <target state="new">Updates a module manifest file.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Update-ModuleManifest cmdlet updates a module manifest (.psd1) file.</source>
+          <target state="new">The Update-ModuleManifest cmdlet updates a module manifest (.psd1) file.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="new">Notes</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>DscResourcesToExport is only supported on the latest PowerShell version 5.0.</source>
+          <target state="new">DscResourcesToExport is only supported on the latest PowerShell version 5.0.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We won’t be able to update the field if you are running on lower versions of PowerShell.</source>
+          <target state="new">We won’t be able to update the field if you are running on lower versions of PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Cmdlet syntax</source>
+          <target state="new">Cmdlet syntax</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Cmdlet online help reference</source>
+          <target state="new">Cmdlet online help reference</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Update-ModuleManifest<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=619311)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Update-ModuleManifest<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=619311)</ept></target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Example commands</source>
+          <target state="new">Example commands</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This new cmdlet is used to help update manifest file with input property values.</source>
+          <target state="new">This new cmdlet is used to help update manifest file with input property values.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It takes all parameters that New-ModuleManifest does.</source>
+          <target state="new">It takes all parameters that New-ModuleManifest does.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>We notice that a lot of module authors would like to specify “\*” in exported values such as FunctionsToExport, CmdletsToExport, etc. During module publishing to PowerShell Gallery, unspecified functions and commands will not be populated properly onto the Gallery.</source>
+          <target state="new">We notice that a lot of module authors would like to specify “\*” in exported values such as FunctionsToExport, CmdletsToExport, etc. During module publishing to PowerShell Gallery, unspecified functions and commands will not be populated properly onto the Gallery.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Therefore, we suggest module authors update their manifests with proper values.</source>
+          <target state="new">Therefore, we suggest module authors update their manifests with proper values.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you have modules that have exported properties, Update-ModuleManifest will fill the specified manifest file with information from exported functions, cmdlets, variables etc:</source>
+          <target state="new">If you have modules that have exported properties, Update-ModuleManifest will fill the specified manifest file with information from exported functions, cmdlets, variables etc:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>After Update-ModuleManifest:</source>
+          <target state="new">After Update-ModuleManifest:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For each module, there are also metadata fields associated with it.</source>
+          <target state="new">For each module, there are also metadata fields associated with it.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In order to display metadata properly on PowrShell Gallery, you can use Update-ModuleManifest to populate those fields under PrivateData.</source>
+          <target state="new">In order to display metadata properly on PowrShell Gallery, you can use Update-ModuleManifest to populate those fields under PrivateData.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>PrivateData hashtable from the manifest file template has the following properties</source>
+          <target state="new">PrivateData hashtable from the manifest file template has the following properties</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

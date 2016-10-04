@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0660867e6e7c7a93a8ca80d76f22db7fd86f8826</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\debug_overview.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2cbcfe51a3d4ba522af10d8c661354924be413a2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5df899cd3b5157c9da1e9a7201a0003369d50782</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Improvements in PowerShell Script Debugging</source>
+          <target state="new">Improvements in PowerShell Script Debugging</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A number of improvements were made in PowerShell 5.0 to enhance the debugging experience:</source>
+          <target state="new">A number of improvements were made in PowerShell 5.0 to enhance the debugging experience:</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Break All</source>
+          <target state="new">Break All</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The PowerShell console and Windows PowerShell ISE now allow you to break into the debugger for running scripts.</source>
+          <target state="new">The PowerShell console and Windows PowerShell ISE now allow you to break into the debugger for running scripts.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This works in both local and remote sessions.</source>
+          <target state="new">This works in both local and remote sessions.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the console, press <bpt id="p1">**</bpt>Ctrl+Break<ept id="p1">**</ept>.</source>
+          <target state="new">In the console, press <bpt id="p1">**</bpt>Ctrl+Break<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In ISE, press <bpt id="p1">**</bpt>Ctrl+B<ept id="p1">**</ept>, or use the <bpt id="p2">**</bpt>Debug -&gt; Break All<ept id="p2">**</ept> menu command.</source>
+          <target state="new">In ISE, press <bpt id="p1">**</bpt>Ctrl+B<ept id="p1">**</ept>, or use the <bpt id="p2">**</bpt>Debug -&gt; Break All<ept id="p2">**</ept> menu command.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Remote debugging and remote file editing in Windows PowerShell ISE</source>
+          <target state="new">Remote debugging and remote file editing in Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE now lets you open and edit files in a remote session by running the PSEdit command.</source>
+          <target state="new">Windows PowerShell ISE now lets you open and edit files in a remote session by running the PSEdit command.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, you can open a file for editing from the command line in a remote session as follows:</source>
+          <target state="new">For example, you can open a file for editing from the command line in a remote session as follows:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In addition, you can now edit and save changes in a remote file that is automatically opened in Windows PowerShell ISE when you hit a breakpoint.</source>
+          <target state="new">In addition, you can now edit and save changes in a remote file that is automatically opened in Windows PowerShell ISE when you hit a breakpoint.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Now, you can debug a script file that is running on a remote computer, edit the file to fix an error, and then rerun the modified script.</source>
+          <target state="new">Now, you can debug a script file that is running on a remote computer, edit the file to fix an error, and then rerun the modified script.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Advanced Script Debugging</source>
+          <target state="new">Advanced Script Debugging</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>There are new, advanced debugging features that let you attach to any local computer process that has loaded Windows PowerShell, and debug arbitrary runspaces in that process.</source>
+          <target state="new">There are new, advanced debugging features that let you attach to any local computer process that has loaded Windows PowerShell, and debug arbitrary runspaces in that process.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Runspace Debugging</source>
+          <target state="new">Runspace Debugging</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>New cmdlets have been added that let you list current runspaces in a process, and attach the Windows PowerShell console or ISE debugger to that runspace for script debugging:</source>
+          <target state="new">New cmdlets have been added that let you list current runspaces in a process, and attach the Windows PowerShell console or ISE debugger to that runspace for script debugging:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Get-Runspace</source>
+          <target state="new">Get-Runspace</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Debug-Runspace</source>
+          <target state="new">Debug-Runspace</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Enable-RunspaceDebug</source>
+          <target state="new">Enable-RunspaceDebug</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Disable-RunspaceDebug</source>
+          <target state="new">Disable-RunspaceDebug</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Get-RunspaceDebug</source>
+          <target state="new">Get-RunspaceDebug</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Attach to Process hosting PowerShell</source>
+          <target state="new">Attach to Process hosting PowerShell</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can now attach to any computer process that has Windows PowerShell loaded.</source>
+          <target state="new">You can now attach to any computer process that has Windows PowerShell loaded.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You do this by entering into an interactive session with the process, similarly to how you enter into an interactive remote session by running the Enter-PSSession cmdlet:</source>
+          <target state="new">You do this by entering into an interactive session with the process, similarly to how you enter into an interactive remote session by running the Enter-PSSession cmdlet:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Enter-PSHostProcess</source>
+          <target state="new">Enter-PSHostProcess</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Exit-PSHostProcess</source>
+          <target state="new">Exit-PSHostProcess</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

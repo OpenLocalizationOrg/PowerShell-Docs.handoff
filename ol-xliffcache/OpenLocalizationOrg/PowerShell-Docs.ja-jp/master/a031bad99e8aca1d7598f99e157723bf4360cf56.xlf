@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a031bad99e8aca1d7598f99e157723bf4360cf56</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\Getting-Started-with-Windows-PowerShell.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d809a1f688b8a9ce7e1306a8a6a2f2a6c76d89dd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26874ff4dce952b127d26a00c43d76538219875e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Getting Started with Windows PowerShell</source>
+          <target state="new">Getting Started with Windows PowerShell</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Getting Started with Windows PowerShell</source>
+          <target state="new">Getting Started with Windows PowerShell</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell is a Windows command-line shell designed especially for system administrators.</source>
+          <target state="new">Windows PowerShell is a Windows command-line shell designed especially for system administrators.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes an interactive prompt and a scripting environment that can be used independently or in combination.</source>
+          <target state="new">Windows PowerShell includes an interactive prompt and a scripting environment that can be used independently or in combination.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Unlike most shells, which accept and return text, Windows PowerShell is built on top of the .NET Framework common language runtime (CLR) and the .NET Framework, and accepts and returns .NET Framework objects.</source>
+          <target state="new">Unlike most shells, which accept and return text, Windows PowerShell is built on top of the .NET Framework common language runtime (CLR) and the .NET Framework, and accepts and returns .NET Framework objects.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This fundamental change in the environment brings entirely new tools and methods to the management and configuration of Windows.</source>
+          <target state="new">This fundamental change in the environment brings entirely new tools and methods to the management and configuration of Windows.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell introduces the concept of a cmdlet (pronounced "command-let"), a simple, single-function command-line tool built into the shell.</source>
+          <target state="new">Windows PowerShell introduces the concept of a cmdlet (pronounced "command-let"), a simple, single-function command-line tool built into the shell.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use each cmdlet separately, but their power is realized when you use these simple tools in combination to perform complex tasks.</source>
+          <target state="new">You can use each cmdlet separately, but their power is realized when you use these simple tools in combination to perform complex tasks.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes more than one hundred basic core cmdlets, and you can write your own cmdlets and share them with other users.</source>
+          <target state="new">Windows PowerShell includes more than one hundred basic core cmdlets, and you can write your own cmdlets and share them with other users.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Like many shells, Windows PowerShell gives you access to the file system on the computer.</source>
+          <target state="new">Like many shells, Windows PowerShell gives you access to the file system on the computer.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In addition, Windows PowerShell <bpt id="p1">*</bpt>providers<ept id="p1">*</ept> enable you to access other data stores, such as the registry and the digital signature certificate stores, as easily as you access the file system.</source>
+          <target state="new">In addition, Windows PowerShell <bpt id="p1">*</bpt>providers<ept id="p1">*</ept> enable you to access other data stores, such as the registry and the digital signature certificate stores, as easily as you access the file system.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This Getting Started guide provides an introduction to Windows PowerShell: the language, the cmdlets, the providers, and the use of objects.</source>
+          <target state="new">This Getting Started guide provides an introduction to Windows PowerShell: the language, the cmdlets, the providers, and the use of objects.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In this topic:</source>
+          <target state="new">In this topic:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell System Requirements<ept id="p1">](../setup/Windows-PowerShell-System-Requirements.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PowerShell System Requirements<ept id="p1">](../setup/Windows-PowerShell-System-Requirements.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Installing Windows PowerShell<ept id="p1">](../setup/Installing-Windows-PowerShell.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Installing Windows PowerShell<ept id="p1">](../setup/Installing-Windows-PowerShell.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Starting Windows PowerShell<ept id="p1">](../setup/Starting-Windows-PowerShell.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Starting Windows PowerShell<ept id="p1">](../setup/Starting-Windows-PowerShell.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Ready to Use Windows PowerShell<ept id="p1">](Getting-Ready-to-Use-Windows-PowerShell.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Getting Ready to Use Windows PowerShell<ept id="p1">](Getting-Ready-to-Use-Windows-PowerShell.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

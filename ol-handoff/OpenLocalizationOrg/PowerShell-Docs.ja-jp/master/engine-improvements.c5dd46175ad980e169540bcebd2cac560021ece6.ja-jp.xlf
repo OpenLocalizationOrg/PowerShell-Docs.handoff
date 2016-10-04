@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bb7efc55b1c948c349aa778b700e5cb1277b9762</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\engine-improvements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57bb7aa772220d9b96d1ac285ebe99e31b0bceb1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5feb957be1c1f25e72f7eabc1100639502ab4fa4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>PowerShell Engine Improvements in WMF 5.1 (Preview)</source>
+          <target state="new">PowerShell Engine Improvements in WMF 5.1 (Preview)</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell, DSC, WMF</source>
+          <target state="new">PowerShell, DSC, WMF</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PowerShell Engine Improvements</source>
+          <target state="new">PowerShell Engine Improvements</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The following improvements to the core PowerShell engine have been implemented in WMF 5.1:</source>
+          <target state="new">The following improvements to the core PowerShell engine have been implemented in WMF 5.1:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Performance</source>
+          <target state="new">Performance</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Performance has improved in some important areas:</source>
+          <target state="new">Performance has improved in some important areas:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Startup</source>
+          <target state="new">Startup</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Pipelining to cmdlets like ForEach-Object and Where-Object is approximately 50% faster</source>
+          <target state="new">Pipelining to cmdlets like ForEach-Object and Where-Object is approximately 50% faster</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Some example improvements (your results may vary depending on your hardware):</source>
+          <target state="new">Some example improvements (your results may vary depending on your hardware):</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Scenario</source>
+          <target state="new">Scenario</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>5.0 Time (ms)</source>
+          <target state="new">5.0 Time (ms)</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>5.1 Time (ms)</source>
+          <target state="new">5.1 Time (ms)</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>900</source>
+          <target state="new">900</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>250</source>
+          <target state="new">250</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>First ever PowerShell run: <ph id="ph1">`powershell -command "Unknown-Command"`</ph></source>
+          <target state="new">First ever PowerShell run: <ph id="ph1">`powershell -command "Unknown-Command"`</ph></target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>30000</source>
+          <target state="new">30000</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>13000</source>
+          <target state="new">13000</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Command analysis cache built: <ph id="ph1">`powershell -command "Unknown-Command"`</ph></source>
+          <target state="new">Command analysis cache built: <ph id="ph1">`powershell -command "Unknown-Command"`</ph></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>7000</source>
+          <target state="new">7000</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>520</source>
+          <target state="new">520</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>1400</source>
+          <target state="new">1400</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>750</source>
+          <target state="new">750</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Note One change related to startup might impact some unsupported scenarios.</source>
+          <target state="new">Note One change related to startup might impact some unsupported scenarios.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>PowerShell no longer reads the files <ph id="ph1">`$pshome\*.ps1xml`</ph> -- these files have been converted to C# to avoid some file and CPU overhead of processing the XML files.</source>
+          <target state="new">PowerShell no longer reads the files <ph id="ph1">`$pshome\*.ps1xml`</ph> -- these files have been converted to C# to avoid some file and CPU overhead of processing the XML files.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The files still exist to support V2 side-by-side, so if you change the file contents, it will not have any effect to V5, only V2.</source>
+          <target state="new">The files still exist to support V2 side-by-side, so if you change the file contents, it will not have any effect to V5, only V2.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Note that changing the contents of these files was never a supported scenario.</source>
+          <target state="new">Note that changing the contents of these files was never a supported scenario.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Another visible change is how PowerShell caches the exported commands and other information for modules that are installed on a system.</source>
+          <target state="new">Another visible change is how PowerShell caches the exported commands and other information for modules that are installed on a system.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Previously, this cache was stored in the directory <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\CommandAnalysis`</ph>.</source>
+          <target state="new">Previously, this cache was stored in the directory <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\CommandAnalysis`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, the cache is a single file <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</source>
+          <target state="new">In WMF 5.1, the cache is a single file <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\ModuleAnalysisCache`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Module Analysis Cache<ept id="p1">](scenarios-features.md#module-analysis-cache)</ept> for more details.</source>
+          <target state="new">See <bpt id="p1">[</bpt>Module Analysis Cache<ept id="p1">](scenarios-features.md#module-analysis-cache)</ept> for more details.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

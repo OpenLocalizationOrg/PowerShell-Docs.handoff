@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc8c36b26682bbaaaf00c370217a05feaf22a4ec</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\msft-dsclocalconfigurationmanager-resourcetest.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">780fd91a2f840ae19b2c61b3e27558a66c0840fa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1c6b20da60fb27546aee2cdce6f24adebff8de7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>ResourceTest method of the MSFT_DSCLocalConfigurationManager class</source>
+          <target state="new">ResourceTest method of the MSFT_DSCLocalConfigurationManager class</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>ResourceTest method of the MSFT_DSCLocalConfigurationManager class</source>
+          <target state="new">ResourceTest method of the MSFT_DSCLocalConfigurationManager class</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Directly calls the <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> method of a DSC resource.</source>
+          <target state="new">Directly calls the <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> method of a DSC resource.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Parameters</source>
+          <target state="new">Parameters</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>ResourceType<ept id="p1">*</ept> \[in\]</source>
+          <target state="new"><bpt id="p1">*</bpt>ResourceType<ept id="p1">*</ept> \[in\]</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The name of the resource to call.</source>
+          <target state="new">The name of the resource to call.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>ModuleName<ept id="p1">*</ept> \[in\]</source>
+          <target state="new"><bpt id="p1">*</bpt>ModuleName<ept id="p1">*</ept> \[in\]</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The name of the module that contains the resource to call.</source>
+          <target state="new">The name of the module that contains the resource to call.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>resourceProperty<ept id="p1">*</ept> \[in\]</source>
+          <target state="new"><bpt id="p1">*</bpt>resourceProperty<ept id="p1">*</ept> \[in\]</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Specifies the resource property name and its value in a hash table as key and value, respectively.</source>
+          <target state="new">Specifies the resource property name and its value in a hash table as key and value, respectively.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept> cmdlet to discover resource properties and their types.</source>
+          <target state="new">Use the <bpt id="p1">[</bpt>Get-DscResource<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept> cmdlet to discover resource properties and their types.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>InDesiredState<ept id="p1">*</ept> \[out\]</source>
+          <target state="new"><bpt id="p1">*</bpt>InDesiredState<ept id="p1">*</ept> \[out\]</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>On return, this property is set to <bpt id="p1">**</bpt>true<ept id="p1">**</ept> if the target node is in the desired state.</source>
+          <target state="new">On return, this property is set to <bpt id="p1">**</bpt>true<ept id="p1">**</ept> if the target node is in the desired state.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Return value</source>
+          <target state="new">Return value</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Returns zero on success; otherwise returns an error code.</source>
+          <target state="new">Returns zero on success; otherwise returns an error code.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Remarks</source>
+          <target state="new">Remarks</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is a static method.</source>
+          <target state="new">This is a static method.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Requirements</source>
+          <target state="new">Requirements</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MOF:<ept id="p1">**</ept> DscCore.mof</source>
+          <target state="new"><bpt id="p1">**</bpt>MOF:<ept id="p1">**</ept> DscCore.mof</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept>: Root\Microsoft\Windows\DesiredStateConfiguration</source>
+          <target state="new"><bpt id="p1">**</bpt>Namespace<ept id="p1">**</ept>: Root\Microsoft\Windows\DesiredStateConfiguration</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><bpt id="p2">**</bpt>MSFT_DSCLocalConfigurationManager<ept id="p2">**</ept><ept id="p1">](msft-dsclocalconfigurationmanager.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt><bpt id="p2">**</bpt>MSFT_DSCLocalConfigurationManager<ept id="p2">**</ept><ept id="p1">](msft-dsclocalconfigurationmanager.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a91b675a4f19306481bb87dc3f3b8cb32ab07e8c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\jea_report.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c689c15de2d8d665c5977140aa26b2e77c2d442f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">813d0bc3bcf4793d3e79365bc4012d6464a6c6c3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Reporting on JEA</source>
+          <target state="new">Reporting on JEA</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In order to report on the state of your JEA configuration, you can use:</source>
+          <target state="new">In order to report on the state of your JEA configuration, you can use:</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-PSSessionConfiguration<ept id="p1">**</ept> to return a list of all registered endpoints on a given machine.</source>
+          <target state="new"><bpt id="p1">**</bpt>Get-PSSessionConfiguration<ept id="p1">**</ept> to return a list of all registered endpoints on a given machine.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-PSSessionCapability<ept id="p1">**</ept> to report on the capabilities any given user has on a specific endpoint.</source>
+          <target state="new"><bpt id="p1">**</bpt>Get-PSSessionCapability<ept id="p1">**</ept> to report on the capabilities any given user has on a specific endpoint.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here’s an example of <bpt id="p1">**</bpt>Get-PSSessionCapability<ept id="p1">**</ept>:</source>
+          <target state="new">Here’s an example of <bpt id="p1">**</bpt>Get-PSSessionCapability<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To report on the <bpt id="p1">_</bpt>actions<ept id="p1">_</ept> users took during a JEA session, you can:</source>
+          <target state="new">To report on the <bpt id="p1">_</bpt>actions<ept id="p1">_</ept> users took during a JEA session, you can:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Enable the "over-the-shoulder" transcripts for that JEA endpoint and consult the transcript directory for a full log of each user's actions</source>
+          <target state="new">Enable the "over-the-shoulder" transcripts for that JEA endpoint and consult the transcript directory for a full log of each user's actions</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Turn on PowerShell module logging and inspect the PowerShell event logs.</source>
+          <target state="new">Turn on PowerShell module logging and inspect the PowerShell event logs.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

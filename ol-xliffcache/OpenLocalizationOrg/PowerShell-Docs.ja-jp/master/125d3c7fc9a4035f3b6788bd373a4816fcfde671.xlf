@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">125d3c7fc9a4035f3b6788bd373a4816fcfde671</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psgallery\psgallery_scriptanalyzer_rule_profile.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">91ef6c5ae96970ea2aeeb3c5c5cef614341fe716</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">656d87b905dca946fb606bda1c3dba67fe37dab4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>ScriptAnazlyer Rule Profile for Gallery</source>
+          <target state="new">ScriptAnazlyer Rule Profile for Gallery</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To ensure the quality of items published to PowerShell Gallery, we run <bpt id="p1">[</bpt>PSScriptAnalyzer<ept id="p1">](https://github.com/PowerShell/PSScriptAnalyzer)</ept> rules to determine if there are any violations in the scripts submitted.</source>
+          <target state="new">To ensure the quality of items published to PowerShell Gallery, we run <bpt id="p1">[</bpt>PSScriptAnalyzer<ept id="p1">](https://github.com/PowerShell/PSScriptAnalyzer)</ept> rules to determine if there are any violations in the scripts submitted.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can find the list of rules we are running on ScriptAnalyzer <bpt id="p1">[</bpt>GitHub page<ept id="p1">](https://github.com/PowerShell/PSScriptAnalyzer/blob/development/Engine/Settings/PSGallery.psd1)</ept>.</source>
+          <target state="new">You can find the list of rules we are running on ScriptAnalyzer <bpt id="p1">[</bpt>GitHub page<ept id="p1">](https://github.com/PowerShell/PSScriptAnalyzer/blob/development/Engine/Settings/PSGallery.psd1)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you have any concerns regarding the rules we are running, please contact PowerShell Gallery Administrators, or open an issue for ScriptAnalzyer.</source>
+          <target state="new">If you have any concerns regarding the rules we are running, please contact PowerShell Gallery Administrators, or open an issue for ScriptAnalzyer.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>ScriptAnalyzer results will be displayed on each individual item page in Gallery in the coming release.</source>
+          <target state="new">ScriptAnalyzer results will be displayed on each individual item page in Gallery in the coming release.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We encourage item owners to check their items to make sure there are no severe errors in published items.</source>
+          <target state="new">We encourage item owners to check their items to make sure there are no severe errors in published items.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

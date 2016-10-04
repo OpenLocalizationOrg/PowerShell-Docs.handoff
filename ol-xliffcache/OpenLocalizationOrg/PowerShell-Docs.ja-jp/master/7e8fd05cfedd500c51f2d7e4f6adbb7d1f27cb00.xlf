@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e8fd05cfedd500c51f2d7e4f6adbb7d1f27cb00</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Selecting-Items-from-a-List-Box.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6581ef667f1689595a9860f8fa3a9acc1d1ab4b0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dbaef04b0e8a42ed4bb5ad75ecfc364e305dfe41</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Selecting Items from a List Box</source>
+          <target state="new">Selecting Items from a List Box</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Selecting Items from a List Box</source>
+          <target state="new">Selecting Items from a List Box</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use Windows PowerShell 3.0 and later releases to create a dialog box that lets users select items from a list box control.</source>
+          <target state="new">Use Windows PowerShell 3.0 and later releases to create a dialog box that lets users select items from a list box control.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create a list box control, and select items from it</source>
+          <target state="new">Create a list box control, and select items from it</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Copy and then paste the following into Windows PowerShell ISE, and then save it as a Windows PowerShell script (.ps1).</source>
+          <target state="new">Copy and then paste the following into Windows PowerShell ISE, and then save it as a Windows PowerShell script (.ps1).</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The script begins by loading two .NET Framework classes: <bpt id="p1">**</bpt>System.Drawing<ept id="p1">**</ept> and <bpt id="p2">**</bpt>System.Windows.Forms<ept id="p2">**</ept>.</source>
+          <target state="new">The script begins by loading two .NET Framework classes: <bpt id="p1">**</bpt>System.Drawing<ept id="p1">**</ept> and <bpt id="p2">**</bpt>System.Windows.Forms<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You then start a new instance of the .NET Framework class <bpt id="p1">**</bpt>System.Windows.Forms.Form<ept id="p1">**</ept>; that provides a blank form or window to which you can start adding controls.</source>
+          <target state="new">You then start a new instance of the .NET Framework class <bpt id="p1">**</bpt>System.Windows.Forms.Form<ept id="p1">**</ept>; that provides a blank form or window to which you can start adding controls.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>After you create an instance of the Form class, assign values to three properties of this class.</source>
+          <target state="new">After you create an instance of the Form class, assign values to three properties of this class.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Text.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Text.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This becomes the title of the window.</source>
+          <target state="new">This becomes the title of the window.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Size.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Size.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This is the size of the form, in pixels.</source>
+          <target state="new">This is the size of the form, in pixels.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The preceding script creates a form that’s 300 pixels wide by 200 pixels tall.</source>
+          <target state="new">The preceding script creates a form that’s 300 pixels wide by 200 pixels tall.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>StartingPosition.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>StartingPosition.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This optional property is set to <bpt id="p1">**</bpt>CenterScreen<ept id="p1">**</ept> in the preceding script.</source>
+          <target state="new">This optional property is set to <bpt id="p1">**</bpt>CenterScreen<ept id="p1">**</ept> in the preceding script.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you don’t add this property, Windows selects a location when the form is opened.</source>
+          <target state="new">If you don’t add this property, Windows selects a location when the form is opened.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>By setting the <bpt id="p1">**</bpt>StartingPosition<ept id="p1">**</ept> to <bpt id="p2">**</bpt>CenterScreen<ept id="p2">**</ept>, you’re automatically displaying the form in the middle of the screen each time it loads.</source>
+          <target state="new">By setting the <bpt id="p1">**</bpt>StartingPosition<ept id="p1">**</ept> to <bpt id="p2">**</bpt>CenterScreen<ept id="p2">**</ept>, you’re automatically displaying the form in the middle of the screen each time it loads.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Next, create an <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button for your form.</source>
+          <target state="new">Next, create an <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button for your form.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Specify the size and behavior of the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</source>
+          <target state="new">Specify the size and behavior of the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In this example, the button position is 120 pixels from the form’s top edge, and 75 pixels from the left edge.</source>
+          <target state="new">In this example, the button position is 120 pixels from the form’s top edge, and 75 pixels from the left edge.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The button height is 23 pixels, while the button length is 75 pixels.</source>
+          <target state="new">The button height is 23 pixels, while the button length is 75 pixels.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The script uses predefined Windows Forms types to determine the button behaviors.</source>
+          <target state="new">The script uses predefined Windows Forms types to determine the button behaviors.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Similarly, you create a <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept> button.</source>
+          <target state="new">Similarly, you create a <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept> button.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept> button is 120 pixels from the top, but 150 pixels from the left edge of the window.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept> button is 120 pixels from the top, but 150 pixels from the left edge of the window.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Next, provide label text on your window that describes the information you want users to provide.</source>
+          <target state="new">Next, provide label text on your window that describes the information you want users to provide.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In this case, you want users to select a computer.</source>
+          <target state="new">In this case, you want users to select a computer.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Add the control (in this case, a list box) that lets users provide the information you’ve described in your label text.</source>
+          <target state="new">Add the control (in this case, a list box) that lets users provide the information you’ve described in your label text.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>There are many other controls you can apply besides list boxes; for more controls, see <bpt id="p1">[</bpt>System.Windows.Forms Namespace<ept id="p1">](http://msdn.microsoft.com/library/k50ex0x9(v=vs.110).aspx)</ept> on MSDN.</source>
+          <target state="new">There are many other controls you can apply besides list boxes; for more controls, see <bpt id="p1">[</bpt>System.Windows.Forms Namespace<ept id="p1">](http://msdn.microsoft.com/library/k50ex0x9(v=vs.110).aspx)</ept> on MSDN.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the next section, you specify the values you want the list box to display to users.</source>
+          <target state="new">In the next section, you specify the values you want the list box to display to users.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The list box created by this script allows only one selection.</source>
+          <target state="new">The list box created by this script allows only one selection.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To create a list box control that allows multiple selections, specify a value for the <bpt id="p1">**</bpt>SelectionMode<ept id="p1">**</ept> property, similarly to the following:  <ph id="ph1">`$listBox.SelectionMode = "MultiExtended"`</ph>.</source>
+          <target state="new">To create a list box control that allows multiple selections, specify a value for the <bpt id="p1">**</bpt>SelectionMode<ept id="p1">**</ept> property, similarly to the following:  <ph id="ph1">`$listBox.SelectionMode = "MultiExtended"`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Multiple-selection List Boxes<ept id="p1">](Multiple-selection-List-Boxes.md)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Multiple-selection List Boxes<ept id="p1">](Multiple-selection-List-Boxes.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Add the list box control to your form, and instruct Windows to open the form atop other windows and dialog boxes when it’s opened.</source>
+          <target state="new">Add the list box control to your form, and instruct Windows to open the form atop other windows and dialog boxes when it’s opened.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Add the following line of code to display the form in Windows.</source>
+          <target state="new">Add the following line of code to display the form in Windows.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Finally, the code inside the <bpt id="p1">**</bpt>If<ept id="p1">**</ept> block instructs Windows what to do with the form after users select an option from the list box, and then click the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button or press the <bpt id="p3">**</bpt>Enter<ept id="p3">**</ept> key.</source>
+          <target state="new">Finally, the code inside the <bpt id="p1">**</bpt>If<ept id="p1">**</ept> block instructs Windows what to do with the form after users select an option from the list box, and then click the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button or press the <bpt id="p3">**</bpt>Enter<ept id="p3">**</ept> key.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Hey Scripting Guy:  Why don’t these PowerShell GUI examples work?<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=506644)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>GitHub: Dave Wyatt's WinFormsExampleUpdates<ept id="p2">](https://github.com/dlwyatt/WinFormsExampleUpdates)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Windows PowerShell Tip of the Week:  Selecting Items from a List Box<ept id="p3">](http://technet.microsoft.com/library/ff730949.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Hey Scripting Guy:  Why don’t these PowerShell GUI examples work?<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=506644)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>GitHub: Dave Wyatt's WinFormsExampleUpdates<ept id="p2">](https://github.com/dlwyatt/WinFormsExampleUpdates)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Windows PowerShell Tip of the Week:  Selecting Items from a List Box<ept id="p3">](http://technet.microsoft.com/library/ff730949.aspx)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

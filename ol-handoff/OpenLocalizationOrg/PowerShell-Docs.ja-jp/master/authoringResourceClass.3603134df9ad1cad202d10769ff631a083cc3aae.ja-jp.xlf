@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5de1100450a89796c20a5bbb2e71f7759374b02</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\authoringResourceClass.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">efd1e7d29ebbed18ed6a5d1477ac7439300faf9c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5aefcf5a0726770c329ee7e7ecbf68ab485f9402</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with PowerShell classes</source>
+          <target state="new">Writing a custom DSC resource with PowerShell classes</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Writing a custom DSC resource with PowerShell classes</source>
+          <target state="new">Writing a custom DSC resource with PowerShell classes</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>With the introduction of PowerShell classes in Windows PowerShell 5.0, you can now define a DSC resource by creating a class.</source>
+          <target state="new">With the introduction of PowerShell classes in Windows PowerShell 5.0, you can now define a DSC resource by creating a class.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The class defines both the schema and the implementation of the resource, so there is no need to create a separate MOF file.</source>
+          <target state="new">The class defines both the schema and the implementation of the resource, so there is no need to create a separate MOF file.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The folder structure for a class-based resource is also simpler, because a <bpt id="p1">**</bpt>DSCResources<ept id="p1">**</ept> folder is not necessary.</source>
+          <target state="new">The folder structure for a class-based resource is also simpler, because a <bpt id="p1">**</bpt>DSCResources<ept id="p1">**</ept> folder is not necessary.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In a class-based DSC resource, the schema is defined as properties of the class which can be modified with attributes to specify the property type..</source>
+          <target state="new">In a class-based DSC resource, the schema is defined as properties of the class which can be modified with attributes to specify the property type..</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The resource is implemented by <bpt id="p1">**</bpt>Get()<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set()<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test()<ept id="p3">**</ept> methods (equivalent to the <bpt id="p4">**</bpt>Get-TargetResource<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Set-TargetResource<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Test-TargetResource<ept id="p6">**</ept> functions in a script resource.</source>
+          <target state="new">The resource is implemented by <bpt id="p1">**</bpt>Get()<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set()<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test()<ept id="p3">**</ept> methods (equivalent to the <bpt id="p4">**</bpt>Get-TargetResource<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Set-TargetResource<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Test-TargetResource<ept id="p6">**</ept> functions in a script resource.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this topic, we will create a simple resource named <bpt id="p1">**</bpt>FileResource<ept id="p1">**</ept> that manages a file in a specified path.</source>
+          <target state="new">In this topic, we will create a simple resource named <bpt id="p1">**</bpt>FileResource<ept id="p1">**</ept> that manages a file in a specified path.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information about DSC resources, see <bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept></source>
+          <target state="new">For more information about DSC resources, see <bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Folder structure for a class resource</source>
+          <target state="new">Folder structure for a class resource</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To implement a DSC custom resource with a PowerShell class, create the following folder structure.</source>
+          <target state="new">To implement a DSC custom resource with a PowerShell class, create the following folder structure.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The class is defined in <bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> and the module manifest is defined in <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>.</source>
+          <target state="new">The class is defined in <bpt id="p1">**</bpt>MyDscResource.psm1<ept id="p1">**</ept> and the module manifest is defined in <bpt id="p2">**</bpt>MyDscResource.psd1<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create the class</source>
+          <target state="new">Create the class</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You use the class keyword to create a PowerShell class.</source>
+          <target state="new">You use the class keyword to create a PowerShell class.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To specify that a class is a DSC resource, use the <bpt id="p1">**</bpt>DscResource()<ept id="p1">**</ept> attribute.</source>
+          <target state="new">To specify that a class is a DSC resource, use the <bpt id="p1">**</bpt>DscResource()<ept id="p1">**</ept> attribute.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name of the class is the name of the DSC resource.</source>
+          <target state="new">The name of the class is the name of the DSC resource.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Declare properties</source>
+          <target state="new">Declare properties</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The DSC resource schema is defined as properties of the class.</source>
+          <target state="new">The DSC resource schema is defined as properties of the class.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>We declare three properties as follows.</source>
+          <target state="new">We declare three properties as follows.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Notice that the properties are modified by attributes.</source>
+          <target state="new">Notice that the properties are modified by attributes.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The meaning of the attributes is as follows:</source>
+          <target state="new">The meaning of the attributes is as follows:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DscProperty(Key)<ept id="p1">**</ept>: The property is required.</source>
+          <target state="new"><bpt id="p1">**</bpt>DscProperty(Key)<ept id="p1">**</ept>: The property is required.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The property is a key.</source>
+          <target state="new">The property is a key.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The values of all properties marked as keys must combine to uniquely identify a resource instance within a configuration.</source>
+          <target state="new">The values of all properties marked as keys must combine to uniquely identify a resource instance within a configuration.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DscProperty(Mandatory)<ept id="p1">**</ept>: The property is required.</source>
+          <target state="new"><bpt id="p1">**</bpt>DscProperty(Mandatory)<ept id="p1">**</ept>: The property is required.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DscProperty(NotConfigurable)<ept id="p1">**</ept>: The property is read-only.</source>
+          <target state="new"><bpt id="p1">**</bpt>DscProperty(NotConfigurable)<ept id="p1">**</ept>: The property is read-only.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Properties marked with this attribute cannot be set by a configuration, but are populated by the <bpt id="p1">**</bpt>Get()<ept id="p1">**</ept> method when present.</source>
+          <target state="new">Properties marked with this attribute cannot be set by a configuration, but are populated by the <bpt id="p1">**</bpt>Get()<ept id="p1">**</ept> method when present.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DscProperty()<ept id="p1">**</ept>: The property is configurable, but it is not required.</source>
+          <target state="new"><bpt id="p1">**</bpt>DscProperty()<ept id="p1">**</ept>: The property is configurable, but it is not required.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$Path<ept id="p1">**</ept> and <bpt id="p2">**</bpt>$SourcePath<ept id="p2">**</ept> properties are both strings.</source>
+          <target state="new">The <bpt id="p1">**</bpt>$Path<ept id="p1">**</ept> and <bpt id="p2">**</bpt>$SourcePath<ept id="p2">**</ept> properties are both strings.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$CreationTime<ept id="p1">**</ept> is a <bpt id="p2">[</bpt>DateTime<ept id="p2">](https://technet.microsoft.com/en-us/library/system.datetime.aspx)</ept> property.</source>
+          <target state="new">The <bpt id="p1">**</bpt>$CreationTime<ept id="p1">**</ept> is a <bpt id="p2">[</bpt>DateTime<ept id="p2">](https://technet.microsoft.com/en-us/library/system.datetime.aspx)</ept> property.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$Ensure<ept id="p1">**</ept> property is an enumeration type, defined as follows.</source>
+          <target state="new">The <bpt id="p1">**</bpt>$Ensure<ept id="p1">**</ept> property is an enumeration type, defined as follows.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Implementing the methods</source>
+          <target state="new">Implementing the methods</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get()<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set()<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test()<ept id="p3">**</ept> methods are analogous to the <bpt id="p4">**</bpt>Get-TargetResource<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Set-TargetResource<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Test-TargetResource<ept id="p6">**</ept> functions in a script resource.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Get()<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Set()<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Test()<ept id="p3">**</ept> methods are analogous to the <bpt id="p4">**</bpt>Get-TargetResource<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Set-TargetResource<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Test-TargetResource<ept id="p6">**</ept> functions in a script resource.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This code also includes the CopyFile() function, a helper function that copies the file from <bpt id="p1">**</bpt>$SourcePath<ept id="p1">**</ept> to <bpt id="p2">**</bpt>$Path<ept id="p2">**</ept>.</source>
+          <target state="new">This code also includes the CopyFile() function, a helper function that copies the file from <bpt id="p1">**</bpt>$SourcePath<ept id="p1">**</ept> to <bpt id="p2">**</bpt>$Path<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The complete file</source>
+          <target state="new">The complete file</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The complete class file follows.</source>
+          <target state="new">The complete class file follows.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Create a manifest</source>
+          <target state="new">Create a manifest</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To make a class-based resource available to the DSC engine, you must include a <bpt id="p1">**</bpt>DscResourcesToExport<ept id="p1">**</ept> statement in the manifest file that instructs the module to export the resource.</source>
+          <target state="new">To make a class-based resource available to the DSC engine, you must include a <bpt id="p1">**</bpt>DscResourcesToExport<ept id="p1">**</ept> statement in the manifest file that instructs the module to export the resource.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Our manifest looks like this:</source>
+          <target state="new">Our manifest looks like this:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Test the resource</source>
+          <target state="new">Test the resource</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>After saving the class and manifest files in the folder structure as described earlier, you can create a configuration that uses the new resource.</source>
+          <target state="new">After saving the class and manifest files in the folder structure as described earlier, you can create a configuration that uses the new resource.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For information about how to run a DSC configuration, see <bpt id="p1">[</bpt>Enacting configurations<ept id="p1">](enactingConfigurations.md)</ept>.</source>
+          <target state="new">For information about how to run a DSC configuration, see <bpt id="p1">[</bpt>Enacting configurations<ept id="p1">](enactingConfigurations.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The following configuration will check to see whether the file at <ph id="ph1">`c:\test\test.txt`</ph> exists, and, if not, copies the file from <ph id="ph2">`c:\test.txt`</ph> (you should create <ph id="ph3">`c:\test.txt`</ph> before you run the configuration).</source>
+          <target state="new">The following configuration will check to see whether the file at <ph id="ph1">`c:\test\test.txt`</ph> exists, and, if not, copies the file from <ph id="ph2">`c:\test.txt`</ph> (you should create <ph id="ph3">`c:\test.txt`</ph> before you run the configuration).</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Concepts</source>
+          <target state="new">Concepts</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

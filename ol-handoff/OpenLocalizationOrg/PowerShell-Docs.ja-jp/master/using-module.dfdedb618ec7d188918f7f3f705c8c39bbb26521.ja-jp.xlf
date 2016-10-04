@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e09cfe0994ac523fd10658955731a93b6c176c88</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\using-module.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1853b3d266000a090fc26f43934f966c63fc09bf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">804473209dca19a1707836b51f3680b30bf5a3aa</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>FullyQuilifiedModuleName for 'using module'</source>
+          <target state="new">FullyQuilifiedModuleName for 'using module'</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>FullyQuilifiedModuleName for 'using module'</source>
+          <target state="new">FullyQuilifiedModuleName for 'using module'</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Now <ph id="ph1">`using module`</ph> behaives the same way as other module-related constructions in PowerShell.</source>
+          <target state="new">Now <ph id="ph1">`using module`</ph> behaives the same way as other module-related constructions in PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>WMF 5.0 Problems</source>
+          <target state="new">WMF 5.0 Problems</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>User doesn't have a way to specify module version in <ph id="ph1">`using module`</ph>.</source>
+          <target state="new">User doesn't have a way to specify module version in <ph id="ph1">`using module`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If there are multiply versions of the module available on the system, user will get an error.</source>
+          <target state="new">If there are multiply versions of the module available on the system, user will get an error.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>WMF 5.1</source>
+          <target state="new">WMF 5.1</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>User can use <ph id="ph1">`ModuleSpecification`</ph> <bpt id="p1">[</bpt>hashtable<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj136290(v=vs.85).aspx)</ept>.</source>
+          <target state="new">User can use <ph id="ph1">`ModuleSpecification`</ph> <bpt id="p1">[</bpt>hashtable<ept id="p1">](https://msdn.microsoft.com/en-us/library/jj136290(v=vs.85).aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This hashtable has the same format as <ph id="ph1">`Get-Module -FullyQualifiedName`</ph></source>
+          <target state="new">This hashtable has the same format as <ph id="ph1">`Get-Module -FullyQualifiedName`</ph></target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept> <ph id="ph1">`using module @{ModuleName = 'PSReadLine'; RequiredVersion = '1.1'}`</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept> <ph id="ph1">`using module @{ModuleName = 'PSReadLine'; RequiredVersion = '1.1'}`</ph></target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If there are multiply versions of the module, powershell uses <bpt id="p1">**</bpt>same resolution logic<ept id="p1">**</ept> as <ph id="ph1">`Import-Module`</ph> and doesn't error out.</source>
+          <target state="new">If there are multiply versions of the module, powershell uses <bpt id="p1">**</bpt>same resolution logic<ept id="p1">**</ept> as <ph id="ph1">`Import-Module`</ph> and doesn't error out.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This makes <ph id="ph1">`using module`</ph> alligned with <ph id="ph2">`Import-Module`</ph> and <ph id="ph3">`Import-DscResource`</ph>.</source>
+          <target state="new">This makes <ph id="ph1">`using module`</ph> alligned with <ph id="ph2">`Import-Module`</ph> and <ph id="ph3">`Import-DscResource`</ph>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

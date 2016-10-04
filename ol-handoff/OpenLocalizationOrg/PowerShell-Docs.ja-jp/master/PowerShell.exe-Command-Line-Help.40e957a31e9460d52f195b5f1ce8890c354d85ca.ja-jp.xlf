@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3b263110a908c28569cf3048a94d48da8316684</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\console\PowerShell.exe-Command-Line-Help.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3ac8c446643f3a083bbeaad1bdade3384dddde87</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fe54fb3e7e4d140442d01eaaf3ec571157c9473</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>PowerShell.exe Command Line Help</source>
+          <target state="new">PowerShell.exe Command Line Help</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PowerShell.exe Command-Line Help</source>
+          <target state="new">PowerShell.exe Command-Line Help</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Starts a Windows PowerShell session.</source>
+          <target state="new">Starts a Windows PowerShell session.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use PowerShell.exe to start a Windows PowerShell session from the command line of another tool, such as Cmd.exe, or use it at the Windows PowerShell command line to start a new session.</source>
+          <target state="new">You can use PowerShell.exe to start a Windows PowerShell session from the command line of another tool, such as Cmd.exe, or use it at the Windows PowerShell command line to start a new session.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Use the parameters to customize the session.</source>
+          <target state="new">Use the parameters to customize the session.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Parameters</source>
+          <target state="new">Parameters</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>-EncodedCommand <ph id="ph1">&lt;Base64EncodedCommand&gt;</ph></source>
+          <target state="new">-EncodedCommand <ph id="ph1">&lt;Base64EncodedCommand&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Accepts a base-64-encoded string version of a command.</source>
+          <target state="new">Accepts a base-64-encoded string version of a command.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use this parameter to submit commands to Windows PowerShell that require complex quotation marks or curly braces.</source>
+          <target state="new">Use this parameter to submit commands to Windows PowerShell that require complex quotation marks or curly braces.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-ExecutionPolicy <ph id="ph1">&lt;ExecutionPolicy&gt;</ph></source>
+          <target state="new">-ExecutionPolicy <ph id="ph1">&lt;ExecutionPolicy&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Sets the default execution policy for the current session and saves it in the $env:PSExecutionPolicyPreference environment variable.</source>
+          <target state="new">Sets the default execution policy for the current session and saves it in the $env:PSExecutionPolicyPreference environment variable.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This parameter does not change the Windows PowerShell execution policy that is set in the registry.</source>
+          <target state="new">This parameter does not change the Windows PowerShell execution policy that is set in the registry.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For information about Windows PowerShell execution policies, including a list of valid values, see about_Execution_Policies (http://go.microsoft.com/fwlink/?LinkID=135170).</source>
+          <target state="new">For information about Windows PowerShell execution policies, including a list of valid values, see about_Execution_Policies (http://go.microsoft.com/fwlink/?LinkID=135170).</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-File <ph id="ph1">&lt;FilePath&gt;</ph> \[<ph id="ph2">&lt;Parameters&gt;</ph>]</source>
+          <target state="new">-File <ph id="ph1">&lt;FilePath&gt;</ph> \[<ph id="ph2">&lt;Parameters&gt;</ph>]</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Runs the specified script in the local scope ("dot-sourced"), so that the functions and variables that the script creates are available in the current session.</source>
+          <target state="new">Runs the specified script in the local scope ("dot-sourced"), so that the functions and variables that the script creates are available in the current session.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Enter the script file path and any parameters.</source>
+          <target state="new">Enter the script file path and any parameters.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>File<ept id="p1">**</ept> must be the last parameter in the command, because all characters typed after the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> parameter name are interpreted as the script file path followed by the script parameters and their values.</source>
+          <target state="new"><bpt id="p1">**</bpt>File<ept id="p1">**</ept> must be the last parameter in the command, because all characters typed after the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> parameter name are interpreted as the script file path followed by the script parameters and their values.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can include the parameters of a script, and parameter values, in the value of the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> parameter.</source>
+          <target state="new">You can include the parameters of a script, and parameter values, in the value of the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example: <ph id="ph1">`-File .\Get-Script.ps1 -Domain Central`</ph></source>
+          <target state="new">For example: <ph id="ph1">`-File .\Get-Script.ps1 -Domain Central`</ph></target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Typically, the switch parameters of a script are either included or omitted.</source>
+          <target state="new">Typically, the switch parameters of a script are either included or omitted.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, the following command uses the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter of the Get-Script.ps1 script file: <ph id="ph1">`-File .\Get-Script.ps1 -All`</ph></source>
+          <target state="new">For example, the following command uses the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> parameter of the Get-Script.ps1 script file: <ph id="ph1">`-File .\Get-Script.ps1 -All`</ph></target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In rare cases, you might need to provide a Boolean value for a switch parameter.</source>
+          <target state="new">In rare cases, you might need to provide a Boolean value for a switch parameter.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To provide a Boolean value for a switch parameter in the value of the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> parameter, enclose the parameter name and value in curly braces, such as the following: <ph id="ph1">`-File .\Get-Script.ps1 {-All:$False}`</ph></source>
+          <target state="new">To provide a Boolean value for a switch parameter in the value of the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> parameter, enclose the parameter name and value in curly braces, such as the following: <ph id="ph1">`-File .\Get-Script.ps1 {-All:$False}`</ph></target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-InputFormat {Text | XML}</source>
+          <target state="new">-InputFormat {Text | XML}</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Describes the format of data sent to Windows PowerShell.</source>
+          <target state="new">Describes the format of data sent to Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Valid values are "Text" (text strings) or "XML" (serialized CLIXML format).</source>
+          <target state="new">Valid values are "Text" (text strings) or "XML" (serialized CLIXML format).</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-Mta</source>
+          <target state="new">-Mta</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Starts Windows PowerShell using a multi-threaded apartment.</source>
+          <target state="new">Starts Windows PowerShell using a multi-threaded apartment.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This parameter is introduced in Windows PowerShell 3.0.</source>
+          <target state="new">This parameter is introduced in Windows PowerShell 3.0.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, single-threaded apartment (STA) is the default.</source>
+          <target state="new">In Windows PowerShell 3.0, single-threaded apartment (STA) is the default.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, multi-threaded apartment (MTA) is the default.</source>
+          <target state="new">In Windows PowerShell 2.0, multi-threaded apartment (MTA) is the default.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-NoExit</source>
+          <target state="new">-NoExit</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Does not exit after running startup commands.</source>
+          <target state="new">Does not exit after running startup commands.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-NoLogo</source>
+          <target state="new">-NoLogo</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Hides the copyright banner at startup.</source>
+          <target state="new">Hides the copyright banner at startup.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-NonInteractive</source>
+          <target state="new">-NonInteractive</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Does not present an interactive prompt to the user.</source>
+          <target state="new">Does not present an interactive prompt to the user.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-NoProfile</source>
+          <target state="new">-NoProfile</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Does not load the Windows PowerShell profile.</source>
+          <target state="new">Does not load the Windows PowerShell profile.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-OutputFormat {Text | XML}</source>
+          <target state="new">-OutputFormat {Text | XML}</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Determines how output from Windows PowerShell is formatted.</source>
+          <target state="new">Determines how output from Windows PowerShell is formatted.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Valid values are "Text" (text strings) or "XML" (serialized CLIXML format).</source>
+          <target state="new">Valid values are "Text" (text strings) or "XML" (serialized CLIXML format).</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-PSConsoleFile <ph id="ph1">&lt;FilePath&gt;</ph></source>
+          <target state="new">-PSConsoleFile <ph id="ph1">&lt;FilePath&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Loads the specified Windows PowerShell console file.</source>
+          <target state="new">Loads the specified Windows PowerShell console file.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Enter the path and name of the console file.</source>
+          <target state="new">Enter the path and name of the console file.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To create a console file, use the <bpt id="p1">[</bpt>Export-Console<ept id="p1">](https://technet.microsoft.com/en-us/library/4bab1c02-9e61-4aaf-9957-11d1934ef4ef)</ept> cmdlet in Windows PowerShell.</source>
+          <target state="new">To create a console file, use the <bpt id="p1">[</bpt>Export-Console<ept id="p1">](https://technet.microsoft.com/en-us/library/4bab1c02-9e61-4aaf-9957-11d1934ef4ef)</ept> cmdlet in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-Sta</source>
+          <target state="new">-Sta</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Starts Windows PowerShell using a single-threaded apartment.</source>
+          <target state="new">Starts Windows PowerShell using a single-threaded apartment.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 3.0, single-threaded apartment (STA) is the default.</source>
+          <target state="new">In Windows PowerShell 3.0, single-threaded apartment (STA) is the default.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell 2.0, multi-threaded apartment (MTA) is the default.</source>
+          <target state="new">In Windows PowerShell 2.0, multi-threaded apartment (MTA) is the default.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-Version <ph id="ph1">&lt;Windows PowerShell Version&gt;</ph></source>
+          <target state="new">-Version <ph id="ph1">&lt;Windows PowerShell Version&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Starts the specified version of Windows PowerShell.</source>
+          <target state="new">Starts the specified version of Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The version that you specify must be installed on the system.</source>
+          <target state="new">The version that you specify must be installed on the system.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If Windows PowerShell 3.0 is installed on the computer, valid values are "2.0" and "3.0".</source>
+          <target state="new">If Windows PowerShell 3.0 is installed on the computer, valid values are "2.0" and "3.0".</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The default value is "3.0".</source>
+          <target state="new">The default value is "3.0".</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If Windows PowerShell 3.0 is not installed, the only valid value is "2.0".</source>
+          <target state="new">If Windows PowerShell 3.0 is not installed, the only valid value is "2.0".</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Other values are ignored.</source>
+          <target state="new">Other values are ignored.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For more information, see "Installing Windows PowerShell" in the <bpt id="p1">[</bpt>Getting Started with Windows PowerShell [OLD MSDN]<ept id="p1">](https://technet.microsoft.com/en-us/library/69555d95-b481-43e1-86e7-b46d68b3e2dd)</ept>.</source>
+          <target state="new">For more information, see "Installing Windows PowerShell" in the <bpt id="p1">[</bpt>Getting Started with Windows PowerShell [OLD MSDN]<ept id="p1">](https://technet.microsoft.com/en-us/library/69555d95-b481-43e1-86e7-b46d68b3e2dd)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-WindowStyle <ph id="ph1">&lt;Window style&gt;</ph></source>
+          <target state="new">-WindowStyle <ph id="ph1">&lt;Window style&gt;</ph></target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Sets the window style for the session.</source>
+          <target state="new">Sets the window style for the session.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Valid values are Normal, Minimized, Maximized and Hidden.</source>
+          <target state="new">Valid values are Normal, Minimized, Maximized and Hidden.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-Command</source>
+          <target state="new">-Command</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Executes the specified commands (and any parameters) as though they were typed at the Windows PowerShell command prompt, and then exits, unless the NoExit parameter is specified.</source>
+          <target state="new">Executes the specified commands (and any parameters) as though they were typed at the Windows PowerShell command prompt, and then exits, unless the NoExit parameter is specified.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The value of Command can be "-", a string.</source>
+          <target state="new">The value of Command can be "-", a string.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>or a script block.</source>
+          <target state="new">or a script block.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If the value of Command is "-", the command text is read from standard input.</source>
+          <target state="new">If the value of Command is "-", the command text is read from standard input.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Script blocks must be enclosed in braces ({}).</source>
+          <target state="new">Script blocks must be enclosed in braces ({}).</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You can specify a script block only when running PowerShell.exe in Windows PowerShell.</source>
+          <target state="new">You can specify a script block only when running PowerShell.exe in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The results of the script are returned to the parent shell as deserialized XML objects, not live objects.</source>
+          <target state="new">The results of the script are returned to the parent shell as deserialized XML objects, not live objects.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If the value of Command is a string, <bpt id="p1">**</bpt>Command<ept id="p1">**</ept> must be the last parameter in the command , because any characters typed after the command are interpreted as the command arguments.</source>
+          <target state="new">If the value of Command is a string, <bpt id="p1">**</bpt>Command<ept id="p1">**</ept> must be the last parameter in the command , because any characters typed after the command are interpreted as the command arguments.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To write a string that runs a Windows PowerShell command, use the format:</source>
+          <target state="new">To write a string that runs a Windows PowerShell command, use the format:</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>where the quotation marks indicate a string and the invoke operator (&amp;) causes the command to be executed.</source>
+          <target state="new">where the quotation marks indicate a string and the invoke operator (&amp;) causes the command to be executed.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-Help, -?, /?</source>
+          <target state="new">-Help, -?, /?</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Shows this message.</source>
+          <target state="new">Shows this message.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If you are typing a PowerShell.exe command in Windows PowerShell, prepend the command parameters with a hyphen (-), not a forward slash (/).</source>
+          <target state="new">If you are typing a PowerShell.exe command in Windows PowerShell, prepend the command parameters with a hyphen (-), not a forward slash (/).</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can use either a hyphen or forward slash in Cmd.exe.</source>
+          <target state="new">You can use either a hyphen or forward slash in Cmd.exe.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Troubleshooting Note: In Windows PowerShell 2.0, starting some programs in the Windows PowerShell console fails with a LastExitCode of 0xc0000142.</source>
+          <target state="new">Troubleshooting Note: In Windows PowerShell 2.0, starting some programs in the Windows PowerShell console fails with a LastExitCode of 0xc0000142.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>EXAMPLES</source>
+          <target state="new">EXAMPLES</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

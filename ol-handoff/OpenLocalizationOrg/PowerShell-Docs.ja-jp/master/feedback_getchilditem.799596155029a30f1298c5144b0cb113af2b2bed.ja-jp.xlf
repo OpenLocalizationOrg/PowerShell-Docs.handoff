@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3f3f9a8b16731dd1483eb65386ba0422b04370c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\feedback_getchilditem.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4c8685349dc3cf50f5257e9cac09237d794862ab</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c69e18af39df9831205e1c858180905f2e83d89</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem has -Depth parameter</source>
+          <target state="new">Get-ChildItem has -Depth parameter</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> now has a <bpt id="p2">**</bpt>–Depth<ept id="p2">**</ept> parameter you use with <bpt id="p3">**</bpt>–Recurse<ept id="p3">**</ept> to limit the recursion:</source>
+          <target state="new"><bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> now has a <bpt id="p2">**</bpt>–Depth<ept id="p2">**</ept> parameter you use with <bpt id="p3">**</bpt>–Recurse<ept id="p3">**</ept> to limit the recursion:</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PS C:\\Users\\slee\\Downloads\\Example<ph id="ph1">&amp;gt;</ph> Get-ChildItem -Recurse -Depth 0</source>
+          <target state="new">PS C:\\Users\\slee\\Downloads\\Example<ph id="ph1">&amp;gt;</ph> Get-ChildItem -Recurse -Depth 0</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Directory: C:\\Users\\slee\\Downloads\\Example</source>
+          <target state="new">Directory: C:\\Users\\slee\\Downloads\\Example</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Mode LastWriteTime Length Name</source>
+          <target state="new">Mode LastWriteTime Length Name</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>d----- 4/14/2015 5:36 PM Depth0</source>
+          <target state="new">d----- 4/14/2015 5:36 PM Depth0</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-a---- 4/14/2015 1:19 PM 0 File1.txt</source>
+          <target state="new">-a---- 4/14/2015 1:19 PM 0 File1.txt</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-a---- 4/14/2015 1:19 PM 0 File2.txt</source>
+          <target state="new">-a---- 4/14/2015 1:19 PM 0 File2.txt</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>-a---- 4/14/2015 1:19 PM 0 File3.txt</source>
+          <target state="new">-a---- 4/14/2015 1:19 PM 0 File3.txt</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>PS C:\\Users\\slee\\Downloads\\Example<ph id="ph1">&amp;gt;</ph> Get-ChildItem -Recurse -Depth 1</source>
+          <target state="new">PS C:\\Users\\slee\\Downloads\\Example<ph id="ph1">&amp;gt;</ph> Get-ChildItem -Recurse -Depth 1</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Directory: C:\\Users\\slee\\Downloads\\Example</source>
+          <target state="new">Directory: C:\\Users\\slee\\Downloads\\Example</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Mode LastWriteTime Length Name</source>
+          <target state="new">Mode LastWriteTime Length Name</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>d----- 4/14/2015 5:36 PM Depth0</source>
+          <target state="new">d----- 4/14/2015 5:36 PM Depth0</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-a---- 4/14/2015 1:19 PM 0 File1.txt</source>
+          <target state="new">-a---- 4/14/2015 1:19 PM 0 File1.txt</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-a---- 4/14/2015 1:19 PM 0 File2.txt</source>
+          <target state="new">-a---- 4/14/2015 1:19 PM 0 File2.txt</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-a---- 4/14/2015 1:19 PM 0 File3.txt</source>
+          <target state="new">-a---- 4/14/2015 1:19 PM 0 File3.txt</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Directory: C:\\Users\\slee\\Downloads\\Example\\Depth0</source>
+          <target state="new">Directory: C:\\Users\\slee\\Downloads\\Example\\Depth0</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Mode LastWriteTime Length Name</source>
+          <target state="new">Mode LastWriteTime Length Name</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>d----- 4/14/2015 5:33 PM Depth1</source>
+          <target state="new">d----- 4/14/2015 5:33 PM Depth1</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

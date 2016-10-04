@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83aa2ceb63497c7a12ec80d4b1472327284acf5b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Other-Useful-Scripting-Objects.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d1637e8decf76c0b6f343c2460f2cef67104c3b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5af134f0bbe0efa47c634b41c4ca3d8eb3c016c2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Other Useful Scripting Objects</source>
+          <target state="new">Other Useful Scripting Objects</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Other Useful Scripting Objects</source>
+          <target state="new">Other Useful Scripting Objects</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The following objects provide additional scripting functionality in Windows PowerShell ISE.</source>
+          <target state="new">The following objects provide additional scripting functionality in Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>They are not part of the <bpt id="p1">**</bpt>$psISE<ept id="p1">**</ept> hierarchy.</source>
+          <target state="new">They are not part of the <bpt id="p1">**</bpt>$psISE<ept id="p1">**</ept> hierarchy.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Useful Scripting objects</source>
+          <target state="new">Useful Scripting objects</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>$psUnsupportedConsoleApplications</source>
+          <target state="new">$psUnsupportedConsoleApplications</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>There are some limitations on how Windows PowerShell ISE interacts with console applications.</source>
+          <target state="new">There are some limitations on how Windows PowerShell ISE interacts with console applications.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A command or an automation script that requires user intervention might not work the way it works from the Windows PowerShell console.</source>
+          <target state="new">A command or an automation script that requires user intervention might not work the way it works from the Windows PowerShell console.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You might want to block these commands or scripts from running in the Windows PowerShell ISE Command pane.</source>
+          <target state="new">You might want to block these commands or scripts from running in the Windows PowerShell ISE Command pane.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>$psUnsupportedConsoleApplications<ept id="p1">**</ept> object keeps a list of such commands.</source>
+          <target state="new">The <bpt id="p1">**</bpt>$psUnsupportedConsoleApplications<ept id="p1">**</ept> object keeps a list of such commands.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you try to run the commands in this list, you get a message that they are not supported.</source>
+          <target state="new">If you try to run the commands in this list, you get a message that they are not supported.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The following script adds an entry to the list.</source>
+          <target state="new">The following script adds an entry to the list.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>$psLocalHelp</source>
+          <target state="new">$psLocalHelp</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This is a dictionary object that maintains a context-sensitive mapping between Help topics and their associated links in the local compiled HTML Help file.</source>
+          <target state="new">This is a dictionary object that maintains a context-sensitive mapping between Help topics and their associated links in the local compiled HTML Help file.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It is used to locate the local Help for a particular topic.</source>
+          <target state="new">It is used to locate the local Help for a particular topic.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can add or delete topics from this list.</source>
+          <target state="new">You can add or delete topics from this list.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following code example shows some example key-value pairs that are contained in <bpt id="p1">**</bpt>$psLocalHelp<ept id="p1">**</ept>.</source>
+          <target state="new">The following code example shows some example key-value pairs that are contained in <bpt id="p1">**</bpt>$psLocalHelp<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Sample Output</source>
+          <target state="new">Sample Output</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Key : Add-Computer</source>
+          <target state="new">Key : Add-Computer</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Value : WindowsPowerShellHelp.chm::/html/093f660c-b8d5-43cf-aa0c-54e5e54e76f9.htm</source>
+          <target state="new">Value : WindowsPowerShellHelp.chm::/html/093f660c-b8d5-43cf-aa0c-54e5e54e76f9.htm</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Key : Add-Content</source>
+          <target state="new">Key : Add-Content</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Value : WindowsPowerShellHelp.chm::/html/0c836a1b-f389-4e9a-9325-0f415686d194.htm</source>
+          <target state="new">Value : WindowsPowerShellHelp.chm::/html/0c836a1b-f389-4e9a-9325-0f415686d194.htm</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The following script adds an entry to the list.</source>
+          <target state="new">The following script adds an entry to the list.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>$psOnlineHelp</source>
+          <target state="new">$psOnlineHelp</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This is a dictionary object that maintains a context-sensitive mapping between topic titles of Help topics and their associated external URLs.</source>
+          <target state="new">This is a dictionary object that maintains a context-sensitive mapping between topic titles of Help topics and their associated external URLs.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It is used to locate the Help for a particular topic on the web.</source>
+          <target state="new">It is used to locate the Help for a particular topic on the web.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can add or delete topics from this list.</source>
+          <target state="new">You can add or delete topics from this list.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Sample Output</source>
+          <target state="new">Sample Output</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Key : Add-Computer</source>
+          <target state="new">Key : Add-Computer</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Value : http://go.microsoft.com/fwlink/p/?LinkID=135194</source>
+          <target state="new">Value : http://go.microsoft.com/fwlink/p/?LinkID=135194</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Key : Add-Content</source>
+          <target state="new">Key : Add-Content</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Value : http://go.microsoft.com/fwlink/p/?LinkID=113278</source>
+          <target state="new">Value : http://go.microsoft.com/fwlink/p/?LinkID=113278</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The following script adds an entry to the list.</source>
+          <target state="new">The following script adds an entry to the list.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](../../core-powershell/ise/The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](../../core-powershell/ise/The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

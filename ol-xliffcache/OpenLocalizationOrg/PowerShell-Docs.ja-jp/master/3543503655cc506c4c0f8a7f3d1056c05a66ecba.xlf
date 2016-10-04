@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3543503655cc506c4c0f8a7f3d1056c05a66ecba</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\How-to-Use-Profiles-in-Windows-PowerShell-ISE.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5786c1c1125eaf734ef61f168ff94ddfa2c2eb78</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10b51c9ebfc043b4ff795e43b72383bbc41cdc37</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to Use Profiles in Windows PowerShell ISE</source>
+          <target state="new">How to Use Profiles in Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How to Use Profiles in Windows PowerShell ISE</source>
+          <target state="new">How to Use Profiles in Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic explains how to use Profiles in Windows PowerShell® Integrated Scripting Environment (ISE).</source>
+          <target state="new">This topic explains how to use Profiles in Windows PowerShell® Integrated Scripting Environment (ISE).</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We recommend that before performing the tasks in this section, you review <bpt id="p1">[</bpt>about_Profiles [v4]<ept id="p1">](https://technet.microsoft.com/library/e1d9e30a-70cc-4f36-949f-fc7cd96b4054(v=wps.630))</ept>, or in the Console Pane, type, <ph id="ph1">`Get-Help about_Profiles`</ph> and press <bpt id="p2">**</bpt>ENTER<ept id="p2">**</ept>.</source>
+          <target state="new">We recommend that before performing the tasks in this section, you review <bpt id="p1">[</bpt>about_Profiles [v4]<ept id="p1">](https://technet.microsoft.com/library/e1d9e30a-70cc-4f36-949f-fc7cd96b4054(v=wps.630))</ept>, or in the Console Pane, type, <ph id="ph1">`Get-Help about_Profiles`</ph> and press <bpt id="p2">**</bpt>ENTER<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A profile is a Windows PowerShell ISE script that runs automatically when you start a new session.</source>
+          <target state="new">A profile is a Windows PowerShell ISE script that runs automatically when you start a new session.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can create one or more Windows PowerShell profiles for Windows PowerShell ISE and use them to add the configure the Windows PowerShell or Windows PowerShell ISE environment, preparing it for your use, with variables, aliases, functions, and color and font preferences that you want available.</source>
+          <target state="new">You can create one or more Windows PowerShell profiles for Windows PowerShell ISE and use them to add the configure the Windows PowerShell or Windows PowerShell ISE environment, preparing it for your use, with variables, aliases, functions, and color and font preferences that you want available.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A profile affects every Windows PowerShell ISE session that you start.</source>
+          <target state="new">A profile affects every Windows PowerShell ISE session that you start.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell execution policy determines whether you can run scripts and load a profile.</source>
+          <target state="new">The Windows PowerShell execution policy determines whether you can run scripts and load a profile.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The default execution policy, “Restricted,” prevents all scripts from running, including profiles.</source>
+          <target state="new">The default execution policy, “Restricted,” prevents all scripts from running, including profiles.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you use the “Restricted” policy, the profile cannot load.</source>
+          <target state="new">If you use the “Restricted” policy, the profile cannot load.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information about execution policy, see <bpt id="p1">[</bpt>about_Execution_Policies [v4]<ept id="p1">](https://technet.microsoft.com/library/347708dc-1515-4d74-978b-8334603472e6(v=wps.630))</ept>.</source>
+          <target state="new">For more information about execution policy, see <bpt id="p1">[</bpt>about_Execution_Policies [v4]<ept id="p1">](https://technet.microsoft.com/library/347708dc-1515-4d74-978b-8334603472e6(v=wps.630))</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Selecting a profile to use in the Windows PowerShell ISE</source>
+          <target state="new">Selecting a profile to use in the Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE supports profiles for the current user and all users.</source>
+          <target state="new">Windows PowerShell ISE supports profiles for the current user and all users.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It also supports the Windows PowerShell profiles that apply to all hosts.</source>
+          <target state="new">It also supports the Windows PowerShell profiles that apply to all hosts.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The profile that you use is determined by how you use Windows PowerShell and Windows PowerShell ISE.</source>
+          <target state="new">The profile that you use is determined by how you use Windows PowerShell and Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you use only Windows PowerShell ISE to run Windows PowerShell, then save all your items in one of the ISE-specific profiles, such as the CurrentUserCurrentHost profile for Windows PowerShell ISE or the AllUsersCurrentHost profile for Windows PowerShell ISE.</source>
+          <target state="new">If you use only Windows PowerShell ISE to run Windows PowerShell, then save all your items in one of the ISE-specific profiles, such as the CurrentUserCurrentHost profile for Windows PowerShell ISE or the AllUsersCurrentHost profile for Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you use multiple host programs to run Windows PowerShell, save your functions, aliases, variables, and commands in a profile that affects all host programs, such as the CurrentUserAllHosts or the AllUsersAllHosts profile, and save ISE-specific features, like color and font customization in the CurrentUserCurrentHost profile for Windows PowerShell ISE profile or the AllUsersCurrentHost profile for Windows PowerShell ISE.</source>
+          <target state="new">If you use multiple host programs to run Windows PowerShell, save your functions, aliases, variables, and commands in a profile that affects all host programs, such as the CurrentUserAllHosts or the AllUsersAllHosts profile, and save ISE-specific features, like color and font customization in the CurrentUserCurrentHost profile for Windows PowerShell ISE profile or the AllUsersCurrentHost profile for Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following are profiles that can be created and used in Windows PowerShell ISE.</source>
+          <target state="new">The following are profiles that can be created and used in Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Each profile is saved to its own specific path.</source>
+          <target state="new">Each profile is saved to its own specific path.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Profile Type</source>
+          <target state="new">Profile Type</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Profile Path</source>
+          <target state="new">Profile Path</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Current user, PowerShell ISE<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Current user, PowerShell ISE<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`$PROFILE.CurrentUserCurrentHost`</ph>, or <ph id="ph2">`$PROFILE`</ph></source>
+          <target state="new"><ph id="ph1">`$PROFILE.CurrentUserCurrentHost`</ph>, or <ph id="ph2">`$PROFILE`</ph></target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All users, PowerShell ISE<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>All users, PowerShell ISE<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Current user, All hosts<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Current user, All hosts<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All users, All hosts<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>All users, All hosts<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To create a new profile</source>
+          <target state="new">To create a new profile</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To create a new “Current user, Windows PowerShell ISE” profile, run this command:</source>
+          <target state="new">To create a new “Current user, Windows PowerShell ISE” profile, run this command:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To create a new “All users, Windows PowerShell ISE” profile, run this command:</source>
+          <target state="new">To create a new “All users, Windows PowerShell ISE” profile, run this command:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To create a new “Current user, All Hosts” profile, run this command:</source>
+          <target state="new">To create a new “Current user, All Hosts” profile, run this command:</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To create a new “All users, All Hosts” profile, type:</source>
+          <target state="new">To create a new “All users, All Hosts” profile, type:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To edit a profile</source>
+          <target state="new">To edit a profile</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To open the profile, run the command psedit with the variable that specifies the profile you want to edit.</source>
+          <target state="new">To open the profile, run the command psedit with the variable that specifies the profile you want to edit.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, to open the “Current user, Windows PowerShell ISE” profile, type: <ph id="ph1">`psEdit $PROFILE`</ph></source>
+          <target state="new">For example, to open the “Current user, Windows PowerShell ISE” profile, type: <ph id="ph1">`psEdit $PROFILE`</ph></target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Add some items to your profile.</source>
+          <target state="new">Add some items to your profile.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The following are a few examples to get you started:</source>
+          <target state="new">The following are a few examples to get you started:</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To change the default background color of the Console Pane to blue, in the profile file type: <ph id="ph1">`$psISE.Options.OutputPaneBackground = 'blue'`</ph> .</source>
+          <target state="new">To change the default background color of the Console Pane to blue, in the profile file type: <ph id="ph1">`$psISE.Options.OutputPaneBackground = 'blue'`</ph> .</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For more information about the $psISE variable, see <bpt id="p1">[</bpt>Windows PowerShell ISE Object Model Reference<ept id="p1">](#windows-powershell-ise-object-model-reference)</ept>.</source>
+          <target state="new">For more information about the $psISE variable, see <bpt id="p1">[</bpt>Windows PowerShell ISE Object Model Reference<ept id="p1">](#windows-powershell-ise-object-model-reference)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To change font size to 20, in the profile file type: <ph id="ph1">`$psISE.Options.FontSize =20`</ph></source>
+          <target state="new">To change font size to 20, in the profile file type: <ph id="ph1">`$psISE.Options.FontSize =20`</ph></target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To save your profile file, on the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+          <target state="new">To save your profile file, on the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Next time you open the Windows PowerShell ISE, your customizations are applied.</source>
+          <target state="new">Next time you open the Windows PowerShell ISE, your customizations are applied.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>about_Profiles [v4]<ept id="p1">](https://technet.microsoft.com/library/e1d9e30a-70cc-4f36-949f-fc7cd96b4054(v=wps.630))</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>about_Profiles [v4]<ept id="p1">](https://technet.microsoft.com/library/e1d9e30a-70cc-4f36-949f-fc7cd96b4054(v=wps.630))</ept></target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using the Windows PowerShell ISE<ept id="p1">](Using-the-Windows-PowerShell-ISE.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Using the Windows PowerShell ISE<ept id="p1">](Using-the-Windows-PowerShell-ISE.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

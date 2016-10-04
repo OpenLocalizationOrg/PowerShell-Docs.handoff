@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d266a109b1acd97c03594f988ce2fab3c697b80c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Managing-Windows-PowerShell-Drives.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3662083f0e47225398430c9bbddef3c7650b4918</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14ada96b258d3633e87deed9cd9892e2e9d6983b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Managing Windows PowerShell Drives</source>
+          <target state="new">Managing Windows PowerShell Drives</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Managing Windows PowerShell Drives</source>
+          <target state="new">Managing Windows PowerShell Drives</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>Windows PowerShell drive<ept id="p1">*</ept> is a data store location that you can access like a file system drive in Windows PowerShell.</source>
+          <target state="new">A <bpt id="p1">*</bpt>Windows PowerShell drive<ept id="p1">*</ept> is a data store location that you can access like a file system drive in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell providers create some drives for you, such as the file system drives (including C: and D:), the registry drives (HKCU: and HKLM:), and the certificate drive (Cert:), and you can create your own Windows PowerShell drives.</source>
+          <target state="new">The Windows PowerShell providers create some drives for you, such as the file system drives (including C: and D:), the registry drives (HKCU: and HKLM:), and the certificate drive (Cert:), and you can create your own Windows PowerShell drives.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>These drives are very useful, but they are available only within Windows PowerShell.</source>
+          <target state="new">These drives are very useful, but they are available only within Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You cannot access them by using other Windows tools, such as File Explorer or Cmd.exe.</source>
+          <target state="new">You cannot access them by using other Windows tools, such as File Explorer or Cmd.exe.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the noun, <bpt id="p1">**</bpt>PSDrive<ept id="p1">**</ept>, for commands that work with Windows PowerShell drives.</source>
+          <target state="new">Windows PowerShell uses the noun, <bpt id="p1">**</bpt>PSDrive<ept id="p1">**</ept>, for commands that work with Windows PowerShell drives.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For a list of the Windows PowerShell drives in your Windows PowerShell session, use the <bpt id="p1">**</bpt>Get-PSDrive<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">For a list of the Windows PowerShell drives in your Windows PowerShell session, use the <bpt id="p1">**</bpt>Get-PSDrive<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Although the drives in the display vary with the drives on your system, the listing will look similar to the output of the <bpt id="p1">**</bpt>Get-PSDrive<ept id="p1">**</ept> command shown above.</source>
+          <target state="new">Although the drives in the display vary with the drives on your system, the listing will look similar to the output of the <bpt id="p1">**</bpt>Get-PSDrive<ept id="p1">**</ept> command shown above.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>File system drives are a subset of the Windows PowerShell drives.</source>
+          <target state="new">File system drives are a subset of the Windows PowerShell drives.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can identify the file system drives by the FileSystem entry in the Provider column.</source>
+          <target state="new">You can identify the file system drives by the FileSystem entry in the Provider column.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>(The file system drives in Windows PowerShell are supported by the Windows PowerShell FileSystem provider.)</source>
+          <target state="new">(The file system drives in Windows PowerShell are supported by the Windows PowerShell FileSystem provider.)</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To see the syntax of the <bpt id="p1">**</bpt>Get-PSDrive<ept id="p1">**</ept> cmdlet, type a <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> command with the <bpt id="p3">**</bpt>Syntax<ept id="p3">**</ept> parameter:</source>
+          <target state="new">To see the syntax of the <bpt id="p1">**</bpt>Get-PSDrive<ept id="p1">**</ept> cmdlet, type a <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> command with the <bpt id="p3">**</bpt>Syntax<ept id="p3">**</ept> parameter:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter lets you display only the Windows PowerShell drives that are supported by a particular provider.</source>
+          <target state="new">The <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter lets you display only the Windows PowerShell drives that are supported by a particular provider.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, to display only the Windows PowerShell drives that are supported by the Windows PowerShell FileSystem provider, type a <bpt id="p1">**</bpt>Get-PSDrive<ept id="p1">**</ept> command with the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter and the <bpt id="p3">**</bpt>FileSystem<ept id="p3">**</ept> value:</source>
+          <target state="new">For example, to display only the Windows PowerShell drives that are supported by the Windows PowerShell FileSystem provider, type a <bpt id="p1">**</bpt>Get-PSDrive<ept id="p1">**</ept> command with the <bpt id="p2">**</bpt>PSProvider<ept id="p2">**</ept> parameter and the <bpt id="p3">**</bpt>FileSystem<ept id="p3">**</ept> value:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To view the Windows PowerShell drives that represent registry hives, use the <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter to display only the Windows PowerShell drives that are supported by the Windows PowerShell Registry provider:</source>
+          <target state="new">To view the Windows PowerShell drives that represent registry hives, use the <bpt id="p1">**</bpt>PSProvider<ept id="p1">**</ept> parameter to display only the Windows PowerShell drives that are supported by the Windows PowerShell Registry provider:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>PS&gt; Get-PSDrive -PSProvider Registry Name       Provider      Root                                   CurrentLocation ----       --------      ----                                   --------------- HKCU       Registry      HKEY_CURRENT_USER HKLM       Registry      HKEY_LOCAL_MACHINE</source>
+          <target state="new">PS&gt; Get-PSDrive -PSProvider Registry Name       Provider      Root                                   CurrentLocation ----       --------      ----                                   --------------- HKCU       Registry      HKEY_CURRENT_USER HKLM       Registry      HKEY_LOCAL_MACHINE</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can also use the standard Location cmdlets with the Windows PowerShell drives:</source>
+          <target state="new">You can also use the standard Location cmdlets with the Windows PowerShell drives:</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>PS&gt; Set-Location HKLM:\SOFTWARE PS&gt; Push-Location .\Microsoft PS&gt; Get-Location Path ---- HKLM:\SOFTWARE\Microsoft</source>
+          <target state="new">PS&gt; Set-Location HKLM:\SOFTWARE PS&gt; Push-Location .\Microsoft PS&gt; Get-Location Path ---- HKLM:\SOFTWARE\Microsoft</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Adding New Windows PowerShell Drives (New-PSDrive)</source>
+          <target state="new">Adding New Windows PowerShell Drives (New-PSDrive)</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can add your own Windows PowerShell drives by using the <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> command.</source>
+          <target state="new">You can add your own Windows PowerShell drives by using the <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> command.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To get the syntax for the <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> command, enter the <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> command with the <bpt id="p3">**</bpt>Syntax<ept id="p3">**</ept> parameter:</source>
+          <target state="new">To get the syntax for the <bpt id="p1">**</bpt>New-PSDrive<ept id="p1">**</ept> command, enter the <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> command with the <bpt id="p3">**</bpt>Syntax<ept id="p3">**</ept> parameter:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To create a new Windows PowerShell drive, you must supply three parameters:</source>
+          <target state="new">To create a new Windows PowerShell drive, you must supply three parameters:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A name for the drive (you can use any valid Windows PowerShell name)</source>
+          <target state="new">A name for the drive (you can use any valid Windows PowerShell name)</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The PSProvider (use "FileSystem" for file system locations and "Registry" for registry locations)</source>
+          <target state="new">The PSProvider (use "FileSystem" for file system locations and "Registry" for registry locations)</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The root, that is, the path to the root of the new drive</source>
+          <target state="new">The root, that is, the path to the root of the new drive</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, you can create a drive named "Office" that is mapped to the folder that contains the Microsoft Office applications on your computer, such as <bpt id="p1">**</bpt>C:\\Program Files\\Microsoft Office\\OFFICE11<ept id="p1">**</ept>.</source>
+          <target state="new">For example, you can create a drive named "Office" that is mapped to the folder that contains the Microsoft Office applications on your computer, such as <bpt id="p1">**</bpt>C:\\Program Files\\Microsoft Office\\OFFICE11<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To create the drive, type the following command:</source>
+          <target state="new">To create the drive, type the following command:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In general, paths are not case-sensitive.</source>
+          <target state="new">In general, paths are not case-sensitive.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You refer to the new Windows PowerShell drive as you do all Windows PowerShell drives -- by its name followed by a colon (<bpt id="p1">**</bpt>:<ept id="p1">**</ept>).</source>
+          <target state="new">You refer to the new Windows PowerShell drive as you do all Windows PowerShell drives -- by its name followed by a colon (<bpt id="p1">**</bpt>:<ept id="p1">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A Windows PowerShell drive can make many tasks much simpler.</source>
+          <target state="new">A Windows PowerShell drive can make many tasks much simpler.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, some of the most important keys in the Windows registry have extremely long paths, making them cumbersome to access and difficult to remember.</source>
+          <target state="new">For example, some of the most important keys in the Windows registry have extremely long paths, making them cumbersome to access and difficult to remember.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Critical configuration information resides under <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion<ept id="p1">**</ept>.</source>
+          <target state="new">Critical configuration information resides under <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To view and change items in the CurrentVersion registry key, you can create a Windows PowerShell drive that is rooted in that key by typing:</source>
+          <target state="new">To view and change items in the CurrentVersion registry key, you can create a Windows PowerShell drive that is rooted in that key by typing:</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>PS&gt; New-PSDrive -Name cvkey -PSProvider Registry -Root HKLM\Software\Microsoft\W indows\CurrentVersion Name       Provider      Root                                   CurrentLocation ----       --------      ----                                   --------------- cvkey      Registry      HKLM\Software\Microsoft\Windows\...</source>
+          <target state="new">PS&gt; New-PSDrive -Name cvkey -PSProvider Registry -Root HKLM\Software\Microsoft\W indows\CurrentVersion Name       Provider      Root                                   CurrentLocation ----       --------      ----                                   --------------- cvkey      Registry      HKLM\Software\Microsoft\Windows\...</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can then change location to the <bpt id="p1">**</bpt>cvkey:<ept id="p1">**</ept> drive as you would any other drive:``</source>
+          <target state="new">You can then change location to the <bpt id="p1">**</bpt>cvkey:<ept id="p1">**</ept> drive as you would any other drive:``</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>or:</source>
+          <target state="new">or:</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>PS&gt; Set-Location cvkey: -PassThru Path ---- cvkey:\</source>
+          <target state="new">PS&gt; Set-Location cvkey: -PassThru Path ---- cvkey:\</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The New-PsDrive cmdlet adds the new drive only to the current Windows PowerShell session.</source>
+          <target state="new">The New-PsDrive cmdlet adds the new drive only to the current Windows PowerShell session.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you close the Windows PowerShell window, the new drive is lost.</source>
+          <target state="new">If you close the Windows PowerShell window, the new drive is lost.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To save a Windows PowerShell drive, use the Export-Console cmdlet to export the current Windows PowerShell session, and then use the PowerShell.exe <bpt id="p1">**</bpt>PSConsoleFile<ept id="p1">**</ept> parameter to import it.</source>
+          <target state="new">To save a Windows PowerShell drive, use the Export-Console cmdlet to export the current Windows PowerShell session, and then use the PowerShell.exe <bpt id="p1">**</bpt>PSConsoleFile<ept id="p1">**</ept> parameter to import it.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Or, add the new drive to your Windows PowerShell profile.</source>
+          <target state="new">Or, add the new drive to your Windows PowerShell profile.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Deleting Windows PowerShell Drives (Remove-PSDrive)</source>
+          <target state="new">Deleting Windows PowerShell Drives (Remove-PSDrive)</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can delete drives from Windows PowerShell by using the <bpt id="p1">**</bpt>Remove-PSDrive<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">You can delete drives from Windows PowerShell by using the <bpt id="p1">**</bpt>Remove-PSDrive<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remove-PSDrive<ept id="p1">**</ept> cmdlet is easy to use; to delete a specific Windows PowerShell drive, you just supply the Windows PowerShell drive name.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Remove-PSDrive<ept id="p1">**</ept> cmdlet is easy to use; to delete a specific Windows PowerShell drive, you just supply the Windows PowerShell drive name.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For example, if you added the <bpt id="p1">**</bpt>Office:<ept id="p1">**</ept> Windows PowerShell drive, as shown in the <bpt id="p2">**</bpt>New-PSDrive<ept id="p2">**</ept> topic, you can delete it by typing:</source>
+          <target state="new">For example, if you added the <bpt id="p1">**</bpt>Office:<ept id="p1">**</ept> Windows PowerShell drive, as shown in the <bpt id="p2">**</bpt>New-PSDrive<ept id="p2">**</ept> topic, you can delete it by typing:</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To delete the <bpt id="p1">**</bpt>cvkey:<ept id="p1">**</ept> Windows PowerShell drive, also shown in the <bpt id="p2">**</bpt>New-PSDrive<ept id="p2">**</ept> topic, use the following command:</source>
+          <target state="new">To delete the <bpt id="p1">**</bpt>cvkey:<ept id="p1">**</ept> Windows PowerShell drive, also shown in the <bpt id="p2">**</bpt>New-PSDrive<ept id="p2">**</ept> topic, use the following command:</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It's easy to delete a Windows PowerShell drive, but you can't delete it while you are in the drive.</source>
+          <target state="new">It's easy to delete a Windows PowerShell drive, but you can't delete it while you are in the drive.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Adding and Removing Drives Outside Windows PowerShell</source>
+          <target state="new">Adding and Removing Drives Outside Windows PowerShell</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell detects file system drives that are added or removed in Windows, including network drives that are mapped, USB drives that are attached, and drives that are deleted by using either the <bpt id="p1">**</bpt>net use<ept id="p1">**</ept> command or the <bpt id="p2">**</bpt>WScript.NetworkMapNetworkDrive<ept id="p2">**</ept> and <bpt id="p3">**</bpt>RemoveNetworkDrive<ept id="p3">**</ept> methods from a Windows Script Host (WSH) script.</source>
+          <target state="new">Windows PowerShell detects file system drives that are added or removed in Windows, including network drives that are mapped, USB drives that are attached, and drives that are deleted by using either the <bpt id="p1">**</bpt>net use<ept id="p1">**</ept> command or the <bpt id="p2">**</bpt>WScript.NetworkMapNetworkDrive<ept id="p2">**</ept> and <bpt id="p3">**</bpt>RemoveNetworkDrive<ept id="p3">**</ept> methods from a Windows Script Host (WSH) script.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">07164bab5e12283899be2453e644bba1b2d3b40f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psgallery\Managing-Item-Owners.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81a68db30c8a49c3c0694dfde13082be2edf190d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4501712dcfa615050e99f42626bbcf16e4fc3bd1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Managing Item Owners</source>
+          <target state="new">Managing Item Owners</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Ownership of an item in the PowerShell Gallery is defined by who published the item to the gallery.</source>
+          <target state="new">Ownership of an item in the PowerShell Gallery is defined by who published the item to the gallery.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Sometimes this metadata needs to be managed beyond the initial item publishing, which means the owner metadata needs to be mutable while the item itself is not.</source>
+          <target state="new">Sometimes this metadata needs to be managed beyond the initial item publishing, which means the owner metadata needs to be mutable while the item itself is not.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>All item owners are peers.</source>
+          <target state="new">All item owners are peers.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This means any item owner can publish a new version of an item.</source>
+          <target state="new">This means any item owner can publish a new version of an item.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It also means that any item owner can remove any other item owner.</source>
+          <target state="new">It also means that any item owner can remove any other item owner.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>No owner has more authority than other owners.</source>
+          <target state="new">No owner has more authority than other owners.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Setting an Item's Initial Owner</source>
+          <target state="new">Setting an Item's Initial Owner</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When a new item is published to PowerShell Gallery, the initial owner is defined by the user that published the item.</source>
+          <target state="new">When a new item is published to PowerShell Gallery, the initial owner is defined by the user that published the item.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This is determined by whose API key was used in the Publish-Module cmdlet.</source>
+          <target state="new">This is determined by whose API key was used in the Publish-Module cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Adding Owners</source>
+          <target state="new">Adding Owners</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Once an item has been published to the PowerShell Gallery, it's easy to invite additional users to become owners of an item.</source>
+          <target state="new">Once an item has been published to the PowerShell Gallery, it's easy to invite additional users to become owners of an item.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Log on<ept id="p1">](https://powershellgallery.com/users/account/LogOn)</ept> to the PowerShell Gallery with the account that is the current owner of an item.</source>
+          <target state="new"><bpt id="p1">[</bpt>Log on<ept id="p1">](https://powershellgallery.com/users/account/LogOn)</ept> to the PowerShell Gallery with the account that is the current owner of an item.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Navigate to an item page using the 'Items' tab, searching, or clicking your username and then <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Manage My Items<ept id="p2">**</ept><ept id="p1">](https://www.powershellgallery.com/account/Packages)</ept>.</source>
+          <target state="new">Navigate to an item page using the 'Items' tab, searching, or clicking your username and then <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Manage My Items<ept id="p2">**</ept><ept id="p1">](https://www.powershellgallery.com/account/Packages)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When logged on as an item's owner, there is a 'Manage Owners' link on the left side to click.</source>
+          <target state="new">When logged on as an item's owner, there is a 'Manage Owners' link on the left side to click.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enter the username of the person to add as an owner and click 'Add'.</source>
+          <target state="new">Enter the username of the person to add as an owner and click 'Add'.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An email is then sent to the new co-owner, as an invitation to become an owner of an item.</source>
+          <target state="new">An email is then sent to the new co-owner, as an invitation to become an owner of an item.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Once that user clicks the link, they are a full co-owner with full control over an item, including the ability to remove other users as owners.</source>
+          <target state="new">Once that user clicks the link, they are a full co-owner with full control over an item, including the ability to remove other users as owners.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NOTE<ept id="p1">**</ept>: Until the new owner confirms ownership, they <bpt id="p2">*</bpt>will not<ept id="p2">*</ept> be listed as an owner of an item.</source>
+          <target state="new"><bpt id="p1">**</bpt>NOTE<ept id="p1">**</ept>: Until the new owner confirms ownership, they <bpt id="p2">*</bpt>will not<ept id="p2">*</ept> be listed as an owner of an item.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When viewing the <bpt id="p1">**</bpt>Manage Owners<ept id="p1">**</ept> page, you will see a "pending approval" entry in the current owners.</source>
+          <target state="new">When viewing the <bpt id="p1">**</bpt>Manage Owners<ept id="p1">**</ept> page, you will see a "pending approval" entry in the current owners.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>That invitation can be removed; just as other owners can be removed.</source>
+          <target state="new">That invitation can be removed; just as other owners can be removed.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This process of invitations prevents users from falsely adding other users as owners of their items.</source>
+          <target state="new">This process of invitations prevents users from falsely adding other users as owners of their items.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Note that the "Authors" metadata is purely freeform text; only "Owners" are controlled.</source>
+          <target state="new">Note that the "Authors" metadata is purely freeform text; only "Owners" are controlled.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Removing Owners</source>
+          <target state="new">Removing Owners</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When an item has multiple owners and one needs to be removed, the process is simple:</source>
+          <target state="new">When an item has multiple owners and one needs to be removed, the process is simple:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Log on<ept id="p1">](https://powershellgallery.com/users/account/LogOn)</ept> to PowerShell Gallery with the account that is the current owner of an item;</source>
+          <target state="new"><bpt id="p1">[</bpt>Log on<ept id="p1">](https://powershellgallery.com/users/account/LogOn)</ept> to PowerShell Gallery with the account that is the current owner of an item;</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Navigate to an item page using the Items tab, searching, or clicking your username and then <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Manage My Items<ept id="p2">**</ept><ept id="p1">](https://www.powershellgallery.com/account/Packages)</ept>.</source>
+          <target state="new">Navigate to an item page using the Items tab, searching, or clicking your username and then <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Manage My Items<ept id="p2">**</ept><ept id="p1">](https://www.powershellgallery.com/account/Packages)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When logged on as an item's owner, there is a 'Manage Owners' link on the left side to click;</source>
+          <target state="new">When logged on as an item's owner, there is a 'Manage Owners' link on the left side to click;</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Click the 'remove' link next to the owner to be removed.</source>
+          <target state="new">Click the 'remove' link next to the owner to be removed.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Transferring Item Ownership</source>
+          <target state="new">Transferring Item Ownership</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>We sometimes get support requests to transfer item ownership from one user to another, but you can almost always accomplish this yourself.</source>
+          <target state="new">We sometimes get support requests to transfer item ownership from one user to another, but you can almost always accomplish this yourself.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Transferring ownership from one user to another is simply a combination of the two features above.</source>
+          <target state="new">Transferring ownership from one user to another is simply a combination of the two features above.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The current owner invites the new user to become a co-owner and the new user accepts the invite;</source>
+          <target state="new">The current owner invites the new user to become a co-owner and the new user accepts the invite;</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The new user removes the old user from the list of owners.</source>
+          <target state="new">The new user removes the old user from the list of owners.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This request has come in under a couple forms but the process works the same.</source>
+          <target state="new">This request has come in under a couple forms but the process works the same.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The item ownership is changing from one developer to another</source>
+          <target state="new">The item ownership is changing from one developer to another</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The item was accidentally published using the wrong account</source>
+          <target state="new">The item was accidentally published using the wrong account</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Orphaned Items</source>
+          <target state="new">Orphaned Items</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>One last scenario has occurred, but not many times.</source>
+          <target state="new">One last scenario has occurred, but not many times.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Items have become orphans and the only item owner account cannot be used to add new owners.</source>
+          <target state="new">Items have become orphans and the only item owner account cannot be used to add new owners.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Here are some examples of this scenario:</source>
+          <target state="new">Here are some examples of this scenario:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The owner's account is associated with an email address that no longer exists and the user has forgotten their password</source>
+          <target state="new">The owner's account is associated with an email address that no longer exists and the user has forgotten their password</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The registered owner has left the company that produces the item and cannot be reached to update the item ownership</source>
+          <target state="new">The registered owner has left the company that produces the item and cannot be reached to update the item ownership</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Due to a bug that has only affected a handful of items, the item is somehow ownerless on the gallery</source>
+          <target state="new">Due to a bug that has only affected a handful of items, the item is somehow ownerless on the gallery</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The PowerShell Gallery Administrators can access the 'Manage Owners' link for any item.</source>
+          <target state="new">The PowerShell Gallery Administrators can access the 'Manage Owners' link for any item.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you are the rightful owner of a item and cannot reach the current owner to gain ownership permissions, then use the 'Report Abuse' link on the gallery to reach the PowerShell Gallery Administrators.</source>
+          <target state="new">If you are the rightful owner of a item and cannot reach the current owner to gain ownership permissions, then use the 'Report Abuse' link on the gallery to reach the PowerShell Gallery Administrators.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>We will then follow a process to verify your ownership of the item.</source>
+          <target state="new">We will then follow a process to verify your ownership of the item.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If we determine you should be an owner of the item, we will use the 'Manage Owners' link for the item ourselves and send you the invite to become an owner.</source>
+          <target state="new">If we determine you should be an owner of the item, we will use the 'Manage Owners' link for the item ourselves and send you the invite to become an owner.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>We will only do this after verifying that you should be an owner and the process for this varies by circumstances.</source>
+          <target state="new">We will only do this after verifying that you should be an owner and the process for this varies by circumstances.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Often times, we will use the item's Project URL to find a way to contact the project owner, but we may also use Twitter, Email, or other means for contacting the project owner.</source>
+          <target state="new">Often times, we will use the item's Project URL to find a way to contact the project owner, but we may also use Twitter, Email, or other means for contacting the project owner.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

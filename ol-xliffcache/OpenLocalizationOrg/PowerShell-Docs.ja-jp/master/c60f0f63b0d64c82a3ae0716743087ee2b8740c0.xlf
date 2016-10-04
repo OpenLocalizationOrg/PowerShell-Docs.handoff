@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c60f0f63b0d64c82a3ae0716743087ee2b8740c0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Getting-Information-About-Commands.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ffea0ff606152b65a0378f85c21e4a4ccaef0e9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8f5f158a009d66166b3b835b34e8c391f9211b93</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Getting Information About Commands</source>
+          <target state="new">Getting Information About Commands</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Getting Information About Commands</source>
+          <target state="new">Getting Information About Commands</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet gets all commands that are available in your current session.</source>
+          <target state="new">The Windows PowerShell <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet gets all commands that are available in your current session.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you type <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> at a Windows PowerShell prompt, you will see output similar to the following:</source>
+          <target state="new">When you type <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> at a Windows PowerShell prompt, you will see output similar to the following:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This output looks a lot like the Help output of Cmd.exe: a tabular summary of internal commands.</source>
+          <target state="new">This output looks a lot like the Help output of Cmd.exe: a tabular summary of internal commands.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the excerpt of the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command output shown above, every command shown has a CommandType of Cmdlet.</source>
+          <target state="new">In the excerpt of the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command output shown above, every command shown has a CommandType of Cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A cmdlet is Windows PowerShell's intrinsic command type – a type that corresponds roughly to the <bpt id="p1">**</bpt>dir<ept id="p1">**</ept> and <bpt id="p2">**</bpt>cd<ept id="p2">**</ept> commands of Cmd.exe and to built-ins in UNIX shells such as BASH.</source>
+          <target state="new">A cmdlet is Windows PowerShell's intrinsic command type – a type that corresponds roughly to the <bpt id="p1">**</bpt>dir<ept id="p1">**</ept> and <bpt id="p2">**</bpt>cd<ept id="p2">**</ept> commands of Cmd.exe and to built-ins in UNIX shells such as BASH.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the output of the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command, all the definitions end with ellipses (...) to indicate that PowerShell cannot display all the content in the available space.</source>
+          <target state="new">In the output of the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command, all the definitions end with ellipses (...) to indicate that PowerShell cannot display all the content in the available space.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When Windows PowerShell displays output, it formats the output as text and then arranges it to make the data fit cleanly into the window.</source>
+          <target state="new">When Windows PowerShell displays output, it formats the output as text and then arranges it to make the data fit cleanly into the window.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>We will talk about this later in the section on formatters.</source>
+          <target state="new">We will talk about this later in the section on formatters.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet has a <bpt id="p2">**</bpt>Syntax<ept id="p2">**</ept> parameter that gets the syntax of each cmdlet.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> cmdlet has a <bpt id="p2">**</bpt>Syntax<ept id="p2">**</ept> parameter that gets the syntax of each cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To get the syntax of the Get-Help cmdlet, use the following command:</source>
+          <target state="new">To get the syntax of the Get-Help cmdlet, use the following command:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-Command Get-Help -Syntax<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Get-Command Get-Help -Syntax<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Displaying Available Command Types</source>
+          <target state="new">Displaying Available Command Types</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command does not list every command that is available in Windows PowerShell.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command does not list every command that is available in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Instead, the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command lists only the cmdlets in the current session.</source>
+          <target state="new">Instead, the <bpt id="p1">**</bpt>Get-Command<ept id="p1">**</ept> command lists only the cmdlets in the current session.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell actually supports several other types of commands.</source>
+          <target state="new">Windows PowerShell actually supports several other types of commands.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Aliases, functions, and scripts are also Windows PowerShell commands, although they are not discussed in detail in the Windows PowerShell User's Guide.</source>
+          <target state="new">Aliases, functions, and scripts are also Windows PowerShell commands, although they are not discussed in detail in the Windows PowerShell User's Guide.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>External files that are executable, or have a registered file type handler, are also classified as commands.</source>
+          <target state="new">External files that are executable, or have a registered file type handler, are also classified as commands.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To get all commands in the session, type:</source>
+          <target state="new">To get all commands in the session, type:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Because this list includes external files in your search path, it may contain thousands of items.</source>
+          <target state="new">Because this list includes external files in your search path, it may contain thousands of items.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It is more useful to look at a reduced set of commands.</source>
+          <target state="new">It is more useful to look at a reduced set of commands.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To get native commands of other types, use the <bpt id="p1">**</bpt>CommandType<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> cmdlet.</source>
+          <target state="new">To get native commands of other types, use the <bpt id="p1">**</bpt>CommandType<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Get-Command<ept id="p2">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The asterisk (\*) is used for wildcard matching in Windows PowerShell command arguments.</source>
+          <target state="new">The asterisk (\*) is used for wildcard matching in Windows PowerShell command arguments.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The \* means "match one or more of any characters".</source>
+          <target state="new">The \* means "match one or more of any characters".</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can type <bpt id="p1">**</bpt>Get-Command a\&amp;#42;<ept id="p1">**</ept> to find all commands that begin with the letter "a".</source>
+          <target state="new">You can type <bpt id="p1">**</bpt>Get-Command a\&amp;#42;<ept id="p1">**</ept> to find all commands that begin with the letter "a".</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Unlike wildcard matching in Cmd.exe, Windows PowerShell's wildcard will also match a period.</source>
+          <target state="new">Unlike wildcard matching in Cmd.exe, Windows PowerShell's wildcard will also match a period.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To get command aliases, which are the assigned nicknames of commands, type:</source>
+          <target state="new">To get command aliases, which are the assigned nicknames of commands, type:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To get the functions in the current session, type:</source>
+          <target state="new">To get the functions in the current session, type:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To display scripts in Windows PowerShell's search path, type:</source>
+          <target state="new">To display scripts in Windows PowerShell's search path, type:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

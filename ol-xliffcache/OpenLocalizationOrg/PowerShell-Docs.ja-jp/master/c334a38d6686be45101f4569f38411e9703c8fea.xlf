@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c334a38d6686be45101f4569f38411e9703c8fea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\The-ISEFileCollection-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3393119ac3b29c90faa9950f2d76a6d9da5edf13</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b0aafe6c31777ce15d191c46dba17766a75b67d6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The ISEFileCollection Object</source>
+          <target state="new">The ISEFileCollection Object</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The ISEFileCollection Object</source>
+          <target state="new">The ISEFileCollection Object</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ISEFileCollection<ept id="p1">**</ept> object is a collection of <bpt id="p2">**</bpt>ISEFile<ept id="p2">**</ept> objects.</source>
+          <target state="new">The <bpt id="p1">**</bpt>ISEFileCollection<ept id="p1">**</ept> object is a collection of <bpt id="p2">**</bpt>ISEFile<ept id="p2">**</ept> objects.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>An example is the $psISE.CurrentPowerShellTab.Files collection.</source>
+          <target state="new">An example is the $psISE.CurrentPowerShellTab.Files collection.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Methods</source>
+          <target state="new">Methods</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Add\( \[fullPath\] \)</source>
+          <target state="new">Add\( \[fullPath\] \)</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Creates and returns a new untitled file and adds it to the collection.</source>
+          <target state="new">Creates and returns a new untitled file and adds it to the collection.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>IsUntitled<ept id="p1">**</ept> property of the newly created file is <bpt id="p2">**</bpt>$true<ept id="p2">**</ept>.</source>
+          <target state="new">The <bpt id="p1">**</bpt>IsUntitled<ept id="p1">**</ept> property of the newly created file is <bpt id="p2">**</bpt>$true<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>\[fullPath\]<ept id="p1">**</ept> – Optional string The fully specified path of the file.</source>
+          <target state="new"><bpt id="p1">**</bpt>\[fullPath\]<ept id="p1">**</ept> – Optional string The fully specified path of the file.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>An exception is generated if you include the <bpt id="p1">**</bpt>fullPath<ept id="p1">**</ept> parameter and a relative path, or if you use a file name instead of the full path.</source>
+          <target state="new">An exception is generated if you include the <bpt id="p1">**</bpt>fullPath<ept id="p1">**</ept> parameter and a relative path, or if you use a file name instead of the full path.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Remove\( File, \[Force\] \)</source>
+          <target state="new">Remove\( File, \[Force\] \)</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Removes a specified file from the current PowerShell tab.</source>
+          <target state="new">Removes a specified file from the current PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>File<ept id="p1">**</ept> – String The ISEFile file that you want to remove from the collection.</source>
+          <target state="new"><bpt id="p1">**</bpt>File<ept id="p1">**</ept> – String The ISEFile file that you want to remove from the collection.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the file has not been saved, this method throws an exception.</source>
+          <target state="new">If the file has not been saved, this method throws an exception.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> switch parameter to force the removal of an unsaved file.</source>
+          <target state="new">Use the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> switch parameter to force the removal of an unsaved file.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>\[Force\]<ept id="p1">**</ept> – optional Boolean If set to <bpt id="p2">**</bpt>$true<ept id="p2">**</ept>, grants permission to remove the file even if it has not been saved after last use.</source>
+          <target state="new"><bpt id="p1">**</bpt>\[Force\]<ept id="p1">**</ept> – optional Boolean If set to <bpt id="p2">**</bpt>$true<ept id="p2">**</ept>, grants permission to remove the file even if it has not been saved after last use.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</source>
+          <target state="new">The default is <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>SetSelectedFile\( selectedFile \)</source>
+          <target state="new">SetSelectedFile\( selectedFile \)</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Selects the file that is specified by the <bpt id="p1">**</bpt>selectedFile<ept id="p1">**</ept> parameter.</source>
+          <target state="new">Selects the file that is specified by the <bpt id="p1">**</bpt>selectedFile<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>selectedFile<ept id="p1">**</ept> – Microsoft.PowerShell.Host.ISE.ISEFile The ISEFile file that you want to select.</source>
+          <target state="new"><bpt id="p1">**</bpt>selectedFile<ept id="p1">**</ept> – Microsoft.PowerShell.Host.ISE.ISEFile The ISEFile file that you want to select.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEFile Object<ept id="p1">](The-ISEFile-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEFile Object<ept id="p1">](The-ISEFile-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

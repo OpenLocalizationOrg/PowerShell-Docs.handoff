@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d2f293f000d3d82f4a227d3b3760988d9f02be7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\jea-improvements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d349203148d0e9a5d493a26e5812acb3ca04f92a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d290651dc4f2951ee9ffc5a72da8f3fc992eeed5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>improvements to just enough administration</source>
+          <target state="new">improvements to just enough administration</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Constrained file copy to/from JEA endpoints</source>
+          <target state="new">Constrained file copy to/from JEA endpoints</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can now remotely copy files to/from a JEA endpoint and rest assured that the connecting user can't copy just <bpt id="p1">*</bpt>any<ept id="p1">*</ept> file on your system.</source>
+          <target state="new">You can now remotely copy files to/from a JEA endpoint and rest assured that the connecting user can't copy just <bpt id="p1">*</bpt>any<ept id="p1">*</ept> file on your system.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This is possible by configuring your PSSC file to mount a user drive for connecting users.</source>
+          <target state="new">This is possible by configuring your PSSC file to mount a user drive for connecting users.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The user drive is a new PSDrive that is unique to each connecting user and persists across sessions.</source>
+          <target state="new">The user drive is a new PSDrive that is unique to each connecting user and persists across sessions.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When Copy-Item is used to copy files to or from a JEA session, it is constrained to only allow access to the user drive.</source>
+          <target state="new">When Copy-Item is used to copy files to or from a JEA session, it is constrained to only allow access to the user drive.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Attempts to copy files to any other PSDrive will fail.</source>
+          <target state="new">Attempts to copy files to any other PSDrive will fail.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To set up the user drive in your JEA session configuration file, use the following new fields:</source>
+          <target state="new">To set up the user drive in your JEA session configuration file, use the following new fields:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The folder backing the user drive will be created at <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\DriveRoots\DOMAIN_USER`</ph></source>
+          <target state="new">The folder backing the user drive will be created at <ph id="ph1">`$env:LOCALAPPDATA\Microsoft\Windows\PowerShell\DriveRoots\DOMAIN_USER`</ph></target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To utilize the user drive and copy files to/from a JEA endpoint configured to expose the User drive, use the <ph id="ph1">`-ToSession`</ph> and <ph id="ph2">`-FromSession`</ph> parameters on Copy-Item.</source>
+          <target state="new">To utilize the user drive and copy files to/from a JEA endpoint configured to expose the User drive, use the <ph id="ph1">`-ToSession`</ph> and <ph id="ph2">`-FromSession`</ph> parameters on Copy-Item.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can then write custom functions to process the data stored in the user drive and make those available to users in your Role Capability file.</source>
+          <target state="new">You can then write custom functions to process the data stored in the user drive and make those available to users in your Role Capability file.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Support for Group Managed Service Accounts</source>
+          <target state="new">Support for Group Managed Service Accounts</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In some cases, a task a user needs to perform in a JEA session may need to access resources beyond the local machine.</source>
+          <target state="new">In some cases, a task a user needs to perform in a JEA session may need to access resources beyond the local machine.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When a JEA session is configured to use a virtual account, any attempt to reach such resources will appear to come from the local machine's identity, not the virtual account or connected user.</source>
+          <target state="new">When a JEA session is configured to use a virtual account, any attempt to reach such resources will appear to come from the local machine's identity, not the virtual account or connected user.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In TP5, we have enabled support for running JEA under the context of a [Group Managed Service Account](https://technet.microsoft.com/en-us/library/jj128431(v=ws.11\).aspx), making it much easier to access network resources by using a domain identity.</source>
+          <target state="new">In TP5, we have enabled support for running JEA under the context of a [Group Managed Service Account](https://technet.microsoft.com/en-us/library/jj128431(v=ws.11\).aspx), making it much easier to access network resources by using a domain identity.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To configure a JEA session to run under a gMSA account, use the following new key in your PSSC file:</source>
+          <target state="new">To configure a JEA session to run under a gMSA account, use the following new key in your PSSC file:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Group Managed Service Accounts do not afford the isolation or limited scope of virtual accounts.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Group Managed Service Accounts do not afford the isolation or limited scope of virtual accounts.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Every connecting user will share the same gMSA identity, which may have permissions across your entire enterprise.</source>
+          <target state="new">Every connecting user will share the same gMSA identity, which may have permissions across your entire enterprise.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Be very careful when selecting to use a gMSA, and always prefer virtual accounts which are limited to the local machine when possible.</source>
+          <target state="new">Be very careful when selecting to use a gMSA, and always prefer virtual accounts which are limited to the local machine when possible.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Conditional access policies</source>
+          <target state="new">Conditional access policies</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>JEA is great at limiting what someone can do when they've connected to a system to manage it, but what if you also want to limit <bpt id="p1">*</bpt>when<ept id="p1">*</ept> someone can use JEA?</source>
+          <target state="new">JEA is great at limiting what someone can do when they've connected to a system to manage it, but what if you also want to limit <bpt id="p1">*</bpt>when<ept id="p1">*</ept> someone can use JEA?</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We have added configuration options into the session configuration files (.pssc) to let you specify security groups to which a user must belong in order to establish a JEA session.</source>
+          <target state="new">We have added configuration options into the session configuration files (.pssc) to let you specify security groups to which a user must belong in order to establish a JEA session.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This can be particularly helpful if you have a Just In Time (JIT) system in your environment, and want to make your users elevate their privileges before accessing a highly-privileged JEA endpoint.</source>
+          <target state="new">This can be particularly helpful if you have a Just In Time (JIT) system in your environment, and want to make your users elevate their privileges before accessing a highly-privileged JEA endpoint.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The new <bpt id="p1">*</bpt>RequiredGroups<ept id="p1">*</ept> field in the PSSC file allows you to specify the logic to determine if a user can connect to JEA.</source>
+          <target state="new">The new <bpt id="p1">*</bpt>RequiredGroups<ept id="p1">*</ept> field in the PSSC file allows you to specify the logic to determine if a user can connect to JEA.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It consists of specifying a hashtable (optionally nested) that uses the 'And' and 'Or' keys to construct your rules.</source>
+          <target state="new">It consists of specifying a hashtable (optionally nested) that uses the 'And' and 'Or' keys to construct your rules.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Here are some examples of how to leverage this field:</source>
+          <target state="new">Here are some examples of how to leverage this field:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Fixed: Virtual accounts are now supported on Windows Server 2008 R2</source>
+          <target state="new">Fixed: Virtual accounts are now supported on Windows Server 2008 R2</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, you are now able to use virtual accounts on Windows Server 2008 R2, enabling consistent configurations and feature parity across Windows Server 2008 R2 - 2016.</source>
+          <target state="new">In WMF 5.1, you are now able to use virtual accounts on Windows Server 2008 R2, enabling consistent configurations and feature parity across Windows Server 2008 R2 - 2016.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Virtual accounts remain unsupported when using JEA on Windows 7.</source>
+          <target state="new">Virtual accounts remain unsupported when using JEA on Windows 7.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

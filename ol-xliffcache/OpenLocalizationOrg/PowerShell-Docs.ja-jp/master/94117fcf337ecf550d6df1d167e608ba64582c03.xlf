@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">94117fcf337ecf550d6df1d167e608ba64582c03</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Removing-Objects-from-the-Pipeline--Where-Object-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0f0a30bc86fa9c9eeed62a99cdbcf6a4e50c1d33</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">41ca3559dd3ce0334ea64597c1b412608524b7cb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Removing Objects from the Pipeline  Where Object</source>
+          <target state="new">Removing Objects from the Pipeline  Where Object</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Removing Objects from the Pipeline (Where-Object)</source>
+          <target state="new">Removing Objects from the Pipeline (Where-Object)</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In Windows PowerShell, you often generate and pass along more objects to a pipeline than you want.</source>
+          <target state="new">In Windows PowerShell, you often generate and pass along more objects to a pipeline than you want.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can specify the properties of particular objects to display by using the <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets, but this does not help with the problem of removing entire objects from the display.</source>
+          <target state="new">You can specify the properties of particular objects to display by using the <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> cmdlets, but this does not help with the problem of removing entire objects from the display.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You may want to filter objects before the end of a pipeline, so you can perform actions on only a subset of the initially-generated objects.</source>
+          <target state="new">You may want to filter objects before the end of a pipeline, so you can perform actions on only a subset of the initially-generated objects.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell includes a <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> cmdlet that allows you to test each object in the pipeline and only pass it along the pipeline if it meets a particular test condition.</source>
+          <target state="new">Windows PowerShell includes a <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept> cmdlet that allows you to test each object in the pipeline and only pass it along the pipeline if it meets a particular test condition.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Objects that do not pass the test are removed from the pipeline.</source>
+          <target state="new">Objects that do not pass the test are removed from the pipeline.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You supply the test condition as the value of the <bpt id="p1">**</bpt>Where-ObjectFilterScript<ept id="p1">**</ept> parameter.</source>
+          <target state="new">You supply the test condition as the value of the <bpt id="p1">**</bpt>Where-ObjectFilterScript<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Performing Simple Tests with Where-Object</source>
+          <target state="new">Performing Simple Tests with Where-Object</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The value of <bpt id="p1">**</bpt>FilterScript<ept id="p1">**</ept> is a <bpt id="p2">*</bpt>script block<ept id="p2">*</ept> -  one or more Windows PowerShell commands surrounded by braces {} - that evaluates to true or false.</source>
+          <target state="new">The value of <bpt id="p1">**</bpt>FilterScript<ept id="p1">**</ept> is a <bpt id="p2">*</bpt>script block<ept id="p2">*</ept> -  one or more Windows PowerShell commands surrounded by braces {} - that evaluates to true or false.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>These script blocks can be very simple, but creating them requires knowing about another Windows PowerShell concept, comparison operators.</source>
+          <target state="new">These script blocks can be very simple, but creating them requires knowing about another Windows PowerShell concept, comparison operators.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A comparison operator compares the items that appear on each side of it.</source>
+          <target state="new">A comparison operator compares the items that appear on each side of it.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Comparison operators begin with a '-' character and are followed by a name.</source>
+          <target state="new">Comparison operators begin with a '-' character and are followed by a name.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Basic comparison operators work on almost any kind of object.</source>
+          <target state="new">Basic comparison operators work on almost any kind of object.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The more advanced comparison operators might only work on text or arrays.</source>
+          <target state="new">The more advanced comparison operators might only work on text or arrays.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>By default, when working with text, Windows PowerShell comparison operators are case-insensitive.</source>
+          <target state="new">By default, when working with text, Windows PowerShell comparison operators are case-insensitive.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Due to parsing considerations, symbols such as &lt;,&gt;, and = are not used as comparison operators.</source>
+          <target state="new">Due to parsing considerations, symbols such as &lt;,&gt;, and = are not used as comparison operators.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Instead, comparison operators are comprised of letters.</source>
+          <target state="new">Instead, comparison operators are comprised of letters.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The basic comparison operators are listed in the following table.</source>
+          <target state="new">The basic comparison operators are listed in the following table.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Comparison Operator</source>
+          <target state="new">Comparison Operator</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+          <target state="new">Meaning</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example (returns true)</source>
+          <target state="new">Example (returns true)</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-eq</source>
+          <target state="new">-eq</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>is equal to</source>
+          <target state="new">is equal to</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>1 -eq 1</source>
+          <target state="new">1 -eq 1</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-ne</source>
+          <target state="new">-ne</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Is not equal to</source>
+          <target state="new">Is not equal to</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>1 -ne 2</source>
+          <target state="new">1 -ne 2</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-lt</source>
+          <target state="new">-lt</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Is less than</source>
+          <target state="new">Is less than</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>1 -lt 2</source>
+          <target state="new">1 -lt 2</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>-le</source>
+          <target state="new">-le</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Is less than or equal to</source>
+          <target state="new">Is less than or equal to</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>1 -le 2</source>
+          <target state="new">1 -le 2</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-gt</source>
+          <target state="new">-gt</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Is greater than</source>
+          <target state="new">Is greater than</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>2 -gt 1</source>
+          <target state="new">2 -gt 1</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>-ge</source>
+          <target state="new">-ge</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Is greater than or equal to</source>
+          <target state="new">Is greater than or equal to</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>2 -ge 1</source>
+          <target state="new">2 -ge 1</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-like</source>
+          <target state="new">-like</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Is like (wildcard comparison for text)</source>
+          <target state="new">Is like (wildcard comparison for text)</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>"file.doc" -like "f\*.do?"</source>
+          <target state="new">"file.doc" -like "f\*.do?"</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-notlike</source>
+          <target state="new">-notlike</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Is not like (wildcard comparison for text)</source>
+          <target state="new">Is not like (wildcard comparison for text)</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>"file.doc" -notlike "p\*.doc"</source>
+          <target state="new">"file.doc" -notlike "p\*.doc"</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-contains</source>
+          <target state="new">-contains</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Contains</source>
+          <target state="new">Contains</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>1,2,3 -contains 1</source>
+          <target state="new">1,2,3 -contains 1</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-notcontains</source>
+          <target state="new">-notcontains</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Does not contain</source>
+          <target state="new">Does not contain</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>1,2,3 -notcontains 4</source>
+          <target state="new">1,2,3 -notcontains 4</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Where-Object script blocks use the special variable '$_' to refer to the current object in the pipeline.</source>
+          <target state="new">Where-Object script blocks use the special variable '$_' to refer to the current object in the pipeline.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Here is an example of how it works.</source>
+          <target state="new">Here is an example of how it works.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you have a list of numbers, and only want to return the ones that are less than 3, you can use Where-Object to filter the numbers by typing:</source>
+          <target state="new">If you have a list of numbers, and only want to return the ones that are less than 3, you can use Where-Object to filter the numbers by typing:</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Filtering Based on Object Properties</source>
+          <target state="new">Filtering Based on Object Properties</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Since $_ refers to the current pipeline object, we can access its properties for our tests.</source>
+          <target state="new">Since $_ refers to the current pipeline object, we can access its properties for our tests.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>As an example, we can look at the Win32_SystemDriver class in WMI.</source>
+          <target state="new">As an example, we can look at the Win32_SystemDriver class in WMI.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>There might be hundreds of system drivers on a particular system, but you might only be interested in a particular set of the system drivers, such as those which are currently running.</source>
+          <target state="new">There might be hundreds of system drivers on a particular system, but you might only be interested in a particular set of the system drivers, such as those which are currently running.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you use Get-Member to view Win32_SystemDriver members (<bpt id="p1">**</bpt>Get-WmiObject -Class Win32_SystemDriver | Get-Member -MemberType Property<ept id="p1">**</ept>) you will see that the relevant property is State, and that it has a value of "Running" when the driver is running.</source>
+          <target state="new">If you use Get-Member to view Win32_SystemDriver members (<bpt id="p1">**</bpt>Get-WmiObject -Class Win32_SystemDriver | Get-Member -MemberType Property<ept id="p1">**</ept>) you will see that the relevant property is State, and that it has a value of "Running" when the driver is running.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can filter the system drivers, selecting only the running ones by typing:</source>
+          <target state="new">You can filter the system drivers, selecting only the running ones by typing:</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This still produces a long list.</source>
+          <target state="new">This still produces a long list.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You may want to filter to only select the drivers set to start automatically by testing the StartMode value as well:</source>
+          <target state="new">You may want to filter to only select the drivers set to start automatically by testing the StartMode value as well:</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This gives us a lot of information we no longer need because we know that the drivers are running.</source>
+          <target state="new">This gives us a lot of information we no longer need because we know that the drivers are running.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In fact, the only information we probably need at this point are the name and the display name.</source>
+          <target state="new">In fact, the only information we probably need at this point are the name and the display name.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following command includes only those two properties, resulting in much simpler output:</source>
+          <target state="new">The following command includes only those two properties, resulting in much simpler output:</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>There are two Where-Object elements in the above command, but they can be expressed in a single Where-Object element by using the -and logical operator, like this:</source>
+          <target state="new">There are two Where-Object elements in the above command, but they can be expressed in a single Where-Object element by using the -and logical operator, like this:</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The standard logical operators are listed in the following table.</source>
+          <target state="new">The standard logical operators are listed in the following table.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Logical Operator</source>
+          <target state="new">Logical Operator</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+          <target state="new">Meaning</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Example (returns true)</source>
+          <target state="new">Example (returns true)</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-and</source>
+          <target state="new">-and</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Logical and; true if both sides are true</source>
+          <target state="new">Logical and; true if both sides are true</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>(1 -eq 1) -and (2 -eq 2)</source>
+          <target state="new">(1 -eq 1) -and (2 -eq 2)</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-or</source>
+          <target state="new">-or</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Logical or; true if either side is true</source>
+          <target state="new">Logical or; true if either side is true</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>(1 -eq 1) -or (1 -eq 2)</source>
+          <target state="new">(1 -eq 1) -or (1 -eq 2)</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-not</source>
+          <target state="new">-not</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Logical not; reverses true and false</source>
+          <target state="new">Logical not; reverses true and false</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-not (1 -eq 2)</source>
+          <target state="new">-not (1 -eq 2)</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>\!</source>
+          <target state="new">\!</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Logical not; reverses true and false</source>
+          <target state="new">Logical not; reverses true and false</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>\!(1 -eq 2)</source>
+          <target state="new">\!(1 -eq 2)</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

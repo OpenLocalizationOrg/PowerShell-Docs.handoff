@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">094c3c9f240457fc884031e7d82dcdc1e81e582d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\setup\Starting-the-Windows-PowerShell-2.0-Engine.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">35a9029fa3d57738e2c5b92e88293eab45217ff8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81438459006736c0e155e37c7e202b70389122ab</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Starting the Windows PowerShell 2.0 Engine</source>
+          <target state="new">Starting the Windows PowerShell 2.0 Engine</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Starting the Windows PowerShell 2.0 Engine</source>
+          <target state="new">Starting the Windows PowerShell 2.0 Engine</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This section explains how to start the Windows PowerShell 2.0 Engine on Windows 8.1, Windows Server 2012 R2, Windows 8, and Windows Server 2012, which include the Windows PowerShell 2.0 Engine, and on other systems on which Windows PowerShell 2.0, Windows PowerShell 3.0, and Windows PowerShell 4.0 are installed.</source>
+          <target state="new">This section explains how to start the Windows PowerShell 2.0 Engine on Windows 8.1, Windows Server 2012 R2, Windows 8, and Windows Server 2012, which include the Windows PowerShell 2.0 Engine, and on other systems on which Windows PowerShell 2.0, Windows PowerShell 3.0, and Windows PowerShell 4.0 are installed.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell 4.0 and Windows PowerShell 3.0 are designed to be backwards compatible with Windows PowerShell 2.0.</source>
+          <target state="new">Windows PowerShell 4.0 and Windows PowerShell 3.0 are designed to be backwards compatible with Windows PowerShell 2.0.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Cmdlets, providers, snap-ins, modules, and scripts written for Windows PowerShell 2.0 run unchanged in Windows PowerShell 4.0 and Windows PowerShell 3.0.</source>
+          <target state="new">Cmdlets, providers, snap-ins, modules, and scripts written for Windows PowerShell 2.0 run unchanged in Windows PowerShell 4.0 and Windows PowerShell 3.0.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, due to a change in the runtime activation policy in Microsoft .NET Framework 4, Windows PowerShell host programs that were written for Windows PowerShell 2.0 and compiled with Common Language Runtime (CLR) 2.0 cannot run without modification in Windows PowerShell 3.0 or Windows PowerShell 4.0, which are compiled with CLR 4.0.</source>
+          <target state="new">However, due to a change in the runtime activation policy in Microsoft .NET Framework 4, Windows PowerShell host programs that were written for Windows PowerShell 2.0 and compiled with Common Language Runtime (CLR) 2.0 cannot run without modification in Windows PowerShell 3.0 or Windows PowerShell 4.0, which are compiled with CLR 4.0.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine is intended to be used only when an existing script or host program cannot run because it is incompatible with Windows PowerShell 4.0, Windows PowerShell 3.0, or Microsoft .NET Framework 4.</source>
+          <target state="new">The Windows PowerShell 2.0 Engine is intended to be used only when an existing script or host program cannot run because it is incompatible with Windows PowerShell 4.0, Windows PowerShell 3.0, or Microsoft .NET Framework 4.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Such cases are expected to be rare.</source>
+          <target state="new">Such cases are expected to be rare.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Many programs that require the Windows PowerShell 2.0 Engine start it automatically.</source>
+          <target state="new">Many programs that require the Windows PowerShell 2.0 Engine start it automatically.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>These instructions are included for the rare situations in which you need to start the engine manually.</source>
+          <target state="new">These instructions are included for the rare situations in which you need to start the engine manually.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Installing and Enabling Required Programs</source>
+          <target state="new">Installing and Enabling Required Programs</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Before starting the Windows PowerShell 2.0 Engine, enable the Windows PowerShell 2.0 Engine and Microsoft .NET Framework 3.5 with Service Pack 1.</source>
+          <target state="new">Before starting the Windows PowerShell 2.0 Engine, enable the Windows PowerShell 2.0 Engine and Microsoft .NET Framework 3.5 with Service Pack 1.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For instructions, see <bpt id="p1">[</bpt>Installing Windows PowerShell<ept id="p1">](Installing-Windows-PowerShell.md)</ept>.</source>
+          <target state="new">For instructions, see <bpt id="p1">[</bpt>Installing Windows PowerShell<ept id="p1">](Installing-Windows-PowerShell.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Systems on which <bpt id="p1">[</bpt>Windows Management Framework 4.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=293881)</ept> or Windows Management Framework 3.0 are installed have all of the required components.</source>
+          <target state="new">Systems on which <bpt id="p1">[</bpt>Windows Management Framework 4.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=293881)</ept> or Windows Management Framework 3.0 are installed have all of the required components.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>No further configuration is necessary.</source>
+          <target state="new">No further configuration is necessary.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For information about installing <bpt id="p1">[</bpt>Windows Management Framework 4.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=293881)</ept> or Windows Management Framework 3.0, see <bpt id="p2">[</bpt>Installing Windows PowerShell<ept id="p2">](Installing-Windows-PowerShell.md)</ept>.</source>
+          <target state="new">For information about installing <bpt id="p1">[</bpt>Windows Management Framework 4.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=293881)</ept> or Windows Management Framework 3.0, see <bpt id="p2">[</bpt>Installing Windows PowerShell<ept id="p2">](Installing-Windows-PowerShell.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>How to start the Windows PowerShell 2.0 Engine</source>
+          <target state="new">How to start the Windows PowerShell 2.0 Engine</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When you start Windows PowerShell the newest version starts by default.</source>
+          <target state="new">When you start Windows PowerShell the newest version starts by default.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To start Windows PowerShell with the Windows PowerShell 2.0 Engine, use the Version parameter of PowerShell.exe.</source>
+          <target state="new">To start Windows PowerShell with the Windows PowerShell 2.0 Engine, use the Version parameter of PowerShell.exe.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can run the command at any command prompt, including Windows PowerShell and Cmd.exe.</source>
+          <target state="new">You can run the command at any command prompt, including Windows PowerShell and Cmd.exe.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>How to start a remote session with the Windows PowerShell 2.0 Engine</source>
+          <target state="new">How to start a remote session with the Windows PowerShell 2.0 Engine</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To run the Windows PowerShell 2.0 Engine in a remote session, create a session configuration (also known as an "endpoint") on the remote computer that loads the Windows PowerShell 2.0 Engine.</source>
+          <target state="new">To run the Windows PowerShell 2.0 Engine in a remote session, create a session configuration (also known as an "endpoint") on the remote computer that loads the Windows PowerShell 2.0 Engine.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The session configuration is saved on the remote computer and can be used by any authorized user to create  sessions that use the Windows PowerShell 2.0 Engine.</source>
+          <target state="new">The session configuration is saved on the remote computer and can be used by any authorized user to create  sessions that use the Windows PowerShell 2.0 Engine.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This is an advanced task that is typically performed by a system administrator.</source>
+          <target state="new">This is an advanced task that is typically performed by a system administrator.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The following procedure uses the <bpt id="p1">**</bpt>PSVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">[</bpt>Register-PSSessionConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/e9152ae2-bd6d-4056-9bc7-dc1893aa29ea)</ept> cmdlet to create a session configuration that uses the Windows PowerShell 2.0 Engine.</source>
+          <target state="new">The following procedure uses the <bpt id="p1">**</bpt>PSVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">[</bpt>Register-PSSessionConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/e9152ae2-bd6d-4056-9bc7-dc1893aa29ea)</ept> cmdlet to create a session configuration that uses the Windows PowerShell 2.0 Engine.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">[</bpt>New-PSSessionConfigurationFile<ept id="p2">](https://technet.microsoft.com/en-us/library/5f3e3633-6e90-479c-aea9-ba45a1954866)</ept> cmdlet to create a session configuration file for a session that loads the Windows PowerShell 2.0 Engine and you can use the <bpt id="p3">**</bpt>PSVersion<ept id="p3">**</ept> parameter of the <bpt id="p4">[</bpt>Set-PSSessionConfiguration<ept id="p4">](https://technet.microsoft.com/en-us/library/b21fbad3-1759-4260-b206-dcb8431cd6ea)</ept> parameter to change a session configuration to use the Windows PowerShell 2.0 Engine.</source>
+          <target state="new">You can also use the <bpt id="p1">**</bpt>PowerShellVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">[</bpt>New-PSSessionConfigurationFile<ept id="p2">](https://technet.microsoft.com/en-us/library/5f3e3633-6e90-479c-aea9-ba45a1954866)</ept> cmdlet to create a session configuration file for a session that loads the Windows PowerShell 2.0 Engine and you can use the <bpt id="p3">**</bpt>PSVersion<ept id="p3">**</ept> parameter of the <bpt id="p4">[</bpt>Set-PSSessionConfiguration<ept id="p4">](https://technet.microsoft.com/en-us/library/b21fbad3-1759-4260-b206-dcb8431cd6ea)</ept> parameter to change a session configuration to use the Windows PowerShell 2.0 Engine.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information about session configuration files, see <bpt id="p1">[</bpt>about_Session_Configuration_Files<ept id="p1">](https://technet.microsoft.com/en-us/library/c7217447-1ebf-477b-a8ef-4dbe9a1473b8)</ept>.For information about session configurations, including setup and security, see <bpt id="p2">[</bpt>about_Session_Configurations [v4]<ept id="p2">](https://technet.microsoft.com/en-us/library/a2fbe12a-350c-4d04-be50-24102824e3ab)</ept>.</source>
+          <target state="new">For more information about session configuration files, see <bpt id="p1">[</bpt>about_Session_Configuration_Files<ept id="p1">](https://technet.microsoft.com/en-us/library/c7217447-1ebf-477b-a8ef-4dbe9a1473b8)</ept>.For information about session configurations, including setup and security, see <bpt id="p2">[</bpt>about_Session_Configurations [v4]<ept id="p2">](https://technet.microsoft.com/en-us/library/a2fbe12a-350c-4d04-be50-24102824e3ab)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To start a remote Windows PowerShell 2.0 session</source>
+          <target state="new">To start a remote Windows PowerShell 2.0 session</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To create a session configuration that requires the Windows PowerShell 2.0 Engine, use the <bpt id="p1">**</bpt>PSVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">[</bpt>Register-PSSessionConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/e9152ae2-bd6d-4056-9bc7-dc1893aa29ea)</ept> cmdlet with a value of "2.0".</source>
+          <target state="new">To create a session configuration that requires the Windows PowerShell 2.0 Engine, use the <bpt id="p1">**</bpt>PSVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">[</bpt>Register-PSSessionConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/e9152ae2-bd6d-4056-9bc7-dc1893aa29ea)</ept> cmdlet with a value of "2.0".</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Run this command on the computer at the "server side" or receiving end of the connection.</source>
+          <target state="new">Run this command on the computer at the "server side" or receiving end of the connection.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The following sample command creates the PS2 session configuration on the Server01 computer.</source>
+          <target state="new">The following sample command creates the PS2 session configuration on the Server01 computer.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To run this command, start Windows PowerShell 4.0 or Windows PowerShell 3.0 with the <bpt id="p1">**</bpt>Run as administrator<ept id="p1">**</ept> option.</source>
+          <target state="new">To run this command, start Windows PowerShell 4.0 or Windows PowerShell 3.0 with the <bpt id="p1">**</bpt>Run as administrator<ept id="p1">**</ept> option.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To create a session on the Server01 computer that uses the PS2 session configuration, use the <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> parameter of cmdlets that create a remote session, such as the <bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/76f6628c-054c-4eda-ba7a-a6f28daaa26f)</ept> cmdlet.</source>
+          <target state="new">To create a session on the Server01 computer that uses the PS2 session configuration, use the <bpt id="p1">**</bpt>ConfigurationName<ept id="p1">**</ept> parameter of cmdlets that create a remote session, such as the <bpt id="p2">[</bpt>New-PSSession<ept id="p2">](https://technet.microsoft.com/en-us/library/76f6628c-054c-4eda-ba7a-a6f28daaa26f)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When a session that uses the session configuration starts, the Windows PowerShell 2.0 Engine is automatically loaded into the session.</source>
+          <target state="new">When a session that uses the session configuration starts, the Windows PowerShell 2.0 Engine is automatically loaded into the session.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The following command starts a session on the Server01 computer that uses the PS2 session configuration.</source>
+          <target state="new">The following command starts a session on the Server01 computer that uses the PS2 session configuration.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The command saves the session in the $s variable.</source>
+          <target state="new">The command saves the session in the $s variable.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>How to start a background job with the Windows PowerShell 2.0 Engine</source>
+          <target state="new">How to start a background job with the Windows PowerShell 2.0 Engine</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To start a background job with the Windows PowerShell 2.0 Engine, use the <bpt id="p1">**</bpt>PSVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">[</bpt>Start-Job<ept id="p2">](https://technet.microsoft.com/en-us/library/2bc04935-0deb-4ec0-b856-d7290cca6442)</ept> cmdlet.</source>
+          <target state="new">To start a background job with the Windows PowerShell 2.0 Engine, use the <bpt id="p1">**</bpt>PSVersion<ept id="p1">**</ept> parameter of the <bpt id="p2">[</bpt>Start-Job<ept id="p2">](https://technet.microsoft.com/en-us/library/2bc04935-0deb-4ec0-b856-d7290cca6442)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The following command starts a background job with the Windows PowerShell 2.0 Engine</source>
+          <target state="new">The following command starts a background job with the Windows PowerShell 2.0 Engine</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For more information about background jobs, see <bpt id="p1">[</bpt>about_Jobs [v4]<ept id="p1">](https://technet.microsoft.com/en-us/library/7362512a-8a4e-4575-b2ea-a740e5c4f002)</ept>.</source>
+          <target state="new">For more information about background jobs, see <bpt id="p1">[</bpt>about_Jobs [v4]<ept id="p1">](https://technet.microsoft.com/en-us/library/7362512a-8a4e-4575-b2ea-a740e5c4f002)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

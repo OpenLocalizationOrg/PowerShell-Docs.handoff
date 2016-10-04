@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">180158033e0c960f73dba66a3d77b15765e3e382</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\known-issues-cache\NetworkingSwitchCmdletInput.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0368810d7b44a48316529a0b2a706e85891c45b6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4b0f640b5cb07887156838650f310cbcd1c09dc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Network Switch Manager cmdlets failure</source>
+          <target state="new">Network Switch Manager cmdlets failure</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Network Switch Manager cmdlets can be used to manage network switches over WSMAN.</source>
+          <target state="new">The Network Switch Manager cmdlets can be used to manage network switches over WSMAN.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A few cmdlets of this module are capable of accepting values from pipelines.</source>
+          <target state="new">A few cmdlets of this module are capable of accepting values from pipelines.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1 Preview, the cmdlets that can accept value from pipeline fail to execute when the values are not passed through pipelines.</source>
+          <target state="new">In WMF 5.1 Preview, the cmdlets that can accept value from pipeline fail to execute when the values are not passed through pipelines.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If "InputObject" parameter is not used, the cmdlet should continue to execute without failures.</source>
+          <target state="new">If "InputObject" parameter is not used, the cmdlet should continue to execute without failures.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Here is the list of affected cmdlets i.e. these cmdlets can accept value for "InputObject" parameter from pipeline.</source>
+          <target state="new">Here is the list of affected cmdlets i.e. these cmdlets can accept value for "InputObject" parameter from pipeline.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If this value is not passed from pipeline the execution of cmdlet will fail.</source>
+          <target state="new">If this value is not passed from pipeline the execution of cmdlet will fail.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Disable-NetworkSwitchEthernetPort</source>
+          <target state="new">Disable-NetworkSwitchEthernetPort</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Enable-NetworkSwitchEthernetPort</source>
+          <target state="new">Enable-NetworkSwitchEthernetPort</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Remove-NetworkSwitchEthernetPortIPAddress</source>
+          <target state="new">Remove-NetworkSwitchEthernetPortIPAddress</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Set-NetworkSwitchEthernetPortIPAddress</source>
+          <target state="new">Set-NetworkSwitchEthernetPortIPAddress</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set-NetworkSwitchPortMode</source>
+          <target state="new">Set-NetworkSwitchPortMode</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Set-NetworkSwitchPortProperty</source>
+          <target state="new">Set-NetworkSwitchPortProperty</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Disable-NetworkSwitchFeature</source>
+          <target state="new">Disable-NetworkSwitchFeature</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Enable-NetworkSwitchFeature</source>
+          <target state="new">Enable-NetworkSwitchFeature</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Remove-NetworkSwitchVlan</source>
+          <target state="new">Remove-NetworkSwitchVlan</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Set-NetworkSwitchVlanProperty</source>
+          <target state="new">Set-NetworkSwitchVlanProperty</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Resolution</source>
+          <target state="new">Resolution</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The cmdlets work fine when the value of InputObject parameter are passed into it through pipeline.</source>
+          <target state="new">The cmdlets work fine when the value of InputObject parameter are passed into it through pipeline.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A few examples that work for the above cmdlets are:</source>
+          <target state="new">A few examples that work for the above cmdlets are:</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Disable-NetworkSwitchEthernetPort</source>
+          <target state="new">Disable-NetworkSwitchEthernetPort</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Enable-NetworkSwitchEthernetPort</source>
+          <target state="new">Enable-NetworkSwitchEthernetPort</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Remove-NetworkSwitchEthernetPortIPAddress</source>
+          <target state="new">Remove-NetworkSwitchEthernetPortIPAddress</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Set-NetworkSwitchEthernetPortIPAddress</source>
+          <target state="new">Set-NetworkSwitchEthernetPortIPAddress</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Set-NetworkSwitchPortProperty</source>
+          <target state="new">Set-NetworkSwitchPortProperty</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Disable-NetworkSwitchFeature</source>
+          <target state="new">Disable-NetworkSwitchFeature</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Enable-NetworkSwitchFeature</source>
+          <target state="new">Enable-NetworkSwitchFeature</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Set-NetworkSwitchVlanProperty</source>
+          <target state="new">Set-NetworkSwitchVlanProperty</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

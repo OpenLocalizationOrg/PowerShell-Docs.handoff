@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f244b21454c2db929688d11cdf3f46d474ce0db</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\The-ISESnippetObject.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5df5de64d88303300ad7f69982f23b0aec08e7af</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">69291035a8ce32daa2b155af4e53bcf2cdcdabfe</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The ISESnippetObject</source>
+          <target state="new">The ISESnippetObject</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The ISESnippetObject</source>
+          <target state="new">The ISESnippetObject</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>ISESnippet<ept id="p1">**</ept> object is an instance of the Microsoft.PowerShell.Host.ISE.ISESnippet class.</source>
+          <target state="new">An <bpt id="p1">**</bpt>ISESnippet<ept id="p1">**</ept> object is an instance of the Microsoft.PowerShell.Host.ISE.ISESnippet class.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The members of the <bpt id="p1">**</bpt>$psISE.CurrentPowerShellTab.Snippets<ept id="p1">**</ept> collection are all examples of <bpt id="p2">**</bpt>ISESnippet<ept id="p2">**</ept> objects.</source>
+          <target state="new">The members of the <bpt id="p1">**</bpt>$psISE.CurrentPowerShellTab.Snippets<ept id="p1">**</ept> collection are all examples of <bpt id="p2">**</bpt>ISESnippet<ept id="p2">**</ept> objects.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The easiest way to create a snippet is to use the <bpt id="p1">[</bpt>New-IseSnippet&amp;#91;PSITPro5_ISE&amp;#93;<ept id="p1">](https://technet.microsoft.com/en-us/library/0a6339a3-2683-4a8e-8929-90ad9a95c3e0)</ept> cmdlet.</source>
+          <target state="new">The easiest way to create a snippet is to use the <bpt id="p1">[</bpt>New-IseSnippet&amp;#91;PSITPro5_ISE&amp;#93;<ept id="p1">](https://technet.microsoft.com/en-us/library/0a6339a3-2683-4a8e-8929-90ad9a95c3e0)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="DisplayName"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Author</source>
+          <target state="new"><ph id="ph1">&lt;a name="DisplayName"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Author</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the name of the author of the snippet.</source>
+          <target state="new">The read-only property that gets the name of the author of the snippet.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Action"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> CodeFragment</source>
+          <target state="new"><ph id="ph1">&lt;a name="Action"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> CodeFragment</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the code fragment to be inserted into the editor.</source>
+          <target state="new">The read-only property that gets the code fragment to be inserted into the editor.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Shortcut"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Shortcut</source>
+          <target state="new"><ph id="ph1">&lt;a name="Shortcut"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Shortcut</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the Windows keyboard shortcut for the menu item.</source>
+          <target state="new">The read-only property that gets the Windows keyboard shortcut for the menu item.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISESnippetCollection Object<ept id="p1">](The-ISESnippetCollection-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The ISESnippetCollection Object<ept id="p1">](The-ISESnippetCollection-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">460ab6d82b694266d31b09779866f746b56c9f51</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfd13bfc3e03c36cee86004d074e150991eb37f7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4adc540dd6e863a38a02d3ea1324871db41ae35</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to Create a PowerShell Tab in Windows PowerShell ISE</source>
+          <target state="new">How to Create a PowerShell Tab in Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How to Create a PowerShell Tab in Windows PowerShell ISE</source>
+          <target state="new">How to Create a PowerShell Tab in Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Tabs in the Windows PowerShell® Integrated Scripting Environment (ISE) allow you to simultaneously create and use several execution environments within the same application.</source>
+          <target state="new">Tabs in the Windows PowerShell® Integrated Scripting Environment (ISE) allow you to simultaneously create and use several execution environments within the same application.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Each PowerShell tab corresponds to a separate execution environment or session.</source>
+          <target state="new">Each PowerShell tab corresponds to a separate execution environment or session.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Variables, functions, and aliases that you create in one tab do not carry over to another.</source>
+          <target state="new">Variables, functions, and aliases that you create in one tab do not carry over to another.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They are different Windows PowerShell sessions.</source>
+          <target state="new">They are different Windows PowerShell sessions.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use the following steps to open or close a tab in Windows PowerShell.</source>
+          <target state="new">Use the following steps to open or close a tab in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To rename a tab, set the <bpt id="p1">[</bpt>DisplayName<ept id="p1">](The-PowerShellTab-Object.md#Displayname)</ept> property on the Windows PowerShell Tab scripting object.</source>
+          <target state="new">To rename a tab, set the <bpt id="p1">[</bpt>DisplayName<ept id="p1">](The-PowerShellTab-Object.md#Displayname)</ept> property on the Windows PowerShell Tab scripting object.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To create and use a new PowerShell Tab</source>
+          <target state="new">To create and use a new PowerShell Tab</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>New PowerShell Tab<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>New PowerShell Tab<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The new PowerShell tab always opens as the active window.</source>
+          <target state="new">The new PowerShell tab always opens as the active window.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>PowerShell tabs are incrementally numbered in the order that they are opened.</source>
+          <target state="new">PowerShell tabs are incrementally numbered in the order that they are opened.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Each tab is associated with its own Windows PowerShell console window.</source>
+          <target state="new">Each tab is associated with its own Windows PowerShell console window.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can have up to 32 PowerShell tabs with their own session open at a time (this is limited to 8 on Windows PowerShell ISE 2.0.)</source>
+          <target state="new">You can have up to 32 PowerShell tabs with their own session open at a time (this is limited to 8 on Windows PowerShell ISE 2.0.)</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Note that clicking the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Open<ept id="p2">**</ept> icons on the toolbar does not create a new tab with a separate session.</source>
+          <target state="new">Note that clicking the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Open<ept id="p2">**</ept> icons on the toolbar does not create a new tab with a separate session.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Instead, those buttons open a new or existing script file on the currently active tab with a session.</source>
+          <target state="new">Instead, those buttons open a new or existing script file on the currently active tab with a session.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can have multiple script files open with each tab and session.</source>
+          <target state="new">You can have multiple script files open with each tab and session.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The script tabs for a session only appear below the session tabs when the associated session is active.</source>
+          <target state="new">The script tabs for a session only appear below the session tabs when the associated session is active.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To make a PowerShell tab active, click the tab.</source>
+          <target state="new">To make a PowerShell tab active, click the tab.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To select from all PowerShell tabs that are open, on the <bpt id="p1">**</bpt>View<ept id="p1">**</ept> menu, click the PowerShell tab you want to use.</source>
+          <target state="new">To select from all PowerShell tabs that are open, on the <bpt id="p1">**</bpt>View<ept id="p1">**</ept> menu, click the PowerShell tab you want to use.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To create and use a new Remote PowerShell tab</source>
+          <target state="new">To create and use a new Remote PowerShell tab</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>New Remote PowerShell Tab<ept id="p2">**</ept> to establish a session on a remote computer.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>New Remote PowerShell Tab<ept id="p2">**</ept> to establish a session on a remote computer.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A dialog box appears and prompts you to enter details required to establish the remote connection.</source>
+          <target state="new">A dialog box appears and prompts you to enter details required to establish the remote connection.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The remote tab functions just like a local PowerShell tab, but the commands and scripts are run on the remote computer.</source>
+          <target state="new">The remote tab functions just like a local PowerShell tab, but the commands and scripts are run on the remote computer.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To close a PowerShell Tab</source>
+          <target state="new">To close a PowerShell Tab</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To close a tab, you can use any of the following techniques:</source>
+          <target state="new">To close a tab, you can use any of the following techniques:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click the tab that you want to close.</source>
+          <target state="new">Click the tab that you want to close.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Close PowerShell Tab<ept id="p2">**</ept>, or click  the Close button  (<bpt id="p3">**</bpt>X<ept id="p3">**</ept>) on an active tab to close the tab.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Close PowerShell Tab<ept id="p2">**</ept>, or click  the Close button  (<bpt id="p3">**</bpt>X<ept id="p3">**</ept>) on an active tab to close the tab.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you have unsaved files open in the PowerShell tab that you are closing, you are prompted to save or discard them.</source>
+          <target state="new">If you have unsaved files open in the PowerShell tab that you are closing, you are prompted to save or discard them.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information about how to save a script, see <bpt id="p1">[</bpt>How to Save a Script<ept id="p1">](https://technet.microsoft.com/library/162f594d-efd3-4234-9960-45e56e6eadc8)</ept>.</source>
+          <target state="new">For more information about how to save a script, see <bpt id="p1">[</bpt>How to Save a Script<ept id="p1">](https://technet.microsoft.com/library/162f594d-efd3-4234-9960-45e56e6eadc8)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using the Windows PowerShell ISE<ept id="p1">](Using-the-Windows-PowerShell-ISE.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Using the Windows PowerShell ISE<ept id="p1">](Using-the-Windows-PowerShell-ISE.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How to Use the Console Pane in the Windows PowerShell ISE<ept id="p1">](How-to-Use-the-Console-Pane-in-the-Windows-PowerShell-ISE.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>How to Use the Console Pane in the Windows PowerShell ISE<ept id="p1">](How-to-Use-the-Console-Pane-in-the-Windows-PowerShell-ISE.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

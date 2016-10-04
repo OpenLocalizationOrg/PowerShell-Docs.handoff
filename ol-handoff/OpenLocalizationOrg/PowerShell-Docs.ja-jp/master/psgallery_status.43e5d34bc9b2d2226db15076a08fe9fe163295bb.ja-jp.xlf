@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2c0b6a6ec4f10808734b38e9806cf3d0a730fbf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psgallery\psgallery_status.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b0357627ba4a98dbea093458d5cf45454aec10a5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7aeb1989d3ba3eb54f9dd44205284f3e32060c04</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>PowerShell Gallery Status</source>
+          <target state="new">PowerShell Gallery Status</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>8/10/2016 - Resolved: Unable to send emails to <ph id="ph1">cgadmin@microsoft.com</ph></source>
+          <target state="new">8/10/2016 - Resolved: Unable to send emails to <ph id="ph1">cgadmin@microsoft.com</ph></target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Summary of Impact<ept id="p1">__</ept>: Between 8/5/2016 and 8/10/2016, customers were unable to send emails to <ph id="ph1">cgadmin@microsoft.com,</ph> or use the Contact Us feature.</source>
+          <target state="new"><bpt id="p1">__</bpt>Summary of Impact<ept id="p1">__</ept>: Between 8/5/2016 and 8/10/2016, customers were unable to send emails to <ph id="ph1">cgadmin@microsoft.com,</ph> or use the Contact Us feature.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Root Cause<ept id="p1">__</ept>: Engineers identified the cause as a configuration change of the email account.</source>
+          <target state="new"><bpt id="p1">__</bpt>Root Cause<ept id="p1">__</ept>: Engineers identified the cause as a configuration change of the email account.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Resolution<ept id="p1">__</ept>: Engineers worked to resolve the configuration issue.</source>
+          <target state="new"><bpt id="p1">__</bpt>Resolution<ept id="p1">__</ept>: Engineers worked to resolve the configuration issue.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Next Steps<ept id="p1">__</ept>: If you used the Contact Us link or sent mail to <ph id="ph1">cgadmin@microsoft.com</ph> during this time and we have not responded, please try again.</source>
+          <target state="new"><bpt id="p1">__</bpt>Next Steps<ept id="p1">__</ept>: If you used the Contact Us link or sent mail to <ph id="ph1">cgadmin@microsoft.com</ph> during this time and we have not responded, please try again.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Thank you for your patience.</source>
+          <target state="new">Thank you for your patience.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>7/13/2016 - Download Items Failed</source>
+          <target state="new">7/13/2016 - Download Items Failed</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Summary of Impact<ept id="p1">__</ept>: Between 7/11/2016 and 7/13/2016, a subset of customers experienced issues downloading items from the PowerShell Gallery.</source>
+          <target state="new"><bpt id="p1">__</bpt>Summary of Impact<ept id="p1">__</ept>: Between 7/11/2016 and 7/13/2016, a subset of customers experienced issues downloading items from the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The issue likely manifested itself in the following error message returned from Install-Module/Install-Script and Save-Module/Save-Script:</source>
+          <target state="new">The issue likely manifested itself in the following error message returned from Install-Module/Install-Script and Save-Module/Save-Script:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Preliminary root cause<ept id="p1">__</ept>: Engineers identified an issue with Azure Content Deliver Network (CDN), which was deployed to the PowerShell Gallery on 7/11/2016.</source>
+          <target state="new"><bpt id="p1">__</bpt>Preliminary root cause<ept id="p1">__</ept>: Engineers identified an issue with Azure Content Deliver Network (CDN), which was deployed to the PowerShell Gallery on 7/11/2016.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Mitigation<ept id="p1">__</ept>: Engineers disabled Azure CDN in the PowerShell Gallery.</source>
+          <target state="new"><bpt id="p1">__</bpt>Mitigation<ept id="p1">__</ept>: Engineers disabled Azure CDN in the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Next Steps<ept id="p1">__</ept>: Investigate the underlying root cause and developing a solution to prevent future occurrences.</source>
+          <target state="new"><bpt id="p1">__</bpt>Next Steps<ept id="p1">__</ept>: Investigate the underlying root cause and developing a solution to prevent future occurrences.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>5/19/2016 - Download Items Failed</source>
+          <target state="new">5/19/2016 - Download Items Failed</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Summary of Impact<ept id="p1">__</ept>: Between 5/17/2016 and 5/19/2016, a subset of customers experienced issues downloading items from the PowerShell Gallery.</source>
+          <target state="new"><bpt id="p1">__</bpt>Summary of Impact<ept id="p1">__</ept>: Between 5/17/2016 and 5/19/2016, a subset of customers experienced issues downloading items from the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The issue likely manifested itself in the following error message returned from Install-Module/Install-Script and Save-Module/Save-Script:</source>
+          <target state="new">The issue likely manifested itself in the following error message returned from Install-Module/Install-Script and Save-Module/Save-Script:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Preliminary root cause<ept id="p1">__</ept>: Engineers identified an outage in the underlying provider of Azure Content Deliver Network (CDN), which was deployed to the PowerShell Gallery on 5/17/2016.</source>
+          <target state="new"><bpt id="p1">__</bpt>Preliminary root cause<ept id="p1">__</ept>: Engineers identified an outage in the underlying provider of Azure Content Deliver Network (CDN), which was deployed to the PowerShell Gallery on 5/17/2016.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Mitigation<ept id="p1">__</ept>: Engineers disabled Azure CDN in the PowerShell Gallery.</source>
+          <target state="new"><bpt id="p1">__</bpt>Mitigation<ept id="p1">__</ept>: Engineers disabled Azure CDN in the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Next Steps<ept id="p1">__</ept>: Investigate the underlying root cause and developing a solution to prevent future occurrences.</source>
+          <target state="new"><bpt id="p1">__</bpt>Next Steps<ept id="p1">__</ept>: Investigate the underlying root cause and developing a solution to prevent future occurrences.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

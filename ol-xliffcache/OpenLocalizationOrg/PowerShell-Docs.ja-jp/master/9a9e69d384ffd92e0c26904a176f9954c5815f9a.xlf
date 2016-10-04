@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a9e69d384ffd92e0c26904a176f9954c5815f9a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\networkswitch_overview.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30b7e3f0b0e19779d8e06dc986124641681c2d8a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">354f53203f87a526d97bb901601b7394d806d533</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Network Switch Management with PowerShell</source>
+          <target state="new">Network Switch Management with PowerShell</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-NetworkSwitchEthernetPort<ept id="p1">**</ept> cmdlet now returns the following additional information with instances:</source>
+          <target state="new">The <bpt id="p1">**</bpt>Get-NetworkSwitchEthernetPort<ept id="p1">**</ept> cmdlet now returns the following additional information with instances:</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>IPAddress – the IP address associated with the port</source>
+          <target state="new">IPAddress – the IP address associated with the port</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>PortMode – the port mode: access, route, or trunk</source>
+          <target state="new">PortMode – the port mode: access, route, or trunk</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>AccessVLAN – the ID of the VLAN associated with this port in access mode</source>
+          <target state="new">AccessVLAN – the ID of the VLAN associated with this port in access mode</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>TrunkedVLANList – a list of IDs of VLANs associated with this port in trunk mode</source>
+          <target state="new">TrunkedVLANList – a list of IDs of VLANs associated with this port in trunk mode</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Fundamental network switch management with Windows PowerShell</source>
+          <target state="new">Fundamental network switch management with Windows PowerShell</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Network Switch cmdlets, introduced in the first WMF 5.0 Preview, enable you to apply switch, virtual LAN (VLAN), and basic Layer 2 network switch port configuration to Windows Server 2012 R2 logo-certified network switches.</source>
+          <target state="new">The Network Switch cmdlets, introduced in the first WMF 5.0 Preview, enable you to apply switch, virtual LAN (VLAN), and basic Layer 2 network switch port configuration to Windows Server 2012 R2 logo-certified network switches.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Microsoft remains committed to supporting the <bpt id="p1">[</bpt>Datacenter Abstraction<ept id="p1">](http://technet.microsoft.com/en-us/cloud/dal.aspx)</ept> Layer (DAL) vision, and to show value for our customers and partners in this space.</source>
+          <target state="new">Microsoft remains committed to supporting the <bpt id="p1">[</bpt>Datacenter Abstraction<ept id="p1">](http://technet.microsoft.com/en-us/cloud/dal.aspx)</ept> Layer (DAL) vision, and to show value for our customers and partners in this space.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Using these cmdlets you can perform:</source>
+          <target state="new">Using these cmdlets you can perform:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Global switch configuration, such as:</source>
+          <target state="new">Global switch configuration, such as:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set host name</source>
+          <target state="new">Set host name</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Set switch banner</source>
+          <target state="new">Set switch banner</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Persist configuration</source>
+          <target state="new">Persist configuration</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Enable or disable feature</source>
+          <target state="new">Enable or disable feature</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>VLAN configuration:</source>
+          <target state="new">VLAN configuration:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create or remove VLAN</source>
+          <target state="new">Create or remove VLAN</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Enable or disable VLAN</source>
+          <target state="new">Enable or disable VLAN</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Enumerate VLAN</source>
+          <target state="new">Enumerate VLAN</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Set friendly name to a VLAN</source>
+          <target state="new">Set friendly name to a VLAN</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Layer 2 port configuration:</source>
+          <target state="new">Layer 2 port configuration:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Enumerate ports</source>
+          <target state="new">Enumerate ports</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Enable or disable ports</source>
+          <target state="new">Enable or disable ports</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Set port modes and properties</source>
+          <target state="new">Set port modes and properties</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Add or associate VLAN to Trunk or Access on the port</source>
+          <target state="new">Add or associate VLAN to Trunk or Access on the port</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Start exploring by looking for all of the NetworkSwitch cmdlets!</source>
+          <target state="new">Start exploring by looking for all of the NetworkSwitch cmdlets!</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>More information is available in Jeffrey Snover’s WMF 5.0 Preview announcement blog post: <bpt id="p1">&lt;</bpt>http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx<ept id="p1">&gt;</ept></source>
+          <target state="new">More information is available in Jeffrey Snover’s WMF 5.0 Preview announcement blog post: <bpt id="p1">&lt;</bpt>http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx<ept id="p1">&gt;</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

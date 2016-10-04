@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b2dfd9c39fe5d7bf4a52032653108729715e6bf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\common-role-capability-pitfalls.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">255cd0a7e474eb4e2d095f980c549cf26bc248ae</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12b3f0375942dd9d33017daf109f6705b66040c7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="new">powershell,cmdlet,jea</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>common role capability pitfalls</source>
+          <target state="new">common role capability pitfalls</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Common Role Capability Pitfalls</source>
+          <target state="new">Common Role Capability Pitfalls</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You may run into a few common pitfalls if you go through this process yourself.</source>
+          <target state="new">You may run into a few common pitfalls if you go through this process yourself.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here is a quick guide explaining how to identify and remediate these issues when modifying or creating a new endpoint:</source>
+          <target state="new">Here is a quick guide explaining how to identify and remediate these issues when modifying or creating a new endpoint:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Functions vs. Cmdlets</source>
+          <target state="new">Functions vs. Cmdlets</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>PowerShell commands written in PowerShell are PowerShell functions.</source>
+          <target state="new">PowerShell commands written in PowerShell are PowerShell functions.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PowerShell commands written as specialized .NET classes are PowerShell cmdlets.</source>
+          <target state="new">PowerShell commands written as specialized .NET classes are PowerShell cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can check the command type by running <ph id="ph1">`Get-Command`</ph>.</source>
+          <target state="new">You can check the command type by running <ph id="ph1">`Get-Command`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>VisibleProviders</source>
+          <target state="new">VisibleProviders</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You will need to expose any providers your commands need.</source>
+          <target state="new">You will need to expose any providers your commands need.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The most common is the FileSystem provider, but you may also need to expose others, like the Registry provider.</source>
+          <target state="new">The most common is the FileSystem provider, but you may also need to expose others, like the Registry provider.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For an introduction to providers, check out this <bpt id="p1">[</bpt>Hey, Scripting Guy blog post<ept id="p1">](http://blogs.technet.com/b/heyscriptingguy/archive/2015/04/20/find-and-use-windows-powershell-providers.aspx)</ept>.</source>
+          <target state="new">For an introduction to providers, check out this <bpt id="p1">[</bpt>Hey, Scripting Guy blog post<ept id="p1">](http://blogs.technet.com/b/heyscriptingguy/archive/2015/04/20/find-and-use-windows-powershell-providers.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Be careful when exposing providers -- often, it is better to define your own function that works with the underlying providers than to directly expose the provider in a JEA session.</source>
+          <target state="new">Be careful when exposing providers -- often, it is better to define your own function that works with the underlying providers than to directly expose the provider in a JEA session.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This way, you can still allow users to work with files, registry keys, etc. but retain control over <bpt id="p1">**</bpt>which<ept id="p1">**</ept> files and registry keys they can work with using custom validation logic.</source>
+          <target state="new">This way, you can still allow users to work with files, registry keys, etc. but retain control over <bpt id="p1">**</bpt>which<ept id="p1">**</ept> files and registry keys they can work with using custom validation logic.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

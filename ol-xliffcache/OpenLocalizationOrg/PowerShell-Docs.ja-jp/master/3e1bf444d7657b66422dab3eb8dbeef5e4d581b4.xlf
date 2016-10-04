@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e1bf444d7657b66422dab3eb8dbeef5e4d581b4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-With-Files-Folders-and-Registry-Keys.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba2c7d039b0ccc0ee9cbbbeb3ee84838dcf42834</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18f3c722645ecce7bd991b51369239a55dedcb94</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working With Files Folders and Registry Keys</source>
+          <target state="new">Working With Files Folders and Registry Keys</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Working With Files, Folders and Registry Keys</source>
+          <target state="new">Working With Files, Folders and Registry Keys</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the noun <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> to refer to items found on a Windows PowerShell drive.</source>
+          <target state="new">Windows PowerShell uses the noun <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> to refer to items found on a Windows PowerShell drive.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When dealing with the Windows PowerShell FileSystem provider, an <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> might be a file, a folder, or the Windows PowerShell drive.</source>
+          <target state="new">When dealing with the Windows PowerShell FileSystem provider, an <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> might be a file, a folder, or the Windows PowerShell drive.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Listing and working with these items is a critical basic task in most administrative settings, so we want to discuss these tasks in detail.</source>
+          <target state="new">Listing and working with these items is a critical basic task in most administrative settings, so we want to discuss these tasks in detail.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Enumerating Files, Folders, and Registry Keys (Get-ChildItem)</source>
+          <target state="new">Enumerating Files, Folders, and Registry Keys (Get-ChildItem)</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Since getting a collection of items from a particular location is such a common task, the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet is designed specifically to return all items found within a container such as a folder.</source>
+          <target state="new">Since getting a collection of items from a particular location is such a common task, the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet is designed specifically to return all items found within a container such as a folder.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you want to return all files and folders that are contained directly within the folder C:\\Windows, type:</source>
+          <target state="new">If you want to return all files and folders that are contained directly within the folder C:\\Windows, type:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The listing looks similar to what you would see when you enter the <bpt id="p1">**</bpt>dir<ept id="p1">**</ept> command in <bpt id="p2">**</bpt>Cmd.exe<ept id="p2">**</ept>, or the <bpt id="p3">**</bpt>ls<ept id="p3">**</ept> command in a UNIX command shell.</source>
+          <target state="new">The listing looks similar to what you would see when you enter the <bpt id="p1">**</bpt>dir<ept id="p1">**</ept> command in <bpt id="p2">**</bpt>Cmd.exe<ept id="p2">**</ept>, or the <bpt id="p3">**</bpt>ls<ept id="p3">**</ept> command in a UNIX command shell.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can perform very complex listings by using parameters of the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">You can perform very complex listings by using parameters of the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We will look at a few scenarios next.</source>
+          <target state="new">We will look at a few scenarios next.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can see the syntax the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet by typing:</source>
+          <target state="new">You can see the syntax the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet by typing:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>These parameters can be mixed and matched to get highly customized output.</source>
+          <target state="new">These parameters can be mixed and matched to get highly customized output.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Listing all Contained Items (-Recurse)</source>
+          <target state="new">Listing all Contained Items (-Recurse)</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To see both the items inside a Windows folder and any items that are contained within the subfolders, use the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-ChildItem<ept id="p2">**</ept>.</source>
+          <target state="new">To see both the items inside a Windows folder and any items that are contained within the subfolders, use the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-ChildItem<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The listing displays everything within the Windows folder and the items in its subfolders.</source>
+          <target state="new">The listing displays everything within the Windows folder and the items in its subfolders.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Filtering Items by Name (-Name)</source>
+          <target state="new">Filtering Items by Name (-Name)</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To display only the names of items, use the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-Childitem<ept id="p2">**</ept>:</source>
+          <target state="new">To display only the names of items, use the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-Childitem<ept id="p2">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Forcibly Listing Hidden Items (-Force)</source>
+          <target state="new">Forcibly Listing Hidden Items (-Force)</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Items that are normally invisible in File Explorer or Cmd.exe are not displayed in the output of a <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> command.</source>
+          <target state="new">Items that are normally invisible in File Explorer or Cmd.exe are not displayed in the output of a <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> command.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To display hidden items, use the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-ChildItem<ept id="p2">**</ept>.</source>
+          <target state="new">To display hidden items, use the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter of <bpt id="p2">**</bpt>Get-ChildItem<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This parameter is named Force because you can forcibly override the normal behavior of the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> command.</source>
+          <target state="new">This parameter is named Force because you can forcibly override the normal behavior of the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> command.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Force is a widely used parameter that forces an action that a cmdlet would not normally perform, although it will not perform any action that compromises the security of the system.</source>
+          <target state="new">Force is a widely used parameter that forces an action that a cmdlet would not normally perform, although it will not perform any action that compromises the security of the system.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Matching Item Names with Wildcards</source>
+          <target state="new">Matching Item Names with Wildcards</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The Get-ChildItem<ept id="p1">**</ept> command accepts wildcards in the path of the items to list.</source>
+          <target state="new"><bpt id="p1">**</bpt>The Get-ChildItem<ept id="p1">**</ept> command accepts wildcards in the path of the items to list.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because wildcard matching is handled by the Windows PowerShell engine, all cmdlets that accepts wildcards use the same notation and have the same matching behavior.</source>
+          <target state="new">Because wildcard matching is handled by the Windows PowerShell engine, all cmdlets that accepts wildcards use the same notation and have the same matching behavior.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell wildcard notation includes:</source>
+          <target state="new">The Windows PowerShell wildcard notation includes:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Asterisk (\*)matches zero or more occurrences of any character.</source>
+          <target state="new">Asterisk (\*)matches zero or more occurrences of any character.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Question mark (?) matches exactly one character.</source>
+          <target state="new">Question mark (?) matches exactly one character.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Left bracket (\[) character and right bracket (]) character surround a set of characters to be matched.</source>
+          <target state="new">Left bracket (\[) character and right bracket (]) character surround a set of characters to be matched.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Here are some examples of how wildcard specification works.</source>
+          <target state="new">Here are some examples of how wildcard specification works.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To find all files in the Windows directory with the suffix <bpt id="p1">**</bpt>.log<ept id="p1">**</ept> and exactly five characters in the base name, enter the following command:</source>
+          <target state="new">To find all files in the Windows directory with the suffix <bpt id="p1">**</bpt>.log<ept id="p1">**</ept> and exactly five characters in the base name, enter the following command:</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To find all files that begin with the letter <bpt id="p1">**</bpt>x<ept id="p1">**</ept> in the Windows directory, type:</source>
+          <target state="new">To find all files that begin with the letter <bpt id="p1">**</bpt>x<ept id="p1">**</ept> in the Windows directory, type:</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To find all files whose names begin with <bpt id="p1">**</bpt>x<ept id="p1">**</ept> or <bpt id="p2">**</bpt>z<ept id="p2">**</ept>, type:</source>
+          <target state="new">To find all files whose names begin with <bpt id="p1">**</bpt>x<ept id="p1">**</ept> or <bpt id="p2">**</bpt>z<ept id="p2">**</ept>, type:</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Excluding Items (-Exclude)</source>
+          <target state="new">Excluding Items (-Exclude)</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can exclude specific items by using the <bpt id="p1">**</bpt>Exclude<ept id="p1">**</ept> parameter of Get-ChildItem.</source>
+          <target state="new">You can exclude specific items by using the <bpt id="p1">**</bpt>Exclude<ept id="p1">**</ept> parameter of Get-ChildItem.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This lets you perform complex filtering in a single statement.</source>
+          <target state="new">This lets you perform complex filtering in a single statement.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, suppose you are trying to find the Windows Time Service DLL in the System32 folder, and all you can remember about the DLL name is that it begins with "W" and has "32" in it.</source>
+          <target state="new">For example, suppose you are trying to find the Windows Time Service DLL in the System32 folder, and all you can remember about the DLL name is that it begins with "W" and has "32" in it.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An expression like <bpt id="p1">**</bpt>w\&amp;#42;32\&amp;#42;.dll<ept id="p1">**</ept> will find all DLLs that satisfy the conditions, but it may also return the Windows 95 and 16-bit Windows compatibility DLLs that include "95" or "16" in their names.</source>
+          <target state="new">An expression like <bpt id="p1">**</bpt>w\&amp;#42;32\&amp;#42;.dll<ept id="p1">**</ept> will find all DLLs that satisfy the conditions, but it may also return the Windows 95 and 16-bit Windows compatibility DLLs that include "95" or "16" in their names.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can omit files that have any of these numbers in their names by using the <bpt id="p1">**</bpt>Exclude<ept id="p1">**</ept> parameter with the pattern <bpt id="p2">**</bpt>\&amp;#42;\[9516]\&amp;#42;<ept id="p2">**</ept>:</source>
+          <target state="new">You can omit files that have any of these numbers in their names by using the <bpt id="p1">**</bpt>Exclude<ept id="p1">**</ept> parameter with the pattern <bpt id="p2">**</bpt>\&amp;#42;\[9516]\&amp;#42;<ept id="p2">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>PS&gt; Get-ChildItem -Path C:\WINDOWS\System32\w<bpt id="p1">*</bpt>32<ept id="p1">*</ept>.dll -Exclude <bpt id="p2">*</bpt>[9516]<ept id="p2">*</ept> Directory: Microsoft.PowerShell.Core\FileSystem::C:\WINDOWS\System32 Mode                LastWriteTime     Length Name ----                -------------     ------ ---- -a---        2004-08-04   8:00 AM     174592 w32time.dll -a---        2004-08-04   8:00 AM      22016 w32topl.dll -a---        2004-08-04   8:00 AM     101888 win32spl.dll -a---        2004-08-04   8:00 AM     172032 wldap32.dll -a---        2004-08-04   8:00 AM     264192 wow32.dll -a---        2004-08-04   8:00 AM      82944 ws2_32.dll -a---        2004-08-04   8:00 AM      42496 wsnmp32.dll -a---        2004-08-04   8:00 AM      22528 wsock32.dll -a---        2004-08-04   8:00 AM      18432 wtsapi32.dll</source>
+          <target state="new">PS&gt; Get-ChildItem -Path C:\WINDOWS\System32\w<bpt id="p1">*</bpt>32<ept id="p1">*</ept>.dll -Exclude <bpt id="p2">*</bpt>[9516]<ept id="p2">*</ept> Directory: Microsoft.PowerShell.Core\FileSystem::C:\WINDOWS\System32 Mode                LastWriteTime     Length Name ----                -------------     ------ ---- -a---        2004-08-04   8:00 AM     174592 w32time.dll -a---        2004-08-04   8:00 AM      22016 w32topl.dll -a---        2004-08-04   8:00 AM     101888 win32spl.dll -a---        2004-08-04   8:00 AM     172032 wldap32.dll -a---        2004-08-04   8:00 AM     264192 wow32.dll -a---        2004-08-04   8:00 AM      82944 ws2_32.dll -a---        2004-08-04   8:00 AM      42496 wsnmp32.dll -a---        2004-08-04   8:00 AM      22528 wsock32.dll -a---        2004-08-04   8:00 AM      18432 wtsapi32.dll</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Mixing Get-ChildItem Parameters</source>
+          <target state="new">Mixing Get-ChildItem Parameters</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can use several of the parameters of the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet in the same command.</source>
+          <target state="new">You can use several of the parameters of the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet in the same command.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Before you mix parameters, be sure that you understand wildcard matching.</source>
+          <target state="new">Before you mix parameters, be sure that you understand wildcard matching.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, the following command returns no results:</source>
+          <target state="new">For example, the following command returns no results:</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>There are no results, even though there are two DLLs that begin with the letter "z" in the Windows folder.</source>
+          <target state="new">There are no results, even though there are two DLLs that begin with the letter "z" in the Windows folder.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>No results were returned because we specified the wildcard as part of the path.</source>
+          <target state="new">No results were returned because we specified the wildcard as part of the path.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Even though the command was recursive, the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet restricted the items to those that are in the Windows folder with names ending with ".dll".</source>
+          <target state="new">Even though the command was recursive, the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet restricted the items to those that are in the Windows folder with names ending with ".dll".</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To specify a recursive search for files whose names match a special pattern, use the <bpt id="p1">**</bpt>-Include<ept id="p1">**</ept> parameter.</source>
+          <target state="new">To specify a recursive search for files whose names match a special pattern, use the <bpt id="p1">**</bpt>-Include<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d867a6462e9fa8b6e16c8c2103899c72b380116c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\reporting-on-jea.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">010b4fdde45f8103cd1c41d3578cb591a7167a1a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c706c8ea61e2416db38aad1917ecc9b607cf8515</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="new">powershell,cmdlet,jea</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>reporting on jea</source>
+          <target state="new">reporting on jea</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Reporting on JEA</source>
+          <target state="new">Reporting on JEA</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Because JEA allows non-privileged users to run in a privileged context, logging and auditing are extremely important.</source>
+          <target state="new">Because JEA allows non-privileged users to run in a privileged context, logging and auditing are extremely important.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this section, we'll run through the tools you can use to help you with logging and reporting.</source>
+          <target state="new">In this section, we'll run through the tools you can use to help you with logging and reporting.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Reporting on JEA Actions</source>
+          <target state="new">Reporting on JEA Actions</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Over-the-Shoulder Transcription</source>
+          <target state="new">Over-the-Shoulder Transcription</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>One of the quickest ways to get a summary of what's happening in a PowerShell session is to look over the shoulder of the person typing.</source>
+          <target state="new">One of the quickest ways to get a summary of what's happening in a PowerShell session is to look over the shoulder of the person typing.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You see their commands, the output of those commands, and all is well.</source>
+          <target state="new">You see their commands, the output of those commands, and all is well.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Or it's not, but at least you'll know.</source>
+          <target state="new">Or it's not, but at least you'll know.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>PowerShell transcription is designed to give you a similar view after the fact.</source>
+          <target state="new">PowerShell transcription is designed to give you a similar view after the fact.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When using the "TranscriptDirectory" field in your Session Configuration, PowerShell will automatically record a transcript of all actions taken in a given session.</source>
+          <target state="new">When using the "TranscriptDirectory" field in your Session Configuration, PowerShell will automatically record a transcript of all actions taken in a given session.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can find transcripts from your sessions in this document here: "$env:ProgramData\JEAConfiguration\Transcripts"</source>
+          <target state="new">You can find transcripts from your sessions in this document here: "$env:ProgramData\JEAConfiguration\Transcripts"</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>As you can tell, the transcript records information about the "Connected" user, the "Run As" user, the commands run in the session, and more.</source>
+          <target state="new">As you can tell, the transcript records information about the "Connected" user, the "Run As" user, the commands run in the session, and more.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information about PowerShell transcription, check out <bpt id="p1">[</bpt>this blog post<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</source>
+          <target state="new">For more information about PowerShell transcription, check out <bpt id="p1">[</bpt>this blog post<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>PowerShell Event Logs</source>
+          <target state="new">PowerShell Event Logs</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When you have module logging turned on, all PowerShell actions are also recorded in regular Windows Event logs.</source>
+          <target state="new">When you have module logging turned on, all PowerShell actions are also recorded in regular Windows Event logs.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This is slightly messier to deal with when compared to transcripts, but the level of detail it gives you can be useful.</source>
+          <target state="new">This is slightly messier to deal with when compared to transcripts, but the level of detail it gives you can be useful.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the "PowerShell" operational log, Event ID 4104 will record each command invoked if you have enabled module logging.</source>
+          <target state="new">In the "PowerShell" operational log, Event ID 4104 will record each command invoked if you have enabled module logging.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Other Event Logs</source>
+          <target state="new">Other Event Logs</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Unlike PowerShell logs and transcripts, other logging mechanisms will not capture the "Connected User".</source>
+          <target state="new">Unlike PowerShell logs and transcripts, other logging mechanisms will not capture the "Connected User".</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You will need to do some correlation between other logs and PowerShell logs to match up actions taken.</source>
+          <target state="new">You will need to do some correlation between other logs and PowerShell logs to match up actions taken.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the "Windows Remote Management" operational log, Event ID 193 will record the Connecting User's SID and Name, as well as the RunAs Virtual Account's SID to assist with this correlation.</source>
+          <target state="new">In the "Windows Remote Management" operational log, Event ID 193 will record the Connecting User's SID and Name, as well as the RunAs Virtual Account's SID to assist with this correlation.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You may have also noticed that the name of the RunAs Virtual Account includes the connecting user's domain and username at the end.</source>
+          <target state="new">You may have also noticed that the name of the RunAs Virtual Account includes the connecting user's domain and username at the end.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Reporting on JEA Configuration</source>
+          <target state="new">Reporting on JEA Configuration</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionConfiguration</source>
+          <target state="new">Get-PSSessionConfiguration</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In order to accurately report on the state of your environment, it's important to know how many JEA endpoints you have set up on your machine.</source>
+          <target state="new">In order to accurately report on the state of your environment, it's important to know how many JEA endpoints you have set up on your machine.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Get-PSSessionConfiguration`</ph> does just that.</source>
+          <target state="new"><ph id="ph1">`Get-PSSessionConfiguration`</ph> does just that.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Get-PSSessionCapability</source>
+          <target state="new">Get-PSSessionCapability</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Manually reporting on the capabilities of any given user through a JEA endpoint can be quite complex.</source>
+          <target state="new">Manually reporting on the capabilities of any given user through a JEA endpoint can be quite complex.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You would potentially need to inspect several role capabilities.</source>
+          <target state="new">You would potentially need to inspect several role capabilities.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Fortunately, the "Get-PSSessionCapability" cmdlet does this.</source>
+          <target state="new">Fortunately, the "Get-PSSessionCapability" cmdlet does this.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To test this out, run the following command from an administrator PowerShell prompt:</source>
+          <target state="new">To test this out, run the following command from an administrator PowerShell prompt:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
