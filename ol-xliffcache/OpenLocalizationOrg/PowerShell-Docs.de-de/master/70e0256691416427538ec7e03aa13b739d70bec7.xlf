@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">70e0256691416427538ec7e03aa13b739d70bec7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\reportServer.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f1df5a66fb1dbbc21b64695d6c869f1c5af6b49</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">372d69835612f3d652debd1505e8a3cdbf97ad57</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using a DSC report server</source>
+          <target state="new">Using a DSC report server</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using a DSC report server</source>
+          <target state="new">Using a DSC report server</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The report server described in this topic is not available in PowerShell 4.0.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The report server described in this topic is not available in PowerShell 4.0.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Local Configuration Manager (LCM) of a node can be configured to send reports about its configuration status to a pull server, which can then be queried to retrieve that data.</source>
+          <target state="new">The Local Configuration Manager (LCM) of a node can be configured to send reports about its configuration status to a pull server, which can then be queried to retrieve that data.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Each time the node checks and applies a configuration, it sends a report to the report server.</source>
+          <target state="new">Each time the node checks and applies a configuration, it sends a report to the report server.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These reports are stored in a database on the server, and can be retrieved by calling the reporting web service.</source>
+          <target state="new">These reports are stored in a database on the server, and can be retrieved by calling the reporting web service.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Each report contains information such as what configurations were applied and whether they succeeded, the resources used, any errors that were thrown, and start and finish times.</source>
+          <target state="new">Each report contains information such as what configurations were applied and whether they succeeded, the resources used, any errors that were thrown, and start and finish times.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Configuring a node to send reports</source>
+          <target state="new">Configuring a node to send reports</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You tell a node to send reports to a server by using a <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block in the node's LCM configuration (for information about configuring the LCM, see <bpt id="p2">[</bpt>Configuring the Local Configuration Manager<ept id="p2">](metaConfig.md)</ept>).</source>
+          <target state="new">You tell a node to send reports to a server by using a <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block in the node's LCM configuration (for information about configuring the LCM, see <bpt id="p2">[</bpt>Configuring the Local Configuration Manager<ept id="p2">](metaConfig.md)</ept>).</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The server to which the node sends reports must be set up as a web pull server (you cannot send reports to an SMB share).</source>
+          <target state="new">The server to which the node sends reports must be set up as a web pull server (you cannot send reports to an SMB share).</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For information about setting up a pull server, see <bpt id="p1">[</bpt>Setting up a DSC web pull server<ept id="p1">](pullServer.md)</ept>.</source>
+          <target state="new">For information about setting up a pull server, see <bpt id="p1">[</bpt>Setting up a DSC web pull server<ept id="p1">](pullServer.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The report server can be the same service from which the node pulls configurations and gets resources, or it can be a different service.</source>
+          <target state="new">The report server can be the same service from which the node pulls configurations and gets resources, or it can be a different service.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block, you specify the URL of the pull service and a registration key that is known to the server.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>ReportServerWeb<ept id="p1">**</ept> block, you specify the URL of the pull service and a registration key that is known to the server.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following configuration configures a node to pull configurations from one service, and send reports to a service on a different server.</source>
+          <target state="new">The following configuration configures a node to pull configurations from one service, and send reports to a service on a different server.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following configuration configures a node to use a single server for configurations, resources, and reporting.</source>
+          <target state="new">The following configuration configures a node to use a single server for configurations, resources, and reporting.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> You can name the web service whatever you want when you set up a pull server, but the <bpt id="p2">**</bpt>ServerURL<ept id="p2">**</ept> property must match the service name.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> You can name the web service whatever you want when you set up a pull server, but the <bpt id="p2">**</bpt>ServerURL<ept id="p2">**</ept> property must match the service name.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Getting report data</source>
+          <target state="new">Getting report data</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Reports sent to the pull server are entered into a database on the server.</source>
+          <target state="new">Reports sent to the pull server are entered into a database on the server.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The reports are available through calls to the web service.</source>
+          <target state="new">The reports are available through calls to the web service.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To retrieve reports for a specific node, send an HTTP request to the report web service in the following form: <ph id="ph1">`http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports`</ph> where <ph id="ph2">`MyNodeAgentId`</ph> is the AgentId of the node for which you want to get reports.</source>
+          <target state="new">To retrieve reports for a specific node, send an HTTP request to the report web service in the following form: <ph id="ph1">`http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports`</ph> where <ph id="ph2">`MyNodeAgentId`</ph> is the AgentId of the node for which you want to get reports.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can get the AgentID for a node by calling <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> on that node.</source>
+          <target state="new">You can get the AgentID for a node by calling <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept> on that node.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The reports are returned as an array of JSON objects.</source>
+          <target state="new">The reports are returned as an array of JSON objects.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following script returns the reports for the node on which it is run:</source>
+          <target state="new">The following script returns the reports for the node on which it is run:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Viewing report data</source>
+          <target state="new">Viewing report data</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you set a variable to the result of the <bpt id="p1">**</bpt>GetReport<ept id="p1">**</ept> function, you can view the individual fields in an element of the array that is returned:</source>
+          <target state="new">If you set a variable to the result of the <bpt id="p1">**</bpt>GetReport<ept id="p1">**</ept> function, you can view the individual fields in an element of the array that is returned:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>By default, the reports are sorted by <bpt id="p1">**</bpt>JobID<ept id="p1">**</ept>.</source>
+          <target state="new">By default, the reports are sorted by <bpt id="p1">**</bpt>JobID<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To get the most recent report, you can sort the reports by descending <bpt id="p1">**</bpt>StartTime<ept id="p1">**</ept> property, and then get the first element of the array:</source>
+          <target state="new">To get the most recent report, you can sort the reports by descending <bpt id="p1">**</bpt>StartTime<ept id="p1">**</ept> property, and then get the first element of the array:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Notice that the <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> property is an object with a number of properties.</source>
+          <target state="new">Notice that the <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> property is an object with a number of properties.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This is where much of the reporting data is.</source>
+          <target state="new">This is where much of the reporting data is.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Let's look at the individual fields of the <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> property for the most recent report:</source>
+          <target state="new">Let's look at the individual fields of the <bpt id="p1">**</bpt>StatusData<ept id="p1">**</ept> property for the most recent report:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Among other things, this shows that the most recent configuration called two resources, and that one of them was in the desired state, and one of them was not.</source>
+          <target state="new">Among other things, this shows that the most recent configuration called two resources, and that one of them was in the desired state, and one of them was not.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can get a more readable output of just the <bpt id="p1">**</bpt>ResourcesNotInDesiredState<ept id="p1">**</ept> property:</source>
+          <target state="new">You can get a more readable output of just the <bpt id="p1">**</bpt>ResourcesNotInDesiredState<ept id="p1">**</ept> property:</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Note that these examples are meant to give you an idea of what you can do with report data.</source>
+          <target state="new">Note that these examples are meant to give you an idea of what you can do with report data.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For an introduction on working with JSON in PowerShell, see <bpt id="p1">[</bpt>Playing with JSON and PowerShell<ept id="p1">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>.</source>
+          <target state="new">For an introduction on working with JSON in PowerShell, see <bpt id="p1">[</bpt>Playing with JSON and PowerShell<ept id="p1">](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Configuring the Local Configuration Manager<ept id="p1">](metaConfig.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting up a DSC web pull server<ept id="p1">](pullServer.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Setting up a DSC web pull server<ept id="p1">](pullServer.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](pullClientConfigNames.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](pullClientConfigNames.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

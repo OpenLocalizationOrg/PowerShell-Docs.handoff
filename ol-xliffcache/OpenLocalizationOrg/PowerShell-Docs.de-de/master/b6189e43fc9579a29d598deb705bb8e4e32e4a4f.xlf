@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b6189e43fc9579a29d598deb705bb8e4e32e4a4f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\setup\Installing-the-Windows-PowerShell-2.0-Engine.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6bca27db74c9371789140cd092766efdb87f62d2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">197fee0a2b8740b39a4142a037ae766d7b08eb4b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Installing the Windows PowerShell 2.0 Engine</source>
+          <target state="new">Installing the Windows PowerShell 2.0 Engine</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Installing the Windows PowerShell 2.0 Engine</source>
+          <target state="new">Installing the Windows PowerShell 2.0 Engine</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic explains how to install the Windows PowerShell 2.0 Engine.</source>
+          <target state="new">This topic explains how to install the Windows PowerShell 2.0 Engine.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell 3.0 is designed to be backwards compatible with Windows PowerShell 2.0.</source>
+          <target state="new">Windows PowerShell 3.0 is designed to be backwards compatible with Windows PowerShell 2.0.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Cmdlets, providers, snap-ins, modules, and scripts written for Windows PowerShell 2.0 run unchanged in Windows PowerShell 3.0 and Windows PowerShell 4.0.</source>
+          <target state="new">Cmdlets, providers, snap-ins, modules, and scripts written for Windows PowerShell 2.0 run unchanged in Windows PowerShell 3.0 and Windows PowerShell 4.0.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, due to a change in the runtime activation policy in Microsoft .NET Framework 4, Windows PowerShell host programs that were written for Windows PowerShell 2.0 and compiled with Common Language Runtime (CLR) 2.0 cannot run without modification in later releases of Windows PowerShell, which is compiled with CLR 4.0.</source>
+          <target state="new">However, due to a change in the runtime activation policy in Microsoft .NET Framework 4, Windows PowerShell host programs that were written for Windows PowerShell 2.0 and compiled with Common Language Runtime (CLR) 2.0 cannot run without modification in later releases of Windows PowerShell, which is compiled with CLR 4.0.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To maintain backward compatibility with commands and host programs that are affected by these changes, the Windows PowerShell 2.0, Windows PowerShell 3.0, and Windows PowerShell 4.0 engines are designed to run side-by-side.</source>
+          <target state="new">To maintain backward compatibility with commands and host programs that are affected by these changes, the Windows PowerShell 2.0, Windows PowerShell 3.0, and Windows PowerShell 4.0 engines are designed to run side-by-side.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Also, the Windows PowerShell 2.0 Engine is included in Windows Server 2012 R2, Windows 8.1, Windows 8, Windows Server 2012, and Windows Management Framework 3.0.</source>
+          <target state="new">Also, the Windows PowerShell 2.0 Engine is included in Windows Server 2012 R2, Windows 8.1, Windows 8, Windows Server 2012, and Windows Management Framework 3.0.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine is intended to be used only when an existing script or host program cannot run because it is incompatible with Windows PowerShell 3.0, Windows PowerShell 4.0, or Microsoft .NET Framework 4.</source>
+          <target state="new">The Windows PowerShell 2.0 Engine is intended to be used only when an existing script or host program cannot run because it is incompatible with Windows PowerShell 3.0, Windows PowerShell 4.0, or Microsoft .NET Framework 4.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Such cases are expected to be rare.</source>
+          <target state="new">Such cases are expected to be rare.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine is an optional feature of Windows Server 2012 R2, Windows 8.1, WindowsÂ® 8 and Windows ServerÂ® 2012.</source>
+          <target state="new">The Windows PowerShell 2.0 Engine is an optional feature of Windows Server 2012 R2, Windows 8.1, WindowsÂ® 8 and Windows ServerÂ® 2012.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>On earlier versions of Windows, when you install Windows Management Framework 3.0, the Windows PowerShell 3.0 installation completely replaces the Windows PowerShell 2.0 installation in the Windows PowerShell installation directory.</source>
+          <target state="new">On earlier versions of Windows, when you install Windows Management Framework 3.0, the Windows PowerShell 3.0 installation completely replaces the Windows PowerShell 2.0 installation in the Windows PowerShell installation directory.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, the Windows PowerShell 2.0 Engine is retained.</source>
+          <target state="new">However, the Windows PowerShell 2.0 Engine is retained.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For information about starting the Windows PowerShell 2.0 Engine, see <bpt id="p1">[</bpt>Starting the Windows PowerShell 2.0 Engine<ept id="p1">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept>.</source>
+          <target state="new">For information about starting the Windows PowerShell 2.0 Engine, see <bpt id="p1">[</bpt>Starting the Windows PowerShell 2.0 Engine<ept id="p1">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On Windows 8.1 and Windows 8</source>
+          <target state="new">On Windows 8.1 and Windows 8</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On Windows 8.1 and Windows 8, the Windows PowerShell 2.0 Engine feature is turned on by default.</source>
+          <target state="new">On Windows 8.1 and Windows 8, the Windows PowerShell 2.0 Engine feature is turned on by default.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, to use it, you need to turn on the option for Microsoft .NET Framework 3.5, which it requires.</source>
+          <target state="new">However, to use it, you need to turn on the option for Microsoft .NET Framework 3.5, which it requires.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This section also explains how to turn the Windows PowerShell 2.0 Engine feature on and off.</source>
+          <target state="new">This section also explains how to turn the Windows PowerShell 2.0 Engine feature on and off.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To turn on .NET Framework 3.5</source>
+          <target state="new">To turn on .NET Framework 3.5</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type <bpt id="p2">**</bpt>Windows Features<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type <bpt id="p2">**</bpt>Windows Features<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> bar, click <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Turn Windows features on or off<ept id="p3">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> bar, click <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Turn Windows features on or off<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Windows Features<ept id="p1">**</ept> box, click <bpt id="p2">**</bpt>.NET Framework 3.5 (includes .NET 2.0 and 3.0<ept id="p2">**</ept> to select it.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Windows Features<ept id="p1">**</ept> box, click <bpt id="p2">**</bpt>.NET Framework 3.5 (includes .NET 2.0 and 3.0<ept id="p2">**</ept> to select it.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When you select <bpt id="p1">**</bpt>.NET Framework 3.5 (includes .NET 2.0 and 3.0<ept id="p1">**</ept>, the box fills to indicate that only part of the feature is selected.</source>
+          <target state="new">When you select <bpt id="p1">**</bpt>.NET Framework 3.5 (includes .NET 2.0 and 3.0<ept id="p1">**</ept>, the box fills to indicate that only part of the feature is selected.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>However, this is sufficient for the Windows PowerShell 2.0 Engine.</source>
+          <target state="new">However, this is sufficient for the Windows PowerShell 2.0 Engine.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To turn the Windows PowerShell 2.0 Engine on and off</source>
+          <target state="new">To turn the Windows PowerShell 2.0 Engine on and off</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type <bpt id="p2">**</bpt>Windows Features<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> screen, type <bpt id="p2">**</bpt>Windows Features<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> bar, click <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Turn Windows features on or off<ept id="p3">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> bar, click <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Turn Windows features on or off<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Windows Features<ept id="p1">**</ept> box, expand the <bpt id="p2">**</bpt>Windows PowerShell 2.0<ept id="p2">**</ept> node, and click the <bpt id="p3">**</bpt>Windows PowerShell 2.0 Engine<ept id="p3">**</ept> box to select or clear it.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Windows Features<ept id="p1">**</ept> box, expand the <bpt id="p2">**</bpt>Windows PowerShell 2.0<ept id="p2">**</ept> node, and click the <bpt id="p3">**</bpt>Windows PowerShell 2.0 Engine<ept id="p3">**</ept> box to select or clear it.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>On Windows Server 2012 R2 and Windows Server 2012</source>
+          <target state="new">On Windows Server 2012 R2 and Windows Server 2012</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Use the following procedures to add the Windows PowerShell 2.0 Engine and Microsoft .NET Framework 3.5 features.</source>
+          <target state="new">Use the following procedures to add the Windows PowerShell 2.0 Engine and Microsoft .NET Framework 3.5 features.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine requires Microsoft .NET Framework 2.0.50727 at a minimum.</source>
+          <target state="new">The Windows PowerShell 2.0 Engine requires Microsoft .NET Framework 2.0.50727 at a minimum.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This requirement is fulfilled by Microsoft .NET Framework 3.5.</source>
+          <target state="new">This requirement is fulfilled by Microsoft .NET Framework 3.5.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To add the .NET Framework 3.5 feature</source>
+          <target state="new">To add the .NET Framework 3.5 feature</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, from the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> menu, select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</source>
+          <target state="new">In <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, from the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> menu, select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Or in <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>All Servers<ept id="p2">**</ept>, right-click a server name, and then select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</source>
+          <target state="new">Or in <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>All Servers<ept id="p2">**</ept>, right-click a server name, and then select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Installation Type<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Role-based or feature-based installation<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Installation Type<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Role-based or feature-based installation<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Features<ept id="p1">**</ept> page, expand the <bpt id="p2">**</bpt>.NET 3.5 Framework Features<ept id="p2">**</ept> node and select <bpt id="p3">**</bpt>.NET Framework 3.5 (includes .NET 2.0 and 3.0)<ept id="p3">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Features<ept id="p1">**</ept> page, expand the <bpt id="p2">**</bpt>.NET 3.5 Framework Features<ept id="p2">**</ept> node and select <bpt id="p3">**</bpt>.NET Framework 3.5 (includes .NET 2.0 and 3.0)<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The other options under that node are not required for the Windows PowerShell 2.0 Engine.</source>
+          <target state="new">The other options under that node are not required for the Windows PowerShell 2.0 Engine.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To add the Windows PowerShell 2.0 Engine feature</source>
+          <target state="new">To add the Windows PowerShell 2.0 Engine feature</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, from the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> menu, select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</source>
+          <target state="new">In <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, from the <bpt id="p2">**</bpt>Manage<ept id="p2">**</ept> menu, select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Or <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>All Servers<ept id="p2">**</ept>, right-click a server name, and then select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</source>
+          <target state="new">Or <bpt id="p1">**</bpt>Server Manager<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>All Servers<ept id="p2">**</ept>, right-click a server name, and then select <bpt id="p3">**</bpt>Add Roles and Features<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Installation Type<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Role-based or feature-based installation<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Installation Type<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Role-based or feature-based installation<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Features<ept id="p1">**</ept> page, expand the <bpt id="p2">**</bpt>Windows PowerShell (Installed)<ept id="p2">**</ept> node and select <bpt id="p3">**</bpt>Windows PowerShell 2.0 Engine<ept id="p3">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Features<ept id="p1">**</ept> page, expand the <bpt id="p2">**</bpt>Windows PowerShell (Installed)<ept id="p2">**</ept> node and select <bpt id="p3">**</bpt>Windows PowerShell 2.0 Engine<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For information about starting the Windows PowerShell 2.0 Engine, see <bpt id="p1">[</bpt>Starting the Windows PowerShell 2.0 Engine<ept id="p1">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept>.</source>
+          <target state="new">For information about starting the Windows PowerShell 2.0 Engine, see <bpt id="p1">[</bpt>Starting the Windows PowerShell 2.0 Engine<ept id="p1">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>On Earlier Systems</source>
+          <target state="new">On Earlier Systems</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Windows Management Framework 4.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=293881)</ept> package that installs Windows PowerShell 4.0 on Windows 7, Windows Server 2008 R2, and Windows Server 2012, includes the Windows PowerShell 2.0 Engine.</source>
+          <target state="new">The <bpt id="p1">[</bpt>Windows Management Framework 4.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=293881)</ept> package that installs Windows PowerShell 4.0 on Windows 7, Windows Server 2008 R2, and Windows Server 2012, includes the Windows PowerShell 2.0 Engine.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine is enabled and ready to use, if necessary, without additional installation, setup, or configuration.</source>
+          <target state="new">The Windows PowerShell 2.0 Engine is enabled and ready to use, if necessary, without additional installation, setup, or configuration.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The Windows Management Framework 3.0 package that installs Windows PowerShell 3.0 on Windows 7, Windows Server 2008 R2, and Windows Server 2008, includes the Windows PowerShell 2.0 Engine.</source>
+          <target state="new">The Windows Management Framework 3.0 package that installs Windows PowerShell 3.0 on Windows 7, Windows Server 2008 R2, and Windows Server 2008, includes the Windows PowerShell 2.0 Engine.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell 2.0 Engine is enabled and ready to use, if necessary, without additional installation, setup, or configuration.</source>
+          <target state="new">The Windows PowerShell 2.0 Engine is enabled and ready to use, if necessary, without additional installation, setup, or configuration.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell System Requirements<ept id="p1">](Windows-PowerShell-System-Requirements.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Installing Windows PowerShell<ept id="p2">](Installing-Windows-PowerShell.md)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Starting Windows PowerShell [ps]<ept id="p3">](https://technet.microsoft.com/en-us/library/8ec8c2d7-8e7c-4722-a3d2-498fe5739a8e)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Starting the Windows PowerShell 2.0 Engine<ept id="p4">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PowerShell System Requirements<ept id="p1">](Windows-PowerShell-System-Requirements.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Installing Windows PowerShell<ept id="p2">](Installing-Windows-PowerShell.md)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>Starting Windows PowerShell [ps]<ept id="p3">](https://technet.microsoft.com/en-us/library/8ec8c2d7-8e7c-4722-a3d2-498fe5739a8e)</ept><ph id="ph3">
+</ph><bpt id="p4">[</bpt>Starting the Windows PowerShell 2.0 Engine<ept id="p4">](Starting-the-Windows-PowerShell-2.0-Engine.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

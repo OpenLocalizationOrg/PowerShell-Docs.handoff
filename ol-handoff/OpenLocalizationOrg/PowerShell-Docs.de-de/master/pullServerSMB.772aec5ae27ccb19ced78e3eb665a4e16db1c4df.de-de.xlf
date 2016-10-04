@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ab0c155299b2baaf901646f4fdd69133e9ed0ca</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\pullServerSMB.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0282c1c507cd4f4f472770d7c84185c673003aea</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ff2bb8262522022de5477e1f9101213c0997a44</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC SMB pull server</source>
+          <target state="new">Setting up a DSC SMB pull server</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Setting up a DSC SMB pull server</source>
+          <target state="new">Setting up a DSC SMB pull server</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A DSC <bpt id="p1">[</bpt>SMB<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831795.aspx)</ept> pull server is an SMB file share that makes DSC configuration files and/or DSC resources available to target nodes when those nodes ask for them.</source>
+          <target state="new">A DSC <bpt id="p1">[</bpt>SMB<ept id="p1">](https://technet.microsoft.com/en-us/library/hh831795.aspx)</ept> pull server is an SMB file share that makes DSC configuration files and/or DSC resources available to target nodes when those nodes ask for them.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To use an SMB pull server for DSC, you have to:</source>
+          <target state="new">To use an SMB pull server for DSC, you have to:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Set up an SMB file share on a server running PowerShell 4.0 or higher</source>
+          <target state="new">Set up an SMB file share on a server running PowerShell 4.0 or higher</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Configure a client running PowerShell 4.0 or higher to pull from that SMB share</source>
+          <target state="new">Configure a client running PowerShell 4.0 or higher to pull from that SMB share</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Using the xSmbShare resource to create an SMB file share</source>
+          <target state="new">Using the xSmbShare resource to create an SMB file share</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>There are a number of ways to set up an SMB file share, but let's look at how you can do this by using DSC.</source>
+          <target state="new">There are a number of ways to set up an SMB file share, but let's look at how you can do this by using DSC.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Install the xSmbShare resource</source>
+          <target state="new">Install the xSmbShare resource</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Call the <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to install the <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> module.</source>
+          <target state="new">Call the <bpt id="p1">[</bpt>Install-Module<ept id="p1">](https://technet.microsoft.com/en-us/library/dn807162.aspx)</ept> cmdlet to install the <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> module.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Install-Module<ept id="p2">**</ept> is included in the <bpt id="p3">**</bpt>PowerShellGet<ept id="p3">**</ept> module, which is included in PowerShell 5.0.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</source>
+          <target state="new">You can download the <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module for PowerShell 3.0 and 4.0 at <bpt id="p2">[</bpt>PackageManagement PowerShell Modules Preview<ept id="p2">](https://www.microsoft.com/en-us/download/details.aspx?id=49186)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>xSmbShare<ept id="p1">**</ept> contains the DSC resource <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept>, which can be used to create an SMB file share.</source>
+          <target state="new">The <bpt id="p1">**</bpt>xSmbShare<ept id="p1">**</ept> contains the DSC resource <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept>, which can be used to create an SMB file share.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Create the directory and file share</source>
+          <target state="new">Create the directory and file share</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following configuration uses the <bpt id="p1">[</bpt>File<ept id="p1">](fileResource.md)</ept> resource to create the directory for the share, and the <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> resource to set up the SMB share:</source>
+          <target state="new">The following configuration uses the <bpt id="p1">[</bpt>File<ept id="p1">](fileResource.md)</ept> resource to create the directory for the share, and the <bpt id="p2">**</bpt>xSmbShare<ept id="p2">**</ept> resource to set up the SMB share:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The configuration creates the directory <ph id="ph1">`C:\DscSmbShare`</ph> if it doesn't already exists, and then uses that directory as an SMB file share.</source>
+          <target state="new">The configuration creates the directory <ph id="ph1">`C:\DscSmbShare`</ph> if it doesn't already exists, and then uses that directory as an SMB file share.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>FullAccess<ept id="p1">**</ept> should be given to any account that needs to write to or delete from the file share, and <bpt id="p2">**</bpt>ReadAccess<ept id="p2">**</ept> must be given to any client nodes that will get configurations and/or DSC resources from the share ( this is because DSC runs as the system account by default, so the computer itself has to have access to the share).</source>
+          <target state="new"><bpt id="p1">**</bpt>FullAccess<ept id="p1">**</ept> should be given to any account that needs to write to or delete from the file share, and <bpt id="p2">**</bpt>ReadAccess<ept id="p2">**</ept> must be given to any client nodes that will get configurations and/or DSC resources from the share ( this is because DSC runs as the system account by default, so the computer itself has to have access to the share).</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Give file system access to the pull client</source>
+          <target state="new">Give file system access to the pull client</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Giving <bpt id="p1">**</bpt>ReadAccess<ept id="p1">**</ept> to a client node allows that node to access the SMB share, but not to files or folders within that share.</source>
+          <target state="new">Giving <bpt id="p1">**</bpt>ReadAccess<ept id="p1">**</ept> to a client node allows that node to access the SMB share, but not to files or folders within that share.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You have to explicitly grant client nodes access to the SMB share folder and sub-folders.</source>
+          <target state="new">You have to explicitly grant client nodes access to the SMB share folder and sub-folders.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>We can do this with DSC by adding using the <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> resource, which is contained in the <bpt id="p2">[</bpt>CNtfsAccessControl<ept id="p2">](https://www.powershellgallery.com/packages/cNtfsAccessControl/1.2.0)</ept> module.</source>
+          <target state="new">We can do this with DSC by adding using the <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> resource, which is contained in the <bpt id="p2">[</bpt>CNtfsAccessControl<ept id="p2">](https://www.powershellgallery.com/packages/cNtfsAccessControl/1.2.0)</ept> module.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The following configuration adds a <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> block that grants ReadAndExecute access to the pull client:</source>
+          <target state="new">The following configuration adds a <bpt id="p1">**</bpt>cNtfsPermissionEntry<ept id="p1">**</ept> block that grants ReadAndExecute access to the pull client:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Placing configurations and resources</source>
+          <target state="new">Placing configurations and resources</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Save any configuration MOF files and/or DSC resources that you want client nodes to pull in the SMB share folder.</source>
+          <target state="new">Save any configuration MOF files and/or DSC resources that you want client nodes to pull in the SMB share folder.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Any configuration MOF file must be named <bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept>.mof, where <bpt id="p2">_</bpt>ConfigurationID<ept id="p2">_</ept> is the value of the <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept> property of the target node's LCM.</source>
+          <target state="new">Any configuration MOF file must be named <bpt id="p1">_</bpt>ConfigurationID<ept id="p1">_</ept>.mof, where <bpt id="p2">_</bpt>ConfigurationID<ept id="p2">_</ept> is the value of the <bpt id="p3">**</bpt>ConfigurationID<ept id="p3">**</ept> property of the target node's LCM.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information about setting up pull clients, see <bpt id="p1">[</bpt>Setting up a pull client using configuration ID<ept id="p1">](pullClientConfigID.md)</ept>.</source>
+          <target state="new">For more information about setting up pull clients, see <bpt id="p1">[</bpt>Setting up a pull client using configuration ID<ept id="p1">](pullClientConfigID.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> You must use configuration IDs if you are using an SMB pull server.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> You must use configuration IDs if you are using an SMB pull server.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Configuration names are not supported for SMB.</source>
+          <target state="new">Configuration names are not supported for SMB.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Any resources needed by the client must be placed in the SMB share folder as archived <ph id="ph1">`.zip`</ph> files.</source>
+          <target state="new">Any resources needed by the client must be placed in the SMB share folder as archived <ph id="ph1">`.zip`</ph> files.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Creating the MOF checksum</source>
+          <target state="new">Creating the MOF checksum</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</source>
+          <target state="new">A configuration MOF file needs to be paired with a checksum file so that an LCM on a target node can validate the configuration.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</source>
+          <target state="new">To create a checksum, call the <bpt id="p1">[</bpt>New-DSCCheckSum<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521622.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</source>
+          <target state="new">The cmdlet takes a <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter that specifies the folder where the configuration MOF is located.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</source>
+          <target state="new">The cmdlet creates a checksum file named <ph id="ph1">`ConfigurationMOFName.mof.checksum`</ph>, where <ph id="ph2">`ConfigurationMOFName`</ph> is the name of the configuration mof file.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</source>
+          <target state="new">If there are more than one configuration MOF files in the specified folder, a checksum is created for each configuration in the folder.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph2">`.checksum`</ph> extension appended.</source>
+          <target state="new">The checksum file must be present in the same directory as the configuration MOF file (<ph id="ph1">`$env:PROGRAMFILES\WindowsPowerShell\DscService\Configuration`</ph> by default), and have the same name with the <ph id="ph2">`.checksum`</ph> extension appended.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: If you change the configuration MOF file in any way, you must also recreate the checksum file.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Acknowledgements</source>
+          <target state="new">Acknowledgements</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Special thanks to the following:</source>
+          <target state="new">Special thanks to the following:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Mike F. Robbins, whose posts on using SMB for DSC helped inform the content in this topic.</source>
+          <target state="new">Mike F. Robbins, whose posts on using SMB for DSC helped inform the content in this topic.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>His blog is at <bpt id="p1">[</bpt>Mike F Robbins<ept id="p1">](http://mikefrobbins.com/)</ept>.</source>
+          <target state="new">His blog is at <bpt id="p1">[</bpt>Mike F Robbins<ept id="p1">](http://mikefrobbins.com/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Serge Nikalaichyk, who authored the <bpt id="p1">**</bpt>cNtfsAccessControl<ept id="p1">**</ept> module.</source>
+          <target state="new">Serge Nikalaichyk, who authored the <bpt id="p1">**</bpt>cNtfsAccessControl<ept id="p1">**</ept> module.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The source for this module is at https://github.com/SNikalaichyk/cNtfsAccessControl.</source>
+          <target state="new">The source for this module is at https://github.com/SNikalaichyk/cNtfsAccessControl.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="new">See also</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Overview<ept id="p1">](overview.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Overview<ept id="p1">](overview.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Enacting configurations<ept id="p1">](enactingConfigurations.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Enacting configurations<ept id="p1">](enactingConfigurations.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Setting up a pull client using configuration ID<ept id="p1">](pullClientConfigID.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Setting up a pull client using configuration ID<ept id="p1">](pullClientConfigID.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

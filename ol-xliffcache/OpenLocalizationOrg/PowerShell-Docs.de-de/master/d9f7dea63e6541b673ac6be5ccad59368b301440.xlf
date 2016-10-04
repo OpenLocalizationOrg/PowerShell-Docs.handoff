@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9f7dea63e6541b673ac6be5ccad59368b301440</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\Improved-PullServer-Registration.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">46cc211b18e56b20e362f6bf95cb3acf4c5acc2a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0824a82eae690f0a69fd35aeea090889cb16ae28</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Improved Pull Server Registrations</source>
+          <target state="new">Improved Pull Server Registrations</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Improved Pull Server Registration</source>
+          <target state="new">Improved Pull Server Registration</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the earlier versions of WMF, simulataneous registrations/reporting requests to DSC Pull Server while using the ESENT database would lead to LCM failing to register and/or report as the case may be.</source>
+          <target state="new">In the earlier versions of WMF, simulataneous registrations/reporting requests to DSC Pull Server while using the ESENT database would lead to LCM failing to register and/or report as the case may be.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In such cases, the event logs on the Pull Server will have the error "Instance Name already in use."</source>
+          <target state="new">In such cases, the event logs on the Pull Server will have the error "Instance Name already in use."</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This was due to an incorrect pattern being used to access the ESENT database in a multi threaded scenario.</source>
+          <target state="new">This was due to an incorrect pattern being used to access the ESENT database in a multi threaded scenario.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, this issue has been fixed.</source>
+          <target state="new">In WMF 5.1, this issue has been fixed.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Concurrent registrations or reporting (involving ESENT database) will work fine in WMF 5.1.</source>
+          <target state="new">Concurrent registrations or reporting (involving ESENT database) will work fine in WMF 5.1.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This issue is applicable only to the ESENT database and does not apply to the OLEDB database.</source>
+          <target state="new">This issue is applicable only to the ESENT database and does not apply to the OLEDB database.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

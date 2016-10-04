@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad412fd3480d98e660562a27963b45d42afc5737</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\script\psget_find-script.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">196fc233bc7cb2a51a01a53b169015b647cd2902</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d093b53f765da80a6639264c21320875c8c85297</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Find-Script</source>
+          <target state="new">Find-Script</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Finds the PowerShell script files from an online gallery that match specified criteria.</source>
+          <target state="new">Finds the PowerShell script files from an online gallery that match specified criteria.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Find-Script discovers the script files from registered repositories that matches the specified criteria.</source>
+          <target state="new">Find-Script discovers the script files from registered repositories that matches the specified criteria.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For each script found, Find-Script returns a PSRepositoryItemInfo object which can optionally be piped to Install-Script for installing the scripts.</source>
+          <target state="new">For each script found, Find-Script returns a PSRepositoryItemInfo object which can optionally be piped to Install-Script for installing the scripts.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Find-Script cmdlet lets you to discover the script files with different search criteria like name, tag, filter, command name, version range, exact version, all versions, including its dependencies and from specific or all registered repositories.</source>
+          <target state="new">Find-Script cmdlet lets you to discover the script files with different search criteria like name, tag, filter, command name, version range, exact version, all versions, including its dependencies and from specific or all registered repositories.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Find-Script can filter based on script contents with the -Command and -Includes parameters.</source>
+          <target state="new">Find-Script can filter based on script contents with the -Command and -Includes parameters.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Find-Script can filter with version parameters: MinimumVersion, MaximumVersion, RequiredVersion, AllVersions.</source>
+          <target state="new">Find-Script can filter with version parameters: MinimumVersion, MaximumVersion, RequiredVersion, AllVersions.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These parameters are mutually exclusive, except MinmimumVersion and MaximumVersion.</source>
+          <target state="new">These parameters are mutually exclusive, except MinmimumVersion and MaximumVersion.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These version parameters are allowed only with the single script name without any wildcards.</source>
+          <target state="new">These version parameters are allowed only with the single script name without any wildcards.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the RequiredVersion parameter is not specified, Find-Script returns the latest version of the script that is equal to or greater than the minimum version specified or the latest version of the script if no minimum version is specified.</source>
+          <target state="new">If the RequiredVersion parameter is not specified, Find-Script returns the latest version of the script that is equal to or greater than the minimum version specified or the latest version of the script if no minimum version is specified.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the RequiredVersion parameter is specified, Find-Script only returns the version of script that exactly matches the specified version.</source>
+          <target state="new">If the RequiredVersion parameter is specified, Find-Script only returns the version of script that exactly matches the specified version.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Find-Script can filter on script metadata with the -Tag parameter.</source>
+          <target state="new">Find-Script can filter on script metadata with the -Tag parameter.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Find-Script can filter on repository-specific search language with the -Filter parameter.</source>
+          <target state="new">Find-Script can filter on repository-specific search language with the -Filter parameter.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Find-Script can filter on scripts from all or few of the registered repositories.</source>
+          <target state="new">Find-Script can filter on scripts from all or few of the registered repositories.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NOTE:<ept id="p1">**</ept> Registered PSRepository should have a valid ScriptSourceLocation.</source>
+          <target state="new"><bpt id="p1">**</bpt>NOTE:<ept id="p1">**</ept> Registered PSRepository should have a valid ScriptSourceLocation.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can use the Set-PSRepository to set ScriptSourceLocation value.</source>
+          <target state="new">You can use the Set-PSRepository to set ScriptSourceLocation value.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Cmdlet syntax</source>
+          <target state="new">Cmdlet syntax</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Cmdlet online help reference</source>
+          <target state="new">Cmdlet online help reference</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Find-Script<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=619785)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Find-Script<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=619785)</ept></target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example commands</source>
+          <target state="new">Example commands</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

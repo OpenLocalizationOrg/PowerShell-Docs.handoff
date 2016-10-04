@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">35cdbfab22a0fa00480012fed0a2cf32ffa11f8d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\limitation_overview.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b6245b337aeadf8b880bd1df510ca9c7861dbef9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">99b8cca2c1f02fa465a4aa40bd77ea8eb40f6623</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Known Issues and Limitations</source>
+          <target state="new">Known Issues and Limitations</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell Shortcuts are broken when used for the first time</source>
+          <target state="new">PowerShell Shortcuts are broken when used for the first time</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Perform one of the following actions:</source>
+          <target state="new"><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Perform one of the following actions:</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Right click on the PowerShell shortcut.</source>
+          <target state="new">Right click on the PowerShell shortcut.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Select “Windows PowerShell” to launch in a non-elevated mode.</source>
+          <target state="new">Select “Windows PowerShell” to launch in a non-elevated mode.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Right click on the PowerShell shortcut.</source>
+          <target state="new">Right click on the PowerShell shortcut.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Right click on “Windows PowerShell” and select “Run As Administrator” to launch in an elevated mode.</source>
+          <target state="new">Right click on “Windows PowerShell” and select “Run As Administrator” to launch in an elevated mode.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Once you have performed either of the above actions, the PowerShell shortcuts will work.</source>
+          <target state="new">Once you have performed either of the above actions, the PowerShell shortcuts will work.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These actions need to be performed only once.</source>
+          <target state="new">These actions need to be performed only once.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>PowerShell Modules and DSC Resources report errors about ExecutionPolicy on Windows 7</source>
+          <target state="new">PowerShell Modules and DSC Resources report errors about ExecutionPolicy on Windows 7</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>On Windows 7, the use of PowerShell modules and DSC resources may result in errors reported about ExecutionPolicy.</source>
+          <target state="new">On Windows 7, the use of PowerShell modules and DSC resources may result in errors reported about ExecutionPolicy.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Set the ExecutionPolicy to RemoteSigned by running the following command in an elevated PowerShell session (Run as Administrator):</source>
+          <target state="new"><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Set the ExecutionPolicy to RemoteSigned by running the following command in an elevated PowerShell session (Run as Administrator):</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Connecting to an old remote Exchange endpoint causes a crash</source>
+          <target state="new">Connecting to an old remote Exchange endpoint causes a crash</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The old Exchange endpoint redirects to a new endpoint.</source>
+          <target state="new">The old Exchange endpoint redirects to a new endpoint.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>There is a bug in the redirection logic that results in a crash.</source>
+          <target state="new">There is a bug in the redirection logic that results in a crash.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Connect directly to the new endpoint.</source>
+          <target state="new"><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Connect directly to the new endpoint.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Software Inventory Logging feature is erroneously stopped after WMF 5.0 installation on Windows Server 2012 R2</source>
+          <target state="new">Software Inventory Logging feature is erroneously stopped after WMF 5.0 installation on Windows Server 2012 R2</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When installing WMF 5.0 on a Windows Server 2012 R2 that is already running SIL, the Software Inventory Logging feature is erroneously stopped after installation.</source>
+          <target state="new">When installing WMF 5.0 on a Windows Server 2012 R2 that is already running SIL, the Software Inventory Logging feature is erroneously stopped after installation.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Run the Start-SilLogging cmdlet once after the WMF installation, as the installation process will errantly stop the Software Inventory Logging feature.</source>
+          <target state="new"><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Run the Start-SilLogging cmdlet once after the WMF installation, as the installation process will errantly stop the Software Inventory Logging feature.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Get-ChildItem does not work if -LiteralPath and -Recurse are used together</source>
+          <target state="new">Get-ChildItem does not work if -LiteralPath and -Recurse are used together</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If a directory name contains an invalid wildcard character, then Get-ChildItem will not produce expected results when both -LiteralPath and -Recurse are used together.</source>
+          <target state="new">If a directory name contains an invalid wildcard character, then Get-ChildItem will not produce expected results when both -LiteralPath and -Recurse are used together.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Not ideal, but current workaround is to implement recursion in the script rather than rely on the cmdlet.</source>
+          <target state="new"><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept> Not ideal, but current workaround is to implement recursion in the script rather than rely on the cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Sysprep fails after WMF 5.0 installation</source>
+          <target state="new">Sysprep fails after WMF 5.0 installation</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>There are two workarounds for this issue depending on the version of Windows Server you are running.</source>
+          <target state="new">There are two workarounds for this issue depending on the version of Windows Server you are running.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Resolution:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For systems running <bpt id="p1">**</bpt>Windows Server 2008 R2<ept id="p1">**</ept></source>
+          <target state="new">For systems running <bpt id="p1">**</bpt>Windows Server 2008 R2<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Open Powershell as an administrator</source>
+          <target state="new">Open Powershell as an administrator</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Run the following command</source>
+          <target state="new">Run the following command</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Run the command and ignore the error, as they are expected.</source>
+          <target state="new">Run the command and ignore the error, as they are expected.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Delete the files in  \Windows\System32\Logfiles\SIL\ directory</source>
+          <target state="new">Delete the files in  \Windows\System32\Logfiles\SIL\ directory</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Install all available important Windows Updates, and begin Sysyprep operation normally.</source>
+          <target state="new">Install all available important Windows Updates, and begin Sysyprep operation normally.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For systems running <bpt id="p1">**</bpt>Windows Server 2012<ept id="p1">**</ept></source>
+          <target state="new">For systems running <bpt id="p1">**</bpt>Windows Server 2012<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>After installing WMF 5.0 on the server to be Sysprep’d, login as administrator.</source>
+          <target state="new">After installing WMF 5.0 on the server to be Sysprep’d, login as administrator.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Copy Generize.xml from directory \Windows\System32\Sysprep\ActionFiles\ to a location outside of the Windows directory, C:\ for example.</source>
+          <target state="new">Copy Generize.xml from directory \Windows\System32\Sysprep\ActionFiles\ to a location outside of the Windows directory, C:\ for example.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Open your Generalize.xml copy with notepad.</source>
+          <target state="new">Open your Generalize.xml copy with notepad.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Find and remove the following text, one instance of each needs to be deleted (they will be near the end of the document).</source>
+          <target state="new">Find and remove the following text, one instance of each needs to be deleted (they will be near the end of the document).</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Save the edited copy of Generalize.xml and close the file.</source>
+          <target state="new">Save the edited copy of Generalize.xml and close the file.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Open a command prompt as administrator</source>
+          <target state="new">Open a command prompt as administrator</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Run the following command to take ownership of the Generalize.xml file in system32 folder:</source>
+          <target state="new">Run the following command to take ownership of the Generalize.xml file in system32 folder:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Run the following command to set appropriate permission on the file:</source>
+          <target state="new">Run the following command to set appropriate permission on the file:</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Answer Yes at the prompt for confirmation.</source>
+          <target state="new">Answer Yes at the prompt for confirmation.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Note that <ph id="ph1">`&lt;AdministratorUserName&gt;`</ph> should be replaced by the username who is administrator on the machine.</source>
+          <target state="new">Note that <ph id="ph1">`&lt;AdministratorUserName&gt;`</ph> should be replaced by the username who is administrator on the machine.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, "Administrator".</source>
+          <target state="new">For example, "Administrator".</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Copy the file you edited and saved over to the Sysprep directory using the following command:</source>
+          <target state="new">Copy the file you edited and saved over to the Sysprep directory using the following command:</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Answer Yes to overwrite (note that if there is no prompt to overwrite, double check the path entered).</source>
+          <target state="new">Answer Yes to overwrite (note that if there is no prompt to overwrite, double check the path entered).</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Assumes your edited copy of Generalize.xml was copied to C:\ .</source>
+          <target state="new">Assumes your edited copy of Generalize.xml was copied to C:\ .</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Generalize.xml is now updated with the workaround.</source>
+          <target state="new">Generalize.xml is now updated with the workaround.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Please run Sysprep with the generalize option enabled.</source>
+          <target state="new">Please run Sysprep with the generalize option enabled.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

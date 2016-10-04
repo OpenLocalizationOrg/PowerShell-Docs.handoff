@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8849fb46853f12318dd34781d07085419737d196</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\odata_overview.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac8bb67d9fc0c0788ea985edbb6163a4f278684c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">39a098d8a426074d4343ffca3abe85867a3abbb1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Generate PowerShell Cmdlets based on OData Endpoint</source>
+          <target state="new">Generate PowerShell Cmdlets based on OData Endpoint</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Generate Windows PowerShell cmdlets based on an OData endpoint</source>
+          <target state="new">Generate Windows PowerShell cmdlets based on an OData endpoint</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> is a cmdlet that generates a set of Windows PowerShell cmdlets based on the functionality exposed by a given OData endpoint.</source>
+          <target state="new"><bpt id="p1">**</bpt>Export-ODataEndpointProxy<ept id="p1">**</ept> is a cmdlet that generates a set of Windows PowerShell cmdlets based on the functionality exposed by a given OData endpoint.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The following example shows how to use this new cmdlet:</source>
+          <target state="new">The following example shows how to use this new cmdlet:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>\# Basic use case of Export-ODataEndpointProxy</source>
+          <target state="new">\# Basic use case of Export-ODataEndpointProxy</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are still parts of key use cases in development for this functionality, including, but not limited to:</source>
+          <target state="new">There are still parts of key use cases in development for this functionality, including, but not limited to:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Associations</source>
+          <target state="new">Associations</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Passing streams</source>
+          <target state="new">Passing streams</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Generate Windows PowerShell cmdlets based on an OData endpoint with ODataUtils</source>
+          <target state="new">Generate Windows PowerShell cmdlets based on an OData endpoint with ODataUtils</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The ODataUtils module allows generation of Windows PowerShell cmdlets from REST endpoints that support OData.</source>
+          <target state="new">The ODataUtils module allows generation of Windows PowerShell cmdlets from REST endpoints that support OData.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following incremental enhancements are in the Microsoft.PowerShell.ODataUtils Windows PowerShell module.</source>
+          <target state="new">The following incremental enhancements are in the Microsoft.PowerShell.ODataUtils Windows PowerShell module.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Channel additional information from server-side endpoint to client side.</source>
+          <target state="new">Channel additional information from server-side endpoint to client side.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Client-side paging support</source>
+          <target state="new">Client-side paging support</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Server-side filtering by using the -Select parameter</source>
+          <target state="new">Server-side filtering by using the -Select parameter</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Support for web request headers</source>
+          <target state="new">Support for web request headers</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The proxy cmdlets generated by the Export-ODataEndPointProxy cmdlet provide additional information (not mentioned in the $metadata used during the client-side proxy generation) from the server side OData endpoint on the Information stream (a new Windows PowerShell 5.0 feature).</source>
+          <target state="new">The proxy cmdlets generated by the Export-ODataEndPointProxy cmdlet provide additional information (not mentioned in the $metadata used during the client-side proxy generation) from the server side OData endpoint on the Information stream (a new Windows PowerShell 5.0 feature).</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Here is an example of how to get that information.</source>
+          <target state="new">Here is an example of how to get that information.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can get the records from the server side in batches by using client-side paging support.</source>
+          <target state="new">You can get the records from the server side in batches by using client-side paging support.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is useful when you must get a large amount of data from the server over the network.</source>
+          <target state="new">This is useful when you must get a large amount of data from the server over the network.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The generated proxy cmdlets support the –Select parameter which you can use as a filter to receive only the record properties that the client needs.</source>
+          <target state="new">The generated proxy cmdlets support the –Select parameter which you can use as a filter to receive only the record properties that the client needs.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This reduces the amount of data that is transferred over the network, because the filtering occurs on the server side.</source>
+          <target state="new">This reduces the amount of data that is transferred over the network, because the filtering occurs on the server side.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The Export-ODataEndpointProxy cmdlet, and the proxy cmdlets generated by it, now support the Headers parameter (supply values as a hash table), which you can use to channel any additional information that is expected by the server-side OData endpoint.</source>
+          <target state="new">The Export-ODataEndpointProxy cmdlet, and the proxy cmdlets generated by it, now support the Headers parameter (supply values as a hash table), which you can use to channel any additional information that is expected by the server-side OData endpoint.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the following example, you can channel a Subscription key through Headers for services that are expecting a Subscription key for authentication.</source>
+          <target state="new">In the following example, you can channel a Subscription key through Headers for services that are expecting a Subscription key for authentication.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

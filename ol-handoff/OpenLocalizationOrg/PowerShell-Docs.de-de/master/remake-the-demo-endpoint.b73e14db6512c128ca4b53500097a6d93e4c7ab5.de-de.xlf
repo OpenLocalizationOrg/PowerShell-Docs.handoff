@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acd2cfbd038250a26236c875d0e8b03a32cd84f9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\remake-the-demo-endpoint.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15ab201b99085866bba286bd82752dfcd0159064</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12900c0b16678ea46d9eb6f8fb4c502d33d60421</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="new">powershell,cmdlet,jea</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>remake the demo endpoint</source>
+          <target state="new">remake the demo endpoint</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Remake the Demo Endpoint</source>
+          <target state="new">Remake the Demo Endpoint</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this section, you will learn how to generate an exact replica of the demo endpoint you used in the above section.</source>
+          <target state="new">In this section, you will learn how to generate an exact replica of the demo endpoint you used in the above section.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This will introduce core concepts that are necessary to understand JEA, including PowerShell Session Configurations and Role Capabilities.</source>
+          <target state="new">This will introduce core concepts that are necessary to understand JEA, including PowerShell Session Configurations and Role Capabilities.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>PowerShell Session Configurations</source>
+          <target state="new">PowerShell Session Configurations</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When you used JEA in the above section, you started by running the following command:</source>
+          <target state="new">When you used JEA in the above section, you started by running the following command:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>While most of the parameters are self-explanatory, the <bpt id="p1">*</bpt>ConfigurationName<ept id="p1">*</ept> parameter may seem confusing at first.</source>
+          <target state="new">While most of the parameters are self-explanatory, the <bpt id="p1">*</bpt>ConfigurationName<ept id="p1">*</ept> parameter may seem confusing at first.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>That parameter specified the PowerShell Session Configuration to which you were connecting.</source>
+          <target state="new">That parameter specified the PowerShell Session Configuration to which you were connecting.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>PowerShell Session Configuration<ept id="p1">*</ept> is a fancy term for a PowerShell endpoint.</source>
+          <target state="new"><bpt id="p1">*</bpt>PowerShell Session Configuration<ept id="p1">*</ept> is a fancy term for a PowerShell endpoint.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It is the figurative "place" where users connect and get access to PowerShell functionality.</source>
+          <target state="new">It is the figurative "place" where users connect and get access to PowerShell functionality.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Based on how you set up a Session Configuration, it can provide different functionality to connecting users.</source>
+          <target state="new">Based on how you set up a Session Configuration, it can provide different functionality to connecting users.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For JEA, we use Session Configurations to restrict PowerShell to a limited set of functionality and to run as a privileged virtual account.</source>
+          <target state="new">For JEA, we use Session Configurations to restrict PowerShell to a limited set of functionality and to run as a privileged virtual account.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You already have several registered PowerShell Session Configurations on your machine, each set up slightly differently.</source>
+          <target state="new">You already have several registered PowerShell Session Configurations on your machine, each set up slightly differently.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Most of them come with Windows, but the "JEA_Demo" Session Configuration was set up in the <bpt id="p1">[</bpt>prerequisites<ept id="p1">](prerequisites.md)</ept> section.</source>
+          <target state="new">Most of them come with Windows, but the "JEA_Demo" Session Configuration was set up in the <bpt id="p1">[</bpt>prerequisites<ept id="p1">](prerequisites.md)</ept> section.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can see all registered Session Configurations by running the following command in an Administrator PowerShell prompt:</source>
+          <target state="new">You can see all registered Session Configurations by running the following command in an Administrator PowerShell prompt:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>PowerShell Session Configuration Files</source>
+          <target state="new">PowerShell Session Configuration Files</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can make new Session Configurations by registering new <bpt id="p1">*</bpt>PowerShell Session Configuration Files<ept id="p1">*</ept>.</source>
+          <target state="new">You can make new Session Configurations by registering new <bpt id="p1">*</bpt>PowerShell Session Configuration Files<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Session Configuration Files have ".pssc" file extensions.</source>
+          <target state="new">Session Configuration Files have ".pssc" file extensions.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can generate Session Configuration Files with the New-PSSessionConfigurationFile cmdlet.</source>
+          <target state="new">You can generate Session Configuration Files with the New-PSSessionConfigurationFile cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Next, you are going to create and register a new Session Configuration for JEA.</source>
+          <target state="new">Next, you are going to create and register a new Session Configuration for JEA.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Generate and Modify your PowerShell Session Configuration</source>
+          <target state="new">Generate and Modify your PowerShell Session Configuration</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run the following command to generate a PowerShell Session Configuration "skeleton" file.</source>
+          <target state="new">Run the following command to generate a PowerShell Session Configuration "skeleton" file.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>TIP:<ept id="p1">**</ept> Only the most common configuration settings are included in the skeleton file by default.</source>
+          <target state="new"><bpt id="p1">**</bpt>TIP:<ept id="p1">**</ept> Only the most common configuration settings are included in the skeleton file by default.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`-Full`</ph> parameter to include all applicable settings in the generated PSSC.</source>
+          <target state="new">Use the <ph id="ph1">`-Full`</ph> parameter to include all applicable settings in the generated PSSC.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Open the file in PowerShell ISE, or your favorite text editor.</source>
+          <target state="new">Open the file in PowerShell ISE, or your favorite text editor.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Update the following fields in the file with the values below (remember to substitute in your own non-administrator security group):</source>
+          <target state="new">Update the following fields in the file with the values below (remember to substitute in your own non-administrator security group):</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Here is what each of those entries mean:</source>
+          <target state="new">Here is what each of those entries mean:</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>SessionType<ept id="p1">*</ept> field defines preset default settings to use with this endpoint.</source>
+          <target state="new">The <bpt id="p1">*</bpt>SessionType<ept id="p1">*</ept> field defines preset default settings to use with this endpoint.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> defines the minimal settings necessary for remote management.</source>
+          <target state="new"><bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> defines the minimal settings necessary for remote management.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>By default, a <bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> endpoint will expose Get-Command, Get-FormatData, Select-Object, Get-Help, Measure-Object, Exit-PSSession, Clear-Host, and Out-Default.</source>
+          <target state="new">By default, a <bpt id="p1">*</bpt>RestrictedRemoteServer<ept id="p1">*</ept> endpoint will expose Get-Command, Get-FormatData, Select-Object, Get-Help, Measure-Object, Exit-PSSession, Clear-Host, and Out-Default.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It will set the <bpt id="p1">*</bpt>ExecutionPolicy<ept id="p1">*</ept> to <bpt id="p2">*</bpt>RemoteSigned<ept id="p2">*</ept>, and the <bpt id="p3">*</bpt>LanguageMode<ept id="p3">*</ept> to <bpt id="p4">*</bpt>NoLanguage<ept id="p4">*</ept>.</source>
+          <target state="new">It will set the <bpt id="p1">*</bpt>ExecutionPolicy<ept id="p1">*</ept> to <bpt id="p2">*</bpt>RemoteSigned<ept id="p2">*</ept>, and the <bpt id="p3">*</bpt>LanguageMode<ept id="p3">*</ept> to <bpt id="p4">*</bpt>NoLanguage<ept id="p4">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The net effect of these settings is a secure and minimal starting point for configuring your endpoint.</source>
+          <target state="new">The net effect of these settings is a secure and minimal starting point for configuring your endpoint.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>RoleDefinitions<ept id="p1">*</ept> field assigns Role Capabilities to specific groups.</source>
+          <target state="new">The <bpt id="p1">*</bpt>RoleDefinitions<ept id="p1">*</ept> field assigns Role Capabilities to specific groups.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It defines who can do what as a privileged account.</source>
+          <target state="new">It defines who can do what as a privileged account.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>With this field, you can specify the functionality available to any connecting user based on group membership.</source>
+          <target state="new">With this field, you can specify the functionality available to any connecting user based on group membership.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This is the core of JEA's RBAC functionality.</source>
+          <target state="new">This is the core of JEA's RBAC functionality.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In this example, you are exposing the pre-made "Maintenance" RoleCapability to members of the "Contoso\JEA_NonAdmin_Operator" group.</source>
+          <target state="new">In this example, you are exposing the pre-made "Maintenance" RoleCapability to members of the "Contoso\JEA_NonAdmin_Operator" group.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>RunAsVirtualAccount<ept id="p1">*</ept> field indicates that PowerShell should "run as" a Virtual Account at this endpoint.</source>
+          <target state="new">The <bpt id="p1">*</bpt>RunAsVirtualAccount<ept id="p1">*</ept> field indicates that PowerShell should "run as" a Virtual Account at this endpoint.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>By default, the Virtual Account is a member of the built in Administrators group.</source>
+          <target state="new">By default, the Virtual Account is a member of the built in Administrators group.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>On a domain controller, it is also a member of the Domain Administrators group by default.</source>
+          <target state="new">On a domain controller, it is also a member of the Domain Administrators group by default.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Later in this guide, you will learn how to customize the privileges of the Virtual Account.</source>
+          <target state="new">Later in this guide, you will learn how to customize the privileges of the Virtual Account.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>TranscriptDirectory<ept id="p1">*</ept> field defines where "over-the-shoulder" PowerShell transcripts are saved after each remote session.</source>
+          <target state="new">The <bpt id="p1">*</bpt>TranscriptDirectory<ept id="p1">*</ept> field defines where "over-the-shoulder" PowerShell transcripts are saved after each remote session.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>These transcripts allow you to inspect the actions taken in each session in a readable way.</source>
+          <target state="new">These transcripts allow you to inspect the actions taken in each session in a readable way.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information about PowerShell transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</source>
+          <target state="new">For more information about PowerShell transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](http://blogs.msdn.com/b/powershell/archive/2015/06/09/powershell-the-blue-team.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Note: regular Windows Eventing also captures information about what each user ran with PowerShell.</source>
+          <target state="new">Note: regular Windows Eventing also captures information about what each user ran with PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Transcripts are just a bit more readable.</source>
+          <target state="new">Transcripts are just a bit more readable.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Finally, save your changes to <bpt id="p1">*</bpt>JEADemo2.pssc<ept id="p1">*</ept>.</source>
+          <target state="new">Finally, save your changes to <bpt id="p1">*</bpt>JEADemo2.pssc<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Apply the PowerShell Session Configuration</source>
+          <target state="new">Apply the PowerShell Session Configuration</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To create an endpoint from a Session Configuration file, you need to register the file.</source>
+          <target state="new">To create an endpoint from a Session Configuration file, you need to register the file.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This requires a few pieces of information:</source>
+          <target state="new">This requires a few pieces of information:</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The path to the Session Configuration file.</source>
+          <target state="new">The path to the Session Configuration file.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The name of your registered Session Configuration.</source>
+          <target state="new">The name of your registered Session Configuration.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This is the same name users provide to the "ConfigurationName" parameter when they connect to your endpoint with <ph id="ph1">`Enter-PSSession`</ph> or <ph id="ph2">`New-PSSession`</ph>.</source>
+          <target state="new">This is the same name users provide to the "ConfigurationName" parameter when they connect to your endpoint with <ph id="ph1">`Enter-PSSession`</ph> or <ph id="ph2">`New-PSSession`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To register the Session Configuration on your local machine, run the following command:</source>
+          <target state="new">To register the Session Configuration on your local machine, run the following command:</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+          <target state="new">Congratulations!</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You have set up your JEA endpoint.</source>
+          <target state="new">You have set up your JEA endpoint.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Test Out Your Endpoint</source>
+          <target state="new">Test Out Your Endpoint</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Re-run the steps listed in the <bpt id="p1">[</bpt>Using JEA<ept id="p1">](using-jea.md)</ept> section against your new endpoint to confirm it is operating as intended.</source>
+          <target state="new">Re-run the steps listed in the <bpt id="p1">[</bpt>Using JEA<ept id="p1">](using-jea.md)</ept> section against your new endpoint to confirm it is operating as intended.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Be sure to use the new endpoint name (JEADemo2) when providing the configuration name to <ph id="ph1">`Enter-PSSession`</ph>.</source>
+          <target state="new">Be sure to use the new endpoint name (JEADemo2) when providing the configuration name to <ph id="ph1">`Enter-PSSession`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Key Concepts</source>
+          <target state="new">Key Concepts</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Session Configuration<ept id="p1">**</ept>: Sometimes referred to as <bpt id="p2">*</bpt>PowerShell Endpoint<ept id="p2">*</ept>, this is the figurative "place" where users connect and get access to PowerShell functionality.</source>
+          <target state="new"><bpt id="p1">**</bpt>PowerShell Session Configuration<ept id="p1">**</ept>: Sometimes referred to as <bpt id="p2">*</bpt>PowerShell Endpoint<ept id="p2">*</ept>, this is the figurative "place" where users connect and get access to PowerShell functionality.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You can list the registered Session Configurations on your system by running <ph id="ph1">`Get-PSSessionConfiguration`</ph>.</source>
+          <target state="new">You can list the registered Session Configurations on your system by running <ph id="ph1">`Get-PSSessionConfiguration`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When configured in a specific way, a PowerShell Session Configuration can be called a <bpt id="p1">*</bpt>JEA Endpoint<ept id="p1">*</ept>.</source>
+          <target state="new">When configured in a specific way, a PowerShell Session Configuration can be called a <bpt id="p1">*</bpt>JEA Endpoint<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Session Configuration File (.pssc)<ept id="p1">**</ept>: A file that, when registered, defines settings for a PowerShell Session Configuration.</source>
+          <target state="new"><bpt id="p1">**</bpt>PowerShell Session Configuration File (.pssc)<ept id="p1">**</ept>: A file that, when registered, defines settings for a PowerShell Session Configuration.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It contains specifications for user roles that can connect to the endpoint, the "run as" Virtual Account, and more.</source>
+          <target state="new">It contains specifications for user roles that can connect to the endpoint, the "run as" Virtual Account, and more.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Role Definitions<ept id="p1">**</ept>: The field in a Session Configuration File that defines the Role Capabilities granted to connecting users.</source>
+          <target state="new"><bpt id="p1">**</bpt>Role Definitions<ept id="p1">**</ept>: The field in a Session Configuration File that defines the Role Capabilities granted to connecting users.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>It defines <bpt id="p1">*</bpt>who<ept id="p1">*</ept> can do <bpt id="p2">*</bpt>what<ept id="p2">*</ept> as a privileged account.</source>
+          <target state="new">It defines <bpt id="p1">*</bpt>who<ept id="p1">*</ept> can do <bpt id="p2">*</bpt>what<ept id="p2">*</ept> as a privileged account.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This is the core of JEA's RBAC capabilities.</source>
+          <target state="new">This is the core of JEA's RBAC capabilities.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept>: A field in a Session Configuration File that represents default settings for a Session Configuration.</source>
+          <target state="new"><bpt id="p1">**</bpt>SessionType<ept id="p1">**</ept>: A field in a Session Configuration File that represents default settings for a Session Configuration.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For JEA endpoints, this must be set to RestrictedRemoteServer.</source>
+          <target state="new">For JEA endpoints, this must be set to RestrictedRemoteServer.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShell Transcript<ept id="p1">**</ept>: A file containing an "over-the-shoulder" view of a PowerShell session.</source>
+          <target state="new"><bpt id="p1">**</bpt>PowerShell Transcript<ept id="p1">**</ept>: A file containing an "over-the-shoulder" view of a PowerShell session.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can set PowerShell to generate transcripts for JEA sessions using the TranscriptDirectory field.</source>
+          <target state="new">You can set PowerShell to generate transcripts for JEA sessions using the TranscriptDirectory field.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For more information on transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](https://technet.microsoft.com/en-us/magazine/ff687007.aspx)</ept>.</source>
+          <target state="new">For more information on transcripts, check out this <bpt id="p1">[</bpt>blog post<ept id="p1">](https://technet.microsoft.com/en-us/magazine/ff687007.aspx)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bb5635832e912b39ec387e8ac93ada24a434ff8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\README.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">719429e93caa4a83271bb7f930e8f1c19ac7cdf0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ebe7a85ae04addbe8096dfe33f66f450468a2517</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="new">powershell,cmdlet,jea</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>README</source>
+          <target state="new">README</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration</source>
+          <target state="new">Just Enough Administration</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration (JEA) is a security technology that enables delegated administration for anything that can be managed with PowerShell.</source>
+          <target state="new">Just Enough Administration (JEA) is a security technology that enables delegated administration for anything that can be managed with PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>With JEA, you can:</source>
+          <target state="new">With JEA, you can:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Reduce the number of administrators on your machines<ept id="p1">**</ept> by leveraging virtual accounts that perform privileged actions on behalf of regular users.</source>
+          <target state="new"><bpt id="p1">**</bpt>Reduce the number of administrators on your machines<ept id="p1">**</ept> by leveraging virtual accounts that perform privileged actions on behalf of regular users.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Limit what users can do<ept id="p1">**</ept> by specifying which cmdlets, functions, and external commands they can run.</source>
+          <target state="new"><bpt id="p1">**</bpt>Limit what users can do<ept id="p1">**</ept> by specifying which cmdlets, functions, and external commands they can run.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Better understand what your users are doing<ept id="p1">**</ept> with "over the shoulder" transcriptions that show you exactly what commands a user executed during a session.</source>
+          <target state="new"><bpt id="p1">**</bpt>Better understand what your users are doing<ept id="p1">**</ept> with "over the shoulder" transcriptions that show you exactly what commands a user executed during a session.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Why is this important?<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Why is this important?<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Consider the common scenario where your DNS servers are co-located with your Active Directory Domain Controllers.</source>
+          <target state="new">Consider the common scenario where your DNS servers are co-located with your Active Directory Domain Controllers.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Your DNS administrators need to have local administrator privileges to fix issues with the DNS server, but in order to do so you have to make them members of the highly privileged "Domain Admins" security group.</source>
+          <target state="new">Your DNS administrators need to have local administrator privileges to fix issues with the DNS server, but in order to do so you have to make them members of the highly privileged "Domain Admins" security group.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This approach effectively gives DNS Administrators control over your whole domain and access to all resources on that machine.</source>
+          <target state="new">This approach effectively gives DNS Administrators control over your whole domain and access to all resources on that machine.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>With JEA in place, you can configure a role for your DNS administrators that gives them access to all the commands they need to get their job done, but nothing more.</source>
+          <target state="new">With JEA in place, you can configure a role for your DNS administrators that gives them access to all the commands they need to get their job done, but nothing more.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This means you can provide the appropriate access to repair a poisoned DNS cache without unintentionally giving them rights to Active Directory, or to browse the file system, or run potentially dangerous scripts.</source>
+          <target state="new">This means you can provide the appropriate access to repair a poisoned DNS cache without unintentionally giving them rights to Active Directory, or to browse the file system, or run potentially dangerous scripts.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Better yet, when the JEA session is configured to use one-time privileged virtual accounts, your DNS administrators can connect to the server using <bpt id="p1">*</bpt>unprivileged<ept id="p1">*</ept> credentials and still be able to run privileged commands.</source>
+          <target state="new">Better yet, when the JEA session is configured to use one-time privileged virtual accounts, your DNS administrators can connect to the server using <bpt id="p1">*</bpt>unprivileged<ept id="p1">*</ept> credentials and still be able to run privileged commands.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+          <target state="new">Availability</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>JEA is being developed in parallel to Windows Server 2016, and is available on older versions of Windows through Windows Management Framework updates.</source>
+          <target state="new">JEA is being developed in parallel to Windows Server 2016, and is available on older versions of Windows through Windows Management Framework updates.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The current release of JEA is available on the following platforms:</source>
+          <target state="new">The current release of JEA is available on the following platforms:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows Server<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Server<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Windows Server 2016 Technical Preview 4 and higher</source>
+          <target state="new">Windows Server 2016 Technical Preview 4 and higher</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows Server 2012 R2, 2012, and 2008 R2\* with <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> installed</source>
+          <target state="new">Windows Server 2012 R2, 2012, and 2008 R2\* with <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> installed</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows Client<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Windows Client<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows 10 with the November Update (1511) installed</source>
+          <target state="new">Windows 10 with the November Update (1511) installed</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Windows 8.1, 8, and 7\* with <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> installed</source>
+          <target state="new">Windows 8.1, 8, and 7\* with <bpt id="p1">[</bpt>Windows Management Framework 5.0<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=50395)</ept> installed</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>\* Support for virtual accounts in JEA sessions is currently not available on Windows Server 2008 R2 or Windows 7.</source>
+          <target state="new">\* Support for virtual accounts in JEA sessions is currently not available on Windows Server 2008 R2 or Windows 7.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Explore the experience guide</source>
+          <target state="new">Explore the experience guide</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Ready to learn how to author, deploy, and use your own JEA endpoint?</source>
+          <target state="new">Ready to learn how to author, deploy, and use your own JEA endpoint?</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This guide gets you started quickly with a pre-built JEA endpoint to get an idea of what the end-user experience is like, then walks you through recreating an endpoint from scratch to help demonstrate concepts like session configurations and Role Capabilities.</source>
+          <target state="new">This guide gets you started quickly with a pre-built JEA endpoint to get an idea of what the end-user experience is like, then walks you through recreating an endpoint from scratch to help demonstrate concepts like session configurations and Role Capabilities.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Introduction<ept id="p1">](introduction.md)</ept><ph id="ph1"> </ph></source>
+          <target state="new"><bpt id="p1">[</bpt>Introduction<ept id="p1">](introduction.md)</ept><ph id="ph1"> </ph></target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Briefly review why you should care about JEA</source>
+          <target state="new">Briefly review why you should care about JEA</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Prerequisites<ept id="p1">](prerequisites.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Prerequisites<ept id="p1">](prerequisites.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Explains how to set up your environment</source>
+          <target state="new">Explains how to set up your environment</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using JEA<ept id="p1">](using-jea.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Using JEA<ept id="p1">](using-jea.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Helps you start by understanding the operator experience of using JEA</source>
+          <target state="new">Helps you start by understanding the operator experience of using JEA</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Remake the Demo<ept id="p1">](remake-the-demo-endpoint.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Remake the Demo<ept id="p1">](remake-the-demo-endpoint.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Create a JEA Session Configuration from scratch</source>
+          <target state="new">Create a JEA Session Configuration from scratch</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Role Capabilities<ept id="p1">](role-capabilities.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Role Capabilities<ept id="p1">](role-capabilities.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Learn about how to customize JEA capabilities with Role Capability Files</source>
+          <target state="new">Learn about how to customize JEA capabilities with Role Capability Files</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>End to End - Active Directory<ept id="p1">](end-to-end---active-directory.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>End to End - Active Directory<ept id="p1">](end-to-end---active-directory.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Make a whole new endpoint for managing Active Directory</source>
+          <target state="new">Make a whole new endpoint for managing Active Directory</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Multi-machine Deployment and Maintenance<ept id="p1">](multi-machine-deployment-and-maintenance.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Multi-machine Deployment and Maintenance<ept id="p1">](multi-machine-deployment-and-maintenance.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Discover how deployment and authoring changes with scale</source>
+          <target state="new">Discover how deployment and authoring changes with scale</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Reporting on JEA<ept id="p1">](reporting-on-jea.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Reporting on JEA<ept id="p1">](reporting-on-jea.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Discover how to audit and report on all JEA actions and infrastructure</source>
+          <target state="new">Discover how to audit and report on all JEA actions and infrastructure</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Appendixes</source>
+          <target state="new">Appendixes</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Key Concepts Used Throughout This Guide<ept id="p1">](key-concepts-used-throughout-this-guide.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Key Concepts Used Throughout This Guide<ept id="p1">](key-concepts-used-throughout-this-guide.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Creating a Domain Controller<ept id="p1">](creating-a-domain-controller.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Creating a Domain Controller<ept id="p1">](creating-a-domain-controller.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>On Blacklisting<ept id="p1">](on-blacklisting.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>On Blacklisting<ept id="p1">](on-blacklisting.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Considerations When Limiting Commands<ept id="p1">](considerations-when-limiting-commands.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Considerations When Limiting Commands<ept id="p1">](considerations-when-limiting-commands.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Common Role Capability Pitfalls<ept id="p1">](common-role-capability-pitfalls.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Common Role Capability Pitfalls<ept id="p1">](common-role-capability-pitfalls.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Start authoring your own JEA endpoints</source>
+          <target state="new">Start authoring your own JEA endpoints</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It's easy to author a JEA endpoint -- all you need is a JEA-enabled system and a text editor (like PowerShell ISE).</source>
+          <target state="new">It's easy to author a JEA endpoint -- all you need is a JEA-enabled system and a text editor (like PowerShell ISE).</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>One helpful tip to get started is to create skeleton files using <bpt id="p1">[</bpt><ph id="ph1">`New-PSRoleCapabilityFile -Path &lt;path&gt;`</ph><ept id="p1">](https://technet.microsoft.com/library/mt631422.aspx)</ept> and <bpt id="p2">[</bpt><ph id="ph2">`New-PSSessionConfigurationFile -Path &lt;Path&gt;`</ph><ept id="p2">](https://technet.microsoft.com/library/mt631422.aspx)</ept> without any other arguments.</source>
+          <target state="new">One helpful tip to get started is to create skeleton files using <bpt id="p1">[</bpt><ph id="ph1">`New-PSRoleCapabilityFile -Path &lt;path&gt;`</ph><ept id="p1">](https://technet.microsoft.com/library/mt631422.aspx)</ept> and <bpt id="p2">[</bpt><ph id="ph2">`New-PSSessionConfigurationFile -Path &lt;Path&gt;`</ph><ept id="p2">](https://technet.microsoft.com/library/mt631422.aspx)</ept> without any other arguments.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These skeleton files contain all of the applicable configuration fields along with helpful comments to explain what each field can be used for.</source>
+          <target state="new">These skeleton files contain all of the applicable configuration fields along with helpful comments to explain what each field can be used for.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To make authoring JEA endpoints even easier, check out the <bpt id="p1">[</bpt>JEA Toolkit Helper<ept id="p1">](http://blogs.technet.com/b/privatecloud/archive/2015/12/20/introducing-the-updated-jea-helper-tool.aspx)</ept> which provides a GUI with which you can author Session Configuration and Role Capability files.</source>
+          <target state="new">To make authoring JEA endpoints even easier, check out the <bpt id="p1">[</bpt>JEA Toolkit Helper<ept id="p1">](http://blogs.technet.com/b/privatecloud/archive/2015/12/20/introducing-the-updated-jea-helper-tool.aspx)</ept> which provides a GUI with which you can author Session Configuration and Role Capability files.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>It even supports generating Role Capabilities based on PowerShell logs to start you off with the commands your users regularly run to get their jobs done.</source>
+          <target state="new">It even supports generating Role Capabilities based on PowerShell logs to start you off with the commands your users regularly run to get their jobs done.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

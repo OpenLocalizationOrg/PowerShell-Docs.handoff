@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06790d07e8798b1f263b023d0b231c6d9dd1d061</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\dsc_nodeid.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ba33f87f7c77eb8e844df148d9b4db056e230a6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8c00fc67a61fff064afbb52b38fc2d5a4035113</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Separation of Node and Configuration IDs</source>
+          <target state="new">Separation of Node and Configuration IDs</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Overview</source>
+          <target state="new">Overview</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In order to provide a more flexible and streamlined experience when using DSC in Pull mode, we have added a number of features in this release.</source>
+          <target state="new">In order to provide a more flexible and streamlined experience when using DSC in Pull mode, we have added a number of features in this release.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>These features are intended to allow you to have the flexibility to easily setup and deploy configurations across multiple nodes, while still tracking status and reporting information for each node individually.</source>
+          <target state="new">These features are intended to allow you to have the flexibility to easily setup and deploy configurations across multiple nodes, while still tracking status and reporting information for each node individually.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These features are as follows:</source>
+          <target state="new">These features are as follows:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A configuration name which identifies the configuration for a computer.</source>
+          <target state="new">A configuration name which identifies the configuration for a computer.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This name can be shared by multiple target nodes</source>
+          <target state="new">This name can be shared by multiple target nodes</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An agent ID which uniquely identifies a single node</source>
+          <target state="new">An agent ID which uniquely identifies a single node</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A registration step which only occurs the first time a target node connects to a pull server</source>
+          <target state="new">A registration step which only occurs the first time a target node connects to a pull server</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> These features and functionality have been added and do not replace the existing pull features and concepts.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> These features and functionality have been added and do not replace the existing pull features and concepts.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use these new features or the older ones with the new pull server shipping in this release.</source>
+          <target state="new">You can use these new features or the older ones with the new pull server shipping in this release.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](https://msdn.microsoft.com/powershell/dsc/pullclientconfignames)</ept></source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Setting up a pull client using configuration names<ept id="p1">](https://msdn.microsoft.com/powershell/dsc/pullclientconfignames)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

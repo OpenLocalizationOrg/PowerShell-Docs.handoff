@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">025565404b60cebefac27e51c70d70edb5e47bc9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\PowerShellGet-Enhancements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b6f7c929f01b111d9d1f45a0a96a65979b8fef5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b4e78851f798a078693246dbfa38ab85ecf786ba</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>example template of a feature or scenario writeup</source>
+          <target state="new">example template of a feature or scenario writeup</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Note: provide a proposed descriptive title and a brief description</source>
+          <target state="new">Note: provide a proposed descriptive title and a brief description</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PowerShellGet Enhancements</source>
+          <target state="new">PowerShellGet Enhancements</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The cmdlets in the PowerShellGet module have been updated considerably in WMF 5.1.</source>
+          <target state="new">The cmdlets in the PowerShellGet module have been updated considerably in WMF 5.1.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following new scenarios are now supported:</source>
+          <target state="new">The following new scenarios are now supported:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Proxy Support:<ept id="p1">**</ept> Using the PowerShellGet cmdlets with an internal proxy is now supported, with the addition of the Proxy and ProxyCredential parameters to all of the Find-, Install-, Save-, and Publish- cmdlets in the PowerShellGet module (eg: Find-Module, Install-Module, Save-Module, Publish-Module).</source>
+          <target state="new"><bpt id="p1">**</bpt>Proxy Support:<ept id="p1">**</ept> Using the PowerShellGet cmdlets with an internal proxy is now supported, with the addition of the Proxy and ProxyCredential parameters to all of the Find-, Install-, Save-, and Publish- cmdlets in the PowerShellGet module (eg: Find-Module, Install-Module, Save-Module, Publish-Module).</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enforcing Catalog Signing:<ept id="p1">**</ept> All PowerShellGet cmdlets now check for and enforce updating of signed modules.</source>
+          <target state="new"><bpt id="p1">**</bpt>Enforcing Catalog Signing:<ept id="p1">**</ept> All PowerShellGet cmdlets now check for and enforce updating of signed modules.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Modules signed using the new Catalog cmdlets will be checked by the PowerShellGet cmdlets to ensure that the module has not been modified in transit, and that updates to the module may only come from the original publisher.</source>
+          <target state="new">Modules signed using the new Catalog cmdlets will be checked by the PowerShellGet cmdlets to ensure that the module has not been modified in transit, and that updates to the module may only come from the original publisher.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This affects Install-Module, and Update-Module cmdlets.</source>
+          <target state="new">This affects Install-Module, and Update-Module cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sharing and Acquiring Role Capabilities:<ept id="p1">**</ept> Role Capabilities are the endpoint definitions used to configure Just Enough Administration to constrain, and will be shared via the PowerShell Gallery in PowerShell Modules.</source>
+          <target state="new"><bpt id="p1">**</bpt>Sharing and Acquiring Role Capabilities:<ept id="p1">**</ept> Role Capabilities are the endpoint definitions used to configure Just Enough Administration to constrain, and will be shared via the PowerShell Gallery in PowerShell Modules.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Cmdlets include Find-RoleCapability, and New-PSRoleCapabilityFile.</source>
+          <target state="new">Cmdlets include Find-RoleCapability, and New-PSRoleCapabilityFile.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Find Command:<ept id="p1">**</ept> Find-Command allows users to locate a module in the PowerShell Gallery that contains a command they are looking for.</source>
+          <target state="new"><bpt id="p1">**</bpt>Find Command:<ept id="p1">**</ept> Find-Command allows users to locate a module in the PowerShell Gallery that contains a command they are looking for.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authenticated repositories:<ept id="p1">**</ept> Visual Studio Package Management feed requires authentication, something that is now supported via the PowerShellGet cmdlets.</source>
+          <target state="new"><bpt id="p1">**</bpt>Authenticated repositories:<ept id="p1">**</ept> Visual Studio Package Management feed requires authentication, something that is now supported via the PowerShellGet cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>User feedback identified additional areas for improvement that have been addressed in 5.1, including:</source>
+          <target state="new">User feedback identified additional areas for improvement that have been addressed in 5.1, including:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Install-Script changes:<ept id="p1">**</ept> The location used by Install-script is not added to the user path automatically in 5.1.</source>
+          <target state="new"><bpt id="p1">**</bpt>Install-Script changes:<ept id="p1">**</ept> The location used by Install-script is not added to the user path automatically in 5.1.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This change was made in the standalone version of PowerShellGet, and is now in WMF 5.1.</source>
+          <target state="new">This change was made in the standalone version of PowerShellGet, and is now in WMF 5.1.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Adding metadata fields to existing scripts:<ept id="p1">**</ept> Update-ScriptFileInfo can be used on existing scripts to add the default metadata fields needed to publish to the PowerShellGallery.</source>
+          <target state="new"><bpt id="p1">**</bpt>Adding metadata fields to existing scripts:<ept id="p1">**</ept> Update-ScriptFileInfo can be used on existing scripts to add the default metadata fields needed to publish to the PowerShellGallery.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Previously users needed to manually merge this into an existing script.</source>
+          <target state="new">Previously users needed to manually merge this into an existing script.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Publishing a lower-versioned module to the Gallery:<ept id="p1">**</ept> It is now possible to publish a module with a lower version number than the current previous highest version to the Gallery using Publish-Module.</source>
+          <target state="new"><bpt id="p1">**</bpt>Publishing a lower-versioned module to the Gallery:<ept id="p1">**</ept> It is now possible to publish a module with a lower version number than the current previous highest version to the Gallery using Publish-Module.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If a publisher  released version 2.0.0 of their module with breaking changes from the 1.x versions, they could not easily release a fix to version 1.5.0.</source>
+          <target state="new">If a publisher  released version 2.0.0 of their module with breaking changes from the 1.x versions, they could not easily release a fix to version 1.5.0.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Now, they can publish a 1.5.1, which will improve support for maintaining modules in the PowerShell Gallery.</source>
+          <target state="new">Now, they can publish a 1.5.1, which will improve support for maintaining modules in the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Checking for command over-write when installing scripts and modules:<ept id="p1">**</ept> Install-Module and Install-Script will now check to see if they contain commands that are already present on the system, and will by default error out if that happens.</source>
+          <target state="new"><bpt id="p1">**</bpt>Checking for command over-write when installing scripts and modules:<ept id="p1">**</ept> Install-Module and Install-Script will now check to see if they contain commands that are already present on the system, and will by default error out if that happens.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Bootstrapping Nuget in Publish- cmdlets:<ept id="p1">**</ept> Previously there was no way to automatically install the Nuget provider when using Publish-Module or Publish-Script, which made certain automation tasks very difficult.</source>
+          <target state="new"><bpt id="p1">**</bpt>Bootstrapping Nuget in Publish- cmdlets:<ept id="p1">**</ept> Previously there was no way to automatically install the Nuget provider when using Publish-Module or Publish-Script, which made certain automation tasks very difficult.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Users may now add -Force to Publish- commands to bypass the prompt.</source>
+          <target state="new">Users may now add -Force to Publish- commands to bypass the prompt.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Note: additional detail covering new concepts, implementation, examples, etc should be linked to the canonical technical documentation</source>
+          <target state="new">Note: additional detail covering new concepts, implementation, examples, etc should be linked to the canonical technical documentation</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Learn more about using PowerShellGet<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Learn more about using PowerShellGet<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>About-CatalogSigning<ept id="p1">]()</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>About-CatalogSigning<ept id="p1">]()</ept></target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Filter Get-Module results by CompatiblePSEditions<ept id="p1">]()</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Filter Get-Module results by CompatiblePSEditions<ept id="p1">]()</ept></target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Prevent script execution unless run on a comaptible edition of PowerShell<ept id="p1">]()</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Prevent script execution unless run on a comaptible edition of PowerShell<ept id="p1">]()</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e63809763808836af9f468c2ac55ede42836d6b2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\The-ISEAddOnTool-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e6db2738bd0da514c6d5fd2c34db633cc71cd2b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f3d7beaa371ad27bc430c9f96c2b85b13dbfd0b9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The ISEAddOnTool Object</source>
+          <target state="new">The ISEAddOnTool Object</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The ISEAddOnTool Object</source>
+          <target state="new">The ISEAddOnTool Object</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>ISEAddonTool<ept id="p1">**</ept> object represents an installed add-on tool that provides additional functionality toWindows PowerShell ISE.</source>
+          <target state="new">An <bpt id="p1">**</bpt>ISEAddonTool<ept id="p1">**</ept> object represents an installed add-on tool that provides additional functionality toWindows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>An example is the <bpt id="p1">**</bpt>Commands<ept id="p1">**</ept> tool that you can display by clicking <bpt id="p2">**</bpt>View<ept id="p2">**</ept>, then <bpt id="p3">**</bpt>Show Command Add-on<ept id="p3">**</ept>.</source>
+          <target state="new">An example is the <bpt id="p1">**</bpt>Commands<ept id="p1">**</ept> tool that you can display by clicking <bpt id="p2">**</bpt>View<ept id="p2">**</ept>, then <bpt id="p3">**</bpt>Show Command Add-on<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This tool is then accessible to you by manipulating the various available <bpt id="p1">**</bpt>ISEAddOnTool<ept id="p1">**</ept> objects.</source>
+          <target state="new">This tool is then accessible to you by manipulating the various available <bpt id="p1">**</bpt>ISEAddOnTool<ept id="p1">**</ept> objects.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Each add-on tool can be associated with either the vertical pane or the horizontal pane.</source>
+          <target state="new">Each add-on tool can be associated with either the vertical pane or the horizontal pane.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The vertical pane is docked to the right edge of Windows PowerShell ISE.</source>
+          <target state="new">The vertical pane is docked to the right edge of Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The horizontal pane is docked to the bottom edge.</source>
+          <target state="new">The horizontal pane is docked to the bottom edge.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Each PowerShell tab in Windows PowerShell ISE can have its own set of add-on tools installed.</source>
+          <target state="new">Each PowerShell tab in Windows PowerShell ISE can have its own set of add-on tools installed.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>$psISE.CurrentPowerShellTab.HorizontalAddOnTools<ept id="p1">](The-ISEAddOnToolCollection-Object.md)</ept> and <bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VerticalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept> to access the collection of tools available to the currently selected tab or the same properties on any of the <bpt id="p3">**</bpt>PowerShellTab<ept id="p3">**</ept> objects in the <bpt id="p4">[</bpt>$psISE.PowerShellTabs<ept id="p4">](The-PowerShellTabCollection-Object.md)</ept> collection object.</source>
+          <target state="new">See <bpt id="p1">[</bpt>$psISE.CurrentPowerShellTab.HorizontalAddOnTools<ept id="p1">](The-ISEAddOnToolCollection-Object.md)</ept> and <bpt id="p2">[</bpt>$psISE.CurrentPowerShellTab.VerticalAddOnTools<ept id="p2">](The-ISEAddOnToolCollection-Object.md)</ept> to access the collection of tools available to the currently selected tab or the same properties on any of the <bpt id="p3">**</bpt>PowerShellTab<ept id="p3">**</ept> objects in the <bpt id="p4">[</bpt>$psISE.PowerShellTabs<ept id="p4">](The-PowerShellTabCollection-Object.md)</ept> collection object.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Methods</source>
+          <target state="new">Methods</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There are no Windows PowerShell ISE-specific methods available for objects of this class.</source>
+          <target state="new">There are no Windows PowerShell ISE-specific methods available for objects of this class.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Control"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Control</source>
+          <target state="new"><ph id="ph1">&lt;a name="Control"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Control</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Control<ept id="p1">**</ept> property provides read access to many of the details of the Commands add-on tool.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Control<ept id="p1">**</ept> property provides read access to many of the details of the Commands add-on tool.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="IsVisible"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> IsVisible</source>
+          <target state="new"><ph id="ph1">&lt;a name="IsVisible"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> IsVisible</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The Boolean property that indicates whether the add-on tool is currently visible in its assigned pane.</source>
+          <target state="new">The Boolean property that indicates whether the add-on tool is currently visible in its assigned pane.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If it is visible, you can set the <bpt id="p1">**</bpt>IsVisible<ept id="p1">**</ept> property to <bpt id="p2">**</bpt>$false<ept id="p2">**</ept> to hide the tool, or set the <bpt id="p3">**</bpt>IsVisible<ept id="p3">**</ept> property to <bpt id="p4">**</bpt>$true<ept id="p4">**</ept> to make an add-on tool visible on its PowerShell tab.</source>
+          <target state="new">If it is visible, you can set the <bpt id="p1">**</bpt>IsVisible<ept id="p1">**</ept> property to <bpt id="p2">**</bpt>$false<ept id="p2">**</ept> to hide the tool, or set the <bpt id="p3">**</bpt>IsVisible<ept id="p3">**</ept> property to <bpt id="p4">**</bpt>$true<ept id="p4">**</ept> to make an add-on tool visible on its PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Note that after an add-on tool is hidden, it is no longer accessible through the <bpt id="p1">**</bpt>CurrentVisibleHorizontalTool<ept id="p1">**</ept> or <bpt id="p2">**</bpt>CurrentVisibleVerticalTool<ept id="p2">**</ept> objects, and therefore cannot be made visible by using this property on that object.</source>
+          <target state="new">Note that after an add-on tool is hidden, it is no longer accessible through the <bpt id="p1">**</bpt>CurrentVisibleHorizontalTool<ept id="p1">**</ept> or <bpt id="p2">**</bpt>CurrentVisibleVerticalTool<ept id="p2">**</ept> objects, and therefore cannot be made visible by using this property on that object.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="name"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Name</source>
+          <target state="new"><ph id="ph1">&lt;a name="name"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Name</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</source>
+          <target state="new">Supported in Windows PowerShell ISE 3.0 and later, and not present in earlier versions.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the name of the add-on tool.</source>
+          <target state="new">The read-only property that gets the name of the add-on tool.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEAddOnToolCollection Object<ept id="p1">](The-ISEAddOnToolCollection-Object.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEAddOnToolCollection Object<ept id="p1">](The-ISEAddOnToolCollection-Object.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell ISE Object Model Reference<ept id="p1">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PowerShell ISE Object Model Reference<ept id="p1">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISE Object Model Hierarchy<ept id="p1">](The-ISE-Object-Model-Hierarchy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The ISE Object Model Hierarchy<ept id="p1">](The-ISE-Object-Model-Hierarchy.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

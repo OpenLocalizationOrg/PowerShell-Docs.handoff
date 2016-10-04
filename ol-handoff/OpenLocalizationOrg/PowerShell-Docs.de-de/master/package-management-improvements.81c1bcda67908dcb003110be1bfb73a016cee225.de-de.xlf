@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">615bdf1a82dc5078ee2f37eec70a64e25b42bda2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\package-management-improvements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">95ffcb1b44800d5f96e670b3bbb48609f8ccb98a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33124b42cdf3e3e365ae2377bbf355562553421f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Improvements to Package Management in WMF 5.1 (Preview)</source>
+          <target state="new">Improvements to Package Management in WMF 5.1 (Preview)</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell, DSC, WMF</source>
+          <target state="new">PowerShell, DSC, WMF</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Improvements to Package Management in WMF 5.1 (Preview)</source>
+          <target state="new">Improvements to Package Management in WMF 5.1 (Preview)</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Improvements in PackageManagement</source>
+          <target state="new">Improvements in PackageManagement</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following are the fixes made in the WMF 5.1:</source>
+          <target state="new">The following are the fixes made in the WMF 5.1:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Version Alias</source>
+          <target state="new">Version Alias</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: If you have version 1.0 and 2.0 of a package, P1, installed on your system, and you want to uninstall version 1.0, you would run <ph id="ph1">`Uninstall-Package -Name P1 -Version 1.0`</ph> and expect version 1.0 to be uninstalled after running the cmdlet.</source>
+          <target state="new"><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: If you have version 1.0 and 2.0 of a package, P1, installed on your system, and you want to uninstall version 1.0, you would run <ph id="ph1">`Uninstall-Package -Name P1 -Version 1.0`</ph> and expect version 1.0 to be uninstalled after running the cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However the result is that version 2.0 gets uninstalled.</source>
+          <target state="new">However the result is that version 2.0 gets uninstalled.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This occurs because the <ph id="ph1">`-Version`</ph> parameter is an alias of the <ph id="ph2">`-MinimumVersion`</ph> parameter.</source>
+          <target state="new">This occurs because the <ph id="ph1">`-Version`</ph> parameter is an alias of the <ph id="ph2">`-MinimumVersion`</ph> parameter.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When PackageManagement is looking for a qualified package with the minimum version of 1.0, it returns the latest version.</source>
+          <target state="new">When PackageManagement is looking for a qualified package with the minimum version of 1.0, it returns the latest version.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This behavior is expected in normal cases because finding the latest version is usually the desired result.</source>
+          <target state="new">This behavior is expected in normal cases because finding the latest version is usually the desired result.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, it should not apply to the <ph id="ph1">`Uninstall-Package`</ph> case.</source>
+          <target state="new">However, it should not apply to the <ph id="ph1">`Uninstall-Package`</ph> case.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>:removed <ph id="ph1">`-Version`</ph> alias entirely in PackageManagement (a.k.a.</source>
+          <target state="new"><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>:removed <ph id="ph1">`-Version`</ph> alias entirely in PackageManagement (a.k.a.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>OneGet) and PowerShellGet.</source>
+          <target state="new">OneGet) and PowerShellGet.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Multiple prompts for bootstrapping the NuGet provider</source>
+          <target state="new">Multiple prompts for bootstrapping the NuGet provider</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: When you run <ph id="ph1">`Find-Module`</ph> or <ph id="ph2">`Install-Module`</ph> or other PackageManagement cmdlets on your computer for the first time, PackageManagement tries to bootstrap the NuGet provider.</source>
+          <target state="new"><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: When you run <ph id="ph1">`Find-Module`</ph> or <ph id="ph2">`Install-Module`</ph> or other PackageManagement cmdlets on your computer for the first time, PackageManagement tries to bootstrap the NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It does this because the PowerShellGet provider also uses the NuGet provider to download PowerShell modules.</source>
+          <target state="new">It does this because the PowerShellGet provider also uses the NuGet provider to download PowerShell modules.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>PackageManagement then prompts the user for permission to install the NuGet provider.</source>
+          <target state="new">PackageManagement then prompts the user for permission to install the NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>After the user selects "yes" for the bootstrapping, the latest version of the NuGet provider will be installed.</source>
+          <target state="new">After the user selects "yes" for the bootstrapping, the latest version of the NuGet provider will be installed.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, in some cases, when you have an old version of NuGet provider installed on your computer, the older version of NuGet sometimes gets loaded first into the PowerShell session (that's the race condition in PackageManagement).</source>
+          <target state="new">However, in some cases, when you have an old version of NuGet provider installed on your computer, the older version of NuGet sometimes gets loaded first into the PowerShell session (that's the race condition in PackageManagement).</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However PowerShellGet requires the later version of the NuGet provider to work, so PowerShellGet asks PackageManagement to bootstrap the NuGet provider again.</source>
+          <target state="new">However PowerShellGet requires the later version of the NuGet provider to work, so PowerShellGet asks PackageManagement to bootstrap the NuGet provider again.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This results in multiple prompts for bootstrapping the NuGet provider.</source>
+          <target state="new">This results in multiple prompts for bootstrapping the NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF5.1, PackageManagement loads the latest version of the NuGet provider to avoid multiple prompts for bootstrapping the NuGet provider.</source>
+          <target state="new"><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF5.1, PackageManagement loads the latest version of the NuGet provider to avoid multiple prompts for bootstrapping the NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You could also work around this issue by manually deleting the old version of the NuGet provider (NuGet-Anycpu.exe) if exists from $env:ProgramFiles\PackageManagement\ProviderAssemblies $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</source>
+          <target state="new">You could also work around this issue by manually deleting the old version of the NuGet provider (NuGet-Anycpu.exe) if exists from $env:ProgramFiles\PackageManagement\ProviderAssemblies $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Support for PackageManagement on computers with Intranet access only</source>
+          <target state="new">Support for PackageManagement on computers with Intranet access only</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: For the enterprise scenario, people are working under an environment where there is no Internet access but Intranet only.</source>
+          <target state="new"><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: For the enterprise scenario, people are working under an environment where there is no Internet access but Intranet only.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>PackageManagement did not support this case in WMF 5.0.</source>
+          <target state="new">PackageManagement did not support this case in WMF 5.0.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: In WMF 5.0, PackageManagement did not support computers that have only Intranet (but not Internet) access.</source>
+          <target state="new"><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: In WMF 5.0, PackageManagement did not support computers that have only Intranet (but not Internet) access.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, you can follow these steps to allow Intranet computers to use PackageManagement:</source>
+          <target state="new"><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: In WMF 5.1, you can follow these steps to allow Intranet computers to use PackageManagement:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Download the NuGet provider using another computer that has an Internet connection by using <ph id="ph1">`Install-PackageProvider -Name NuGet`</ph>.</source>
+          <target state="new">Download the NuGet provider using another computer that has an Internet connection by using <ph id="ph1">`Install-PackageProvider -Name NuGet`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Find the NuGet provider under either <ph id="ph1">`$env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget`</ph>  or  <ph id="ph2">`$env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget`</ph>.</source>
+          <target state="new">Find the NuGet provider under either <ph id="ph1">`$env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget`</ph>  or  <ph id="ph2">`$env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Copy the binaries to a folder or network share location that the Intranet computer can access, and then install the NuGet provider with <ph id="ph1">`Install-PackageProvider -Name NuGet -Source &lt;Path to folder&gt;`</ph>.</source>
+          <target state="new">Copy the binaries to a folder or network share location that the Intranet computer can access, and then install the NuGet provider with <ph id="ph1">`Install-PackageProvider -Name NuGet -Source &lt;Path to folder&gt;`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Event logging improvements</source>
+          <target state="new">Event logging improvements</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you install packages, you are changing the state of the computer.</source>
+          <target state="new">When you install packages, you are changing the state of the computer.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, PackageManagement now logs events to the Windows event log for <ph id="ph1">`Install-Package`</ph>, <ph id="ph2">`Uninstall-Package`</ph>, and <ph id="ph3">`Save-Package`</ph> activities.</source>
+          <target state="new">In WMF 5.1, PackageManagement now logs events to the Windows event log for <ph id="ph1">`Install-Package`</ph>, <ph id="ph2">`Uninstall-Package`</ph>, and <ph id="ph3">`Save-Package`</ph> activities.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Event log  is the same as for PowerShell, that is, <ph id="ph1">`Microsoft-Windows-PowerShell, Operational`</ph>.</source>
+          <target state="new">The Event log  is the same as for PowerShell, that is, <ph id="ph1">`Microsoft-Windows-PowerShell, Operational`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Support for basic authentication</source>
+          <target state="new">Support for basic authentication</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, PackageManagement supports finding and installing packages from a repository that requires basic authentication.</source>
+          <target state="new">In WMF 5.1, PackageManagement supports finding and installing packages from a repository that requires basic authentication.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can supply your credentials to the <ph id="ph1">`Find-Package`</ph> and <ph id="ph2">`Install-Package`</ph> cmdlets.</source>
+          <target state="new">You can supply your credentials to the <ph id="ph1">`Find-Package`</ph> and <ph id="ph2">`Install-Package`</ph> cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Support for using PackageManagement behind a proxy</source>
+          <target state="new">Support for using PackageManagement behind a proxy</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, PackageManagement now takes new proxy parameters <ph id="ph1">`-ProxyCredential`</ph> and <ph id="ph2">`-Proxy`</ph>.</source>
+          <target state="new">In WMF 5.1, PackageManagement now takes new proxy parameters <ph id="ph1">`-ProxyCredential`</ph> and <ph id="ph2">`-Proxy`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Using these parameters, you can specify the proxy URL and credentials to PackageManagement cmdlets.</source>
+          <target state="new">Using these parameters, you can specify the proxy URL and credentials to PackageManagement cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>By default, system proxy settings are used.</source>
+          <target state="new">By default, system proxy settings are used.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d2b142dc862f7655f28aa34e1fd91f63bd6286e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\decisionMaker.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">526bf6a71b797b7ecd9937af06718aad160acef2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47e666374e341c01b483d9124824546b8e6f19fc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Desired State Configuration Overview for Decision Makers</source>
+          <target state="new">Desired State Configuration Overview for Decision Makers</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Desired State Configuration Overview for Decision Makers</source>
+          <target state="new">Desired State Configuration Overview for Decision Makers</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This document describes the business benefits of using PowerShell Desired State Configuration (DSC).</source>
+          <target state="new">This document describes the business benefits of using PowerShell Desired State Configuration (DSC).</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It is not a technical guide.</source>
+          <target state="new">It is not a technical guide.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>What Is Desired State Configuration?</source>
+          <target state="new">What Is Desired State Configuration?</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Desired State Configuration (DSC) is a configuration management platform built into Windows that is based on open standards.</source>
+          <target state="new">Windows PowerShell Desired State Configuration (DSC) is a configuration management platform built into Windows that is based on open standards.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DSC is flexible enough to function reliably and consistently in each stage of the deployment lifecycle (development, test, pre-production, production), as well as during scale-out.</source>
+          <target state="new">DSC is flexible enough to function reliably and consistently in each stage of the deployment lifecycle (development, test, pre-production, production), as well as during scale-out.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>DSC centers around the idea of "<bpt id="p1">[</bpt>configurations<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configurations)</ept>", which are easy-to-read documents that describe an environment made up of computers ("nodes") with specific characteristics.</source>
+          <target state="new">DSC centers around the idea of "<bpt id="p1">[</bpt>configurations<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configurations)</ept>", which are easy-to-read documents that describe an environment made up of computers ("nodes") with specific characteristics.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These characteristics can be as simple as ensuring a specific Windows feature is enabled, or as complex as deploying SharePoint.</source>
+          <target state="new">These characteristics can be as simple as ensuring a specific Windows feature is enabled, or as complex as deploying SharePoint.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DSC also has monitoring and reporting built in.</source>
+          <target state="new">DSC also has monitoring and reporting built in.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If a system is no longer compliant, DSC can raise an alert and act to correct the system.</source>
+          <target state="new">If a system is no longer compliant, DSC can raise an alert and act to correct the system.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Benefits of Using Desired State Configuration</source>
+          <target state="new">Benefits of Using Desired State Configuration</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Configurations are designed to be easily read, stored, and updated.</source>
+          <target state="new">Configurations are designed to be easily read, stored, and updated.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Configurations simply declare the state target devices should be in, instead of writing instructions for how to put them in that state.</source>
+          <target state="new">Configurations simply declare the state target devices should be in, instead of writing instructions for how to put them in that state.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This makes it much less costly to learn, adopt, implement, and maintain configuration through DSC.</source>
+          <target state="new">This makes it much less costly to learn, adopt, implement, and maintain configuration through DSC.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Creating configurations means that complex deployment steps are captured as a "single source of truth" in a single location.</source>
+          <target state="new">Creating configurations means that complex deployment steps are captured as a "single source of truth" in a single location.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This makes repeated deployments of a specific set of machines much less error-prone.</source>
+          <target state="new">This makes repeated deployments of a specific set of machines much less error-prone.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In turn, this makes deployments faster and more reliable.</source>
+          <target state="new">In turn, this makes deployments faster and more reliable.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This enables quick turnaround on complex deployments.</source>
+          <target state="new">This enables quick turnaround on complex deployments.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Configurations are also shareable via the <bpt id="p1">[</bpt>PowerShell Gallery<ept id="p1">](https://powershellgallery.com)</ept>.</source>
+          <target state="new">Configurations are also shareable via the <bpt id="p1">[</bpt>PowerShell Gallery<ept id="p1">](https://powershellgallery.com)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This means common scenarios and best practices might already exist for the work you need done.</source>
+          <target state="new">This means common scenarios and best practices might already exist for the work you need done.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Desired State Configuration and DevOps</source>
+          <target state="new">Desired State Configuration and DevOps</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>DevOps<ept id="p1">](http://blogs.technet.com/b/ashleymcglone/archive/2015/11/20/devops-for-n00bs-ie-windows-people.aspx)</ept> is a combination of people, technologies and culture that allow for rapid deployment and iteration.</source>
+          <target state="new"><bpt id="p1">[</bpt>DevOps<ept id="p1">](http://blogs.technet.com/b/ashleymcglone/archive/2015/11/20/devops-for-n00bs-ie-windows-people.aspx)</ept> is a combination of people, technologies and culture that allow for rapid deployment and iteration.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>DSC was designed with DevOps in mind.</source>
+          <target state="new">DSC was designed with DevOps in mind.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Having a single configuration define an environment means that developers can encode their requirements into a configuration, check that configuration into source control, and operations teams can easily deploy code without having to go through error-prone manual processes.</source>
+          <target state="new">Having a single configuration define an environment means that developers can encode their requirements into a configuration, check that configuration into source control, and operations teams can easily deploy code without having to go through error-prone manual processes.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Configurations are also <bpt id="p1">[</bpt>data-driven<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configdata)</ept>, which makes it easier for ops teams to identify and change environments without developer intervention.</source>
+          <target state="new">Configurations are also <bpt id="p1">[</bpt>data-driven<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configdata)</ept>, which makes it easier for ops teams to identify and change environments without developer intervention.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Desired State Configuration On- and Off-Premise</source>
+          <target state="new">Desired State Configuration On- and Off-Premise</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>DSC can be used to manage both on-premise and off-premise deployments.</source>
+          <target state="new">DSC can be used to manage both on-premise and off-premise deployments.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For on-premise solutions, Desired State Configuration has a <bpt id="p1">[</bpt>pull server<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/pullserver)</ept> that can be used to centralize management of machines and report on their status.</source>
+          <target state="new">For on-premise solutions, Desired State Configuration has a <bpt id="p1">[</bpt>pull server<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/pullserver)</ept> that can be used to centralize management of machines and report on their status.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For cloud solutions, Desired State Configuration is usable wherever Windows is usable.</source>
+          <target state="new">For cloud solutions, Desired State Configuration is usable wherever Windows is usable.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>There are also specific offerings from Azure built on Desired State Configuration, such as <bpt id="p1">[</bpt>Azure Automation<ept id="p1">](https://azure.microsoft.com/en-us/documentation/services/automation/)</ept>, which centralizes reporting of Desired State Configuration.</source>
+          <target state="new">There are also specific offerings from Azure built on Desired State Configuration, such as <bpt id="p1">[</bpt>Azure Automation<ept id="p1">](https://azure.microsoft.com/en-us/documentation/services/automation/)</ept>, which centralizes reporting of Desired State Configuration.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>DSC and Compatibility</source>
+          <target state="new">DSC and Compatibility</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Although DSC was introduced in Windows Server 2012 R2, it is available for downlevel operating systems via the Windows Management Framework (WMF) package.</source>
+          <target state="new">Although DSC was introduced in Windows Server 2012 R2, it is available for downlevel operating systems via the Windows Management Framework (WMF) package.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>More information about the WMF can be found on the <bpt id="p1">[</bpt>PowerShell homepage<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/)</ept>.</source>
+          <target state="new">More information about the WMF can be found on the <bpt id="p1">[</bpt>PowerShell homepage<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>DSC can also be used to manage Linux.</source>
+          <target state="new">DSC can also be used to manage Linux.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Getting Started with DSC for Linux<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/lnxgettingstarted)</ept></source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Getting Started with DSC for Linux<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/lnxgettingstarted)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1e422b30ab2471e73123badedf1f10631f9730ed</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\catalog-cmdlets.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b75cdf1f6134c8a24fe528f51f936f1b0029e655</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31c295c8c473bcd3bd31ad71ca135e7c6b195f64</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>title: Catalog Cmdlets author:  jaimeo contributor: ?</source>
+          <target state="new">title: Catalog Cmdlets author:  jaimeo contributor: ?</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Catalog Cmdlets</source>
+          <target state="new">Catalog Cmdlets</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We have added two new cmdlets in <bpt id="p1">[</bpt>Microsoft.Powershell.Secuity<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> module to generate and validate windows catalog files.</source>
+          <target state="new">We have added two new cmdlets in <bpt id="p1">[</bpt>Microsoft.Powershell.Secuity<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847877.aspx)</ept> module to generate and validate windows catalog files.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>New-FileCatalog</source>
+          <target state="new">New-FileCatalog</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>New File catalog creates a windows catalog file for set of folders and files.</source>
+          <target state="new">New File catalog creates a windows catalog file for set of folders and files.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Catalog file contains hashes for all files in specified paths.</source>
+          <target state="new">Catalog file contains hashes for all files in specified paths.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>User can distribute the set of folders along with corresponding catalog file representing those folders.</source>
+          <target state="new">User can distribute the set of folders along with corresponding catalog file representing those folders.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It can be used by receiver of content to validate if any changes are made to the folders since catalog creation time.</source>
+          <target state="new">It can be used by receiver of content to validate if any changes are made to the folders since catalog creation time.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We support creating catalog version 1 and 2.</source>
+          <target state="new">We support creating catalog version 1 and 2.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Version 1 uses SHA1 hashing algorithm to create file hashes and version 2 uses SHA256.</source>
+          <target state="new">Version 1 uses SHA1 hashing algorithm to create file hashes and version 2 uses SHA256.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Catalog version 2 is not supported on <bpt id="p1">*</bpt>Windows Server 2008 R2<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Windows 7<ept id="p2">*</ept>.</source>
+          <target state="new">Catalog version 2 is not supported on <bpt id="p1">*</bpt>Windows Server 2008 R2<ept id="p1">*</ept> and <bpt id="p2">*</bpt>Windows 7<ept id="p2">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It is recommended to use catalog version 2 if using platforms <bpt id="p1">*</bpt>Windows 8<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Windows Server 2012<ept id="p2">*</ept> and above.</source>
+          <target state="new">It is recommended to use catalog version 2 if using platforms <bpt id="p1">*</bpt>Windows 8<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Windows Server 2012<ept id="p2">*</ept> and above.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To use this command on an existing module, specify the CatalogFilePath and Path variables to match the location of the module manifest.</source>
+          <target state="new">To use this command on an existing module, specify the CatalogFilePath and Path variables to match the location of the module manifest.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the example below, the module manifest is in C:\Program Files\Windows PowerShell\Modules\Pester.</source>
+          <target state="new">In the example below, the module manifest is in C:\Program Files\Windows PowerShell\Modules\Pester.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This creates the catalog file.</source>
+          <target state="new">This creates the catalog file.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To verify the integrity of catalog file (Pester.cat in above exmaple) it should be signed using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> cmdlet.</source>
+          <target state="new">To verify the integrity of catalog file (Pester.cat in above exmaple) it should be signed using <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Test-FileCatalog</source>
+          <target state="new">Test-FileCatalog</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Test File catalog validates the catalog representing a set of folders.</source>
+          <target state="new">Test File catalog validates the catalog representing a set of folders.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This cmdlet compares all the files hashes and their relative paths found in <bpt id="p1">*</bpt>catalog<ept id="p1">*</ept> with ones on <bpt id="p2">*</bpt>disk<ept id="p2">*</ept>.</source>
+          <target state="new">This cmdlet compares all the files hashes and their relative paths found in <bpt id="p1">*</bpt>catalog<ept id="p1">*</ept> with ones on <bpt id="p2">*</bpt>disk<ept id="p2">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If it detects any mismatch between file hashes and paths it gives status as <bpt id="p1">*</bpt>ValidationFailed<ept id="p1">*</ept>.</source>
+          <target state="new">If it detects any mismatch between file hashes and paths it gives status as <bpt id="p1">*</bpt>ValidationFailed<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>User can retrieve all this information using <bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> flag.</source>
+          <target state="new">User can retrieve all this information using <bpt id="p1">*</bpt>-Detailed<ept id="p1">*</ept> flag.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It also displays signing status of catalog in <bpt id="p1">*</bpt>Signature<ept id="p1">*</ept> filed which is same as calling <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> cmdlet on catalog file.</source>
+          <target state="new">It also displays signing status of catalog in <bpt id="p1">*</bpt>Signature<ept id="p1">*</ept> filed which is same as calling <bpt id="p2">[</bpt>Get-AuthenticodeSignature<ept id="p2">](https://technet.microsoft.com/en-us/library/hh849805.aspx)</ept> cmdlet on catalog file.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>User can also skip any file during validation by using <bpt id="p1">*</bpt>-FilesToSkip<ept id="p1">*</ept> parameter.</source>
+          <target state="new">User can also skip any file during validation by using <bpt id="p1">*</bpt>-FilesToSkip<ept id="p1">*</ept> parameter.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

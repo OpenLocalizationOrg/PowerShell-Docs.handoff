@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cdc7f45c9fa8a6bf748a52b460a1ac190d283971</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Registry-Entries.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1de99f9ffa751465439fab67eb1b4ea6229655d1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c040f03b372b90cc34732143000e5c045cd686cc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working with Registry Entries</source>
+          <target state="new">Working with Registry Entries</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Working with Registry Entries</source>
+          <target state="new">Working with Registry Entries</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Because registry entries are properties of keys and, as such, cannot be directly browsed, we need to take a slightly different approach when working with them.</source>
+          <target state="new">Because registry entries are properties of keys and, as such, cannot be directly browsed, we need to take a slightly different approach when working with them.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Listing Registry Entries</source>
+          <target state="new">Listing Registry Entries</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are many different ways to examine registry entries.</source>
+          <target state="new">There are many different ways to examine registry entries.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The simplest way is to get the property names associated with a key.</source>
+          <target state="new">The simplest way is to get the property names associated with a key.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, to see the names of the entries in the registry key <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion<ept id="p1">**</ept>, use <bpt id="p2">**</bpt>Get-Item<ept id="p2">**</ept>.</source>
+          <target state="new">For example, to see the names of the entries in the registry key <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion<ept id="p1">**</ept>, use <bpt id="p2">**</bpt>Get-Item<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Registry keys have a property with the generic name of "Property" that is a list of registry entries in the key.</source>
+          <target state="new">Registry keys have a property with the generic name of "Property" that is a list of registry entries in the key.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following command selects the Property property and expands the items so that they are displayed in a list:</source>
+          <target state="new">The following command selects the Property property and expands the items so that they are displayed in a list:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To view the registry entries in a more readable form, use <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept>:</source>
+          <target state="new">To view the registry entries in a more readable form, use <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell-related properties for the key are all prefixed with "PS", such as <bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>, <bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept>.</source>
+          <target state="new">The Windows PowerShell-related properties for the key are all prefixed with "PS", such as <bpt id="p1">**</bpt>PSPath<ept id="p1">**</ept>, <bpt id="p2">**</bpt>PSParentPath<ept id="p2">**</ept>, <bpt id="p3">**</bpt>PSChildName<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>PSProvider<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for referring to the current location.</source>
+          <target state="new">You can use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for referring to the current location.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> to change to the <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept> registry container first:</source>
+          <target state="new">You can use <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> to change to the <bpt id="p2">**</bpt>CurrentVersion<ept id="p2">**</ept> registry container first:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the built-in HKLM PSDrive with <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept>:</source>
+          <target state="new">Alternatively, you can use the built-in HKLM PSDrive with <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can then use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for the current location to list the properties without specifying a full path:</source>
+          <target state="new">You can then use the "<bpt id="p1">**</bpt>.<ept id="p1">**</ept>" notation for the current location to list the properties without specifying a full path:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Path expansion works the same as it does within the file system, so from this location you can get the <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> listing for <bpt id="p2">**</bpt>HKLM:\\SOFTWARE\\Microsoft\\Windows\\Help<ept id="p2">**</ept> by using <bpt id="p3">**</bpt>Get-ItemProperty -Path ..\\Help<ept id="p3">**</ept>.</source>
+          <target state="new">Path expansion works the same as it does within the file system, so from this location you can get the <bpt id="p1">**</bpt>ItemProperty<ept id="p1">**</ept> listing for <bpt id="p2">**</bpt>HKLM:\\SOFTWARE\\Microsoft\\Windows\\Help<ept id="p2">**</ept> by using <bpt id="p3">**</bpt>Get-ItemProperty -Path ..\\Help<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Getting a Single Registry Entry</source>
+          <target state="new">Getting a Single Registry Entry</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you want to retrieve a specific entry in a registry key, you can use one of several possible approaches.</source>
+          <target state="new">If you want to retrieve a specific entry in a registry key, you can use one of several possible approaches.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This example finds the value of <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> in <bpt id="p2">**</bpt>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion<ept id="p2">**</ept>.</source>
+          <target state="new">This example finds the value of <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> in <bpt id="p2">**</bpt>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Using <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter to specify the name of the key, and the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> parameter to specify the name of the <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept> entry.</source>
+          <target state="new">Using <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept>, use the <bpt id="p2">**</bpt>Path<ept id="p2">**</ept> parameter to specify the name of the key, and the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> parameter to specify the name of the <bpt id="p4">**</bpt>DevicePath<ept id="p4">**</ept> entry.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This command returns the standard Windows PowerShell properties as well as the <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> property.</source>
+          <target state="new">This command returns the standard Windows PowerShell properties as well as the <bpt id="p1">**</bpt>DevicePath<ept id="p1">**</ept> property.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Although <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept> has <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept> parameters, they cannot be used to filter by property name.</source>
+          <target state="new">Although <bpt id="p1">**</bpt>Get-ItemProperty<ept id="p1">**</ept> has <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Include<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Exclude<ept id="p4">**</ept> parameters, they cannot be used to filter by property name.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These parameters refer to registry keys—which are item paths—and not registry entries—which are item properties.</source>
+          <target state="new">These parameters refer to registry keys—which are item paths—and not registry entries—which are item properties.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Another option is to use the Reg.exe command line tool.</source>
+          <target state="new">Another option is to use the Reg.exe command line tool.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For help with reg.exe, type <bpt id="p1">**</bpt>reg.exe /?<ept id="p1">**</ept></source>
+          <target state="new">For help with reg.exe, type <bpt id="p1">**</bpt>reg.exe /?<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>at a command prompt.</source>
+          <target state="new">at a command prompt.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To find the DevicePath entry, use reg.exe as shown in the following command:</source>
+          <target state="new">To find the DevicePath entry, use reg.exe as shown in the following command:</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept> object as well to find some registry entries, although this method does not work with large binary data or with registry entry names that include characters such as "\\").</source>
+          <target state="new">You can also use the <bpt id="p1">**</bpt>WshShell COM<ept id="p1">**</ept> object as well to find some registry entries, although this method does not work with large binary data or with registry entry names that include characters such as "\\").</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Append the property name to the item path with a \\ separator:</source>
+          <target state="new">Append the property name to the item path with a \\ separator:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Creating New Registry Entries</source>
+          <target state="new">Creating New Registry Entries</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To add a new entry named "PowerShellPath" to the <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept> key, use <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept> with the path to the key, the entry name, and the value of the entry.</source>
+          <target state="new">To add a new entry named "PowerShellPath" to the <bpt id="p1">**</bpt>CurrentVersion<ept id="p1">**</ept> key, use <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept> with the path to the key, the entry name, and the value of the entry.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For this example, we will take the value of the Windows PowerShell variable <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept>, which stores the path to the installation directory for Windows PowerShell.</source>
+          <target state="new">For this example, we will take the value of the Windows PowerShell variable <bpt id="p1">**</bpt>$PSHome<ept id="p1">**</ept>, which stores the path to the installation directory for Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can add the new entry to the key by using the following command, and the command also returns information about the new entry:</source>
+          <target state="new">You can add the new entry to the key by using the following command, and the command also returns information about the new entry:</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PropertyType<ept id="p1">**</ept> must be the name of a <bpt id="p2">**</bpt>Microsoft.Win32.RegistryValueKind<ept id="p2">**</ept> enumeration member from the following table:</source>
+          <target state="new">The <bpt id="p1">**</bpt>PropertyType<ept id="p1">**</ept> must be the name of a <bpt id="p2">**</bpt>Microsoft.Win32.RegistryValueKind<ept id="p2">**</ept> enumeration member from the following table:</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>PropertyType Value</source>
+          <target state="new">PropertyType Value</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Meaning</source>
+          <target state="new">Meaning</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Binary</source>
+          <target state="new">Binary</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Binary data</source>
+          <target state="new">Binary data</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>DWord</source>
+          <target state="new">DWord</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A number that is a valid UInt32</source>
+          <target state="new">A number that is a valid UInt32</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>ExpandString</source>
+          <target state="new">ExpandString</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A string that can contain environment variables that are dynamically expanded</source>
+          <target state="new">A string that can contain environment variables that are dynamically expanded</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>MultiString</source>
+          <target state="new">MultiString</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A multiline string</source>
+          <target state="new">A multiline string</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>String</source>
+          <target state="new">String</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Any string value</source>
+          <target state="new">Any string value</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>QWord</source>
+          <target state="new">QWord</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>8 bytes of binary data</source>
+          <target state="new">8 bytes of binary data</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can add a registry entry to multiple locations by specifying an array of values for the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter:</source>
+          <target state="new">You can add a registry entry to multiple locations by specifying an array of values for the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter:</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can also overwrite a pre-existing registry entry value by adding the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to any <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept> command.</source>
+          <target state="new">You can also overwrite a pre-existing registry entry value by adding the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to any <bpt id="p2">**</bpt>New-ItemProperty<ept id="p2">**</ept> command.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Renaming Registry Entries</source>
+          <target state="new">Renaming Registry Entries</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To rename the <bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> entry to "PSHome," use <bpt id="p2">**</bpt>Rename-ItemProperty<ept id="p2">**</ept>:</source>
+          <target state="new">To rename the <bpt id="p1">**</bpt>PowerShellPath<ept id="p1">**</ept> entry to "PSHome," use <bpt id="p2">**</bpt>Rename-ItemProperty<ept id="p2">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To display the renamed value, add the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to the command.</source>
+          <target state="new">To display the renamed value, add the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter to the command.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Deleting Registry Entries</source>
+          <target state="new">Deleting Registry Entries</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To delete both the PSHome and PowerShellPath registry entries, use <bpt id="p1">**</bpt>Remove-ItemProperty<ept id="p1">**</ept>:</source>
+          <target state="new">To delete both the PSHome and PowerShellPath registry entries, use <bpt id="p1">**</bpt>Remove-ItemProperty<ept id="p1">**</ept>:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

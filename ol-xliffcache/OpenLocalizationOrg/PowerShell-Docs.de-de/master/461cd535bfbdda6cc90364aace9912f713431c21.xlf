@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">461cd535bfbdda6cc90364aace9912f713431c21</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\debugResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3419c9ad3c9e8cfcdd0eab883841c03425477249</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe9758c93342b726b24027ad1d1f8a93433f5c97</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Debugging DSC resources</source>
+          <target state="new">Debugging DSC resources</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Debugging DSC resources</source>
+          <target state="new">Debugging DSC resources</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In PowerShell 5.0, a new feature was introduced in Desired State Configuraiton (DSC) that allows you to debug a DSC resource as a configuration is being applied.</source>
+          <target state="new">In PowerShell 5.0, a new feature was introduced in Desired State Configuraiton (DSC) that allows you to debug a DSC resource as a configuration is being applied.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Enabling DSC debugging</source>
+          <target state="new">Enabling DSC debugging</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Before you can debug a resource, you have to enable debugging by calling the <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept> cmdlet.</source>
+          <target state="new">Before you can debug a resource, you have to enable debugging by calling the <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This cmdlet takes a mandatory parameter, <bpt id="p1">**</bpt>BreakAll<ept id="p1">**</ept>.</source>
+          <target state="new">This cmdlet takes a mandatory parameter, <bpt id="p1">**</bpt>BreakAll<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can verify that debugging has been enabled by looking at the result of a call to <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</source>
+          <target state="new">You can verify that debugging has been enabled by looking at the result of a call to <bpt id="p1">[</bpt>Get-DscLocalConfigurationManager<ept id="p1">](https://technet.microsoft.com/en-us/library/dn407378.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following PowerShell output shows the result of enabling debugging:</source>
+          <target state="new">The following PowerShell output shows the result of enabling debugging:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Starting a configuration with debug enabled</source>
+          <target state="new">Starting a configuration with debug enabled</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To debug a DSC resource, you start a configuration that calls that resource.</source>
+          <target state="new">To debug a DSC resource, you start a configuration that calls that resource.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For this example, we'll look at a simple configuration that calls the <bpt id="p1">[</bpt>WindowsFeature<ept id="p1">](windowsfeatureResource.md)</ept> resource to ensure that the "WindowsPowerShellWebAccess" feature is installed:</source>
+          <target state="new">For this example, we'll look at a simple configuration that calls the <bpt id="p1">[</bpt>WindowsFeature<ept id="p1">](windowsfeatureResource.md)</ept> resource to ensure that the "WindowsPowerShellWebAccess" feature is installed:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After compiling the configuration, start it by calling <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</source>
+          <target state="new">After compiling the configuration, start it by calling <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The configuration will stop when the Local Configuration Manager (LCM) calls into the first resource in the configuration.</source>
+          <target state="new">The configuration will stop when the Local Configuration Manager (LCM) calls into the first resource in the configuration.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you use the <ph id="ph1">`-Verbose`</ph> and <ph id="ph2">`-Wait`</ph> parameters, the output displays the lines you need to enter to start debugging.</source>
+          <target state="new">If you use the <ph id="ph1">`-Verbose`</ph> and <ph id="ph2">`-Wait`</ph> parameters, the output displays the lines you need to enter to start debugging.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>At this point, the LCM has called the resource, and come to the first break point.</source>
+          <target state="new">At this point, the LCM has called the resource, and come to the first break point.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The last three lines in the output show you how to attach to the process and start debugging the resource script.</source>
+          <target state="new">The last three lines in the output show you how to attach to the process and start debugging the resource script.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Debugging the resource script</source>
+          <target state="new">Debugging the resource script</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Start a new instance of the PowerShell ISE.</source>
+          <target state="new">Start a new instance of the PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the console pane, enter the last three lines of output from the <ph id="ph1">`Start-DscConfiguration`</ph> output as commands, replacing <ph id="ph2">`&lt;credentials&gt;`</ph> with valid user credentials.</source>
+          <target state="new">In the console pane, enter the last three lines of output from the <ph id="ph1">`Start-DscConfiguration`</ph> output as commands, replacing <ph id="ph2">`&lt;credentials&gt;`</ph> with valid user credentials.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You should now see a prompt that looks similar to:</source>
+          <target state="new">You should now see a prompt that looks similar to:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The resource script will open in the script pane, and the debugger is stopped at the first line of the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function (the <bpt id="p2">**</bpt>Test()<ept id="p2">**</ept> method of a class-based resource).</source>
+          <target state="new">The resource script will open in the script pane, and the debugger is stopped at the first line of the <bpt id="p1">**</bpt>Test-TargetResource<ept id="p1">**</ept> function (the <bpt id="p2">**</bpt>Test()<ept id="p2">**</ept> method of a class-based resource).</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Now you can use the debug commands in the ISE to step through the resource script, look at variable values, view the call stack, and so on.</source>
+          <target state="new">Now you can use the debug commands in the ISE to step through the resource script, look at variable values, view the call stack, and so on.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For information about debugging in the PowerShell ISE, see <bpt id="p1">[</bpt>How to Debug Scripts in Windows PowerShell ISE<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819480.aspx)</ept>.</source>
+          <target state="new">For information about debugging in the PowerShell ISE, see <bpt id="p1">[</bpt>How to Debug Scripts in Windows PowerShell ISE<ept id="p1">](https://technet.microsoft.com/en-us/library/dd819480.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Remember that every line in the resource script (or class) is set as a break point.</source>
+          <target state="new">Remember that every line in the resource script (or class) is set as a break point.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Disabling DSC debugging</source>
+          <target state="new">Disabling DSC debugging</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>After calling <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept>, all calls to <bpt id="p2">[</bpt>Start-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> will result in the configuration breaking into the debugger.</source>
+          <target state="new">After calling <bpt id="p1">[</bpt>Enable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517870.aspx)</ept>, all calls to <bpt id="p2">[</bpt>Start-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> will result in the configuration breaking into the debugger.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To allow configurations to run normally, you must disable debugging by calling the <bpt id="p1">[</bpt>Disable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517872.aspx)</ept> cmdlet.</source>
+          <target state="new">To allow configurations to run normally, you must disable debugging by calling the <bpt id="p1">[</bpt>Disable-DscDebug<ept id="p1">](https://technet.microsoft.com/en-us/library/mt517872.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Rebooting does not change the debug state of the LCM.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Rebooting does not change the debug state of the LCM.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If debugging is enabled, starting a configuration will still break into the debugger after a reboot.</source>
+          <target state="new">If debugging is enabled, starting a configuration will still break into the debugger after a reboot.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Writing a custom DSC resource with MOF<ept id="p1">](authoringResourceMOF.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Writing a custom DSC resource with MOF<ept id="p1">](authoringResourceMOF.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Writing a custom DSC resource with PowerShell classes<ept id="p1">](authoringResourceClass.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Writing a custom DSC resource with PowerShell classes<ept id="p1">](authoringResourceClass.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45fe96c43a834566d398820e3d94e3be923bb385</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\groupSetResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f61769f2696dc321a5bef2502672c9bda41bc59d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7491be2d673df5d0df05ce3c552705cc2e9d155</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC GroupSet Resource</source>
+          <target state="new">DSC GroupSet Resource</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell, DSC, built-in, resource</source>
+          <target state="new">powershell, DSC, built-in, resource</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism to manage local groups on the target node.</source>
+          <target state="new">Provides a mechanism to manage local groups on the target node.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DSC GroupSet Resource</source>
+          <target state="new">DSC GroupSet Resource</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>GroupSet<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage local groups on the target node.</source>
+          <target state="new">The <bpt id="p1">**</bpt>GroupSet<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage local groups on the target node.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This resource is a <bpt id="p1">[</bpt>composite resource<ept id="p1">](authoringResourceComposite.md)</ept> that calls the <bpt id="p2">[</bpt>Group resource<ept id="p2">](groupResource.md)</ept> for each group specified in the <ph id="ph1">`GroupName`</ph> parameter.</source>
+          <target state="new">This resource is a <bpt id="p1">[</bpt>composite resource<ept id="p1">](authoringResourceComposite.md)</ept> that calls the <bpt id="p2">[</bpt>Group resource<ept id="p2">](groupResource.md)</ept> for each group specified in the <ph id="ph1">`GroupName`</ph> parameter.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use this resource when you want to add and/or remove the same list of members to more than one group, remove more than one group, or add more than one group with the same list of members.</source>
+          <target state="new">Use this resource when you want to add and/or remove the same list of members to more than one group, remove more than one group, or add more than one group with the same list of members.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>GroupName</source>
+          <target state="new">GroupName</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The names of the groups for which you want to ensure a specific state.</source>
+          <target state="new">The names of the groups for which you want to ensure a specific state.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>MembersToExclude</source>
+          <target state="new">MembersToExclude</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use this property to remove members from the existing membership of the groups.</source>
+          <target state="new">Use this property to remove members from the existing membership of the groups.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The value of this property is an array of strings of the form <bpt id="p1">*</bpt>Domain<ept id="p1">*</ept><ph id="ph1">\\</ph><bpt id="p2">*</bpt>UserName<ept id="p2">*</ept>.</source>
+          <target state="new">The value of this property is an array of strings of the form <bpt id="p1">*</bpt>Domain<ept id="p1">*</ept><ph id="ph1">\\</ph><bpt id="p2">*</bpt>UserName<ept id="p2">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you set this property in a configuration, do not use the <bpt id="p1">**</bpt>Members<ept id="p1">**</ept> property.</source>
+          <target state="new">If you set this property in a configuration, do not use the <bpt id="p1">**</bpt>Members<ept id="p1">**</ept> property.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Doing so will generate an error.</source>
+          <target state="new">Doing so will generate an error.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Credential</source>
+          <target state="new">Credential</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The credentials required to access remote resources.</source>
+          <target state="new">The credentials required to access remote resources.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This account must have the appropriate Active Directory permissions to add all non-local accounts to the group; otherwise, an error will occur.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This account must have the appropriate Active Directory permissions to add all non-local accounts to the group; otherwise, an error will occur.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Ensure</source>
+          <target state="new">Ensure</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Indicates whether the groups exist.</source>
+          <target state="new">Indicates whether the groups exist.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Set this property to "Absent" to ensure that the groups do not exist.</source>
+          <target state="new">Set this property to "Absent" to ensure that the groups do not exist.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Setting it to "Present" (the default value) ensures that the groups exist.</source>
+          <target state="new">Setting it to "Present" (the default value) ensures that the groups exist.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Members</source>
+          <target state="new">Members</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Use this property to replace the current group membership with the specified members.</source>
+          <target state="new">Use this property to replace the current group membership with the specified members.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The value of this property is an array of strings of the form <bpt id="p1">*</bpt>Domain<ept id="p1">*</ept><ph id="ph1">\\</ph><bpt id="p2">*</bpt>UserName<ept id="p2">*</ept>.</source>
+          <target state="new">The value of this property is an array of strings of the form <bpt id="p1">*</bpt>Domain<ept id="p1">*</ept><ph id="ph1">\\</ph><bpt id="p2">*</bpt>UserName<ept id="p2">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you set this property in a configuration, do not use either the <bpt id="p1">**</bpt>MembersToExclude<ept id="p1">**</ept> or <bpt id="p2">**</bpt>MembersToInclude<ept id="p2">**</ept> property.</source>
+          <target state="new">If you set this property in a configuration, do not use either the <bpt id="p1">**</bpt>MembersToExclude<ept id="p1">**</ept> or <bpt id="p2">**</bpt>MembersToInclude<ept id="p2">**</ept> property.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Doing so will generate an error.</source>
+          <target state="new">Doing so will generate an error.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>MembersToInclude</source>
+          <target state="new">MembersToInclude</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Use this property to add members to the existing membership of the group.</source>
+          <target state="new">Use this property to add members to the existing membership of the group.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The value of this property is an array of strings of the form <bpt id="p1">*</bpt>Domain<ept id="p1">*</ept><ph id="ph1">\\</ph><bpt id="p2">*</bpt>UserName<ept id="p2">*</ept>.</source>
+          <target state="new">The value of this property is an array of strings of the form <bpt id="p1">*</bpt>Domain<ept id="p1">*</ept><ph id="ph1">\\</ph><bpt id="p2">*</bpt>UserName<ept id="p2">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you set this property in a configuration, do not use the <bpt id="p1">**</bpt>Members<ept id="p1">**</ept> property.</source>
+          <target state="new">If you set this property in a configuration, do not use the <bpt id="p1">**</bpt>Members<ept id="p1">**</ept> property.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Doing so will generate an error.</source>
+          <target state="new">Doing so will generate an error.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"``.</source>
+          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"``.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Example 1</source>
+          <target state="new">Example 1</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The following example shows how to ensure that two groups called "myGroup" and "myOtherGroup" are present.</source>
+          <target state="new">The following example shows how to ensure that two groups called "myGroup" and "myOtherGroup" are present.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This example uses plaintext credentials for simplicity.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This example uses plaintext credentials for simplicity.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For information about how to encrypt credentials in the configuration MOF file, see <bpt id="p1">[</bpt>Securing the MOF File<ept id="p1">](secureMOF.md)</ept>.</source>
+          <target state="new">For information about how to encrypt credentials in the configuration MOF file, see <bpt id="p1">[</bpt>Securing the MOF File<ept id="p1">](secureMOF.md)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

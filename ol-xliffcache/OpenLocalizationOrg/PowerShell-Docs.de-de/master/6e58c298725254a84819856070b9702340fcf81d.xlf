@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e58c298725254a84819856070b9702340fcf81d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\How-to-Write-and-Run-Scripts-in-the-Windows-PowerShell-ISE.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b3bda1266162fb40ae333281aa59c9ad1842773</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">513c6be578aefcdc126d8f195f7cfe75d0a1af51</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to Write and Run Scripts in the Windows PowerShell ISE</source>
+          <target state="new">How to Write and Run Scripts in the Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How to Write and Run Scripts in the Windows PowerShell ISE</source>
+          <target state="new">How to Write and Run Scripts in the Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic describes how to create, edit, run, and save scripts in the Script Pane.</source>
+          <target state="new">This topic describes how to create, edit, run, and save scripts in the Script Pane.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How to create and run scripts<ept id="p1">](#bkmk_1)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>How to create and run scripts<ept id="p1">](#bkmk_1)</ept></target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How to write and edit text in the Script Pane<ept id="p1">](#bkmk_2)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>How to write and edit text in the Script Pane<ept id="p1">](#bkmk_2)</ept></target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How to save a script<ept id="p1">](#bkmk_3)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>How to save a script<ept id="p1">](#bkmk_3)</ept></target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_1"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to create and run scripts</source>
+          <target state="new"><ph id="ph1">&lt;a name="bkmk_1"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to create and run scripts</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can open and edit Windows PowerShellÂ® files in the Script Pane.</source>
+          <target state="new">You can open and edit Windows PowerShellÂ® files in the Script Pane.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Specific file types of interest in Windows PowerShellÂ® are script files (.ps1), script data files (.psd1), and script module files (.psm1).</source>
+          <target state="new">Specific file types of interest in Windows PowerShellÂ® are script files (.ps1), script data files (.psd1), and script module files (.psm1).</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>These file types are syntax colored in the Script Pane editor.</source>
+          <target state="new">These file types are syntax colored in the Script Pane editor.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Other common file types you may open in the Script Pane are configuration files (.ps1xml), XML files, and text files.</source>
+          <target state="new">Other common file types you may open in the Script Pane are configuration files (.ps1xml), XML files, and text files.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell execution policy determines whether you can run scripts and load Windows PowerShell profiles and configuration files.</source>
+          <target state="new">The Windows PowerShell execution policy determines whether you can run scripts and load Windows PowerShell profiles and configuration files.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The default execution policy, Restricted, prevents all scripts from running, and prevents loading profiles.</source>
+          <target state="new">The default execution policy, Restricted, prevents all scripts from running, and prevents loading profiles.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To change the execution policy to allow profiles to load and be used, see <bpt id="p1">[</bpt>Set-ExecutionPolicy[PSITPro5_Security]<ept id="p1">](https://technet.microsoft.com/en-us/library/5690a0e1-495b-4e63-8280-65ead7bf01ab)</ept> and <bpt id="p2">[</bpt>about_Signing [v4]<ept id="p2">](https://technet.microsoft.com/en-us/library/fcbdd3b9-0b9f-4734-b5c7-e0dcc304fa1d)</ept>.</source>
+          <target state="new">To change the execution policy to allow profiles to load and be used, see <bpt id="p1">[</bpt>Set-ExecutionPolicy[PSITPro5_Security]<ept id="p1">](https://technet.microsoft.com/en-us/library/5690a0e1-495b-4e63-8280-65ead7bf01ab)</ept> and <bpt id="p2">[</bpt>about_Signing [v4]<ept id="p2">](https://technet.microsoft.com/en-us/library/fcbdd3b9-0b9f-4734-b5c7-e0dcc304fa1d)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To create a new script file</source>
+          <target state="new">To create a new script file</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>New<ept id="p1">**</ept> , or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>New<ept id="p3">**</ept>.</source>
+          <target state="new">On the toolbar, click <bpt id="p1">**</bpt>New<ept id="p1">**</ept> , or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>New<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The created file appears in a new file tab under the current PowerShell tab.</source>
+          <target state="new">The created file appears in a new file tab under the current PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Remember that the PowerShell tabs are only visible when there are more than one.</source>
+          <target state="new">Remember that the PowerShell tabs are only visible when there are more than one.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>By default a file of type script (.ps1) is created, but it can be saved with a new name and extension.</source>
+          <target state="new">By default a file of type script (.ps1) is created, but it can be saved with a new name and extension.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Multiple script files can be created in the same PowerShell tab.</source>
+          <target state="new">Multiple script files can be created in the same PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To open an existing script</source>
+          <target state="new">To open an existing script</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>Open…<ept id="p1">**</ept>, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Open<ept id="p3">**</ept>.</source>
+          <target state="new">On the toolbar, click <bpt id="p1">**</bpt>Open…<ept id="p1">**</ept>, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Open<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> dialog box, select the file you want to open.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> dialog box, select the file you want to open.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The opened file appears in a new tab.</source>
+          <target state="new">The opened file appears in a new tab.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To close a script tab</source>
+          <target state="new">To close a script tab</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click the script tab of the script you want to close, then do one of the following:</source>
+          <target state="new">Click the script tab of the script you want to close, then do one of the following:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Close<ept id="p1">**</ept> icon (X) on the script tab.</source>
+          <target state="new">Click the <bpt id="p1">**</bpt>Close<ept id="p1">**</ept> icon (X) on the script tab.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Close<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Close<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the file has been altered since it was last saved, you are prompted to save or discard it.</source>
+          <target state="new">If the file has been altered since it was last saved, you are prompted to save or discard it.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To display the file path</source>
+          <target state="new">To display the file path</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>On the file tab, point to the file name.</source>
+          <target state="new">On the file tab, point to the file name.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The fully qualified path to the script file appears in a tooltip.</source>
+          <target state="new">The fully qualified path to the script file appears in a tooltip.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To run a script</source>
+          <target state="new">To run a script</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>Run Script<ept id="p1">**</ept>, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Run<ept id="p3">**</ept>.</source>
+          <target state="new">On the toolbar, click <bpt id="p1">**</bpt>Run Script<ept id="p1">**</ept>, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Run<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To run a portion of a script</source>
+          <target state="new">To run a portion of a script</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, select a portion of a script.</source>
+          <target state="new">In the Script Pane, select a portion of a script.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Run Selection<ept id="p2">**</ept>, or on the toolbar, click <bpt id="p3">**</bpt>Run Selection<ept id="p3">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Run Selection<ept id="p2">**</ept>, or on the toolbar, click <bpt id="p3">**</bpt>Run Selection<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To stop a running script</source>
+          <target state="new">To stop a running script</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the toolbar, click <bpt id="p1">**</bpt>Stop Operation<ept id="p1">**</ept>, press CTRL+BREAK, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Stop Operation<ept id="p3">**</ept>.</source>
+          <target state="new">On the toolbar, click <bpt id="p1">**</bpt>Stop Operation<ept id="p1">**</ept>, press CTRL+BREAK, or on the <bpt id="p2">**</bpt>File<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Stop Operation<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Pressing <bpt id="p1">**</bpt>CTRL+C<ept id="p1">**</ept> also works unless some text is currently selected, in which case <bpt id="p2">**</bpt>CTRL+C<ept id="p2">**</ept> maps to the copy function for the selected text.</source>
+          <target state="new">Pressing <bpt id="p1">**</bpt>CTRL+C<ept id="p1">**</ept> also works unless some text is currently selected, in which case <bpt id="p2">**</bpt>CTRL+C<ept id="p2">**</ept> maps to the copy function for the selected text.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_2"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to write and edit text in the Script Pane</source>
+          <target state="new"><ph id="ph1">&lt;a name="bkmk_2"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to write and edit text in the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Use the following steps to edit text in the Script Pane.</source>
+          <target state="new">Use the following steps to edit text in the Script Pane.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can copy, cut, paste, find, and replace text.</source>
+          <target state="new">You can copy, cut, paste, find, and replace text.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can also undo and redo the last action you just performed.</source>
+          <target state="new">You can also undo and redo the last action you just performed.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The keyboard shortcuts for performing these actions are the same as those used for all Windows applications.</source>
+          <target state="new">The keyboard shortcuts for performing these actions are the same as those used for all Windows applications.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To enter text in the Script Pane</source>
+          <target state="new">To enter text in the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Move the cursor to the Script Pane by clicking anywhere in the Script Pane, or by clicking <bpt id="p1">**</bpt>Go to Script Pane<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>View<ept id="p2">**</ept> menu.</source>
+          <target state="new">Move the cursor to the Script Pane by clicking anywhere in the Script Pane, or by clicking <bpt id="p1">**</bpt>Go to Script Pane<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>View<ept id="p2">**</ept> menu.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Create a script.</source>
+          <target state="new">Create a script.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Syntax coloring and tab completion make this a richer experience in Windows PowerShell ISE.</source>
+          <target state="new">Syntax coloring and tab completion make this a richer experience in Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>How to Use Tab Completion in the Script Pane and Console Pane<ept id="p1">](How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md)</ept> for details about using the tab completion feature to help in typing.</source>
+          <target state="new">See <bpt id="p1">[</bpt>How to Use Tab Completion in the Script Pane and Console Pane<ept id="p1">](How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md)</ept> for details about using the tab completion feature to help in typing.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To find text in the Script Pane</source>
+          <target state="new">To find text in the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To find text anywhere, press <bpt id="p1">**</bpt>CTRL+F<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find in Script<ept id="p3">**</ept>.</source>
+          <target state="new">To find text anywhere, press <bpt id="p1">**</bpt>CTRL+F<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find in Script<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To find text after the cursor, press <bpt id="p1">**</bpt>F3<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find Next in Script<ept id="p3">**</ept>.</source>
+          <target state="new">To find text after the cursor, press <bpt id="p1">**</bpt>F3<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find Next in Script<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To find text before the cursor, press <bpt id="p1">**</bpt>SHIFT+F3<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find Previous in Script<ept id="p3">**</ept>.</source>
+          <target state="new">To find text before the cursor, press <bpt id="p1">**</bpt>SHIFT+F3<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Find Previous in Script<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To find and replace text in the Script Pane</source>
+          <target state="new">To find and replace text in the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CRTL+H<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Replace in Script<ept id="p3">**</ept>.</source>
+          <target state="new">Press <bpt id="p1">**</bpt>CRTL+H<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Replace in Script<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Enter both the text you want to find and the text with which you want to replace it, and then press <bpt id="p1">**</bpt>ENTER<ept id="p1">**</ept>.</source>
+          <target state="new">Enter both the text you want to find and the text with which you want to replace it, and then press <bpt id="p1">**</bpt>ENTER<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To go to a particular line of text in the Script Pane</source>
+          <target state="new">To go to a particular line of text in the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, press <bpt id="p1">**</bpt>CTRL+G<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Go to Line<ept id="p3">**</ept>.</source>
+          <target state="new">In the Script Pane, press <bpt id="p1">**</bpt>CTRL+G<ept id="p1">**</ept> or, on the <bpt id="p2">**</bpt>Edit<ept id="p2">**</ept> menu, click <bpt id="p3">**</bpt>Go to Line<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Enter a line number.</source>
+          <target state="new">Enter a line number.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To copy text in the Script Pane</source>
+          <target state="new">To copy text in the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, select the text that you want to copy.</source>
+          <target state="new">In the Script Pane, select the text that you want to copy.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL+C<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Copy<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Copy<ept id="p4">**</ept>.</source>
+          <target state="new">Press <bpt id="p1">**</bpt>CTRL+C<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Copy<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Copy<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To cut text in the Script Pane</source>
+          <target state="new">To cut text in the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In the Script Pane, select the text that you want to cut.</source>
+          <target state="new">In the Script Pane, select the text that you want to cut.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL+X<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Cut<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Cut<ept id="p4">**</ept>.</source>
+          <target state="new">Press <bpt id="p1">**</bpt>CTRL+X<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Cut<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Cut<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To paste text into the Script Pane</source>
+          <target state="new">To paste text into the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL+V<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Paste<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Paste<ept id="p4">**</ept>.</source>
+          <target state="new">Press <bpt id="p1">**</bpt>CTRL+V<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Paste<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Paste<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To undo an action in the Script Pane</source>
+          <target state="new">To undo an action in the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL+Z<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Undo<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Undo<ept id="p4">**</ept>.</source>
+          <target state="new">Press <bpt id="p1">**</bpt>CTRL+Z<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Undo<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Undo<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To redo an action in the Script Pane</source>
+          <target state="new">To redo an action in the Script Pane</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL+Y<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Redo<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Redo<ept id="p4">**</ept>.</source>
+          <target state="new">Press <bpt id="p1">**</bpt>CTRL+Y<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Redo<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Redo<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="bkmk_3"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to save a script</source>
+          <target state="new"><ph id="ph1">&lt;a name="bkmk_3"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to save a script</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Use the following steps to save and name a script.</source>
+          <target state="new">Use the following steps to save and name a script.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An asterisk appears next to the script name to mark a file that has not been saved since it was altered.</source>
+          <target state="new">An asterisk appears next to the script name to mark a file that has not been saved since it was altered.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The asterisk disappears when the file is saved.</source>
+          <target state="new">The asterisk disappears when the file is saved.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To save a script</source>
+          <target state="new">To save a script</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>CTRL+S<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Save<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>File<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Save<ept id="p4">**</ept>.</source>
+          <target state="new">Press <bpt id="p1">**</bpt>CTRL+S<ept id="p1">**</ept> or, on the toolbar, click the <bpt id="p2">**</bpt>Save<ept id="p2">**</ept> icon, or on the <bpt id="p3">**</bpt>File<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>Save<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To save and name a script</source>
+          <target state="new">To save and name a script</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Save As<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Save As<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Save As<ept id="p1">**</ept> dialog box will appear.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Save As<ept id="p1">**</ept> dialog box will appear.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>File name<ept id="p1">**</ept> box, enter a name for the file.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>File name<ept id="p1">**</ept> box, enter a name for the file.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Save as type<ept id="p1">**</ept> box, select a file type.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Save as type<ept id="p1">**</ept> box, select a file type.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For example, in the <bpt id="p1">**</bpt>Save as type<ept id="p1">**</ept> box, select “PowerShell Scripts (\* .ps1)”.</source>
+          <target state="new">For example, in the <bpt id="p1">**</bpt>Save as type<ept id="p1">**</ept> box, select “PowerShell Scripts (\* .ps1)”.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To save a script in ASCII encoding</source>
+          <target state="new">To save a script in ASCII encoding</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>By default, Windows PowerShell ISE saves new script files (.ps1), script data files (.psd1), and script module files (.psm1) as Unicode (BigEndianUnicode) by default.</source>
+          <target state="new">By default, Windows PowerShell ISE saves new script files (.ps1), script data files (.psd1), and script module files (.psm1) as Unicode (BigEndianUnicode) by default.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To save a script in another encoding, such as ASCII (ANSI), use the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>SaveAs<ept id="p2">**</ept> methods on the <bpt id="p3">[</bpt>$psISE.CurrentFile<ept id="p3">](https://technet.microsoft.com/en-us/library/bc3300e4-9c17-4f00-a621-c8867126e3b3#CurrentFile)</ept> object.</source>
+          <target state="new">To save a script in another encoding, such as ASCII (ANSI), use the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>SaveAs<ept id="p2">**</ept> methods on the <bpt id="p3">[</bpt>$psISE.CurrentFile<ept id="p3">](https://technet.microsoft.com/en-us/library/bc3300e4-9c17-4f00-a621-c8867126e3b3#CurrentFile)</ept> object.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The following command saves a new script as MyScript.ps1 with ASCII encoding.</source>
+          <target state="new">The following command saves a new script as MyScript.ps1 with ASCII encoding.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The following command replaces the current script file with a file with the same name, but with ASCII encoding.</source>
+          <target state="new">The following command replaces the current script file with a file with the same name, but with ASCII encoding.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The following command gets the encoding of the current file.</source>
+          <target state="new">The following command gets the encoding of the current file.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE supports the following encoding options: ASCII, BigEndianUnicode, Unicode, UTF32, UTF7, UTF8 and Default.</source>
+          <target state="new">Windows PowerShell ISE supports the following encoding options: ASCII, BigEndianUnicode, Unicode, UTF32, UTF7, UTF8 and Default.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The value of the Default option varies with the system.</source>
+          <target state="new">The value of the Default option varies with the system.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE does not change the encoding of scripts that were created by in other editors, even when you use the Save or Save As commands in Windows PowerShell ISE.</source>
+          <target state="new">Windows PowerShell ISE does not change the encoding of scripts that were created by in other editors, even when you use the Save or Save As commands in Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using the Windows PowerShell ISE<ept id="p1">](Using-the-Windows-PowerShell-ISE.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Using the Windows PowerShell ISE<ept id="p1">](Using-the-Windows-PowerShell-ISE.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfe0a6562743f1df81acb81e33c120cb67f9042c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\known-issues-cache\template.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f47b567c8587b4d126defd47732f9ff4dea62e0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7ae6cec483f3036a6c829f72572c478feb0eecf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>example template of a known issue or limitation writeup</source>
+          <target state="new">example template of a known issue or limitation writeup</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Note: provide a proposed descriptive title and a brief description</source>
+          <target state="new">Note: provide a proposed descriptive title and a brief description</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Example: Erroneous ExecutionPolicy errors</source>
+          <target state="new">Example: Erroneous ExecutionPolicy errors</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>On Windows 7, the use of PowerShell modules and DSC resources may result in errors reported about ExecutionPolicy.</source>
+          <target state="new">On Windows 7, the use of PowerShell modules and DSC resources may result in errors reported about ExecutionPolicy.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Resolution</source>
+          <target state="new">Resolution</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To resolve, set the <bpt id="p1">**</bpt>ExecutionPolicy<ept id="p1">**</ept> to <bpt id="p2">**</bpt>RemoteSigned<ept id="p2">**</ept> by running the following command in an elevated PowerShell session (Run as Administrator):</source>
+          <target state="new">To resolve, set the <bpt id="p1">**</bpt>ExecutionPolicy<ept id="p1">**</ept> to <bpt id="p2">**</bpt>RemoteSigned<ept id="p2">**</ept> by running the following command in an elevated PowerShell session (Run as Administrator):</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

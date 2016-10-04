@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a750fb208e73ce2ebffb2fa86a55c825169d8ad8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\configDataCredentials.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf734337b2ed718efb6e2edba3f2bfece320fadb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">39b704f27d745bc906c715901bef221b97908951</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Credentials Options in Configuration Data</source>
+          <target state="new">Credentials Options in Configuration Data</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Credentials Options in Configuration Data</source>
+          <target state="new">Credentials Options in Configuration Data</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Plain Text Passwords and Domain Users</source>
+          <target state="new">Plain Text Passwords and Domain Users</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>DSC configurations containing a credential without encryption will generate an error messages about plain text passwords.</source>
+          <target state="new">DSC configurations containing a credential without encryption will generate an error messages about plain text passwords.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Also, DSC will generate a warning when using domain credentials.</source>
+          <target state="new">Also, DSC will generate a warning when using domain credentials.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To suppress these error and warning messages use the DSC configuration data keywords:</source>
+          <target state="new">To suppress these error and warning messages use the DSC configuration data keywords:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PsDscAllowPlainTextPassword<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>PsDscAllowPlainTextPassword<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PsDscAllowDomainUser<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>PsDscAllowDomainUser<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Handling Credentials in DSC</source>
+          <target state="new">Handling Credentials in DSC</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>DSC configuration resources run as <ph id="ph1">`Local System`</ph> by default.</source>
+          <target state="new">DSC configuration resources run as <ph id="ph1">`Local System`</ph> by default.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, some resources need a credential, for example when the <ph id="ph1">`Package`</ph> resource needs to install software under a specific user account.</source>
+          <target state="new">However, some resources need a credential, for example when the <ph id="ph1">`Package`</ph> resource needs to install software under a specific user account.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Earlier resources used a hard-coded <ph id="ph1">`Credential`</ph> property name to handle this.</source>
+          <target state="new">Earlier resources used a hard-coded <ph id="ph1">`Credential`</ph> property name to handle this.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>WMF 5.0 added an automatic <ph id="ph1">`PsDscRunAsCredential`</ph> property for all resources.</source>
+          <target state="new">WMF 5.0 added an automatic <ph id="ph1">`PsDscRunAsCredential`</ph> property for all resources.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For information about using <ph id="ph1">`PsDscRunAsCredential`</ph>, see <bpt id="p1">[</bpt>Running DSC with user credentials<ept id="p1">](runAsUser.md)</ept>.</source>
+          <target state="new">For information about using <ph id="ph1">`PsDscRunAsCredential`</ph>, see <bpt id="p1">[</bpt>Running DSC with user credentials<ept id="p1">](runAsUser.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Newer resources and custom resources can use this automatic property instead of creating their own property for credentials.</source>
+          <target state="new">Newer resources and custom resources can use this automatic property instead of creating their own property for credentials.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Note that the design of some resources are to use multiple credentials for a specific reason, and they will have their own credential properties.<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Note that the design of some resources are to use multiple credentials for a specific reason, and they will have their own credential properties.<ept id="p1">*</ept></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To find the available credential properties on a resource use either <ph id="ph1">`Get-DscResource -Name ResourceName -Syntax`</ph> or the Intellisense in the ISE (<ph id="ph2">`CTRL+SPACE`</ph>).</source>
+          <target state="new">To find the available credential properties on a resource use either <ph id="ph1">`Get-DscResource -Name ResourceName -Syntax`</ph> or the Intellisense in the ISE (<ph id="ph2">`CTRL+SPACE`</ph>).</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This example uses a <bpt id="p1">[</bpt>Group<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/groupresource)</ept> resource from the <ph id="ph1">`PSDesiredStateConfiguration`</ph> built-in DSC resource module.</source>
+          <target state="new">This example uses a <bpt id="p1">[</bpt>Group<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/groupresource)</ept> resource from the <ph id="ph1">`PSDesiredStateConfiguration`</ph> built-in DSC resource module.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It can create local groups and add or remove members.</source>
+          <target state="new">It can create local groups and add or remove members.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It accepts both the <ph id="ph1">`Credential`</ph> property and the automatic <ph id="ph2">`PsDscRunAsCredential`</ph> property.</source>
+          <target state="new">It accepts both the <ph id="ph1">`Credential`</ph> property and the automatic <ph id="ph2">`PsDscRunAsCredential`</ph> property.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>However, the resource only uses the <ph id="ph1">`Credential`</ph> property.</source>
+          <target state="new">However, the resource only uses the <ph id="ph1">`Credential`</ph> property.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Read more about <ph id="ph1">`PsDscRunAsCredential`</ph> in the <bpt id="p1">[</bpt>WMF Release Notes<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/wmf/dsc_runas)</ept>.</source>
+          <target state="new">Read more about <ph id="ph1">`PsDscRunAsCredential`</ph> in the <bpt id="p1">[</bpt>WMF Release Notes<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/wmf/dsc_runas)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Example: The Group resource Credential property</source>
+          <target state="new">Example: The Group resource Credential property</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>DSC runs under <ph id="ph1">`Local System`</ph>, so it already has permissions to change local users and groups.</source>
+          <target state="new">DSC runs under <ph id="ph1">`Local System`</ph>, so it already has permissions to change local users and groups.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the member added is a local account, then no credential is necessary.</source>
+          <target state="new">If the member added is a local account, then no credential is necessary.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`Group`</ph> resource adds a domain account to the local group, then a credential is necessary.</source>
+          <target state="new">If the <ph id="ph1">`Group`</ph> resource adds a domain account to the local group, then a credential is necessary.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Anonymous queries to Active Directory are not allowed.</source>
+          <target state="new">Anonymous queries to Active Directory are not allowed.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Credential`</ph> property of the <ph id="ph2">`Group`</ph> resource is the domain account used to query Active Directory.</source>
+          <target state="new">The <ph id="ph1">`Credential`</ph> property of the <ph id="ph2">`Group`</ph> resource is the domain account used to query Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For most purposes this could be a generic user account, because by default users can <bpt id="p1">*</bpt>read<ept id="p1">*</ept> most of the objects in Active Directory.</source>
+          <target state="new">For most purposes this could be a generic user account, because by default users can <bpt id="p1">*</bpt>read<ept id="p1">*</ept> most of the objects in Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Example Configuration</source>
+          <target state="new">Example Configuration</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The following example code uses DSC to populate a local group with a domain user:</source>
+          <target state="new">The following example code uses DSC to populate a local group with a domain user:</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This code generates both an error and warning message:</source>
+          <target state="new">This code generates both an error and warning message:</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This example has two issues:</source>
+          <target state="new">This example has two issues:</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An error explains that plain text passwords are not recommended</source>
+          <target state="new">An error explains that plain text passwords are not recommended</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A warning advises against using a domain credential</source>
+          <target state="new">A warning advises against using a domain credential</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>PsDscAllowPlainTextPassword</source>
+          <target state="new">PsDscAllowPlainTextPassword</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The first error message has a URL with documentation.</source>
+          <target state="new">The first error message has a URL with documentation.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This link explains how to encrypt passwords using a <bpt id="p1">[</bpt>ConfigurationData<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configdata)</ept> structure and a certificate.</source>
+          <target state="new">This link explains how to encrypt passwords using a <bpt id="p1">[</bpt>ConfigurationData<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configdata)</ept> structure and a certificate.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For more information on certificates and DSC <bpt id="p1">[</bpt>read this post<ept id="p1">](http://aka.ms/certs4dsc)</ept>.</source>
+          <target state="new">For more information on certificates and DSC <bpt id="p1">[</bpt>read this post<ept id="p1">](http://aka.ms/certs4dsc)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To force a plain text password, the resource requires the <ph id="ph1">`PsDscAllowPlainTextPassword`</ph> keyword in the configuration data section as follows:</source>
+          <target state="new">To force a plain text password, the resource requires the <ph id="ph1">`PsDscAllowPlainTextPassword`</ph> keyword in the configuration data section as follows:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Note that <ph id="ph1">`NodeName`</ph> cannot equal asterisk, a specific node name is mandatory.<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Note that <ph id="ph1">`NodeName`</ph> cannot equal asterisk, a specific node name is mandatory.<ept id="p1">*</ept></target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft advises to avoid plain text passwords due to the significant security risk.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Microsoft advises to avoid plain text passwords due to the significant security risk.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Domain Credentials</source>
+          <target state="new">Domain Credentials</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Running the example configuration script again (with or without encryption), still generates the warning that using a domain account for a credential is not recommended.</source>
+          <target state="new">Running the example configuration script again (with or without encryption), still generates the warning that using a domain account for a credential is not recommended.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Using a local account eliminates potential exposure of domain credentials that could be used on other servers.</source>
+          <target state="new">Using a local account eliminates potential exposure of domain credentials that could be used on other servers.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>When using credentials with DSC resources, prefer a local account over a domain account when possible.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>When using credentials with DSC resources, prefer a local account over a domain account when possible.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If there is a '\' or <ph id="ph1">'@'</ph> in the <ph id="ph2">`Username`</ph> property of the credential, then DSC will treat it as a domain account.</source>
+          <target state="new">If there is a '\' or <ph id="ph1">'@'</ph> in the <ph id="ph2">`Username`</ph> property of the credential, then DSC will treat it as a domain account.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>There is an exception for "localhost", "127.0.0.1", and "::1" in the domain portion of the user name.</source>
+          <target state="new">There is an exception for "localhost", "127.0.0.1", and "::1" in the domain portion of the user name.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>PSDscAllowDomainUser</source>
+          <target state="new">PSDscAllowDomainUser</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In the DSC <ph id="ph1">`Group`</ph> resource example above, querying an Active Directory domain <bpt id="p1">*</bpt>requires<ept id="p1">*</ept> a domain account.</source>
+          <target state="new">In the DSC <ph id="ph1">`Group`</ph> resource example above, querying an Active Directory domain <bpt id="p1">*</bpt>requires<ept id="p1">*</ept> a domain account.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In this case add the <ph id="ph1">`PSDscAllowDomainUser`</ph> property to the <ph id="ph2">`ConfigurationData`</ph> block as follows:</source>
+          <target state="new">In this case add the <ph id="ph1">`PSDscAllowDomainUser`</ph> property to the <ph id="ph2">`ConfigurationData`</ph> block as follows:</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Now the configuration script will generate the MOF file with no errors or warnings.</source>
+          <target state="new">Now the configuration script will generate the MOF file with no errors or warnings.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

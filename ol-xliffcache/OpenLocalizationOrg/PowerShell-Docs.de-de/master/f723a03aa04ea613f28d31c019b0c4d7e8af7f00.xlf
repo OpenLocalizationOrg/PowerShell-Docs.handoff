@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f723a03aa04ea613f28d31c019b0c4d7e8af7f00</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\psget_moduledependency.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bb58905373e31fe550109bbb77849898ffd49347</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a12ebd399b0ad79547f5726d73f70feb931e5728</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Installation of Module Dependencies</source>
+          <target state="new">Installation of Module Dependencies</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>There is now side-by-side (SxS) module version support in Install-Module, Update-Module, and Publish-Module cmdlets that run in Windows PowerShell 5.0 or newer.</source>
+          <target state="new">There is now side-by-side (SxS) module version support in Install-Module, Update-Module, and Publish-Module cmdlets that run in Windows PowerShell 5.0 or newer.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Also, we have added a -RequiredVersion parameter to the Publish-Module cmdlet to specify the version to be published.</source>
+          <target state="new">Also, we have added a -RequiredVersion parameter to the Publish-Module cmdlet to specify the version to be published.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Path parameter now supports the module base path with the version folder.</source>
+          <target state="new">The Path parameter now supports the module base path with the version folder.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Install-Module examples:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Install-Module examples:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Install a module with dependencies:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Install a module with dependencies:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Contents of ModuleWithDependencies2 module manifest file:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Contents of ModuleWithDependencies2 module manifest file:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Update-Module examples:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Update-Module examples:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Publish-Module examples:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Publish-Module examples:<ept id="p1">**</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09741289743ef276e3e94753dcce136193304c65</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\feedback_convertfromString.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b0cd6623aabaf4072ab6a819242f1bdd2cd9af3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2e6d6e0319e1095a95b7bad95c19a66554f865a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Extract and Parse Structured Objects out of String</source>
+          <target state="new">Extract and Parse Structured Objects out of String</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This also introduces some additional functionality for the ConvertFrom-String cmdlet:</source>
+          <target state="new">This also introduces some additional functionality for the ConvertFrom-String cmdlet:</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Removes the extent text property by default.</source>
+          <target state="new">Removes the extent text property by default.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can include it with the -IncludeExtent parameter.</source>
+          <target state="new">You can include it with the -IncludeExtent parameter.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Many learning algorithm bug fixes from MVP and community feedback.</source>
+          <target state="new">Many learning algorithm bug fixes from MVP and community feedback.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A new -UpdateTemplate parameter to save the results of the learning algorithm into a comment in the template file.</source>
+          <target state="new">A new -UpdateTemplate parameter to save the results of the learning algorithm into a comment in the template file.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This makes the learning process (the slowest stage) a one-time cost.</source>
+          <target state="new">This makes the learning process (the slowest stage) a one-time cost.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Running Convert-String with a template that contains the encoded learning algorithm is now nearly instantaneous.</source>
+          <target state="new">Running Convert-String with a template that contains the encoded learning algorithm is now nearly instantaneous.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Extract and parse structured objects out of string content</source>
+          <target state="new">Extract and parse structured objects out of string content</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In collaboration with <bpt id="p1">[</bpt>Microsoft Research<ept id="p1">](http://research.microsoft.com/)</ept>, a new <bpt id="p2">**</bpt>ConvertFrom-String<ept id="p2">**</ept> cmdlet has been added.</source>
+          <target state="new">In collaboration with <bpt id="p1">[</bpt>Microsoft Research<ept id="p1">](http://research.microsoft.com/)</ept>, a new <bpt id="p2">**</bpt>ConvertFrom-String<ept id="p2">**</ept> cmdlet has been added.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This cmdlet supports two modes: basic delimited parsing, and auto generated example-driven parsing.</source>
+          <target state="new">This cmdlet supports two modes: basic delimited parsing, and auto generated example-driven parsing.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Delimited parsing, by default, splits the input at white space, and assigns property names to the resulting groups.</source>
+          <target state="new">Delimited parsing, by default, splits the input at white space, and assigns property names to the resulting groups.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can customize the delimiter:</source>
+          <target state="new">You can customize the delimiter:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>1 \[C:\\temp\] <ph id="ph1">&amp;gt;</ph><ph id="ph2">&amp;gt;</ph> "Hello World" | ConvertFrom-String | Format-Table -Auto</source>
+          <target state="new">1 \[C:\\temp\] <ph id="ph1">&amp;gt;</ph><ph id="ph2">&amp;gt;</ph> "Hello World" | ConvertFrom-String | Format-Table -Auto</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>P1    P2</source>
+          <target state="new">P1    P2</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The cmdlet also supports auto-generated example-driven parsing based on the <bpt id="p1">[</bpt>FlashExtract<ept id="p1">](http://research.microsoft.com/en-us/um/people/sumitg/flashextract.html)</ept> research work in <bpt id="p2">[</bpt>Microsoft Research<ept id="p2">](http://research.microsoft.com)</ept>.</source>
+          <target state="new">The cmdlet also supports auto-generated example-driven parsing based on the <bpt id="p1">[</bpt>FlashExtract<ept id="p1">](http://research.microsoft.com/en-us/um/people/sumitg/flashextract.html)</ept> research work in <bpt id="p2">[</bpt>Microsoft Research<ept id="p2">](http://research.microsoft.com)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To get started, consider a text-based address book:</source>
+          <target state="new">To get started, consider a text-based address book:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Copy a few examples into a file, which you will use as your template:</source>
+          <target state="new">Copy a few examples into a file, which you will use as your template:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Put curly braces around data that you want to extract, giving it a name as you do so.</source>
+          <target state="new">Put curly braces around data that you want to extract, giving it a name as you do so.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Because the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> property (and its associated other properties) can appear multiple times, use an asterisk (\*) to indicate that this results in multiple records (rather than extracting a bunch of properties into one record):</source>
+          <target state="new">Because the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> property (and its associated other properties) can appear multiple times, use an asterisk (\*) to indicate that this results in multiple records (rather than extracting a bunch of properties into one record):</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>From this set of examples, <bpt id="p1">**</bpt>ConvertFrom-String<ept id="p1">**</ept> can now automatically extract object-based output from input files with similar structure.</source>
+          <target state="new">From this set of examples, <bpt id="p1">**</bpt>ConvertFrom-String<ept id="p1">**</ept> can now automatically extract object-based output from input files with similar structure.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>2 \[C:\\temp\]</source>
+          <target state="new">2 \[C:\\temp\]</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;gt;</ph><ph id="ph2">&amp;gt;</ph> Get-Content .\\addresses.output.txt | ConvertFrom-String -TemplateFile .\\addresses.template.txt | <ph id="ph3">&amp;gt;</ph><ph id="ph4">&amp;gt;</ph><ph id="ph5">&amp;gt;</ph> Format-Table -Auto</source>
+          <target state="new"><ph id="ph1">&amp;gt;</ph><ph id="ph2">&amp;gt;</ph> Get-Content .\\addresses.output.txt | ConvertFrom-String -TemplateFile .\\addresses.template.txt | <ph id="ph3">&amp;gt;</ph><ph id="ph4">&amp;gt;</ph><ph id="ph5">&amp;gt;</ph> Format-Table -Auto</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>ExtentText                     Name               City     State</source>
+          <target state="new">ExtentText                     Name               City     State</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Ana Trujillo...                Ana Trujillo       Redmond  WA Antonio Moreno...              Antonio Moreno     Renton   WA Thomas Hardy...                Thomas Hardy       Seattle  WA Christina Berglund...          Christina Berglund Redmond  WA Hanna Moos...                  Hanna Moos         Puyallup WA</source>
+          <target state="new">Ana Trujillo...                Ana Trujillo       Redmond  WA Antonio Moreno...              Antonio Moreno     Renton   WA Thomas Hardy...                Thomas Hardy       Seattle  WA Christina Berglund...          Christina Berglund Redmond  WA Hanna Moos...                  Hanna Moos         Puyallup WA</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To do additional data manipulation on extracted text, the <bpt id="p1">**</bpt>ExtentText<ept id="p1">**</ept> property captures the raw text from which the record was extracted.</source>
+          <target state="new">To do additional data manipulation on extracted text, the <bpt id="p1">**</bpt>ExtentText<ept id="p1">**</ept> property captures the raw text from which the record was extracted.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To provide feedback on this feature, or to share content for which you are having difficulty writing examples, please email <bpt id="p1">&lt;</bpt><ph id="ph1">psdmfb@microsoft.com</ph><ept id="p1">&gt;</ept>.</source>
+          <target state="new">To provide feedback on this feature, or to share content for which you are having difficulty writing examples, please email <bpt id="p1">&lt;</bpt><ph id="ph1">psdmfb@microsoft.com</ph><ept id="p1">&gt;</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

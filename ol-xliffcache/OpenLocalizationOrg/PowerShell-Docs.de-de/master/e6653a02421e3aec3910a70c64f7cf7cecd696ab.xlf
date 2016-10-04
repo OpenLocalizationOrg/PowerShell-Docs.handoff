@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6653a02421e3aec3910a70c64f7cf7cecd696ab</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\console-enhancements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f3276095d515754e446148a709b21b0d36a17e65</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cb1b46313ff973173901d9d0677b3403934dc354</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enhancements to the console experience</source>
+          <target state="new">Enhancements to the console experience</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Note: provide a proposed descriptive title and a brief description</source>
+          <target state="new">Note: provide a proposed descriptive title and a brief description</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>PowerShell Console Enhancements</source>
+          <target state="new">PowerShell Console Enhancements</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The following changes have been made to powershell.exe to improve the console experience:</source>
+          <target state="new">The following changes have been made to powershell.exe to improve the console experience:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>VT100 support</source>
+          <target state="new">VT100 support</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Windows 10 added support for <bpt id="p1">[</bpt>VT100 escape sequences<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/mt638032(v=vs.85).aspx)</ept>.</source>
+          <target state="new">Windows 10 added support for <bpt id="p1">[</bpt>VT100 escape sequences<ept id="p1">](https://msdn.microsoft.com/en-us/library/windows/desktop/mt638032(v=vs.85).aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>PowerShell will ignore certain VT100 formatting escape sequences when calculating table widths.</source>
+          <target state="new">PowerShell will ignore certain VT100 formatting escape sequences when calculating table widths.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PowerShell also added a new api that can be used in formatting code to determine if VT100 is supported.</source>
+          <target state="new">PowerShell also added a new api that can be used in formatting code to determine if VT100 is supported.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Here is a complete <bpt id="p1">[</bpt>example<ept id="p1">](https://gist.github.com/lzybkr/dcb973dccd54900b67783c48083c28f7)</ept> that can be used to highlight matches from Select-String.</source>
+          <target state="new">Here is a complete <bpt id="p1">[</bpt>example<ept id="p1">](https://gist.github.com/lzybkr/dcb973dccd54900b67783c48083c28f7)</ept> that can be used to highlight matches from Select-String.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Save the example in a file named <ph id="ph1">`MatchInfo.format.ps1xml`</ph>, the to use it, in your profile or elsewhere, run <ph id="ph2">`Update-FormatData -Prepend MatchInfo.format.ps1xml`</ph>.</source>
+          <target state="new">Save the example in a file named <ph id="ph1">`MatchInfo.format.ps1xml`</ph>, the to use it, in your profile or elsewhere, run <ph id="ph2">`Update-FormatData -Prepend MatchInfo.format.ps1xml`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Note that VT100 escape sequences are only supported starting with the Aniversary update to Windows 10, they are not supported on earlier systems.</source>
+          <target state="new">Note that VT100 escape sequences are only supported starting with the Aniversary update to Windows 10, they are not supported on earlier systems.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Vi mode support in PSReadline</source>
+          <target state="new">Vi mode support in PSReadline</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>PSReadline<ept id="p1">](https://github.com/lzybkr/PSReadLine)</ept> adds support for vi mode.</source>
+          <target state="new"><bpt id="p1">[</bpt>PSReadline<ept id="p1">](https://github.com/lzybkr/PSReadLine)</ept> adds support for vi mode.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To use vi mode, run <ph id="ph1">`Set-PSReadline -EditMode vi`</ph>.</source>
+          <target state="new">To use vi mode, run <ph id="ph1">`Set-PSReadline -EditMode vi`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Redirected stdin w/ interactive input</source>
+          <target state="new">Redirected stdin w/ interactive input</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In earlier versions, starting PowerShell with <ph id="ph1">`powershell -File -`</ph> was required when stdin was redirected and you wanted to enter commands interactively.</source>
+          <target state="new">In earlier versions, starting PowerShell with <ph id="ph1">`powershell -File -`</ph> was required when stdin was redirected and you wanted to enter commands interactively.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>With WMF 5.1, this hard to discover option is no longer necessary, you can start powershell without any options, e.g. <ph id="ph1">`powershell`</ph>.</source>
+          <target state="new">With WMF 5.1, this hard to discover option is no longer necessary, you can start powershell without any options, e.g. <ph id="ph1">`powershell`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Note that PSReadline does not currently supported redirected stdin, and the builtin commanding line editing experience with redirected stdin is extremely limited, e.g. arrow keys don't work.</source>
+          <target state="new">Note that PSReadline does not currently supported redirected stdin, and the builtin commanding line editing experience with redirected stdin is extremely limited, e.g. arrow keys don't work.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A future release of PSReadline should address this issue.</source>
+          <target state="new">A future release of PSReadline should address this issue.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a858cfc303cac6f9f2f23c01c1d8a753a69dc7c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psgallery\psgallery_search_syntax.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8446c36243d93c8fef9f8444b768877d25a70ab3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a99b74a2ccc9a4c69d649c74d8f3a14e82fd82ba</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Gallery Search Syntax</source>
+          <target state="new">Gallery Search Syntax</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell Gallery offers a text searchbox where you can use words, phrases and keyword expressions to narrow down search results.</source>
+          <target state="new">PowerShell Gallery offers a text searchbox where you can use words, phrases and keyword expressions to narrow down search results.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Search by Keywords</source>
+          <target state="new">Search by Keywords</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Search will do its best effort to find relevant documents containing all 3 keywords, and return matching documents.</source>
+          <target state="new">Search will do its best effort to find relevant documents containing all 3 keywords, and return matching documents.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Search using Phrases and keywords</source>
+          <target state="new">Search using Phrases and keywords</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Entering a phrase between quotation marks ("") change the search to look for the particular phrase instead of separate keywords.</source>
+          <target state="new">Entering a phrase between quotation marks ("") change the search to look for the particular phrase instead of separate keywords.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Matching documents should usually contain the exact phrase "azure sql", including variations on capitalization e.g. "Azure SQL", and also usually contain the word 'deployment'.</source>
+          <target state="new">Matching documents should usually contain the exact phrase "azure sql", including variations on capitalization e.g. "Azure SQL", and also usually contain the word 'deployment'.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Filtering on fields</source>
+          <target state="new">Filtering on fields</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can search for a specific item ID (or 'Id' or 'id'), or certain other fields by prefixing search terms with the field name.</source>
+          <target state="new">You can search for a specific item ID (or 'Id' or 'id'), or certain other fields by prefixing search terms with the field name.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Currently the searchable fields are 'Id', 'Version', 'Tags', 'Author', 'Owner', 'Functions', 'Cmdlets', 'DscResources' and 'PowerShellVersion'.</source>
+          <target state="new">Currently the searchable fields are 'Id', 'Version', 'Tags', 'Author', 'Owner', 'Functions', 'Cmdlets', 'DscResources' and 'PowerShellVersion'.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>[What's the difference between ID and Title?</source>
+          <target state="new">[What's the difference between ID and Title?</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>ID is the name you use in the console.</source>
+          <target state="new">ID is the name you use in the console.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Title is what is shown at the top of the item page in search results.]</source>
+          <target state="new">Title is what is shown at the top of the item page in search results.]</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Examples</source>
+          <target state="new">Examples</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>finds items with "PSReadline" or "AzureRM.Profile" in their ID field respectively.</source>
+          <target state="new">finds items with "PSReadline" or "AzureRM.Profile" in their ID field respectively.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>is another way to find items with "AzureRM.Profile" in their ID field.</source>
+          <target state="new">is another way to find items with "AzureRM.Profile" in their ID field.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The 'Id' filter is a substring match, so if you search for the following:</source>
+          <target state="new">The 'Id' filter is a substring match, so if you search for the following:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You'll get results like 'AzureRM.Profile' and 'Azure.Storage'.</source>
+          <target state="new">You'll get results like 'AzureRM.Profile' and 'Azure.Storage'.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can also search for multiple keywords in a single field.</source>
+          <target state="new">You can also search for multiple keywords in a single field.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Or mix and match fields.</source>
+          <target state="new">Or mix and match fields.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>And you can perform phrase searches:</source>
+          <target state="new">And you can perform phrase searches:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To search all items with DSC tag.</source>
+          <target state="new">To search all items with DSC tag.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To search all items with the specified function.</source>
+          <target state="new">To search all items with the specified function.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To search all items with the specified cmdlet.</source>
+          <target state="new">To search all items with the specified cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To search all items with the specified DSC Resource name.</source>
+          <target state="new">To search all items with the specified DSC Resource name.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To search all items with the specified PowerShellVersion</source>
+          <target state="new">To search all items with the specified PowerShellVersion</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Finally, if you use a field we don't support, such as 'commands', we'll just ignore it and search all the fields.</source>
+          <target state="new">Finally, if you use a field we don't support, such as 'commands', we'll just ignore it and search all the fields.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>So the following query</source>
+          <target state="new">So the following query</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Is interpreted exactly the same as this query:</source>
+          <target state="new">Is interpreted exactly the same as this query:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

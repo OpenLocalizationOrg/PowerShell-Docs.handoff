@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4809eb60ba1a5529343c2ab3c88493bf2c32389b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Registry-Keys.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">113a77837859f534acf93af184c03418c22ba021</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d852037dcda9746cf1990403f55e1bf7dc0445e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working with Registry Keys</source>
+          <target state="new">Working with Registry Keys</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Working with Registry Keys</source>
+          <target state="new">Working with Registry Keys</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Because registry keys are items on Windows PowerShell drives, working with them is very similar to working with files and folders.</source>
+          <target state="new">Because registry keys are items on Windows PowerShell drives, working with them is very similar to working with files and folders.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>One critical difference is that every item on a registry-based Windows PowerShell drive is a container, just like a folder on a file system drive.</source>
+          <target state="new">One critical difference is that every item on a registry-based Windows PowerShell drive is a container, just like a folder on a file system drive.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>However, registry entries and their associated values are properties of the items, not distinct items.</source>
+          <target state="new">However, registry entries and their associated values are properties of the items, not distinct items.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Listing All Subkeys of a Registry Key</source>
+          <target state="new">Listing All Subkeys of a Registry Key</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can show all items directly within a registry key by using <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>.</source>
+          <target state="new">You can show all items directly within a registry key by using <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Add the optional <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to display hidden or system items.</source>
+          <target state="new">Add the optional <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter to display hidden or system items.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, this command displays the items directly within Windows PowerShell drive HKCU:, which corresponds to the HKEY_CURRENT_USER registry hive:</source>
+          <target state="new">For example, this command displays the items directly within Windows PowerShell drive HKCU:, which corresponds to the HKEY_CURRENT_USER registry hive:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>These are the top-level keys visible under HKEY_CURRENT_USER in the Registry Editor (Regedit.exe).</source>
+          <target state="new">These are the top-level keys visible under HKEY_CURRENT_USER in the Registry Editor (Regedit.exe).</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can also specify this registry path by specifying the registry provider's name, followed by "<bpt id="p1">**</bpt>::<ept id="p1">**</ept>".</source>
+          <target state="new">You can also specify this registry path by specifying the registry provider's name, followed by "<bpt id="p1">**</bpt>::<ept id="p1">**</ept>".</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The registry provider's full name is <bpt id="p1">**</bpt>Microsoft.PowerShell.Core\\Registry<ept id="p1">**</ept>, but this can be shortened to just <bpt id="p2">**</bpt>Registry<ept id="p2">**</ept>.</source>
+          <target state="new">The registry provider's full name is <bpt id="p1">**</bpt>Microsoft.PowerShell.Core\\Registry<ept id="p1">**</ept>, but this can be shortened to just <bpt id="p2">**</bpt>Registry<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Any of the following commands will list the contents directly under HKCU:</source>
+          <target state="new">Any of the following commands will list the contents directly under HKCU:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>These commands list only the directly contained items, much like using Cmd.exe's <bpt id="p1">**</bpt>DIR<ept id="p1">**</ept> command or <bpt id="p2">**</bpt>ls<ept id="p2">**</ept> in a UNIX shell.</source>
+          <target state="new">These commands list only the directly contained items, much like using Cmd.exe's <bpt id="p1">**</bpt>DIR<ept id="p1">**</ept> command or <bpt id="p2">**</bpt>ls<ept id="p2">**</ept> in a UNIX shell.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To show contained items, you need to specify the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter.</source>
+          <target state="new">To show contained items, you need to specify the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To list all registry keys in HKCU, use the following command (This operation can take an extremely long time.):</source>
+          <target state="new">To list all registry keys in HKCU, use the following command (This operation can take an extremely long time.):</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> can perform complex filtering capabilities through its <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Include<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept> parameters, but those parameters are typically based only on name.</source>
+          <target state="new"><bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> can perform complex filtering capabilities through its <bpt id="p2">**</bpt>Path<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Include<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Exclude<ept id="p5">**</ept> parameters, but those parameters are typically based only on name.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can perform complex filtering based on other properties of items by using the <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept>cmdlet.</source>
+          <target state="new">You can perform complex filtering based on other properties of items by using the <bpt id="p1">**</bpt>Where-Object<ept id="p1">**</ept>cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following command finds all keys within HKCU:\\Software that have no more than one subkey and also have exactly four values:</source>
+          <target state="new">The following command finds all keys within HKCU:\\Software that have no more than one subkey and also have exactly four values:</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Copying Keys</source>
+          <target state="new">Copying Keys</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Copying is done with <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept>.</source>
+          <target state="new">Copying is done with <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following command copies HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion and all of its properties to HKCU:\\, creating a new key named "CurrentVersion":</source>
+          <target state="new">The following command copies HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion and all of its properties to HKCU:\\, creating a new key named "CurrentVersion":</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you examine this new key in the registry editor or by using <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>, you will notice that you do not have copies of the contained subkeys in the new location.</source>
+          <target state="new">If you examine this new key in the registry editor or by using <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept>, you will notice that you do not have copies of the contained subkeys in the new location.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In order to copy all of the contents of a container, you need to specify the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter.</source>
+          <target state="new">In order to copy all of the contents of a container, you need to specify the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To make the preceding copy command recursive, you would use this command:</source>
+          <target state="new">To make the preceding copy command recursive, you would use this command:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can still use other tools you already have available to perform filesystem copies.</source>
+          <target state="new">You can still use other tools you already have available to perform filesystem copies.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Any registry editing tools—including reg.exe, regini.exe, and regedit.exe—and COM objects that support registry editing (such as WScript.Shell and WMI's StdRegProv class) can be used from within Windows PowerShell.</source>
+          <target state="new">Any registry editing tools—including reg.exe, regini.exe, and regedit.exe—and COM objects that support registry editing (such as WScript.Shell and WMI's StdRegProv class) can be used from within Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Creating Keys</source>
+          <target state="new">Creating Keys</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creating new keys in the registry is simpler than creating a new item in a file system.</source>
+          <target state="new">Creating new keys in the registry is simpler than creating a new item in a file system.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Because all registry keys are containers, you do not need to specify the item type; you simply supply an explicit path, such as:</source>
+          <target state="new">Because all registry keys are containers, you do not need to specify the item type; you simply supply an explicit path, such as:</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can also use a provider-based path to specify a key:</source>
+          <target state="new">You can also use a provider-based path to specify a key:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Deleting Keys</source>
+          <target state="new">Deleting Keys</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Deleting items is essentially the same for all providers.</source>
+          <target state="new">Deleting items is essentially the same for all providers.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The following commands will silently remove items:</source>
+          <target state="new">The following commands will silently remove items:</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Removing All Keys Under a Specific Key</source>
+          <target state="new">Removing All Keys Under a Specific Key</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can remove contained items by using <bpt id="p1">**</bpt>Remove-Item<ept id="p1">**</ept>, but you will be prompted to confirm the removal if the item contains anything else.</source>
+          <target state="new">You can remove contained items by using <bpt id="p1">**</bpt>Remove-Item<ept id="p1">**</ept>, but you will be prompted to confirm the removal if the item contains anything else.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, if we attempt to delete the HKCU:\\CurrentVersion subkey we created, we see this:</source>
+          <target state="new">For example, if we attempt to delete the HKCU:\\CurrentVersion subkey we created, we see this:</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To delete contained items without prompting, specify the <bpt id="p1">**</bpt>-Recurse<ept id="p1">**</ept> parameter:</source>
+          <target state="new">To delete contained items without prompting, specify the <bpt id="p1">**</bpt>-Recurse<ept id="p1">**</ept> parameter:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you wanted to remove all items within HKCU:\\CurrentVersion but not HKCU:\\CurrentVersion itself, you could instead use:</source>
+          <target state="new">If you wanted to remove all items within HKCU:\\CurrentVersion but not HKCU:\\CurrentVersion itself, you could instead use:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

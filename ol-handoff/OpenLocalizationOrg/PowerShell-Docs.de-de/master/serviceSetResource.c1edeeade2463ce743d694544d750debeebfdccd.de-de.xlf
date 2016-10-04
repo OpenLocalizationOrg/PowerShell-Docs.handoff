@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">871d697626a0376e8f1f27bdbbf16d8612a56a79</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\serviceSetResource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6706d24f6167d52cfa3a4f5b3d2db6fe8ddc993</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee56cb48701c14bf79dc4868665759472f4d2cdf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC ServiceSet Resource</source>
+          <target state="new">DSC ServiceSet Resource</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>DSC ServiceSet Resource</source>
+          <target state="new">DSC ServiceSet Resource</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>ServiceSet<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage services on the target node.</source>
+          <target state="new">The <bpt id="p1">**</bpt>ServiceSet<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage services on the target node.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This resource is a <bpt id="p1">[</bpt>composite resource<ept id="p1">](authoringResourceComposite.md)</ept> that calls the <bpt id="p2">[</bpt>Service resource<ept id="p2">](serviceResource.md)</ept> for each service specified in the <ph id="ph1">`Name`</ph> property.</source>
+          <target state="new">This resource is a <bpt id="p1">[</bpt>composite resource<ept id="p1">](authoringResourceComposite.md)</ept> that calls the <bpt id="p2">[</bpt>Service resource<ept id="p2">](serviceResource.md)</ept> for each service specified in the <ph id="ph1">`Name`</ph> property.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use this resource when you want to configure a number of services to the same state.</source>
+          <target state="new">Use this resource when you want to configure a number of services to the same state.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Syntax</source>
+          <target state="new">Syntax</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="new">Property</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Indicates the service names.</source>
+          <target state="new">Indicates the service names.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Note that sometimes this is different from the display names.</source>
+          <target state="new">Note that sometimes this is different from the display names.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can get a list of the services and their current state with the <bpt id="p1">[</bpt>Get-Service<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849804.aspx)</ept> cmdlet.</source>
+          <target state="new">You can get a list of the services and their current state with the <bpt id="p1">[</bpt>Get-Service<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849804.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>StartupType</source>
+          <target state="new">StartupType</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Indicates the startup type for the service.</source>
+          <target state="new">Indicates the startup type for the service.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The values that are allowed for this property are: <bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Disabled<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Manual<ept id="p3">**</ept></source>
+          <target state="new">The values that are allowed for this property are: <bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Disabled<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Manual<ept id="p3">**</ept></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>BuiltInAccount</source>
+          <target state="new">BuiltInAccount</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Indicates the sign-in account to use for the services.</source>
+          <target state="new">Indicates the sign-in account to use for the services.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The values that are allowed for this property are: <bpt id="p1">**</bpt>LocalService<ept id="p1">**</ept>, <bpt id="p2">**</bpt>LocalSystem<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>NetworkService<ept id="p3">**</ept>.</source>
+          <target state="new">The values that are allowed for this property are: <bpt id="p1">**</bpt>LocalService<ept id="p1">**</ept>, <bpt id="p2">**</bpt>LocalSystem<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>NetworkService<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <target state="new">State</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indicates the state you want to ensure for the services: <bpt id="p1">**</bpt>Stopped<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Running<ept id="p2">**</ept>.</source>
+          <target state="new">Indicates the state you want to ensure for the services: <bpt id="p1">**</bpt>Stopped<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Running<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Ensure</source>
+          <target state="new">Ensure</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Indicates whether the services exist on the system.</source>
+          <target state="new">Indicates whether the services exist on the system.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Set this property to <bpt id="p1">**</bpt>Absent<ept id="p1">**</ept> to ensure that the services do not exist.</source>
+          <target state="new">Set this property to <bpt id="p1">**</bpt>Absent<ept id="p1">**</ept> to ensure that the services do not exist.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Setting it to <bpt id="p1">**</bpt>Present<ept id="p1">**</ept> (the default value) ensures that target services exist.</source>
+          <target state="new">Setting it to <bpt id="p1">**</bpt>Present<ept id="p1">**</ept> (the default value) ensures that target services exist.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Credential</source>
+          <target state="new">Credential</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Indicates credentials for the account that the service resource will run under.</source>
+          <target state="new">Indicates credentials for the account that the service resource will run under.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This property and the <bpt id="p1">**</bpt>BuiltinAccount<ept id="p1">**</ept> property cannot be used together.</source>
+          <target state="new">This property and the <bpt id="p1">**</bpt>BuiltinAccount<ept id="p1">**</ept> property cannot be used together.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>DependsOn</source>
+          <target state="new">DependsOn</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
+          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">*</bpt>ResourceName<ept id="p1">*</ept> and its type is <bpt id="p2">*</bpt>ResourceType<ept id="p2">*</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
+          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">*</bpt>ResourceName<ept id="p1">*</ept> and its type is <bpt id="p2">*</bpt>ResourceType<ept id="p2">*</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="new">Example</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The following configuration starts the "Windows Audio" and "Remote Desktop Services" services.</source>
+          <target state="new">The following configuration starts the "Windows Audio" and "Remote Desktop Services" services.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

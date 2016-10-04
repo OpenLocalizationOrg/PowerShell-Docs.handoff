@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd8fb43d6b84930b2f8ed2b38ce624c7c56741f3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\module\psget_uninstall-module.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac95f66f94af2ba204946f15f387e589e5edd2b7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67d05c60c59f2cb1917652a8cd71d87e8df02441</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Uninstall-Module</source>
+          <target state="new">Uninstall-Module</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Uninstalls a module which was installed using PowerShellGet cmdlets.</source>
+          <target state="new">Uninstalls a module which was installed using PowerShellGet cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Uninstall-Module cmdlet uninstalls the specified module from the local computer.</source>
+          <target state="new">The Uninstall-Module cmdlet uninstalls the specified module from the local computer.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You cannot uninstall a module if some other modules have a dependency on it.</source>
+          <target state="new">You cannot uninstall a module if some other modules have a dependency on it.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Uninstall-Module cmdlets also validates if the module being uninstalled is in-use or not.</source>
+          <target state="new">The Uninstall-Module cmdlets also validates if the module being uninstalled is in-use or not.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>An error will be thrown if the module is in use.</source>
+          <target state="new">An error will be thrown if the module is in use.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Cmdlet syntax</source>
+          <target state="new">Cmdlet syntax</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Cmdlet online help reference</source>
+          <target state="new">Cmdlet online help reference</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Uninstall-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=526864)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Uninstall-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=526864)</ept></target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Example commands</source>
+          <target state="new">Example commands</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Run the Uninstall-Module cmdlet to uninstall a module that you installed by using PowerShellGet.</source>
+          <target state="new">Run the Uninstall-Module cmdlet to uninstall a module that you installed by using PowerShellGet.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If any other module depends on the module that you want to delete, PowerShellGet throws an error.</source>
+          <target state="new">If any other module depends on the module that you want to delete, PowerShellGet throws an error.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Uninstalling a module when some other modules have a dependency on it.</source>
+          <target state="new">Uninstalling a module when some other modules have a dependency on it.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can override this by specify -Force option on Uninstall-Module cmdlet</source>
+          <target state="new">You can override this by specify -Force option on Uninstall-Module cmdlet</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NOTE:<ept id="p1">**</ept> This is not a recommended practice.</source>
+          <target state="new"><bpt id="p1">**</bpt>NOTE:<ept id="p1">**</ept> This is not a recommended practice.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Other modules will break with this action.</source>
+          <target state="new">Other modules will break with this action.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Uninstall a module which is already in use</source>
+          <target state="new">Uninstall a module which is already in use</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Uninstall SnippetPx fails due to the dependent module</source>
+          <target state="new">Uninstall SnippetPx fails due to the dependent module</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Uninstall TypePx then uninstall the SnippetPx</source>
+          <target state="new">Uninstall TypePx then uninstall the SnippetPx</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For a module name which is not installed using PowerShellGet cmdlets</source>
+          <target state="new">For a module name which is not installed using PowerShellGet cmdlets</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

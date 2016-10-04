@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da4ab9afac51ec73c80c21bc207726ffb68055d4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\repository\psget_register-psrepository.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b00f195acde04f707eefb7ab50944ecfb1f396b1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3585d94ec064328cf5815cc8d3e2f238e3453c6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Register-PSRepository</source>
+          <target state="new">Register-PSRepository</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Gets the registered repositories on a computer.</source>
+          <target state="new">Gets the registered repositories on a computer.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Register-PSRepository cmdlet registers the online repository for PowerShell modules.</source>
+          <target state="new">The Register-PSRepository cmdlet registers the online repository for PowerShell modules.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>After a repository is registered, you can reference it from the Find-Module, Install-Module, and Publish-Module cmdlets.</source>
+          <target state="new">After a repository is registered, you can reference it from the Find-Module, Install-Module, and Publish-Module cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The registered repository becomes the default repository in Find-Module and Install-Module.</source>
+          <target state="new">The registered repository becomes the default repository in Find-Module and Install-Module.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Registered repositories are user-specific.</source>
+          <target state="new">Registered repositories are user-specific.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>They are not registered in a system-wide context.</source>
+          <target state="new">They are not registered in a system-wide context.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Cmdlet syntax</source>
+          <target state="new">Cmdlet syntax</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Cmdlet online help reference</source>
+          <target state="new">Cmdlet online help reference</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Register-PSRepository<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=517129)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Register-PSRepository<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=517129)</ept></target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example commands</source>
+          <target state="new">Example commands</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Register a PowerShell Repository</source>
+          <target state="new">Register a PowerShell Repository</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can configure PowerShellGet to work against internal repositories.</source>
+          <target state="new">You can configure PowerShellGet to work against internal repositories.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>After a repository is registered, you can use Find-Module and Install-Module to work with it.</source>
+          <target state="new">After a repository is registered, you can use Find-Module and Install-Module to work with it.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Register-PSRepository and Set-PSRepository cmdlets with script sharing support</source>
+          <target state="new">Register-PSRepository and Set-PSRepository cmdlets with script sharing support</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use Register-PSRepository cmdlet to add the <bpt id="p1">**</bpt>ScriptSourceLocation<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ScriptPublishLocation<ept id="p2">**</ept> to the PSRepository.</source>
+          <target state="new">Use Register-PSRepository cmdlet to add the <bpt id="p1">**</bpt>ScriptSourceLocation<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ScriptPublishLocation<ept id="p2">**</ept> to the PSRepository.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

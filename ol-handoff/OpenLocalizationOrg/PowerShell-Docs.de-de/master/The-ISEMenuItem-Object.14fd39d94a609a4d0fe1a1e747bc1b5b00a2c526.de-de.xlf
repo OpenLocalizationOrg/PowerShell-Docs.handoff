@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e067519d58ca381fc4e5c746fe9bbd16bdc68c60</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\The-ISEMenuItem-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7cfb4f6edd02a10a5668255e3d07347b8c30de6a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3b6ed84ab876a88d0f500fc62ac9881eb661bec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The ISEMenuItem Object</source>
+          <target state="new">The ISEMenuItem Object</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The ISEMenuItem Object</source>
+          <target state="new">The ISEMenuItem Object</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>ISEMenuItem<ept id="p1">**</ept> object is an instance of the Microsoft.PowerShell.Host.ISE.ISEMenuItem class.</source>
+          <target state="new">An <bpt id="p1">**</bpt>ISEMenuItem<ept id="p1">**</ept> object is an instance of the Microsoft.PowerShell.Host.ISE.ISEMenuItem class.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>All menu objects on the <bpt id="p1">**</bpt>Add-ons<ept id="p1">**</ept> menu are instances of the <bpt id="p2">**</bpt>Microsoft.PowerShell.Host.ISE.ISEMenuItem<ept id="p2">**</ept> class.</source>
+          <target state="new">All menu objects on the <bpt id="p1">**</bpt>Add-ons<ept id="p1">**</ept> menu are instances of the <bpt id="p2">**</bpt>Microsoft.PowerShell.Host.ISE.ISEMenuItem<ept id="p2">**</ept> class.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="new">Properties</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="DisplayName"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> DisplayName</source>
+          <target state="new"><ph id="ph1">&lt;a name="DisplayName"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> DisplayName</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the display name of the menu item.</source>
+          <target state="new">The read-only property that gets the display name of the menu item.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Action"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Action</source>
+          <target state="new"><ph id="ph1">&lt;a name="Action"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Action</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the block of script.</source>
+          <target state="new">The read-only property that gets the block of script.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It invokes the action when you click the menu item.</source>
+          <target state="new">It invokes the action when you click the menu item.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Shortcut"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Shortcut</source>
+          <target state="new"><ph id="ph1">&lt;a name="Shortcut"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Shortcut</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the Windows input keyboard shortcut for the menu item.</source>
+          <target state="new">The read-only property that gets the Windows input keyboard shortcut for the menu item.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="Submenus"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Submenus</source>
+          <target state="new"><ph id="ph1">&lt;a name="Submenus"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Submenus</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The read-only property that gets the <bpt id="p1">[</bpt>list of submenus<ept id="p1">](The-ISEMenuItemCollection-Object.md)</ept> of the menu item.</source>
+          <target state="new">The read-only property that gets the <bpt id="p1">[</bpt>list of submenus<ept id="p1">](The-ISEMenuItemCollection-Object.md)</ept> of the menu item.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Scripting example</source>
+          <target state="new">Scripting example</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To better understand the use of the Add-ons menu and its scriptable properties, read through the following scripting example.</source>
+          <target state="new">To better understand the use of the Add-ons menu and its scriptable properties, read through the following scripting example.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEMenuItemCollection Object<ept id="p1">](The-ISEMenuItemCollection-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEMenuItemCollection Object<ept id="p1">](The-ISEMenuItemCollection-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

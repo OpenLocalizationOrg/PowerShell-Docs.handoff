@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">784806197a64eb30af1ecea4af55575434ce7b87</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\multi-machine-deployment-and-maintenance.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93265ab50248e37b80c8e047beb3822d73bb114c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af391de1ff5c76bb853ff11ee318c0368cf0e369</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="new">powershell,cmdlet,jea</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>multi machine deployment and maintenance</source>
+          <target state="new">multi machine deployment and maintenance</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Multi-machine Deployment and Maintenance</source>
+          <target state="new">Multi-machine Deployment and Maintenance</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>At this point, you have deployed JEA to local systems several times.</source>
+          <target state="new">At this point, you have deployed JEA to local systems several times.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Because your production environment probably consists of more than one machine, it's important to walk through the critical steps in the deployment process that must be repeated on each machine.</source>
+          <target state="new">Because your production environment probably consists of more than one machine, it's important to walk through the critical steps in the deployment process that must be repeated on each machine.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>High Level Steps:</source>
+          <target state="new">High Level Steps:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Copy your modules (with Role Capabilities) to each node.</source>
+          <target state="new">Copy your modules (with Role Capabilities) to each node.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Copy your session configuration files to each node.</source>
+          <target state="new">Copy your session configuration files to each node.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`Register-PSSessionConfiguration`</ph> with your session configuration.</source>
+          <target state="new">Run <ph id="ph1">`Register-PSSessionConfiguration`</ph> with your session configuration.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Keep a copy of your session configuration and toolkits in a secure location.</source>
+          <target state="new">Keep a copy of your session configuration and toolkits in a secure location.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>As you make modifications, it's good to have a "single source of truth."</source>
+          <target state="new">As you make modifications, it's good to have a "single source of truth."</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example Script</source>
+          <target state="new">Example Script</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Here's an example script for deployment.</source>
+          <target state="new">Here's an example script for deployment.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To use it in your environment, you'll have to use the names/paths of real file shares and modules.</source>
+          <target state="new">To use it in your environment, you'll have to use the names/paths of real file shares and modules.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Modifying Capabilities</source>
+          <target state="new">Modifying Capabilities</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When dealing with many machines, it's important that modifications are rolled out in a consistent manner.</source>
+          <target state="new">When dealing with many machines, it's important that modifications are rolled out in a consistent manner.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Once JEA has a DSC Resource, this will help ensure your environment is in sync.</source>
+          <target state="new">Once JEA has a DSC Resource, this will help ensure your environment is in sync.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Until that time, we highly recommend you keep a master copy of your session configurations and re-deploy each time you make a modification.</source>
+          <target state="new">Until that time, we highly recommend you keep a master copy of your session configurations and re-deploy each time you make a modification.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Removing Capabilities</source>
+          <target state="new">Removing Capabilities</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To remove your JEA configuration from your systems, use the following command on each machine:</source>
+          <target state="new">To remove your JEA configuration from your systems, use the following command on each machine:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

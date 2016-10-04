@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">061e22c26853664c89adc023d43802628859b9a6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\fundamental\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3a01bf3e522d1ee198de5ab3adce5d832bb8eb13</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d5e0966fb338e7ffef8ed885e9154e10b512d85</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Integrated Scripting Environment  ISE</source>
+          <target state="new">Windows PowerShell Integrated Scripting Environment  ISE</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell Integrated Scripting Environment (ISE)</source>
+          <target state="new">Windows PowerShell Integrated Scripting Environment (ISE)</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Windows PowerShell Integrated Scripting Environment (ISE) is one of two hosts for the Windows PowerShell engine and language.</source>
+          <target state="new">The Windows PowerShell Integrated Scripting Environment (ISE) is one of two hosts for the Windows PowerShell engine and language.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>With it you can write, run, and test scripts in ways that are not available in the Windows PowerShell Console.</source>
+          <target state="new">With it you can write, run, and test scripts in ways that are not available in the Windows PowerShell Console.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The ISE adds syntax-coloring, tab completion, IntelliSense, visual debugging, and context sensitive Help.</source>
+          <target state="new">The ISE adds syntax-coloring, tab completion, IntelliSense, visual debugging, and context sensitive Help.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The ISE lets you run commands in a console pane, but it also supports panes that you can use to simultaneously view the source code of your script and other tools that can plug into the ISE.</source>
+          <target state="new">The ISE lets you run commands in a console pane, but it also supports panes that you can use to simultaneously view the source code of your script and other tools that can plug into the ISE.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can even open up multiple script windows at the same time, which is especially helpful when you are debugging a script that uses functions defined in other scripts or modules.</source>
+          <target state="new">You can even open up multiple script windows at the same time, which is especially helpful when you are debugging a script that uses functions defined in other scripts or modules.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="BKMK_NEW"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>What’s New</source>
+          <target state="new"><ph id="ph1">&lt;a name="BKMK_NEW"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>What’s New</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Here are some of the features that have been added to the ISE in the most recent releases of PowerShell.</source>
+          <target state="new">Here are some of the features that have been added to the ISE in the most recent releases of PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Added in PowerShell 3.0 (Windows Server 2012, Windows 8)</source>
+          <target state="new">Added in PowerShell 3.0 (Windows Server 2012, Windows 8)</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>IntelliSense<ept id="p1">**</ept> automatically completes your commands by displaying menus of matching cmdlets, parameters, parameter values, files, or folders as you type.</source>
+          <target state="new"><bpt id="p1">**</bpt>IntelliSense<ept id="p1">**</ept> automatically completes your commands by displaying menus of matching cmdlets, parameters, parameter values, files, or folders as you type.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Snippets<ept id="p1">**</ept> are short sections of code that you can easily insert into the scripts your write.</source>
+          <target state="new"><bpt id="p1">**</bpt>Snippets<ept id="p1">**</ept> are short sections of code that you can easily insert into the scripts your write.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A collection of useful snippets is included in the box and you can more by using the <bpt id="p1">**</bpt>New-Snippet<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">A collection of useful snippets is included in the box and you can more by using the <bpt id="p1">**</bpt>New-Snippet<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add-on tools<ept id="p1">**</ept> that add features to the ISE can be created by writing code that interacts with the <bpt id="p2">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](https://technet.microsoft.com/en-us/library/dd819478.aspx)</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Add-on tools<ept id="p1">**</ept> that add features to the ISE can be created by writing code that interacts with the <bpt id="p2">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](https://technet.microsoft.com/en-us/library/dd819478.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>These tools can display controls in a tabbed pane or work invisibly in the background.</source>
+          <target state="new">These tools can display controls in a tabbed pane or work invisibly in the background.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Commands<ept id="p1">**</ept> add-on is a good example and is included with version 3.0 and later that displays a list of the available commands and their Help.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Commands<ept id="p1">**</ept> add-on is a good example and is included with version 3.0 and later that displays a list of the available commands and their Help.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Restart Manager and Auto-save<ept id="p1">**</ept> automatically save your scripts every two minutes to help you avoid the loss of your work in the event of a crash or unexpected restart.</source>
+          <target state="new"><bpt id="p1">**</bpt>Restart Manager and Auto-save<ept id="p1">**</ept> automatically save your scripts every two minutes to help you avoid the loss of your work in the event of a crash or unexpected restart.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Most Recently Used list<ept id="p1">**</ept> is now part of the File Open menu to make it easier to get to the files you use most often.</source>
+          <target state="new"><bpt id="p1">**</bpt>Most Recently Used list<ept id="p1">**</ept> is now part of the File Open menu to make it easier to get to the files you use most often.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Merged Console pane<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Merged Console pane<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In previous versions of the ISE there were separate Command and Output panes.</source>
+          <target state="new">In previous versions of the ISE there were separate Command and Output panes.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>They are now combined into a single pane that more directly mimics what you see in the Windows Powershell Console.</source>
+          <target state="new">They are now combined into a single pane that more directly mimics what you see in the Windows Powershell Console.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Command-line switches<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Command-line switches<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Several new command-line switches give you more control over the way the ISE works.</source>
+          <target state="new">Several new command-line switches give you more control over the way the ISE works.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>–NoProfile starts the ISE without running a profile script.</source>
+          <target state="new">–NoProfile starts the ISE without running a profile script.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>–Help opens up a help window with the ISE.</source>
+          <target state="new">–Help opens up a help window with the ISE.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>–mta starts the ISE in “multi-threaded apartment mode”.</source>
+          <target state="new">–mta starts the ISE in “multi-threaded apartment mode”.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default is single-threaded.</source>
+          <target state="new">The default is single-threaded.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>New editor features<ept id="p1">**</ept> make it easier to create and read your code:</source>
+          <target state="new"><bpt id="p1">**</bpt>New editor features<ept id="p1">**</ept> make it easier to create and read your code:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>XML syntax coloring<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>XML syntax coloring<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The ISE editor now colors XML syntax in the same way as it colors Windows PowerShell code syntax.</source>
+          <target state="new">The ISE editor now colors XML syntax in the same way as it colors Windows PowerShell code syntax.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Brace matching<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Brace matching<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The ISEWindows PowerShell ISE highlights matching braces to help you ensure you have the right number of closing braces to match your opening ones.</source>
+          <target state="new">The ISEWindows PowerShell ISE highlights matching braces to help you ensure you have the right number of closing braces to match your opening ones.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use CTRL-\[ to locate the closing brace that matches the opening brace that the cursor is on.</source>
+          <target state="new">Use CTRL-\[ to locate the closing brace that matches the opening brace that the cursor is on.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Outline view<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Outline view<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can collapse or expand sections of your code by clicking the plus and minus signs in the left margin.</source>
+          <target state="new">You can collapse or expand sections of your code by clicking the plus and minus signs in the left margin.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This makes it easier to find the code you’re looking for in a long script.</source>
+          <target state="new">This makes it easier to find the code you’re looking for in a long script.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Drag and drop text editing<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Drag and drop text editing<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can select a block of text and drag it to another location to move it.</source>
+          <target state="new">You can select a block of text and drag it to another location to move it.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you hold down the Ctrl key while you drag the selected text you copy instead of move.</source>
+          <target state="new">If you hold down the Ctrl key while you drag the selected text you copy instead of move.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Parse error display<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Parse error display<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell examines your script as you type.</source>
+          <target state="new">Windows PowerShell examines your script as you type.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If it detects an error, it shows a red squiggle under the offending code.</source>
+          <target state="new">If it detects an error, it shows a red squiggle under the offending code.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When you hover over the indicated error, a tooltip shows you the problem that was found.</source>
+          <target state="new">When you hover over the indicated error, a tooltip shows you the problem that was found.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Zoom<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Zoom<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can zoom in on your text to make it easier to read or zoom out to see the bigger picture by using the slider in the bottom-right corner of the ISE window.</source>
+          <target state="new">You can zoom in on your text to make it easier to read or zoom out to see the bigger picture by using the slider in the bottom-right corner of the ISE window.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Rich text copy and paste<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Rich text copy and paste<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When you copy from the ISE to the clipboard, the font, size, and color information of the selected text is included.</source>
+          <target state="new">When you copy from the ISE to the clipboard, the font, size, and color information of the selected text is included.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block selection<ept id="p1">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Block selection<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can select a block-shaped chunk of text by holding down the ALT key while selecting text in the script pane with your mouse, or by pressing <bpt id="p1">**</bpt>Alt+Shift+Arrow<ept id="p1">**</ept>.</source>
+          <target state="new">You can select a block-shaped chunk of text by holding down the ALT key while selecting text in the script pane with your mouse, or by pressing <bpt id="p1">**</bpt>Alt+Shift+Arrow<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Added in PowerShell 2.0 (Windows Server 2008 R2, Windows 7</source>
+          <target state="new">Added in PowerShell 2.0 (Windows Server 2008 R2, Windows 7</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The ISE was introduced with PowerShell v2.0.</source>
+          <target state="new">The ISE was introduced with PowerShell v2.0.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Requirements for running the Windows PowerShell ISE</source>
+          <target state="new">Requirements for running the Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The ISE is available on any computer that can run Windows PowerShell v2.0 or later.</source>
+          <target state="new">The ISE is available on any computer that can run Windows PowerShell v2.0 or later.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Each version of Windows and Windows Server includes a version of Windows PowerShell and the ISE, but you can upgrade to the latest available by installing the Windows Management Framework.</source>
+          <target state="new">Each version of Windows and Windows Server includes a version of Windows PowerShell and the ISE, but you can upgrade to the latest available by installing the Windows Management Framework.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Run this search to find the latest version available: <bpt id="p1">[</bpt>Downloads<ept id="p1">](http://www.microsoft.com/en-us/search/DownloadResults.aspx?q=%22windows%20management%20framework%22%20PowerShell&amp;sortby=Relevancy~Descending)</ept>.</source>
+          <target state="new">Run this search to find the latest version available: <bpt id="p1">[</bpt>Downloads<ept id="p1">](http://www.microsoft.com/en-us/search/DownloadResults.aspx?q=%22windows%20management%20framework%22%20PowerShell&amp;sortby=Relevancy~Descending)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Note that any entries labelled "Preview" are pre-release code and are not feature complete.</source>
+          <target state="new">Note that any entries labelled "Preview" are pre-release code and are not feature complete.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Because Windows PowerShell ISE requires a graphical user interface, you can’t run it on the Server Core option of Windows Server.</source>
+          <target state="new">Because Windows PowerShell ISE requires a graphical user interface, you can’t run it on the Server Core option of Windows Server.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="BKMK_LINKS"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>See also</source>
+          <target state="new"><ph id="ph1">&lt;a name="BKMK_LINKS"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>See also</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using the Windows PowerShell Integrated Scripting Environment<ept id="p1">](http://technet.microsoft.com/library/cc732148.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Using the Windows PowerShell Integrated Scripting Environment<ept id="p1">](http://technet.microsoft.com/library/cc732148.aspx)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

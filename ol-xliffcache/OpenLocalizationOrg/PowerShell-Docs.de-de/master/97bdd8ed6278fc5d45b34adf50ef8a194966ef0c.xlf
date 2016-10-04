@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97bdd8ed6278fc5d45b34adf50ef8a194966ef0c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Managing-Current-Location.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b028b926c6383b0d9c24adedc782d87c895a1132</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eeccbf9459074e47e523d001ab15aac4658f68f4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Managing Current Location</source>
+          <target state="new">Managing Current Location</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Managing Current Location</source>
+          <target state="new">Managing Current Location</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When navigating folder systems in File Explorer, you usually have a specific working location - namely, the current open folder.</source>
+          <target state="new">When navigating folder systems in File Explorer, you usually have a specific working location - namely, the current open folder.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Items in the current folder can be manipulated easily by clicking them.</source>
+          <target state="new">Items in the current folder can be manipulated easily by clicking them.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For command-line interfaces such as Cmd.exe, when you are in the same folder as a particular file, you can access it by specifying a relatively short name, rather than needing to specify the entire path to the file.</source>
+          <target state="new">For command-line interfaces such as Cmd.exe, when you are in the same folder as a particular file, you can access it by specifying a relatively short name, rather than needing to specify the entire path to the file.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The current directory is called the working directory.</source>
+          <target state="new">The current directory is called the working directory.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the noun <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> to refer to the working directory, and implements a family of cmdlets to examine and manipulate your location.</source>
+          <target state="new">Windows PowerShell uses the noun <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> to refer to the working directory, and implements a family of cmdlets to examine and manipulate your location.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Getting Your Current Location (Get-Location)</source>
+          <target state="new">Getting Your Current Location (Get-Location)</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To determine the path of your current directory location, enter the <bpt id="p1">**</bpt>Get-Location<ept id="p1">**</ept> command:</source>
+          <target state="new">To determine the path of your current directory location, enter the <bpt id="p1">**</bpt>Get-Location<ept id="p1">**</ept> command:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Get-Location cmdlet is similar to the <bpt id="p1">**</bpt>pwd<ept id="p1">**</ept> command in the BASH shell.</source>
+          <target state="new">The Get-Location cmdlet is similar to the <bpt id="p1">**</bpt>pwd<ept id="p1">**</ept> command in the BASH shell.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Set-Location cmdlet is similar to the <bpt id="p1">**</bpt>cd<ept id="p1">**</ept> command in Cmd.exe.</source>
+          <target state="new">The Set-Location cmdlet is similar to the <bpt id="p1">**</bpt>cd<ept id="p1">**</ept> command in Cmd.exe.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Setting Your Current Location (Set-Location)</source>
+          <target state="new">Setting Your Current Location (Set-Location)</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Get-Location<ept id="p1">**</ept> command is used with the <bpt id="p2">**</bpt>Set-Location<ept id="p2">**</ept> command.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Get-Location<ept id="p1">**</ept> command is used with the <bpt id="p2">**</bpt>Set-Location<ept id="p2">**</ept> command.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> command allows you to specify your current directory location.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> command allows you to specify your current directory location.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After you enter the command, you will notice that you do not receive any direct feedback about the effect of the command.</source>
+          <target state="new">After you enter the command, you will notice that you do not receive any direct feedback about the effect of the command.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Most Windows PowerShell commands that perform an action produce little or no output because the output is not always useful.</source>
+          <target state="new">Most Windows PowerShell commands that perform an action produce little or no output because the output is not always useful.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To verify that a successful directory change has occurred when you enter the <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> command, include the <bpt id="p2">**</bpt>-PassThru<ept id="p2">**</ept> parameter when you enter the <bpt id="p3">**</bpt>Set-Location<ept id="p3">**</ept> command:</source>
+          <target state="new">To verify that a successful directory change has occurred when you enter the <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> command, include the <bpt id="p2">**</bpt>-PassThru<ept id="p2">**</ept> parameter when you enter the <bpt id="p3">**</bpt>Set-Location<ept id="p3">**</ept> command:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>-PassThru<ept id="p1">**</ept> parameter can be used with many Set commands in Windows PowerShell to return information about the result in cases in which there is no default output.</source>
+          <target state="new">The <bpt id="p1">**</bpt>-PassThru<ept id="p1">**</ept> parameter can be used with many Set commands in Windows PowerShell to return information about the result in cases in which there is no default output.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can specify paths relative to your current location in the same way as you would in most UNIX and Windows command shells.</source>
+          <target state="new">You can specify paths relative to your current location in the same way as you would in most UNIX and Windows command shells.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In standard notation for relative paths, a period (<bpt id="p1">**</bpt>.<ept id="p1">**</ept>)represents your current folder, and a doubled period (<bpt id="p2">**</bpt>..<ept id="p2">**</ept>) represents the parent directory of your current location.</source>
+          <target state="new">In standard notation for relative paths, a period (<bpt id="p1">**</bpt>.<ept id="p1">**</ept>)represents your current folder, and a doubled period (<bpt id="p2">**</bpt>..<ept id="p2">**</ept>) represents the parent directory of your current location.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example, if you are in the <bpt id="p1">**</bpt>C:\\Windows<ept id="p1">**</ept> folder, a period (<bpt id="p2">**</bpt>.<ept id="p2">**</ept>)represents <bpt id="p3">**</bpt>C:\\Windows<ept id="p3">**</ept> and double periods (<bpt id="p4">**</bpt>..<ept id="p4">**</ept>) represent <bpt id="p5">**</bpt>C:<ept id="p5">**</ept>.</source>
+          <target state="new">For example, if you are in the <bpt id="p1">**</bpt>C:\\Windows<ept id="p1">**</ept> folder, a period (<bpt id="p2">**</bpt>.<ept id="p2">**</ept>)represents <bpt id="p3">**</bpt>C:\\Windows<ept id="p3">**</ept> and double periods (<bpt id="p4">**</bpt>..<ept id="p4">**</ept>) represent <bpt id="p5">**</bpt>C:<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can change from your current location to the root of the C: drive by typing:</source>
+          <target state="new">You can change from your current location to the root of the C: drive by typing:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>PS&gt; Set-Location -Path ..</source>
+          <target state="new">PS&gt; Set-Location -Path ..</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-PassThru Path ---- C:\</source>
+          <target state="new">-PassThru Path ---- C:\</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The same technique works on Windows PowerShell drives that are not file system drives, such as <bpt id="p1">**</bpt>HKLM:<ept id="p1">**</ept>.</source>
+          <target state="new">The same technique works on Windows PowerShell drives that are not file system drives, such as <bpt id="p1">**</bpt>HKLM:<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can set your location to the HKLM\\Software key in the registry by typing:</source>
+          <target state="new">You can set your location to the HKLM\\Software key in the registry by typing:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can then change the directory location to the parent directory, which is the root of the Windows PowerShell HKLM: drive, by using a relative path:</source>
+          <target state="new">You can then change the directory location to the parent directory, which is the root of the Windows PowerShell HKLM: drive, by using a relative path:</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can type Set-Location or use any of the built-in Windows PowerShell aliases for Set-Location (cd, chdir, sl).</source>
+          <target state="new">You can type Set-Location or use any of the built-in Windows PowerShell aliases for Set-Location (cd, chdir, sl).</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Saving and Recalling Recent Locations (Push-Location and Pop-Location)</source>
+          <target state="new">Saving and Recalling Recent Locations (Push-Location and Pop-Location)</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When changing locations, it is helpful to keep track of where you have been and to be able to return to your previous location.</source>
+          <target state="new">When changing locations, it is helpful to keep track of where you have been and to be able to return to your previous location.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Push-Location<ept id="p1">**</ept> cmdlet in Windows PowerShell creates a ordered history (a "stack") of directory paths where you have been, and you can step back through the history of directory paths by using the complementary <bpt id="p2">**</bpt>Pop-Location<ept id="p2">**</ept> cmdlet.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Push-Location<ept id="p1">**</ept> cmdlet in Windows PowerShell creates a ordered history (a "stack") of directory paths where you have been, and you can step back through the history of directory paths by using the complementary <bpt id="p2">**</bpt>Pop-Location<ept id="p2">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, Windows PowerShell typically starts in the user's home directory.</source>
+          <target state="new">For example, Windows PowerShell typically starts in the user's home directory.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The word <bpt id="p1">*</bpt>stack<ept id="p1">*</ept> has a special meaning in many programming settings, including .NET Framework.</source>
+          <target state="new">The word <bpt id="p1">*</bpt>stack<ept id="p1">*</ept> has a special meaning in many programming settings, including .NET Framework.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Like a physical stack of items, the last item you put onto the stack is the first item that you can pull off the stack.</source>
+          <target state="new">Like a physical stack of items, the last item you put onto the stack is the first item that you can pull off the stack.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Adding an item to a stack is colloquially known as "pushing" the item onto the stack.</source>
+          <target state="new">Adding an item to a stack is colloquially known as "pushing" the item onto the stack.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Pulling an item off the stack is colloquially known as "popping" the item off the stack.</source>
+          <target state="new">Pulling an item off the stack is colloquially known as "popping" the item off the stack.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To push the current location onto the stack, and then move to the Local Settings folder, type:</source>
+          <target state="new">To push the current location onto the stack, and then move to the Local Settings folder, type:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can then push the Local Settings location onto the stack and and move to the Temp folder by typing:</source>
+          <target state="new">You can then push the Local Settings location onto the stack and and move to the Temp folder by typing:</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can verify that you changed directories by entering the <bpt id="p1">**</bpt>Get-Location<ept id="p1">**</ept> command:</source>
+          <target state="new">You can verify that you changed directories by entering the <bpt id="p1">**</bpt>Get-Location<ept id="p1">**</ept> command:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can then pop back into the most recently visited directory by entering the <bpt id="p1">**</bpt>Pop-Location<ept id="p1">**</ept> command, and verify the change by entering the <bpt id="p2">**</bpt>Get-Location<ept id="p2">**</ept> command:</source>
+          <target state="new">You can then pop back into the most recently visited directory by entering the <bpt id="p1">**</bpt>Pop-Location<ept id="p1">**</ept> command, and verify the change by entering the <bpt id="p2">**</bpt>Get-Location<ept id="p2">**</ept> command:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Just as with the <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> cmdlet, you can include the <bpt id="p2">**</bpt>-PassThru<ept id="p2">**</ept> parameter when you enter the <bpt id="p3">**</bpt>Pop-Location<ept id="p3">**</ept> cmdlet to display the directory that you entered:</source>
+          <target state="new">Just as with the <bpt id="p1">**</bpt>Set-Location<ept id="p1">**</ept> cmdlet, you can include the <bpt id="p2">**</bpt>-PassThru<ept id="p2">**</ept> parameter when you enter the <bpt id="p3">**</bpt>Pop-Location<ept id="p3">**</ept> cmdlet to display the directory that you entered:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can also use the Location cmdlets with network paths.</source>
+          <target state="new">You can also use the Location cmdlets with network paths.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you have a server named FS01 with an share named Public, you can change your location by typing</source>
+          <target state="new">If you have a server named FS01 with an share named Public, you can change your location by typing</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>or</source>
+          <target state="new">or</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Push-Location<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Set-Location<ept id="p2">**</ept> commands to change the location to any available drive.</source>
+          <target state="new">You can use the <bpt id="p1">**</bpt>Push-Location<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Set-Location<ept id="p2">**</ept> commands to change the location to any available drive.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, if you have a local CD-ROM drive with drive letter D that contains a data CD, you can change the location to the CD drive by entering the <bpt id="p1">**</bpt>Set-Location D:<ept id="p1">**</ept> command.</source>
+          <target state="new">For example, if you have a local CD-ROM drive with drive letter D that contains a data CD, you can change the location to the CD drive by entering the <bpt id="p1">**</bpt>Set-Location D:<ept id="p1">**</ept> command.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the drive is empty, you will get the following error message:</source>
+          <target state="new">If the drive is empty, you will get the following error message:</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When you are using a command-line interface, it is not convenient to use File Explorer to examine the available physical drives.</source>
+          <target state="new">When you are using a command-line interface, it is not convenient to use File Explorer to examine the available physical drives.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Also, File Explorer would not show you the all of the Windows PowerShell drives.</source>
+          <target state="new">Also, File Explorer would not show you the all of the Windows PowerShell drives.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell provides a set of commands for manipulating Windows PowerShell drives, and we will talk about these next.</source>
+          <target state="new">Windows PowerShell provides a set of commands for manipulating Windows PowerShell drives, and we will talk about these next.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

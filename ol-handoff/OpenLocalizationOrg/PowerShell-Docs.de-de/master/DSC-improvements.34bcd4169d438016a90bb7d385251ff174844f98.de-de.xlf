@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c88c145c3585befcee194499f7e21aaeac67c0f3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\DSC-improvements.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c4940ecf97d6a01965fcba640e92711f4e51539f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b00ae31fadcb795922f6cc55557ee4f9d491e0aa</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Improvements in WMF 5.1 (Preview)</source>
+          <target state="new">DSC Improvements in WMF 5.1 (Preview)</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PowerShell, DSC, WMF</source>
+          <target state="new">PowerShell, DSC, WMF</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Improvements in Desired State Configuration (DSC) in WMF 5.1</source>
+          <target state="new">Improvements in Desired State Configuration (DSC) in WMF 5.1</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DSC class resource improvements</source>
+          <target state="new">DSC class resource improvements</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, we have fixed the following known issues:</source>
+          <target state="new">In WMF 5.1, we have fixed the following known issues:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration may return empty values (null) or errors if a complex/hash table type is returned by Get() function of a class-based DSC resource.</source>
+          <target state="new">Get-DscConfiguration may return empty values (null) or errors if a complex/hash table type is returned by Get() function of a class-based DSC resource.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Get-DscConfiguration returns error if RunAs credential is used in DSC configuration.</source>
+          <target state="new">Get-DscConfiguration returns error if RunAs credential is used in DSC configuration.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Class-based resource cannot be used in a composite configuration.</source>
+          <target state="new">Class-based resource cannot be used in a composite configuration.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Start-DscConfiguration hangs if class-based resource has a property of its own type.</source>
+          <target state="new">Start-DscConfiguration hangs if class-based resource has a property of its own type.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Class-based resource cannot be used as an exclusive resource.</source>
+          <target state="new">Class-based resource cannot be used as an exclusive resource.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>DSC resource debugging improvements</source>
+          <target state="new">DSC resource debugging improvements</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In WMF 5.0, the PowerShell debugger did not stop at the class-based resource method (Get/Set/Test) directly.</source>
+          <target state="new">In WMF 5.0, the PowerShell debugger did not stop at the class-based resource method (Get/Set/Test) directly.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, the debugger will stop at the class-based resource method in the same way as for MOF-based resources methods.</source>
+          <target state="new">In WMF 5.1, the debugger will stop at the class-based resource method in the same way as for MOF-based resources methods.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>DSC pull client supports TLS 1.1 and TLS 1.2</source>
+          <target state="new">DSC pull client supports TLS 1.1 and TLS 1.2</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Previously, the DSC pull client only supported SSL3.0 and TLS1.0 over HTTPS connections.</source>
+          <target state="new">Previously, the DSC pull client only supported SSL3.0 and TLS1.0 over HTTPS connections.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When forced to use more secure protocols, the pull client would stop functioning.</source>
+          <target state="new">When forced to use more secure protocols, the pull client would stop functioning.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, the DSC pull client no longer supports SSL 3.0 and adds support for the more secure TLS 1.1 and TLS 1.2 protocols.</source>
+          <target state="new">In WMF 5.1, the DSC pull client no longer supports SSL 3.0 and adds support for the more secure TLS 1.1 and TLS 1.2 protocols.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Improved pull server registration</source>
+          <target state="new">Improved pull server registration</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the earlier versions of WMF, simultaneous registrations/reporting requests to a DSC pull server while using the ESENT database would lead to LCM failing to register and/or report.</source>
+          <target state="new">In the earlier versions of WMF, simultaneous registrations/reporting requests to a DSC pull server while using the ESENT database would lead to LCM failing to register and/or report.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In such cases, the event logs on the pull server will have the error "Instance Name already in use."</source>
+          <target state="new">In such cases, the event logs on the pull server will have the error "Instance Name already in use."</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This was due to an incorrect pattern being used to access the ESENT database in a multi-threaded scenario.</source>
+          <target state="new">This was due to an incorrect pattern being used to access the ESENT database in a multi-threaded scenario.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, this issue has been fixed.</source>
+          <target state="new">In WMF 5.1, this issue has been fixed.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Concurrent registrations or reporting (involving ESENT database) will work fine in WMF 5.1.</source>
+          <target state="new">Concurrent registrations or reporting (involving ESENT database) will work fine in WMF 5.1.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This issue is applicable only to the ESENT database and does not apply to the OLEDB database.</source>
+          <target state="new">This issue is applicable only to the ESENT database and does not apply to the OLEDB database.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Pull partial configuration naming convention</source>
+          <target state="new">Pull partial configuration naming convention</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the previous release, the naming convention for a partial configuration was that the MOF file name in the pull server/service should match the partial configuration name specified in the local configuration manager settings that in turn must match the configuration name embedded in the MOF file.</source>
+          <target state="new">In the previous release, the naming convention for a partial configuration was that the MOF file name in the pull server/service should match the partial configuration name specified in the local configuration manager settings that in turn must match the configuration name embedded in the MOF file.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>See the snapshots below:</source>
+          <target state="new">See the snapshots below:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>•   Local configuration settings which defines a partial configuration that a node is allowed to receive.</source>
+          <target state="new">•   Local configuration settings which defines a partial configuration that a node is allowed to receive.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Sample metaconfiguration</source>
+          <target state="new">Sample metaconfiguration</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>•   Sample partial configuration definition</source>
+          <target state="new">•   Sample partial configuration definition</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>•   'ConfigurationName' embedded in the generated MOF file.</source>
+          <target state="new">•   'ConfigurationName' embedded in the generated MOF file.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Sample generated mof file</source>
+          <target state="new">Sample generated mof file</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>•   FileName in the pull configuration repository</source>
+          <target state="new">•   FileName in the pull configuration repository</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>FileName in Configuration Repository</source>
+          <target state="new">FileName in Configuration Repository</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Azure Automation service name generated MOF files as <ph id="ph1">`&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof`</ph>.</source>
+          <target state="new">Azure Automation service name generated MOF files as <ph id="ph1">`&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>So the configuration below will compile to PartialOne.localhost.mof.</source>
+          <target state="new">So the configuration below will compile to PartialOne.localhost.mof.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This made it impossible to pull one of your partial configuration from Azure Automation service.</source>
+          <target state="new">This made it impossible to pull one of your partial configuration from Azure Automation service.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, partial configuration in the pull server/service can be named as <ph id="ph1">`&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof`</ph>.</source>
+          <target state="new">In WMF 5.1, partial configuration in the pull server/service can be named as <ph id="ph1">`&lt;ConfigurationName&gt;.&lt;NodeName&gt;.mof`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Moreover, if a machine is pulling a single configuration from a pull server/service then the configuration file on the pull server configuration repository can have any file name.</source>
+          <target state="new">Moreover, if a machine is pulling a single configuration from a pull server/service then the configuration file on the pull server configuration repository can have any file name.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This naming flexibility allow you to manage your nodes partially by Azure Automation service, where some configuration for your node is coming from Azure Automation DSC and you have a partial configuration that you wanted to manage locally.</source>
+          <target state="new">This naming flexibility allow you to manage your nodes partially by Azure Automation service, where some configuration for your node is coming from Azure Automation DSC and you have a partial configuration that you wanted to manage locally.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The metaconfiguration below will set up a node to be managed both locally as well as by Azure Automation service.</source>
+          <target state="new">The metaconfiguration below will set up a node to be managed both locally as well as by Azure Automation service.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Using PsDscRunAsCredential with DSC composite resources</source>
+          <target state="new">Using PsDscRunAsCredential with DSC composite resources</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>We have added support for using <bpt id="p1">[</bpt><bpt id="p2">*</bpt>PsDscRunAsCredential<ept id="p2">*</ept><ept id="p1">](https://msdn.microsoft.com/cs-cz/powershell/dsc/runasuser)</ept> with DSC <bpt id="p3">[</bpt>Composite<ept id="p3">](https://msdn.microsoft.com/en-us/powershell/dsc/authoringresourcecomposite)</ept> resources.</source>
+          <target state="new">We have added support for using <bpt id="p1">[</bpt><bpt id="p2">*</bpt>PsDscRunAsCredential<ept id="p2">*</ept><ept id="p1">](https://msdn.microsoft.com/cs-cz/powershell/dsc/runasuser)</ept> with DSC <bpt id="p3">[</bpt>Composite<ept id="p3">](https://msdn.microsoft.com/en-us/powershell/dsc/authoringresourcecomposite)</ept> resources.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Users can now specify a value for PsDscRunAsCredential when using composite resources inside configurations.</source>
+          <target state="new">Users can now specify a value for PsDscRunAsCredential when using composite resources inside configurations.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When specified, all resources run inside a composite resource as a RunAs user.</source>
+          <target state="new">When specified, all resources run inside a composite resource as a RunAs user.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If a composite resource calls another composite resource, all of its resources are also executed as RunAs user.</source>
+          <target state="new">If a composite resource calls another composite resource, all of its resources are also executed as RunAs user.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>RunAs credentials are propagated to any level of the composite resource hierarchy.</source>
+          <target state="new">RunAs credentials are propagated to any level of the composite resource hierarchy.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If any resource inside a composite resource specifies its own value for PsDscRunAsCredential, a merge error will result during configuration compilation.</source>
+          <target state="new">If any resource inside a composite resource specifies its own value for PsDscRunAsCredential, a merge error will result during configuration compilation.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This example shows usage with <bpt id="p1">[</bpt>WindowsFeatureSet<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/wmf/dsc_newresources)</ept> composite resource included in PSDesiredStateConfiguration module.</source>
+          <target state="new">This example shows usage with <bpt id="p1">[</bpt>WindowsFeatureSet<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/wmf/dsc_newresources)</ept> composite resource included in PSDesiredStateConfiguration module.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>DSC module and configuration signing validations</source>
+          <target state="new">DSC module and configuration signing validations</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In DSC, configurations and modules are distributed to managed computers from the pull server.</source>
+          <target state="new">In DSC, configurations and modules are distributed to managed computers from the pull server.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If the pull server is compromised, an attacker can potentially modify the configurations and modules on the pull server and have it distributed to all managed nodes, compromising all of them.</source>
+          <target state="new">If the pull server is compromised, an attacker can potentially modify the configurations and modules on the pull server and have it distributed to all managed nodes, compromising all of them.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In WMF 5.1, DSC supports validating the digital signatures on catalog and configuration (.MOF) files.</source>
+          <target state="new">In WMF 5.1, DSC supports validating the digital signatures on catalog and configuration (.MOF) files.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This feature will prevent nodes from executing configurations or module files which are not signed by a trusted signer or which have been tampered with after they have been signed by trusted signer.</source>
+          <target state="new">This feature will prevent nodes from executing configurations or module files which are not signed by a trusted signer or which have been tampered with after they have been signed by trusted signer.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>How to sign configuration and module</source>
+          <target state="new">How to sign configuration and module</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Configuration Files (.MOFs): The existing PowerShell cmdlet <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> is extended to support signing of MOF files.</source>
+          <target state="new">Configuration Files (.MOFs): The existing PowerShell cmdlet <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> is extended to support signing of MOF files.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Modules: Signing of modules is done by signing the corresponding module catalog using the following steps:</source>
+          <target state="new">Modules: Signing of modules is done by signing the corresponding module catalog using the following steps:</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Create a catalog file: A catalog file contains a collection of cryptographic hashes or thumbprints.</source>
+          <target state="new">Create a catalog file: A catalog file contains a collection of cryptographic hashes or thumbprints.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Each thumbprint corresponds to a file that is included in the module.</source>
+          <target state="new">Each thumbprint corresponds to a file that is included in the module.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The new cmdlet <bpt id="p1">[</bpt>New-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>, has been added to enable users to create a catalog file for their module.</source>
+          <target state="new">The new cmdlet <bpt id="p1">[</bpt>New-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>, has been added to enable users to create a catalog file for their module.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Sign the catalog file: Use <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> to sign the catalog file.</source>
+          <target state="new">Sign the catalog file: Use <bpt id="p1">[</bpt>Set-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849819.aspx)</ept> to sign the catalog file.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Place the catalog file inside the module folder.</source>
+          <target state="new">Place the catalog file inside the module folder.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>By convention, module catalog file should be placed under the module folder with the same name as the module.</source>
+          <target state="new">By convention, module catalog file should be placed under the module folder with the same name as the module.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>LocalConfigurationManager settings to enable signing validations</source>
+          <target state="new">LocalConfigurationManager settings to enable signing validations</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Pull</source>
+          <target state="new">Pull</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The LocalConfigurationManager of a node performs signing validation of modules and configurations based on its current settings.</source>
+          <target state="new">The LocalConfigurationManager of a node performs signing validation of modules and configurations based on its current settings.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>By default, signature validation is disabled.</source>
+          <target state="new">By default, signature validation is disabled.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Signature validation can enabled by adding the ‘SignatureValidation’ block to the meta-configuration definition of the node as shown below:</source>
+          <target state="new">Signature validation can enabled by adding the ‘SignatureValidation’ block to the meta-configuration definition of the node as shown below:</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Setting the above metaconfiguration on a node enables signature validation on downloaded configurations and modules.</source>
+          <target state="new">Setting the above metaconfiguration on a node enables signature validation on downloaded configurations and modules.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The Local Configuration Manager will perform the following steps to verify the digital signatures.</source>
+          <target state="new">The Local Configuration Manager will perform the following steps to verify the digital signatures.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Verify the signature on a configuration file (.MOF) is valid.</source>
+          <target state="new">Verify the signature on a configuration file (.MOF) is valid.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>It uses the PowerShell cmdlet <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>, which is extended in 5.1 to support MOF signature validation.</source>
+          <target state="new">It uses the PowerShell cmdlet <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>, which is extended in 5.1 to support MOF signature validation.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Verify the certificate authority that authorized the signer is trusted.</source>
+          <target state="new">Verify the certificate authority that authorized the signer is trusted.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Download module/resource dependencies of the configuration to a temp location.</source>
+          <target state="new">Download module/resource dependencies of the configuration to a temp location.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Verify the signature of the catalog included inside the module.</source>
+          <target state="new">Verify the signature of the catalog included inside the module.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Find a <ph id="ph1">`&lt;moduleName&gt;.cat`</ph> file and verify its signature using the cmdlet  <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>.</source>
+          <target state="new">Find a <ph id="ph1">`&lt;moduleName&gt;.cat`</ph> file and verify its signature using the cmdlet  <bpt id="p1">[</bpt>Get-AuthenticodeSignature<ept id="p1">](https://technet.microsoft.com/library/hh849805.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Verify the certification authority that authenticated the signer is trusted.</source>
+          <target state="new">Verify the certification authority that authenticated the signer is trusted.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Verify the content of the modules has not been tampered using the new cmdlet <bpt id="p1">[</bpt>Test-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>.</source>
+          <target state="new">Verify the content of the modules has not been tampered using the new cmdlet <bpt id="p1">[</bpt>Test-FileCatalog<ept id="p1">](https://technet.microsoft.com/library/cc732148.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Install-Module to $env:ProgramFiles\WindowsPowerShell\Modules\</source>
+          <target state="new">Install-Module to $env:ProgramFiles\WindowsPowerShell\Modules\</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Process configuration</source>
+          <target state="new">Process configuration</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Note: Signature validation on module-catalog and configuration is only performed when the configuration is applied to the system for the first time or when the module is downloaded and installed.</source>
+          <target state="new">Note: Signature validation on module-catalog and configuration is only performed when the configuration is applied to the system for the first time or when the module is downloaded and installed.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Consistency runs do not validate the signature of Current.mof or its module dependencies.</source>
+          <target state="new">Consistency runs do not validate the signature of Current.mof or its module dependencies.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If verification has failed at any stage, for instance, if the configuration pulled from the pull server is unsigned, then processing of the configuration will terminate with the error shown below and all temporary files will be deleted.</source>
+          <target state="new">If verification has failed at any stage, for instance, if the configuration pulled from the pull server is unsigned, then processing of the configuration will terminate with the error shown below and all temporary files will be deleted.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Sample Error Output Configuration</source>
+          <target state="new">Sample Error Output Configuration</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Similarly, pulling a module whose catalog is not signed will result in the following error:</source>
+          <target state="new">Similarly, pulling a module whose catalog is not signed will result in the following error:</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Sample Error Output Module</source>
+          <target state="new">Sample Error Output Module</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Push</source>
+          <target state="new">Push</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A configuration delivered by using push might be tampered with at its source before it delivered to the node.</source>
+          <target state="new">A configuration delivered by using push might be tampered with at its source before it delivered to the node.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The Local Configuration Manager will perform similar signature validation steps for pushed or published configuration(s).</source>
+          <target state="new">The Local Configuration Manager will perform similar signature validation steps for pushed or published configuration(s).</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Below is a complete example of signature validation for push.</source>
+          <target state="new">Below is a complete example of signature validation for push.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Enable signature validation on the node.</source>
+          <target state="new">Enable signature validation on the node.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Create a sample configuration file.</source>
+          <target state="new">Create a sample configuration file.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Try pushing the unsigned configuration file in to the node.</source>
+          <target state="new">Try pushing the unsigned configuration file in to the node.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>ErrorUnsignedMofPushed</source>
+          <target state="new">ErrorUnsignedMofPushed</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Sign the configuration file using code-signing certificate.</source>
+          <target state="new">Sign the configuration file using code-signing certificate.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>SignMofFile</source>
+          <target state="new">SignMofFile</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Try pushing the signed MOF file.</source>
+          <target state="new">Try pushing the signed MOF file.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>SignMofFile</source>
+          <target state="new">SignMofFile</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

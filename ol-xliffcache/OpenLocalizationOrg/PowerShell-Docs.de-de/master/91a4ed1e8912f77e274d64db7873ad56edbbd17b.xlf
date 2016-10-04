@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">91a4ed1e8912f77e274d64db7873ad56edbbd17b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\psget_scriptcmdlets.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b8191ffeee095a7d0d90c02ab30ed1cab5e0f521</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5796e505d47a6bc8040e7e9cbcaae938ec75d312</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>PowerShellGet Cmdlets for Script Management</source>
+          <target state="new">PowerShellGet Cmdlets for Script Management</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Find-Script cmdlet</source>
+          <target state="new">Find-Script cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Find-Script cmdlet lets you to discover the script files with different search criteria like name, tag, filter, command name, version range, exact version, all versions, including its dependencies and from specific or all registered repositories.</source>
+          <target state="new">Find-Script cmdlet lets you to discover the script files with different search criteria like name, tag, filter, command name, version range, exact version, all versions, including its dependencies and from specific or all registered repositories.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Example usage:</source>
+          <target state="new">Example usage:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Save-Script cmdlet</source>
+          <target state="new">Save-Script cmdlet</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Save-Script cmdlet lets you to review the script file by saving it to a specified location.</source>
+          <target state="new">Save-Script cmdlet lets you to review the script file by saving it to a specified location.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Install-Script and Get-InstalledScript cmdlets</source>
+          <target state="new">Install-Script and Get-InstalledScript cmdlets</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Install-Script cmdlet lets you to install a specific script file along with its dependencies to the specified scope.</source>
+          <target state="new">Install-Script cmdlet lets you to install a specific script file along with its dependencies to the specified scope.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By default, scripts are installed to the AllUsers scope.</source>
+          <target state="new">By default, scripts are installed to the AllUsers scope.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Get-InstalledScript cmdlet lets you to get the list of script files which were installed using Install-Script cmdlet.</source>
+          <target state="new">Get-InstalledScript cmdlet lets you to get the list of script files which were installed using Install-Script cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use note: To allow management and locating of scripts once they are installed, Install-script will create a default folder for storing scripts at $home\Documents\WindowsPowerShell\Scripts, and add that folder to your PATH environment.</source>
+          <target state="new">Use note: To allow management and locating of scripts once they are installed, Install-script will create a default folder for storing scripts at $home\Documents\WindowsPowerShell\Scripts, and add that folder to your PATH environment.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If modifying the path is a concern, use Save-Script instead of Install-Script.</source>
+          <target state="new">If modifying the path is a concern, use Save-Script instead of Install-Script.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Get-InstalledScripts and Uninstall-Script can only work with scripts placed on the system using Install-Script.</source>
+          <target state="new">Get-InstalledScripts and Uninstall-Script can only work with scripts placed on the system using Install-Script.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also use Get-Command –Name <ph id="ph1">&amp;lt;</ph>InstalledScriptFileName<ph id="ph2">&amp;gt;</ph> to get it.</source>
+          <target state="new">You can also use Get-Command –Name <ph id="ph1">&amp;lt;</ph>InstalledScriptFileName<ph id="ph2">&amp;gt;</ph> to get it.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Two install locations are added to the PATH environment variable on first use of a specified scope.</source>
+          <target state="new">Two install locations are added to the PATH environment variable on first use of a specified scope.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Update-Script cmdlet</source>
+          <target state="new">Update-Script cmdlet</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Update-Script cmdlet lets you to do in-place update of the script files which were installed using Install-Script cmdlet.</source>
+          <target state="new">Update-Script cmdlet lets you to do in-place update of the script files which were installed using Install-Script cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Uninstall-Script cmdlet</source>
+          <target state="new">Uninstall-Script cmdlet</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>New-ScriptFileInfo and Test-ScriptFileInfo cmdlets</source>
+          <target state="new">New-ScriptFileInfo and Test-ScriptFileInfo cmdlets</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>New-ScriptFileInfo cmdlet lets you to create a new script file with metadata like Version, Guid, Author, and Description, etc. Test-ScriptFileInfo cmdlet lets you to validate and get the script file metadata.</source>
+          <target state="new">New-ScriptFileInfo cmdlet lets you to create a new script file with metadata like Version, Guid, Author, and Description, etc. Test-ScriptFileInfo cmdlet lets you to validate and get the script file metadata.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Update-ScriptFileInfo cmdlet</source>
+          <target state="new">Update-ScriptFileInfo cmdlet</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Update-ScriptFileInfo cmdlet lets you to update the existing script file metadata.</source>
+          <target state="new">Update-ScriptFileInfo cmdlet lets you to update the existing script file metadata.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Register-PSRepository and Set-PSRepository cmdlets with script sharing support</source>
+          <target state="new">Register-PSRepository and Set-PSRepository cmdlets with script sharing support</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use Register-PSRepository/Set-PSRepository cmdlets to add the <bpt id="p1">**</bpt>ScriptSourceLocation<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ScriptPublishLocation<ept id="p2">**</ept> to the PSRepository.</source>
+          <target state="new">Use Register-PSRepository/Set-PSRepository cmdlets to add the <bpt id="p1">**</bpt>ScriptSourceLocation<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ScriptPublishLocation<ept id="p2">**</ept> to the PSRepository.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Publish-Script cmdlet</source>
+          <target state="new">Publish-Script cmdlet</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Publish-Script cmdlet lets you to publish your script file with valid metadata like Version, Guid, Author, and Description, etc.</source>
+          <target state="new">Publish-Script cmdlet lets you to publish your script file with valid metadata like Version, Guid, Author, and Description, etc.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

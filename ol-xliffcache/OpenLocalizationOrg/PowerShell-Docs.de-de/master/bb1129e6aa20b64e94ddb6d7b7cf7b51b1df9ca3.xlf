@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bb1129e6aa20b64e94ddb6d7b7cf7b51b1df9ca3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\oneget-improvement.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f9766eca51ea294632e1417294f8f5dd49d133f0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">de8d27702cfc27e899b6abeabf1c0598d024b3fd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>PackageManagement (aka.</source>
+          <target state="new">PackageManagement (aka.</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>OneGet) Improvements</source>
+          <target state="new">OneGet) Improvements</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Note: provide a proposed descriptive title and a brief description</source>
+          <target state="new">Note: provide a proposed descriptive title and a brief description</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>PackageManagement (aka.</source>
+          <target state="new">PackageManagement (aka.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>OneGet) Improvements</source>
+          <target state="new">OneGet) Improvements</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The following are the fixes made in the WMF 5.1 to address some of the user experience gaps in the WMF 5.0 release.</source>
+          <target state="new">The following are the fixes made in the WMF 5.1 to address some of the user experience gaps in the WMF 5.0 release.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>1 <bpt id="p1">**</bpt>Version Alias<ept id="p1">**</ept></source>
+          <target state="new">1 <bpt id="p1">**</bpt>Version Alias<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: Assuming you have version 1.0 and 2.0 of a package, P1, installed on your system, and now you want to uninstall version 1.0, so you run "uninstall-package -name P1 -version 1.0".</source>
+          <target state="new"><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: Assuming you have version 1.0 and 2.0 of a package, P1, installed on your system, and now you want to uninstall version 1.0, so you run "uninstall-package -name P1 -version 1.0".</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You expect version 1.0 to be uninstalled after running the cmdlet.</source>
+          <target state="new">You expect version 1.0 to be uninstalled after running the cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>However the result is that version 2.0 gets uninstalled.</source>
+          <target state="new">However the result is that version 2.0 gets uninstalled.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The cause of the issue is that the "-version" parameter is an alias of the "-minimumversion" parameter.</source>
+          <target state="new">The cause of the issue is that the "-version" parameter is an alias of the "-minimumversion" parameter.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When OneGet is looking for a qualitied package with the minimum version of 1.0, it returns the latest version.</source>
+          <target state="new">When OneGet is looking for a qualitied package with the minimum version of 1.0, it returns the latest version.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This behavior is expected under normal cases because finding the latest version is what most people want.</source>
+          <target state="new">This behavior is expected under normal cases because finding the latest version is what most people want.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, it should not apply to the uninstall-package case.</source>
+          <target state="new">However, it should not apply to the uninstall-package case.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>:removed -version alias entirely in OneGet and PowerShellGet.</source>
+          <target state="new"><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>:removed -version alias entirely in OneGet and PowerShellGet.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>2 <bpt id="p1">**</bpt>Multiple Prompts for Bootstrapping NuGet Provider<ept id="p1">**</ept></source>
+          <target state="new">2 <bpt id="p1">**</bpt>Multiple Prompts for Bootstrapping NuGet Provider<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: When you run Find-Module or install-module or other OneGet cmdlets on your machine for the first time, OneGet is trying to bootstrap the NuGet provider.</source>
+          <target state="new"><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: When you run Find-Module or install-module or other OneGet cmdlets on your machine for the first time, OneGet is trying to bootstrap the NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>That's because the PowershellGet provider also uses the NuGet provider to download PowerShell modules.</source>
+          <target state="new">That's because the PowershellGet provider also uses the NuGet provider to download PowerShell modules.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>OneGet then prompts the user for permission to install the NuGet provider.</source>
+          <target state="new">OneGet then prompts the user for permission to install the NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>After the user selects "yes" for the bootstrapping, the latest version of the NuGet provider will be installed.</source>
+          <target state="new">After the user selects "yes" for the bootstrapping, the latest version of the NuGet provider will be installed.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However there is a case when you have an old version of NuGet provider installed on your machine, the older version of NuGet sometimes gets loaded first into the PowerShell session(that's the race condition in OneGet).</source>
+          <target state="new">However there is a case when you have an old version of NuGet provider installed on your machine, the older version of NuGet sometimes gets loaded first into the PowerShell session(that's the race condition in OneGet).</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>However PowerShellGet requires the later version of Nuget provider to work, so PowerShellGet asks the OneGet for bootstrapping the NuGet provider again.</source>
+          <target state="new">However PowerShellGet requires the later version of Nuget provider to work, so PowerShellGet asks the OneGet for bootstrapping the NuGet provider again.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>That's why you see the mulitple prompts for bootstrapping the NuGet provider.</source>
+          <target state="new">That's why you see the mulitple prompts for bootstrapping the NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: OneGet now loads the latest version of the NuGet provider to avoid multiple prompts for bootstrapping the NuGet provider.</source>
+          <target state="new"><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>: OneGet now loads the latest version of the NuGet provider to avoid multiple prompts for bootstrapping the NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A workaround also exists, i.e. manually delete the old version of the NuGet provider (NuGet-Anycpu.exe) if exists from $env:ProgramFiles\PackageManagement\ProviderAssemblies $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</source>
+          <target state="new">A workaround also exists, i.e. manually delete the old version of the NuGet provider (NuGet-Anycpu.exe) if exists from $env:ProgramFiles\PackageManagement\ProviderAssemblies $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>3 <bpt id="p1">**</bpt>Machine with Intranet only<ept id="p1">**</ept></source>
+          <target state="new">3 <bpt id="p1">**</bpt>Machine with Intranet only<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: For the enterprise scenario, people are working under an environment where there is no internet access but Intranet only.</source>
+          <target state="new"><bpt id="p1">**</bpt>Scenario<ept id="p1">**</ept>: For the enterprise scenario, people are working under an environment where there is no internet access but Intranet only.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>OneGet did not support this case in WMF 5.0.</source>
+          <target state="new">OneGet did not support this case in WMF 5.0.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Solution<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can download the NuGet provider on another machine with Internet connection by using the command "Install-PackageProvider -Name NuGet".</source>
+          <target state="new">You can download the NuGet provider on another machine with Internet connection by using the command "Install-PackageProvider -Name NuGet".</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Find the NuGet provider you just installed under either  $env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget  or  $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget.</source>
+          <target state="new">Find the NuGet provider you just installed under either  $env:ProgramFiles\PackageManagement\ProviderAssemblies\nuget  or  $env:LOCALAPPDATA\PackageManagement\ProviderAssemblies\nuget.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Copy the binaries over to a folder or network share location that your machine (the one without Internet) have access too and install NuGet provider with "Install-PackageProvider NuGet -Source <ph id="ph1">&lt;Path to folder&gt;</ph>".</source>
+          <target state="new">Copy the binaries over to a folder or network share location that your machine (the one without Internet) have access too and install NuGet provider with "Install-PackageProvider NuGet -Source <ph id="ph1">&lt;Path to folder&gt;</ph>".</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>4 <bpt id="p1">**</bpt>Event log<ept id="p1">**</ept></source>
+          <target state="new">4 <bpt id="p1">**</bpt>Event log<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you install packages, you are changing the state of your machine.</source>
+          <target state="new">When you install packages, you are changing the state of your machine.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For diagnosis purpose, OneGet now logs events to the Windows event log for install, uninstall, and save-package.</source>
+          <target state="new">For diagnosis purpose, OneGet now logs events to the Windows event log for install, uninstall, and save-package.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Event channel is the same as PowerShell, that is, Microsoft-Windows-PowerShell, Operational.</source>
+          <target state="new">The Event channel is the same as PowerShell, that is, Microsoft-Windows-PowerShell, Operational.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>5 <bpt id="p1">**</bpt>Authentication Support<ept id="p1">**</ept> OneGet now supports finding and installing packages from a repository that requires basic authentication.</source>
+          <target state="new">5 <bpt id="p1">**</bpt>Authentication Support<ept id="p1">**</ept> OneGet now supports finding and installing packages from a repository that requires basic authentication.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can supply your credential to the Find-Package and Install-Package cmdlet.</source>
+          <target state="new">You can supply your credential to the Find-Package and Install-Package cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>6 <bpt id="p1">**</bpt>Using OneGet Behind a Proxy<ept id="p1">**</ept></source>
+          <target state="new">6 <bpt id="p1">**</bpt>Using OneGet Behind a Proxy<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>OneGet now takes proxy parameters: -ProxyCredential and -Proxy.</source>
+          <target state="new">OneGet now takes proxy parameters: -ProxyCredential and -Proxy.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Using these parameters, you can specify proxy url and proxy credential to OneGet cmdlets (by default, we use the system proxy settings).</source>
+          <target state="new">Using these parameters, you can specify proxy url and proxy credential to OneGet cmdlets (by default, we use the system proxy settings).</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

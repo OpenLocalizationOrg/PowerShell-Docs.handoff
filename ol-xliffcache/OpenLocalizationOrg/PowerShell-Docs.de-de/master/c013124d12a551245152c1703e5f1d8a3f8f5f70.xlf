@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c013124d12a551245152c1703e5f1d8a3f8f5f70</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Working-with-Printers.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9276bf7f66566289e4139ad93654dbb2dd889996</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dca4ea4d5b5c10a23f44f8d7b194b2339e9fae11</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Working with Printers</source>
+          <target state="new">Working with Printers</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Working with Printers</source>
+          <target state="new">Working with Printers</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use Windows PowerShell to manage printers by using WMI and the WScript.Network COM object from WSH.</source>
+          <target state="new">You can use Windows PowerShell to manage printers by using WMI and the WScript.Network COM object from WSH.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We will use a mix of both tools to demonstrate specific tasks.</source>
+          <target state="new">We will use a mix of both tools to demonstrate specific tasks.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Listing Printer Connections</source>
+          <target state="new">Listing Printer Connections</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The simplest way to list the printers installed on a computer is to use the WMI <bpt id="p1">**</bpt>Win32_Printer<ept id="p1">**</ept> class:</source>
+          <target state="new">The simplest way to list the printers installed on a computer is to use the WMI <bpt id="p1">**</bpt>Win32_Printer<ept id="p1">**</ept> class:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also list the printers by using the <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> COM object that is typically used in WSH scripts:</source>
+          <target state="new">You can also list the printers by using the <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> COM object that is typically used in WSH scripts:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Because this command returns a simple string collection of port names and printer device names without any distinguishing labels, it is not easy to interpret.</source>
+          <target state="new">Because this command returns a simple string collection of port names and printer device names without any distinguishing labels, it is not easy to interpret.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Adding a Network Printer</source>
+          <target state="new">Adding a Network Printer</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To add a new network printer, use <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept>:</source>
+          <target state="new">To add a new network printer, use <bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Setting a Default Printer</source>
+          <target state="new">Setting a Default Printer</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To use WMI to set the default printer, find the printer in the <bpt id="p1">**</bpt>Win32_Printer<ept id="p1">**</ept> collection and then invoke the <bpt id="p2">**</bpt>SetDefaultPrinter<ept id="p2">**</ept> method:</source>
+          <target state="new">To use WMI to set the default printer, find the printer in the <bpt id="p1">**</bpt>Win32_Printer<ept id="p1">**</ept> collection and then invoke the <bpt id="p2">**</bpt>SetDefaultPrinter<ept id="p2">**</ept> method:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> is a little simpler to use, because it has a <bpt id="p2">**</bpt>SetDefaultPrinter<ept id="p2">**</ept> method that takes only the printer name as an argument:</source>
+          <target state="new"><bpt id="p1">**</bpt>WScript.Network<ept id="p1">**</ept> is a little simpler to use, because it has a <bpt id="p2">**</bpt>SetDefaultPrinter<ept id="p2">**</ept> method that takes only the printer name as an argument:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Removing a Printer Connection</source>
+          <target state="new">Removing a Printer Connection</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To remove a printer connection, use the <bpt id="p1">**</bpt>WScript.Network RemovePrinterConnection<ept id="p1">**</ept> method:</source>
+          <target state="new">To remove a printer connection, use the <bpt id="p1">**</bpt>WScript.Network RemovePrinterConnection<ept id="p1">**</ept> method:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

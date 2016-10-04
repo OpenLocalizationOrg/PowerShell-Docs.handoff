@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9bfb74ba438dd27fc2799263fc12a20edd2bb8cb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\Windows-PowerShell-ISE-Object-Model-Reference.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">178fb1bf01034f3cc3fe7ca398f258f885c81ad3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20d856f0dcbc9c19abfb32bde215c1518390dfdb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE Object Model Reference</source>
+          <target state="new">Windows PowerShell ISE Object Model Reference</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE Object Model Reference</source>
+          <target state="new">Windows PowerShell ISE Object Model Reference</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Object Model Reference</source>
+          <target state="new">Object Model Reference</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This section provides a reference on the underlying classes that define the various objects inWindows PowerShellÂ® Integrated Scripting Environment (ISE).</source>
+          <target state="new">This section provides a reference on the underlying classes that define the various objects inWindows PowerShellÂ® Integrated Scripting Environment (ISE).</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To see the objects organized in their hierarchy, see <bpt id="p1">[</bpt>The ISE Object Model Hierarchy<ept id="p1">](The-ISE-Object-Model-Hierarchy.md)</ept>.</source>
+          <target state="new">To see the objects organized in their hierarchy, see <bpt id="p1">[</bpt>The ISE Object Model Hierarchy<ept id="p1">](The-ISE-Object-Model-Hierarchy.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEAddOnTool Object<ept id="p1">](The-ISEAddOnTool-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.CurrentVisibleHorizontalTool, $psISE.CurrentVisibleVerticalTool.</source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEAddOnTool Object<ept id="p1">](The-ISEAddOnTool-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.CurrentVisibleHorizontalTool, $psISE.CurrentVisibleVerticalTool.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEAddOnTool Object<ept id="p1">](The-ISEAddOnTool-Object.md)</ept><ph id="ph1">
+</ph><bpt id="p2">  [</bpt>The ISEEditor Object<ept id="p2">](The-ISEEditor-Object.md)</ept><ph id="ph2">
+</ph> Examples: $psISE.CurrentFile.Editor, $psISE.CurrentPowerShellTab.Output, $psISE.CurrentPowerShellTab.CommandPane.</source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEAddOnTool Object<ept id="p1">](The-ISEAddOnTool-Object.md)</ept><ph id="ph1">
+</ph><bpt id="p2">  [</bpt>The ISEEditor Object<ept id="p2">](The-ISEEditor-Object.md)</ept><ph id="ph2">
+</ph> Examples: $psISE.CurrentFile.Editor, $psISE.CurrentPowerShellTab.Output, $psISE.CurrentPowerShellTab.CommandPane.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEFile Object<ept id="p1">](The-ISEFile-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.CurrentFile, $psISE.PowerShellTabs.Files\[0\].</source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEFile Object<ept id="p1">](The-ISEFile-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.CurrentFile, $psISE.PowerShellTabs.Files\[0\].</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEFileCollection Object<ept id="p1">](The-ISEFileCollection-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.PowerShellTabs.Files.</source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEFileCollection Object<ept id="p1">](The-ISEFileCollection-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.PowerShellTabs.Files.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEMenuItem Object<ept id="p1">](The-ISEMenuItem-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.CurrentPowerShellTab.AddOnsMenu , $psISE.CurrentPowerShellTab.AddOnsMenu.Submenus\[0\].</source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEMenuItem Object<ept id="p1">](The-ISEMenuItem-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.CurrentPowerShellTab.AddOnsMenu , $psISE.CurrentPowerShellTab.AddOnsMenu.Submenus\[0\].</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEMenuItemCollection Object<ept id="p1">](The-ISEMenuItemCollection-Object.md)</ept><ph id="ph1">
+</ph> Example: $psISE.CurrentPowerShellTab.AddOnsMenu.Submenus.</source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEMenuItemCollection Object<ept id="p1">](The-ISEMenuItemCollection-Object.md)</ept><ph id="ph1">
+</ph> Example: $psISE.CurrentPowerShellTab.AddOnsMenu.Submenus.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEOptions Object<ept id="p1">](The-ISEOptions-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.Options, $psISE.Options.DefaultOptions.</source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEOptions Object<ept id="p1">](The-ISEOptions-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.Options, $psISE.Options.DefaultOptions.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ObjectModelRoot Object<ept id="p1">](The-ObjectModelRoot-Object.md)</ept><ph id="ph1">
+</ph> Example: The root $psISE object.</source>
+          <target state="new"><bpt id="p1">[</bpt>The ObjectModelRoot Object<ept id="p1">](The-ObjectModelRoot-Object.md)</ept><ph id="ph1">
+</ph> Example: The root $psISE object.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The PowerShellTab Object<ept id="p1">](The-PowerShellTab-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.CurrentPowerShellTab, $psISE.PowerShellTabs\[0\].</source>
+          <target state="new"><bpt id="p1">[</bpt>The PowerShellTab Object<ept id="p1">](The-PowerShellTab-Object.md)</ept><ph id="ph1">
+</ph> Examples: $psISE.CurrentPowerShellTab, $psISE.PowerShellTabs\[0\].</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The PowerShellTabCollection Object<ept id="p1">](The-PowerShellTabCollection-Object.md)</ept><ph id="ph1">
+</ph> Example: $psISE.PowerShellTabs.</source>
+          <target state="new"><bpt id="p1">[</bpt>The PowerShellTabCollection Object<ept id="p1">](The-PowerShellTabCollection-Object.md)</ept><ph id="ph1">
+</ph> Example: $psISE.PowerShellTabs.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

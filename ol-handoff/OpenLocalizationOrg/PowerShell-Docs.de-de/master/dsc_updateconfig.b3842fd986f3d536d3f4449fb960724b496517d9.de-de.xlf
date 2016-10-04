@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3643fd339a0662d87f9532d9c38fd56c7f72333</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\dsc_updateconfig.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6a99bbb8294567fd6f48a6958e6ec8112e154c6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e9bea291ddf061e00e1743760a2a7b63a16da8de</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>On-demand PULL of DSC Configurations</source>
+          <target state="new">On-demand PULL of DSC Configurations</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The new Update-DscConfiguration cmdlet triggers a pull from the pull server(s) defined in the meta-configuration.</source>
+          <target state="new">The new Update-DscConfiguration cmdlet triggers a pull from the pull server(s) defined in the meta-configuration.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The behavior is often referred to as 'Pull Now'.</source>
+          <target state="new">The behavior is often referred to as 'Pull Now'.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Once triggered, the pull behaves exactly the same as it would have when triggered during the regular frequency:</source>
+          <target state="new">Once triggered, the pull behaves exactly the same as it would have when triggered during the regular frequency:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The checksum for current configuration is compared to the checksum for the configuration on the pull server.</source>
+          <target state="new">The checksum for current configuration is compared to the checksum for the configuration on the pull server.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If they are the same, it completes successfully without applying the configuration.</source>
+          <target state="new">If they are the same, it completes successfully without applying the configuration.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If they are different, the configuration is pulled down from the pull server and applied.</source>
+          <target state="new">If they are different, the configuration is pulled down from the pull server and applied.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> If the Meta-Configuration RefreshMode = 'Push' an error is returned by this cmdlet so this cmdlet will always do nothing when a target node is in 'Push' Mode.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> If the Meta-Configuration RefreshMode = 'Push' an error is returned by this cmdlet so this cmdlet will always do nothing when a target node is in 'Push' Mode.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

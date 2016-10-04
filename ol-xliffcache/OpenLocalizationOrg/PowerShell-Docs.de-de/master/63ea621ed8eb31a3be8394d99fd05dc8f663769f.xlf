@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">63ea621ed8eb31a3be8394d99fd05dc8f663769f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8cd2512c70a2dd0088f8281a1e5af0ca6618f9ef</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">146575cb314455fb82fd53a458e08b6180965a30</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Purpose of the Windows PowerShell ISE Scripting Object Model</source>
+          <target state="new">Purpose of the Windows PowerShell ISE Scripting Object Model</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Purpose of the Windows PowerShell ISE Scripting Object Model</source>
+          <target state="new">Purpose of the Windows PowerShell ISE Scripting Object Model</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Objects are associated with the form and function of Windows PowerShell Integrated Scripting Environment (ISE).</source>
+          <target state="new">Objects are associated with the form and function of Windows PowerShell Integrated Scripting Environment (ISE).</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The object model reference provides details about the member properties and methods that these objects expose.</source>
+          <target state="new">The object model reference provides details about the member properties and methods that these objects expose.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Examples are provided to show how you can use scripts to directly access these methods and properties.</source>
+          <target state="new">Examples are provided to show how you can use scripts to directly access these methods and properties.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The scripting object model makes the following range of tasks easier.</source>
+          <target state="new">The scripting object model makes the following range of tasks easier.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Customizing the appearance of Windows PowerShell ISE</source>
+          <target state="new">Customizing the appearance of Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the object model to modify the application settings and options.</source>
+          <target state="new">You can use the object model to modify the application settings and options.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, you can modify them as follows:</source>
+          <target state="new">For example, you can modify them as follows:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can change the color of errors, warnings, verbose outputs, and debug outputs.</source>
+          <target state="new">You can change the color of errors, warnings, verbose outputs, and debug outputs.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can get or set the background colors for the Command pane, the Output pane, and the Script pane.</source>
+          <target state="new">You can get or set the background colors for the Command pane, the Output pane, and the Script pane.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can set the foreground color for the Output pane.</source>
+          <target state="new">You can set the foreground color for the Output pane.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can set the font name and font size for Windows PowerShell ISE.</source>
+          <target state="new">You can set the font name and font size for Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can configure warnings.</source>
+          <target state="new">You can configure warnings.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This setting includes warnings that are issued when a file is opened in multiple PowerShell tabs or when a script in the file is run before the file has been saved.</source>
+          <target state="new">This setting includes warnings that are issued when a file is opened in multiple PowerShell tabs or when a script in the file is run before the file has been saved.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can switch between a view where the Script pane and the Output pane are side-by-side and a view where the Script pane is on top of the Output pane.</source>
+          <target state="new">You can switch between a view where the Script pane and the Output pane are side-by-side and a view where the Script pane is on top of the Output pane.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can dock the Command pane to the bottom or the top of the Output pane.</source>
+          <target state="new">You can dock the Command pane to the bottom or the top of the Output pane.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Enhancing the functionality of Windows PowerShell ISE</source>
+          <target state="new">Enhancing the functionality of Windows PowerShell ISE</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use the object model to enhance the functionality of Windows PowerShell ISE.</source>
+          <target state="new">You can use the object model to enhance the functionality of Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example, you can:</source>
+          <target state="new">For example, you can:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Add and modify the instance of Windows PowerShell ISE itself.</source>
+          <target state="new">Add and modify the instance of Windows PowerShell ISE itself.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, to change the menus, you can add new menu items and map the new menu items to scripts.</source>
+          <target state="new">For example, to change the menus, you can add new menu items and map the new menu items to scripts.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Create scripts that perform some of the tasks that you can perform by using the menu commands and buttons in Windows PowerShell ISE.</source>
+          <target state="new">Create scripts that perform some of the tasks that you can perform by using the menu commands and buttons in Windows PowerShell ISE.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, you can add, remove, or select a PowerShell tab.</source>
+          <target state="new">For example, you can add, remove, or select a PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Complement tasks that can be performed by using menu commands and buttons.</source>
+          <target state="new">Complement tasks that can be performed by using menu commands and buttons.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, you can rename a PowerShell tab.</source>
+          <target state="new">For example, you can rename a PowerShell tab.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Manipulate text buffers for the Command pane, the Output pane, and the Script pane that are associated with a file.</source>
+          <target state="new">Manipulate text buffers for the Command pane, the Output pane, and the Script pane that are associated with a file.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, you can:</source>
+          <target state="new">For example, you can:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Get or set all text.</source>
+          <target state="new">Get or set all text.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Get or set a text selection.</source>
+          <target state="new">Get or set a text selection.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Run a script or run a selected portion of a script.</source>
+          <target state="new">Run a script or run a selected portion of a script.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Scroll a line into view.</source>
+          <target state="new">Scroll a line into view.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Insert text at a caret position.</source>
+          <target state="new">Insert text at a caret position.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Select a block of text.</source>
+          <target state="new">Select a block of text.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Get the last line number.</source>
+          <target state="new">Get the last line number.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Perform file operations.</source>
+          <target state="new">Perform file operations.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, you can:</source>
+          <target state="new">For example, you can:</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Open a file, save a file, or save a file by using a different name.</source>
+          <target state="new">Open a file, save a file, or save a file by using a different name.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Determine whether a file has been changed after it was last saved.</source>
+          <target state="new">Determine whether a file has been changed after it was last saved.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Get the file name.</source>
+          <target state="new">Get the file name.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Select a file.</source>
+          <target state="new">Select a file.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Automating tasks</source>
+          <target state="new">Automating tasks</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can use the scripting object model to create keyboard shortcuts for frequent operations.</source>
+          <target state="new">You can use the scripting object model to create keyboard shortcuts for frequent operations.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISE Object Model Hierarchy<ept id="p1">](The-ISE-Object-Model-Hierarchy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The ISE Object Model Hierarchy<ept id="p1">](The-ISE-Object-Model-Hierarchy.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Windows PowerShell ISE Object Model Reference<ept id="p1">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PowerShell ISE Object Model Reference<ept id="p1">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p1">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

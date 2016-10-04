@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa82b0da9834e0e9b4f75a1c92cbcbe831a392e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\oneget\PackageManagement_cmdlets.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1c132a0d3d726a7e47099c5226aa8d94f2e236d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a236f73f8d09b474b946010d342c4fb3cb610681</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>PackageManagement Cmdlets</source>
+          <target state="new">PackageManagement Cmdlets</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This is the core of PackageManagement to support software discovery, installation, and inventory (SDII).</source>
+          <target state="new">This is the core of PackageManagement to support software discovery, installation, and inventory (SDII).</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Try out the cmdlets for these operations:</source>
+          <target state="new">Try out the cmdlets for these operations:</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Find-Package</source>
+          <target state="new">Find-Package</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Find-PackageProvider</source>
+          <target state="new">Find-PackageProvider</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Get-Package</source>
+          <target state="new">Get-Package</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Get-PackageProvider</source>
+          <target state="new">Get-PackageProvider</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Get-PackageSource</source>
+          <target state="new">Get-PackageSource</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Import-PackageProvider</source>
+          <target state="new">Import-PackageProvider</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Install-Package</source>
+          <target state="new">Install-Package</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Install-PackageProvider</source>
+          <target state="new">Install-PackageProvider</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Register-PackageSource</source>
+          <target state="new">Register-PackageSource</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Save-Package</source>
+          <target state="new">Save-Package</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Set-PackageSource</source>
+          <target state="new">Set-PackageSource</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Uninstall-Package</source>
+          <target state="new">Uninstall-Package</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Unregister-PackageSource</source>
+          <target state="new">Unregister-PackageSource</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As PackageManagement is a PowerShell module, you can do the following to update PackageManagement itself:</source>
+          <target state="new">As PackageManagement is a PowerShell module, you can do the following to update PackageManagement itself:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In this case, you will have to re-enter PowerShell session to switch to the new version of PackageManagement.</source>
+          <target state="new">In this case, you will have to re-enter PowerShell session to switch to the new version of PackageManagement.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Find-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890709.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Find-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890709.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This cmdlet allows discovery of software packages in available package sources using loaded package providers.</source>
+          <target state="new">This cmdlet allows discovery of software packages in available package sources using loaded package providers.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Find-PackageProvider Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/mt676544.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Find-PackageProvider Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/mt676544.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The Find-PackageProvider cmdlet finds matching PackageManagement providers that are available in package sources registered with PowerShellGet.</source>
+          <target state="new">The Find-PackageProvider cmdlet finds matching PackageManagement providers that are available in package sources registered with PowerShellGet.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These are package providers available for installation with the Install-PackageProvider cmdlet.</source>
+          <target state="new">These are package providers available for installation with the Install-PackageProvider cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>By default, this includes modules available in the PowerShell Gallery with the 'PackageManagement' and 'Provider' Tags.</source>
+          <target state="new">By default, this includes modules available in the PowerShell Gallery with the 'PackageManagement' and 'Provider' Tags.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Find-PackageProvider also finds matching PackageManagement providers that are available in the PackageManagement azure blob store where we use the PackageManagement boostrapper provider for finding and installing them.</source>
+          <target state="new">Find-PackageProvider also finds matching PackageManagement providers that are available in the PackageManagement azure blob store where we use the PackageManagement boostrapper provider for finding and installing them.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890704.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890704.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This cmdlet returns a list of all software packages that have been installed using PackageManagement.</source>
+          <target state="new">This cmdlet returns a list of all software packages that have been installed using PackageManagement.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-PackageProvider Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890703.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-PackageProvider Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890703.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Package providers that are loaded and ready to be used on the local machine can be inventoried by using the cmdlet.</source>
+          <target state="new">Package providers that are loaded and ready to be used on the local machine can be inventoried by using the cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get-PackageSource Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890705.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Get-PackageSource Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890705.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This cmdlet gets a list of package sources that are registered for a package provider.</source>
+          <target state="new">This cmdlet gets a list of package sources that are registered for a package provider.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Import-PackageProvider Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/mt676545.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Import-PackageProvider Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/mt676545.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This cmdlet adds Package Management package providers to the current session.</source>
+          <target state="new">This cmdlet adds Package Management package providers to the current session.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt> Install-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890711.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt> Install-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890711.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This cmdlet allows installation of software packages in available package sources using loaded package providers.</source>
+          <target state="new">This cmdlet allows installation of software packages in available package sources using loaded package providers.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Install-PackageProvider Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/mt676543.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Install-PackageProvider Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/mt676543.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This cmdlet installs one or more Package Management package providers.</source>
+          <target state="new">This cmdlet installs one or more Package Management package providers.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Register-PackageSource Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890701.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Register-PackageSource Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890701.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This cmdlet adds a package source for a specified package provider.</source>
+          <target state="new">This cmdlet adds a package source for a specified package provider.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Each PackageManagement provider may have one or multiple software sources, or repositories.</source>
+          <target state="new">Each PackageManagement provider may have one or multiple software sources, or repositories.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>PackageManagement provides PowerShell cmdlets to add/remove/query the source.</source>
+          <target state="new">PackageManagement provides PowerShell cmdlets to add/remove/query the source.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For example, you can register a package source for the NuGet provider:</source>
+          <target state="new">For example, you can register a package source for the NuGet provider:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Save-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890708.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Save-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890708.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This cmdlet saves packages to the local computer without installing them.</source>
+          <target state="new">This cmdlet saves packages to the local computer without installing them.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Set-PackageSource Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890710.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Set-PackageSource Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890710.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This cmdlet changes information about an existing package source.</source>
+          <target state="new">This cmdlet changes information about an existing package source.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Uninstall-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890702.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Uninstall-Package Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890702.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This cmdlet uninstalls packages installed on the local computer.</source>
+          <target state="new">This cmdlet uninstalls packages installed on the local computer.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Unregister-PackageSource Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890707.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Unregister-PackageSource Cmdlet<ept id="p1">](https://technet.microsoft.com/en-us/library/dn890707.aspx)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b2900987b1102cf41880e5af0a0cc44bc6499ef5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\resourceAuthoringChecklist.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2baad253934bbfe6001cd2fa64c9e75ed795d2f2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0eaa6b6e447eafacf861f5f6d9955fda47fb1f4c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Resource authoring checklist</source>
+          <target state="new">Resource authoring checklist</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Resource authoring checklist</source>
+          <target state="new">Resource authoring checklist</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This checklist is a list of best practices when authoring a new DSC Resource.</source>
+          <target state="new">This checklist is a list of best practices when authoring a new DSC Resource.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Resource module contains .psd1 file and schema.mof for every resource</source>
+          <target state="new">Resource module contains .psd1 file and schema.mof for every resource</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Check that your resource has correct structure and contains all required files.</source>
+          <target state="new">Check that your resource has correct structure and contains all required files.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Every resource module should contain a .psd1 file and every non-composite resource should have schema.mof file.</source>
+          <target state="new">Every resource module should contain a .psd1 file and every non-composite resource should have schema.mof file.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Resources that do not contain schema will not be listed by <bpt id="p1">**</bpt>Get-DscResource<ept id="p1">**</ept> and users will not be able to use the intellisense when writing code against those modules in ISE.</source>
+          <target state="new">Resources that do not contain schema will not be listed by <bpt id="p1">**</bpt>Get-DscResource<ept id="p1">**</ept> and users will not be able to use the intellisense when writing code against those modules in ISE.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The directory structure for xRemoteFile resource, which is part of the <bpt id="p1">[</bpt>xPSDesiredStateConfiguration resource module<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration)</ept>, looks as follows:</source>
+          <target state="new">The directory structure for xRemoteFile resource, which is part of the <bpt id="p1">[</bpt>xPSDesiredStateConfiguration resource module<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration)</ept>, looks as follows:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Resource and schema are correct</source>
+          <target state="new">Resource and schema are correct</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Verify the resource schema (*.schema.mof) file.</source>
+          <target state="new">Verify the resource schema (*.schema.mof) file.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">[</bpt>DSC Resource Designer<ept id="p1">](https://www.powershellgallery.com/packages/xDSCResourceDesigner/)</ept> to help develop and test your schema.</source>
+          <target state="new">You can use the <bpt id="p1">[</bpt>DSC Resource Designer<ept id="p1">](https://www.powershellgallery.com/packages/xDSCResourceDesigner/)</ept> to help develop and test your schema.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Make sure that:</source>
+          <target state="new">Make sure that:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Property types are correct (e.g. don’t use String for properties which accept numeric values, you should use UInt32 or other numeric types instead)</source>
+          <target state="new">Property types are correct (e.g. don’t use String for properties which accept numeric values, you should use UInt32 or other numeric types instead)</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Property attributes are specified correctly as: ([key], [required], [write], [read])</source>
+          <target state="new">Property attributes are specified correctly as: ([key], [required], [write], [read])</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>At least one parameter in the schema has to be marked as [key]</source>
+          <target state="new">At least one parameter in the schema has to be marked as [key]</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>[read] property does not coexist together with any of: [required], [key], [write]</source>
+          <target state="new">[read] property does not coexist together with any of: [required], [key], [write]</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If multiple qualifiers are specified except [read], then [key] takes precedence</source>
+          <target state="new">If multiple qualifiers are specified except [read], then [key] takes precedence</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If [write] and [required] are specified, then [required] takes precedence</source>
+          <target state="new">If [write] and [required] are specified, then [required] takes precedence</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>ValueMap is specified where appropriate</source>
+          <target state="new">ValueMap is specified where appropriate</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="new">Example:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Friendly name is specified and confirms to DSC naming conventions</source>
+          <target state="new">Friendly name is specified and confirms to DSC naming conventions</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Example: <ph id="ph1">```[ClassVersion("1.0.0.0"), FriendlyName("xRemoteFile")]```</ph></source>
+          <target state="new">Example: <ph id="ph1">```[ClassVersion("1.0.0.0"), FriendlyName("xRemoteFile")]```</ph></target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Every field has meaningful description.</source>
+          <target state="new">Every field has meaningful description.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The PowerShell GitHub repository has good examples, such as <bpt id="p1">[</bpt>the .schema.mof for xRemoteFile<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCResources/MSFT_xRemoteFile/MSFT_xRemoteFile.schema.mof)</ept></source>
+          <target state="new">The PowerShell GitHub repository has good examples, such as <bpt id="p1">[</bpt>the .schema.mof for xRemoteFile<ept id="p1">](https://github.com/PowerShell/xPSDesiredStateConfiguration/blob/dev/DSCResources/MSFT_xRemoteFile/MSFT_xRemoteFile.schema.mof)</ept></target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Additionally, you should use <bpt id="p1">**</bpt>Test-xDscResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-xDscSchema<ept id="p2">**</ept> cmdlets from <bpt id="p3">[</bpt>DSC Resource Designer<ept id="p3">](https://www.powershellgallery.com/packages/xDSCResourceDesigner/)</ept> to automatically verify the resource and schema:</source>
+          <target state="new">Additionally, you should use <bpt id="p1">**</bpt>Test-xDscResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-xDscSchema<ept id="p2">**</ept> cmdlets from <bpt id="p3">[</bpt>DSC Resource Designer<ept id="p3">](https://www.powershellgallery.com/packages/xDSCResourceDesigner/)</ept> to automatically verify the resource and schema:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Resource loads without errors</source>
+          <target state="new">Resource loads without errors</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Check whether the resource module can be successfully loaded.</source>
+          <target state="new">Check whether the resource module can be successfully loaded.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This can be achieved manually, by running <ph id="ph1">`Import-Module &lt;resource_module&gt; -force `</ph> and confirming that no errors occurred, or by writing test automation.</source>
+          <target state="new">This can be achieved manually, by running <ph id="ph1">`Import-Module &lt;resource_module&gt; -force `</ph> and confirming that no errors occurred, or by writing test automation.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In case of the latter, you can follow this structure in your test case:</source>
+          <target state="new">In case of the latter, you can follow this structure in your test case:</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Resource is idempotent in the positive case</source>
+          <target state="new">Resource is idempotent in the positive case</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>One of the fundamental characteristics of DSC resources is be idempotence.</source>
+          <target state="new">One of the fundamental characteristics of DSC resources is be idempotence.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It means that applying a DSC configuration containing that resource multiple times will always achieve the same result.</source>
+          <target state="new">It means that applying a DSC configuration containing that resource multiple times will always achieve the same result.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, if we create a configuration which contains the following File resource:</source>
+          <target state="new">For example, if we create a configuration which contains the following File resource:</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>After applying it for the first time, file test.txt should appear in C:\test folder.</source>
+          <target state="new">After applying it for the first time, file test.txt should appear in C:\test folder.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>However, subsequent runs of the same configuration should not change the state of the machine (e.g. no copies of the test.txt file should be created).</source>
+          <target state="new">However, subsequent runs of the same configuration should not change the state of the machine (e.g. no copies of the test.txt file should be created).</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To ensure a resource is idempotent you can repeatedly call <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> when testing the resource directly, or call <bpt id="p2">**</bpt>Start-DscConfiguration<ept id="p2">**</ept> multiple times when doing end to end testing.</source>
+          <target state="new">To ensure a resource is idempotent you can repeatedly call <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> when testing the resource directly, or call <bpt id="p2">**</bpt>Start-DscConfiguration<ept id="p2">**</ept> multiple times when doing end to end testing.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The result should be the same after every run.</source>
+          <target state="new">The result should be the same after every run.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Test user modification scenario</source>
+          <target state="new">Test user modification scenario</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>By changing the state of the machine and then rerunning DSC, you can verify that <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept> function properly.</source>
+          <target state="new">By changing the state of the machine and then rerunning DSC, you can verify that <bpt id="p1">**</bpt>Set-TargetResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-TargetResource<ept id="p2">**</ept> function properly.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Here are steps you should take:</source>
+          <target state="new">Here are steps you should take:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Start with the resource not in the desired state.</source>
+          <target state="new">Start with the resource not in the desired state.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Run configuration with your resource</source>
+          <target state="new">Run configuration with your resource</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Verify <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> returns True</source>
+          <target state="new">Verify <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> returns True</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Modify the configured item to be out of the desired state</source>
+          <target state="new">Modify the configured item to be out of the desired state</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Verify <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> returns false Here’s a more concrete example using Registry resource:</source>
+          <target state="new">Verify <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> returns false Here’s a more concrete example using Registry resource:</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Start with registry key not in the desired state</source>
+          <target state="new">Start with registry key not in the desired state</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Run <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> with a configuration to put it in the desired state and verify it passes.</source>
+          <target state="new">Run <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> with a configuration to put it in the desired state and verify it passes.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Run <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> and verify it returns true</source>
+          <target state="new">Run <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> and verify it returns true</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Modify the value of the key so that it is not in the desired state</source>
+          <target state="new">Modify the value of the key so that it is not in the desired state</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Run <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> and verify it returns false</source>
+          <target state="new">Run <bpt id="p1">**</bpt>Test-DscConfiguration<ept id="p1">**</ept> and verify it returns false</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Get-TargetResource functionality was verified using Get-DscConfiguration</source>
+          <target state="new">Get-TargetResource functionality was verified using Get-DscConfiguration</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Get-TargetResource should return details of the current state of the resource.</source>
+          <target state="new">Get-TargetResource should return details of the current state of the resource.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Make sure to test it by calling Get-DscConfiguration after you apply the configuration and verifying that output correctly reflects the current state of the machine.</source>
+          <target state="new">Make sure to test it by calling Get-DscConfiguration after you apply the configuration and verifying that output correctly reflects the current state of the machine.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>It's important to test it separately, since any issues in this area won't appear when calling Start-DscConfiguration.</source>
+          <target state="new">It's important to test it separately, since any issues in this area won't appear when calling Start-DscConfiguration.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Call <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions directly</source>
+          <target state="new">Call <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions directly</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Make sure you test the <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions implemented in your resource by calling them directly and verifying that they work as expected.</source>
+          <target state="new">Make sure you test the <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions implemented in your resource by calling them directly and verifying that they work as expected.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Verify End to End using <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept></source>
+          <target state="new">Verify End to End using <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Testing <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions by calling them directly is important, but not all issues will be discovered this way.</source>
+          <target state="new">Testing <bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions by calling them directly is important, but not all issues will be discovered this way.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You should focus significant part of your testing on using <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> or the pull server.</source>
+          <target state="new">You should focus significant part of your testing on using <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> or the pull server.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In fact, this is how users will use the resource, so don’t underestimate the significance of this type of tests.</source>
+          <target state="new">In fact, this is how users will use the resource, so don’t underestimate the significance of this type of tests.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Possible types of issues:</source>
+          <target state="new">Possible types of issues:</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Credential/Session may behave differently because the DSC agent runs as a service.</source>
+          <target state="new">Credential/Session may behave differently because the DSC agent runs as a service.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Be sure to test any features here end to end.</source>
+          <target state="new">Be sure to test any features here end to end.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Errors output by <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> may be different than those displayed when calling the <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> function directly.</source>
+          <target state="new">Errors output by <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> may be different than those displayed when calling the <bpt id="p2">**</bpt>Set-TargetResource<ept id="p2">**</ept> function directly.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Test compatability on all DSC supported platforms</source>
+          <target state="new">Test compatability on all DSC supported platforms</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Resource should work on all DSC supported platforms (Windows Server 2008 R2 and newer).</source>
+          <target state="new">Resource should work on all DSC supported platforms (Windows Server 2008 R2 and newer).</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Install the latest WMF (Windows Management Framework) on your OS to get the latest version of DSC.</source>
+          <target state="new">Install the latest WMF (Windows Management Framework) on your OS to get the latest version of DSC.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If your resource does not work on some of these platforms by design, a specific error message should be returned.</source>
+          <target state="new">If your resource does not work on some of these platforms by design, a specific error message should be returned.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Also, make sure your resource checks whether cmdlets you are calling are present on particular machine.</source>
+          <target state="new">Also, make sure your resource checks whether cmdlets you are calling are present on particular machine.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Windows Server 2012 added a large number of new cmdlets that are not available on Windows Server 2008R2, even with WMF installed.</source>
+          <target state="new">Windows Server 2012 added a large number of new cmdlets that are not available on Windows Server 2008R2, even with WMF installed.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Verify on Windows Client (if applicable)</source>
+          <target state="new">Verify on Windows Client (if applicable)</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>One very common test gap is verifying the resource only on server versions of Windows.</source>
+          <target state="new">One very common test gap is verifying the resource only on server versions of Windows.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Many resources are also designed to work on Client SKUs, so if that’s true in your case, don’t forget to test it on those platforms as well.</source>
+          <target state="new">Many resources are also designed to work on Client SKUs, so if that’s true in your case, don’t forget to test it on those platforms as well.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Get-DSCResource lists the resource</source>
+          <target state="new">Get-DSCResource lists the resource</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>After deploying the module, calling Get-DscResource should list your resource among others as a result.</source>
+          <target state="new">After deploying the module, calling Get-DscResource should list your resource among others as a result.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If you can’t find your resource in the list, make sure that schema.mof file for that resource exists.</source>
+          <target state="new">If you can’t find your resource in the list, make sure that schema.mof file for that resource exists.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Resource module contains examples</source>
+          <target state="new">Resource module contains examples</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Creating quality examples which will help others understand how to use it.</source>
+          <target state="new">Creating quality examples which will help others understand how to use it.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This is crucial, especially since many users treat sample code as documentation.</source>
+          <target state="new">This is crucial, especially since many users treat sample code as documentation.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>First, you should determine the examples that will be included with the module – at minimum, you should cover most important use cases for your resource:</source>
+          <target state="new">First, you should determine the examples that will be included with the module – at minimum, you should cover most important use cases for your resource:</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If your module contains several resources that need to work together for an end-to-end scenario, the basic end-to-end example would ideally be first.</source>
+          <target state="new">If your module contains several resources that need to work together for an end-to-end scenario, the basic end-to-end example would ideally be first.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The initial examples should be very simple -- how to get started with your resources in small manageable chunks (e.g. creating a new VHD)</source>
+          <target state="new">The initial examples should be very simple -- how to get started with your resources in small manageable chunks (e.g. creating a new VHD)</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Subsequent examples should build on those examples (e.g. creating a VM from a VHD, removing VM, modifying VM), and show advanced functionality (e.g. creating a VM with dynamic memory)</source>
+          <target state="new">Subsequent examples should build on those examples (e.g. creating a VM from a VHD, removing VM, modifying VM), and show advanced functionality (e.g. creating a VM with dynamic memory)</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Example configurations should be parameterized (all values should be passed to the configuration as parameters and there should be no hardcoded values):</source>
+          <target state="new">Example configurations should be parameterized (all values should be passed to the configuration as parameters and there should be no hardcoded values):</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>It’s a good practice to include (commented out) example of how to call the configuration with the actual values at the end of the example script.</source>
+          <target state="new">It’s a good practice to include (commented out) example of how to call the configuration with the actual values at the end of the example script.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For example, in the configuration above it isn't neccessarily obvious that the best way to specify UserAgent is:</source>
+          <target state="new">For example, in the configuration above it isn't neccessarily obvious that the best way to specify UserAgent is:</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In which case a comment can clarify the intended execution of the configuration:</source>
+          <target state="new">In which case a comment can clarify the intended execution of the configuration:</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For each example, write a short description which explains what it does, and the meaning of the parameters.</source>
+          <target state="new">For each example, write a short description which explains what it does, and the meaning of the parameters.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Make sure examples cover most the important scenarios for your resource and if there’s nothing missing, verify that they all execute and put machine in the desired state.</source>
+          <target state="new">Make sure examples cover most the important scenarios for your resource and if there’s nothing missing, verify that they all execute and put machine in the desired state.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Error messages are easy to understand and help users solve problems</source>
+          <target state="new">Error messages are easy to understand and help users solve problems</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Good error messages should be:</source>
+          <target state="new">Good error messages should be:</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>There: The biggest problem with error messages is that they often don’t exist, so make sure they are there.</source>
+          <target state="new">There: The biggest problem with error messages is that they often don’t exist, so make sure they are there.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Easy to understand: Human readable, no obscure error codes</source>
+          <target state="new">Easy to understand: Human readable, no obscure error codes</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Precise: Describe what’s exactly the problem</source>
+          <target state="new">Precise: Describe what’s exactly the problem</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Constructive: Advice how to fix the issue</source>
+          <target state="new">Constructive: Advice how to fix the issue</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Polite: Don’t blame user or make them feel bad Make sure you verify errors in End to End scenarios (using <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept>), because they may differ from those returned when running resource functions directly.</source>
+          <target state="new">Polite: Don’t blame user or make them feel bad Make sure you verify errors in End to End scenarios (using <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept>), because they may differ from those returned when running resource functions directly.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Log messages are easy to understand and informative (including –verbose, –debug and ETW logs)</source>
+          <target state="new">Log messages are easy to understand and informative (including –verbose, –debug and ETW logs)</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Ensure that logs outputted by the resource are easy to understand and provide value to the user.</source>
+          <target state="new">Ensure that logs outputted by the resource are easy to understand and provide value to the user.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Resources should output all information which might be helpful to the user, but more logs is not always better.</source>
+          <target state="new">Resources should output all information which might be helpful to the user, but more logs is not always better.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>You should avoid redundancy and outputting data which does not provide additional value – don’t make someone go through hundreds of log entries in order to find what they're looking for.</source>
+          <target state="new">You should avoid redundancy and outputting data which does not provide additional value – don’t make someone go through hundreds of log entries in order to find what they're looking for.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Of course, no logs is not an acceptable solution for this problem either.</source>
+          <target state="new">Of course, no logs is not an acceptable solution for this problem either.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When testing, you should also analyze verbose and debug logs (by running <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> with –verbose and –debug switches appropriately), as well as ETW logs.</source>
+          <target state="new">When testing, you should also analyze verbose and debug logs (by running <bpt id="p1">**</bpt>Start-DscConfiguration<ept id="p1">**</ept> with –verbose and –debug switches appropriately), as well as ETW logs.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To see DSC ETW logs, go to Event Viewer and open the following folder: Applications and Services- Microsoft - Windows - Desired State Configuration.</source>
+          <target state="new">To see DSC ETW logs, go to Event Viewer and open the following folder: Applications and Services- Microsoft - Windows - Desired State Configuration.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>By default there will be Operational channel, but make sure you enable Analytic and Debug channels before running the configuration.</source>
+          <target state="new">By default there will be Operational channel, but make sure you enable Analytic and Debug channels before running the configuration.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To enable Analytic/Debug channels, you can execute script below:</source>
+          <target state="new">To enable Analytic/Debug channels, you can execute script below:</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Resource implementation does not contain hardcoded paths</source>
+          <target state="new">Resource implementation does not contain hardcoded paths</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Ensure there are no hardcoded paths in the resource implementation, particularly if they assume language (en-us), or when there are system variables that can be used.</source>
+          <target state="new">Ensure there are no hardcoded paths in the resource implementation, particularly if they assume language (en-us), or when there are system variables that can be used.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If your resource need to access specific paths, use environment variables instead of hardcoding the path, as it may differ on other machines.</source>
+          <target state="new">If your resource need to access specific paths, use environment variables instead of hardcoding the path, as it may differ on other machines.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="new">Example:</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Instead of:</source>
+          <target state="new">Instead of:</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can write:</source>
+          <target state="new">You can write:</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Resource implementation does not contain user information</source>
+          <target state="new">Resource implementation does not contain user information</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Make sure there are no email names, account information, or names of people in the code.</source>
+          <target state="new">Make sure there are no email names, account information, or names of people in the code.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Resource was tested with valid/invalid credentials</source>
+          <target state="new">Resource was tested with valid/invalid credentials</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If your resource takes a credential as parameter:</source>
+          <target state="new">If your resource takes a credential as parameter:</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Verify the resource works when Local System (or the computer account for remote resources) does not have access.</source>
+          <target state="new">Verify the resource works when Local System (or the computer account for remote resources) does not have access.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Verify the resource works with a credential specified for Get, Set and Test</source>
+          <target state="new">Verify the resource works with a credential specified for Get, Set and Test</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If your resource accesses shares, test all the variants you need to support, such as:</source>
+          <target state="new">If your resource accesses shares, test all the variants you need to support, such as:</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Standard windows shares.</source>
+          <target state="new">Standard windows shares.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>DFS shares.</source>
+          <target state="new">DFS shares.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>SAMBA shares (if you want to support Linux.)</source>
+          <target state="new">SAMBA shares (if you want to support Linux.)</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Resource does not require interactive input</source>
+          <target state="new">Resource does not require interactive input</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions should be executed automatically and must not wait for user’s input at any stage of execution (e.g. you should not use <bpt id="p2">**</bpt>Get-Credential<ept id="p2">**</ept> inside these functions).</source>
+          <target state="new"><bpt id="p1">**</bpt>Get/Set/Test-TargetResource<ept id="p1">**</ept> functions should be executed automatically and must not wait for user’s input at any stage of execution (e.g. you should not use <bpt id="p2">**</bpt>Get-Credential<ept id="p2">**</ept> inside these functions).</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If you need to provide user’s input, you should pass it to the configuration as parameter during the compilation phase.</source>
+          <target state="new">If you need to provide user’s input, you should pass it to the configuration as parameter during the compilation phase.</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Resource functionality was thoroughly tested</source>
+          <target state="new">Resource functionality was thoroughly tested</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This checklist contains items which are important to be tested and/or are often missed.</source>
+          <target state="new">This checklist contains items which are important to be tested and/or are often missed.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>There will be bunch of tests, mainly functional ones which will be specific to the resource you are testing and are not mentioned here.</source>
+          <target state="new">There will be bunch of tests, mainly functional ones which will be specific to the resource you are testing and are not mentioned here.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Don’t forget about negative test cases.</source>
+          <target state="new">Don’t forget about negative test cases.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Best practice: Resource module contains Tests folder with ResourceDesignerTests.ps1 script</source>
+          <target state="new">Best practice: Resource module contains Tests folder with ResourceDesignerTests.ps1 script</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>It’s a good practice to create folder “Tests” inside resource module, create ResourceDesignerTests.ps1 file and add tests using <bpt id="p1">**</bpt>Test-xDscResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-xDscSchema<ept id="p2">**</ept> for all resources in given module.</source>
+          <target state="new">It’s a good practice to create folder “Tests” inside resource module, create ResourceDesignerTests.ps1 file and add tests using <bpt id="p1">**</bpt>Test-xDscResource<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Test-xDscSchema<ept id="p2">**</ept> for all resources in given module.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This way you can quickly validate schemas of all resources from the given modules and do a sanity check before publishing.</source>
+          <target state="new">This way you can quickly validate schemas of all resources from the given modules and do a sanity check before publishing.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For xRemoteFile, ResourceTests.ps1 could look as simple as:</source>
+          <target state="new">For xRemoteFile, ResourceTests.ps1 could look as simple as:</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Best practice: Resource folder contains resource designer script for generating schema</source>
+          <target state="new">Best practice: Resource folder contains resource designer script for generating schema</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Each resource should contain a resource designer script which generates a mof schema of the resource.</source>
+          <target state="new">Each resource should contain a resource designer script which generates a mof schema of the resource.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This file should be placed in <ph id="ph1">&lt;ResourceName&gt;</ph>\ResourceDesignerScripts and be named Generate<ph id="ph2">&lt;ResourceName&gt;</ph>Schema.ps1 For xRemoteFile resource this file would be called GenerateXRemoteFileSchema.ps1 and contain:</source>
+          <target state="new">This file should be placed in <ph id="ph1">&lt;ResourceName&gt;</ph>\ResourceDesignerScripts and be named Generate<ph id="ph2">&lt;ResourceName&gt;</ph>Schema.ps1 For xRemoteFile resource this file would be called GenerateXRemoteFileSchema.ps1 and contain:</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Best practice: Resource supports -whatif</source>
+          <target state="new">Best practice: Resource supports -whatif</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If your resource is performing “dangerous” operations, it’s a good practice to implement -whatif functionality.</source>
+          <target state="new">If your resource is performing “dangerous” operations, it’s a good practice to implement -whatif functionality.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>After it’s done, make sure that whatif output correctly describes operations which would happen if command was executed without whatif switch.</source>
+          <target state="new">After it’s done, make sure that whatif output correctly describes operations which would happen if command was executed without whatif switch.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Also, verify that operations does not execute (no changes to the node’s state are made) when –whatif switch is present.</source>
+          <target state="new">Also, verify that operations does not execute (no changes to the node’s state are made) when –whatif switch is present.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>For example, let’s assume we are testing File resource.</source>
+          <target state="new">For example, let’s assume we are testing File resource.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Below is simple configuration which creates file “test.txt” with contents “test”:</source>
+          <target state="new">Below is simple configuration which creates file “test.txt” with contents “test”:</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>If we compile and then execute the configuration with the –whatif switch, the output is telling us exactly what would happen when we run the configuration.</source>
+          <target state="new">If we compile and then execute the configuration with the –whatif switch, the output is telling us exactly what would happen when we run the configuration.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The configuration itself however was not executed (test.txt file was not created).</source>
+          <target state="new">The configuration itself however was not executed (test.txt file was not created).</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>This list is not exhaustive, but it covers many important issues which can be encountered while designing, developing and testing DSC resources.</source>
+          <target state="new">This list is not exhaustive, but it covers many important issues which can be encountered while designing, developing and testing DSC resources.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

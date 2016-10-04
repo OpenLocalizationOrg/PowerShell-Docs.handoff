@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ceec1038516ddd4c29df770d14981c0a69437498</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">528f6f31b47eaa69b11b814f9b7be341ff4c13ca</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">11ea74b839443b7d21e143077c68235fd730239d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Appendix 2   Creating a Custom PowerShell Shortcut</source>
+          <target state="new">Appendix 2   Creating a Custom PowerShell Shortcut</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Appendix 2 - Creating a Custom PowerShell Shortcut</source>
+          <target state="new">Appendix 2 - Creating a Custom PowerShell Shortcut</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The following procedure describes how to create a shortcut to Windows PowerShell that has several convenient options customized.</source>
+          <target state="new">The following procedure describes how to create a shortcut to Windows PowerShell that has several convenient options customized.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create a shortcut that points to Powershell.exe.</source>
+          <target state="new">Create a shortcut that points to Powershell.exe.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Right-click the shortcut, and then click <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept>.</source>
+          <target state="new">Right-click the shortcut, and then click <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> tab.</source>
+          <target state="new">Click the <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> tab.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Edit Options<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>QuickEdit<ept id="p2">**</ept> check box.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Edit Options<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>QuickEdit<ept id="p2">**</ept> check box.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This setting lets you select text in the Windows PowerShell console window by dragging the left mouse button, and it lets you copy text to the clipboard by pressing ENTER or by right-clicking the mouse.</source>
+          <target state="new">This setting lets you select text in the Windows PowerShell console window by dragging the left mouse button, and it lets you copy text to the clipboard by pressing ENTER or by right-clicking the mouse.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Edit Options<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>Insert Mode<ept id="p2">**</ept> check box.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Edit Options<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>Insert Mode<ept id="p2">**</ept> check box.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This setting lets you right-click in the console window to automatically paste text from the clipboard.</source>
+          <target state="new">This setting lets you right-click in the console window to automatically paste text from the clipboard.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Command History<ept id="p1">**</ept> section, type or select a number between 1 and 999 in the <bpt id="p2">**</bpt>Buffer Size<ept id="p2">**</ept> box.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Command History<ept id="p1">**</ept> section, type or select a number between 1 and 999 in the <bpt id="p2">**</bpt>Buffer Size<ept id="p2">**</ept> box.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This sets the number of typed commands that will be kept in the console buffer.</source>
+          <target state="new">This sets the number of typed commands that will be kept in the console buffer.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Command History<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>Discard Old Duplicates<ept id="p2">**</ept> check box to eliminate repeated commands from the console buffer.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Command History<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>Discard Old Duplicates<ept id="p2">**</ept> check box to eliminate repeated commands from the console buffer.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Layout<ept id="p1">**</ept> tab.</source>
+          <target state="new">Click the <bpt id="p1">**</bpt>Layout<ept id="p1">**</ept> tab.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Screen Buffer<ept id="p1">**</ept> section, type a number between 1 and 9999 in the <bpt id="p2">**</bpt>Height<ept id="p2">**</ept> box.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Screen Buffer<ept id="p1">**</ept> section, type a number between 1 and 9999 in the <bpt id="p2">**</bpt>Height<ept id="p2">**</ept> box.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The height represents the number of lines of output that are buffered.</source>
+          <target state="new">The height represents the number of lines of output that are buffered.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This is the maximum number of lines retained for viewing when you scroll through the console window.</source>
+          <target state="new">This is the maximum number of lines retained for viewing when you scroll through the console window.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If this number is lower than the height shown in the <bpt id="p1">**</bpt>Window size<ept id="p1">**</ept> section, the window size height will automatically be reduced to the same value.</source>
+          <target state="new">If this number is lower than the height shown in the <bpt id="p1">**</bpt>Window size<ept id="p1">**</ept> section, the window size height will automatically be reduced to the same value.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Window Size<ept id="p1">**</ept> section, type a number between 1 and 9999 for the width.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Window Size<ept id="p1">**</ept> section, type a number between 1 and 9999 for the width.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This represents the number of characters that are displayed across the console window.</source>
+          <target state="new">This represents the number of characters that are displayed across the console window.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The default width is 80, and Windows PowerShell's output formatting is designed for this width.</source>
+          <target state="new">The default width is 80, and Windows PowerShell's output formatting is designed for this width.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you want to place the console at a particular point on the desktop when it is opened, clear the <bpt id="p1">**</bpt>Let system position window<ept id="p1">**</ept> check box in the <bpt id="p2">**</bpt>Window position<ept id="p2">**</ept> section, and then change the values in the <bpt id="p3">**</bpt>Left<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Top<ept id="p4">**</ept> boxes in the <bpt id="p5">**</bpt>Window position<ept id="p5">**</ept> section.</source>
+          <target state="new">If you want to place the console at a particular point on the desktop when it is opened, clear the <bpt id="p1">**</bpt>Let system position window<ept id="p1">**</ept> check box in the <bpt id="p2">**</bpt>Window position<ept id="p2">**</ept> section, and then change the values in the <bpt id="p3">**</bpt>Left<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Top<ept id="p4">**</ept> boxes in the <bpt id="p5">**</bpt>Window position<ept id="p5">**</ept> section.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">811596d4ad7994a12987ff172e626eac534bdf4d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\jea_overview.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0c5c7aaa085b5b22494b878098ac4d0f2da483d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee37ebe06aff934fcf3ff69bc1647d616b7e1e43</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration (JEA)</source>
+          <target state="new">Just Enough Administration (JEA)</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Just Enough Administration is a new feature in WMF 5.0 that enables role-based administration through PowerShell remoting.</source>
+          <target state="new">Just Enough Administration is a new feature in WMF 5.0 that enables role-based administration through PowerShell remoting.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It extends the existing constrained endpoint infrastructure by allowing non-administrators to run specific commands, scripts and executables as an administrator.</source>
+          <target state="new">It extends the existing constrained endpoint infrastructure by allowing non-administrators to run specific commands, scripts and executables as an administrator.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This enables you to reduce the number of full administrators in your environment and improve your security.</source>
+          <target state="new">This enables you to reduce the number of full administrators in your environment and improve your security.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>JEA works for everything you manage through PowerShell; if you can manage something with PowerShell, JEA can help you do so more securely.</source>
+          <target state="new">JEA works for everything you manage through PowerShell; if you can manage something with PowerShell, JEA can help you do so more securely.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For a detailed look at Just Enough Administration, check out the <bpt id="p1">[</bpt>experience guide<ept id="p1">](http://aka.ms/JEA)</ept>.</source>
+          <target state="new">For a detailed look at Just Enough Administration, check out the <bpt id="p1">[</bpt>experience guide<ept id="p1">](http://aka.ms/JEA)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Unlike old constrained endpoints, JEA is both powerful and easy to configure.</source>
+          <target state="new">Unlike old constrained endpoints, JEA is both powerful and easy to configure.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>User capabilities in JEA can be granularly controlled, down to restricting which parameter sets and values can be supplied to a specific command.</source>
+          <target state="new">User capabilities in JEA can be granularly controlled, down to restricting which parameter sets and values can be supplied to a specific command.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The user’s actions are run in the context of a one-time virtual account that has the rights to perform the administrator actions.</source>
+          <target state="new">The user’s actions are run in the context of a one-time virtual account that has the rights to perform the administrator actions.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The commands invoked by the user can be logged for security audits.</source>
+          <target state="new">The commands invoked by the user can be logged for security audits.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>JEA works by allowing you to create specially-configured constrained endpoints.</source>
+          <target state="new">JEA works by allowing you to create specially-configured constrained endpoints.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>These endpoints have a few important characteristics:</source>
+          <target state="new">These endpoints have a few important characteristics:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Users connecting to them “run as” a privileged Virtual Account that exists only for the duration of this remote session.</source>
+          <target state="new">Users connecting to them “run as” a privileged Virtual Account that exists only for the duration of this remote session.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By default, this Virtual Account is a member of the built-in Administrators group, as well as a Domain Administrators on domain controllers (note: these permissions are configurable).</source>
+          <target state="new">By default, this Virtual Account is a member of the built-in Administrators group, as well as a Domain Administrators on domain controllers (note: these permissions are configurable).</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By connecting as one user and running as a different, privileged user, you can allow non-privileged users to perform specific administrative tasks without giving them administrative rights on your systems.</source>
+          <target state="new">By connecting as one user and running as a different, privileged user, you can allow non-privileged users to perform specific administrative tasks without giving them administrative rights on your systems.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The endpoint is locked down.</source>
+          <target state="new">The endpoint is locked down.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This means PowerShell runs in No Language mode.</source>
+          <target state="new">This means PowerShell runs in No Language mode.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Only specific commands, scripts, and executables are visible to the user.</source>
+          <target state="new">Only specific commands, scripts, and executables are visible to the user.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Different users connecting are presented with a different set of capabilities based on group membership.</source>
+          <target state="new">Different users connecting are presented with a different set of capabilities based on group membership.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can provide different roles different capabilities at the same endpoint.</source>
+          <target state="new">You can provide different roles different capabilities at the same endpoint.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

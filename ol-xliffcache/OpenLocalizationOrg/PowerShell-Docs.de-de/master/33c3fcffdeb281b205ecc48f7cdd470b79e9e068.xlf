@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33c3fcffdeb281b205ecc48f7cdd470b79e9e068</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.1\features-scenarios-cache\Improved-dsc-resourcedebugging.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4e16336e2217983bd7dfe58f3febfd9a1a1ef3b0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8580807bf481e46c0013d3f92556ec8b08cf967f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>DSC Resource Debugging Improvements</source>
+          <target state="new">DSC Resource Debugging Improvements</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>DSC Resource Debugging Improvements</source>
+          <target state="new">DSC Resource Debugging Improvements</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In WMF 5.0, PowerShell debugger didn’t use to stop at Class Resource method (Get/Set/Test) directly.</source>
+          <target state="new">In WMF 5.0, PowerShell debugger didn’t use to stop at Class Resource method (Get/Set/Test) directly.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We have fixed this issue, now debugger will stop at Class Resource method same as mof based resources methods.</source>
+          <target state="new">We have fixed this issue, now debugger will stop at Class Resource method same as mof based resources methods.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

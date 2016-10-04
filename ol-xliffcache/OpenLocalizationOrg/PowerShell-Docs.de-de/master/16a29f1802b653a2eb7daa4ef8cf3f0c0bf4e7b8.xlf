@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">16a29f1802b653a2eb7daa4ef8cf3f0c0bf4e7b8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\module\psget_moduledependencypopulation.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b00dbd1627cfd48b874e0fe0c91d21079123ab07</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83efd3c1197883a20cf16359d6b81ab04ceee7f1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Logic for preparing the module dependencies during Publish operation</source>
+          <target state="new">Logic for preparing the module dependencies during Publish operation</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Modules listed as part of RequiredModules are considered as dependencies.</source>
+          <target state="new">Modules listed as part of RequiredModules are considered as dependencies.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Modules listed as part of NestedModules, whose module base is not under the specified module base, are considered as dependencies.</source>
+          <target state="new">Modules listed as part of NestedModules, whose module base is not under the specified module base, are considered as dependencies.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Above dependencies should be available on the same target repository, otherwise publish operation will result in an error.</source>
+          <target state="new">Above dependencies should be available on the same target repository, otherwise publish operation will result in an error.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example: If 'SnippetPx' is not available on the repository, below error will be thrown.</source>
+          <target state="new">For example: If 'SnippetPx' is not available on the repository, below error will be thrown.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Some module dependencies can be managed externally, in that case they should be added to the ExternalModuleDependencies entry in the PSData section of the module manifest.</source>
+          <target state="new">Some module dependencies can be managed externally, in that case they should be added to the ExternalModuleDependencies entry in the PSData section of the module manifest.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Below part in the above error message</source>
+          <target state="new">Below part in the above error message</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>During the module installation, above prepared dependencies list is used for installing the dependencies.<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>During the module installation, above prepared dependencies list is used for installing the dependencies.<ept id="p1">*</ept></target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Please ensure that your module’s dependencies are available under $env:PSModulePath on your system during publish operation.<ept id="p1">*</ept></source>
+          <target state="new"><bpt id="p1">*</bpt>Please ensure that your module’s dependencies are available under $env:PSModulePath on your system during publish operation.<ept id="p1">*</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">87e99e2735be9d2790dc0d7f75318bafe3bfd4dc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psgallery\Deleting-Items.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c49342da4acf04d531060ee50038942513403b8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">192cc115e519977bda7531eb361464dce8472a11</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Deleting items</source>
+          <target state="new">Deleting items</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The PowerShell Gallery does not support permanent deletion of items, because that would break anyone who is depending on it remaining available.</source>
+          <target state="new">The PowerShell Gallery does not support permanent deletion of items, because that would break anyone who is depending on it remaining available.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Instead, the PowerShell Gallery supports a way to 'unlist' an item, which can be done in the item management page on the web site.</source>
+          <target state="new">Instead, the PowerShell Gallery supports a way to 'unlist' an item, which can be done in the item management page on the web site.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When an item is unlisted, it no longer shows up in search and in any item listing, both on the PowerShell Gallery and using PowerShellGet commands.</source>
+          <target state="new">When an item is unlisted, it no longer shows up in search and in any item listing, both on the PowerShell Gallery and using PowerShellGet commands.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>However, it remains downloadable by specifying its exact version, which is what allows the automated scripts to continue working.</source>
+          <target state="new">However, it remains downloadable by specifying its exact version, which is what allows the automated scripts to continue working.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you run into an exceptional situation where you think one of your items must be deleted, this can be handled manually by the PowerShell Gallery team.</source>
+          <target state="new">If you run into an exceptional situation where you think one of your items must be deleted, this can be handled manually by the PowerShell Gallery team.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, if there is a copyright infringement issue, or potentially harmful content, that could be a valid reason to delete it.</source>
+          <target state="new">For example, if there is a copyright infringement issue, or potentially harmful content, that could be a valid reason to delete it.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You should submit a support request through [PowerShell Gallery] (http://www.PowerShellGallery.com) in that case.</source>
+          <target state="new">You should submit a support request through [PowerShell Gallery] (http://www.PowerShellGallery.com) in that case.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

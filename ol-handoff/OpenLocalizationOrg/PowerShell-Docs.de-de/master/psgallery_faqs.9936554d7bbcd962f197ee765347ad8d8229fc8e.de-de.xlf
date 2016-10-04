@@ -1,0 +1,651 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">754f044d585332a008e2c09a1cba466937f22c59</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psgallery\psgallery_faqs.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b525d17f57463b496870171edf20235e34d59984</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cecb55251638fb821855eb3f31584656d6c13657</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Frequently Asked Questions</source>
+          <target state="new">Frequently Asked Questions</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>What is a PowerShell module?</source>
+          <target state="new">What is a PowerShell module?</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A PowerShell module is a reusable package containing some PowerShell functionality.</source>
+          <target state="new">A PowerShell module is a reusable package containing some PowerShell functionality.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Everything in PowerShell (functions, variables, DSC resources, etc.) can be packaged in modules.</source>
+          <target state="new">Everything in PowerShell (functions, variables, DSC resources, etc.) can be packaged in modules.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Typically, modules are folders containing specific types of files stored on a specific path.</source>
+          <target state="new">Typically, modules are folders containing specific types of files stored on a specific path.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are a few different types of PowerShell modules out there.</source>
+          <target state="new">There are a few different types of PowerShell modules out there.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What is a PowerShell script?</source>
+          <target state="new">What is a PowerShell script?</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A PowerShell script is a series of commands that are stored in a .ps1 file to enable reuse and sharing.</source>
+          <target state="new">A PowerShell script is a series of commands that are stored in a .ps1 file to enable reuse and sharing.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>PowerShell workflows are also PowerShell scripts, which outline a set of tasks and provide sequencing for those tasks.</source>
+          <target state="new">PowerShell workflows are also PowerShell scripts, which outline a set of tasks and provide sequencing for those tasks.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, please visit <bpt id="p1">[</bpt>Getting Started with PowerShell Workflow<ept id="p1">](https://technet.microsoft.com/en-us/library/jj134242.aspx)</ept>.</source>
+          <target state="new">For more information, please visit <bpt id="p1">[</bpt>Getting Started with PowerShell Workflow<ept id="p1">](https://technet.microsoft.com/en-us/library/jj134242.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>How are PowerShell Scripts different from PowerShell Modules?</source>
+          <target state="new">How are PowerShell Scripts different from PowerShell Modules?</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Modules are generally better for sharing, but we are enabling script sharing to make it easier for you to contribute workflows and scripts to the community.</source>
+          <target state="new">Modules are generally better for sharing, but we are enabling script sharing to make it easier for you to contribute workflows and scripts to the community.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information, see the following blogs:</source>
+          <target state="new">For more information, see the following blogs:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Don't Write Scripts, Write PowerShell Modules<ept id="p1">](http://blogs.technet.com/b/heyscriptingguy/archive/2011/06/27/don-t-write-scripts-write-powershell-modules.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Don't Write Scripts, Write PowerShell Modules<ept id="p1">](http://blogs.technet.com/b/heyscriptingguy/archive/2011/06/27/don-t-write-scripts-write-powershell-modules.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Understanding PowerShell Modules<ept id="p1">](http://blogs.technet.com/b/heyscriptingguy/archive/2015/07/10/understanding-powershell-modules.aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Understanding PowerShell Modules<ept id="p1">](http://blogs.technet.com/b/heyscriptingguy/archive/2015/07/10/understanding-powershell-modules.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>How can I publish to the PowerShell Gallery?</source>
+          <target state="new">How can I publish to the PowerShell Gallery?</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You must register an account in the PowerShell Gallery before you can publish items to the Gallery.</source>
+          <target state="new">You must register an account in the PowerShell Gallery before you can publish items to the Gallery.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This is because publishing items requires a NuGetApiKey, which is provided upon registration.</source>
+          <target state="new">This is because publishing items requires a NuGetApiKey, which is provided upon registration.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To register, use your personal, work, or school account to sign in to the PowerShell Gallery.</source>
+          <target state="new">To register, use your personal, work, or school account to sign in to the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A one-time registration process is required when you sign in for the first time.</source>
+          <target state="new">A one-time registration process is required when you sign in for the first time.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Afterwards, your NuGetApiKey is available on your profile page.</source>
+          <target state="new">Afterwards, your NuGetApiKey is available on your profile page.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Once you have registered in the Gallery, use the <bpt id="p1">[</bpt>Publish-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p2">[</bpt>Publish-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlets to publish your item to the Gallery.</source>
+          <target state="new">Once you have registered in the Gallery, use the <bpt id="p1">[</bpt>Publish-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or <bpt id="p2">[</bpt>Publish-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlets to publish your item to the Gallery.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more details on how to run these cmdlets, visit the Publish tab, or read the <bpt id="p1">[</bpt>Publish-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p2">[</bpt>Publish-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> documentation.</source>
+          <target state="new">For more details on how to run these cmdlets, visit the Publish tab, or read the <bpt id="p1">[</bpt>Publish-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p2">[</bpt>Publish-Script<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> documentation.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>You do not need to register or sign in to the Gallery to install or save items.<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>You do not need to register or sign in to the Gallery to install or save items.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>I received "Failed to process request.</source>
+          <target state="new">I received "Failed to process request.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>'The specified API key is invalid or does not have permission to access the specified package.'.</source>
+          <target state="new">'The specified API key is invalid or does not have permission to access the specified package.'.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The remote server returned an error: (403) Forbidden."</source>
+          <target state="new">The remote server returned an error: (403) Forbidden."</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>error when I tried to publish an item to the PowerShell Gallery.</source>
+          <target state="new">error when I tried to publish an item to the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>What does that mean?</source>
+          <target state="new">What does that mean?</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This error can occur for the following reasons:</source>
+          <target state="new">This error can occur for the following reasons:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The specified API key is invalid.<ept id="p1">**</ept><ph id="ph1">
+</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>The specified API key is invalid.<ept id="p1">**</ept><ph id="ph1">
+</ph></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Ensure that you have specified the valid API key from your account.</source>
+          <target state="new">Ensure that you have specified the valid API key from your account.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To get your API key, view your profile page.</source>
+          <target state="new">To get your API key, view your profile page.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The specified item name is not owned by you.<ept id="p1">**</ept><ph id="ph1">
+</ph></source>
+          <target state="new"><bpt id="p1">**</bpt>The specified item name is not owned by you.<ept id="p1">**</ept><ph id="ph1">
+</ph></target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you have confirmed that your API key is correct, then there may already exist an item with the same name as the one you are trying to use.</source>
+          <target state="new">If you have confirmed that your API key is correct, then there may already exist an item with the same name as the one you are trying to use.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The item may have been unlisted by the owner, in which case it will not appear in any search results.</source>
+          <target state="new">The item may have been unlisted by the owner, in which case it will not appear in any search results.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To determine if an item with the same name already exists, open a browser and navigate to the item's details page: <ph id="ph1">`https://www.powershellgallery.com/packages/&lt;itemName&gt;`</ph>.</source>
+          <target state="new">To determine if an item with the same name already exists, open a browser and navigate to the item's details page: <ph id="ph1">`https://www.powershellgallery.com/packages/&lt;itemName&gt;`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, navigating directly to <ph id="ph1">`https://www.powershellgallery.com/packages/pester`</ph> will take you to the Pester module's details page, whether it is unlisted or not.</source>
+          <target state="new">For example, navigating directly to <ph id="ph1">`https://www.powershellgallery.com/packages/pester`</ph> will take you to the Pester module's details page, whether it is unlisted or not.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If an item with a conflicting name already exists and is unlisted, you can:</source>
+          <target state="new">If an item with a conflicting name already exists and is unlisted, you can:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select another name for your item.</source>
+          <target state="new">Select another name for your item.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Contact the owners of the existing item.</source>
+          <target state="new">Contact the owners of the existing item.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Why can't I sign in with my personal account, but I could sign in yesterday?</source>
+          <target state="new">Why can't I sign in with my personal account, but I could sign in yesterday?</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Please be aware that your gallery account does not accommodate changes to your primary email alias.</source>
+          <target state="new">Please be aware that your gallery account does not accommodate changes to your primary email alias.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Microsoft Email Aliases<ept id="p1">](http://windows.microsoft.com/en-us/windows/outlook/add-alias-account)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Microsoft Email Aliases<ept id="p1">](http://windows.microsoft.com/en-us/windows/outlook/add-alias-account)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Why don't I see all the gallery items when I select all the Category checkboxes on the Items tab?</source>
+          <target state="new">Why don't I see all the gallery items when I select all the Category checkboxes on the Items tab?</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>By selecting a Category checkbox, you are stating "I would like to see all items in this category."</source>
+          <target state="new">By selecting a Category checkbox, you are stating "I would like to see all items in this category."</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Only the items in the selected categories will be displayed.</source>
+          <target state="new">Only the items in the selected categories will be displayed.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>So similarly, by selecting all the Category checkboxes, you are stating "I would like to see all items in any category."</source>
+          <target state="new">So similarly, by selecting all the Category checkboxes, you are stating "I would like to see all items in any category."</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>But some items in the gallery do not belong to any of the categories listed, so they will not appear in the results.</source>
+          <target state="new">But some items in the gallery do not belong to any of the categories listed, so they will not appear in the results.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To see all items in the gallery, uncheck all the Categories, or select the Items tab again.</source>
+          <target state="new">To see all items in the gallery, uncheck all the Categories, or select the Items tab again.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>What are the requirements to publish a module to the PowerShell Gallery?</source>
+          <target state="new">What are the requirements to publish a module to the PowerShell Gallery?</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Any kind of PowerShell module (script modules, binary modules, or manifest modules) can be published to the gallery.</source>
+          <target state="new">Any kind of PowerShell module (script modules, binary modules, or manifest modules) can be published to the gallery.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To publish a module, PowerShellGet needs to know a few things about it - the version, description, author, and how it is licensed.</source>
+          <target state="new">To publish a module, PowerShellGet needs to know a few things about it - the version, description, author, and how it is licensed.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This information is read as part of the publishing process from the <bpt id="p1">*</bpt>module manifest<ept id="p1">*</ept> (.psd1) file, or from the value of the <bpt id="p2">[</bpt><bpt id="p3">**</bpt>Publish-Module<ept id="p3">**</ept><ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet's <bpt id="p4">**</bpt>LicenseUri<ept id="p4">**</ept> parameter.</source>
+          <target state="new">This information is read as part of the publishing process from the <bpt id="p1">*</bpt>module manifest<ept id="p1">*</ept> (.psd1) file, or from the value of the <bpt id="p2">[</bpt><bpt id="p3">**</bpt>Publish-Module<ept id="p3">**</ept><ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet's <bpt id="p4">**</bpt>LicenseUri<ept id="p4">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>All modules published to the Gallery must have module manifests.</source>
+          <target state="new">All modules published to the Gallery must have module manifests.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Any module that includes the following information in its manifest can be published to the Gallery:</source>
+          <target state="new">Any module that includes the following information in its manifest can be published to the Gallery:</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="new">Version</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Author</source>
+          <target state="new">Author</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A URI to the license terms of the module, either as part of the <bpt id="p1">**</bpt>PrivateData<ept id="p1">**</ept> section of the manifest, or in the <bpt id="p2">**</bpt>LicenseUri<ept id="p2">**</ept> parameter of the <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Publish-Module<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">A URI to the license terms of the module, either as part of the <bpt id="p1">**</bpt>PrivateData<ept id="p1">**</ept> section of the manifest, or in the <bpt id="p2">**</bpt>LicenseUri<ept id="p2">**</ept> parameter of the <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Publish-Module<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>How do I create a correctly-formatted module manifest?</source>
+          <target state="new">How do I create a correctly-formatted module manifest?</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The easiest way to create a module manifest is to run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>New-ModuleManifest<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">The easiest way to create a module manifest is to run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>New-ModuleManifest<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In PowerShell 5.0 or newer, New-ModuleManifest generates a correctly-formatted module manifest with blank fields for useful metadata like <bpt id="p1">**</bpt>ProjectUri<ept id="p1">**</ept>, <bpt id="p2">**</bpt>LicenseUri<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Tags<ept id="p3">**</ept>.</source>
+          <target state="new">In PowerShell 5.0 or newer, New-ModuleManifest generates a correctly-formatted module manifest with blank fields for useful metadata like <bpt id="p1">**</bpt>ProjectUri<ept id="p1">**</ept>, <bpt id="p2">**</bpt>LicenseUri<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Tags<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Simply fill in the blanks, or use the generated manifest as an example of correct formatting.</source>
+          <target state="new">Simply fill in the blanks, or use the generated manifest as an example of correct formatting.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To verify that all required metadata fields have been properly filled, use the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Test-ModuleManifest<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">To verify that all required metadata fields have been properly filled, use the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Test-ModuleManifest<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To update the module manifest file fields, use the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Update-ModuleManifest<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">To update the module manifest file fields, use the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Update-ModuleManifest<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>What are the requirements to publish a script to the Gallery?</source>
+          <target state="new">What are the requirements to publish a script to the Gallery?</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Any kind of PowerShell script (scripts or workflows) can be published to the gallery.</source>
+          <target state="new">Any kind of PowerShell script (scripts or workflows) can be published to the gallery.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To publish a script, PowerShellGet needs to know a few things about it - the version, description, author, and how it is licensed.</source>
+          <target state="new">To publish a script, PowerShellGet needs to know a few things about it - the version, description, author, and how it is licensed.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This information is read as part of the publishing process from the script file's <bpt id="p1">*</bpt>PSScriptInfo<ept id="p1">*</ept> section, or from the value of the <bpt id="p2">[</bpt><bpt id="p3">**</bpt>Publish-Script<ept id="p3">**</ept><ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet's <bpt id="p4">**</bpt>LicenseUri<ept id="p4">**</ept> parameter.</source>
+          <target state="new">This information is read as part of the publishing process from the script file's <bpt id="p1">*</bpt>PSScriptInfo<ept id="p1">*</ept> section, or from the value of the <bpt id="p2">[</bpt><bpt id="p3">**</bpt>Publish-Script<ept id="p3">**</ept><ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet's <bpt id="p4">**</bpt>LicenseUri<ept id="p4">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>All scripts published to the Gallery must have metadata information.</source>
+          <target state="new">All scripts published to the Gallery must have metadata information.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Any script that includes the following information in its PSScriptInfo section can be published to the Gallery:</source>
+          <target state="new">Any script that includes the following information in its PSScriptInfo section can be published to the Gallery:</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="new">Version</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Author</source>
+          <target state="new">Author</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A URI to the license terms of the script, either as part of the <bpt id="p1">**</bpt>PSScriptInfo<ept id="p1">**</ept> section of the script, or in the <bpt id="p2">**</bpt>LicenseUri<ept id="p2">**</ept> parameter of the <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Publish-Script<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">A URI to the license terms of the script, either as part of the <bpt id="p1">**</bpt>PSScriptInfo<ept id="p1">**</ept> section of the script, or in the <bpt id="p2">**</bpt>LicenseUri<ept id="p2">**</ept> parameter of the <bpt id="p3">[</bpt><bpt id="p4">**</bpt>Publish-Script<ept id="p4">**</ept><ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>How do I search?</source>
+          <target state="new">How do I search?</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Type what you are looking for in the text box.</source>
+          <target state="new">Type what you are looking for in the text box.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For example, if you want to find modules that are related to Azure SQL, just type "azure sql".</source>
+          <target state="new">For example, if you want to find modules that are related to Azure SQL, just type "azure sql".</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Our search engine will look for those keywords in all published items, including titles, descriptions and across metadata.</source>
+          <target state="new">Our search engine will look for those keywords in all published items, including titles, descriptions and across metadata.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Then, based on a weighted quality score, it will display the closest matches.</source>
+          <target state="new">Then, based on a weighted quality score, it will display the closest matches.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can also search by specific field using field:"value" syntax in the search query for the following fields:</source>
+          <target state="new">You can also search by specific field using field:"value" syntax in the search query for the following fields:</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Tags</source>
+          <target state="new">Tags</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Functions</source>
+          <target state="new">Functions</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Cmdlets</source>
+          <target state="new">Cmdlets</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>DscResources</source>
+          <target state="new">DscResources</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>PowerShellVersion</source>
+          <target state="new">PowerShellVersion</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>So, for example, when you search for PowerShellVersion:"2.0" only results that are compatible with PowerShellVersion 2.0 (based on their module/script manifest) will be displayed.</source>
+          <target state="new">So, for example, when you search for PowerShellVersion:"2.0" only results that are compatible with PowerShellVersion 2.0 (based on their module/script manifest) will be displayed.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>How do I create a correctly-formatted script file?</source>
+          <target state="new">How do I create a correctly-formatted script file?</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The easiest way to create a properly-formatted script file is to run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>New-ScriptFileInfo<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">The easiest way to create a properly-formatted script file is to run the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>New-ScriptFileInfo<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>In PowerShell 5.0, New-ScriptFileInfo generates a correctly-formatted script file with blank fields for useful metadata like <bpt id="p1">**</bpt>ProjectUri<ept id="p1">**</ept>, <bpt id="p2">**</bpt>LicenseUri<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Tags<ept id="p3">**</ept>.</source>
+          <target state="new">In PowerShell 5.0, New-ScriptFileInfo generates a correctly-formatted script file with blank fields for useful metadata like <bpt id="p1">**</bpt>ProjectUri<ept id="p1">**</ept>, <bpt id="p2">**</bpt>LicenseUri<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Tags<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Simply fill in the blanks, or use the generated script file as an example of correct formatting.</source>
+          <target state="new">Simply fill in the blanks, or use the generated script file as an example of correct formatting.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To verify that all required metadata fields have been properly filled, use the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Test-ScriptFileInfo<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">To verify that all required metadata fields have been properly filled, use the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Test-ScriptFileInfo<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To update the script metadata fields, use the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Update-ScriptFileInfo<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">To update the script metadata fields, use the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Update-ScriptFileInfo<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>What other types of PowerShell Modules exist?</source>
+          <target state="new">What other types of PowerShell Modules exist?</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The term PowerShell module also refers to the files that implement actual functionality.</source>
+          <target state="new">The term PowerShell module also refers to the files that implement actual functionality.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Script module files (.psm1) contain PowerShell code.</source>
+          <target state="new">Script module files (.psm1) contain PowerShell code.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Binary module files (.dll) contain compiled code.</source>
+          <target state="new">Binary module files (.dll) contain compiled code.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Here is one way to think about it: the folder that encapsulates the module is the module folder.</source>
+          <target state="new">Here is one way to think about it: the folder that encapsulates the module is the module folder.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The module folder can contain a module manifest (.psd1) that describes the contents of the folder.</source>
+          <target state="new">The module folder can contain a module manifest (.psd1) that describes the contents of the folder.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The files that actually do the work are the script module files (.psm1) and the binary module files (.dll).</source>
+          <target state="new">The files that actually do the work are the script module files (.psm1) and the binary module files (.dll).</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>DSC resources are located in a specific sub-folder, and are implemented as script module files or binary module files.</source>
+          <target state="new">DSC resources are located in a specific sub-folder, and are implemented as script module files or binary module files.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>All of the modules in the Gallery contain module manifests, and most of these modules contain script module files or binary module files.</source>
+          <target state="new">All of the modules in the Gallery contain module manifests, and most of these modules contain script module files or binary module files.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The term module can be confusing because of these different meanings.</source>
+          <target state="new">The term module can be confusing because of these different meanings.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Unless explicitly stated otherwise, all uses of the word module on this page refer to the module folder containing these files.</source>
+          <target state="new">Unless explicitly stated otherwise, all uses of the word module on this page refer to the module folder containing these files.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>How does PackageManagement relate to PowerShellGet?</source>
+          <target state="new">How does PackageManagement relate to PowerShellGet?</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>(High Level Answer)</source>
+          <target state="new">(High Level Answer)</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>PackageManagement is a common interface for working with any package manager.</source>
+          <target state="new">PackageManagement is a common interface for working with any package manager.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Eventually, whether you're dealing with PowerShell modules, MSIs, Ruby gems, NuGet packages, or Perl modules, you should be able to use PackageManagement's commands (Find-Package and Install-Package) to find and install them.</source>
+          <target state="new">Eventually, whether you're dealing with PowerShell modules, MSIs, Ruby gems, NuGet packages, or Perl modules, you should be able to use PackageManagement's commands (Find-Package and Install-Package) to find and install them.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>PackageManagement does this by having a package provider for each package manager that plugs into PackageManagement.</source>
+          <target state="new">PackageManagement does this by having a package provider for each package manager that plugs into PackageManagement.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Providers do all of the actual work; they fetch content from repositories, and install the content locally.</source>
+          <target state="new">Providers do all of the actual work; they fetch content from repositories, and install the content locally.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Often, package providers simply wrap around the existing package manager tools for a given package type.</source>
+          <target state="new">Often, package providers simply wrap around the existing package manager tools for a given package type.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>PowerShellGet is the package manager for PowerShell items.</source>
+          <target state="new">PowerShellGet is the package manager for PowerShell items.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>There is a PSModule package provider that exposes PowerShellGet functionality through PackageManagement.</source>
+          <target state="new">There is a PSModule package provider that exposes PowerShellGet functionality through PackageManagement.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Because of this, you can either run <bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or Install-Package -Provider PSModule to install a module from the PowerShell Gallery.</source>
+          <target state="new">Because of this, you can either run <bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> or Install-Package -Provider PSModule to install a module from the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Certain PowerShellGet functionality, including <bpt id="p1">[</bpt>Update-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p2">[</bpt>Publish-Module<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept>, cannot be accessed through PackageManagement commands.</source>
+          <target state="new">Certain PowerShellGet functionality, including <bpt id="p1">[</bpt>Update-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> and <bpt id="p2">[</bpt>Publish-Module<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept>, cannot be accessed through PackageManagement commands.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>In summary, PowerShellGet is solely focused on having a premium package management experience for PowerShell content.</source>
+          <target state="new">In summary, PowerShellGet is solely focused on having a premium package management experience for PowerShell content.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>PackageManagement is focused on exposing all package management experiences through one general set of tools.</source>
+          <target state="new">PackageManagement is focused on exposing all package management experiences through one general set of tools.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If you find this answer unsatisfying, there is a long answer at the bottom of this document, in the <bpt id="p1">**</bpt>How does PackageManagement actually relate to PowerShellGet?<ept id="p1">**</ept> section.</source>
+          <target state="new">If you find this answer unsatisfying, there is a long answer at the bottom of this document, in the <bpt id="p1">**</bpt>How does PackageManagement actually relate to PowerShellGet?<ept id="p1">**</ept> section.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For more information, please visit the <bpt id="p1">[</bpt>PackageManagement project page<ept id="p1">](http://oneget.org/)</ept>.</source>
+          <target state="new">For more information, please visit the <bpt id="p1">[</bpt>PackageManagement project page<ept id="p1">](http://oneget.org/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>How does NuGet relate to PowerShellGet?</source>
+          <target state="new">How does NuGet relate to PowerShellGet?</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The PowerShell Gallery is a modified version of the <bpt id="p1">[</bpt>NuGet Gallery<ept id="p1">](http://www.nuget.org/)</ept>.</source>
+          <target state="new">The PowerShell Gallery is a modified version of the <bpt id="p1">[</bpt>NuGet Gallery<ept id="p1">](http://www.nuget.org/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>PowerShellGet uses NuGet provider to work with NuGet based repositories like the PowerShell Gallery.</source>
+          <target state="new">PowerShellGet uses NuGet provider to work with NuGet based repositories like the PowerShell Gallery.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>You can use PowerShellGet against any valid NuGet repository or file share.</source>
+          <target state="new">You can use PowerShellGet against any valid NuGet repository or file share.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>You simply need to add the repository by running the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Register-PSRepository<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</source>
+          <target state="new">You simply need to add the repository by running the <bpt id="p1">[</bpt><bpt id="p2">**</bpt>Register-PSRepository<ept id="p2">**</ept><ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Does that mean I can use NuGet.exe to work with the Gallery?</source>
+          <target state="new">Does that mean I can use NuGet.exe to work with the Gallery?</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Yes.</source>
+          <target state="new">Yes.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>How does PackageManagement actually relate to PowerShellGet?</source>
+          <target state="new">How does PackageManagement actually relate to PowerShellGet?</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>(Technical Details)</source>
+          <target state="new">(Technical Details)</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Under the hood, PowerShellGet heavily leverages PackageManagement infrastructure.</source>
+          <target state="new">Under the hood, PowerShellGet heavily leverages PackageManagement infrastructure.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>At the PowerShell cmdlet layer, <bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> is actually a thin wrapper around Install-Package -Provider PSModule.</source>
+          <target state="new">At the PowerShell cmdlet layer, <bpt id="p1">[</bpt>Install-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=760387&amp;clcid=0x409)</ept> is actually a thin wrapper around Install-Package -Provider PSModule.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>At the PackageManagement package provider layer, the PSModule package provider actually calls into other PackageManagement package providers.</source>
+          <target state="new">At the PackageManagement package provider layer, the PSModule package provider actually calls into other PackageManagement package providers.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>For example, when you are working with NuGet-based galleries (such as the PowerShell Gallery), the PSModule package provider uses the NuGet Package Provider to work with the repository.</source>
+          <target state="new">For example, when you are working with NuGet-based galleries (such as the PowerShell Gallery), the PSModule package provider uses the NuGet Package Provider to work with the repository.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>PowerShellGet Architecture</source>
+          <target state="new">PowerShellGet Architecture</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Figure 1: PowerShellGet Architecture</source>
+          <target state="new">Figure 1: PowerShellGet Architecture</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>What is required to run PowerShellGet?</source>
+          <target state="new">What is required to run PowerShellGet?</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>In general we recommend picking the latest version of PowerShellGet module (note that it requires .NET 4.5).</source>
+          <target state="new">In general we recommend picking the latest version of PowerShellGet module (note that it requires .NET 4.5).</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module requires <bpt id="p2">**</bpt>PowerShell 3.0 or newer<ept id="p2">**</ept>.</source>
+          <target state="new">The <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> module requires <bpt id="p2">**</bpt>PowerShell 3.0 or newer<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Therefore, <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> requires one of the following operating systems:</source>
+          <target state="new">Therefore, <bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> requires one of the following operating systems:</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Windows 10</source>
+          <target state="new">Windows 10</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 Pro</source>
+          <target state="new">Windows 8.1 Pro</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 Enterprise</source>
+          <target state="new">Windows 8.1 Enterprise</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Windows 7 SP1</source>
+          <target state="new">Windows 7 SP1</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Windows Server 2016</source>
+          <target state="new">Windows Server 2016</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Windows Server 2012 R2</source>
+          <target state="new">Windows Server 2012 R2</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Windows Server 2008 R2 SP1</source>
+          <target state="new">Windows Server 2008 R2 SP1</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> also  requires .NET Framework 4.5 or above.</source>
+          <target state="new"><bpt id="p1">**</bpt>PowerShellGet<ept id="p1">**</ept> also  requires .NET Framework 4.5 or above.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>You can install .NET Framework 4.5 or above from <bpt id="p1">[</bpt>here<ept id="p1">](https://msdn.microsoft.com/en-us/library/5a4x27ek.aspx)</ept>.</source>
+          <target state="new">You can install .NET Framework 4.5 or above from <bpt id="p1">[</bpt>here<ept id="p1">](https://msdn.microsoft.com/en-us/library/5a4x27ek.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Is it possible to reserve names for items that will be published in future?</source>
+          <target state="new">Is it possible to reserve names for items that will be published in future?</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>It is not possible to squat item names.</source>
+          <target state="new">It is not possible to squat item names.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If you feel that an existing item has taken the name which suits your item more, try <bpt id="p1">[</bpt>contacting the owner of the item<ept id="p1">](psgallery_contacting_item_owners.md)</ept>.</source>
+          <target state="new">If you feel that an existing item has taken the name which suits your item more, try <bpt id="p1">[</bpt>contacting the owner of the item<ept id="p1">](psgallery_contacting_item_owners.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>If you didnt get response within a couple of weeks, you can contact support and the PowerShell Gallery team will look in to it.</source>
+          <target state="new">If you didnt get response within a couple of weeks, you can contact support and the PowerShell Gallery team will look in to it.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>How do I claim ownership for items ?</source>
+          <target state="new">How do I claim ownership for items ?</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Check out <bpt id="p1">[</bpt>Managing Item Owners on PowerShellGallery.com<ept id="p1">](Managing-Item-Owners.md)</ept> for details.</source>
+          <target state="new">Check out <bpt id="p1">[</bpt>Managing Item Owners on PowerShellGallery.com<ept id="p1">](Managing-Item-Owners.md)</ept> for details.</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>How do I deal with an item owner who is violating my item license?</source>
+          <target state="new">How do I deal with an item owner who is violating my item license?</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>We encourage the PowerShell community to work together to resolve any disputes that may arise between item owners and the owners of other items.</source>
+          <target state="new">We encourage the PowerShell community to work together to resolve any disputes that may arise between item owners and the owners of other items.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>We have crafted a <bpt id="p1">[</bpt>dispute resolution process<ept id="p1">](psgallery_dispute_resolution.md)</ept> that we ask you to follow before PowerShellGallery.com administrators intercede.</source>
+          <target state="new">We have crafted a <bpt id="p1">[</bpt>dispute resolution process<ept id="p1">](psgallery_dispute_resolution.md)</ept> that we ask you to follow before PowerShellGallery.com administrators intercede.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e28f84eefbd5ec1636f93ad736c5a90922c7ed69</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\module\psget_publish-module.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf3edc1b24eba71d5d5f2a3054916c512bde771e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3426d6df10c51f32e573ac23d0c0e550bba85e9f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Publish-Module</source>
+          <target state="new">Publish-Module</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Publishes a specified module from the local computer to an online gallery.</source>
+          <target state="new">Publishes a specified module from the local computer to an online gallery.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> cmdlet publishes a module to an online NuGet-based gallery by using an API key, stored as part of a user's profile in the gallery.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> cmdlet publishes a module to an online NuGet-based gallery by using an API key, stored as part of a user's profile in the gallery.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can specify the module to publish either by the module's name, or by the path to the folder containing the module.</source>
+          <target state="new">You can specify the module to publish either by the module's name, or by the path to the folder containing the module.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you specify a module by name, <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> publishes the first module that would be found by running <ph id="ph1">`Get-Module -ListAvailable &lt;Name&gt;`</ph>.</source>
+          <target state="new">When you specify a module by name, <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> publishes the first module that would be found by running <ph id="ph1">`Get-Module -ListAvailable &lt;Name&gt;`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you specify a minimum version of a module to publish, <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> publishes the first module with a version that is greater than or equal to the minimum version that you have specified.</source>
+          <target state="new">If you specify a minimum version of a module to publish, <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> publishes the first module with a version that is greater than or equal to the minimum version that you have specified.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Publishing a module requires metadata that is displayed on the gallery page for the module.</source>
+          <target state="new">Publishing a module requires metadata that is displayed on the gallery page for the module.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Required metadata includes the module name, version, description, and author.</source>
+          <target state="new">Required metadata includes the module name, version, description, and author.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Although most metadata is taken from the module manifest, some metadata must be specified in <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> parameters, such as <bpt id="p2">*</bpt>Tag, ReleaseNote, IconUri, ProjectUri,<ept id="p2">*</ept> and <bpt id="p3">*</bpt>LicenseUri<ept id="p3">*</ept>, because these parameters match fields in a NuGet-based gallery.</source>
+          <target state="new">Although most metadata is taken from the module manifest, some metadata must be specified in <bpt id="p1">**</bpt>Publish-Module<ept id="p1">**</ept> parameters, such as <bpt id="p2">*</bpt>Tag, ReleaseNote, IconUri, ProjectUri,<ept id="p2">*</ept> and <bpt id="p3">*</bpt>LicenseUri<ept id="p3">*</ept>, because these parameters match fields in a NuGet-based gallery.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The RequiredVersion parameter allows you to specify the exact version of a module to be published.</source>
+          <target state="new">The RequiredVersion parameter allows you to specify the exact version of a module to be published.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Path parameter also supports the module base path with the version folder.</source>
+          <target state="new">The Path parameter also supports the module base path with the version folder.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Force switch parameter on Publish-Module cmdlet bootstraps the NuGet.exe without prompting.</source>
+          <target state="new">The Force switch parameter on Publish-Module cmdlet bootstraps the NuGet.exe without prompting.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Cmdlet syntax</source>
+          <target state="new">Cmdlet syntax</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Cmdlet online help reference</source>
+          <target state="new">Cmdlet online help reference</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Publish-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=398575)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Publish-Module<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=398575)</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Example commands</source>
+          <target state="new">Example commands</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Publishing a module with dependencies</source>
+          <target state="new">Publishing a module with dependencies</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Create a module with dependencies and version range specified in RequiredModules property of its module manifest.</source>
+          <target state="new">Create a module with dependencies and version range specified in RequiredModules property of its module manifest.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>\* is supported only in MaximumVersion and also it should be at the end of version string.</source>
+          <target state="new">\* is supported only in MaximumVersion and also it should be at the end of version string.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>\* is replaced with 999999999 in the version object.</source>
+          <target state="new">\* is replaced with 999999999 in the version object.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Publish ModuleWithDependencies module with dependencies to the repository.</source>
+          <target state="new">Publish ModuleWithDependencies module with dependencies to the repository.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Find ModuleWithDependencies module with its dependencies by specifying -IncludeDependencies</source>
+          <target state="new">Find ModuleWithDependencies module with its dependencies by specifying -IncludeDependencies</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Install the ModuleWithDependencies module with dependencies.</source>
+          <target state="new">Install the ModuleWithDependencies module with dependencies.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Note that version ranges are honored during the dependency installation.</source>
+          <target state="new">Note that version ranges are honored during the dependency installation.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Contents of ModuleWithDependencies2 module manifest file</source>
+          <target state="new">Contents of ModuleWithDependencies2 module manifest file</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>External dependencies</source>
+          <target state="new">External dependencies</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Some module dependencies can be managed externally, in that case they should be added to the ExternalModuleDependencies entry in the PSData section of the module manifest.</source>
+          <target state="new">Some module dependencies can be managed externally, in that case they should be added to the ExternalModuleDependencies entry in the PSData section of the module manifest.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If 'SnippetPx' is not available on the repository, below error will be thrown.</source>
+          <target state="new">If 'SnippetPx' is not available on the repository, below error will be thrown.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

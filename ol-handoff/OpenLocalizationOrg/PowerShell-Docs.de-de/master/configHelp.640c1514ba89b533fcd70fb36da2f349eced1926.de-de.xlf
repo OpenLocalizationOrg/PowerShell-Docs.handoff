@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">becacd2dcbc6fd0edd9154a45342edc5c536935b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\configHelp.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">21fd226ead442e51146350e98b6a35a991150f43</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76bf3eb77d114cfb3be6b24c45f76dde2922d91c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Writing help for DSC configurations</source>
+          <target state="new">Writing help for DSC configurations</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Writing help for DSC configurations</source>
+          <target state="new">Writing help for DSC configurations</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Applies To: Windows Windows PowerShell 5.0</source>
+          <target state="new">Applies To: Windows Windows PowerShell 5.0</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use comment-based help in DSC configurations.</source>
+          <target state="new">You can use comment-based help in DSC configurations.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Users can access the help by calling the configuration function with <ph id="ph1">`-?`</ph>, or by using the <bpt id="p1">[</bpt>Get-Help<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849696.aspx)</ept> cmdlet.</source>
+          <target state="new">Users can access the help by calling the configuration function with <ph id="ph1">`-?`</ph>, or by using the <bpt id="p1">[</bpt>Get-Help<ept id="p1">](https://technet.microsoft.com/en-us/library/hh849696.aspx)</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information about PowerShell comment-based help, see <bpt id="p1">[</bpt>about_Comment_Based_Help<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847834.aspx)</ept>.</source>
+          <target state="new">For more information about PowerShell comment-based help, see <bpt id="p1">[</bpt>about_Comment_Based_Help<ept id="p1">](https://technet.microsoft.com/en-us/library/hh847834.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following example shows a script that contains a configuration and comment-based help for it:</source>
+          <target state="new">The following example shows a script that contains a configuration and comment-based help for it:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Viewing configuration help</source>
+          <target state="new">Viewing configuration help</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To view the help for a configuration, use the <bpt id="p1">**</bpt>Get-Help<ept id="p1">**</ept> cmdlet with the name of the function, or type the name of the function followed by <ph id="ph1">`-?`</ph>.</source>
+          <target state="new">To view the help for a configuration, use the <bpt id="p1">**</bpt>Get-Help<ept id="p1">**</ept> cmdlet with the name of the function, or type the name of the function followed by <ph id="ph1">`-?`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following is the output of the previous function when passed to <bpt id="p1">**</bpt>Get-Help<ept id="p1">**</ept>:</source>
+          <target state="new">The following is the output of the previous function when passed to <bpt id="p1">**</bpt>Get-Help<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>DSC Configurations<ept id="p1">](configurations.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>DSC Configurations<ept id="p1">](configurations.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

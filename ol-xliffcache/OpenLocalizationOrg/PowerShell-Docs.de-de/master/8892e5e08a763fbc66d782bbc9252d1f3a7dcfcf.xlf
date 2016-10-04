@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8892e5e08a763fbc66d782bbc9252d1f3a7dcfcf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">jea\on-blacklisting.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dad9554f57d3a5b56411a4697e67e791b579e97c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">59e1ff4d1b9897bb73d29ba673e9685fe1bc5557</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet,jea</source>
+          <target state="new">powershell,cmdlet,jea</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>on blacklisting</source>
+          <target state="new">on blacklisting</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>On Blacklisting</source>
+          <target state="new">On Blacklisting</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After playing around with JEA, you may be wondering if it is possible to blacklist commands.</source>
+          <target state="new">After playing around with JEA, you may be wondering if it is possible to blacklist commands.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This is an understandable request, but it is not currently planned for JEA for the following reasons:</source>
+          <target state="new">This is an understandable request, but it is not currently planned for JEA for the following reasons:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We designed JEA to limit operators to only the actions they need to do.</source>
+          <target state="new">We designed JEA to limit operators to only the actions they need to do.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A blacklist is the opposite.</source>
+          <target state="new">A blacklist is the opposite.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>PowerShell command authors did not design PowerShell commands with the JEA in mind.</source>
+          <target state="new">PowerShell command authors did not design PowerShell commands with the JEA in mind.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On a fresh install of Windows Server 2016, there are about 1520 commands immediately available.</source>
+          <target state="new">On a fresh install of Windows Server 2016, there are about 1520 commands immediately available.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The threat models for these commands did not include the possibility that a user would be running commands as a more privileged account.</source>
+          <target state="new">The threat models for these commands did not include the possibility that a user would be running commands as a more privileged account.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, certain commands allow for code injection by design (e.g. Add-Type and Invoke-Command in the core PowerShell module).</source>
+          <target state="new">For example, certain commands allow for code injection by design (e.g. Add-Type and Invoke-Command in the core PowerShell module).</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>JEA can warn you when you expose the specific commands we know about, but we have not re-assessed every other command in Windows based on the new threat model.</source>
+          <target state="new">JEA can warn you when you expose the specific commands we know about, but we have not re-assessed every other command in Windows based on the new threat model.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You must understand the capabilities of the commands you exposing through JEA.</source>
+          <target state="new">You must understand the capabilities of the commands you exposing through JEA.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Furthermore, even if JEA blocked all commands with code-injection vulnerabilities, there is no guarantee that a malicious user would not be able to carry out a blacklisted action with another related command.</source>
+          <target state="new">Furthermore, even if JEA blocked all commands with code-injection vulnerabilities, there is no guarantee that a malicious user would not be able to carry out a blacklisted action with another related command.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Unless you understand all of the commands that you are exposing, it is impossible for you to guarantee that a certain action is not possible.</source>
+          <target state="new">Unless you understand all of the commands that you are exposing, it is impossible for you to guarantee that a certain action is not possible.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The burden is on you to understand what commands you are exposing, whether they are using a whitelist or a blacklist.</source>
+          <target state="new">The burden is on you to understand what commands you are exposing, whether they are using a whitelist or a blacklist.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The number of commands a blacklist would expose is unmanageable, so JEA is implemented using whitelists instead.</source>
+          <target state="new">The number of commands a blacklist would expose is unmanageable, so JEA is implemented using whitelists instead.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

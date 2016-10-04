@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee43e20b0f83cef6940e2fb05eae6c1eea9597d6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psgallery\psgallery_deploy_to_azure_automation.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd3da8eb85a8ef628b3a671b85ab9ed22d7614c5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e468f82e95a372f20c0b61b16a427a4bf06cda41</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Deploy to Azure Automation</source>
+          <target state="new">Deploy to Azure Automation</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Deploy to Azure Automation button on the item details page will deploy the item from the PowerShell Gallery to Azure Automation.</source>
+          <target state="new">The Deploy to Azure Automation button on the item details page will deploy the item from the PowerShell Gallery to Azure Automation.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Deploy to Azure Automation Button</source>
+          <target state="new">Deploy to Azure Automation Button</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When clicked, it will redirect you to the Azure Management Portal, where you sign in using your Azure account credentials.</source>
+          <target state="new">When clicked, it will redirect you to the Azure Management Portal, where you sign in using your Azure account credentials.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If the item includes dependencies, all the dependencies will be deployed to Azure Automation as well.</source>
+          <target state="new">If the item includes dependencies, all the dependencies will be deployed to Azure Automation as well.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>WARNING:  If the same item and version already exist in your Automation account, deploying it again from the PowerShell Gallery will overwrite the item in your Automation account.</source>
+          <target state="new">WARNING:  If the same item and version already exist in your Automation account, deploying it again from the PowerShell Gallery will overwrite the item in your Automation account.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you deploy a module, it will appear in the Modules section of Azure Automation.</source>
+          <target state="new">If you deploy a module, it will appear in the Modules section of Azure Automation.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you deploy a script, it will appear in the Runbooks section of Azure Automation.</source>
+          <target state="new">If you deploy a script, it will appear in the Runbooks section of Azure Automation.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Deploy to Azure Automation button can be disabled by adding the AzureAutomationNotSupported tag to the item metadata.</source>
+          <target state="new">The Deploy to Azure Automation button can be disabled by adding the AzureAutomationNotSupported tag to the item metadata.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To learn more about Azure Automation, see the Azure Automation website <bpt id="p1">[</bpt>Azure Automation website<ept id="p1">](http://azure.microsoft.com/en-us/services/automation/)</ept>.</source>
+          <target state="new">To learn more about Azure Automation, see the Azure Automation website <bpt id="p1">[</bpt>Azure Automation website<ept id="p1">](http://azure.microsoft.com/en-us/services/automation/)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

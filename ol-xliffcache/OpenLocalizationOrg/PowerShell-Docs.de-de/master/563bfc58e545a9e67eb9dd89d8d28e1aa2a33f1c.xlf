@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">563bfc58e545a9e67eb9dd89d8d28e1aa2a33f1c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\core-powershell\ise\The-ISEMenuItemCollection-Object.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1b5d4da98f22e294d370e35a64bf1a9fa338de0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d67fcf37788fe9fbb480d4c350d6f4c0131664f6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The ISEMenuItemCollection Object</source>
+          <target state="new">The ISEMenuItemCollection Object</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The ISEMenuItemCollection Object</source>
+          <target state="new">The ISEMenuItemCollection Object</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>ISEMenuItemCollection<ept id="p1">**</ept> object is a collection of <bpt id="p2">**</bpt>ISEMenuItem<ept id="p2">**</ept> objects.</source>
+          <target state="new">An <bpt id="p1">**</bpt>ISEMenuItemCollection<ept id="p1">**</ept> object is a collection of <bpt id="p2">**</bpt>ISEMenuItem<ept id="p2">**</ept> objects.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It is an instance of the Microsoft.PowerShell.Host.ISE.ISEMenuItemCollection class.</source>
+          <target state="new">It is an instance of the Microsoft.PowerShell.Host.ISE.ISEMenuItemCollection class.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An example is the <bpt id="p1">**</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.Submenus<ept id="p1">**</ept> object that is used to customize the <bpt id="p2">**</bpt>Add-On<ept id="p2">**</ept> menu in Windows PowerShellÂ® Integrated Scripting Environment (ISE).</source>
+          <target state="new">An example is the <bpt id="p1">**</bpt>$psISE.CurrentPowerShellTab.AddOnsMenu.Submenus<ept id="p1">**</ept> object that is used to customize the <bpt id="p2">**</bpt>Add-On<ept id="p2">**</ept> menu in Windows PowerShellÂ® Integrated Scripting Environment (ISE).</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Method</source>
+          <target state="new">Method</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Add\(string DisplayName, System.Management.Automation.ScriptBlock Action, System.Windows.Input.KeyGesture Shortcut \)</source>
+          <target state="new">Add\(string DisplayName, System.Management.Automation.ScriptBlock Action, System.Windows.Input.KeyGesture Shortcut \)</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Adds a menu item to the collection.</source>
+          <target state="new">Adds a menu item to the collection.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DisplayName<ept id="p1">**</ept><ph id="ph1">
+</ph> The display name of the menu to be added.</source>
+          <target state="new"><bpt id="p1">**</bpt>DisplayName<ept id="p1">**</ept><ph id="ph1">
+</ph> The display name of the menu to be added.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Action<ept id="p1">**</ept><ph id="ph1">
+</ph> The <bpt id="p2">**</bpt>System.Management.Automation.ScriptBlock<ept id="p2">**</ept> object that specifies the action that is associated with this menu item.</source>
+          <target state="new"><bpt id="p1">**</bpt>Action<ept id="p1">**</ept><ph id="ph1">
+</ph> The <bpt id="p2">**</bpt>System.Management.Automation.ScriptBlock<ept id="p2">**</ept> object that specifies the action that is associated with this menu item.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Shortcut<ept id="p1">**</ept><ph id="ph1">
+</ph> The keyboard shortcut for the action.</source>
+          <target state="new"><bpt id="p1">**</bpt>Shortcut<ept id="p1">**</ept><ph id="ph1">
+</ph> The keyboard shortcut for the action.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Returns<ept id="p1">**</ept><ph id="ph1">
+</ph> The ISEMenuItem object that was just added.</source>
+          <target state="new"><bpt id="p1">**</bpt>Returns<ept id="p1">**</ept><ph id="ph1">
+</ph> The ISEMenuItem object that was just added.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Clear\(\)</source>
+          <target state="new">Clear\(\)</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Supported in Windows PowerShell ISE 2.0 and later.</source>
+          <target state="new">Supported in Windows PowerShell ISE 2.0 and later.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Removes all submenus from the menu item.</source>
+          <target state="new">Removes all submenus from the menu item.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The ISEMenuItem Object<ept id="p1">](The-ISEMenuItem-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>The ISEMenuItem Object<ept id="p1">](The-ISEMenuItem-Object.md)</ept><ph id="ph1"> 
+</ph><bpt id="p2"> [</bpt>The Windows PowerShell ISE Scripting Object Model<ept id="p2">](The-Windows-PowerShell-ISE-Scripting-Object-Model.md)</ept><ph id="ph2"> 
+</ph><bpt id="p3"> [</bpt>Windows PowerShell ISE Object Model Reference<ept id="p3">](Windows-PowerShell-ISE-Object-Model-Reference.md)</ept><ph id="ph3"> 
+</ph><bpt id="p4"> [</bpt>The ISE Object Model Hierarchy<ept id="p4">](The-ISE-Object-Model-Hierarchy.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5ee7f7e7678b60700edb1ab1b66139791ea67c6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\gettingStarted.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9e4a45945fe7c4ca37f3d7f4d8b212c61ce4489</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78c8bb40e1125625979cf9b3e6a25b24f24fc9bb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Getting Started with PowerShell Desired State Configuration</source>
+          <target state="new">Getting Started with PowerShell Desired State Configuration</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,DSC</source>
+          <target state="new">powershell,DSC</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Getting Started with PowerShell Desired State Configuration</source>
+          <target state="new">Getting Started with PowerShell Desired State Configuration</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This guide describes how to begin creating PowerShell Desired State Configuration documents and apply them to machines.</source>
+          <target state="new">This guide describes how to begin creating PowerShell Desired State Configuration documents and apply them to machines.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It assumes basic familiarity with PowerShell cmdlets, modules, and functions.</source>
+          <target state="new">It assumes basic familiarity with PowerShell cmdlets, modules, and functions.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a Configuration</source>
+          <target state="new">Create a Configuration</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Configurations<ept id="p2">**</ept><ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configurations)</ept> are documents that describe an environment.</source>
+          <target state="new"><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Configurations<ept id="p2">**</ept><ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configurations)</ept> are documents that describe an environment.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Environments consist of "<bpt id="p1">**</bpt>nodes<ept id="p1">**</ept>", which are commonly virtual or physical machines.</source>
+          <target state="new">Environments consist of "<bpt id="p1">**</bpt>nodes<ept id="p1">**</ept>", which are commonly virtual or physical machines.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Configurations can come in a variety of forms.</source>
+          <target state="new">Configurations can come in a variety of forms.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The easiest way to create a new configuration is to create a .ps1 (PowerShell script) file.</source>
+          <target state="new">The easiest way to create a new configuration is to create a .ps1 (PowerShell script) file.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To do this, open your editor of choice.</source>
+          <target state="new">To do this, open your editor of choice.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The PowerShell ISE is a good choice, since it understands DSC natively.</source>
+          <target state="new">The PowerShell ISE is a good choice, since it understands DSC natively.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Save the following as a PS1:</source>
+          <target state="new">Save the following as a PS1:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Parts of a Configuration</source>
+          <target state="new">Parts of a Configuration</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> is a keyword that has been added to PowerShell 4.0.</source>
+          <target state="new"><bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> is a keyword that has been added to PowerShell 4.0.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It signifies a special kind of PowerShell function used by Desired State Configuration.</source>
+          <target state="new">It signifies a special kind of PowerShell function used by Desired State Configuration.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this example, the function is named myFirstConfiguration.</source>
+          <target state="new">In this example, the function is named myFirstConfiguration.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The next line is an import statement, similar to importing a module.</source>
+          <target state="new">The next line is an import statement, similar to importing a module.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It will be discussed later on.</source>
+          <target state="new">It will be discussed later on.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>"Node" defines the machine name this configuration will act on.</source>
+          <target state="new">"Node" defines the machine name this configuration will act on.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Although this configuration is edited locally, configurations can reach out to remote nodes and configure them.</source>
+          <target state="new">Although this configuration is edited locally, configurations can reach out to remote nodes and configure them.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Nodes can be machine names or IP addresses.</source>
+          <target state="new">Nodes can be machine names or IP addresses.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can have multiple nodes in a single configuration document.</source>
+          <target state="new">You can have multiple nodes in a single configuration document.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Using <bpt id="p1">[</bpt>configuration data<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configdata)</ept>, you can also have the same configuration apply to multiple nodes.</source>
+          <target state="new">Using <bpt id="p1">[</bpt>configuration data<ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/configdata)</ept>, you can also have the same configuration apply to multiple nodes.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In this case, the node is "localhost" - which means the local computer.</source>
+          <target state="new">In this case, the node is "localhost" - which means the local computer.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The next item is a <bpt id="p1">[</bpt><bpt id="p2">**</bpt>resource<ept id="p2">**</ept><ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/resources)</ept>.</source>
+          <target state="new">The next item is a <bpt id="p1">[</bpt><bpt id="p2">**</bpt>resource<ept id="p2">**</ept><ept id="p1">](https://msdn.microsoft.com/en-us/powershell/dsc/resources)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Resources are building blocks of configurations.</source>
+          <target state="new">Resources are building blocks of configurations.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Each resource is a module that defines the implementation logic of a single aspect of a machine.</source>
+          <target state="new">Each resource is a module that defines the implementation logic of a single aspect of a machine.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can view every resource on your machine by running <bpt id="p1">**</bpt>Get-DscResource<ept id="p1">**</ept> in PowerShell.</source>
+          <target state="new">You can view every resource on your machine by running <bpt id="p1">**</bpt>Get-DscResource<ept id="p1">**</ept> in PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Resources must be present on the local machine and imported before they can be used in a configuration with <bpt id="p1">**</bpt>Import-DscResource<ept id="p1">**</ept> which is on the second line of this configuration.</source>
+          <target state="new">Resources must be present on the local machine and imported before they can be used in a configuration with <bpt id="p1">**</bpt>Import-DscResource<ept id="p1">**</ept> which is on the second line of this configuration.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enacting a Configuration<ept id="p1">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Enacting a Configuration<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If the script above is saved and run, no output will be produced.</source>
+          <target state="new">If the script above is saved and run, no output will be produced.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This is because a configuration is just a function, and the script above has defined the function but not yet run it.</source>
+          <target state="new">This is because a configuration is just a function, and the script above has defined the function but not yet run it.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>After the function is defined, it must be invoked:</source>
+          <target state="new">After the function is defined, it must be invoked:</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When executed, configuration functions validate the configuration is valid.</source>
+          <target state="new">When executed, configuration functions validate the configuration is valid.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It should have no syntax errors, resources should have all mandatory parameters defined, and all resources should be imported before execution.</source>
+          <target state="new">It should have no syntax errors, resources should have all mandatory parameters defined, and all resources should be imported before execution.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Once the configuration is executed, it creates a folder with the name of the configuration containing a <bpt id="p1">**</bpt>.MOF file<ept id="p1">**</ept> for every node in the configuration.</source>
+          <target state="new">Once the configuration is executed, it creates a folder with the name of the configuration containing a <bpt id="p1">**</bpt>.MOF file<ept id="p1">**</ept> for every node in the configuration.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The .MOF file is a standards-based management format which is used by PowerShell DSC to communicate over the network.</source>
+          <target state="new">The .MOF file is a standards-based management format which is used by PowerShell DSC to communicate over the network.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To enact the configuration:</source>
+          <target state="new">To enact the configuration:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This creates a PowerShell job that reaches out to the nodes in the configuration and configures them.</source>
+          <target state="new">This creates a PowerShell job that reaches out to the nodes in the configuration and configures them.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To see the output of the job, use -Wait.</source>
+          <target state="new">To see the output of the job, use -Wait.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

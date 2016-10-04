@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">654c0d5e83b9832524298b5c96eae094f371330f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\audit_script.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">768fe38c962ea891616f9b095ee49221a4364831</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ec878b2491094d959d61829a6bd7c8163ae2963</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Script Tracing and Logging</source>
+          <target state="new">Script Tracing and Logging</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>While Windows PowerShell already has the <bpt id="p1">**</bpt>LogPipelineExecutionDetails<ept id="p1">**</ept> Group Policy setting to log the invocation of cmdlets, PowerShell’s scripting language has plenty of features that you might want to log and/or audit.</source>
+          <target state="new">While Windows PowerShell already has the <bpt id="p1">**</bpt>LogPipelineExecutionDetails<ept id="p1">**</ept> Group Policy setting to log the invocation of cmdlets, PowerShell’s scripting language has plenty of features that you might want to log and/or audit.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The new Detailed Script Tracing feature lets you enable detailed tracking and analysis of Windows PowerShell scripting use on a system.</source>
+          <target state="new">The new Detailed Script Tracing feature lets you enable detailed tracking and analysis of Windows PowerShell scripting use on a system.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After you enable detailed script tracing, Windows PowerShell logs all script blocks to the ETW event log, <bpt id="p1">**</bpt>Microsoft-Windows-PowerShell/Operational<ept id="p1">**</ept>.</source>
+          <target state="new">After you enable detailed script tracing, Windows PowerShell logs all script blocks to the ETW event log, <bpt id="p1">**</bpt>Microsoft-Windows-PowerShell/Operational<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If a script block creates another script block (for example, a script that calls the Invoke-Expression cmdlet on a string), that resulting script block is logged as well.</source>
+          <target state="new">If a script block creates another script block (for example, a script that calls the Invoke-Expression cmdlet on a string), that resulting script block is logged as well.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Logging of these events can be enabled through the <bpt id="p1">**</bpt>Turn on PowerShell Script Block Logging<ept id="p1">**</ept> Group Policy setting (in Administrative Templates -&gt; Windows Components -&gt; Windows PowerShell).</source>
+          <target state="new">Logging of these events can be enabled through the <bpt id="p1">**</bpt>Turn on PowerShell Script Block Logging<ept id="p1">**</ept> Group Policy setting (in Administrative Templates -&gt; Windows Components -&gt; Windows PowerShell).</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The events are:</source>
+          <target state="new">The events are:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Channel</source>
+          <target state="new">Channel</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Operational</source>
+          <target state="new">Operational</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <target state="new">Level</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Verbose</source>
+          <target state="new">Verbose</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Opcode</source>
+          <target state="new">Opcode</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create</source>
+          <target state="new">Create</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <target state="new">Task</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>CommandStart</source>
+          <target state="new">CommandStart</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Keyword</source>
+          <target state="new">Keyword</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Runspace</source>
+          <target state="new">Runspace</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>EventId</source>
+          <target state="new">EventId</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Engine_ScriptBlockCompiled (0x1008 = 4104)</source>
+          <target state="new">Engine_ScriptBlockCompiled (0x1008 = 4104)</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="new">Message</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creating Scriptblock text (%1 of %2):</source>
+          <target state="new">Creating Scriptblock text (%1 of %2):</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>%3</source>
+          <target state="new">%3</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>ScriptBlock ID: %4</source>
+          <target state="new">ScriptBlock ID: %4</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The text embedded in the message is the extent of the script block compiled.</source>
+          <target state="new">The text embedded in the message is the extent of the script block compiled.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The ID is a GUID that is retained for the life of the script block.</source>
+          <target state="new">The ID is a GUID that is retained for the life of the script block.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When you enable verbose logging, the feature writes begin and end markers:</source>
+          <target state="new">When you enable verbose logging, the feature writes begin and end markers:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Channel</source>
+          <target state="new">Channel</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Operational</source>
+          <target state="new">Operational</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <target state="new">Level</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Verbose</source>
+          <target state="new">Verbose</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Opcode</source>
+          <target state="new">Opcode</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Open (/ Close)</source>
+          <target state="new">Open (/ Close)</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <target state="new">Task</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>CommandStart (/ CommandStop)</source>
+          <target state="new">CommandStart (/ CommandStop)</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Keyword</source>
+          <target state="new">Keyword</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Runspace</source>
+          <target state="new">Runspace</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>EventId</source>
+          <target state="new">EventId</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>ScriptBlock\_Invoke\_Start\_Detail (0x1009 = 4105) /</source>
+          <target state="new">ScriptBlock\_Invoke\_Start\_Detail (0x1009 = 4105) /</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>ScriptBlock\_Invoke\_Complete\_Detail (0x100A = 4106)</source>
+          <target state="new">ScriptBlock\_Invoke\_Complete\_Detail (0x100A = 4106)</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="new">Message</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Started (/ Completed) invocation of ScriptBlock ID: %1</source>
+          <target state="new">Started (/ Completed) invocation of ScriptBlock ID: %1</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Runspace ID: %2</source>
+          <target state="new">Runspace ID: %2</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The ID is the GUID representing the script block (that can be correlated with event ID 0x1008), and the Runspace ID represents the runspace in which this script block was run.</source>
+          <target state="new">The ID is the GUID representing the script block (that can be correlated with event ID 0x1008), and the Runspace ID represents the runspace in which this script block was run.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Percent signs in the invocation message represent structured ETW properties.</source>
+          <target state="new">Percent signs in the invocation message represent structured ETW properties.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>While they are replaced with the actual values in the message text, a more robust way to access them is to retrieve the message with the Get-WinEvent cmdlet, and then use the <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept> array of the message.</source>
+          <target state="new">While they are replaced with the actual values in the message text, a more robust way to access them is to retrieve the message with the Get-WinEvent cmdlet, and then use the <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept> array of the message.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Here's an example of how this functionality can help unwrap a malicious attempt to encrypt and obfuscate a script:</source>
+          <target state="new">Here's an example of how this functionality can help unwrap a malicious attempt to encrypt and obfuscate a script:</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Running this generates the following log entries:</source>
+          <target state="new">Running this generates the following log entries:</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the script block length exceeds what ETW is capable of holding in a single event, Windows PowerShell breaks the script into multiple parts.</source>
+          <target state="new">If the script block length exceeds what ETW is capable of holding in a single event, Windows PowerShell breaks the script into multiple parts.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Here is sample code to recombine a script from its log messages:</source>
+          <target state="new">Here is sample code to recombine a script from its log messages:</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>As with all logging systems that have a limited retention buffer (i.e. ETW logs), one attack against this infrastructure is to flood the log with spurious events to hide earlier evidence.</source>
+          <target state="new">As with all logging systems that have a limited retention buffer (i.e. ETW logs), one attack against this infrastructure is to flood the log with spurious events to hide earlier evidence.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To protect yourself from this attack, ensure that you have some form of event log collection set up (i.e., Windows Event Forwarding, <bpt id="p1">[</bpt>Spotting the Adversary with Windows Event Log Monitoring<ept id="p1">](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf)</ept>) to move event logs off of the computer as soon as possible.</source>
+          <target state="new">To protect yourself from this attack, ensure that you have some form of event log collection set up (i.e., Windows Event Forwarding, <bpt id="p1">[</bpt>Spotting the Adversary with Windows Event Log Monitoring<ept id="p1">](http://www.nsa.gov/ia/_files/app/Spotting_the_Adversary_with_Windows_Event_Log_Monitoring.pdf)</ept>) to move event logs off of the computer as soon as possible.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

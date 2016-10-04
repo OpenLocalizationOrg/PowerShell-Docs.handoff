@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">56ec43a84cfdbceb7633609696ea697c515e2931</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\dsc_importdscresource.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">66d8b344dc04e1ef2c1fb5aad1cf0f744b890b64</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aba05c9f129216a783e33224d776677809e9b367</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Import-DscResource keyword supports -ModuleVersion parameter</source>
+          <target state="new">Import-DscResource keyword supports -ModuleVersion parameter</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We have added a new parameter to the <ph id="ph1">`Import-DscResource`</ph> dynamic keyword available when authoring DSC configurations.</source>
+          <target state="new">We have added a new parameter to the <ph id="ph1">`Import-DscResource`</ph> dynamic keyword available when authoring DSC configurations.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Configuration authors can now specify exactly which module version to load the DSC resources from.</source>
+          <target state="new">Configuration authors can now specify exactly which module version to load the DSC resources from.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The new syntax of the keyword is:</source>
+          <target state="new">The new syntax of the keyword is:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept>: Names of one or more reosurces to import.</source>
+          <target state="new"><bpt id="p1">**</bpt>Name<ept id="p1">**</ept>: Names of one or more reosurces to import.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept>: Module names or ModuleSpecification objects of one or more modules to import.</source>
+          <target state="new"><bpt id="p1">**</bpt>ModuleName<ept id="p1">**</ept>: Module names or ModuleSpecification objects of one or more modules to import.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept>: Version of module ot import.</source>
+          <target state="new"><bpt id="p1">**</bpt>ModuleVersion<ept id="p1">**</ept>: Version of module ot import.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If used, ModuleName must represent only one module by name.</source>
+          <target state="new">If used, ModuleName must represent only one module by name.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the Windows PowerShell ISE, it shows up with IntelliSense:</source>
+          <target state="new">In the Windows PowerShell ISE, it shows up with IntelliSense:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: the <ph id="ph1">`–ModuleVersion`</ph> parameter can only be used in combination with the <ph id="ph2">`–ModuleName`</ph> parameter.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: the <ph id="ph1">`–ModuleVersion`</ph> parameter can only be used in combination with the <ph id="ph2">`–ModuleName`</ph> parameter.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It cannot be used with resource names using only the <ph id="ph1">`–Name`</ph> parameter.</source>
+          <target state="new">It cannot be used with resource names using only the <ph id="ph1">`–Name`</ph> parameter.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Before this, the only way to specify the module version when loading DSC resources was by using the Module specification object e.g.: <ph id="ph1">`–ModuleName @{ModuleName="UserConfigProvider";ModuleVersion="3.0"}`</ph></source>
+          <target state="new">Before this, the only way to specify the module version when loading DSC resources was by using the Module specification object e.g.: <ph id="ph1">`–ModuleName @{ModuleName="UserConfigProvider";ModuleVersion="3.0"}`</ph></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

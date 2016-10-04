@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b21af4711cc5a846517c3e286c9e90f858612ccb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\cookbooks\Manipulating-Items-Directly.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">16aae2a609c3356685f3572edb8021e785a233e1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">44bf3de72cc7bd0b67794bc7920b45839f4b6941</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manipulating Items Directly</source>
+          <target state="new">Manipulating Items Directly</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>powershell,cmdlet</source>
+          <target state="new">powershell,cmdlet</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Manipulating Items Directly</source>
+          <target state="new">Manipulating Items Directly</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The elements that you see in Windows PowerShell drives, such as the files and folders in the file system drives, and the registry keys in the Windows PowerShell registry drives, are called <bpt id="p1">*</bpt>items<ept id="p1">*</ept> in Windows PowerShell.</source>
+          <target state="new">The elements that you see in Windows PowerShell drives, such as the files and folders in the file system drives, and the registry keys in the Windows PowerShell registry drives, are called <bpt id="p1">*</bpt>items<ept id="p1">*</ept> in Windows PowerShell.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The cmdlets for working with them item have the noun <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> in their names.</source>
+          <target state="new">The cmdlets for working with them item have the noun <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> in their names.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The output of the <bpt id="p1">**</bpt>Get-Command -Noun Item<ept id="p1">**</ept> command shows that there are nine Windows PowerShell item cmdlets.</source>
+          <target state="new">The output of the <bpt id="p1">**</bpt>Get-Command -Noun Item<ept id="p1">**</ept> command shows that there are nine Windows PowerShell item cmdlets.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Creating New Items (New-Item)</source>
+          <target state="new">Creating New Items (New-Item)</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To create a new item in the file system, use the <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">To create a new item in the file system, use the <bpt id="p1">**</bpt>New-Item<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Include the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter with path to the item, and the <bpt id="p2">**</bpt>ItemType<ept id="p2">**</ept> parameter with a value of "file" or "directory".</source>
+          <target state="new">Include the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> parameter with path to the item, and the <bpt id="p2">**</bpt>ItemType<ept id="p2">**</ept> parameter with a value of "file" or "directory".</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, to create a new directory named "New.Directory"in the C:\\Temp directory,  type:</source>
+          <target state="new">For example, to create a new directory named "New.Directory"in the C:\\Temp directory,  type:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To create a file, change the value of the <bpt id="p1">**</bpt>ItemType<ept id="p1">**</ept> parameter to "file".</source>
+          <target state="new">To create a file, change the value of the <bpt id="p1">**</bpt>ItemType<ept id="p1">**</ept> parameter to "file".</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, to create a file named "file1.txt" in the New.Directory directory, type:</source>
+          <target state="new">For example, to create a file named "file1.txt" in the New.Directory directory, type:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use the same technique to create a new registry key.</source>
+          <target state="new">You can use the same technique to create a new registry key.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In fact, a registry key is easier to create because the only item type in the Windows registry is a key.</source>
+          <target state="new">In fact, a registry key is easier to create because the only item type in the Windows registry is a key.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>(Registry entries are item <bpt id="p1">*</bpt>properties<ept id="p1">*</ept>.) For example, to create a key named "_Test" in the CurrentVersion subkey, type:</source>
+          <target state="new">(Registry entries are item <bpt id="p1">*</bpt>properties<ept id="p1">*</ept>.) For example, to create a key named "_Test" in the CurrentVersion subkey, type:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When typing a registry path, be sure to include the colon (<bpt id="p1">**</bpt>:<ept id="p1">**</ept>) in the Windows PowerShell drive names, HKLM: and HKCU:.</source>
+          <target state="new">When typing a registry path, be sure to include the colon (<bpt id="p1">**</bpt>:<ept id="p1">**</ept>) in the Windows PowerShell drive names, HKLM: and HKCU:.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Without the colon, Windows PowerShell does not recognize the drive name in the path.</source>
+          <target state="new">Without the colon, Windows PowerShell does not recognize the drive name in the path.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Why Registry Values are not Items</source>
+          <target state="new">Why Registry Values are not Items</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When you use the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet to find the items in a registry key, you will never see actual registry entries or their values.</source>
+          <target state="new">When you use the <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> cmdlet to find the items in a registry key, you will never see actual registry entries or their values.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, the registry key <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run<ept id="p1">**</ept> usually contains several registry entries that represent applications that run when the system starts.</source>
+          <target state="new">For example, the registry key <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run<ept id="p1">**</ept> usually contains several registry entries that represent applications that run when the system starts.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However, when you use <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> to look for child items in the key, all you will see is the <bpt id="p2">**</bpt>OptionalComponents<ept id="p2">**</ept> subkey of the key:</source>
+          <target state="new">However, when you use <bpt id="p1">**</bpt>Get-ChildItem<ept id="p1">**</ept> to look for child items in the key, all you will see is the <bpt id="p2">**</bpt>OptionalComponents<ept id="p2">**</ept> subkey of the key:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Although it would be convenient to treat registry entries as items, you cannot specify a path to a registry entry in a way that ensures that it is unique.</source>
+          <target state="new">Although it would be convenient to treat registry entries as items, you cannot specify a path to a registry entry in a way that ensures that it is unique.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The path notation does not distinguish between the registry subkey named <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> and the <bpt id="p2">**</bpt>(Default)<ept id="p2">**</ept> registry entry in the <bpt id="p3">**</bpt>Run<ept id="p3">**</ept> subkey.</source>
+          <target state="new">The path notation does not distinguish between the registry subkey named <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> and the <bpt id="p2">**</bpt>(Default)<ept id="p2">**</ept> registry entry in the <bpt id="p3">**</bpt>Run<ept id="p3">**</ept> subkey.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Furthermore, because registry entry names can contain the backslash character (<bpt id="p1">**</bpt><ph id="ph1">\\</ph><ept id="p1">**</ept>), if regsitry entries were items, then you could not use the path notation to distinguish a registry entry named <bpt id="p2">**</bpt>Windows\\CurrentVersion\\Run<ept id="p2">**</ept> from the subkey that is located in that path.</source>
+          <target state="new">Furthermore, because registry entry names can contain the backslash character (<bpt id="p1">**</bpt><ph id="ph1">\\</ph><ept id="p1">**</ept>), if regsitry entries were items, then you could not use the path notation to distinguish a registry entry named <bpt id="p2">**</bpt>Windows\\CurrentVersion\\Run<ept id="p2">**</ept> from the subkey that is located in that path.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Renaming Existing Items (Rename-Item)</source>
+          <target state="new">Renaming Existing Items (Rename-Item)</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To change the name of a file or folder, use the <bpt id="p1">**</bpt>Rename-Item<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">To change the name of a file or folder, use the <bpt id="p1">**</bpt>Rename-Item<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following command changes the name of the <bpt id="p1">**</bpt>file1.txt<ept id="p1">**</ept> file to <bpt id="p2">**</bpt>fileOne.txt<ept id="p2">**</ept>.</source>
+          <target state="new">The following command changes the name of the <bpt id="p1">**</bpt>file1.txt<ept id="p1">**</ept> file to <bpt id="p2">**</bpt>fileOne.txt<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Rename-Item<ept id="p1">**</ept> cmdlet can change the name of a file or a folder, but it cannot move an item.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Rename-Item<ept id="p1">**</ept> cmdlet can change the name of a file or a folder, but it cannot move an item.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The following command fails because it attempts to move the file from the New.Directory directory to the Temp directory.</source>
+          <target state="new">The following command fails because it attempts to move the file from the New.Directory directory to the Temp directory.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Moving Items (Move-Item)</source>
+          <target state="new">Moving Items (Move-Item)</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To move a file or folder, use the <bpt id="p1">**</bpt>Move-Item<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">To move a file or folder, use the <bpt id="p1">**</bpt>Move-Item<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, the following command moves the New.Directory directory from the C:\\temp directory to the root of the C: drive.</source>
+          <target state="new">For example, the following command moves the New.Directory directory from the C:\\temp directory to the root of the C: drive.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To verify that the item was moved, include the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Move-Item<ept id="p2">**</ept> cmdlet.</source>
+          <target state="new">To verify that the item was moved, include the <bpt id="p1">**</bpt>PassThru<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Move-Item<ept id="p2">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Without <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept>, the <bpt id="p2">**</bpt>Move-Item<ept id="p2">**</ept> cmdlet does not display any results.</source>
+          <target state="new">Without <bpt id="p1">**</bpt>Passthru<ept id="p1">**</ept>, the <bpt id="p2">**</bpt>Move-Item<ept id="p2">**</ept> cmdlet does not display any results.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Copying Items (Copy-Item)</source>
+          <target state="new">Copying Items (Copy-Item)</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you are familiar with the copy operations in other shells, you might find the behavior of the <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept> cmdlet in Windows PowerShell to be unusual.</source>
+          <target state="new">If you are familiar with the copy operations in other shells, you might find the behavior of the <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept> cmdlet in Windows PowerShell to be unusual.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When you copy an item from one location to another, Copy-Item does not copy its contents by default.</source>
+          <target state="new">When you copy an item from one location to another, Copy-Item does not copy its contents by default.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, if you copy the <bpt id="p1">**</bpt>New.Directory<ept id="p1">**</ept> directory from the C: drive to the C:\\temp directory, the command succeeds, but the files in the New.Directory directory are not copied.</source>
+          <target state="new">For example, if you copy the <bpt id="p1">**</bpt>New.Directory<ept id="p1">**</ept> directory from the C: drive to the C:\\temp directory, the command succeeds, but the files in the New.Directory directory are not copied.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If you display the contents of <bpt id="p1">**</bpt>C:\\temp\\New.Directory<ept id="p1">**</ept>, you will find that it contains no files:</source>
+          <target state="new">If you display the contents of <bpt id="p1">**</bpt>C:\\temp\\New.Directory<ept id="p1">**</ept>, you will find that it contains no files:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Why doesn't the <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept> cmdlet copy the contents to the new location?</source>
+          <target state="new">Why doesn't the <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept> cmdlet copy the contents to the new location?</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept> cmdlet was designed to be generic; it is not just for copying files and folders.</source>
+          <target state="new">The <bpt id="p1">**</bpt>Copy-Item<ept id="p1">**</ept> cmdlet was designed to be generic; it is not just for copying files and folders.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Also, even when copying files and folders, you might want to copy only the container and not the items within it.</source>
+          <target state="new">Also, even when copying files and folders, you might want to copy only the container and not the items within it.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To copy all of the contents of a folder, include the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Copy-Item<ept id="p2">**</ept> cmdlet in the command.</source>
+          <target state="new">To copy all of the contents of a folder, include the <bpt id="p1">**</bpt>Recurse<ept id="p1">**</ept> parameter of the <bpt id="p2">**</bpt>Copy-Item<ept id="p2">**</ept> cmdlet in the command.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you have already copied the directory without its contents, add the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter, which allows you to overwrite the empty folder.</source>
+          <target state="new">If you have already copied the directory without its contents, add the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> parameter, which allows you to overwrite the empty folder.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Deleting Items (Remove-Item)</source>
+          <target state="new">Deleting Items (Remove-Item)</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To delete files and folders, use the <bpt id="p1">**</bpt>Remove-Item<ept id="p1">**</ept> cmdlet.</source>
+          <target state="new">To delete files and folders, use the <bpt id="p1">**</bpt>Remove-Item<ept id="p1">**</ept> cmdlet.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell cmdlets, such as <bpt id="p1">**</bpt>Remove-Item<ept id="p1">**</ept>, that can make significant, irreversible changes will often prompt for confirmation when you enter its commands.</source>
+          <target state="new">Windows PowerShell cmdlets, such as <bpt id="p1">**</bpt>Remove-Item<ept id="p1">**</ept>, that can make significant, irreversible changes will often prompt for confirmation when you enter its commands.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, if you try to remove the <bpt id="p1">**</bpt>New.Directory<ept id="p1">**</ept> folder, you will be prompted to confirm the command, because the folder contains files:</source>
+          <target state="new">For example, if you try to remove the <bpt id="p1">**</bpt>New.Directory<ept id="p1">**</ept> folder, you will be prompted to confirm the command, because the folder contains files:</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> is the default response, to delete the folder and its files, press the <bpt id="p2">**</bpt>Enter<ept id="p2">**</ept> key.</source>
+          <target state="new">Because <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> is the default response, to delete the folder and its files, press the <bpt id="p2">**</bpt>Enter<ept id="p2">**</ept> key.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To remove the folder without confirming, use the <bpt id="p1">**</bpt>-Recurse<ept id="p1">**</ept> parameter.</source>
+          <target state="new">To remove the folder without confirming, use the <bpt id="p1">**</bpt>-Recurse<ept id="p1">**</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Executing Items (Invoke-Item)</source>
+          <target state="new">Executing Items (Invoke-Item)</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell uses the <bpt id="p1">**</bpt>Invoke-Item<ept id="p1">**</ept> cmdlet to perform a default action for a file or folder.</source>
+          <target state="new">Windows PowerShell uses the <bpt id="p1">**</bpt>Invoke-Item<ept id="p1">**</ept> cmdlet to perform a default action for a file or folder.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This default action is determined by the default application handler in the registry; the effect is the same as if you double-click the item in File Explorer.</source>
+          <target state="new">This default action is determined by the default application handler in the registry; the effect is the same as if you double-click the item in File Explorer.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, suppose you run the following command:</source>
+          <target state="new">For example, suppose you run the following command:</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An Explorer window that is located in C:\\Windows appears, just as if you had double-clicked the C:\\Windows folder.</source>
+          <target state="new">An Explorer window that is located in C:\\Windows appears, just as if you had double-clicked the C:\\Windows folder.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you invoke the <bpt id="p1">**</bpt>Boot.ini<ept id="p1">**</ept> file on a system prior to Windows Vista:</source>
+          <target state="new">If you invoke the <bpt id="p1">**</bpt>Boot.ini<ept id="p1">**</ept> file on a system prior to Windows Vista:</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If the .ini file type is associated with Notepad, the boot.ini file opens in Notepad.</source>
+          <target state="new">If the .ini file type is associated with Notepad, the boot.ini file opens in Notepad.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

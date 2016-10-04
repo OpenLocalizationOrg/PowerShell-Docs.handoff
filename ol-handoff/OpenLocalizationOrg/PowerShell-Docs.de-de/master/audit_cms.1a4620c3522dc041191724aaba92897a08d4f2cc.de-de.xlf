@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2160a4b932075c98df6806c61d263d30f650b9f4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">wmf\5.0\audit_cms.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">89980a5c3341f35d7fb8a3e9de375cfbf33300cb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4be1767a845c3bf25310f07b2e1c0c926d3995d1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Cryptographic Message Syntax (CMS) cmdlets</source>
+          <target state="new">Cryptographic Message Syntax (CMS) cmdlets</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Cryptographic Message Syntax cmdlets support encryption and decryption of content using the IETF standard format for cryptographically protecting messages as documented by <bpt id="p1">[</bpt>RFC5652<ept id="p1">](http://tools.ietf.org/html/rfc5652)</ept>.</source>
+          <target state="new">The Cryptographic Message Syntax cmdlets support encryption and decryption of content using the IETF standard format for cryptographically protecting messages as documented by <bpt id="p1">[</bpt>RFC5652<ept id="p1">](http://tools.ietf.org/html/rfc5652)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The CMS encryption standard implements public key cryptography, where the keys used to encrypt content (the <bpt id="p1">*</bpt>public key<ept id="p1">*</ept>) and the keys used to decrypt content (the <bpt id="p2">*</bpt>private key<ept id="p2">*</ept>) are separate.</source>
+          <target state="new">The CMS encryption standard implements public key cryptography, where the keys used to encrypt content (the <bpt id="p1">*</bpt>public key<ept id="p1">*</ept>) and the keys used to decrypt content (the <bpt id="p2">*</bpt>private key<ept id="p2">*</ept>) are separate.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your public key can be shared widely, and is not sensitive data.</source>
+          <target state="new">Your public key can be shared widely, and is not sensitive data.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If any content is encrypted with this public key, only your private key can decrypt it.</source>
+          <target state="new">If any content is encrypted with this public key, only your private key can decrypt it.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information about Public Key Cryptography, see: <bpt id="p1">&lt;</bpt>http://en.wikipedia.org/wiki/Public-key_cryptography<ept id="p1">&gt;</ept>.</source>
+          <target state="new">For more information about Public Key Cryptography, see: <bpt id="p1">&lt;</bpt>http://en.wikipedia.org/wiki/Public-key_cryptography<ept id="p1">&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To be recognized in PowerShell, encryption certificates require a unique key usage identifier (EKU) to identify them as data encryption certificates (like the identifiers for 'Code Signing', 'Encrypted Mail').</source>
+          <target state="new">To be recognized in PowerShell, encryption certificates require a unique key usage identifier (EKU) to identify them as data encryption certificates (like the identifiers for 'Code Signing', 'Encrypted Mail').</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Here is an example of creating a certificate that is good for Document Encryption:</source>
+          <target state="new">Here is an example of creating a certificate that is good for Document Encryption:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Then run:</source>
+          <target state="new">Then run:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>And you can now encrypt and decrypt content:</source>
+          <target state="new">And you can now encrypt and decrypt content:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Any parameter of type <bpt id="p1">**</bpt>CMSMessageRecipient<ept id="p1">**</ept> supports identifiers in the following formats:</source>
+          <target state="new">Any parameter of type <bpt id="p1">**</bpt>CMSMessageRecipient<ept id="p1">**</ept> supports identifiers in the following formats:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>An actual certificate (as retrieved from the certificate provider)</source>
+          <target state="new">An actual certificate (as retrieved from the certificate provider)</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Path to the a file containing the certificate</source>
+          <target state="new">Path to the a file containing the certificate</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Path to a directory containing the certificate</source>
+          <target state="new">Path to a directory containing the certificate</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Thumbprint of the certificate (used to look in the certificate store)</source>
+          <target state="new">Thumbprint of the certificate (used to look in the certificate store)</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Subject name of the certificate (used to look in the certificate store)</source>
+          <target state="new">Subject name of the certificate (used to look in the certificate store)</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To view document encryption certificates in the certificate provider, you can use the <bpt id="p1">**</bpt>-DocumentEncryptionCert<ept id="p1">**</ept> dynamic parameter:</source>
+          <target state="new">To view document encryption certificates in the certificate provider, you can use the <bpt id="p1">**</bpt>-DocumentEncryptionCert<ept id="p1">**</ept> dynamic parameter:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

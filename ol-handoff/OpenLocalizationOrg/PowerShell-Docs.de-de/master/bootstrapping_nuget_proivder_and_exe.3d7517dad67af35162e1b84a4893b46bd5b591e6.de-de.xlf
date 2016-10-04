@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5396621599aea3316ac6d32d137ed114db68bbb3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">gallery\psget\repository\bootstrapping_nuget_proivder_and_exe.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f391b917d6683c421cc9b9f944cc65033c234a1e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">80b59b94a9272774f3291edcb276314293f499ae</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Bootstrap both NuGet provider and NuGet.exe for publish-operations with single prompt message and bootstrap only NuGet provider for non-publish operations</source>
+          <target state="new">Bootstrap both NuGet provider and NuGet.exe for publish-operations with single prompt message and bootstrap only NuGet provider for non-publish operations</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>NuGet.exe is removed from the latest NuGet provider.</source>
+          <target state="new">NuGet.exe is removed from the latest NuGet provider.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For publishing a module/script, PowerShellGet requires NuGet.exe for creating and pushing a .nupkg file to the repository.</source>
+          <target state="new">For publishing a module/script, PowerShellGet requires NuGet.exe for creating and pushing a .nupkg file to the repository.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>NuGet provider is required for the non-publish operations like find, install, update and save.</source>
+          <target state="new">NuGet provider is required for the non-publish operations like find, install, update and save.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Added the logic for bootstrap both NuGet provider and NuGet.exe for publish-operations with single prompt message and bootstrap only NuGet provider for non-publish operations.</source>
+          <target state="new">Added the logic for bootstrap both NuGet provider and NuGet.exe for publish-operations with single prompt message and bootstrap only NuGet provider for non-publish operations.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When NuGet provider is not available</source>
+          <target state="new">When NuGet provider is not available</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When NuGet provider is available and NuGet.exe is not available during the publish operation</source>
+          <target state="new">When NuGet provider is available and NuGet.exe is not available during the publish operation</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When both NuGet provider and NuGet.exe are not available during the publish operation</source>
+          <target state="new">When both NuGet provider and NuGet.exe are not available during the publish operation</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
