@@ -1,59 +1,59 @@
 # Install-Module
 
-Installs the PowerShell modules from online repositories to the local computer.
+オンライン リポジトリからの PowerShell モジュールをローカルのコンピューターにインストールします。
 
-## Description
+## 説明
 
-Install-Module cmdlet downloads one or more modules from an online gallery, validates and installs them on the local computer to the specified installation scope.
+インストール モジュールのコマンドレットでは、オンライン ギャラリーから 1 つまたは複数のモジュールをダウンロード、検証し、指定したインストールのスコープには、ローカルのコンピューターにインストールします。
 
-The Install-Module cmdlet gets one or more modules that meet specified criteria from an online gallery, verifies that search results are valid modules, and copies module folders to the installation location.
+インストール モジュール コマンドレットは、オンライン ギャラリーから指定の条件を満たす 1 つまたは複数のモジュールを取得、検索結果が有効なモジュールとモジュール フォルダーをコピーのインストール場所にいることを確認します。
 
-When no scope is defined, or when the value of the Scope parameter is AllUsers, the module is installed to %systemdrive%:\Program Files\WindowsPowerShell\Modules. When the value of Scope is CurrentUser, the module is installed to $home\Documents\WindowsPowerShell\Modules.
+スコープが定義されていない場合、またはスコープのパラメーターの値が AllUsers である場合は、モジュールは %systemdrive%:\Program、\windowspowershell\modules にインストールされます。 スコープの値は、CurrentUser は、$home \documents\windowspowershell\modules にモジュールがインストールされます。
 
-You can filter your results based on minimum and exact versions of specified modules.
+指定したモジュールの最小値と正確なバージョンに基づいて、結果をフィルター処理することができます。
 
-- Side-by-side version support on Windows PowerShell 5.0 or newer
-- Module dependency installation support
-- **Untrusted prompt:**User acceptance is required for installing the modules from an untrusted repository.
-- -Force reinstalls the installed module
-- RequiredVersion installs the specified version in SxS with existing versions on PowerShell version 5.0 or newer.
+- Windows PowerShell 5.0 以降の Side-by-Side バージョン サポート
+- モジュールの依存関係のインストール サポート
+- **Prompt、信頼されていない:**ユーザー受け入れは信頼されていないリポジトリからモジュールをインストールするために必要です。
+- フォース攻撃には、インストールされているモジュールが再インストールされます。
+- RequiredVersion では、powershell バージョン 5.0 以降の既存のバージョンで SxS で指定されたバージョンをインストールします。
 
-### Scope
-Specifies the installation scope of the module. The acceptable values for this parameter are: AllUsers and CurrentUser.
+### スコープ
+モジュールのインストールのスコープを指定します。 このパラメーターの使用可能な値: AllUsers と CurrentUser です。
 
-The default installation scope is AllUsers.
+既定のインストールのスコープは、AllUsers です。
 
-The AllUsers scope lets modules be installed in a location that is accessible to all users of the computer, that is, "$env:SystemDrive\Program Files\WindowsPowerShell\Modules".
+AllUsers スコープにより、モジュールで、コンピューターのすべてのユーザーにアクセス可能な場所にインストールする"$env:path: \program、\windowspowershell\modules"です。
 
-The CurrentUser scope lets modules be installed only to "$home\Documents\WindowsPowerShell\Modules", so that the module is available only to the current user.
+CurrentUser スコープでは、モジュールを現在のユーザーにのみ使用できるようにモジュール"$home \documents\windowspowershell\modules"にのみインストールすることができます。
 
-## Notes
+## メモ
 
-This cmdlet runs on Windows PowerShell 3.0 or later releases of Windows PowerShell, on Windows 7 or Windows 2008 R2 and later releases of Windows.
+このコマンドレットは、Windows PowerShell 3.0 または Windows 7 または Windows 2008 R2 および Windows の今後のリリースでの Windows PowerShell の今後のリリースを実行します。
 
-If an installed module cannot be imported (that is, if it does not have a .psm1, .psd1, or .dll of the same name within the folder), installation fails unless you add the Force parameter to your command.
+(があるない、.psm1、.psd1、または .dll、同じ名前のフォルダー内) の場合は、インストールされているモジュールをインポートできない場合、コマンドに、Force パラメーターを追加する場合にのみ、インストールが失敗します。
 
-If a version of the module on the computer matches the value specified for the Name parameter, and you have not added the MinimumVersion or RequiredVersion parameter, Install-Module silently continues without installing that module. If the MinimumVersion or RequiredVersion parameters are specified, and the existing module does not match the values in that parameter, then an error occurs. To be more specific: if the version of the currently-installed module is either lower than the value of the MinimumVersion parameter, or not equal to the value of the RequiredVersion parameter, an error occurs. If the version of the installed module is greater than the value of the MinimumVersion parameter, or equal to the value of the RequiredVersion parameter, Install-Module silently continues without installing that module.
+コンピューター上のモジュールのバージョンには、Name パラメーターに指定された値と一致する MinimumVersion または RequiredVersion パラメーターを追加していない場合は、そのモジュールをインストールしなくても何も行わずにモジュールのインストールが続行されます。 MinimumVersion または RequiredVersion パラメーターが指定された、既存のモジュールがそのパラメーターの値と一致しない場合は、エラーが発生します。 もっと詳しく指定する: 現在インストールされているモジュールのバージョンが MinimumVersion パラメーターの値よりも低いまたは RequiredVersion パラメーターの値に等しくない場合は、エラーが発生します。 インストールされているモジュールのバージョンが MinimumVersion パラメーターの値より大きいまたは RequiredVersion パラメーターの値と等しい場合は、そのモジュールをインストールしなくても何も行わずにモジュールのインストールが続行されます。
 
-Install-Module returns an error if no module exists in the online gallery that matches the specified name.
+指定した名前に一致するオンライン ギャラリーでモジュールが存在しない場合、インストール モジュールはエラーを返します。
 
-To install multiple modules, specify an array of the module names, separated by commas. You cannot add MinimumVersion or RequiredVersion if you specify multiple module names.
+複数のモジュールをインストールするには、コンマで区切られた、モジュール名の配列を指定します。 複数のモジュール名を指定する場合は、MinimumVersion または RequiredVersion を追加することはできません。
 
-By default, modules are installed to the Program Files folder, to prevent confusion when you are installing Windows PowerShell Desired State Configuration (DSC) resources.You can pipe multiple PSGetItemInfo objects to Install-Module; this is another way of specifying multiple modules to install in a single command.
+既定では、モジュールは、Windows PowerShell Desired State Configuration (DSC) のリソースをインストールするときに混乱を避けるため、Program Files フォルダーにインストールされます。モジュールのインストール; に複数の PSGetItemInfo オブジェクトをパイプすることができます。これは、複数のモジュールを指定する 1 つのコマンドでインストールする別の方法です。
 
-To help prevent running modules that contain malicious code, installed modules are not automatically imported by installation. As a security best practice, evaluate module code before running any cmdlets or functions in a module for the first time.
+インストールされている、悪意のあるコードが含まれる実行中のモジュールを防止するには、モジュールは自動的にインポートされませんのインストールによって。 セキュリティ ベスト プラクティスとして、最初に、モジュールのすべてのコマンドレットと関数を実行する前にモジュールのコードを評価します。
 
 
-## Cmdlet syntax
+## コマンドレット構文
 ```powershell
 Get-Command -Name Install-Module -Module PowerShellGet -Syntax
 ```
 
-## Cmdlet online help reference
+## コマンドレットのオンライン ヘルプ リファレンス
 
-[Install-Module](http://go.microsoft.com/fwlink/?LinkID=398573)
+[モジュールのインストール](http://go.microsoft.com/fwlink/?LinkID=398573)
 
-## Example commands
+## コマンド例
 
 ```powershell
 
@@ -94,7 +94,7 @@ Install-Module ContosoClient -Force
 Install-Module -Name 
 ```
 
-## Install-Module cmdlet in pipeline operations
+## パイプライン処理でインストール モジュールのコマンドレット
 
 ```powershell
 
@@ -121,11 +121,11 @@ Get-InstalledModule
 
 ```
 
-## Side-by-Side Version Support on PowerShell 5.0 or newer
+## PowerShell 5.0 以降の Side-by-Side バージョン サポート
 
-PowerShellGet supports the side-by-side (SxS) module version support in Install-Module, Update-Module, and Publish-Module cmdlets that run in Windows PowerShell 5.0 or newer.
+PowerShellGet は、インストール モジュールでのサイド バイ サイド (SxS) モジュールのバージョンのサポートをサポートしている更新プログラムのモジュール、および Windows PowerShell 5.0 以降を実行している発行モジュールのコマンドレットです。
 
-### Install-Module examples
+### モジュールのインストール例
 
 ```powershell
 # Install a version of the module
@@ -157,7 +157,7 @@ Version    Name                                Repository           Description
 
 ```
 
-## Install module with its dependencies
+## 依存関係と共にモジュールをインストールします。
 
 ```powershell
 
@@ -251,7 +251,7 @@ Version    Name                                Repository           Description
 
 ```
 
-## Error scenarios
+## エラーのシナリオ
 
 ```powershell
 
@@ -268,3 +268,8 @@ Install-Module ContosoClient,ContosoServer -RequiredVersion 2.0
 Install-Module ContosoClient,ContosoServer -MinimumVersion 2.0
 
 ```
+
+
+<!--HONumber=Oct16_HO1-->
+
+

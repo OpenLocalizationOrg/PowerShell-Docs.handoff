@@ -1,25 +1,25 @@
 # Update-ScriptFileInfo
 
-Update-ScriptFileInfo cmdlet lets you to update the existing script file metadata.
+Update-ScriptFileInfo コマンドレットでは、既存のスクリプト ファイルのメタデータを更新できます。
 
-## Description
+## 説明
 
-The Update-ScriptFileInfo cmdlet updates information for a script.
-- Update-ScriptFileInfo cmdlet updates the metadata of a script file only if it was created using New-ScriptFileInfo cmdlet or with valid PSScriptInfo comment.
-- Also allows you to add the script file information to the existing script files which were not created using New-ScriptFileInfo cmdlet.
-- If –Force is specified, try to add the metadata to the existing script file which was not created using New-ScriptFileInfo cmdlet.
-- If Test-ScriptFileInfo fails with the parsing errors, after prepending the script metadata to the existing file, an error will be thrown saying something like "unable to add the metadata to the existing file, you can use the new-scriptfileinfo cmdlet to add the metadata to the existing script file which was not created using New-ScriptFileInfo cmdlet."
+更新プログラム ScriptFileInfo コマンドレットは、スクリプトの情報を更新します。
+- 更新プログラム ScriptFileInfo コマンドレットは、有効な PSScriptInfo コメントまたは新規 ScriptFileInfo コマンドレットを使用して作成された場合にのみ、スクリプト ファイルのメタデータを更新します。
+- 新規 ScriptFileInfo コマンドレットを使用して作成されませんでしたが、既存のスクリプト ファイルにスクリプト ファイルの情報を追加することができます。
+- – Force が指定されている場合は、新規 ScriptFileInfo コマンドレットを使って作成されていない既存のスクリプト ファイルにメタデータを追加する実行してください。
+- 何かを示すエラーがスローされますテスト ScriptFileInfo が既存のファイルにスクリプト メタデータを先頭に着ける後解析エラーによって失敗した場合などの"既存のファイルにメタデータを追加できません、ことができます、新しい scriptfileinfo コマンドレットを使用する新規 ScriptFileInfo コマンドレットを使って作成されていない既存のスクリプト ファイルにメタデータを追加します"。
 
-## Cmdlet syntax
+## コマンドレット構文
 
 ```powershell
 Get-Command -Name Update-ScriptFileInfo -Module PowerShellGet -Syntax
 ```
-## Cmdlet online help reference
+## コマンドレットのオンライン ヘルプ リファレンス
 
-[Update-Script](http://go.microsoft.com/fwlink/?LinkId=619793)
+[更新スクリプト](http://go.microsoft.com/fwlink/?LinkId=619793)
 
-## Example commands
+## コマンド例
 
 ```powershell
 # Use Update-ScriptFileInfo cmdlet to update the script metadata
@@ -33,7 +33,7 @@ Version Name Author Description
 ```
 
 
-### Adding the script metadata to the existing script file
+### 既存のスクリプト ファイルへのスクリプト メタデータの追加
 
 ```powershell
 PS C:\WINDOWS\system32> New-ScriptFileInfo -Description "Script file description." -PassThru
@@ -176,3 +176,7 @@ Function foo
 Foo
 
 ```
+
+<!--HONumber=Oct16_HO1-->
+
+

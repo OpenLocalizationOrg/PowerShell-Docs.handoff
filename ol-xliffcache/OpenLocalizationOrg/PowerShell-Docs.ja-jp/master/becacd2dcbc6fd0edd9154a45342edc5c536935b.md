@@ -1,23 +1,25 @@
 ---
-title:   Writing help for DSC configurations
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: "DSC 構成のヘルプの作成"
+ms.date: 2016-05-16
+keywords: PowerShell, DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: becacd2dcbc6fd0edd9154a45342edc5c536935b
+
 ---
 
-# Writing help for DSC configurations
+# DSC 構成のヘルプの作成
 
->Applies To: Windows Windows PowerShell 5.0
+>適用先: Windows PowerShell 5.0
 
-You can use comment-based help in DSC configurations. Users can access the help by calling the configuration function with `-?`, or by using the 
-[Get-Help](https://technet.microsoft.com/en-us/library/hh849696.aspx) cmdlet. For more information about PowerShell comment-based help, see 
-[about_Comment_Based_Help](https://technet.microsoft.com/en-us/library/hh847834.aspx).
+DSC 構成では、コメント ベースのヘルプを使用できます。 ユーザーは、構成関数に `-?` を付けて呼び出すか、[Get-Help](https://technet.microsoft.com/en-us/library/hh849696.aspx) コマンドレットを使用することで、ヘルプにアクセスできます。 PowerShell のコメント ベースのヘルプの詳細については、「[about_Comment_Based_Help](https://technet.microsoft.com/en-us/library/hh847834.aspx)」を参照してください。
 
-The following example shows a script that contains a configuration and comment-based help for it:
+次の例では、構成のコメント ベースのヘルプを含むスクリプトを示します。
 
 ```powershell
 <#
@@ -52,19 +54,18 @@ This example will be labeled "EXAMPLE 2" when help is displayed to the user.
 
 configuration HelpSample1
 {
-    param([string]$ComputerName,[string]$FilePath)
-    File f
-    {
-		Contents="Hello World"
-        DestinationPath = "c:\Destination.txt"
-    }
+    param([string]$ComputerName,[string]$FilePath)
+    File f
+    {
+        Contents="Hello World"
+        DestinationPath = "c:\Destination.txt"
+    }
 }
 ```
 
-## Viewing configuration help
+## 構成のヘルプの表示
 
-To view the help for a configuration, use the **Get-Help** cmdlet with the name of the function, or type the name of the function followed by `-?`. The following is the output
-of the previous function when passed to **Get-Help**:
+構成のヘルプを表示するには、**Get-Help** コマンドレットに関数名を付けて使うか、関数名の後に「`-?`」と入力します。 前の関数を **Get-Help** に渡した場合の出力を次に示します。
 
 ```powershell
 PS C:\> Get-Help HelpSample1
@@ -93,6 +94,12 @@ REMARKS
     For technical information, type: "get-help HelpSample1 -full".
 ```
 
-## See Also
-* [DSC Configurations](configurations.md)
+## 参照
+* [DSC 構成](configurations.md)
+
+
+
+
+<!--HONumber=Oct16_HO1-->
+
 

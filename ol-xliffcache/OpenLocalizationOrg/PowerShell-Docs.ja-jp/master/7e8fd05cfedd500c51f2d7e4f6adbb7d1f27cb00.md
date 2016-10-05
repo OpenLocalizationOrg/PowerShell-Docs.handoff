@@ -1,20 +1,24 @@
 ---
-title:  Selecting Items from a List Box
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  327c7cc5-21d0-4ace-b151-aa1491d1d3c2
+title: "リスト ボックスから項目を選択する"
+ms.date: 2016-05-11
+keywords: "PowerShell, コマンドレット"
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: 327c7cc5-21d0-4ace-b151-aa1491d1d3c2
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 7e8fd05cfedd500c51f2d7e4f6adbb7d1f27cb00
+
 ---
 
-# Selecting Items from a List Box
-Use Windows PowerShell 3.0 and later releases to create a dialog box that lets users select items from a list box control.
+# リスト ボックスから項目を選択する
+Windows PowerShell 3.0 以降のリリースを使用すると、ユーザーがリスト ボックス コントロールから項目を選択できるダイアログ ボックスを作成できます。
 
-## Create a list box control, and select items from it
-Copy and then paste the following into Windows PowerShell ISE, and then save it as a Windows PowerShell script (.ps1).
+## リスト ボックス コントロールを作成してそこから項目を選択する
+以下を Windows PowerShell ISE にコピーしてから貼り付け、Windows PowerShell スクリプト (.ps1) として保存します。
 
 ```
 Add-Type -AssemblyName System.Windows.Forms
@@ -73,20 +77,20 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 }
 ```
 
-The script begins by loading two .NET Framework classes: **System.Drawing** and **System.Windows.Forms**. You then start a new instance of the .NET Framework class **System.Windows.Forms.Form**; that provides a blank form or window to which you can start adding controls.
+このスクリプトは 2 つの .NET Framework クラス、つまり **System.Drawing** と **System.Windows.Forms** を最初に読み込みます。 次に、.NET Framework クラス **System.Windows.Forms.Form** の新しいインスタンスを開始します。これにより、コントロールの追加を開始する空白のフォームまたはウィンドウが作成されます。
 
 ```
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 ```
 
-After you create an instance of the Form class, assign values to three properties of this class.
+フォーム クラスのインスタンスを作成したら、このクラスの次の 3 つのプロパティに値を割り当てます。
 
--   **Text.** This becomes the title of the window.
+-   **テキストです。** ウィンドウのタイトルになります。
 
--   **Size.** This is the size of the form, in pixels. The preceding script creates a form that’s 300 pixels wide by 200 pixels tall.
+-   **サイズ。** フォームのサイズをピクセル単位で表します。 前述のスクリプトにより、幅 300 ピクセル、高さ 200 ピクセルのフォームが作成されます。
 
--   **StartingPosition.** This optional property is set to **CenterScreen** in the preceding script. If you don’t add this property, Windows selects a location when the form is opened. By setting the **StartingPosition** to **CenterScreen**, you’re automatically displaying the form in the middle of the screen each time it loads.
+-   **StartingPosition します。** 前述のスクリプトでは、この省略可能なプロパティは **CenterScreen** に設定されています。 このプロパティを追加しない場合、Windows はフォームを開いたときの場所を選択します。 **StartingPosition** を **CenterScreen** に設定すると、フォームを読み込むたびに、フォームが画面中央に自動的に表示されます。
 
 ```
 $form.Text = "Select a Computer"
@@ -94,7 +98,7 @@ $form.Size = New-Object System.Drawing.Size(300,200)
 $form.StartPosition = "CenterScreen"
 ```
 
-Next, create an **OK** button for your form. Specify the size and behavior of the **OK** button. In this example, the button position is 120 pixels from the form’s top edge, and 75 pixels from the left edge. The button height is 23 pixels, while the button length is 75 pixels. The script uses predefined Windows Forms types to determine the button behaviors.
+次に、フォームに **[OK]** ボタンを作成します。 **[OK]** ボタンのサイズと動作を指定します。 この例では、ボタンの位置は、フォームの上端から 120 ピクセル、左端から 75 ピクセルです。 ボタンの高さは 23 ピクセル、ボタンの幅は 75 ピクセルです。 スクリプトは、ボタンの動作を決定するために定義済みの Windows フォームの型を使用します。
 
 ```
 $OKButton = New-Object System.Windows.Forms.Button
@@ -106,7 +110,7 @@ $form.AcceptButton = $OKButton
 $form.Controls.Add($OKButton)
 ```
 
-Similarly, you create a **Cancel** button. The **Cancel** button is 120 pixels from the top, but 150 pixels from the left edge of the window.
+同様に、**[キャンセル]** ボタンを作成します。 **[キャンセル]** ボタンの位置は、ウィンドウの最上部から 120 ピクセル、左端から 150 ピクセルです。
 
 ```
 $CancelButton = New-Object System.Windows.Forms.Button
@@ -118,7 +122,7 @@ $form.CancelButton = $CancelButton
 $form.Controls.Add($CancelButton)
 ```
 
-Next, provide label text on your window that describes the information you want users to provide. In this case, you want users to select a computer.
+次に、ユーザーに提供する情報を記述するラベルのテキストをウィンドウ上に用意します。 この場合は、ユーザーにコンピューターを選択してもらいます。
 
 ```
 $label = New-Object System.Windows.Forms.Label
@@ -128,7 +132,7 @@ $label.Text = "Please select a computer:"
 $form.Controls.Add($label)
 ```
 
-Add the control (in this case, a list box) that lets users provide the information you’ve described in your label text. There are many other controls you can apply besides list boxes; for more controls, see [System.Windows.Forms Namespace](http://msdn.microsoft.com/library/k50ex0x9(v=vs.110).aspx) on MSDN.
+ラベルのテキストに記述した情報をユーザーに提供するコントロール (この場合はリスト ボックス) を追加します。 リスト ボックスに加えて、他に多数の適用可能なコントロールがあります。その他のコントロールについては、MSDN の「[System.Windows.Forms 名前空間](http://msdn.microsoft.com/library/k50ex0x9(v=vs.110).aspx)」を参照してください。
 
 ```
 $listBox = New-Object System.Windows.Forms.ListBox 
@@ -137,10 +141,10 @@ $listBox.Size = New-Object System.Drawing.Size(260,20)
 $listBox.Height = 80
 ```
 
-In the next section, you specify the values you want the list box to display to users.
+次のセクションでは、リスト ボックスでユーザーに対して表示する値を指定します。
 
 > [!NOTE]
-> The list box created by this script allows only one selection. To create a list box control that allows multiple selections, specify a value for the **SelectionMode** property, similarly to the following:  `$listBox.SelectionMode = "MultiExtended"`. For more information, see [Multiple-selection List Boxes](Multiple-selection-List-Boxes.md).
+> このスクリプトによって作成されるリスト ボックスでは、1 つの選択肢のみが許可されています。 複数の選択肢を指定できるリスト ボックス コントロールを作成するには、`$listBox.SelectionMode = "MultiExtended"` と同様に **SelectionMode** プロパティの値を指定します。 詳しくは、「[複数選択のリスト ボックス](Multiple-selection-List-Boxes.md)」を参照してください。
 
 ```
 [void] $listBox.Items.Add("atl-dc-001")
@@ -152,31 +156,37 @@ In the next section, you specify the values you want the list box to display to 
 [void] $listBox.Items.Add("atl-dc-007")
 ```
 
-Add the list box control to your form, and instruct Windows to open the form atop other windows and dialog boxes when it’s opened.
+リスト ボックス コントロールをフォームに追加してから、フォームを開くときに他のウィンドウとダイアログ ボックスの最上部に開くよう、Windows に指示します。
 
 ```
 $form.Controls.Add($listBox) 
 $form.Topmost = $True
 ```
 
-Add the following line of code to display the form in Windows.
+次のコード行を追加して、Windows でフォームを表示します。
 
 ```
 $result = $form.ShowDialog()
 ```
 
-Finally, the code inside the **If** block instructs Windows what to do with the form after users select an option from the list box, and then click the **OK** button or press the **Enter** key.
+最後に、**If** ブロック内のコードは、ユーザーがリスト ボックスからオプションを選択した後のフォームの操作を Windows に指示します。その後、**[OK]** ボタンをクリックするか、**Enter** キーを押します。
 
 ```
 if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 {
-    $x = $listBox.SelectedItem
-    $x
+    $x = $listBox.SelectedItem
+    $x
 }
 ```
 
-## See Also
-[Hey Scripting Guy:  Why don’t these PowerShell GUI examples work?](http://go.microsoft.com/fwlink/?LinkId=506644)
-[GitHub: Dave Wyatt's WinFormsExampleUpdates](https://github.com/dlwyatt/WinFormsExampleUpdates)
-[Windows PowerShell Tip of the Week:  Selecting Items from a List Box](http://technet.microsoft.com/library/ff730949.aspx)
+## 参照
+[Hey Scripting Guy これらの PowerShell GUI 例が機能しない理由ですか?](http://go.microsoft.com/fwlink/?LinkId=506644)
+[。GitHub: Dave Wyatt の WinFormsExampleUpdates](https://github.com/dlwyatt/WinFormsExampleUpdates)
+[今週の Windows PowerShell ヒント: リスト ボックスから項目を選択します。](http://technet.microsoft.com/library/ff730949.aspx)
+
+
+
+
+<!--HONumber=Oct16_HO1-->
+
 
