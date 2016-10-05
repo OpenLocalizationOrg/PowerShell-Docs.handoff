@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">897f751eab3149d2c5de728042148e9d7c0bb1db</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Xamarin\Index.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b19f6e560b63c6a3f717457df232d9bc1a8d04f1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfd6c8e51e43b6cf7da74d7c7d1932183049215e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>id:{33C83E13-F3E5-17B4-6512-207F3D3C5AB6}</source>
+          <target state="new">id:{33C83E13-F3E5-17B4-6512-207F3D3C5AB6}</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>title:Introduction to Mobile Development</source>
+          <target state="new">title:Introduction to Mobile Development</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>pdftype:none</source>
+          <target state="new">pdftype:none</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>article:<bpt id="p1">[</bpt>Hello, iOS<ept id="p1">](/guides/ios/getting_started/hello,_world)</ept></source>
+          <target state="new">article:<bpt id="p1">[</bpt>Hello, iOS<ept id="p1">](/guides/ios/getting_started/hello,_world)</ept></target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>article:<bpt id="p1">[</bpt>Hello, Android<ept id="p1">](/guides/android/getting_started/hello,_world)</ept></source>
+          <target state="new">article:<bpt id="p1">[</bpt>Hello, Android<ept id="p1">](/guides/android/getting_started/hello,_world)</ept></target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>xamu: <bpt id="p1">[</bpt>Xamarin University<ept id="p1">](https://university.xamarin.com/)</ept></source>
+          <target state="new">xamu: <bpt id="p1">[</bpt>Xamarin University<ept id="p1">](https://university.xamarin.com/)</ept></target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>sample: <bpt id="p1">[</bpt>Samples<ept id="p1">](/samples-all/)</ept></source>
+          <target state="new">sample: <bpt id="p1">[</bpt>Samples<ept id="p1">](/samples-all/)</ept></target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>vide: <bpt id="p1">[</bpt>Videos<ept id="p1">](/videos/)</ept></source>
+          <target state="new">vide: <bpt id="p1">[</bpt>Videos<ept id="p1">](/videos/)</ept></target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Building mobile applications can be as easy as opening up your IDE, throwing something together, doing a quick bit of testing, and submitting to an App Store – all done in an afternoon.</source>
+          <target state="new">Building mobile applications can be as easy as opening up your IDE, throwing something together, doing a quick bit of testing, and submitting to an App Store – all done in an afternoon.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Or it can be an extremely involved process that involves rigorous up-front design, usability testing, QA testing on thousands of devices, a full beta lifecycle, and then deployment a number of different ways.</source>
+          <target state="new">Or it can be an extremely involved process that involves rigorous up-front design, usability testing, QA testing on thousands of devices, a full beta lifecycle, and then deployment a number of different ways.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this document, we’re going to take a thorough introductory examination of building a Xamarin mobile application, including:</source>
+          <target state="new">In this document, we’re going to take a thorough introductory examination of building a Xamarin mobile application, including:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt> <bpt id="p2">**</bpt>Requirements<ept id="p2">**</ept><ept id="p1">](#Requirements)</ept> – We’ll enumerate and examine the requirements for building for iOS and Android applications.</source>
+          <target state="new"><bpt id="p1">[</bpt> <bpt id="p2">**</bpt>Requirements<ept id="p2">**</ept><ept id="p1">](#Requirements)</ept> – We’ll enumerate and examine the requirements for building for iOS and Android applications.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt> <bpt id="p2">**</bpt>Introduction to Xamarin<ept id="p2">**</ept><ept id="p1">](#Introduction_to_Xamarin)</ept> – List of features of the Xamarin platform.</source>
+          <target state="new"><bpt id="p1">[</bpt> <bpt id="p2">**</bpt>Introduction to Xamarin<ept id="p2">**</ept><ept id="p1">](#Introduction_to_Xamarin)</ept> – List of features of the Xamarin platform.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt> <bpt id="p2">**</bpt>How Does Xamarin Work?<ept id="p2">**</ept><ept id="p1">](#How_Does_Xamarin_Work)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt> <bpt id="p2">**</bpt>How Does Xamarin Work?<ept id="p2">**</ept><ept id="p1">](#How_Does_Xamarin_Work)</ept></target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>– A brief overview of how Xamarin works to bring C# to iOS and Android.</source>
+          <target state="new">– A brief overview of how Xamarin works to bring C# to iOS and Android.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt> <bpt id="p2">**</bpt>Get started!<ept id="p2">**</ept><ept id="p1">](#Sample_App)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt> <bpt id="p2">**</bpt>Get started!<ept id="p2">**</ept><ept id="p1">](#Sample_App)</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>– Dive in to building your first Xamarin app, for iOS, Android, or all the platforms using Xamarin.Forms.</source>
+          <target state="new">– Dive in to building your first Xamarin app, for iOS, Android, or all the platforms using Xamarin.Forms.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This document is intended to introduce the Xamarin platform.</source>
+          <target state="new">This document is intended to introduce the Xamarin platform.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To learn more about the <bpt id="p1">*</bpt>process<ept id="p1">*</ept> of building mobile applications from design through to testing, refer to the <bpt id="p2">[</bpt>Introduction to the Mobile Software Development Lifecycle<ept id="p2">](/guides/cross-platform/getting_started/introduction_to_mobile_sdlc/)</ept> document.</source>
+          <target state="new">To learn more about the <bpt id="p1">*</bpt>process<ept id="p1">*</ept> of building mobile applications from design through to testing, refer to the <bpt id="p2">[</bpt>Introduction to the Mobile Software Development Lifecycle<ept id="p2">](/guides/cross-platform/getting_started/introduction_to_mobile_sdlc/)</ept> document.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Requirements</source>
+          <target state="new">Requirements</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you’d like to develop for iOS, whether you want to code in Xamarin Studio or Visual Studio, you must have an Apple Macintosh computer running at least OS X Yosemite on hand.</source>
+          <target state="new">If you’d like to develop for iOS, whether you want to code in Xamarin Studio or Visual Studio, you must have an Apple Macintosh computer running at least OS X Yosemite on hand.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Although Xamarin applications are based on the .NET BCL and are written in C#, Xamarin.iOS requires the iOS SDK and Xcode in order to compile.</source>
+          <target state="new">Although Xamarin applications are based on the .NET BCL and are written in C#, Xamarin.iOS requires the iOS SDK and Xcode in order to compile.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Additionally, the iOS Device Simulator is part of the iOS SDK, and therefore only available on Mac.</source>
+          <target state="new">Additionally, the iOS Device Simulator is part of the iOS SDK, and therefore only available on Mac.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In order to download the iOS SDK, you must install Xcode, which can be downloaded for free from the App Store.</source>
+          <target state="new">In order to download the iOS SDK, you must install Xcode, which can be downloaded for free from the App Store.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In addition to the iOS SDK, Xcode will also install iOS simulator for development and testing, and with the addition of free provisioning in Xcode 7, it is possible to test on device without being part of the Apple Developer program.</source>
+          <target state="new">In addition to the iOS SDK, Xcode will also install iOS simulator for development and testing, and with the addition of free provisioning in Xcode 7, it is possible to test on device without being part of the Apple Developer program.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>⚠️ in order to distribute your Xamarin.iOS you must be a member of <bpt id="p1">[</bpt>Apple’s Developer Program<ept id="p1">](http://developer.apple.com/)</ept>.</source>
+          <target state="new">⚠️ in order to distribute your Xamarin.iOS you must be a member of <bpt id="p1">[</bpt>Apple’s Developer Program<ept id="p1">](http://developer.apple.com/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This program requires an upgraded membership that costs $99 USD/year.</source>
+          <target state="new">This program requires an upgraded membership that costs $99 USD/year.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>All the tutorials presented here are based on the latest version.</source>
+          <target state="new">All the tutorials presented here are based on the latest version.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Installation is covered in the next tutorial.</source>
+          <target state="new">Installation is covered in the next tutorial.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Introduction to Xamarin</source>
+          <target state="new">Introduction to Xamarin</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When considering how to build iOS and Android applications, many people think that the native languages, Objective-C, Swift, and Java, are the only choice.</source>
+          <target state="new">When considering how to build iOS and Android applications, many people think that the native languages, Objective-C, Swift, and Java, are the only choice.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>However, over the past few years, an entire new ecosystem of platforms for building mobile applications has emerged.</source>
+          <target state="new">However, over the past few years, an entire new ecosystem of platforms for building mobile applications has emerged.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Xamarin is unique in this space by offering a single language – C#, class library, and runtime that works across all three mobile platforms of iOS, Android, and Windows Phone (Windows Phone’s native language is already C#), while still compiling native (non-interpreted) applications that are performant enough even for demanding games.</source>
+          <target state="new">Xamarin is unique in this space by offering a single language – C#, class library, and runtime that works across all three mobile platforms of iOS, Android, and Windows Phone (Windows Phone’s native language is already C#), while still compiling native (non-interpreted) applications that are performant enough even for demanding games.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Each of these platforms has a different feature set and each varies in its ability to write native applications – that is, applications that compile down to native code and that interop fluently with the underlying Java subsystem.</source>
+          <target state="new">Each of these platforms has a different feature set and each varies in its ability to write native applications – that is, applications that compile down to native code and that interop fluently with the underlying Java subsystem.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, some platforms only allow you to build apps in HTML and JavaScript, whereas some are very low-level and only allow C/C++ code.</source>
+          <target state="new">For example, some platforms only allow you to build apps in HTML and JavaScript, whereas some are very low-level and only allow C/C++ code.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Some platforms don’t even utilize the native control toolkit.</source>
+          <target state="new">Some platforms don’t even utilize the native control toolkit.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Xamarin is unique in that it combines all of the power of the native platforms and adds a number of powerful features of its own, including:</source>
+          <target state="new">Xamarin is unique in that it combines all of the power of the native platforms and adds a number of powerful features of its own, including:</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Complete Binding for the underlying SDKs<ept id="p1">**</ept> – Xamarin contains bindings for nearly the entire underlying platform SDKs in both iOS and Android.</source>
+          <target state="new"><bpt id="p1">**</bpt>Complete Binding for the underlying SDKs<ept id="p1">**</ept> – Xamarin contains bindings for nearly the entire underlying platform SDKs in both iOS and Android.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Additionally, these bindings are strongly-typed, which means that they’re easy to navigate and use, and provide robust compile-time type checking and during development.</source>
+          <target state="new">Additionally, these bindings are strongly-typed, which means that they’re easy to navigate and use, and provide robust compile-time type checking and during development.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This leads to fewer runtime errors and higher quality applications.</source>
+          <target state="new">This leads to fewer runtime errors and higher quality applications.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Objective-C, Java, C, and C++ Interop<ept id="p1">**</ept> – Xamarin provides facilities for directly invoking Objective-C, Java, C, and C++ libraries, giving you the power to use a wide array of 3rd party code that has already been created.</source>
+          <target state="new"><bpt id="p1">**</bpt>Objective-C, Java, C, and C++ Interop<ept id="p1">**</ept> – Xamarin provides facilities for directly invoking Objective-C, Java, C, and C++ libraries, giving you the power to use a wide array of 3rd party code that has already been created.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This lets you take advantage of existing iOS and Android libraries written in Objective-C, Java or C/C++.</source>
+          <target state="new">This lets you take advantage of existing iOS and Android libraries written in Objective-C, Java or C/C++.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Additionally, Xamarin offers binding projects that allow you to easily bind native Objective-C and Java libraries using a declarative syntax.</source>
+          <target state="new">Additionally, Xamarin offers binding projects that allow you to easily bind native Objective-C and Java libraries using a declarative syntax.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Modern Language Constructs<ept id="p1">**</ept> – Xamarin applications are written in C#, a modern language that includes significant improvements over Objective-C and Java such as  <bpt id="p2">*</bpt>Dynamic Language Features<ept id="p2">*</ept> ,  <bpt id="p3">*</bpt>Functional Constructs<ept id="p3">*</ept> such as  <bpt id="p4">*</bpt>Lambdas<ept id="p4">*</ept> ,  <bpt id="p5">*</bpt>LINQ<ept id="p5">*</ept> ,  <bpt id="p6">*</bpt>Parallel Programming<ept id="p6">*</ept> features, sophisticated  <bpt id="p7">*</bpt>Generics<ept id="p7">*</ept> , and more.</source>
+          <target state="new"><bpt id="p1">**</bpt>Modern Language Constructs<ept id="p1">**</ept> – Xamarin applications are written in C#, a modern language that includes significant improvements over Objective-C and Java such as  <bpt id="p2">*</bpt>Dynamic Language Features<ept id="p2">*</ept> ,  <bpt id="p3">*</bpt>Functional Constructs<ept id="p3">*</ept> such as  <bpt id="p4">*</bpt>Lambdas<ept id="p4">*</ept> ,  <bpt id="p5">*</bpt>LINQ<ept id="p5">*</ept> ,  <bpt id="p6">*</bpt>Parallel Programming<ept id="p6">*</ept> features, sophisticated  <bpt id="p7">*</bpt>Generics<ept id="p7">*</ept> , and more.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Amazing Base Class Library (BCL)<ept id="p1">**</ept> – Xamarin applications use the .NET BCL, a massive collection of classes that have comprehensive and streamlined features such as powerful XML, Database, Serialization, IO, String, and Networking support, just to name a few.</source>
+          <target state="new"><bpt id="p1">**</bpt>Amazing Base Class Library (BCL)<ept id="p1">**</ept> – Xamarin applications use the .NET BCL, a massive collection of classes that have comprehensive and streamlined features such as powerful XML, Database, Serialization, IO, String, and Networking support, just to name a few.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Additionally, existing C# code can be compiled for use in your applications, which provides access to thousands upon thousands of libraries that will let you do things that aren’t already covered in the BCL.</source>
+          <target state="new">Additionally, existing C# code can be compiled for use in your applications, which provides access to thousands upon thousands of libraries that will let you do things that aren’t already covered in the BCL.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Modern Integrated Development Environment (IDE)<ept id="p1">**</ept> – Xamarin uses Xamarin Studio on Mac OS X, and also Xamarin Studio or Visual Studio on Windows.</source>
+          <target state="new"><bpt id="p1">**</bpt>Modern Integrated Development Environment (IDE)<ept id="p1">**</ept> – Xamarin uses Xamarin Studio on Mac OS X, and also Xamarin Studio or Visual Studio on Windows.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>These are both modern IDE’s that include features such as code auto completion, a sophisticated Project and Solution management system, a comprehensive project template library, integrated source control, and many others.</source>
+          <target state="new">These are both modern IDE’s that include features such as code auto completion, a sophisticated Project and Solution management system, a comprehensive project template library, integrated source control, and many others.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Mobile Cross Platform Support<ept id="p1">**</ept> – Xamarin offers sophisticated cross-platform support for the three major mobile platforms of iOS, Android, and Windows Phone.</source>
+          <target state="new"><bpt id="p1">**</bpt>Mobile Cross Platform Support<ept id="p1">**</ept> – Xamarin offers sophisticated cross-platform support for the three major mobile platforms of iOS, Android, and Windows Phone.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Applications can be written to share up to 90% of their code, and our Xamarin.Mobile library offers a unified API to access common resources across all three platforms.</source>
+          <target state="new">Applications can be written to share up to 90% of their code, and our Xamarin.Mobile library offers a unified API to access common resources across all three platforms.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This can significantly reduce both development costs and time to market for mobile developers that target the three most popular mobile platforms.</source>
+          <target state="new">This can significantly reduce both development costs and time to market for mobile developers that target the three most popular mobile platforms.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Because of Xamarin’s powerful and comprehensive feature set, it fills a void for application developers that want to use a modern language and platform to develop cross-platform mobile applications.</source>
+          <target state="new">Because of Xamarin’s powerful and comprehensive feature set, it fills a void for application developers that want to use a modern language and platform to develop cross-platform mobile applications.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>ℹ️ This Getting Started series focuses on getting started building iOS and Android applications.</source>
+          <target state="new">ℹ️ This Getting Started series focuses on getting started building iOS and Android applications.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you’re interested in building for Windows Phone, Microsoft offers tutorials <bpt id="p1">[</bpt>here<ept id="p1">](http://dev.windowsphone.com/en-us/develop)</ept>.</source>
+          <target state="new">If you’re interested in building for Windows Phone, Microsoft offers tutorials <bpt id="p1">[</bpt>here<ept id="p1">](http://dev.windowsphone.com/en-us/develop)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If you’re interested in learning more about cross-platform development with Xamarin (including Windows Phone), you can find our guide <bpt id="p1">[</bpt>here<ept id="p1">](/guides/ios/application_fundamentals/building_cross_platform_applications)</ept>.</source>
+          <target state="new">If you’re interested in learning more about cross-platform development with Xamarin (including Windows Phone), you can find our guide <bpt id="p1">[</bpt>here<ept id="p1">](/guides/ios/application_fundamentals/building_cross_platform_applications)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Let’s take a look at how this all works.</source>
+          <target state="new">Let’s take a look at how this all works.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>How Does Xamarin Work?</source>
+          <target state="new">How Does Xamarin Work?</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Xamarin offers two commercial products: Xamarin.iOS and Xamarin.Android.</source>
+          <target state="new">Xamarin offers two commercial products: Xamarin.iOS and Xamarin.Android.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>They’re both built on top of <bpt id="p1">*</bpt>Mono<ept id="p1">*</ept>, an open-source version of the .NET Framework based on the published .NET ECMA standards.</source>
+          <target state="new">They’re both built on top of <bpt id="p1">*</bpt>Mono<ept id="p1">*</ept>, an open-source version of the .NET Framework based on the published .NET ECMA standards.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Mono has been around almost as long as the .NET framework itself, and runs on nearly every imaginable platform including Linux, Unix, FreeBSD, and Mac OS X.</source>
+          <target state="new">Mono has been around almost as long as the .NET framework itself, and runs on nearly every imaginable platform including Linux, Unix, FreeBSD, and Mac OS X.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>On iOS, Xamarin’s <bpt id="p1">*</bpt>Ahead-of-Time<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>AOT<ept id="p2">*</ept>) Compiler compiles Xamarin.iOS applications directly to native ARM assembly code.</source>
+          <target state="new">On iOS, Xamarin’s <bpt id="p1">*</bpt>Ahead-of-Time<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>AOT<ept id="p2">*</ept>) Compiler compiles Xamarin.iOS applications directly to native ARM assembly code.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>On Android, Xamarin’s compiler compiles down to <bpt id="p1">*</bpt>Intermediate Language<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>IL<ept id="p2">*</ept>), which is then <bpt id="p3">*</bpt>Just-in-Time<ept id="p3">*</ept> ( <bpt id="p4">*</bpt>JIT<ept id="p4">*</ept>) compiled to native assembly when the application launches.</source>
+          <target state="new">On Android, Xamarin’s compiler compiles down to <bpt id="p1">*</bpt>Intermediate Language<ept id="p1">*</ept> ( <bpt id="p2">*</bpt>IL<ept id="p2">*</ept>), which is then <bpt id="p3">*</bpt>Just-in-Time<ept id="p3">*</ept> ( <bpt id="p4">*</bpt>JIT<ept id="p4">*</ept>) compiled to native assembly when the application launches.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In both cases, Xamarin applications utilize a runtime that automatically handles things such as memory allocation, garbage collection, underlying platform interop, etc.</source>
+          <target state="new">In both cases, Xamarin applications utilize a runtime that automatically handles things such as memory allocation, garbage collection, underlying platform interop, etc.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>[[ide name="vs"]] This will contain information about <bpt id="p1">_</bpt>Visual Studio<ept id="p1">_</ept>.</source>
+          <target state="new">[[ide name="vs"]] This will contain information about <bpt id="p1">_</bpt>Visual Studio<ept id="p1">_</ept>.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This will be <bpt id="p1">[</bpt>markdown<ept id="p1">](https://xamarin.com)</ept> [[/ide]]</source>
+          <target state="new">This will be <bpt id="p1">[</bpt>markdown<ept id="p1">](https://xamarin.com)</ept> [[/ide]]</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>[[ide name="xs"]] This will contain information about <bpt id="p1">_</bpt>Xamarin Studio<ept id="p1">_</ept>.</source>
+          <target state="new">[[ide name="xs"]] This will contain information about <bpt id="p1">_</bpt>Xamarin Studio<ept id="p1">_</ept>.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This will be <bpt id="p1">[</bpt>markdown<ept id="p1">](https://xamarin.com)</ept> [[/ide]]</source>
+          <target state="new">This will be <bpt id="p1">[</bpt>markdown<ept id="p1">](https://xamarin.com)</ept> [[/ide]]</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>MonoTouch.dll and Mono.Android.dll</source>
+          <target state="new">MonoTouch.dll and Mono.Android.dll</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Xamarin applications are built against a subset of the .NET BCL known as the Xamarin Mobile Profile.</source>
+          <target state="new">Xamarin applications are built against a subset of the .NET BCL known as the Xamarin Mobile Profile.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This profile has been created specifically for mobile applications and packaged in the MonoTouch.dll and Mono.Android.dll (for iOS and Android respectively).</source>
+          <target state="new">This profile has been created specifically for mobile applications and packaged in the MonoTouch.dll and Mono.Android.dll (for iOS and Android respectively).</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This is much like the way Silverlight (and Moonlight) applications are built against the Silverlight/Moonlight .NET Profile.</source>
+          <target state="new">This is much like the way Silverlight (and Moonlight) applications are built against the Silverlight/Moonlight .NET Profile.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>In fact, the Xamarin Mobile profile is equivalent to the Silverlight 4.0 profile with a bunch of BCL classes added back in.</source>
+          <target state="new">In fact, the Xamarin Mobile profile is equivalent to the Silverlight 4.0 profile with a bunch of BCL classes added back in.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For a full list of available assemblies and classes, see the <bpt id="p1">[</bpt>Xamarin.iOS Assembly List<ept id="p1">](/guides/ios/advanced_topics/assemblies)</ept> and the <bpt id="p2">[</bpt>Xamarin.Android Assembly List<ept id="p2">](/guides/android/advanced_topics/assemblies)</ept></source>
+          <target state="new">For a full list of available assemblies and classes, see the <bpt id="p1">[</bpt>Xamarin.iOS Assembly List<ept id="p1">](/guides/ios/advanced_topics/assemblies)</ept> and the <bpt id="p2">[</bpt>Xamarin.Android Assembly List<ept id="p2">](/guides/android/advanced_topics/assemblies)</ept></target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In addition to the BCL, these .dlls include wrappers for nearly the entire iOS SDK and Android SDK that allow you to invoke the underlying SDK APIs directly from C#.</source>
+          <target state="new">In addition to the BCL, these .dlls include wrappers for nearly the entire iOS SDK and Android SDK that allow you to invoke the underlying SDK APIs directly from C#.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Application Output</source>
+          <target state="new">Application Output</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When Xamarin applications are compiled, the result is an Application Package, either an .app file in iOS, or .apk file in Android.</source>
+          <target state="new">When Xamarin applications are compiled, the result is an Application Package, either an .app file in iOS, or .apk file in Android.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>These files are indistinguishable from application packages built with the platform's default IDEs and are deployable in the exact same way.</source>
+          <target state="new">These files are indistinguishable from application packages built with the platform's default IDEs and are deployable in the exact same way.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Getting Started</source>
+          <target state="new">Getting Started</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Now you've learned a little about how Xamarin works, it's time to dive in!</source>
+          <target state="new">Now you've learned a little about how Xamarin works, it's time to dive in!</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The next step is to start building your first app using one of these guides:</source>
+          <target state="new">The next step is to start building your first app using one of these guides:</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Hello, iOS<ept id="p2">**</ept><ept id="p1">](/guides/ios/getting_started/hello%2c_world)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Hello, iOS<ept id="p2">**</ept><ept id="p1">](/guides/ios/getting_started/hello%2c_world)</ept></target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Hello, Android<ept id="p2">**</ept><ept id="p1">](/guides/android/getting_started/hello%2c_world)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Hello, Android<ept id="p2">**</ept><ept id="p1">](/guides/android/getting_started/hello%2c_world)</ept></target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Introduction to Xamarin.Forms<ept id="p2">**</ept><ept id="p1">](http://developer.xamarin.com/guides/xamarin-forms/introduction-to-xamarin-forms/)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt><bpt id="p2">**</bpt>Introduction to Xamarin.Forms<ept id="p2">**</ept><ept id="p1">](http://developer.xamarin.com/guides/xamarin-forms/introduction-to-xamarin-forms/)</ept></target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+          <target state="new">Summary</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This document has merely introduced the Xamarin platform.</source>
+          <target state="new">This document has merely introduced the Xamarin platform.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The real fun starts when you get your first app up-and-running.</source>
+          <target state="new">The real fun starts when you get your first app up-and-running.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Check out the <bpt id="p1">[</bpt>Hello, iOS<ept id="p1">](/guides/ios/getting_started/hello%2c_world)</ept>, <bpt id="p2">[</bpt>Hello, Android<ept id="p2">](/guides/android/getting_started/hello%2c_world)</ept>, and <bpt id="p3">[</bpt>Introduction to Xamarin.Forms<ept id="p3">](http://developer.xamarin.com/guides/xamarin-forms/introduction-to-xamarin-forms/)</ept> guides to begin.</source>
+          <target state="new">Check out the <bpt id="p1">[</bpt>Hello, iOS<ept id="p1">](/guides/ios/getting_started/hello%2c_world)</ept>, <bpt id="p2">[</bpt>Hello, Android<ept id="p2">](/guides/android/getting_started/hello%2c_world)</ept>, and <bpt id="p3">[</bpt>Introduction to Xamarin.Forms<ept id="p3">](http://developer.xamarin.com/guides/xamarin-forms/introduction-to-xamarin-forms/)</ept> guides to begin.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
