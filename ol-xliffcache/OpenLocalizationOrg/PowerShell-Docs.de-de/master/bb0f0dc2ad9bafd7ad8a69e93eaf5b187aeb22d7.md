@@ -1,83 +1,83 @@
 # Install-Script
 
-Installs the PowerShell script files from online repositories to the local computer.
+Installiert die PowerShell-Skriptdateien von online-Repositorys auf dem lokalen Computer.
 
 
-## Description
+## Beschreibung
 
-The Install-Script cmdlet acquires a script payload from a repository, verifies that the payload is a valid PowerShell script, and copies the script file to a specified installation location.
+Das Installationsskript Cmdlet eine Nutzlast Skript aus einem Repository erhält, überprüft, ob die Nutzlast ist eine gültige PowerShell-Skript, und die Skriptdatei an einem angegebenen Speicherort kopiert.
 
-The default repositories Install-Script operates against are configurable through the Register-PSRepository, Set-PSRepository, Unregister-PSRepository, and Get-PSRepository cmdlets. When operating against multiple repositories, Install-Script installs the first script that matches the specified search criteria (Name, MinimumVersion, or MaximumVersion) from the first repository without any error.
-
-
-Install-Script cmdlet downloads one or more modules from an online gallery, validates and installs them on the local computer to the specified installation scope.
-
-The Install-Script cmdlet gets one or more modules that meet specified criteria from an online gallery, verifies that search results are valid modules, and copies module folders to the installation location.
-
-When no scope is defined, or when the value of the Scope parameter is AllUsers, the module is installed to %systemdrive%:\Program Files\WindowsPowerShell\Modules. When the value of Scope is CurrentUser, the module is installed to $home\Documents\WindowsPowerShell\Modules.
-
-You can filter your results based on minimum and exact versions of specified modules.
-
-- No Side-by-side version support for PowerShell Script files
-- Script dependency installation support
-- **Untrusted prompt:** User acceptance is required for installing the modules from an untrusted repository.
-- -Force reinstalls the installed module
-- RequiredVersion installs the specified version in SxS with existing versions on PowerShell version 5.0 or newer.
-
-Wildcards are not supported in -Name on Install-Module, Save-Module, Uninstall-Module, Install-Script, Save-Script, and Uninstall-Script cmdlets.
-
-### Scope
-Specifies the installation scope of the module. The acceptable values for this parameter are: AllUsers and CurrentUser.
-
-The default installation scope is AllUsers.
-
-The AllUsers scope lets modules be installed in a location that is accessible to all users of the computer, that is, "$env:SystemDrive\Program Files\WindowsPowerShell\Modules".
-
-The CurrentUser scope lets modules be installed only to "$home\Documents\WindowsPowerShell\Modules", so that the module is available only to the current user.
+Die Standard-Repositorys, denen Skript für die Installation ausgeführt wird, die über die Register-PSRepository, Set-PSRepository, Unregister-PSRepository und Get-PSRepository-Cmdlets konfiguriert werden. Wenn für mehrere Repositorys, installiert Installationsskript das erste Skript, das die angegebenen Suchkriterien (Name, MinimumVersion oder MaximumVersion) aus dem ersten Repository ohne Fehlermeldung entspricht.
 
 
-Specifies the installation scope of the script. Valid values are: AllUsers and CurrentUser. The default is CurrentUser.
+Installationsskript Cmdlet ein oder mehrere Module aus einer online-Katalog heruntergeladen, überprüft und installiert sie auf dem lokalen Computer auf den Bereich der angegebenen Installation.
 
-The AllUsers scope specifies to install a script to %systemdrive%:\ProgramFiles\WindowsPowerShell\Scripts so that the script is available to all users. The CurrentUser scope specifies to install the script in $home\Documents\WindowsPowerShell\Scripts so that the script is available only to the current user.
+Das Installationsskript Cmdlet Ruft ein oder mehrere Module, die aus einem Onlinekatalog angegebene Kriterien erfüllen, überprüft, ob Suchergebnisse gültige Module und Kopien Modul Ordner an den Installationsort sind.
+
+Wenn kein Bereich definiert ist oder wenn der Wert des Bereichsparameters AllUsers ist, wird das Modul %systemdrive%:\Program Files\WindowsPowerShell\Modules installiert. Wenn der Wert des Bereichs CurrentUser ist, wird das Modul $Home\Documents\WindowsPowerShell\Modules installiert.
+
+Sie können die Ergebnisse auf der Basis Mindest- und genaue Versionen der angegebenen Module filtern.
+
+- Keine Side-by-Side-versionsunterstützung für PowerShell-Skriptdateien
+- Unterstützung für Skripts Abhängigkeit-installation
+- **Nicht vertrauenswürdige auffordern:** Benutzerakzeptanz ist erforderlich für die Installation der Module von einem nicht vertrauenswürdigen Repository aus.
+- -Force neu installierte Modul installiert.
+- RequiredVersion wird die angegebene Version in SxS mit vorhandenen Versionen in PowerShell, Version 5.0 oder höher installiert.
+
+Platzhalter werden nicht unterstützt in - Namen Install-Modul speichern-Modul deinstallieren-Modul Installationsskript speichern-Skript und Deinstallationsskript Cmdlets.
+
+### Bereich
+Gibt den Bereich der Installation des Moduls. Die zulässigen Werte für diesen Parameter sind: AllUsers und CurrentUser.
+
+Der Standardbereich für die Installation ist AllUsers.
+
+Die AllUsers-Bereich kann Module, die an einem Speicherort installiert werden, die für alle Benutzer des Computers zugänglich ist "$env: SystemDrive\Program Files\WindowsPowerShell\Modules".
+
+Bereich CurrentUser kann Module, die nur auf "$Home\Documents\WindowsPowerShell\Modules", installiert werden, damit das Modul nur für den aktuellen Benutzer verfügbar ist.
+
+
+Gibt den Bereich der Installation des Skripts. Gültige Werte sind: AllUsers und CurrentUser. Der Standardwert ist CurrentUser.
+
+Die AllUsers-Bereich gibt an, dass ein Skript %systemdrive%:\ProgramFiles\WindowsPowerShell\Scripts installieren, damit das Skript für alle Benutzer verfügbar ist. Bereich CurrentUser gibt an, dass das Skript im $Home\Documents\WindowsPowerShell\Scripts installieren, damit das Skript nur für den aktuellen Benutzer verfügbar ist.
 
 
 ## NoPathUpdate
 
-- NoPathUpdate switch parameter on Install-Script cmdlet bypasses the prompt for adding the script install location to the PATH environment variable.
-- Any use of the command WITH –NoPathUpdate specified will result in no prompt and the PATH NOT being updated (force is ignorable here).
-- -Force without –NoPathUpdate will result in no prompt and the PATH will be updated.
-- If neither –Force or –NoPathUpdate are specified, the user will see the prompt.
-- All of this only applies the first time Install-Script is used in a given scope.
+- NoPathUpdate Switch-Parameter auf Installationsskript Cmdlet umgeht die Aufforderung zur PATH-Umgebungsvariable den Installationsspeicherort Skript hinzugefügt.
+- Verwendung des Befehls mit – NoPathUpdate angegebene führt keine Aufforderung des Benutzers und der Pfad nicht aktualisiert wird (hier ist Force ignoriert).
+- -Force ohne NoPathUpdate – führt keine Aufforderung, und der Pfad wird aktualisiert.
+- Wenn weder – Force oder – NoPathUpdate angegeben sind, wird dem Benutzer die Aufforderung angezeigt.
+- Dies gilt nur beim ersten Skript für die Installation in einem bestimmten Bereich verwendet wird.
 
 
-## Notes
+## Hinweise
 
-This cmdlet runs on Windows PowerShell 3.0 or later releases of Windows PowerShell, on Windows 7 or Windows 2008 R2 and later releases of Windows.
+Mit diesem Cmdlet wird auf Windows PowerShell 3.0 oder spätere Versionen von Windows PowerShell unter Windows 7 oder Windows 2008 R2 und höheren Versionen von Windows ausgeführt werden.
 
-If an installed module cannot be imported (that is, if it does not have a .psm1, .psd1, or .dll of the same name within the folder), installation fails unless you add the Force parameter to your command.
+Wenn ein installiertes Modul (d. h., verfügt es kein psm1, psd1 oder DLL-Datei mit dem gleichen Namen innerhalb des Ordners) importiert werden kann, schlägt die Installation fehl, wenn Sie den Force-Parameter auf den Befehl hinzufügen.
 
-If a version of the module on the computer matches the value specified for the Name parameter, and you have not added the MinimumVersion or RequiredVersion parameter, Install-Script silently continues without installing that module. If the MinimumVersion or RequiredVersion parameters are specified, and the existing module does not match the values in that parameter, then an error occurs. To be more specific: if the version of the currently-installed module is either lower than the value of the MinimumVersion parameter, or not equal to the value of the RequiredVersion parameter, an error occurs. If the version of the installed module is greater than the value of the MinimumVersion parameter, or equal to the value of the RequiredVersion parameter, Install-Script silently continues without installing that module.
+Wenn eine Version des Moduls auf dem Computer für den Name-Parameter angegebenen Wert entspricht, und Sie nicht den Parameter MinimumVersion oder RequiredVersion hinzugefügt haben, weiterhin Skript für die Installation im Hintergrund ohne dieses Modul wird installiert. Wenn das vorhandene Modul nicht der Werte in diesen Parameter entspricht MinimumVersion oder RequiredVersion Parameter angegeben werden, tritt ein Fehler auf. Genauer: Wenn die Version des installierten Moduls kleiner als der Wert des Parameters MinimumVersion oder nicht gleich dem Wert des Parameters RequiredVersion ist, wird ein Fehler auftritt. Ist die Version des installierten Modul größer als der Wert des Parameters MinimumVersion oder gleich dem Wert des Parameters RequiredVersion, weiterhin Skript für die Installation im Hintergrund ohne dieses Modul wird installiert.
 
-Install-Script returns an error if no module exists in the online gallery that matches the specified name.
+Skript für die Installation wird ein Fehler zurückgegeben, wenn kein Modul im Onlinekatalog vorhanden ist, die mit den angegebenen Namen übereinstimmt.
 
-To install multiple modules, specify an array of the module names, separated by commas. You cannot add MinimumVersion or RequiredVersion if you specify multiple module names.
+Um mehrere Module zu installieren, geben Sie ein Array von den Modulnamen müssen durch Kommas getrennt. Sie können MinimumVersion oder RequiredVersion hinzufügen, wenn Sie mehrere Namen angeben.
 
-By default, modules are installed to the Program Files folder, to prevent confusion when you are installing Windows PowerShell Desired State Configuration (DSC) resources.You can pipe multiple PSGetItemInfo objects to Install-Script; this is another way of specifying multiple modules to install in a single command.
+Standardmäßig werden die Module in den Ordner "Programme", um Verwechslungen zu vermeiden, bei der Installation von Windows PowerShell Desired State Configuration (DSC) Ressourcen installiert. Sie können mehrere Objekte PSGetItemInfo-Installationsskript übergeben; Dies ist eine andere Möglichkeit, mehrere Module anzugeben, in einen einzelnen Befehl zu installieren.
 
-To help prevent running modules that contain malicious code, installed modules are not automatically imported by installation. As a security best practice, evaluate module code before running any cmdlets or functions in a module for the first time.
+Zum Vermeiden von ausgeführten Module, die installierten böswilligen Code enthalten sind Module nicht automatisch durch Installation importiert. Aus Sicherheitsgründen empfiehlt es sich, Modulcode vor dem Ausführen alle Cmdlets und Funktionen in einem Modul zum ersten Mal ausgewertet.
 
 
-## Cmdlet syntax
+## Cmdlet-syntax
 
 ```powershell
 Get-Command -Name Install-Script -Module PowerShellGet -Syntax
 ```
 
-## Cmdlet online help reference
+## Online-Hilfe-Cmdlet-Referenz
 
-[Install-Script](http://go.microsoft.com/fwlink/?LinkId=619784)
+[Skript für die Installation](http://go.microsoft.com/fwlink/?LinkId=619784)
 
-## Example commands
+## Beispiele für Befehle
 
 ```powershell
 
@@ -271,7 +271,7 @@ Get-InstalledScript
 
 ```
 
-You can also use Get-Command –Name <InstalledScriptFileName> to get it. Two install locations are added to the PATH environment variable on first use of a specified scope.
+Sie können auch Get-Command – Namen <InstalledScriptFileName> erhalten. Bei der ersten Verwendung eines angegebenen Bereichs werden der Umgebungsvariablen PATH zwei Speicherorte hinzugefügt.
 ```powershell
 $env:Path -split ';'| Where-Object {$\_} | Select-Object -Last 2
 C:\\Program Files\\WindowsPowerShell\\Scripts
@@ -459,7 +459,7 @@ The scripts install location 'C:\Program Files\WindowsPowerShell\Scripts' is req
 
 ```
 
-## Install-Script cmdlet in pipeline operations
+## Installationsskript Cmdlet in der Pipeline-Vorgänge
 
 ```powershell
 
@@ -486,11 +486,11 @@ Get-InstalledModule
 
 ```
 
-## Side-by-Side Version Support on PowerShell 5.0 or newer
+## Unterstützung der gleichzeitigen Ausführung unterschiedlicher Versionen für PowerShell 5.0 oder höher
 
-PowerShellGet supports the side-by-side (SxS) module version support in Install-Script, Update-Script, and Publish-Script cmdlets that run in Windows PowerShell 5.0 or newer.
+PowerShellGet unterstützt die Side-by-Side (SxS)-Modul versionsunterstützung in Installationsskript, Update-Skript und Publish-Skript-Cmdlets, die in Windows PowerShell 5.0 oder höher ausgeführt.
 
-### Install-Script examples
+### Installationsskript Beispiele
 
 ```powershell
 # Install a version of the module
@@ -522,7 +522,7 @@ Version    Name                                Repository           Description
 
 ```
 
-## Install module with its dependencies
+## Installieren des Moduls mit Abhängigkeiten
 
 ```powershell
 
@@ -616,7 +616,7 @@ Version    Name                                Repository           Description
 
 ```
 
-## Error scenarios
+## Fehlerszenarien
 
 ```powershell
 
@@ -634,7 +634,7 @@ Install-Script ContosoClient,ContosoServer -MinimumVersion 2.0
 
 ```
 
-## Installing a script with dependent scripts and modules
+## Installieren ein Skript mit abhängigen Skripts und Module
 
 ```powershell
 # Installing a script with dependent scripts and modules
@@ -707,10 +707,10 @@ Function Test-FunctionFromScript\_Script-WithDependencies2 { Get-Date }
 Workflow Test-WorkflowFromScript\_Script-WithDependencies2 { Get-Date }
 ```
 
-## Install-Script and Get-InstalledScript cmdlets
-Install-Script cmdlet lets you to install a specific script file along with its dependencies to the specified scope. By default, scripts are installed to the AllUsers scope. Get-InstalledScript cmdlet lets you to get the list of script files which were installed using Install-Script cmdlet.
+## Die Cmdlets „Install-Script“ und „Get-InstalledScript“
+Mit dem Cmdlet „Install-Script“ können Sie eine bestimmte Skriptdatei mit ihren Abhängigkeiten im angegebenen Bereich installieren. Standardmäßig werden Skripts im Bereich „AllUsers“ installiert. Mit dem Cmdlet „Get-InstalledScript“ können Sie die Liste der Skriptdateien abrufen, die mit dem Cmdlet „Install-Script“ installiert wurden.
 
-Use note: To allow management and locating of scripts once they are installed, Install-script will create a default folder for storing scripts at $home\Documents\WindowsPowerShell\Scripts, and add that folder to your PATH environment. If modifying the path is a concern, use Save-Script instead of Install-Script. Get-InstalledScripts and Uninstall-Script can only work with scripts placed on the system using Install-Script.
+Hinweis: Um das Verwalten und Auffinden von Skripts nach ihrer Installation zu ermöglichen, erstellt „Install-Script“ unter „$home\Documents\WindowsPowerShell\Scripts“ einen Standardordner zum Speichern von Skripts und fügt diesen Ordner Ihrer Umgebungsvariablen PATH hinzu. Falls es Bedenken gegen das Ändern des Pfads gibt, verwenden Sie „Save-Script“ anstelle von „Install-Script“. „Get-InstalledScripts“ und „Uninstall-Script“ funktionieren nur mit Skripts, die mit „Install-Script“ auf dem System installiert wurden.
 ```powershell
 # Install locations for scripts:
 # Default scope is AllUsers.
@@ -766,7 +766,7 @@ InstalledLocation : C:\\Users\\manikb\\Documents\\WindowsPowerShell\\Scripts
 Installed script file is immediately available for usage.
 ```
 
-You can also use Get-Command –Name <InstalledScriptFileName> to get it. Two install locations are added to the PATH environment variable on first use of a specified scope.
+Sie können auch Get-Command – Namen <InstalledScriptFileName> erhalten. Bei der ersten Verwendung eines angegebenen Bereichs werden der Umgebungsvariablen PATH zwei Speicherorte hinzugefügt.
 ```powershell
 $env:Path -split ';'| Where-Object {$\_} | Select-Object -Last 2
 C:\\Program Files\\WindowsPowerShell\\Scripts
@@ -887,3 +887,8 @@ Param()
 Function Test-FunctionFromScript\_Script-WithDependencies2 { Get-Date }
 Workflow Test-WorkflowFromScript\_Script-WithDependencies2 { Get-Date }
 ```
+
+
+<!--HONumber=Oct16_HO1-->
+
+

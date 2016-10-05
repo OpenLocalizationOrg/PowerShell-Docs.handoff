@@ -1,20 +1,24 @@
 ---
-title:  Selecting Items from a List Box
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  327c7cc5-21d0-4ace-b151-aa1491d1d3c2
+title: "Auswählen von Elementen aus einem Listenfeld"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: 327c7cc5-21d0-4ace-b151-aa1491d1d3c2
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: 7e8fd05cfedd500c51f2d7e4f6adbb7d1f27cb00
+
 ---
 
-# Selecting Items from a List Box
-Use Windows PowerShell 3.0 and later releases to create a dialog box that lets users select items from a list box control.
+# Auswählen von Elementen aus einem Listenfeld
+Verwenden Sie Windows PowerShell 3.0 und spätere Versionen zur Erstellung eines Dialogfelds, in dem Benutzer Elemente aus einem Listenfeld-Steuerelement auswählen können.
 
-## Create a list box control, and select items from it
-Copy and then paste the following into Windows PowerShell ISE, and then save it as a Windows PowerShell script (.ps1).
+## Erstellen Sie ein Listenfeld-Steuerelement, und wählen Sie Elemente daraus aus
+Kopieren und fügen Sie Folgendes in Windows PowerShell ISE ein, und speichern Sie es als Windows PowerShell-Skript (.ps1).
 
 ```
 Add-Type -AssemblyName System.Windows.Forms
@@ -73,20 +77,20 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 }
 ```
 
-The script begins by loading two .NET Framework classes: **System.Drawing** and **System.Windows.Forms**. You then start a new instance of the .NET Framework class **System.Windows.Forms.Form**; that provides a blank form or window to which you can start adding controls.
+Das Skript beginnt mit dem Laden von zwei .NET Framework-Klassen: **System.Drawing** und **System.Windows.Forms**. Sie starten daraufhin eine neue Instanz der .NET Framework-Klasse **System.Windows.Forms.Form**, die ein leeres Formular oder Fenster bereitstellt, zu dem Sie Steuerelemente hinzufügen können.
 
 ```
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 ```
 
-After you create an instance of the Form class, assign values to three properties of this class.
+Nachdem Sie eine Instanz der Formularklasse erstellt haben, ordnen Sie drei Eigenschaften dieser Klasse Werte zu.
 
--   **Text.** This becomes the title of the window.
+-   **Text.** Dies wird der Titel des Fensters.
 
--   **Size.** This is the size of the form, in pixels. The preceding script creates a form that’s 300 pixels wide by 200 pixels tall.
+-   **Größe.** Dies ist die Größe des Formulars, in Pixeln. Das vorhergehende Skript erstellt ein Formular, das 300 Pixel breit und 200 Pixel hoch ist.
 
--   **StartingPosition.** This optional property is set to **CenterScreen** in the preceding script. If you don’t add this property, Windows selects a location when the form is opened. By setting the **StartingPosition** to **CenterScreen**, you’re automatically displaying the form in the middle of the screen each time it loads.
+-   **StartingPosition.** Für diese optionale Eigenschaft ist im Skript oben **CenterScreen** festgelegt. Wenn Sie diese Eigenschaft nicht hinzufügen, wählt Windows eine Stelle aus, wenn das Formular geöffnet wird. Durch Festlegen der **StartingPosition** auf **CenterScreen** wird das Formular automatisch bei jedem Laden in der Mitte des Bildschirms angezeigt.
 
 ```
 $form.Text = "Select a Computer"
@@ -94,7 +98,7 @@ $form.Size = New-Object System.Drawing.Size(300,200)
 $form.StartPosition = "CenterScreen"
 ```
 
-Next, create an **OK** button for your form. Specify the size and behavior of the **OK** button. In this example, the button position is 120 pixels from the form’s top edge, and 75 pixels from the left edge. The button height is 23 pixels, while the button length is 75 pixels. The script uses predefined Windows Forms types to determine the button behaviors.
+Als Nächstes erstellen Sie eine Schaltfläche **OK** für Ihr Formular. Legen Sie die Größe und das Verhalten der Schaltfläche **OK** fest. In diesem Beispiel befindet sich die Schaltfläche 120 Pixel vom oberen Formularrand und 75 Pixel vom linken Rand entfernt. Die Schaltflächenhöhe beträgt 23 Pixel und die Schaltflächenlänge 75 Pixel. Das Skript verwendet vordefinierte Windows-Formulartypen zur Bestimmung des Schaltflächenverhaltens.
 
 ```
 $OKButton = New-Object System.Windows.Forms.Button
@@ -106,7 +110,7 @@ $form.AcceptButton = $OKButton
 $form.Controls.Add($OKButton)
 ```
 
-Similarly, you create a **Cancel** button. The **Cancel** button is 120 pixels from the top, but 150 pixels from the left edge of the window.
+In entsprechender Weise erstellen Sie eine Schaltfläche **Abbrechen**. Die **Abbrechen**-Schaltfläche ist 120 Pixel vom oberen und 150 Pixel vom linken Rand des Fensters entfernt.
 
 ```
 $CancelButton = New-Object System.Windows.Forms.Button
@@ -118,7 +122,7 @@ $form.CancelButton = $CancelButton
 $form.Controls.Add($CancelButton)
 ```
 
-Next, provide label text on your window that describes the information you want users to provide. In this case, you want users to select a computer.
+Als nächstes stellen Sie einen Beschriftungstext in Ihrem Fenster bereit, der die Information beschreibt, die Benutzer verwenden sollen. In diesem Fall sollen die Benutzer einen Computer auswählen.
 
 ```
 $label = New-Object System.Windows.Forms.Label
@@ -128,7 +132,7 @@ $label.Text = "Please select a computer:"
 $form.Controls.Add($label)
 ```
 
-Add the control (in this case, a list box) that lets users provide the information you’ve described in your label text. There are many other controls you can apply besides list boxes; for more controls, see [System.Windows.Forms Namespace](http://msdn.microsoft.com/library/k50ex0x9(v=vs.110).aspx) on MSDN.
+Fügen Sie das Steuerelement (in diesem Fall ein Listenfeld) hinzu, mit dem Benutzer die Informationen bereitstellen, die Sie in Ihrem Beschriftungstext beschrieben haben. Es gibt viele weitere Steuerelemente, die Sie neben Listenfeldern anwenden können. Weitere Steuerelemente finden Sie unter [System.Windows.Forms Namespace](http://msdn.microsoft.com/library/k50ex0x9(v=vs.110).aspx) auf MSDN.
 
 ```
 $listBox = New-Object System.Windows.Forms.ListBox 
@@ -137,10 +141,10 @@ $listBox.Size = New-Object System.Drawing.Size(260,20)
 $listBox.Height = 80
 ```
 
-In the next section, you specify the values you want the list box to display to users.
+Im nächsten Abschnitt legen Sie die Werte fest, die im Listenfeld für Benutzer angezeigt werden sollen.
 
 > [!NOTE]
-> The list box created by this script allows only one selection. To create a list box control that allows multiple selections, specify a value for the **SelectionMode** property, similarly to the following:  `$listBox.SelectionMode = "MultiExtended"`. For more information, see [Multiple-selection List Boxes](Multiple-selection-List-Boxes.md).
+> Das von diesem Skript erstellte Listenfeld erlaubt nur eine Auswahl. Zur Erstellung eines Listenfeld-Steuerelements für eine Mehrfachauswahl legen Sie einen Wert für die **SelectionMode**-Eigenschaft fest, wie hier beschrieben: `$listBox.SelectionMode = "MultiExtended"`. Weitere Informationen finden Sie unter [Mehrfachauswahl-Listenfelder](Multiple-selection-List-Boxes.md).
 
 ```
 [void] $listBox.Items.Add("atl-dc-001")
@@ -152,31 +156,37 @@ In the next section, you specify the values you want the list box to display to 
 [void] $listBox.Items.Add("atl-dc-007")
 ```
 
-Add the list box control to your form, and instruct Windows to open the form atop other windows and dialog boxes when it’s opened.
+Fügen Sie das Listenfeld-Steuerelement zu Ihrem Formular hinzu, um Windows anzuweisen, das Formular beim Öffnen über anderen Fenstern und Dialogfeldern zu öffnen.
 
 ```
 $form.Controls.Add($listBox) 
 $form.Topmost = $True
 ```
 
-Add the following line of code to display the form in Windows.
+Fügen Sie die folgende Codezeile hinzu, um das Formular in Windows anzuzeigen.
 
 ```
 $result = $form.ShowDialog()
 ```
 
-Finally, the code inside the **If** block instructs Windows what to do with the form after users select an option from the list box, and then click the **OK** button or press the **Enter** key.
+Abschließend weist der Code im Block **If** Windows an, was mit dem Formular geschehen soll, wenn Benutzer eine Option aus dem Listenfeld auswählen und anschließend auf die Schaltfläche **OK** klicken oder die **EINGABETASTE** drücken.
 
 ```
 if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 {
-    $x = $listBox.SelectedItem
-    $x
+    $x = $listBox.SelectedItem
+    $x
 }
 ```
 
-## See Also
-[Hey Scripting Guy:  Why don’t these PowerShell GUI examples work?](http://go.microsoft.com/fwlink/?LinkId=506644)
+## Weitere Informationen
+[Hey Scripting Guy: Warum diese PowerShell GUI-Beispiele funktionieren nicht?](http://go.microsoft.com/fwlink/?LinkId=506644)
 [GitHub: Dave Wyatt's WinFormsExampleUpdates](https://github.com/dlwyatt/WinFormsExampleUpdates)
-[Windows PowerShell Tip of the Week:  Selecting Items from a List Box](http://technet.microsoft.com/library/ff730949.aspx)
+[Windows PowerShell Tipp der Woche: Auswählen von Elementen aus einem Listenfeld](http://technet.microsoft.com/library/ff730949.aspx)
+
+
+
+
+<!--HONumber=Oct16_HO1-->
+
 

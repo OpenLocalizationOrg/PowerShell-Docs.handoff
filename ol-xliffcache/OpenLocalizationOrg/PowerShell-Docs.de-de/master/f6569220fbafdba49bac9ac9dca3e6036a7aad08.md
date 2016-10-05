@@ -1,23 +1,27 @@
 ---
-title:   Setting up a pull client using configuration ID
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Einrichten eines DSC-Pullclients mithilfe einer Konfigurations-ID
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: f6569220fbafdba49bac9ac9dca3e6036a7aad08
+
 ---
 
-# Setting up a pull client using configuration ID
+# Einrichten eines DSC-Pullclients mithilfe einer Konfigurations-ID
 
-> Applies To: Windows PowerShell 5.0
+> Gilt für: Windows PowerShell 5.0
 
-Each target node has to be told to use pull mode and given the URL where it can contact the pull server to get configurations. To do this, you have to configure the Local Configuration Manager (LCM) with the necessary information. To configure the LCM, you create a special type of configuration, derated with the **DSCLocalConfigurationManager** attribute. For more information about configuring the LCM, see [Configuring the Local Configuration Manager](metaConfig.md).
+Jeder Zielknoten muss angewiesen werden, den Pullmodus zu verwenden. Außerdem muss die URL angegeben werden, unter der der Pullserver zum Abrufen von Konfigurationen kontaktiert werden kann. Hierzu müssen Sie den lokalen Konfigurations-Manager (LCM) mit den benötigten Informationen konfigurieren. Zum Konfigurieren des LCM erstellten Sie eine besondere Art von Konfiguration unter Angabe des **DSCLocalConfigurationManager**-Attributs. Weitere Informationen zum Konfigurieren des LCM finden Sie unter [Konfigurieren des lokalen Konfigurations-Managers](metaConfig.md).
 
-> **Note**: This topic applies to PowerShell 5.0. For information on setting up a pull client in PowerShell 4.0, see [Setting up a pull client using configuration ID in PowerShell 4.0](pullClientConfigID4.md)
+> **Hinweis**: Dieses Thema gilt für PowerShell 5.0. Informationen zum Einrichten eines Pullclients in PowerShell 4.0 finden Sie unter [Einrichten eines Pullclients mithilfe der Konfigurations-ID in PowerShell 4.0](pullClientConfigID4.md).
 
-The following script configures the LCM to pull configurations from a server named "CONTOSO-PullSrv".
+Das folgende Skript konfiguriert den LCM zum Abrufen von Konfigurationen von einem Pullserver namens „CONTOSO-PullSrv“.
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -42,19 +46,19 @@ configuration PullClientConfigID
 PullClientConfigID
 ```
 
-In the script, the **ConfigurationRepositoryWeb** block defines the pull server. The **ServerURL**
+Im Skript definiert der **ConfigurationRepositoryWeb**-Block den Pullserver. Die **ServerURL**
 
-After this script runs, it creates a new output folder named **PullClientConfigID** and puts a metaconfiguration MOF file there. In this case, the metaconfiguration MOF file will be named `localhost.meta.mof`.
+Nachdem das Skript ausgeführt wurde, erstellt es einen neuen Ausgabeordner mit dem Namen **PullClientConfigID**, der eine MOF-Datei mit der Metakonfiguration enthält. In diesem Fall heißt die MOF-Datei mit der Metakonfiguration `localhost.meta.mof`.
 
-To apply the configuration, call the **Set-DscLocalConfigurationManager** cmdlet, with the **Path** set to the location of the metaconfiguration MOF file. For example: `Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`
+Rufen Sie zum Anwenden der Konfiguration das Cmdlet **Set DscLocalConfigurationManager** auf, wobei **Path** auf den Speicherort der MOF-Datei mit der Metakonfiguration festgelegt wird. Beispiel: `Set-DSCLocalConfigurationManager localhost –Path .\PullClientConfigID –Verbose.`
 
-## Configuration ID
+## Konfigurations-ID
 
-The script sets the **ConfigurationID** property of LCM to a GUID that had been previously created for this purpose (you can create a GUID by using the **New-Guid** cmdlet). The **ConfigurationID** is what the LCM uses to find the appropriate configuration on the pull server. The configuration MOF file on the pull server must be named _ConfigurationID_.mof, where _ConfigurationID_ is the value of the **ConfigurationID** property of the target node's LCM.
+Das Skript legt die **ConfigurationID**-Eigenschaft des LCM auf eine GUID fest, die zuvor für diesen Zweck erstellt wurde (Sie können eine GUID mit dem Cmdlet **New-Guid** erstellen). Der LCM nutzt die **ConfigurationID** zum Auffinden der entsprechenden Konfiguration auf dem Pullserver. Die MOF-Konfigurationsdatei auf dem Pullserver muss den Namen _ConfigurationID.mof_ haben, wobei _ConfigurationID_ der Wert der **ConfigurationID**-Eigenschaft des LCM des Zielknotens ist.
 
-## SMB pull server
+## SMB-Pullserver
 
-To set up a client to pull configurations from an SMB server, use a **ConfigurationRepositoryShare** block. In a **ConfigurationRepositoryShare** block, you specify the path to the server by setting the **SourcePath** property. The following metaconfiguration configures the target node to pull from an SMB pull server named **SMBPullServer**.
+Um einen Client zum Abrufen von Konfigurationen per Pull von einem SMB-Server einzurichten, verwenden Sie einen **ConfigurationRepositoryShare**-Block. Im **ConfigurationRepositoryShare**-Block geben Sie den Pfad zum Server durch Festlegen der **SourcePath**-Eigenschaft an. Die folgende Metakonfiguration konfiguriert den Zielknoten zum Abrufen von Daten von einem SMB-Pullserver mit dem Namen **SMBPullServer**.
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -79,14 +83,11 @@ configuration PullClientConfigID
 PullClientConfigID
 ```
 
-## Resource and report servers
+## Ressourcen und Berichtsserver
 
-If you specify only a **ConfigurationRepositoryWeb** or **ConfigurationRepositoryShare** block in your LCM configuration (as in the previous example), the pull client will pull 
-resources from the specified server, but it will not send reports to it. You can use a single pull server for configurations, resources, and reporting, but you have to create a 
-**ReportRepositoryWeb** block to set up reporting. 
+Wenn Sie in Ihrer LCM-Konfiguration nur einen **ConfigurationRepositoryWeb**- oder einen **ConfigurationRepositoryShare**-Block angeben (wie im vorherigen Beispiel), ruft der Pullclient Ressourcen per Pull vom angegebenen Server ab, sendet aber keine Berichte an den Server. Sie können für Konfigurationen, Ressourcen und Berichte einen einzigen Pullserver verwenden, allerdings müssen Sie einen **ReportRepositoryWeb**-Block erstellen, um die Berichterstattung einzurichten. 
 
-The following example shows a metaconfiguration that sets up a client to pull configurations and resources, and send reporting data, to a single
-pull server.
+Das folgenden Beispiel zeigt eine Metakonfiguration, mit der einen Client so eingerichtet wird, dass Konfigurationen und Ressourcen per Pull von einem Pullserver abgerufen und Berichtsdaten an denselben Pullserver gesendet werden.
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -118,10 +119,9 @@ configuration PullClientConfigID
 PullClientConfigID
 ```
 
-You can also specify different pull servers for resources and reporting. To specify a resource server, you use either a **ResourceRepositoryWeb** (for a web pull server) or a 
-**ResourceRepositoryShare** block (for an SMB pull server).
-To specify a report server, you use a **ReportRepositoryWeb** block. A report server cannot be an SMB server.
-The following metaconfiguration configures a pull client to get its configurations from **CONTOSO-PullSrv** and its resources from **CONTOSO-ResourceSrv**, and to send status reports to **CONTOSO-ReportSrv**:
+Sie können für den Abruf von Ressourcen und die Berichterstattung auch unterschiedliche Pullserver angeben. Um einen Ressourcenserver anzugeben, verwenden Sie entweder einen **ResourceRepositoryWeb**-Block (für einen Webpullserver) oder einen **ResourceRepositoryShare**-Block (für einen SMB-Pullserver).
+Um einen Berichtsserver anzugeben, verwenden Sie einen **ReportRepositoryWeb**-Block. Ein Berichtsserver kann kein SMB-Server sein.
+Die folgende Metakonfiguration konfiguriert einen Pullclient zum Abrufen seiner Konfigurationen von **CONTOSO-PullSrv** und seiner Ressourcen von**CONTOSO-ResourceSrv** und Senden von Statusberichten an **CONTOSO-ReportSrv**.
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -157,7 +157,13 @@ configuration PullClientConfigID
 PullClientConfigID
 ```
 
-## See Also
+## Weitere Informationen
 
-* [Setting up a pull client with configuration names](pullClientConfigNames.md)
+* [Einrichten eines Pullclients mit Konfigurationsnamen](pullClientConfigNames.md)
+
+
+
+
+<!--HONumber=Oct16_HO1-->
+
 

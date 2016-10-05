@@ -1,59 +1,59 @@
 # Install-Module
 
-Installs the PowerShell modules from online repositories to the local computer.
+Installiert die PowerShell-Module von online-Repositorys auf dem lokalen Computer.
 
-## Description
+## Beschreibung
 
-Install-Module cmdlet downloads one or more modules from an online gallery, validates and installs them on the local computer to the specified installation scope.
+Install-Module-Cmdlet ein oder mehrere Module aus einer online-Katalog heruntergeladen, überprüft und installiert sie auf dem lokalen Computer auf den Bereich der angegebenen Installation.
 
-The Install-Module cmdlet gets one or more modules that meet specified criteria from an online gallery, verifies that search results are valid modules, and copies module folders to the installation location.
+Das Cmdlet "Install-Module" Ruft ein oder mehrere Module, die aus einem Onlinekatalog angegebene Kriterien erfüllen, überprüft, ob Suchergebnisse gültige Module und Kopien Modul Ordner an den Installationsort sind.
 
-When no scope is defined, or when the value of the Scope parameter is AllUsers, the module is installed to %systemdrive%:\Program Files\WindowsPowerShell\Modules. When the value of Scope is CurrentUser, the module is installed to $home\Documents\WindowsPowerShell\Modules.
+Wenn kein Bereich definiert ist oder wenn der Wert des Bereichsparameters AllUsers ist, wird das Modul %systemdrive%:\Program Files\WindowsPowerShell\Modules installiert. Wenn der Wert des Bereichs CurrentUser ist, wird das Modul $Home\Documents\WindowsPowerShell\Modules installiert.
 
-You can filter your results based on minimum and exact versions of specified modules.
+Sie können die Ergebnisse auf der Basis Mindest- und genaue Versionen der angegebenen Module filtern.
 
-- Side-by-side version support on Windows PowerShell 5.0 or newer
-- Module dependency installation support
-- **Untrusted prompt:**User acceptance is required for installing the modules from an untrusted repository.
-- -Force reinstalls the installed module
-- RequiredVersion installs the specified version in SxS with existing versions on PowerShell version 5.0 or newer.
+- Unterstützung der gleichzeitigen Ausführung unterschiedlicher Versionen für Windows PowerShell 5.0 oder höher
+- Unterstützung der Installation von Modulabhängigkeiten
+- **Nicht vertrauenswürdige auffordern:**Benutzerakzeptanz ist erforderlich für die Installation der Module von einem nicht vertrauenswürdigen Repository aus.
+- -Force neu installierte Modul installiert.
+- RequiredVersion wird die angegebene Version in SxS mit vorhandenen Versionen in PowerShell, Version 5.0 oder höher installiert.
 
-### Scope
-Specifies the installation scope of the module. The acceptable values for this parameter are: AllUsers and CurrentUser.
+### Bereich
+Gibt den Bereich der Installation des Moduls. Die zulässigen Werte für diesen Parameter sind: AllUsers und CurrentUser.
 
-The default installation scope is AllUsers.
+Der Standardbereich für die Installation ist AllUsers.
 
-The AllUsers scope lets modules be installed in a location that is accessible to all users of the computer, that is, "$env:SystemDrive\Program Files\WindowsPowerShell\Modules".
+Die AllUsers-Bereich kann Module, die an einem Speicherort installiert werden, die für alle Benutzer des Computers zugänglich ist "$env: SystemDrive\Program Files\WindowsPowerShell\Modules".
 
-The CurrentUser scope lets modules be installed only to "$home\Documents\WindowsPowerShell\Modules", so that the module is available only to the current user.
+Bereich CurrentUser kann Module, die nur auf "$Home\Documents\WindowsPowerShell\Modules", installiert werden, damit das Modul nur für den aktuellen Benutzer verfügbar ist.
 
-## Notes
+## Hinweise
 
-This cmdlet runs on Windows PowerShell 3.0 or later releases of Windows PowerShell, on Windows 7 or Windows 2008 R2 and later releases of Windows.
+Mit diesem Cmdlet wird auf Windows PowerShell 3.0 oder spätere Versionen von Windows PowerShell unter Windows 7 oder Windows 2008 R2 und höheren Versionen von Windows ausgeführt werden.
 
-If an installed module cannot be imported (that is, if it does not have a .psm1, .psd1, or .dll of the same name within the folder), installation fails unless you add the Force parameter to your command.
+Wenn ein installiertes Modul (d. h., verfügt es kein psm1, psd1 oder DLL-Datei mit dem gleichen Namen innerhalb des Ordners) importiert werden kann, schlägt die Installation fehl, wenn Sie den Force-Parameter auf den Befehl hinzufügen.
 
-If a version of the module on the computer matches the value specified for the Name parameter, and you have not added the MinimumVersion or RequiredVersion parameter, Install-Module silently continues without installing that module. If the MinimumVersion or RequiredVersion parameters are specified, and the existing module does not match the values in that parameter, then an error occurs. To be more specific: if the version of the currently-installed module is either lower than the value of the MinimumVersion parameter, or not equal to the value of the RequiredVersion parameter, an error occurs. If the version of the installed module is greater than the value of the MinimumVersion parameter, or equal to the value of the RequiredVersion parameter, Install-Module silently continues without installing that module.
+Wenn eine Version des Moduls auf dem Computer für den Name-Parameter angegebenen Wert entspricht, und Sie nicht den Parameter MinimumVersion oder RequiredVersion hinzugefügt haben, weiterhin installieren-Module im Hintergrund ohne dieses Modul installieren. Wenn das vorhandene Modul nicht der Werte in diesen Parameter entspricht MinimumVersion oder RequiredVersion Parameter angegeben werden, tritt ein Fehler auf. Genauer: Wenn die Version des installierten Moduls kleiner als der Wert des Parameters MinimumVersion oder nicht gleich dem Wert des Parameters RequiredVersion ist, wird ein Fehler auftritt. Ist die Version des installierten Modul größer als der Wert des Parameters MinimumVersion oder gleich dem Wert des Parameters RequiredVersion, weiterhin installieren-Module im Hintergrund ohne dieses Modul wird installiert.
 
-Install-Module returns an error if no module exists in the online gallery that matches the specified name.
+Install-Modul gibt einen Fehler zurück, wenn kein Modul im Onlinekatalog vorhanden ist, die mit den angegebenen Namen übereinstimmt.
 
-To install multiple modules, specify an array of the module names, separated by commas. You cannot add MinimumVersion or RequiredVersion if you specify multiple module names.
+Um mehrere Module zu installieren, geben Sie ein Array von den Modulnamen müssen durch Kommas getrennt. Sie können MinimumVersion oder RequiredVersion hinzufügen, wenn Sie mehrere Namen angeben.
 
-By default, modules are installed to the Program Files folder, to prevent confusion when you are installing Windows PowerShell Desired State Configuration (DSC) resources.You can pipe multiple PSGetItemInfo objects to Install-Module; this is another way of specifying multiple modules to install in a single command.
+Standardmäßig werden die Module in den Ordner "Programme", um Verwechslungen zu vermeiden, bei der Installation von Windows PowerShell Desired State Configuration (DSC) Ressourcen installiert. Sie können mehrere PSGetItemInfo Objekte auf Install-Modul übergeben; Dies ist eine andere Möglichkeit, mehrere Module anzugeben, in einen einzelnen Befehl zu installieren.
 
-To help prevent running modules that contain malicious code, installed modules are not automatically imported by installation. As a security best practice, evaluate module code before running any cmdlets or functions in a module for the first time.
+Zum Vermeiden von ausgeführten Module, die installierten böswilligen Code enthalten sind Module nicht automatisch durch Installation importiert. Aus Sicherheitsgründen empfiehlt es sich, Modulcode vor dem Ausführen alle Cmdlets und Funktionen in einem Modul zum ersten Mal ausgewertet.
 
 
-## Cmdlet syntax
+## Cmdlet-syntax
 ```powershell
 Get-Command -Name Install-Module -Module PowerShellGet -Syntax
 ```
 
-## Cmdlet online help reference
+## Online-Hilfe-Cmdlet-Referenz
 
-[Install-Module](http://go.microsoft.com/fwlink/?LinkID=398573)
+[Install-Modul](http://go.microsoft.com/fwlink/?LinkID=398573)
 
-## Example commands
+## Beispiele für Befehle
 
 ```powershell
 
@@ -94,7 +94,7 @@ Install-Module ContosoClient -Force
 Install-Module -Name 
 ```
 
-## Install-Module cmdlet in pipeline operations
+## Install-Module-Cmdlet in der Pipeline-Vorgänge
 
 ```powershell
 
@@ -121,11 +121,11 @@ Get-InstalledModule
 
 ```
 
-## Side-by-Side Version Support on PowerShell 5.0 or newer
+## Unterstützung der gleichzeitigen Ausführung unterschiedlicher Versionen für PowerShell 5.0 oder höher
 
-PowerShellGet supports the side-by-side (SxS) module version support in Install-Module, Update-Module, and Publish-Module cmdlets that run in Windows PowerShell 5.0 or newer.
+PowerShellGet unterstützt die Side-by-Side (SxS)-Modul versionsunterstützung in Install-Module, Update-Module und Publish-Module-Cmdlets, die in Windows PowerShell 5.0 oder höher ausgeführt.
 
-### Install-Module examples
+### Beispiele für die Install-Modul
 
 ```powershell
 # Install a version of the module
@@ -157,7 +157,7 @@ Version    Name                                Repository           Description
 
 ```
 
-## Install module with its dependencies
+## Installieren des Moduls mit Abhängigkeiten
 
 ```powershell
 
@@ -251,7 +251,7 @@ Version    Name                                Repository           Description
 
 ```
 
-## Error scenarios
+## Fehlerszenarien
 
 ```powershell
 
@@ -268,3 +268,8 @@ Install-Module ContosoClient,ContosoServer -RequiredVersion 2.0
 Install-Module ContosoClient,ContosoServer -MinimumVersion 2.0
 
 ```
+
+
+<!--HONumber=Oct16_HO1-->
+
+

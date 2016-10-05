@@ -1,120 +1,102 @@
 ---
-title:  WinRMSecurity
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: WinRMSecurity
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: a656ec981dc03fd95c5e70e2d1a2c741ee1adc9b
+ms.openlocfilehash: b1addddd50368fadcbb2581673d3ebc7cad8e32a
+
 ---
 
-# PowerShell Remoting Security Considerations
+# Sicherheitsaspekte von PowerShell-Remoting
 
-PowerShell Remoting is the recommended way to manage Windows systems. PowerShell Remoting is enabled by default in Windows Server 2012 R2. This document covers security concerns, 
-recommendations, and best practices when using PowerShell Remoting.
+PowerShell-Remoting ist die empfohlene Methode zum Verwalten von Windows-Systemen. PowerShell-Remoting ist unter Windows Server 2012 R2 standardmäßig aktiviert. Dieses Dokument behandelt Sicherheitsaspekte, Empfehlungen und bewährte Methoden bei der Verwendung von PowerShell-Remoting.
 
-## What is PowerShell Remoting?
+## Was ist PowerShell-Remoting?
 
-PowerShell Remoting uses [Windows Remote Management (WinRM)](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426.aspx), which is the Microsoft implementation of the
-[Web Services for Management (WS-Management)](http://www.dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf) protocol, to allow users to run PowerShell commands on remote
-computers. You can find more information about using PowerShell Remoting at [Running Remote Commands](https://technet.microsoft.com/en-us/library/dd819505.aspx).
+PowerShell-Remoting verwendet [Windows-Remoteverwaltung (WinRM)](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426.aspx), wobei es sich um die Microsoft-Implementierung des Protokolls von [Web Services for Management (WS-Management)](http://www.dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf) handelt, um Benutzern die Ausführung von PowerShell-Befehlen auf Remotecomputern zu ermöglichen. Weitere Informationen zur Verwendung von PowerShell-Remoting finden Sie unter [Ausführen von Remotebefehlen](https://technet.microsoft.com/en-us/library/dd819505.aspx).
 
-PowerShell Remoting is not the same as using the **ComputerName** parameter of a cmdlet to run it on a remote computer, which uses Remote Procedure Call (RPC)
-as its underlying protocol.
+PowerShell-Remoting unterscheidet sich von Ausführung eines Cmdlets auf einem Remotecomputer unter Verwendung des Parameters **ComputerName**, wobei ein Remoteprozeduraufruf (RPC) als zugrunde liegendes Protokoll verwendet wird.
 
-##  PowerShell Remoting default settings
+##  Standardeinstellungen für PowerShell-Remoting
 
-PowerShell Remoting (and WinRM) listen on the following ports:
+PowerShell-Remoting (und WinRM) lauschen an folgenden Ports:
 
 - HTTP: 5985
 - HTTPS: 5986
 
-By default, PowerShell Remoting only allows connections from members of the Administrators group. Sessions are launched under the user's context, so all operating
-system access controls applied to individual users and groups continue to apply to them while connected over PowerShell Remoting.
+Standardmäßig gestattet PowerShell-Remoting nur Verbindungen von Mitgliedern der Gruppe „Administratoren“. Sitzungen werden im Kontext des Benutzers gestartet, weshalb alle Betriebssystem-Zugriffssteuerungen, die auf einzelne Benutzer und Gruppen angewendet wurden, für diese weiterhin gelten, während die Verbindung über PowerShell-Remoting besteht.
 
-On private networks, the default Windows Firewall rule for PowerShell Remoting accepts all connections. On public networks, the default Windows Firewall rule allows PowerShell
-Remoting connections only from within the same subnet. You have to explicitly change that rule to open PowerShell Remoting to all connections on a public network.
+In privaten Netzwerken akzeptiert die Windows-Firewall-Standardregel für PowerShell-Remoting alle Verbindungen. In öffentlichen Netzwerken lässt die Windows-Firewall-Standardregel Verbindungen mit PowerShell-Remoting nur aus demselben Subnetz heraus zu. Sie müssen diese Regel explizit ändern, um PowerShell-Remoting für alle Verbindungen in einem öffentlichen Netzwerk zu öffnen.
 
->**Warning:** The firewall rule for public networks is meant to protect the computer from potentially malicious external connection attempts. Use caution when removing 
->this rule.
+>**Warnung:** Die Firewallregel für öffentliche Netzwerke soll den Computer vor potenziell schädlichen, externen Verbindungsversuchen schützen. Seien Sie vorsichtig beim Entfernen dieser Regel.
 
-## Process isolation
+## Prozessisolation
 
-PowerShell Remoting uses [Windows Remote Management (WinRM)](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426) for communication between computers. 
-WinRM runs as a service under the Network Service account, and spawns isolated processes running as user accounts to host PowerShell instances. An instance of PowerShell running as one
-user has no access to a process running an instance of PowerShell as another user.
+PowerShell-Remoting verwendet [Windows-Remoteverwaltung (WinRM)](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426) für die Kommunikation zwischen Computern. WinRM wird als Dienst unter dem „Netzwerkdienst“-Konto ausgeführt, und erstellt isolierte Prozesse, die als Benutzerkonten ausgeführt werden, um PowerShell-Instanzen zu hosten. Eine Instanz von PowerShell, die als ein Benutzer ausgeführt wird, hat keinen Zugriff auf einen Prozess, der eine Instanz von PowerShell als ein anderer Benutzer ausführt.
 
-## Event logs generated by PowerShell Remoting
+## Von PowerShell-Remoting generierte Ereignisprotokolle
 
-FireEye has provided a good summary of the event logs and other security evidence generated by PowerShell Remoting sessions, available at  
-[Investigating PowerShell Attacks](https://www.fireeye.com/content/dam/fireeye-www/global/en/solutions/pdfs/wp-lazanciyan-investigating-powershell-attacks.pdf).
+FireEye stellt eine gute Zusammenfassung der Ereignisprotokolle und andere Sicherheitsinformationen, die von PowerShell-Remotingsitzungen generiert werden, bereit unter  
+[Untersuchung von PowerShell-Angriffen](https://www.fireeye.com/content/dam/fireeye-www/global/en/solutions/pdfs/wp-lazanciyan-investigating-powershell-attacks.pdf).
 
-## Encryption and transport protocols
+## Verschlüsselung und Transportprotokolle
 
-It is helpful to consider the security of a PowerShell Remoting connection from two perspectives: initial authentication, and ongoing communication. 
+Es ist hilfreich, die Sicherheit einer PowerShell-Remotingverbindung aus zwei Blickwinkeln zu betrachten: anfängliche Authentifizierung und laufende Kommunikation. 
 
-Regardless of the transport protocol used (HTTP or HTTPS), PowerShell Remoting always encrypts all communication after initial authentication with a per-session AES-256 symmetric key.
+Unabhängig vom verwendeten Transportprotokoll (HTTP oder HTTPS) verschlüsselt PowerShell-Remoting immer die gesamte Kommunikation im Anschluss an die anfängliche Authentifizierung mit einem sitzungsbezogenen, symmetrischen AES-256-Schlüssel.
     
-### Initial authentication
+### Anfängliche Authentifizierung
 
-Authentication confirms the identity of the client to the server - and ideally - the server to the client.
+Mit der Authentifizierung wird die Identität des Clients gegenüber dem Server bestätigt und idealerweise die des Servers gegenüber dem Client.
     
-When a client connects to a domain server using its computer name (i.e.: server01, or server01.contoso.com), the default authentication protocol is 
-[Kerberos](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378747.aspx).
-Kerberos guarantees both the user identity and server identity without sending any sort of reusable credential.
+Wenn ein Client eine Verbindung mit einem Domänenserver mithilfe seines Computernamens herstellt (d. h.: „server01“ oder „server01.contoso.com“), ist das Standardprotokoll für die Authentifizierung [Kerberos](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378747.aspx).
+Kerberos garantiert sowohl die Identität des Benutzers als auch die des Servers, ohne dabei jegliche Art von wiederverwendbaren Anmeldeinformationen zu senden.
 
-When a client connects to a domain server using its IP address, or connects to a workgroup server, Kerberos authentication is not possible. In that case, PowerShell
-Remoting relies on the [NTLM authentication protocol](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378749.aspx). The NTLM authentication
-protocol guarantees the user identity without sending any sort of delegable credential. To prove user identity, the NTLM protocol requires that both the client
-and server compute a session key from the user's password without ever exchanging the password itself. The server typically does not know the user's password, so it communicates with 
-the domain controller, which does know the user's password and calculates the session key for the server. 
+Wenn ein Client eine Verbindung mit einem Domänenserver mithilfe seiner IP-Adresse oder eine Verbindung mit einem Arbeitsgruppenserver herstellt, ist eine Authentifizierung mittels Kerberos nicht möglich. In diesem Fall verwendet PowerShell-Remoting dann das [NTLM-Authentifizierungsprotokoll](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378749.aspx). Die NTLM-Authentifizierung garantiert die Identität des Benutzers, ohne dabei jegliche Art von delegierbaren Anmeldeinformationen zu senden. Um die Identität des Benutzers nachzuweisen, erfordert das NTLM-Protokoll, dass sowohl der Client als auch der Server einen Sitzungsschlüssel aus dem Kennwort des Benutzers berechnen, ohne dabei jemals das Kennwort selbst auszutauschen. Der Server kennt in der Regel das Kennwort des Benutzers nicht, weshalb er mit dem Domänencontroller kommuniziert, der das Kennwort des Benutzers kennt und den Sitzungsschlüssel für den Server berechnet. 
       
-The NTLM protocol does not, however, guarantee server identity. As with all protocols that use NTLM for authentication, an attacker with access to a domain-joined computer's machine
-account could invoke the domain controller to compute an NTLM session-key and thereby impersonate the server.
+Das NTLM-Protokoll garantiert jedoch nicht die Identität des Servers. Wie bei allen Protokollen, die NTLM für die Authentifizierung verwenden, könnte ein Angreifer, der Zugriff auf das Computerkonto eines der Domäne beigetretenen Computers hat, den Domänencontroller zur Berechnung eines NTLM-Sitzungsschlüssels aufrufen und auf diese Art die Identität des Servers annehmen.
 
-NTLM-based authentication is disabled by default, but may be permitted by either configuring SSL on the target server, or by configuring the WinRM TrustedHosts setting on the client.
+NTLM-basierte Authentifizierung ist standardmäßig deaktiviert, kann aber zugelassen werden, indem entweder SSL auf dem Zielserver oder die WinRM-Einstellung „TrustedHosts“ auf dem Client konfiguriert wird.
     
-#### Using SSL certificates to validate server identity during NTLM-based connections
+#### Verwenden von SSL-Zertifikaten zum Überprüfen der Identität des Servers während NTLM-basierter Verbindungen
 
-Since the NTLM authentication protocol cannot ensure the identity of the target server (only that it already knows your password), you can configure target servers
-to use SSL for PowerShell Remoting. Assigning a SSL certificate to the target server (if issued by a Certificate Authority that the client also trusts) enables
-NTLM-based authentication that guarantees both the user identity and server identity.
+Da das NTLM-Authentifizierungsprotokoll nicht die Identität des Zielservers sicherstellen kann (nur, dass er bereits Ihr Kennwort kennt), können Sie Zielserver für die Verwendung von SSL für PowerShell-Remoting konfigurieren. Das Zuweisen eines SSL-Zertifikats zum Zielserver (sofern von einer Zertifizierungsstelle ausgestellt, der auch der Client vertraut) ermöglicht NTLM-basierte Authentifizierung, die sowohl die Identität des Benutzers als auch die des Servers garantiert.
     
-#### Ignoring NTLM-based server identity errors
+#### Ignorieren von NTLM-basierten Serveridentitätsfehlern
       
-If deploying a SSL certificate to a server for NTLM connections is infeasible, you may suppress the resulting identity errors by adding the server to the WinRM
-**TrustedHosts** list. Please note that adding a server name to the TrustedHosts list should not be considered as any form of statement of the trustworthiness of
-the hosts themselves - as the NTLM authentication protocol cannot guarantee that you are in fact connecting to the host you are intending to connect to.
-Instead, you should consider the TrustedHosts setting to be the list of hosts for which you wish to suppress the error generated by being unable to verify the server's identity.
+Wenn es nicht möglich ist, ein SSL-Zertifikat auf einem Server für NTLM-Verbindungen bereitzustellen, können Sie die daraus resultierenden Identitätsfehler unterdrücken, indem Sie den Server zur WinRM-Liste **TrustedHosts** hinzufügen. Beachten Sie, dass das Hinzufügen eines Servernamens zur Liste „TrustedHosts“ keine Aussage hinsichtlich der Vertrauenswürdigkeit des Hosts selbst beinhaltet, da das NTLM-Authentifizierungsprotokoll nicht garantieren kann, dass Sie tatsächlich eine Verbindung mit dem von Ihnen beabsichtigten Host herstellen.
+Stattdessen sollten Sie die „TrustedHosts“-Einstellung als Liste der Hosts betrachten, für die Sie Fehler unterdrücken möchten, die generiert werden, weil die Identität des Servers nicht überprüft werden kann.
     
     
-### Ongoing Communication
+### Laufende Kommunikation
 
-Once initial authentication is complete, the [PowerShell Remoting Protocol](https://msdn.microsoft.com/en-us/library/dd357801.aspx) encrypts all ongoing communication
-with a per-session AES-256 symmetric key.  
+Nach Abschluss der anfänglichen Authentifizierung verschlüsselt das [PowerShell-Remotingprotokoll](https://msdn.microsoft.com/en-us/library/dd357801.aspx) die gesamte laufende Kommunikation mit einem sitzungsbezogenen, symmetrischen AES-256-Schlüssel.  
 
 
-## Making the second hop
+## Durchführen des zweiten Hops
 
-By default, PowerShell Remoting uses Kerberos (if available) or NTLM for authentication. Both of these protocols authenticate to the remote machine without sending credentials to it.
-This is the most secure way to authenticate, but because the remote machine does not have the user's credentials, it cannot access other computers and services on the user's behalf. 
-This is known as the "Double-Hop" problem.
+Standardmäßig verwendet PowerShell-Remoting Kerberos (falls verfügbar) oder NTLM für die Authentifizierung. Beide Protokolle führen eine Authentifizierung gegenüber dem Remotecomputer durch, ohne Anmeldeinformationen an diesen zu senden.
+Dies ist die sicherste Methode der Authentifizierung, doch da der Remotecomputer nicht über die Anmeldeinformationen des Benutzers verfügt, kann er nicht auf andere Computer und Dienste im Auftrag des Benutzers zugreifen. Dies ist bekannt als „Double-Hop“-Problem.
 
-There are several ways to avoid this problem:
+Es gibt verschiedene Möglichkeiten, um dieses Problem zu vermeiden:
 
-### Kerberos Constrained Delegation
+### Eingeschränkte Kerberos-Delegierung
 
-For highly trusted servers, you can enable [Kerberos Constrained Delegation](https://technet.microsoft.com/en-us/library/cc995228.aspx). This allows the remote server to impersonate the
-authenticated user to a specified list of computers and services.
+Für hochgradig vertrauenswürdige Server können Sie die [eingeschränkte Kerberos-Delegierung](https://technet.microsoft.com/en-us/library/cc995228.aspx) aktivieren. Dies gestattet es dem Remoteserver, die Identität des authentifizierten Benutzers gegenüber einer angegebenen Liste von Computern und Diensten anzunehmen.
 
-### Trust between remote computers
+### Vertrauensstellung zwischen Remotecomputern
 
-If you trust users connected remotely to *Server1* to resources on *Server2*, you can explicitly grant *Server1* access to those resources.
+Wenn Sie Benutzern vertrauen, die remote mit *Server1* und von da aus mit Ressourcen auf *Server2* verbunden sind, können Sie *Server1* explizit Zugriff auf diese Ressourcen erteilen.
 
-### Use explicit credentials when accessing remote resources
+### Verwenden expliziter Anmeldeinformationen beim Zugriff auf Remoteressourcen
 
-You can explicitly pass your credentials to a remote resource by using the **Credential** parameter of a cmdlet. For example:
+Sie können Ihre Anmeldeinformationen explizit an eine Remoteressource übergeben, indem Sie den Parameter **Credential** eines Cmdlets verwenden. Beispiel:
 
 ```powershell
 $myCredential = Get-Credential
@@ -123,21 +105,22 @@ New-PSDrive -Name Tools \\Server2\Shared\Tools -Credential $myCredential
 
 ### CredSSP
 
-You can use the [Credential Security Support Provider (CredSSP)](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx) for authentication (by specifying "CredSSP" as the 
-value of the `Authentication` parameter of a call to the [New-PSSession](https://technet.microsoft.com/en-us/library/hh849717.aspx) cmdlet. CredSSP passes credentials in plain text to the server,
-so using it opens you up to credential theft attacks. If the remote computer is compromised, the attacker has access to the user's credentials. CredSSP is disabled by default on both client and 
-server computers. You should enable CredSSP only in the most trusted environments. For example, a domain administrator connecting to a domain controller because the domain controller is 
-highly trusted.
+Sie können den [Credential Security Support Provider (CredSSP)](https://msdn.microsoft.com/en-us/library/windows/desktop/bb931352.aspx) für die Authentifizierung verwenden (durch Angabe von „CredSSP“ als Wert des Parameters `Authentication` eines Aufrufs des Cmdlets [New-PSSession](https://technet.microsoft.com/en-us/library/hh849717.aspx)). CredSSP übergibt Anmeldeinformationen als Klartext an den Server, weshalb dessen Verwendung Sie gegenüber Angriffen zum Diebstahl von Anmeldeinformationen verwundbar macht. Wenn der Remotecomputer kompromittiert ist, hat der Angreifer Zugriff auf die Anmeldeinformationen des Benutzers. CredSSP ist standardmäßig sowohl auf Client- als auch auf Servercomputern deaktiviert. Sie sollten CredSSP nur in absolut vertrauenswürdigen Umgebungen aktivieren. Beispielsweise wenn ein Domänenadministrator eine Verbindung mit einem Domänencontroller herstellt, weil der Domänencontroller hochgradig vertrauenswürdig ist.
 
-For more information about security concerns when using CredSSP for PowerShell Remoting, see 
-[Accidental Sabotage: Beware of CredSSP](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp).
+Weitere Informationen zu Sicherheitsaspekten bei der Verwendung von CredSSP für PowerShell-Remoting finden Sie unter [Versehentliche Sabotage: Vorsicht vor CredSSP](http://www.powershellmagazine.com/2014/03/06/accidental-sabotage-beware-of-credssp).
 
-For more information about credential theft attacks, see [Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft](https://www.microsoft.com/en-us/download/details.aspx?id=36036).
+Weitere Informationen zu Angriffen zum Diebstahl von Anmeldeinformationen finden Sie unter [Abschwächen von Pass-the-Hash-Angriffen (PtH) und anderen Techniken zum Diebstahl von Anmeldeinformationen](https://www.microsoft.com/en-us/download/details.aspx?id=36036).
 
 
 
 
 
 
+
+
+
+
+
+<!--HONumber=Oct16_HO1-->
 
 

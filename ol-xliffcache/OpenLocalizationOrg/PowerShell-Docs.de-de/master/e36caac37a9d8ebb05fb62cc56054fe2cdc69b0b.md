@@ -1,22 +1,22 @@
 # Test-ScriptFileInfo
 
-Validates the metadata comment block of a script file.
+Überprüft den Kommentarblock Metadaten einer Skriptdatei.
 
-## Description
+## Beschreibung
 
-The Test-ScriptFileInfo cmdlet validates the comment block at the beginning of a script that will be published with the Publish-Script cmdlet.
-If the metadata comment block has an error, this cmdlet returns information about where the error is located or how to correct it.
+Das Test-ScriptFileInfo-Cmdlet überprüft die Kommentarblock am Anfang eines Skripts, die mit dem Cmdlet Publish-Skript veröffentlicht wird.
+Wenn Sie der Kommentarblock Metadaten ein Fehler auftritt, gibt dieses Cmdlet Informationen, wo der Fehler befindet oder korrigieren.
 
-## Cmdlet syntax
+## Cmdlet-syntax
 
 ```powershell
 Get-Command -Name Test-ScriptFileInfo -Module PowerShellGet -Syntax
 ```
-## Cmdlet online help reference
+## Online-Hilfe-Cmdlet-Referenz
 
 [Test-ScriptFileInfo](http://go.microsoft.com/fwlink/?LinkId=619791)
 
-## Example commands
+## Beispiele für Befehle
 ```powershell
 # Create a new script file with minimum required metadata values
 New-ScriptFileInfo -Path C:\ScriptSharingDemo\Demo-Script.ps1 -Description "Script file description goes here"
@@ -62,3 +62,8 @@ At line:1 char:1
     + FullyQualifiedErrorId : MissingPSScriptInfo,Test-ScriptFileInfo
 
 ```
+
+
+<!--HONumber=Oct16_HO1-->
+
+
