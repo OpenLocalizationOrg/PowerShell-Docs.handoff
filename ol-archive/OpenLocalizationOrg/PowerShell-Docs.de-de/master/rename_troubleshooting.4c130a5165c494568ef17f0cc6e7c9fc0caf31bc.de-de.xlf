@@ -2,13 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ccc3e7d7e0616822fead2254b5393cba0688039</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\move\rename_troubleshooting.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">545f81f7cf5d5ad67c7c889126e57bd4e08d70e2</xliffext:olskeletonhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4ef2432ed2cabe0203a66ce01db3234f676e4464</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3894f7dd184e44e77d6fb85c3c2abce2f44f2a44</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -141,10 +142,10 @@
           <target state="new">The structure is as follows:</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">**</bpt>Job ID : <ph id="ph1">\&lt;</ph>Guid<ph id="ph2">\&gt;</ph><ept id="p1">**</ept><ph id="ph3">
-</ph><bpt id="p2">**</bpt><ph id="ph4">\&lt;</ph>Event Message<ph id="ph5">\&gt;</ph><ept id="p2">**</ept></source>
-          <target state="new"><bpt id="p1">**</bpt>Job ID : <ph id="ph1">\&lt;</ph>Guid<ph id="ph2">\&gt;</ph><ept id="p1">**</ept><ph id="ph3">
-</ph><bpt id="p2">**</bpt><ph id="ph4">\&lt;</ph>Event Message<ph id="ph5">\&gt;</ph><ept id="p2">**</ept></target>
+          <source><bpt id="p1">**</bpt>Job ID : \&lt;Guid\&gt;<ept id="p1">**</ept><ph id="ph1">
+</ph><bpt id="p2">**</bpt>\&lt;Event Message\&gt;<ept id="p2">**</ept></source>
+          <target state="new"><bpt id="p1">**</bpt>Job ID : \&lt;Guid\&gt;<ept id="p1">**</ept><ph id="ph1">
+</ph><bpt id="p2">**</bpt>\&lt;Event Message\&gt;<ept id="p2">**</ept></target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>Gathering events from a single DSC operation</source>
@@ -203,8 +204,8 @@
           <target state="new">2: Details of operations run in the last half hour</target>
         </trans-unit>
         <trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>, a property of every Windows event, states the time the event was created.</source>
-          <target state="new">, a property of every Windows event, states the time the event was created.</target>
+          <source><ph id="ph1">`TimeCreated`</ph>, a property of every Windows event, states the time the event was created.</source>
+          <target state="new"><ph id="ph1">`TimeCreated`</ph>, a property of every Windows event, states the time the event was created.</target>
         </trans-unit>
         <trans-unit id="149" translate="yes" xml:space="preserve">
           <source>Comparing this property with a particular date/time object can be used to filter all events:</source>
@@ -227,8 +228,8 @@
           <target state="new">4: Error messages logged for recent failed operations</target>
         </trans-unit>
         <trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>contains a set of events for the latest operation.</source>
-          <target state="new">contains a set of events for the latest operation.</target>
+          <source><ph id="ph1">`$SeparateDscOperations[0].Group`</ph> contains a set of events for the latest operation.</source>
+          <target state="new"><ph id="ph1">`$SeparateDscOperations[0].Group`</ph> contains a set of events for the latest operation.</target>
         </trans-unit>
         <trans-unit id="155" translate="yes" xml:space="preserve">
           <source>Run the <ph id="ph1">`Where-Object`</ph> cmdlet to filter the events based on their level display name.</source>
@@ -243,8 +244,8 @@
           <target state="new">5: All events generated for a particular job ID.</target>
         </trans-unit>
         <trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>is an array of groups, each of which has the name as the unique job ID.</source>
-          <target state="new">is an array of groups, each of which has the name as the unique job ID.</target>
+          <source><ph id="ph1">`$SeparateDscOperations`</ph> is an array of groups, each of which has the name as the unique job ID.</source>
+          <target state="new"><ph id="ph1">`$SeparateDscOperations`</ph> is an array of groups, each of which has the name as the unique job ID.</target>
         </trans-unit>
         <trans-unit id="159" translate="yes" xml:space="preserve">
           <source>By running the <ph id="ph1">`Where-Object`</ph> cmdlet, you can extract those groups of events that have a particular job ID:</source>
@@ -667,24 +668,24 @@
           <target state="new">Reference</target>
         </trans-unit>
         <trans-unit id="264" translate="yes" xml:space="preserve">
-          <source>DSC Log Resource</source>
-          <target state="new">DSC Log Resource</target>
+          <source><bpt id="p1">[</bpt>DSC Log Resource<ept id="p1">](logResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>DSC Log Resource<ept id="p1">](logResource.md)</ept></target>
         </trans-unit>
         <trans-unit id="265" translate="yes" xml:space="preserve">
           <source>Concepts</source>
           <target state="new">Concepts</target>
         </trans-unit>
         <trans-unit id="266" translate="yes" xml:space="preserve">
-          <source>Build Custom Windows PowerShell Desired State Configuration Resources</source>
-          <target state="new">Build Custom Windows PowerShell Desired State Configuration Resources</target>
+          <source><bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Build Custom Windows PowerShell Desired State Configuration Resources<ept id="p1">](authoringResource.md)</ept></target>
         </trans-unit>
         <trans-unit id="267" translate="yes" xml:space="preserve">
           <source>Other Resources</source>
           <target state="new">Other Resources</target>
         </trans-unit>
         <trans-unit id="268" translate="yes" xml:space="preserve">
-          <source>Windows PowerShell Desired State Configuration Cmdlets</source>
-          <target state="new">Windows PowerShell Desired State Configuration Cmdlets</target>
+          <source><bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Cmdlets<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521624(v=wps.630).aspx)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>Windows PowerShell Desired State Configuration Cmdlets<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521624(v=wps.630).aspx)</ept></target>
         </trans-unit>
       </group>
     </body>
