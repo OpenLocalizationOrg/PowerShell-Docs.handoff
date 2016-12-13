@@ -2,134 +2,104 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1c394fd" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f2b4b1a" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">52d55ff10a9118bea2a34a53452fd252d1e17580</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9111ffae4eb3c9d3326502e49468750a1e605aaf</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e0e4176d2b42098ffa0cf29f14f24acf1787b043</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7fea1e6d7bf310b59cf546a2f00a45985a36ad0c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fd1c42dccc4df308e657ceebf2cc205fce6932c</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Getting Ready to Use Windows PowerShell</source>
-          <target state="new">Getting Ready to Use Windows PowerShell</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>powershell,cmdlet</source>
-          <target state="new">powershell,cmdlet</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Getting Ready to Use Windows PowerShell</source>
-          <target state="new">Getting Ready to Use Windows PowerShell</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>When Windows PowerShell is installed and started, consider the following setup options.</source>
-          <target state="new">When Windows PowerShell is installed and started, consider the following setup options.</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>You can perform these tasks at any time.</source>
-          <target state="new">You can perform these tasks at any time.</target>
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Install help files.<ept id="p1">**</ept></source>
-          <target state="new"><bpt id="p1">**</bpt>Install help files.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>The cmdlets that are included in Windows PowerShell 3.0 do not come with help files.</source>
-          <target state="new">The cmdlets that are included in Windows PowerShell 3.0 do not come with help files.</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>However, you can use the <bpt id="p1">[</bpt>Update-Help<ept id="p1">](https://technet.microsoft.com/en-us/library/93e1d870-ace6-432b-8778-8920291d7545)</ept> cmdlet to download and install the newest help files on your computer.</source>
-          <target state="new">However, you can use the <bpt id="p1">[</bpt>Update-Help<ept id="p1">](https://technet.microsoft.com/en-us/library/93e1d870-ace6-432b-8778-8920291d7545)</ept> cmdlet to download and install the newest help files on your computer.</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>When the files are installed, you can use the <bpt id="p1">[</bpt>Get-Help<ept id="p1">](https://technet.microsoft.com/en-us/library/1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> cmdlet to display them right at the command line.</source>
-          <target state="new">When the files are installed, you can use the <bpt id="p1">[</bpt>Get-Help<ept id="p1">](https://technet.microsoft.com/en-us/library/1f46eeb4-49d7-4bec-bb29-395d9b42f54a)</ept> cmdlet to display them right at the command line.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>For more information, see <bpt id="p1">[</bpt>about_Updatable_Help<ept id="p1">](https://technet.microsoft.com/en-us/library/10bba75c-f4ac-4ca1-bbf3-8f34dd521ffe)</ept>.</source>
-          <target state="new">For more information, see <bpt id="p1">[</bpt>about_Updatable_Help<ept id="p1">](https://technet.microsoft.com/en-us/library/10bba75c-f4ac-4ca1-bbf3-8f34dd521ffe)</ept>.</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>If you decide not to install the help files, you can still read the help topics online.</source>
-          <target state="new">If you decide not to install the help files, you can still read the help topics online.</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>To find the online version of any cmdlet help topic, type: <ph id="ph1">`Get-Help &lt;CmdletName&gt; -Online`</ph>.</source>
-          <target state="new">To find the online version of any cmdlet help topic, type: <ph id="ph1">`Get-Help &lt;CmdletName&gt; -Online`</ph>.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>To browse the Windows PowerShell help topics in the TechNet Library, start at <bpt id="p1">[</bpt>http://go.microsoft.com/fwlink/?LinkID=107116<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=107116)</ept>.</source>
-          <target state="new">To browse the Windows PowerShell help topics in the TechNet Library, start at <bpt id="p1">[</bpt>http://go.microsoft.com/fwlink/?LinkID=107116<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=107116)</ept>.</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Run scripts.<ept id="p1">**</ept></source>
-          <target state="new"><bpt id="p1">**</bpt>Run scripts.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>To keep Windows PowerShell secure, the default execution policy on Windows PowerShell is <bpt id="p1">**</bpt>Restricted<ept id="p1">**</ept>.</source>
-          <target state="new">To keep Windows PowerShell secure, the default execution policy on Windows PowerShell is <bpt id="p1">**</bpt>Restricted<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>This policy allows you to run cmdlets, but not scripts.</source>
-          <target state="new">This policy allows you to run cmdlets, but not scripts.</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>To run scripts, use the <bpt id="p1">[</bpt>Set-ExecutionPolicy[PSITPro5_Security]<ept id="p1">](https://technet.microsoft.com/en-us/library/5690a0e1-495b-4e63-8280-65ead7bf01ab)</ept> cmdlet to change the execution policy to <bpt id="p2">**</bpt>AllSigned<ept id="p2">**</ept> or <bpt id="p3">**</bpt>RemoteSigned<ept id="p3">**</ept>.</source>
-          <target state="new">To run scripts, use the <bpt id="p1">[</bpt>Set-ExecutionPolicy[PSITPro5_Security]<ept id="p1">](https://technet.microsoft.com/en-us/library/5690a0e1-495b-4e63-8280-65ead7bf01ab)</ept> cmdlet to change the execution policy to <bpt id="p2">**</bpt>AllSigned<ept id="p2">**</ept> or <bpt id="p3">**</bpt>RemoteSigned<ept id="p3">**</ept>.</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Only members of the Administrators group on the computer can run this cmdlet.</source>
-          <target state="new">Only members of the Administrators group on the computer can run this cmdlet.</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>For more information, see <bpt id="p1">[</bpt>about_Execution_Policies [v4]<ept id="p1">](https://technet.microsoft.com/en-us/library/347708dc-1515-4d74-978b-8334603472e6)</ept>.</source>
-          <target state="new">For more information, see <bpt id="p1">[</bpt>about_Execution_Policies [v4]<ept id="p1">](https://technet.microsoft.com/en-us/library/347708dc-1515-4d74-978b-8334603472e6)</ept>.</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>Enable remoting.<ept id="p1">**</ept></source>
-          <target state="new"><bpt id="p1">**</bpt>Enable remoting.<ept id="p1">**</ept></target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>The system is already configured for you to run remote commands on other computers.</source>
-          <target state="new">The system is already configured for you to run remote commands on other computers.</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>On Windows Server 2012 R2 and Windows Server 2012, the system is also configured to receive remote commands, that is, to allow other computers to run remote commands on the local computer.</source>
-          <target state="new">On Windows Server 2012 R2 and Windows Server 2012, the system is also configured to receive remote commands, that is, to allow other computers to run remote commands on the local computer.</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>To enable computers running other versions of Windows to receive remote commands, run the <bpt id="p1">[</bpt>Enable-PSRemoting<ept id="p1">](https://technet.microsoft.com/en-us/library/19437c28-33b8-4ac1-9113-8439cc8beffb)</ept> cmdlet on the computer that you want to manage remotely.</source>
-          <target state="new">To enable computers running other versions of Windows to receive remote commands, run the <bpt id="p1">[</bpt>Enable-PSRemoting<ept id="p1">](https://technet.microsoft.com/en-us/library/19437c28-33b8-4ac1-9113-8439cc8beffb)</ept> cmdlet on the computer that you want to manage remotely.</target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>Only members of the Administrators group on the computer can run this cmdlet.</source>
-          <target state="new">Only members of the Administrators group on the computer can run this cmdlet.</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>For more information, see <bpt id="p1">[</bpt>about_Remote<ept id="p1">](https://technet.microsoft.com/en-us/library/9b4a5c87-9162-4adf-bdfe-fbc80b9b8970)</ept>.</source>
-          <target state="new">For more information, see <bpt id="p1">[</bpt>about_Remote<ept id="p1">](https://technet.microsoft.com/en-us/library/9b4a5c87-9162-4adf-bdfe-fbc80b9b8970)</ept>.</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>NOTE: If remoting is enabled on a computer that is running Windows PowerShell 2.0, remoting is still enabled after you install Windows Management Framework 3.0.</source>
-          <target state="new">NOTE: If remoting is enabled on a computer that is running Windows PowerShell 2.0, remoting is still enabled after you install Windows Management Framework 3.0.</target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>However, on Windows Server 2008 (not Windows Server 2008 R2), you must re-enable remoting after installing Windows Management Framework 3.0.</source>
-          <target state="new">However, on Windows Server 2008 (not Windows Server 2008 R2), you must re-enable remoting after installing Windows Management Framework 3.0.</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>See Also</source>
-          <target state="new">See Also</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source><bpt id="p1">[</bpt>Installing Windows PowerShell<ept id="p1">](../setup/Installing-Windows-PowerShell.md)</ept><ph id="ph1">
 </ph><bpt id="p2">[</bpt>Starting Windows PowerShell [ps]<ept id="p2">](https://technet.microsoft.com/en-us/library/8ec8c2d7-8e7c-4722-a3d2-498fe5739a8e)</ept></source>
-          <target state="new"><bpt id="p1">[</bpt>Installing Windows PowerShell<ept id="p1">](../setup/Installing-Windows-PowerShell.md)</ept><ph id="ph1">
-</ph><bpt id="p2">[</bpt>Starting Windows PowerShell [ps]<ept id="p2">](https://technet.microsoft.com/en-us/library/8ec8c2d7-8e7c-4722-a3d2-498fe5739a8e)</ept></target>
         </trans-unit>
       </group>
     </body>
