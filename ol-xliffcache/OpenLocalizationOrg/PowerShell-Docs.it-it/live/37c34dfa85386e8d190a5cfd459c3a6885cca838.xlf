@@ -2,151 +2,118 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3fa1589" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">37c34dfa85386e8d190a5cfd459c3a6885cca838</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\lnxPackageResource.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
       <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a36d7538f6075ec9c7196ec73f54f60f69d685e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24320bc8e12eb915aea4d8b36ab2d8c14ba95363</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>DSC for Linux nxPackage Resource</source>
-          <target state="new">DSC for Linux nxPackage Resource</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>nxPackage<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to manage packages on a Linux node.</source>
-          <target state="new">The <bpt id="p1">**</bpt>nxPackage<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to manage packages on a Linux node.</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Syntax</source>
-          <target state="new">Syntax</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Properties</source>
-          <target state="new">Properties</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Property</source>
-          <target state="new">Property</target>
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="new">Name</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>The name of the package for which you want to ensure a specific state.</source>
-          <target state="new">The name of the package for which you want to ensure a specific state.</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Ensure</source>
-          <target state="new">Ensure</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>Determines whether to check if the package exists.</source>
-          <target state="new">Determines whether to check if the package exists.</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Set this property to "Present" to ensure the package exists.</source>
-          <target state="new">Set this property to "Present" to ensure the package exists.</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Set it to "Absent" to ensure the package does not exist.</source>
-          <target state="new">Set it to "Absent" to ensure the package does not exist.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>The default value is "Present".</source>
-          <target state="new">The default value is "Present".</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>PackageManager</source>
-          <target state="new">PackageManager</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Supported values are "yum", "apt", and "zypper".</source>
-          <target state="new">Supported values are "yum", "apt", and "zypper".</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Specifies the package manager to use when installing packages.</source>
-          <target state="new">Specifies the package manager to use when installing packages.</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>If <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> is specified, the provided path will be used to install the package.</source>
-          <target state="new">If <bpt id="p1">**</bpt>FilePath<ept id="p1">**</ept> is specified, the provided path will be used to install the package.</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Otherwise, a Package Manager will be used to install the package from a pre-configured repository.</source>
-          <target state="new">Otherwise, a Package Manager will be used to install the package from a pre-configured repository.</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>If neither <bpt id="p1">**</bpt>PackageManager<ept id="p1">**</ept> nor <bpt id="p2">**</bpt>FilePath<ept id="p2">**</ept> are provided, the default package manager for the system will be used.</source>
-          <target state="new">If neither <bpt id="p1">**</bpt>PackageManager<ept id="p1">**</ept> nor <bpt id="p2">**</bpt>FilePath<ept id="p2">**</ept> are provided, the default package manager for the system will be used.</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>FilePath</source>
-          <target state="new">FilePath</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>The file path where the package resides</source>
-          <target state="new">The file path where the package resides</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>PackageGroup</source>
-          <target state="new">PackageGroup</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>If <bpt id="p1">**</bpt>$true<ept id="p1">**</ept>, the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> is expected to be the name of a package group for use with a <bpt id="p3">**</bpt>PackageManager<ept id="p3">**</ept>.</source>
-          <target state="new">If <bpt id="p1">**</bpt>$true<ept id="p1">**</ept>, the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> is expected to be the name of a package group for use with a <bpt id="p3">**</bpt>PackageManager<ept id="p3">**</ept>.</target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source><bpt id="p1">**</bpt>PacakgeGroup<ept id="p1">**</ept> is not valid when providing a <bpt id="p2">**</bpt>FilePath<ept id="p2">**</ept>.</source>
-          <target state="new"><bpt id="p1">**</bpt>PacakgeGroup<ept id="p1">**</ept> is not valid when providing a <bpt id="p2">**</bpt>FilePath<ept id="p2">**</ept>.</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>Arguments</source>
-          <target state="new">Arguments</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>A string of arguments that will be passed to the package exactly as provided.</source>
-          <target state="new">A string of arguments that will be passed to the package exactly as provided.</target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>ReturnCode</source>
-          <target state="new">ReturnCode</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>The expected return code.</source>
-          <target state="new">The expected return code.</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>If the actual return code does not match the expected value provided here, the configuration will return an error.</source>
-          <target state="new">If the actual return code does not match the expected value provided here, the configuration will return an error.</target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>DependsOn</source>
-          <target state="new">DependsOn</target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
-          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
-          <target state="new">For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Example</source>
-          <target state="new">Example</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>The following example ensures that the package named "httpd" is installed on a Linux computer, using the “Yum” package manager.</source>
-          <target state="new">The following example ensures that the package named "httpd" is installed on a Linux computer, using the “Yum” package manager.</target>
         </trans-unit>
       </group>
     </body>
