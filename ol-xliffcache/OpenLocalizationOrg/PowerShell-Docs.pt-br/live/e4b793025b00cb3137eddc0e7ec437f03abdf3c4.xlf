@@ -2,163 +2,127 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3fa1589" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4b793025b00cb3137eddc0e7ec437f03abdf3c4</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\userResource.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
       <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c17aec44c8c05bced9d21a04f08c0bdca7c55abe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d290754db7183ac1b43c1e0e6d44507a425f8076</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>DSC User Resource</source>
-          <target state="new">DSC User Resource</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
-          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">__</bpt>User<ept id="p1">__</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage local user accounts on the target node.</source>
-          <target state="new">The <bpt id="p1">__</bpt>User<ept id="p1">__</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage local user accounts on the target node.</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Syntax</source>
-          <target state="new">Syntax</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Properties</source>
-          <target state="new">Properties</target>
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Property</source>
-          <target state="new">Property</target>
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>UserName</source>
-          <target state="new">UserName</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Indicates the account name for which you want to ensure a specific state.</source>
-          <target state="new">Indicates the account name for which you want to ensure a specific state.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Indicates the description you want to use for the user account.</source>
-          <target state="new">Indicates the description you want to use for the user account.</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Disabled</source>
-          <target state="new">Disabled</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Indicates if the account is enabled.</source>
-          <target state="new">Indicates if the account is enabled.</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> to ensure that this account is disabled, and set it to <bpt id="p2">__</bpt>$false<ept id="p2">__</ept> to ensure that it is enabled.</source>
-          <target state="new">Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> to ensure that this account is disabled, and set it to <bpt id="p2">__</bpt>$false<ept id="p2">__</ept> to ensure that it is enabled.</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Ensure</source>
-          <target state="new">Ensure</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Indicates if the account exists.</source>
-          <target state="new">Indicates if the account exists.</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Set this property to "Present" to ensure that the account exists, and set it to "Absent" to ensure that the account does not exist.</source>
-          <target state="new">Set this property to "Present" to ensure that the account exists, and set it to "Absent" to ensure that the account does not exist.</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>FullName</source>
-          <target state="new">FullName</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Represents a string with the full name you want to use for the user account.</source>
-          <target state="new">Represents a string with the full name you want to use for the user account.</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Password</source>
-          <target state="new">Password</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>Indicates the password you want to use for this account.</source>
-          <target state="new">Indicates the password you want to use for this account.</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>PasswordChangeNotAllowed</source>
-          <target state="new">PasswordChangeNotAllowed</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Indicates if the user can change the password.</source>
-          <target state="new">Indicates if the user can change the password.</target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> to ensure that the user cannot change the password, and set it to <bpt id="p2">__</bpt>$false<ept id="p2">__</ept> to allow the user to change the password.</source>
-          <target state="new">Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> to ensure that the user cannot change the password, and set it to <bpt id="p2">__</bpt>$false<ept id="p2">__</ept> to allow the user to change the password.</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</source>
-          <target state="new">The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>PasswordChangeRequired</source>
-          <target state="new">PasswordChangeRequired</target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>Indicates if the user must change the password at the next sign in.</source>
-          <target state="new">Indicates if the user must change the password at the next sign in.</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> if the user must change the password.</source>
-          <target state="new">Set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept> if the user must change the password.</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>The default value is <bpt id="p1">__</bpt>$true<ept id="p1">__</ept>.</source>
-          <target state="new">The default value is <bpt id="p1">__</bpt>$true<ept id="p1">__</ept>.</target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>PasswordNeverExpires</source>
-          <target state="new">PasswordNeverExpires</target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Indicates if the password will expire.</source>
-          <target state="new">Indicates if the password will expire.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>To ensure that the password for this account will never expire, set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept>, and set it to <bpt id="p2">__</bpt>$false<ept id="p2">__</ept> if the password will expire.</source>
-          <target state="new">To ensure that the password for this account will never expire, set this property to <bpt id="p1">__</bpt>$true<ept id="p1">__</ept>, and set it to <bpt id="p2">__</bpt>$false<ept id="p2">__</ept> if the password will expire.</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</source>
-          <target state="new">The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>DependsOn</source>
-          <target state="new">DependsOn</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
-          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
-          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>Example</source>
-          <target state="new">Example</target>
         </trans-unit>
       </group>
     </body>

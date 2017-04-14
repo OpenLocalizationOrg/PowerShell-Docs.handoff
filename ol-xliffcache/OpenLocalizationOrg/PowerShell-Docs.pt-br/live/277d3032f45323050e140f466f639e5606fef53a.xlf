@@ -2,103 +2,82 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3fa1589" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">277d3032f45323050e140f466f639e5606fef53a</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\enactingConfigurations.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
       <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">332bf4948869fdae9e881ea8871bbb66760a10fb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1371a063c008c07efd861e9c91e0b2d5f8a37e57</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Enacting configurations</source>
-          <target state="new">Enacting configurations</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
-          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>There are two ways to enact PowerShell Desired State Configuration (DSC) configurations: push mode and pull mode.</source>
-          <target state="new">There are two ways to enact PowerShell Desired State Configuration (DSC) configurations: push mode and pull mode.</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Push mode</source>
-          <target state="new">Push mode</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Push mode</source>
-          <target state="new">Push mode</target>
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Push mode refers to a user actively applying a configuration to a target node by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</source>
-          <target state="new">Push mode refers to a user actively applying a configuration to a target node by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet.</target>
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>After creating and compiling a configuration, you can enact it in push mode by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet, setting the -Path parameter of the cmdlet to the path where the configuration MOF is located.</source>
-          <target state="new">After creating and compiling a configuration, you can enact it in push mode by calling the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet, setting the -Path parameter of the cmdlet to the path where the configuration MOF is located.</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>For example, if the configuration MOF is locted at <ph id="ph1">`C:\DSC\Configurations\localhost.mof`</ph>, you would apply it to the local machine with the following command:</source>
-          <target state="new">For example, if the configuration MOF is locted at <ph id="ph1">`C:\DSC\Configurations\localhost.mof`</ph>, you would apply it to the local machine with the following command:</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source><bpt id="p1">__</bpt>Note<ept id="p1">__</ept>: By default, DSC runs a configuration as a background job.</source>
-          <target state="new"><bpt id="p1">__</bpt>Note<ept id="p1">__</ept>: By default, DSC runs a configuration as a background job.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>To run the configuration interactively, call the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> with the <bpt id="p2">__</bpt>-Wait<ept id="p2">__</ept> parameter.</source>
-          <target state="new">To run the configuration interactively, call the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> with the <bpt id="p2">__</bpt>-Wait<ept id="p2">__</ept> parameter.</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Pull mode</source>
-          <target state="new">Pull mode</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Pull Mode<ph id="ph1">](images/Pull.png "How pull mode works")</ph> In pull mode, pull clients are configured to get their desired state configurations from a remote pull server.</source>
-          <target state="new">Pull Mode<ph id="ph1">](images/Pull.png "How pull mode works")</ph> In pull mode, pull clients are configured to get their desired state configurations from a remote pull server.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Likewise, the pull server has been set up to host the DSC service, and has been provisioned with the configurations and resources that are required by the pull clients.</source>
-          <target state="new">Likewise, the pull server has been set up to host the DSC service, and has been provisioned with the configurations and resources that are required by the pull clients.</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Each one of the pull clients has a scheduled task that performs a periodic compliance check on the configuration of the node.</source>
-          <target state="new">Each one of the pull clients has a scheduled task that performs a periodic compliance check on the configuration of the node.</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>When the event is triggered the first time, it causes the Local Configuration Manager (LCM) on the pull client to validate the configuration.</source>
-          <target state="new">When the event is triggered the first time, it causes the Local Configuration Manager (LCM) on the pull client to validate the configuration.</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>If the pull client is configured as desired, nothing happens.</source>
-          <target state="new">If the pull client is configured as desired, nothing happens.</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Otherwise, the LCM makes a request to the pull server to get a given configuration.</source>
-          <target state="new">Otherwise, the LCM makes a request to the pull server to get a given configuration.</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>If that configuration exists on the pull server, and it passes initial validation checks, the configuration is transmitted to the pull client, where it is then executed by the LCM.</source>
-          <target state="new">If that configuration exists on the pull server, and it passes initial validation checks, the configuration is transmitted to the pull client, where it is then executed by the LCM.</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>The following topics explain how to set up pull servers and clients:</source>
-          <target state="new">The following topics explain how to set up pull servers and clients:</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Setting up a web pull server</source>
-          <target state="new">Setting up a web pull server</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>Setting up an SMB pull server</source>
-          <target state="new">Setting up an SMB pull server</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>Configuring a pull client</source>
-          <target state="new">Configuring a pull client</target>
         </trans-unit>
       </group>
     </body>
