@@ -2,171 +2,133 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3fa1589" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">44f3bb3bec83fd779c83d0326d55c88ead77cfba</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\registryResource.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
       <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f38983fa6c4054968421ac26a346ee930ca014d1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d83b74382a56c154c8b3c482f9d50b00b3ec582e</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>DSC Registry Resource</source>
-          <target state="new">DSC Registry Resource</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
-          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>Registry<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage registry keys and values on a target node.</source>
-          <target state="new">The <bpt id="p1">**</bpt>Registry<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to manage registry keys and values on a target node.</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Syntax</source>
-          <target state="new">Syntax</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Properties</source>
-          <target state="new">Properties</target>
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Property</source>
-          <target state="new">Property</target>
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Key</source>
-          <target state="new">Key</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Indicates the path of the registry key for which you want to ensure a specific state.</source>
-          <target state="new">Indicates the path of the registry key for which you want to ensure a specific state.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>This path must include the hive.</source>
-          <target state="new">This path must include the hive.</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>ValueName</source>
-          <target state="new">ValueName</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Indicates the name of the registry value.</source>
-          <target state="new">Indicates the name of the registry value.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Ensure</source>
-          <target state="new">Ensure</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Indicates if the key and value exist.</source>
-          <target state="new">Indicates if the key and value exist.</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>To ensure that they do, set this property to "Present".</source>
-          <target state="new">To ensure that they do, set this property to "Present".</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>To ensure that they do not exist, set the property to "Absent".</source>
-          <target state="new">To ensure that they do not exist, set the property to "Absent".</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>The default value is "Present".</source>
-          <target state="new">The default value is "Present".</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Force</source>
-          <target state="new">Force</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>If the specified registry key is present, <bpt id="p1">__</bpt>Force<ept id="p1">__</ept> overwrites it with the new value.</source>
-          <target state="new">If the specified registry key is present, <bpt id="p1">__</bpt>Force<ept id="p1">__</ept> overwrites it with the new value.</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Hex</source>
-          <target state="new">Hex</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>Indicates if data will be expressed in hexadecimal format.</source>
-          <target state="new">Indicates if data will be expressed in hexadecimal format.</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>If specified, the DWORD/QWORD value data is presented in hexadecimal format.</source>
-          <target state="new">If specified, the DWORD/QWORD value data is presented in hexadecimal format.</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Not valid for other types.</source>
-          <target state="new">Not valid for other types.</target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</source>
-          <target state="new">The default value is <bpt id="p1">__</bpt>$false<ept id="p1">__</ept>.</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>DependsOn</source>
-          <target state="new">DependsOn</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
-          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
-          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>ValueData</source>
-          <target state="new">ValueData</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>The data for the registry value.</source>
-          <target state="new">The data for the registry value.</target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>ValueType</source>
-          <target state="new">ValueType</target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Indicates the type of the value.</source>
-          <target state="new">Indicates the type of the value.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>The supported types are:</source>
-          <target state="new">The supported types are:</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>String (REG_SZ)</source>
-          <target state="new">String (REG_SZ)</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>Binary (REG-BINARY)</source>
-          <target state="new">Binary (REG-BINARY)</target>
         </trans-unit>
         <trans-unit id="135" translate="yes" xml:space="preserve">
           <source>Dword 32-bit (REG_DWORD)</source>
-          <target state="new">Dword 32-bit (REG_DWORD)</target>
         </trans-unit>
         <trans-unit id="136" translate="yes" xml:space="preserve">
           <source>Qword 64-bit (REG_QWORD)</source>
-          <target state="new">Qword 64-bit (REG_QWORD)</target>
         </trans-unit>
         <trans-unit id="137" translate="yes" xml:space="preserve">
           <source>Multi-string (REG_MULTI_SZ)</source>
-          <target state="new">Multi-string (REG_MULTI_SZ)</target>
         </trans-unit>
         <trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Expandable string (REG_EXPAND_SZ)</source>
-          <target state="new">Expandable string (REG_EXPAND_SZ)</target>
         </trans-unit>
         <trans-unit id="139" translate="yes" xml:space="preserve">
           <source>Example</source>
-          <target state="new">Example</target>
         </trans-unit>
       </group>
     </body>

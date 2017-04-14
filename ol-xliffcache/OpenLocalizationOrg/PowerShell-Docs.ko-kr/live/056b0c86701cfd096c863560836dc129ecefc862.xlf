@@ -2,151 +2,118 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3fa1589" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">056b0c86701cfd096c863560836dc129ecefc862</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\lnxScriptResource.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
       <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cd3648a8cbbf8ad8171ba21cd9112a658456d486</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2001560e8fcd81cac18d1e9076e9d2bf63dad9eb</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>DSC for Linux nxScript Resource</source>
-          <target state="new">DSC for Linux nxScript Resource</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>nxScript<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to run Linux scripts on a Linux node.</source>
-          <target state="new">The <bpt id="p1">**</bpt>nxScript<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to run Linux scripts on a Linux node.</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Syntax</source>
-          <target state="new">Syntax</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Properties</source>
-          <target state="new">Properties</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Property</source>
-          <target state="new">Property</target>
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>GetScript</source>
-          <target state="new">GetScript</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Provides a script that runs when you invoke the <bpt id="p1">[</bpt>Get-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept> cmdlet.</source>
-          <target state="new">Provides a script that runs when you invoke the <bpt id="p1">[</bpt>Get-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521625.aspx)</ept> cmdlet.</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>The script must begin with a shebang, such as #!/bin/bash.</source>
-          <target state="new">The script must begin with a shebang, such as #!/bin/bash.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>SetScript</source>
-          <target state="new">SetScript</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Provides a script.</source>
-          <target state="new">Provides a script.</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>When you invoke the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet, the <bpt id="p2">**</bpt>TestScript<ept id="p2">**</ept> runs first.</source>
-          <target state="new">When you invoke the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet, the <bpt id="p2">**</bpt>TestScript<ept id="p2">**</ept> runs first.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>If the <bpt id="p1">**</bpt>TestScript<ept id="p1">**</ept> block returns an exit code other than 0, the <bpt id="p2">**</bpt>SetScript<ept id="p2">**</ept> block will run.</source>
-          <target state="new">If the <bpt id="p1">**</bpt>TestScript<ept id="p1">**</ept> block returns an exit code other than 0, the <bpt id="p2">**</bpt>SetScript<ept id="p2">**</ept> block will run.</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>If the <bpt id="p1">**</bpt>TestScript<ept id="p1">**</ept> returns an exit code of 0, the <bpt id="p2">**</bpt>SetScript<ept id="p2">**</ept> will not run.</source>
-          <target state="new">If the <bpt id="p1">**</bpt>TestScript<ept id="p1">**</ept> returns an exit code of 0, the <bpt id="p2">**</bpt>SetScript<ept id="p2">**</ept> will not run.</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>The script must begin with a shebang, such as <ph id="ph1">`#!/bin/bash`</ph>.</source>
-          <target state="new">The script must begin with a shebang, such as <ph id="ph1">`#!/bin/bash`</ph>.</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>TestScript</source>
-          <target state="new">TestScript</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Provides a script.</source>
-          <target state="new">Provides a script.</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>When you invoke the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet, this script runs.</source>
-          <target state="new">When you invoke the <bpt id="p1">[</bpt>Start-DscConfiguration<ept id="p1">](https://technet.microsoft.com/en-us/library/dn521623.aspx)</ept> cmdlet, this script runs.</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>If it returns an exit code other than 0, the SetScript will run.</source>
-          <target state="new">If it returns an exit code other than 0, the SetScript will run.</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>If it returns an exit code of 0, the <bpt id="p1">**</bpt>SetScript<ept id="p1">**</ept> will not run.</source>
-          <target state="new">If it returns an exit code of 0, the <bpt id="p1">**</bpt>SetScript<ept id="p1">**</ept> will not run.</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>TestScript<ept id="p1">**</ept> also runs when you invoke the <bpt id="p2">[</bpt>Test-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn407382.aspx)</ept> cmdlet.</source>
-          <target state="new">The <bpt id="p1">**</bpt>TestScript<ept id="p1">**</ept> also runs when you invoke the <bpt id="p2">[</bpt>Test-DscConfiguration<ept id="p2">](https://technet.microsoft.com/en-us/library/dn407382.aspx)</ept> cmdlet.</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>However, in this case, the <bpt id="p1">**</bpt>SetScript<ept id="p1">**</ept> will not run, no matter what exit code is returned from the <bpt id="p2">**</bpt>TestScript<ept id="p2">**</ept>.</source>
-          <target state="new">However, in this case, the <bpt id="p1">**</bpt>SetScript<ept id="p1">**</ept> will not run, no matter what exit code is returned from the <bpt id="p2">**</bpt>TestScript<ept id="p2">**</ept>.</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>TestScript<ept id="p1">**</ept> must return an exit code of 0 if the actual configuration matches the current desired state configuration, and an exit code other than 0 if it does not match.</source>
-          <target state="new">The <bpt id="p1">**</bpt>TestScript<ept id="p1">**</ept> must return an exit code of 0 if the actual configuration matches the current desired state configuration, and an exit code other than 0 if it does not match.</target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>(The current desired state configuration is the last configuration enacted on the node that is using DSC).</source>
-          <target state="new">(The current desired state configuration is the last configuration enacted on the node that is using DSC).</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>The script must begin with a shebang, such as 1#!/bin/bash.1</source>
-          <target state="new">The script must begin with a shebang, such as 1#!/bin/bash.1</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>User</source>
-          <target state="new">User</target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>The user to run the script as.</source>
-          <target state="new">The user to run the script as.</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Group</source>
-          <target state="new">Group</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>The group to run the script as.</source>
-          <target state="new">The group to run the script as.</target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>DependsOn</source>
-          <target state="new">DependsOn</target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
-          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
-          <target state="new">For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Example</source>
-          <target state="new">Example</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>The following example demonstrates the use of the <bpt id="p1">**</bpt>nxScript<ept id="p1">**</ept> resource to perform additional configuration management.</source>
-          <target state="new">The following example demonstrates the use of the <bpt id="p1">**</bpt>nxScript<ept id="p1">**</ept> resource to perform additional configuration management.</target>
         </trans-unit>
       </group>
     </body>
