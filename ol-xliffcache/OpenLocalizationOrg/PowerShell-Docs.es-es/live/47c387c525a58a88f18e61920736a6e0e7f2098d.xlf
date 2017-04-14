@@ -2,151 +2,118 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="es-es">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3fa1589" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47c387c525a58a88f18e61920736a6e0e7f2098d</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\windowsProcessResource.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
       <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8edf24ae6c3713b5fb91b29a671fce6efd1339ec</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">91e6d66d00b8ef03685f2535dce5ea186d8b6282</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>DSC WindowsProcess Resource</source>
-          <target state="new">DSC WindowsProcess Resource</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
-          <target state="new">Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>WindowsProcess<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to configure processes on a target node.</source>
-          <target state="new">The <bpt id="p1">**</bpt>WindowsProcess<ept id="p1">**</ept> resource in Windows PowerShell Desired State Configuration (DSC) provides a mechanism to configure processes on a target node.</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Syntax</source>
-          <target state="new">Syntax</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Properties</source>
-          <target state="new">Properties</target>
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Property</source>
-          <target state="new">Property</target>
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Arguments</source>
-          <target state="new">Arguments</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>Indicates a string of arguments to pass to the process as-is.</source>
-          <target state="new">Indicates a string of arguments to pass to the process as-is.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>If you need to pass several arguments, put them all in this string.</source>
-          <target state="new">If you need to pass several arguments, put them all in this string.</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Path</source>
-          <target state="new">Path</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Indicates the path to the process executable.</source>
-          <target state="new">Indicates the path to the process executable.</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>If you set this property to the name of the executable, DSC will look in the <bpt id="p1">__</bpt>Path<ept id="p1">__</ept> variable.</source>
-          <target state="new">If you set this property to the name of the executable, DSC will look in the <bpt id="p1">__</bpt>Path<ept id="p1">__</ept> variable.</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>If you give a fully qualified domain name, the process must exist there because DSC will not check the <bpt id="p1">__</bpt>Path<ept id="p1">__</ept> variable in this case.</source>
-          <target state="new">If you give a fully qualified domain name, the process must exist there because DSC will not check the <bpt id="p1">__</bpt>Path<ept id="p1">__</ept> variable in this case.</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Credential</source>
-          <target state="new">Credential</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Indicates the credentials for starting the process.</source>
-          <target state="new">Indicates the credentials for starting the process.</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Ensure</source>
-          <target state="new">Ensure</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Indicates if the process exists.</source>
-          <target state="new">Indicates if the process exists.</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Set this property to "Present" to ensure that the process exists.</source>
-          <target state="new">Set this property to "Present" to ensure that the process exists.</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>Otherwise, set it to "Absent".</source>
-          <target state="new">Otherwise, set it to "Absent".</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>The default is "Present".</source>
-          <target state="new">The default is "Present".</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>DependsOn</source>
-          <target state="new">DependsOn</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
-          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`` .</source>
-          <target state="new">For example, if the ID of the resource configuration script block that you want to run first is <bpt id="p1">__</bpt>ResourceName<ept id="p1">__</ept> and its type is <bpt id="p2">__</bpt>ResourceType<ept id="p2">__</ept>, the syntax for using this property is `DependsOn = "[ResourceType]ResourceName"`` .</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>StandardErrorPath</source>
-          <target state="new">StandardErrorPath</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Indicates the directory path to write the standard error.</source>
-          <target state="new">Indicates the directory path to write the standard error.</target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>Any existing file there will be overwritten.</source>
-          <target state="new">Any existing file there will be overwritten.</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>StandardInputPath</source>
-          <target state="new">StandardInputPath</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>Indicates the standard input location.</source>
-          <target state="new">Indicates the standard input location.</target>
         </trans-unit>
         <trans-unit id="130" translate="yes" xml:space="preserve">
           <source>StandardOutputPath</source>
-          <target state="new">StandardOutputPath</target>
         </trans-unit>
         <trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Indicates the location to write the standard output.</source>
-          <target state="new">Indicates the location to write the standard output.</target>
         </trans-unit>
         <trans-unit id="132" translate="yes" xml:space="preserve">
           <source>Any existing file there will be overwritten.</source>
-          <target state="new">Any existing file there will be overwritten.</target>
         </trans-unit>
         <trans-unit id="133" translate="yes" xml:space="preserve">
           <source>WorkingDirectory</source>
-          <target state="new">WorkingDirectory</target>
         </trans-unit>
         <trans-unit id="134" translate="yes" xml:space="preserve">
           <source>Indicates the location that will be used as the current working directory for the process.</source>
-          <target state="new">Indicates the location that will be used as the current working directory for the process.</target>
         </trans-unit>
       </group>
     </body>
