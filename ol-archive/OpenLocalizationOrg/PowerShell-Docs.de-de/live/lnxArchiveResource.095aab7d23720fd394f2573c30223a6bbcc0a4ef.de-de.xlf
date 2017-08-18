@@ -2,131 +2,103 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
     <header>
-      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-f61a62f" tool-company="Microsoft" />
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-401ea83" tool-company="Microsoft" />
       <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e0a09a025bcee8fc97e417b21a51773904a0d2e</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dsc\lnxArchiveResource.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
       </xliffext:oltranslationpriority>
-      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Machine Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e055aec3ae13913359bd133224ed0a7389775378</xliffext:olskeletonhash>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">MT</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4aebeabf7f64cd6df33103ff687bda0c326dcded</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b4d744a4c8740e8289d3d80837c475fe64aa038d</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>DSC for Linux nxArchive Resource</source>
-          <target state="new">DSC for Linux nxArchive Resource</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>The <bpt id="p1">**</bpt>nxArchive<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to unpack archive (.tar, .zip) files at a specific path on a Linux node.</source>
-          <target state="new">The <bpt id="p1">**</bpt>nxArchive<ept id="p1">**</ept> resource in PowerShell Desired State Configuration (DSC) provides a mechanism to unpack archive (.tar, .zip) files at a specific path on a Linux node.</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Syntax</source>
-          <target state="new">Syntax</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>Properties</source>
-          <target state="new">Properties</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>Property</source>
-          <target state="new">Property</target>
         </trans-unit>
         <trans-unit id="106" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target state="new">Description</target>
         </trans-unit>
         <trans-unit id="107" translate="yes" xml:space="preserve">
           <source>SourcePath</source>
-          <target state="new">SourcePath</target>
         </trans-unit>
         <trans-unit id="108" translate="yes" xml:space="preserve">
           <source>Specifies the source path of the archive file.</source>
-          <target state="new">Specifies the source path of the archive file.</target>
         </trans-unit>
         <trans-unit id="109" translate="yes" xml:space="preserve">
           <source>This should be a .tar, .zip, or .tar.gz file.</source>
-          <target state="new">This should be a .tar, .zip, or .tar.gz file.</target>
         </trans-unit>
         <trans-unit id="110" translate="yes" xml:space="preserve">
           <source>DestinationPath</source>
-          <target state="new">DestinationPath</target>
         </trans-unit>
         <trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Specifies the location where you want to ensure the archive contents are extracted.</source>
-          <target state="new">Specifies the location where you want to ensure the archive contents are extracted.</target>
         </trans-unit>
         <trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Checksum</source>
-          <target state="new">Checksum</target>
         </trans-unit>
         <trans-unit id="113" translate="yes" xml:space="preserve">
           <source>Defines the type to use when determining whether the source archive has been updated.</source>
-          <target state="new">Defines the type to use when determining whether the source archive has been updated.</target>
         </trans-unit>
         <trans-unit id="114" translate="yes" xml:space="preserve">
           <source>Values are: "ctime", "mtime", or "md5".</source>
-          <target state="new">Values are: "ctime", "mtime", or "md5".</target>
         </trans-unit>
         <trans-unit id="115" translate="yes" xml:space="preserve">
           <source>The default value is "md5".</source>
-          <target state="new">The default value is "md5".</target>
         </trans-unit>
         <trans-unit id="116" translate="yes" xml:space="preserve">
           <source>Force</source>
-          <target state="new">Force</target>
         </trans-unit>
         <trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.</source>
-          <target state="new">Certain file operations (such as overwriting a file or deleting a directory that is not empty) will result in an error.</target>
         </trans-unit>
         <trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Using the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> property overrides such errors.</source>
-          <target state="new">Using the <bpt id="p1">**</bpt>Force<ept id="p1">**</ept> property overrides such errors.</target>
         </trans-unit>
         <trans-unit id="119" translate="yes" xml:space="preserve">
           <source>The default value is <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</source>
-          <target state="new">The default value is <bpt id="p1">**</bpt>$false<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="120" translate="yes" xml:space="preserve">
           <source>DependsOn</source>
-          <target state="new">DependsOn</target>
         </trans-unit>
         <trans-unit id="121" translate="yes" xml:space="preserve">
           <source>Indicates that the configuration of another resource must run before this resource is configured.</source>
-          <target state="new">Indicates that the configuration of another resource must run before this resource is configured.</target>
         </trans-unit>
         <trans-unit id="122" translate="yes" xml:space="preserve">
           <source>For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</source>
-          <target state="new">For example, if the <bpt id="p1">**</bpt>ID<ept id="p1">**</ept> of the resource configuration script block that you want to run first is <bpt id="p2">**</bpt>ResourceName<ept id="p2">**</ept> and its type is <bpt id="p3">**</bpt>ResourceType<ept id="p3">**</ept>, the syntax for using this property is <ph id="ph1">`DependsOn = "[ResourceType]ResourceName"`</ph>.</target>
         </trans-unit>
         <trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Ensure</source>
-          <target state="new">Ensure</target>
         </trans-unit>
         <trans-unit id="124" translate="yes" xml:space="preserve">
           <source>Determines whether to check if the content of the archive exists at the <bpt id="p1">**</bpt>Destination<ept id="p1">**</ept>.</source>
-          <target state="new">Determines whether to check if the content of the archive exists at the <bpt id="p1">**</bpt>Destination<ept id="p1">**</ept>.</target>
         </trans-unit>
         <trans-unit id="125" translate="yes" xml:space="preserve">
           <source>Set this property to "Present" to ensure the contents exist.</source>
-          <target state="new">Set this property to "Present" to ensure the contents exist.</target>
         </trans-unit>
         <trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Set it to "Absent" to ensure they do not exist.</source>
-          <target state="new">Set it to "Absent" to ensure they do not exist.</target>
         </trans-unit>
         <trans-unit id="127" translate="yes" xml:space="preserve">
           <source>The default value is "Present".</source>
-          <target state="new">The default value is "Present".</target>
         </trans-unit>
         <trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Example</source>
-          <target state="new">Example</target>
         </trans-unit>
         <trans-unit id="129" translate="yes" xml:space="preserve">
           <source>The following example shows how to use the <bpt id="p1">**</bpt>nxArchive<ept id="p1">**</ept> resource to ensure that the contents of an archive file called <ph id="ph1">`website.tar`</ph> exist and are extracted at a given destination.</source>
-          <target state="new">The following example shows how to use the <bpt id="p1">**</bpt>nxArchive<ept id="p1">**</ept> resource to ensure that the contents of an archive file called <ph id="ph1">`website.tar`</ph> exist and are extracted at a given destination.</target>
         </trans-unit>
       </group>
     </body>
